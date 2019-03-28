@@ -116,26 +116,26 @@
   let $grid_pubs = $('#container-publications');
 
   // Initialise Isotope.
-  $grid_pubs.isotope({
-    itemSelector: '.isotope-item',
-    percentPosition: true,
-    masonry: {
-      // Use Bootstrap compatible grid layout.
-      columnWidth: '.grid-sizer'
-    },
-    filter: function() {
-      let $this = $(this);
-      let searchResults = searchRegex ? $this.text().match( searchRegex ) : true;
-      let filterResults = filterValues ? $this.is( filterValues ) : true;
-      return searchResults && filterResults;
-    }
-  });
+  // $grid_pubs.isotope({
+  //   itemSelector: '.isotope-item',
+  //   percentPosition: true,
+  //   masonry: {
+  //     // Use Bootstrap compatible grid layout.
+  //     columnWidth: '.grid-sizer'
+  //   },
+  //   filter: function() {
+  //     let $this = $(this);
+  //     let searchResults = searchRegex ? $this.text().match( searchRegex ) : true;
+  //     let filterResults = filterValues ? $this.is( filterValues ) : true;
+  //     return searchResults && filterResults;
+  //   }
+  // });
 
-  // Filter by search term.
-  let $quickSearch = $('.filter-search').keyup( debounce( function() {
-    searchRegex = new RegExp( $quickSearch.val(), 'gi' );
-    $grid_pubs.isotope();
-  }) );
+  // // Filter by search term.
+  // let $quickSearch = $('.filter-search').keyup( debounce( function() {
+  //   searchRegex = new RegExp( $quickSearch.val(), 'gi' );
+  //   $grid_pubs.isotope();
+  // }) );
 
   // Debounce input to prevent spamming filter requests.
   function debounce( fn, threshold ) {
@@ -174,7 +174,7 @@
     filterValues = concatValues( pubFilters );
 
     // Activate filters.
-    $grid_pubs.isotope();
+    //$grid_pubs.isotope();
 
     // If filtering by publication type, update the URL hash to enable direct linking to results.
     if (filterGroup == "pubtype") {
@@ -204,7 +204,7 @@
     filterValues = concatValues( pubFilters );
 
     // Activate filters.
-    $grid_pubs.isotope();
+    //$grid_pubs.isotope();
 
     // Set selected option.
     $('.pubtype-select').val(filterValue);
@@ -381,46 +381,46 @@
       resizeTimer = setTimeout(fixScrollspy, 200);
     });
 
-    // Filter projects.
-    $('.projects-container').each(function(index, container) {
-      let $container = $(container);
-      let $section = $container.closest('section');
-      let layout;
-      if ($section.find('.isotope').hasClass('js-layout-row')) {
-        layout = 'fitRows';
-      } else {
-        layout = 'masonry';
-      }
+    // // Filter projects.
+    // $('.projects-container').each(function(index, container) {
+    //   let $container = $(container);
+    //   let $section = $container.closest('section');
+    //   let layout;
+    //   if ($section.find('.isotope').hasClass('js-layout-row')) {
+    //     layout = 'fitRows';
+    //   } else {
+    //     layout = 'masonry';
+    //   }
 
-      $container.imagesLoaded(function() {
-        // Initialize Isotope after all images have loaded.
-        $container.isotope({
-          itemSelector: '.isotope-item',
-          layoutMode: layout,
-          masonry: {
-            gutter: 20
-          },
-          filter: $section.find('.default-project-filter').text()
-        });
+    //   $container.imagesLoaded(function() {
+    //     // Initialize Isotope after all images have loaded.
+    //     $container.isotope({
+    //       itemSelector: '.isotope-item',
+    //       layoutMode: layout,
+    //       masonry: {
+    //         gutter: 20
+    //       },
+    //       filter: $section.find('.default-project-filter').text()
+    //     });
 
-        // Filter items when filter link is clicked.
-        $section.find('.project-filters a').click(function() {
-          let selector = $(this).attr('data-filter');
-          $container.isotope({filter: selector});
-          $(this).removeClass('active').addClass('active').siblings().removeClass('active all');
-          return false;
-        });
+    //     // Filter items when filter link is clicked.
+    //     $section.find('.project-filters a').click(function() {
+    //       let selector = $(this).attr('data-filter');
+    //       $container.isotope({filter: selector});
+    //       $(this).removeClass('active').addClass('active').siblings().removeClass('active all');
+    //       return false;
+    //     });
 
-        // If window hash is set, scroll to hash.
-        // Placing this within `imagesLoaded` prevents scrolling to the wrong location due to dynamic image loading
-        // affecting page layout and position of the target anchor ID.
-        // Note: If there are multiple project widgets on a page, ideally only perform this once after images
-        // from *all* project widgets have finished loading.
-        if (window.location.hash) {
-          scrollToAnchor();
-        }
-      });
-    });
+    //     // If window hash is set, scroll to hash.
+    //     // Placing this within `imagesLoaded` prevents scrolling to the wrong location due to dynamic image loading
+    //     // affecting page layout and position of the target anchor ID.
+    //     // Note: If there are multiple project widgets on a page, ideally only perform this once after images
+    //     // from *all* project widgets have finished loading.
+    //     if (window.location.hash) {
+    //       scrollToAnchor();
+    //     }
+    //   });
+    // });
 
     // Enable publication filter for publication index page.
     if ($('.pub-filters-select')) {
