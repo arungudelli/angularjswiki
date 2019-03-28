@@ -1,31 +1,42 @@
-# Angular Material Divider : Mat-Divider Example
++++
+title = "Angular Material Divider : Mat-Divider Example"
+subtitle = "Learn how to use Angular material divider"
+type="post"
+summary ="Angular Material Divider component mat-divider a simple line divider that groups elements in list and layout by following material design styles."
+keywords=["angular currency pipe","formatting currency in angular"]
+date="2019-01-30T01:01:05+0000"
+lastmod="2019-01-30T04:58:49+0000"
+draft=false
+authors = ["admin"]
+
+
+[image]
+  caption = "Angular Material Divider"
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
+
+  # Show image only in page previews?
+  preview_only = false
+
++++
 
 Angular Material Divider component _mat-divider_  a simple line divider that groups elements in list and layout by following material design styles.
 
-  * [Importing mat-divider module](#step-1)
-  * [Angular Material Divider mat-divider types](#step-2) 
-      1. [simple mat-divider example](#step-3)
-      2. [mat-divider Inset example](#step-4)
-      3. [mat-divider vertical example](#step-5)
-  * [mat-divider style](#step-6) 
-      * [mat-divider color](#step-7)
-      * [mat-divider thickness](#step-8)
-  * [mat-divider properties](#step-12)
-  * [mat-divider not showing](#step-9)
-  * [mat-divider vertical not working](#step-10)
-  * [mat-divider is not a known element](#step-11)<figure id="attachment_1094" style="width: 1600px" class="wp-caption aligncenter">
+{{% toc %}}
+  
 
-<img class="size-full wp-image-1094" src="https://www.angularjswiki.com/wp-content/uploads/2019/01/Angular-Material-Divider.jpg" alt="Angular Material Divider" width="1600" height="1200" srcset="https://www.angularjswiki.com/wp-content/uploads/2019/01/Angular-Material-Divider.jpg 1600w, https://www.angularjswiki.com/wp-content/uploads/2019/01/Angular-Material-Divider-300x225.jpg 300w, https://www.angularjswiki.com/wp-content/uploads/2019/01/Angular-Material-Divider-768x576.jpg 768w, https://www.angularjswiki.com/wp-content/uploads/2019/01/Angular-Material-Divider-1024x768.jpg 1024w" sizes="(max-width: 1600px) 100vw, 1600px" /> <figcaption class="wp-caption-text">Angular Material Divider</figcaption></figure> 
-
-## Importing mat-divider module: {#step-1}
+## Importing mat-divider module
 
 To use mat-divider we have to import MatDividerModule from angular material module.
 
 Directive is _MatDivider_ and selector is _mat-divider_.
 
-<pre>import {MatDividerModule} from '@angular/material/divider';</pre>
-
-## Angular Material Divider mat-divider types: {#step-2}
+```javascript
+import {MatDividerModule} from '@angular/material/divider';
+```
+## Angular Material Divider mat-divider types
 
 We have three types of material dividers depending upon our usage.
 
@@ -33,150 +44,184 @@ We have three types of material dividers depending upon our usage.
   2. Inset divider
   3. Vertical divider
 
-## Simple mat-divider example: {#step-3}
+## Simple mat-divider example
 
 Just add <mat-divider> it will display a simple divider i.e., horizontaal line
 
-<pre>&lt;mat-divider&gt;&lt;/mat-divider&gt;</pre>
+```html
+<mat-divider></mat-divider>
+```
 
 Usually we can use the mat-divider inside a list to separate the contents.
 
-<pre>&lt;mat-list&gt;
-&lt;mat-list-item&gt;One&lt;/mat-list-item&gt;
-&lt;mat-divider&gt;&lt;/mat-divider&gt;
-&lt;mat-list-item&gt;Two&lt;/mat-list-item&gt;
-&lt;mat-divider&gt;&lt;/mat-divider&gt;
-&lt;mat-list-item&gt;Three&lt;/mat-list-item&gt;
-&lt;/mat-list&gt;</pre><figure id="attachment_1088" style="width: 396px" class="wp-caption aligncenter">
+```html
+<mat-list>
+<mat-list-item>One</mat-list-item>
+<mat-divider></mat-divider>
+<mat-list-item>Two</mat-list-item>
+<mat-divider></mat-divider>
+<mat-list-item>Three</mat-list-item>
+</mat-list>
+```
 
-<img class="size-full wp-image-1088" src="https://www.angularjswiki.com/wp-content/uploads/2019/01/simple-mat-divider-example.png" alt="simple mat-divider example" width="396" height="181" srcset="https://www.angularjswiki.com/wp-content/uploads/2019/01/simple-mat-divider-example.png 396w, https://www.angularjswiki.com/wp-content/uploads/2019/01/simple-mat-divider-example-300x137.png 300w" sizes="(max-width: 396px) 100vw, 396px" /> <figcaption class="wp-caption-text">simple mat-divider example</figcaption></figure> 
+{{< figure src="simple-mat-divider-example.png" title="Simple Mat Divider example" alt="Simple Mat Divider example">}}
 
-## mat-divider Inset example: {#step-4}
+
+## mat-divider Inset example
 
 We can set inset attribute to _true_ to display inset divider
 
-<pre>&lt;mat-divider [inset]="true"&gt;&lt;/mat-divider&gt;
-
-</pre>
+```html
+<mat-divider [inset]="true"></mat-divider>
+```
 
 Here is the complete example which shows the difference between simple divider and inset divider
 
-<div>
-  <pre>&lt;mat-list&gt;
- &lt;mat-list-item&gt;One&lt;/mat-list-item&gt;
- &lt;mat-divider&gt;&lt;/mat-divider&gt;
- &lt;mat-list-item&gt;Two&lt;/mat-list-item&gt;
- &lt;mat-dividerinset="true"&gt;&lt;/mat-divider&gt;
- &lt;mat-list-item&gt;Three&lt;/mat-list-item&gt;
- &lt;mat-divider&gt;&lt;/mat-divider&gt;
-&lt;/mat-list&gt;</pre>
-</div><figure id="attachment_1089" style="width: 352px" class="wp-caption aligncenter">
+```html 
+<mat-list>
+ <mat-list-item>One</mat-list-item>
+ <mat-divider></mat-divider>
+ <mat-list-item>Two</mat-list-item>
+ <mat-divider inset=“true”></mat-divider>
+ <mat-list-item>Three</mat-list-item>
+ <mat-divider></mat-divider>
+</mat-list> 
+```
+{{< figure src="mat-divider-inset-example.png" title="mat-divider inset example" alt="mat-divider inset example">}}
 
-<img class="size-full wp-image-1089" src="https://www.angularjswiki.com/wp-content/uploads/2019/01/mat-divider-inset-example.png" alt="mat-divider inset example" width="352" height="164" srcset="https://www.angularjswiki.com/wp-content/uploads/2019/01/mat-divider-inset-example.png 352w, https://www.angularjswiki.com/wp-content/uploads/2019/01/mat-divider-inset-example-300x140.png 300w" sizes="(max-width: 352px) 100vw, 352px" /> <figcaption class="wp-caption-text">mat-divider inset example</figcaption></figure> 
-
-## mat-divider vertical example: {#step-5}
+## mat-divider vertical example
 
 To set the orientaion of the mat-divider horizontal or vertical, we can use vertical attribute.
 
-<pre>&lt;mat-divider [vertical]="true"&gt;&lt;/mat-divider&gt;</pre>
+```html
+<mat-divider [vertical]="true"></mat-divider>
+```
 
-## mat-divider style: {#step-6}
+## mat-divider style
 
 Whenever we use material divider i.e., mat-divider, angular framework adds a class named mat-divider to the element as shown below
 
-<pre>&lt;mat-divider _ngcontent-c1="" 
+```html
+<mat-divider _ngcontent-c1="" 
 class="mat-divider mat-divider-horizontal" 
 role="separator" 
-aria-orientation="horizontal"&gt;
-&lt;/mat-divider&gt;</pre>
-
+aria-orientation="horizontal">
+</mat-divider>
+```
 And the corresponding CSS for the class .mat-divider is
 
-<pre>.mat-divider {
+```css
+.mat-divider {
    display: block;
    margin: 0;
    border-top-width: 1px;
    border-top-style: solid;
-}</pre>
+}
+```
 
 And the color of the .mat-divider depending upon the theme we use for instance I am using Angular Material _indigo-pink.css. _The color of the mat-divider is rgba(0,0,0,.12).
 
-<pre>.mat-divider{
+```css
+.mat-divider{
   border-top-color: rgba(0,0,0,.12);
-}</pre>
+}
+```
 
 We can override these css classes to change the color or thickness of the mat-divider.
 
 But change the color according to <a href="https://material.io/design/components/dividers.html" target="_blank" rel="noopener">material design specifications</a>
 
-## mat-divider color: {#step-7}
+## mat-divider color
 
 To change the color _mat-divider_ simply change the border-top-color property of .mat-divider class.
 
-<pre>.mat-divider {
+```css
+.mat-divider {
   border-top-color: red;
-}</pre><figure id="attachment_1090" style="width: 386px" class="wp-caption aligncenter">
+}
+```
+{{< figure src="mat-divider-color-example.png" title="mat-divider color example" alt="mat-divider color example">}}
 
-<img class="size-full wp-image-1090" src="https://www.angularjswiki.com/wp-content/uploads/2019/01/mat-divider-color-example.png" alt="mat-divider color example" width="386" height="169" srcset="https://www.angularjswiki.com/wp-content/uploads/2019/01/mat-divider-color-example.png 386w, https://www.angularjswiki.com/wp-content/uploads/2019/01/mat-divider-color-example-300x131.png 300w" sizes="(max-width: 386px) 100vw, 386px" /> <figcaption class="wp-caption-text">mat-divider color example</figcaption></figure> 
-
-## mat-divider thickness: {#step-8}
+## mat-divider thickness
 
 To change the thickness of the _mat-divider,_ override the default border-top-width or border-top-style properties of .mat-divider class.
 
-<pre>.mat-divider{
+```css
+.mat-divider{
   border-top-width: 2px;
   border-top-style: dashed;
-}</pre><figure id="attachment_1091" style="width: 423px" class="wp-caption aligncenter">
+}
+```
+{{< figure src="mat-divider-thickness-example.png" title="mat-divider thickness example" alt="mat-divider thickness example">}}
 
-<img class="size-full wp-image-1091" src="https://www.angularjswiki.com/wp-content/uploads/2019/01/mat-divider-thickness-example.png" alt="mat-divider thickness example" width="423" height="179" srcset="https://www.angularjswiki.com/wp-content/uploads/2019/01/mat-divider-thickness-example.png 423w, https://www.angularjswiki.com/wp-content/uploads/2019/01/mat-divider-thickness-example-300x127.png 300w" sizes="(max-width: 423px) 100vw, 423px" /> <figcaption class="wp-caption-text">mat-divider thickness example</figcaption></figure> 
+Additionally we can change style of the mat-divider by overriding border-top-style property.
 
-Additionally we can change style of the mat-divider by overriding border-top-style property.<figure id="attachment_1092" style="width: 416px" class="wp-caption aligncenter">
+{{< figure src="mat-divider-dashed-style.png" title="mat-divider dashed style" alt="mat-divider dashed style">}}
 
-<img class="size-full wp-image-1092" src="https://www.angularjswiki.com/wp-content/uploads/2019/01/mat-divider-dashed-style.png" alt="mat-divider dashed style" width="416" height="177" srcset="https://www.angularjswiki.com/wp-content/uploads/2019/01/mat-divider-dashed-style.png 416w, https://www.angularjswiki.com/wp-content/uploads/2019/01/mat-divider-dashed-style-300x128.png 300w" sizes="(max-width: 416px) 100vw, 416px" /> <figcaption class="wp-caption-text">mat-divider dashed style</figcaption></figure> 
+## mat-divider properties
 
-## mat-divider properties: {#step-12}
+<table>
+	<thead>
+		<tr>
+			<th>mat-divider property</th>
+			<th>description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>inset</td>
+			<td>to use inset divider set the property value to true.</td>
+		</tr>
+		<tr>
+			<td>vertical</td>
+			<td>to use vertical divider
+set the property value to true</td>
+		</tr>
+	</tbody>
+</table>
 
-[table id=39 /]
 
-## mat-divider not showing: {#step-9}
+## mat-divider not showing
 
 If you are using older versions of Angular Material i.e., version 5.1 below, mat-divider available as part of MatListModule.
 
 So in the below example mat-divider visible only if we are using MatListModule.
 
-<pre>&lt;p&gt;
+```html
+<p>
   No "mat-list" in component html
-&lt;/p&gt;
+</p>
 
-&lt;p&gt;Sample text before mat-divider&lt;/p&gt;
-&lt;mat-divider&gt;&lt;/mat-divider&gt;
-&lt;p&gt;Sample text After mat-divider&lt;/p&gt;</pre>
+<p>Sample text before mat-divider</p>
+<mat-divider></mat-divider>
+<p>Sample text After mat-divider</p>
+```
 
 In the above case <a href="https://github.com/angular/material2/issues/9399" target="_blank" rel="noopener">mat-divider will not show</a> as we are not using MatListModule.
 
-<pre>&lt;p&gt;
+```html
+<p>
 "mat-list" in component html
-&lt;/p&gt;
+</p>
 
-&lt;mat-list&gt;
-&lt;mat-list-item&gt;Sample List&lt;/mat-list-item&gt;
-&lt;/mat-list&gt;
+<mat-list>
+<mat-list-item>Sample List</mat-list-item>
+</mat-list>
 
-&lt;p&gt;Sample text before mat-divider&lt;/p&gt;
-&lt;mat-divider&gt;&lt;/mat-divider&gt;
-&lt;p&gt;Sample text After mat-divider&lt;/p&gt;
-
-</pre>
+<p>Sample text before mat-divider</p>
+<mat-divider></mat-divider>
+<p>Sample text After mat-divider</p>
+```
 
 mat-divider is visible in this case because we are using MatListModules.
 
 As part of <a href="https://github.com/angular/material2/blob/master/CHANGELOG.md#510-burlap-bezel-2018-01-17" target="_blank" rel="noopener">Angular Material 5.1</a> version they moved mat-divider out of mat-list.
 
-## mat-divider vertical not working: {#step-11}
+## mat-divider vertical not working
 
 It seems mat-divider vertical is not working as expected. There is a open <a href="https://github.com/angular/material2/issues/10528" target="_blank" rel="noopener">git issue</a> regarding this issue.
 
-## mat-divider is not a known element: {#step-12}
+## mat-divider is not a known element
 
 If you miss importing MatDividerModule from @angular/material you will get an error saying mat-divider is not a known element.
 
