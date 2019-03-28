@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+<div class="container">
+
+  <h1>{{ i18n "page_not_found" }}</h1>
+  <p>{{ i18n "404_recommendations" }}</p>
+
+  {{ $query := .Site.RegularPages }}
+  {{ $count := len $query }}
+  {{ if gt $count 0 }}
+    <h2>{{ i18n "user_profile_latest" }}</h2>
+    {{ range first 10 $query }}
+    <ul>
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    </ul>
+    {{ end }}
+  {{ end }}
+
+</div>
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}
