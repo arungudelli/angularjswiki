@@ -104,16 +104,16 @@
    * --------------------------------------------------------------------------- */
 
   // Active publication filters.
-  let pubFilters = {};
+  // let pubFilters = {};
 
-  // Search term.
-  let searchRegex;
+  // // Search term.
+  // let searchRegex;
 
-  // Filter values (concatenated).
-  let filterValues;
+  // // Filter values (concatenated).
+  // let filterValues;
 
-  // Publication container.
-  let $grid_pubs = $('#container-publications');
+  // // Publication container.
+  // let $grid_pubs = $('#container-publications');
 
   // Initialise Isotope.
   // $grid_pubs.isotope({
@@ -138,77 +138,77 @@
   // }) );
 
   // Debounce input to prevent spamming filter requests.
-  function debounce( fn, threshold ) {
-    let timeout;
-    threshold = threshold || 100;
-    return function debounced() {
-      clearTimeout( timeout );
-      let args = arguments;
-      let _this = this;
-      function delayed() {
-        fn.apply( _this, args );
-      }
-      timeout = setTimeout( delayed, threshold );
-    };
-  }
+  // function debounce( fn, threshold ) {
+  //   let timeout;
+  //   threshold = threshold || 100;
+  //   return function debounced() {
+  //     clearTimeout( timeout );
+  //     let args = arguments;
+  //     let _this = this;
+  //     function delayed() {
+  //       fn.apply( _this, args );
+  //     }
+  //     timeout = setTimeout( delayed, threshold );
+  //   };
+  // }
 
   // Flatten object by concatenating values.
-  function concatValues( obj ) {
-    let value = '';
-    for ( let prop in obj ) {
-      value += obj[ prop ];
-    }
-    return value;
-  }
+  // function concatValues( obj ) {
+  //   let value = '';
+  //   for ( let prop in obj ) {
+  //     value += obj[ prop ];
+  //   }
+  //   return value;
+  // }
 
-  $('.pub-filters').on( 'change', function() {
-    let $this = $(this);
+  // $('.pub-filters').on( 'change', function() {
+  //   let $this = $(this);
 
-    // Get group key.
-    let filterGroup = $this[0].getAttribute('data-filter-group');
+  //   // Get group key.
+  //   let filterGroup = $this[0].getAttribute('data-filter-group');
 
-    // Set filter for group.
-    pubFilters[ filterGroup ] = this.value;
+  //   // Set filter for group.
+  //   pubFilters[ filterGroup ] = this.value;
 
-    // Combine filters.
-    filterValues = concatValues( pubFilters );
+  //   // Combine filters.
+  //   filterValues = concatValues( pubFilters );
 
-    // Activate filters.
-    //$grid_pubs.isotope();
+  //   // Activate filters.
+  //   //$grid_pubs.isotope();
 
-    // If filtering by publication type, update the URL hash to enable direct linking to results.
-    if (filterGroup == "pubtype") {
-      // Set hash URL to current filter.
-      let url = $(this).val();
-      if (url.substr(0, 9) == '.pubtype-') {
-        window.location.hash = url.substr(9);
-      } else {
-        window.location.hash = '';
-      }
-    }
-  });
+  //   // If filtering by publication type, update the URL hash to enable direct linking to results.
+  //   if (filterGroup == "pubtype") {
+  //     // Set hash URL to current filter.
+  //     let url = $(this).val();
+  //     if (url.substr(0, 9) == '.pubtype-') {
+  //       window.location.hash = url.substr(9);
+  //     } else {
+  //       window.location.hash = '';
+  //     }
+  //   }
+  // });
 
   // Filter publications according to hash in URL.
-  function filter_publications() {
-    let urlHash = window.location.hash.replace('#','');
-    let filterValue = '*';
+  // function filter_publications() {
+  //   let urlHash = window.location.hash.replace('#','');
+  //   let filterValue = '*';
 
-    // Check if hash is numeric.
-    if (urlHash != '' && !isNaN(urlHash)) {
-      filterValue = '.pubtype-' + urlHash;
-    }
+  //   // Check if hash is numeric.
+  //   if (urlHash != '' && !isNaN(urlHash)) {
+  //     filterValue = '.pubtype-' + urlHash;
+  //   }
 
-    // Set filter.
-    let filterGroup = 'pubtype';
-    pubFilters[ filterGroup ] = filterValue;
-    filterValues = concatValues( pubFilters );
+  //   // Set filter.
+  //   let filterGroup = 'pubtype';
+  //   pubFilters[ filterGroup ] = filterValue;
+  //   filterValues = concatValues( pubFilters );
 
-    // Activate filters.
-    //$grid_pubs.isotope();
+  //   // Activate filters.
+  //   //$grid_pubs.isotope();
 
-    // Set selected option.
-    $('.pubtype-select').val(filterValue);
-  }
+  //   // Set selected option.
+  //   $('.pubtype-select').val(filterValue);
+  // }
 
   /* ---------------------------------------------------------------------------
   * Google Maps or OpenStreetMap via Leaflet.
@@ -277,15 +277,15 @@
    * GitHub API.
    * --------------------------------------------------------------------------- */
 
-  function printLatestRelease(selector, repo) {
-    $.getJSON('https://api.github.com/repos/' + repo + '/tags').done(function (json) {
-      let release = json[0];
-      $(selector).append(release.name);
-    }).fail(function( jqxhr, textStatus, error ) {
-      let err = textStatus + ", " + error;
-      console.log( "Request Failed: " + err );
-    });
-  }
+  // function printLatestRelease(selector, repo) {
+  //   $.getJSON('https://api.github.com/repos/' + repo + '/tags').done(function (json) {
+  //     let release = json[0];
+  //     $(selector).append(release.name);
+  //   }).fail(function( jqxhr, textStatus, error ) {
+  //     let err = textStatus + ", " + error;
+  //     console.log( "Request Failed: " + err );
+  //   });
+  // }
 
   /* ---------------------------------------------------------------------------
   * Toggle search dialog.
@@ -423,11 +423,11 @@
     // });
 
     // Enable publication filter for publication index page.
-    if ($('.pub-filters-select')) {
-      filter_publications();
-      // Useful for changing hash manually (e.g. in development):
-      // window.addEventListener('hashchange', filter_publications, false);
-    }
+    // if ($('.pub-filters-select')) {
+    //   filter_publications();
+    //   // Useful for changing hash manually (e.g. in development):
+    //   // window.addEventListener('hashchange', filter_publications, false);
+    // }
 
     // Load citation modal on 'Cite' click.
     $('.js-cite-modal').click(function(e) {
@@ -469,9 +469,9 @@
     // Fix Hugo's inbuilt Table of Contents.
     $('#TableOfContents > ul > li > ul').unwrap().unwrap();
 
-    // Print latest Academic version if necessary.
-    if ($('#academic-release').length > 0)
-      printLatestRelease('#academic-release', $('#academic-release').data('repo'));
+    // // Print latest Academic version if necessary.
+    // if ($('#academic-release').length > 0)
+    //   printLatestRelease('#academic-release', $('#academic-release').data('repo'));
 
     // On search icon click toggle search dialog.
     $('.js-search').click(function(e) {
