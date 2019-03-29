@@ -2254,9 +2254,9 @@ ul.toc-top {
   padding-left: 0;
 }
 
-#TableOfContents ul ul {
+/* #TableOfContents ul ul {
   display: none;
-}
+} */
 
 #TableOfContents li {
   display: block;
