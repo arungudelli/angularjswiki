@@ -2266,7 +2266,7 @@ ul.toc-top {
 .toc-top li a {
   display: block;
   padding: .125rem 1.5rem;
-  color: #99979c;
+  color: #000;
   font-size: 0.7rem;
 }
 
