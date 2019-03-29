@@ -161,7 +161,7 @@
               navigator.setAttribute('aria-expanded',"false")
             }
         });
-
+        {{ if eq .Type "docs" }}
         var docsnavigator = document.querySelector('.docs-toggle');
         docsnavigator.addEventListener('click',function(){
             var docmenu=document.getElementById('docs-nav');
@@ -173,7 +173,7 @@
               docsnavigator.setAttribute('aria-expanded',"false")
             }
         });
-
+        {{ end }}
       });
     </script>
 
