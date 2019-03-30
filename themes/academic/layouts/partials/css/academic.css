@@ -166,8 +166,8 @@ figcaption h4 {
 pre,
 code {
   font-family: '{{ .Get "mono_font" }}', monospace;
-  color: #c7254e;
-  background-color: #f9f2f4;
+  color: black;
+  background-color:rgb(248, 248, 248);
 }
 
 pre {
