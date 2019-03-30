@@ -4,6 +4,20 @@ subtitle = "understanding ng-template in Angular"
 type="post"
 summary ="ng-template is a virtual element and its contents are displayed only when needed.ng-template should be used along with structural directives like [ngIf],[ngFor],[NgSwitch] or custom structural directives"
 keywords=["ng-template,ng-template tag in angular,ng-template and *ngif,ng-template and *ngfor,ng-template and ngswitch"]
+date="2019-01-30T01:01:05+0000"
+lastmod="2019-01-30T04:58:49+0000"
+draft=false
+authors = ["admin"]
+
+[image]
+  caption = "ng-template"
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
+
+  # Show image only in page previews?
+  preview_only = false
 +++
 
 ng-template is an Angular element used to render HTML templates.
@@ -107,73 +121,73 @@ If the condition is false in `updateView()` method Angular will assign `elseVie
 
 And we can <a href="https://www.angularjswiki.com/angular/dynamically-change-ngif-thenelse-templates-at-runtime-in-angular/" target="_blank" rel="noopener">dynamically change else or then templates runtime</a> by updating [ngIfElse] and [ngIfThen] template references
 
-## Using <ng-template> with *ngFor example: {#step-3}
+## Using ng-template with *ngFor example
 
 You might be thinking that why we need to use asterisk(*) notation when we can use ng-template element directly. Yes we can use <ng-template> instead of short hand notation.
 
-\*ngIf is a simple directive without much complexity. This asterisk notation or microsyntax (in Angular terms) is very useful incase complex structural directives like \*ngFor. Take a look at the below example
+*ngIf is a simple directive without much complexity. This asterisk notation or microsyntax (in Angular terms) is very useful incase complex structural directives like `*ngFor`. Take a look at the below example
 
-<div>
-  <pre>&lt;div 
+```
+<div 
      *ngFor="let task of tasks; 
              let i=index; 
              let even=even; 
-             trackBy: trackById"&gt;
+             trackBy: trackById">
    ({{i}}) {{task.name}}
-&lt;/div&gt;
+</div>
 
-&lt;ng-template 
+<ng-template 
    ngFor let-task [ngForOf]="tasks" 
    let-i="index" 
    let-even="even"
-   [ngForTrackBy]="trackById"&gt;
-&lt;div&gt;({{i}}) {{task.name}}&lt;/div&gt;
-&lt;/ng-template&gt;</pre>
-</div>
+   [ngForTrackBy]="trackById">
+<div>({{i}}) {{task.name}}</div>
+</ng-template>
+```
 
 With the asterisk notation or Angular microsyntax we can give instructions to the directive in simple string format. And Angular microsyntax parser convert that string into the attributes of ng-template as shown above
 
-I dont want to get into the implementation details of _*ngFor_. All we need to understand is asterisk (*) notation easy to write and understand.
+I dont want to get into the implementation details of `*ngFor`. All we need to understand is asterisk (*) notation easy to write and understand.
 
 Until unless you have good reason, prefer asterisk(*) notation instead of ng-template
 
-## Using <ng-template> with NgSwitch example: {#step-4}
+## Using ng-template with NgSwitch example
 
-_NgSwitch_ is not a single directive it is actually used along with other directives _*ngSwitchCase_ and _*ngSwitchDefault_
+`NgSwitch` is not a single directive it is actually used along with other directives `*ngSwitchCase` and `*ngSwitchDefault`
 
-Have a look at the below _ngSwitch_ example
+Have a look at the below `ngSwitch` example
 
-<pre><span class="hljs-tag">&lt;<span class="hljs-name">div</span> [<span class="hljs-attr">ngSwitch</span>]=<span class="hljs-string">"Course"</span>&gt;</span> 
-<span class="hljs-tag">  &lt;<span class="hljs-name">p</span> *<span class="hljs-attr">ngSwitchCase</span>=<span class="hljs-string">"'Angular'"</span>&gt;</span>Angular Course<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;
-</span>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span> *<span class="hljs-attr">ngSwitchCase</span>=<span class="hljs-string">"'TypeScript'"</span>&gt;TypeScript Course</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;
-</span>  <span class="hljs-tag">&lt;<span class="hljs-name">p</span> *<span class="hljs-attr">ngSwitchCase</span>=<span class="hljs-string">"'JavaScript'"</span>&gt;</span>JavaScript Course<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span> 
-<span class="hljs-tag">  &lt;<span class="hljs-name">p</span> *<span class="hljs-attr">ngSwitchDefault</span>&gt;HTML Course</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span> 
-<span class="hljs-tag">&lt;/div&gt;
-</span></pre>
-
-<div>
-  <pre>&lt;div [ngSwitch]="Course"&gt;
-  &lt;ng-template *ngSwitchCase="'Angular'"&gt;
-    &lt;p&gt;Angular Course&lt;/p&gt;
-  &lt;/ng-template&gt;
-  &lt;ng-template [ngSwitchCase]="'TypeScript'"&gt;
-    &lt;p&gt;TypeScript Course&lt;/p&gt;
-  &lt;/ng-template&gt;
-  &lt;ng-template [ngSwitchCase]="'JavaScript'"&gt;
-    &lt;p&gt;JavaScript Course&lt;/p&gt;
-  &lt;/ng-template&gt;
-  &lt;ng-template [ngSwitchDefault]&gt;
-    &lt;p&gt;HTML Course&lt;/p&gt;
-  &lt;/ng-template&gt;
-&lt;/div&gt;</pre>
+```
+<div [ngSwitch]="Course"> 
+  <p *ngSwitchCase="'Angular'">Angular Course</p>
+  <p *ngSwitchCase="'TypeScript'">TypeScript Course</p>
+  <p *ngSwitchCase="'JavaScript'">JavaScript Course</p> 
+  <p *ngSwitchDefault>HTML Course</p> 
 </div>
+<div [ngSwitch]="Course">
+  <ng-template *ngSwitchCase="'Angular'">
+    <p>Angular Course</p>
+  </ng-template>
+  <ng-template [ngSwitchCase]="'TypeScript'">
+    <p>TypeScript Course</p>
+  </ng-template>
+  <ng-template [ngSwitchCase]="'JavaScript'">
+    <p>JavaScript Course</p>
+  </ng-template>
+  <ng-template [ngSwitchDefault]>
+    <p>HTML Course</p>
+  </ng-template>
+</div>
+```
 
-If you see the above code I have not used asterisk before _ngSwitch_ why because, NgSwitch is not a structural directive. It&#8217;s an attribute directive.
+If you see the above code I have not used asterisk before `ngSwitch` why because, NgSwitch is not a structural directive. It is an attribute directive.
 
-NgSwitch controls the behavior of the other two switch directives _ngSwitchCase_ and _ngSwitchDefault_.
+NgSwitch controls the behavior of the other two switch directives `ngSwitchCase` and `ngSwitchDefault`.
 
-Both _ngSwitchCase_,_ngSwitchDefault_ are structural directives that&#8217;s why i have used asterisk before them. And those will be converted to ng-template elements
+Both `ngSwitchCase`,`ngSwitchDefault` are structural directives that is why i have used asterisk before them. And those will be converted to ng-template elements
 
-## Summary: {#step-5}
+## Summary
 
-I hope you understand what is _ng-template_ in Angular and why it is useful. And if you are writing you own structural directives you should have clear idea about _<ng-template>._ In my next article I will explain how to write a custom structural directive with the help of ng-template
+I hope you understand what is `ng-template` in Angular and why it is useful. And if you are writing you own structural directives you should have clear idea about `ng-template>`
+ 
+In my next article I will explain how to write a custom structural directive with the help of ng-template
