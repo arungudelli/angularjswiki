@@ -11,7 +11,7 @@
 html {
   font-family: '{{ .Get "body_font" }}', sans-serif;
   font-size: {{ .Get "font_size_small" }}px;
-  color: rgba(0,0,0,0.8);
+  color: rgb(0,0,0);
   line-height: 1.65;
 }
 @media screen and (min-width: 58em) {
@@ -394,7 +394,7 @@ small,
 
 .modal-header {
   border: 0;
-  color: rgba(0,0,0,0.8);
+  color: rgb(0,0,0);
 }
 
 .modal-footer {

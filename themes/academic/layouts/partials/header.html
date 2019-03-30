@@ -42,8 +42,10 @@
     {{ $keywords = delimit .Params.keywords ","}}
     {{end}}
 
+    
   <meta name="description" content="{{ $desc }}">
   <meta name="keywords" content="{{$keywords}}">
+
 
 
 
@@ -124,6 +126,38 @@
     <link rel="stylesheet" href="{{ $css_bundle.RelPermalink }}">
   {{ end }}
 
+  {{ $cat := "" }}
+    {{ if .Params.categories }}
+    {{ $cat =  index .Params.categories 0 }}
+{{end}}
+{{if eq $cat "icons"}}
+<style>
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+</style>
+{{end}}
+
   {{ if not .Site.IsServer }}
   {{ if .Site.GoogleAnalytics }}
     <script>
@@ -195,6 +229,8 @@
   {{ partial "head_custom" . }}
 
   <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+
+
 
 </head>
 <body id="top" data-spy="scroll" data-target="{{ if or .IsHome .Params.widgets }}#navbar-main{{ else }}#TableOfContents{{ end }}" data-offset="71" {{ if not ($scr.Get "light") }}class="dark"{{ end }}>
