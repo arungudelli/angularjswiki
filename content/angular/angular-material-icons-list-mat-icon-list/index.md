@@ -9,6 +9,7 @@ date="2019-01-30T01:01:05+0000"
 lastmod="2019-01-30T04:58:49+0000"
 draft=false
 authors = ["admin"]
+categories=["icons"]
 [image]
   caption = "Angular Material Icons"
 
@@ -20,8 +21,6 @@ authors = ["admin"]
   preview_only = false
 
 +++
-+++
-<!-- categories=["icons"] -->
 
 
 `<mat-icon>` selector used to display Material icons in Angular.We have around 900+ Angular Material icons.To show the below `<mat-icon>` list icons,We need to load material icons css provided by Google
