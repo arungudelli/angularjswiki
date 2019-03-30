@@ -9,8 +9,20 @@ date="2019-01-30T01:01:05+0000"
 lastmod="2019-01-30T04:58:49+0000"
 draft=false
 authors = ["admin"]
-categories=["icons"]
+[image]
+  caption = "Angular Material Icons"
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
+
+  # Show image only in page previews?
+  preview_only = false
+
 +++
++++
+<!-- categories=["icons"] -->
+
 
 `<mat-icon>` selector used to display Material icons in Angular.We have around 900+ Angular Material icons.To show the below `<mat-icon>` list icons,We need to load material icons css provided by Google
 
@@ -41,9 +53,10 @@ All the material icons packaged into a single font file. All we need to do is ad
 
 Go through the below material icon list categories
 
-## mat-icon List Category-Action
 
-<table>
+## mat-icon List Category-Action
+<div class="table-responsive">
+<table class="table">
 	<thead>
 		<tr>
 			<th>Icon Name</th>
@@ -1001,11 +1014,12 @@ Go through the below material icon list categories
 		</tr>
 	</tbody>
 </table>
+</div>
 
 
 ## mat-icon List Category-Communication
 
-<table>
+<div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
 			<th>Icon Name</th>
@@ -1250,12 +1264,12 @@ Go through the below material icon list categories
 			<td>&lt;mat-icon&gt; vpn_key&lt;&#47;mat-icon&gt;</td>
 		</tr>
 	</tbody>
-</table>
+</table></div>
 
 
 ## mat-icon List Category-Av
 
-<table>
+<div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
 			<th>Icon Name</th>
@@ -1588,12 +1602,12 @@ Go through the below material icon list categories
 			<td>&lt;mat-icon&gt;volume_up&lt;&#47;mat-icon&gt;</td>
 		</tr>
 	</tbody>
-</table>
+</table></div>
 
 
 ## mat-icon List Category-Connection
 
-<table>
+<div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
 			<th>Icon Name</th>
@@ -1794,12 +1808,12 @@ Go through the below material icon list categories
 			<td><<span>mat-icon</span>>where_to_vote<<span>/mat-icon</span>></td>
 		</tr>
 	</tbody>
-</table>
+</table></div>
 
 
 ## mat-icon List Category-Device
 
-<table>
+<div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
 			<th>Icon Name</th>
@@ -2032,12 +2046,12 @@ Go through the below material icon list categories
 			<td>&lt;mat-icon&gt;wifi_tethering&lt;&#47;mat-icon&gt;</td>
 		</tr>
 	</tbody>
-</table>
+</table></div>
 
 
 ## mat-icon List Category-Editor
 
-<table>
+<div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
 			<th>Icon Name</th>
@@ -2342,12 +2356,12 @@ Go through the below material icon list categories
 			<td>&lt;mat-icon&gt; wrap_text&lt;&#47;mat-icon&gt;</td>
 		</tr>
 	</tbody>
-</table>
+</table></div>
 
 
 ## mat-icon List Category-File
 
-<table>
+<div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
 			<th>Icon Name</th>
@@ -2404,12 +2418,12 @@ Go through the below material icon list categories
 			<td>&lt;mat-icon&gt;folder_shared&lt;&#47;mat-icon&gt;</td>
 		</tr>
 	</tbody>
-</table>
+</table></div>
 
 
 ## mat-icon List Category-Hardware
 
-<table>
+<div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
 			<th>Icon name</th>
@@ -2614,12 +2628,12 @@ Go through the below material icon list categories
 			<td>&lt;mat-icon&gt;watch&lt;&#47;mat-icon&gt;</td>
 		</tr>
 	</tbody>
-</table>
+</table></div>
 
 
 ## mat-icon List Category-Images
 
-<table>
+<div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
 			<th>Icon Name</th>
@@ -3268,12 +3282,12 @@ Go through the below material icon list categories
 			<td>&lt;mat-icon&gt; &lt;&#47;mat-icon&gt;</td>
 		</tr>
 	</tbody>
-</table>
+</table></div>
 
 
 ## mat-icon List Category-Maps
 
-<table>
+<div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
 			<th>Icon Name</th>
@@ -3598,12 +3612,12 @@ Go through the below material icon list categories
 			<td>&lt;mat-icon&gt; zoom_out_map&lt;&#47;mat-icon&gt;</td>
 		</tr>
 	</tbody>
-</table>
+</table></div>
 
 
 ## mat-icon List Category-Navigation
 
-<table>
+<div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
 			<th>Icon Name</th>
@@ -3736,12 +3750,12 @@ Go through the below material icon list categories
 			<td>&lt;mat-icon&gt;unfold_more&lt;&#47;mat-icon&gt;</td>
 		</tr>
 	</tbody>
-</table>
+</table></div>
 
 
 ## mat-icon List Category-Notification
 
-<table>
+<div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
 			<th>Icon Name</th>
@@ -3958,12 +3972,12 @@ Go through the below material icon list categories
 			<td>&lt;mat-icon&gt;wifi_off&lt;&#47;mat-icon&gt;</td>
 		</tr>
 	</tbody>
-</table>
+</table></div>
 
 
 ## mat-icon List Category-Places
 
-<table>
+<div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
 			<th>Icon Name</th>
@@ -4056,12 +4070,12 @@ Go through the below material icon list categories
 			<td>&lt;mat-icon&gt;spa&lt;&#47;mat-icon&gt;</td>
 		</tr>
 	</tbody>
-</table>
+</table></div>
 
 
 ## mat-icon List Category-Toggle
 
-<table>
+<div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
 			<th>Icon Name</th>
@@ -4102,12 +4116,12 @@ Go through the below material icon list categories
 			<td>&lt;mat-icon&gt;star_half&lt;&#47;mat-icon&gt;</td>
 		</tr>
 	</tbody>
-</table>
+</table></div>
 
 
 ## mat-icon List Category-Warning
 
-<table>
+<div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
 			<th>Icon Name</th>
@@ -4136,12 +4150,12 @@ Go through the below material icon list categories
 			<td>&lt;mat-icon&gt;warning&lt;&#47;mat-icon&gt;</td>
 		</tr>
 	</tbody>
-</table>
+</table></div>
 
 
 ## mat-icon List Category-Social
 
-<table>
+<div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
 			<th>Icon Name</th>
@@ -4274,7 +4288,7 @@ Go through the below material icon list categories
 			<td>&lt;mat-icon&gt;whatshot&lt;&#47;mat-icon&gt;</td>
 		</tr>
 	</tbody>
-</table>
+</table></div>
 
 
 ## Download Angular Material Icons List PDF
