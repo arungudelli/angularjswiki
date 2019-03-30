@@ -10,7 +10,7 @@ draft=false
 authors = ["admin"]
 
 [image]
-  caption = "Remove component in Angular"
+  caption = "ng If Else Angular"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
@@ -27,15 +27,9 @@ we can use `async` pipe with `*ngIf` to handle the data coming from an observabl
 
 The syntax and usage of `*ngIf` directive is same in all the versions of Angular.
 
-  1. [Using *ngIf in Angular with example](#step-1)
-  2. [Using *ngIf else in Angular with example](#step-2)
-  3. [Using *ngIf with alternative then template in Angular](#step-3)
-  4. [*ngif else and then templates example in Angular](#step-4).
-  5. [*ngif with Logical Operators AND (&&), OR(||), NOT(!)](#step-11)
-  6. [Using &#8220;\*ngIf as&#8221; syntax to store \*ngIf condition in a local variable](#step-5)
-  7. [Using *ngIf async pipe with observable example](#step-6)
+{{%toc%}}
 
-## Using *ngIf in Angular with example: {#step-1}
+## Using *ngIf in Angular with example
 
 `*ngIf` evaluates the passed expression & then renders the `then` or `else` templates. Look at the below example
 
@@ -93,9 +87,8 @@ Now the above definition makes sense. `then` template is `<div>Hi I am Visible<
 The asterisk is just a syntactic sugar to <a href="https://www.angularjswiki.com/angular/what-is-ng-template-in-angular/" target="_blank" rel="noopener">ng-template</a>
 
 And If you see the generated HTML,no element will be added to the DOM if `ngIf` expression evaluated to false.
-<figure id="attachment_546" style="width: 259px" class="wp-caption aligncenter">
 
-<img class="size-full wp-image-546" src="https://www.angularjswiki.com/wp-content/uploads/2018/07/ngif.png" alt="ngif" width="259" height="109" /> <figcaption class="wp-caption-text">ngif</figcaption></figure> 
+{{< figure src="ngif.png" title="ngif" alt="ngif">}} 
 
 So why angular will remove the element rather than hiding it. Go through the below article to understand it further.
 
@@ -109,10 +102,6 @@ We can use `ngIf` in four different ways
   4. `*ngIf` with `then` and `else`
 
 Now how can we use `*ngIf else` in Angular? we need bind `else` template to `*ngIf`
-
-<figure id="attachment_1045" style="width: 640px" class="wp-caption aligncenter">
-
-<img class="wp-image-1045 size-full" src="https://www.angularjswiki.com/wp-content/uploads/2018/07/ng-If-Else-Angular.jpeg" alt="ng If Else Angular" width="640" height="427" srcset="https://www.angularjswiki.com/wp-content/uploads/2018/07/ng-If-Else-Angular.jpeg 640w, https://www.angularjswiki.com/wp-content/uploads/2018/07/ng-If-Else-Angular-300x200.jpeg 300w" sizes="(max-width: 640px) 100vw, 640px" /> <figcaption class="wp-caption-text">ng If Else Angular</figcaption></figure> 
 
 ## Using *ngIf else in Angular with example
 
