@@ -1,22 +1,41 @@
-# How To Capitalize First Letter Of Each Word In Angular
++++
+title = " How To Capitalize First Letter Of Each Word In Angular"
+subtitle = "Angular Title Case Pipe"
+type="post"
+summary ="To capitalize first letter of each word in Angular use Angular&#039;s TitleCasePipe.We have to pass input to the titlecase pipe."
+keywords=["capitalize first letter of each word in angular,angular titlecase pipe"]
+date="2019-01-30T01:01:05+0000"
+lastmod="2019-01-30T04:58:49+0000"
+draft=false
+authors = ["admin"]
+
+
+[image]
+  caption = "Angular TitleCase Pipe"
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
+
+  # Show image only in page previews?
+  preview_only = false
+
++++
 
 To capitalize first letter of each word in Angular use Angular&#8217;s TitleCasePipe.We have to pass input to the titlecase pipe as shown below
 
-<pre>&lt;p&gt;{{'titleCasePipe capitalizes first letter of each word in angular'
-| titlecase}}&lt;/p&gt;
-&lt;!-- Output --&gt;
-&lt;!--TitleCasePipe Capitalizes First Letter Of Each Word In Angular--&gt;
-
-</pre>
+```
+<p>{{'titleCasePipe capitalizes first letter of each word in angular'
+| titlecase}}</p>
+<!-- Output -->
+<!--TitleCasePipe Capitalizes First Letter Of Each Word In Angular-->
+```
 
 Angular TitleCasePipe is one of the built in pipes which converts text to titlecase.
 
-  1. [Angular TitleCasePipe Syntax](#step-1)
-  2. [Angular TitleCasePipe Examples](#step-2)<figure id="attachment_1233" style="width: 1280px" class="wp-caption aligncenter">
+{{% toc %}}
 
-<img class="size-full wp-image-1233" src="https://www.angularjswiki.com/wp-content/uploads/2019/02/Angular-TitleCase-Pipe.jpg" alt="Angular TitleCase Pipe" width="1280" height="720" srcset="https://www.angularjswiki.com/wp-content/uploads/2019/02/Angular-TitleCase-Pipe.jpg 1280w, https://www.angularjswiki.com/wp-content/uploads/2019/02/Angular-TitleCase-Pipe-300x169.jpg 300w, https://www.angularjswiki.com/wp-content/uploads/2019/02/Angular-TitleCase-Pipe-768x432.jpg 768w, https://www.angularjswiki.com/wp-content/uploads/2019/02/Angular-TitleCase-Pipe-1024x576.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> <figcaption class="wp-caption-text">Angular TitleCase Pipe</figcaption></figure> 
-
-## Angular TitleCasePipe Syntax: {#step-1}
+## Angular TitleCasePipe Syntax
 
 The syntax is very simple Just we need to pass input of type string to titlecase pipe
 
@@ -24,24 +43,26 @@ The syntax is very simple Just we need to pass input of type string to titlecase
 
 And words in a text determined based upon the white space delimiters such as space,tab or line-feed character.
 
-## Angular TitleCasePipe Examples: {#step-2}
+## Angular TitleCasePipe Examples
 
 We go through the different  Angular TitleCasePipe examples to understand it further.
 
 We will create a component called titlecase component in our Angular project. And test the different kind of inputs
 
-<pre>&lt;p&gt;{{'angular titlecase' | titlecase}}&lt;/p&gt;
-&lt;!-- output is "Angular Titlecase" --&gt; 
-&lt;p&gt;{{'anGuLaR tITLEcASE' | titlecase}}&lt;/p&gt; 
-&lt;!-- output is "Angular Titlecase" --&gt; 
-&lt;p&gt;{{'angular title-case' | titlecase}}&lt;/p&gt;
-&lt;!-- output is "Angular Title-case" --&gt; 
-&lt;p&gt;{{'angular,titlecase' | titlecase}}&lt;/p&gt;
-&lt;!-- output is "Angular,titlecase" --&gt;
-&lt;p&gt;{{'angular|titlecase' | titlecase}}&lt;/p&gt;
-&lt;!-- output is "Angular|titlecase" --&gt;
-&lt;p&gt;{{'angular-titlecase' | titlecase}}&lt;/p&gt;
-&lt;!-- output is "Angular-titlecase" --&gt;</pre>
+```
+<p>{{'angular titlecase' | titlecase}}</p>
+<!-- output is "Angular Titlecase" --> 
+<p>{{'anGuLaR tITLEcASE' | titlecase}}</p> 
+<!-- output is "Angular Titlecase" --> 
+<p>{{'angular title-case' | titlecase}}</p>
+<!-- output is "Angular Title-case" --> 
+<p>{{'angular,titlecase' | titlecase}}</p>
+<!-- output is "Angular,titlecase" -->
+<p>{{'angular|titlecase' | titlecase}}</p>
+<!-- output is "Angular|titlecase" -->
+<p>{{'angular-titlecase' | titlecase}}</p>
+<!-- output is "Angular-titlecase" -->
+```
 
 Even though if you pass mixed case text to Angular titlecase pipe, It will convert the first letter of each word to uppercase and remaining letters to lowercase.
 
