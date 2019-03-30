@@ -2,7 +2,7 @@
 title = "Checkbox Implementation In Angular Using Mat-Checkbox(Material Component)"
 subtitle = "Learn how to build checkboxes using material design"
 type="post"
-summary ="mat-checkbox selector is an angular material checkbox component, it works like input type=&quot;checkbox&quot; &amp; sugar coated with Material design styling and animations.mat-checkbox part of Angular Material module called MatCheckboxModule."
+summary ="mat-checkbox selector is an angular material checkbox component, it works like input type=checkbox sugar coated with Material design styling and animations.mat-checkbox part of Angular Material module called MatCheckboxModule."
 keywords=["angular,angular material design,angular checkbox,angular material checkbox,mat-checkbox"]
 date="2019-01-30T01:01:05+0000"
 lastmod="2019-01-30T04:58:49+0000"
