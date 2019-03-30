@@ -1,39 +1,34 @@
 +++
 title = "How To Use Ng-Template In Angular?"
-menuTitle = "ng template"
-description ="ng-template is a virtual element and its contents are displayed only when needed.ng-template should be used along with structural directives like [ngIf],[ngFor],[NgSwitch] or custom structural directives"
-keywords="ng-template,ng-template tag in angular,ng-template and *ngif,ng-template and *ngfor,ng-template and ngswitch"
-og_image="https://www.angularjswiki.com/wp-content/uploads/2018/07/NgIf-Defination-min.png"
+subtitle = "understanding ng-template in Angular"
+type="post"
+summary ="ng-template is a virtual element and its contents are displayed only when needed.ng-template should be used along with structural directives like [ngIf],[ngFor],[NgSwitch] or custom structural directives"
+keywords=["ng-template,ng-template tag in angular,ng-template and *ngif,ng-template and *ngfor,ng-template and ngswitch"]
 +++
 
 ng-template is an Angular element used to render HTML templates.
 
-We use ng-template with angular *_ngIf_ directive to display _else_ template.
+We use ng-template with angular `*ngIf` directive to display `else` template.
 
 So what exactly this ng-template will do?
 
 Whether it really renders HTML template we will see with an example.
 
-<div>
-  <pre>&lt;div&gt; ng-template works!&lt;/div&gt;
-&lt;ng-template&gt;Inside ng-template tag&lt;/ng-template&gt;</pre>
-</div>
+```
+<div> ng-template works!</div>
+<ng-template>Inside ng-template tag</ng-template>
+```
 
-If you see the output it will display only _ng-template works _which is in div element.And have a look at the generated HTML source code.
+If you see the output it will display only `ng-template works` which is in div element.And have a look at the generated HTML source code.
 
-<!-- ![Alt Text](https://www.angularjswiki.com/wp-content/uploads/2018/07/ng-template-min.png "ng-template example") -->
+{{< figure src="ng-template-min.png" title="ng-template example" alt="ng-template example">}} 
+
 
 You can see an empty comment section in place of ng-template tag. Lets go through deep into ng-template to understand this behaviour.
 
-## Table Of Contents:
+{{%toc%}}
 
-  1. [What is <ng-template> in Angular](#step-1)
-  2. [Using <ng-template> with *ngIf example](#step-2)
-  3. [Using <ng-template> with *ngFor example](#step-3)
-  4. [Using <ng-template> with NgSwitch example](#step-4)
-  5. [Summary](#step-5)
-
-## What is <ng-template> in Angular: {#step-1}
+## What is <ng-template> in Angular
 
   1. ng-template is a virtual element and its contents are displayed only when needed (based on conditions).
   2. ng-template should be used along with structural directives like [ngIf],[ngFor],[NgSwitch] or custom structural directives.That is why in the above example the contents of ng-template are not displayed.
@@ -43,38 +38,27 @@ You can see an empty comment section in place of ng-template tag. Lets go throug
   6. ng-template is not exactly a true web element. When we compile our code, we will not see a ng-template tag in HTML DOM.
   7. Angular will evaluate the ng-template element to convert it into a comment section in HTML DOM.
 
-We will go through the different structural directives like _*ngIf_,_*ngFor_ and _[NgSwitch]_ to understand this further.
+We will go through the different structural directives like `*ngIf`,`*ngFor` and `[NgSwitch]` to understand this further.
 
-## Using <ng-template> with *ngIf example: {#step-2}
+## Using <ng-template> with *ngIf example
 
 Take an examle of <a href="https://www.angularjswiki.com/angular/understanding-angulars-ngif-else-then-with-examples/" target="_blank" rel="noopener">*ngIf directive</a> in Angular
 
-<div>
-  <pre>&lt;div *ngIf="display" class="ng-template-example"&gt;
+```
+<div *ngIf="display" class="ng-template-example">
   ng-template example
-&lt;/div&gt;
-&lt;ng-template [ngIf]="display"&gt;
-  &lt;div class="ng-template-example"&gt;ng-template example&lt;/div&gt;
-&lt;/ng-template&gt;</pre>
 </div>
+<ng-template [ngIf]="display">
+  <div class="ng-template-example">ng-template example</div>
+</ng-template>
+```
 
   * The directive being converted to data member of ng-template
   * The inline template element along with the attributes (class etc), moved inside the ng-template element
 
-<div>
-  <div>
-  </div>
-  
-  <div>
-    So we have only <em>then</em> template which is an inline template and there is no <em>else</em> template.Now will dig into the source code of <em>NgIf</em> Class to understand how <em><ng-template></em> element will work.
-  </div>
-  
-  <div>
-  </div>
-  
-  <!-- ![Alt Text](https://www.angularjswiki.com/wp-content/uploads/2018/07/NgIf-Defination-min.png "NgIf Source Code and <ng-template>") -->
+So we have only `then` template which is an inline template and there is no `else` template.Now will dig into the source code of `NgIf` Class to understand how `<ng-template>` element will work.
 
-</div>
+{{< figure src="NgIf-Defination-min.png" title="NgIf Source Code and ng-template" alt="NgIf Source Code and ng-template">}} 
 
 Any structural directive in Angular will have two properties
 
@@ -85,38 +69,41 @@ A structural directive creates the view from ng-template and inserts it in view 
 
 That means structural directive access the contents of ng-template through _TemplateRef_ and updates the _ViewContainerRef_
 
-<span style="text-decoration: underline;">Tem</span><span style="text-decoration: underline;">plateRef</span> <span style="text-decoration: underline;">is the class name and <ng-template> is the corresponding HTML tag</span>
+{{% alert note %}}
+TemplateRef is the class name and ng-template is the corresponding HTML tag
+{{% /alert %}}
+
 
 And if you see the above source code of NgIf class It has four properties
 
-  1. _thenTemplateRef : <ng-template> reference of then
-  2. _elseTemplateRef : <ng-template> reference of else
+  1. _thenTemplateRef : ng-template reference of then
+  2. _elseTemplateRef : ng-template reference of else
   3. _thenViewRef : embedded view ref of then
   4. _elseViewRef : embedded view ref of else
 
-If you see the constructor it has two parameters _private _viewContainer: ViewContainerRef_ and _templateRef: TemplateRef<NgIfContext>._
+If you see the constructor it has two parameters `private _viewContainer: ViewContainerRef and _templateRef: TemplateRef<NgIfContext>`
 
-Constructor will access the ng-template via _templateRef_ parameter and assign it to __thenTemplateRef_ . inline template will be the default then template in ngIf directive.
+Constructor will access the ng-template via `templateRef` parameter and assign it to `thenTemplateRef`. inline template will be the default then template in ngIf directive.
 
-And in the above example we are not passing any else or then templates and the only input we are giving is _[ngIf]. _
+And in the above example we are not passing any else or then templates and the only input we are giving is `[ngIf]`
 
-Based upon the condition we are updating the view. See the source code of __updateView()_ method of _NgIf_ class.
+Based upon the condition we are updating the view. See the source code of `updateView()` method of `NgIf` class.
 
-![Alt Text](https://www.angularjswiki.com/wp-content/uploads/2018/07/NgIf-Update-View-min.png "NgIf Update View ng-template")
+{{< figure src="NgIf-Update-View-min.png" title="NgIf Update View and ng-template" alt="NgIf Update View and ng-template">}} 
 
-In the update view method Angular will assign __thenViewRef_ to the embedded view created from __thenTemplateRef._ i.e, view from ng-template
+In the update view method Angular will assign `thenViewRef` to the embedded view created from `thenTemplateRef` i.e, view from ng-template
 
-So if the condition _display_ is true web page displayes _I am Visible. _
+So if the condition `display` is true web page displayes `I am Visible.`
 
-![Alt Text](https://www.angularjswiki.com/wp-content/uploads/2018/07/ngIf-comment-min.png "ngIf comment section")
+{{< figure src="ngIf-comment-min.png" title="ngIf comment section" alt="ngIf comment section">}} 
 
 And If you see the generated HTML ng-template being converted to a comment section which gives the information about the evaluated condition.
 
-If we pass _else_ template via [ngIfElse] it is being assigned to __elseTemplateRef._
+If we pass `else` template via [ngIfElse] it is being assigned to `elseTemplateRef`
 
-_ _If the condition is false in __updateView()_ method Angular will assign _elseViewRef to the embedded view created from __elseTemplateRef__._
+If the condition is false in `updateView()` method Angular will assign `elseViewRef` to the embedded view created from `elseTemplateRef`
 
-![Alt Text](https://www.angularjswiki.com/wp-content/uploads/2018/07/ngIfElse.png "ngIfElse ng-template")
+{{< figure src="ngIfElse.png" title="ngIfElse ng-template" alt="ngIfElse ng-template">}} 
 
 And we can <a href="https://www.angularjswiki.com/angular/dynamically-change-ngif-thenelse-templates-at-runtime-in-angular/" target="_blank" rel="noopener">dynamically change else or then templates runtime</a> by updating [ngIfElse] and [ngIfThen] template references
 
