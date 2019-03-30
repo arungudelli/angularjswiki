@@ -1,7 +1,8 @@
 +++
 title = "Angular EXCEPTION: No Provider For Http! Error Fix"
-menuTitle = "No Provider For Http!"
-description ="To avoid Angular EXCEPTION: No provider for Http! error we need to import HttpClientModule from @angular/common/http."
+subtitle = "Fixing EXCEPTION: No Provider For Http! error"
+type="post"
+summary ="To avoid Angular EXCEPTION: No provider for Http! error we need to import HttpClientModule from @angular/common/http."
 keywords=["angular,exception: no provider for http!,httpclientmodule,httpmodule"]
 date="2019-01-30T01:01:05+0000"
 lastmod="2019-01-30T04:58:49+0000"
