@@ -22,8 +22,6 @@ authors = ["admin"]
 
 +++
 
-# 
-
 We can create a beatiful Progress bar in Angular using `<mat-progress-bar>` which is part of angular material progress bar module called `MatProgressBarModule`
 
 In this tutorial we learn how basics of angular material progress bar and then we will create reading position indicator.
