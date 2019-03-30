@@ -20,7 +20,6 @@ authors = ["admin"]
   preview_only = false
 
 +++
-# How To Delete A Component In Angular
 
 Steps to delete a component in Angular
 
