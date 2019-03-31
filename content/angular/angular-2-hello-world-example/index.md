@@ -1,10 +1,22 @@
 +++
 title = "Angular Or Angular 7 Hello World Example"
-menuTitle = "Hello World"
-description ="I will explain how to create an Angular 7 app with a simple “Hello World” example. This hello world example work in Angular 4,Angular 5,Angular 6,Angular7."
-keywords="angular,angular hello world tutorial,angular 4,angular 5,angular 6,angular 7"
-og_image="https://www.angularjswiki.com/wp-content/uploads/2017/09/Angular-Hello-World.jpeg"
+subtitle = "Hello world Angular"
+type="post"
+summary ="I will explain how to create an Angular 7 app with a simple “Hello World” example. This hello world example work in Angular 4,Angular 5,Angular 6,Angular7."
+keywords=["angular,angular hello world tutorial,angular 4,angular 5,angular 6,angular 7"]
+date="2019-01-30T01:01:05+0000"
+lastmod="2019-01-30T04:58:49+0000"
+draft=false
+authors = ["admin"]
+[image]
+  caption = "Hello world Angular"
 
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
+
+  # Show image only in page previews?
+  preview_only = false
 +++
  
 I will explain how to create an Angular 7 app with a simple “Hello World” example. This hello world example work in Angular 4,Angular 5,Angular 6,Angular7.
@@ -13,26 +25,16 @@ Let us start with Angular Hello World example to know the basics of Angular 7.
 
 Before reading further, please go through my previous tutorial on how to setup local development environment for Angular.
 
-<a href="https://www.angularjswiki.com/angular/angular-2-or-angular-local-development-environment-setup/" target="_blank" rel="noopener">Setup Angular in Local Development Environment</a>
+<a href="https://www.angularjswiki.com/angular/angular-2-or-angular-local-development-environment-setup/" target="_blank">Setup Angular in Local Development Environment</a>
 
 We will use Angular CLI as mentioned in the above tutorial to create our Angular application.
 
 Here are the steps to create first hello world application in Angular 7
 
-  1. [Creating first Angular 7 Hello Word Example](#step-1)
-  2. [Creating a Component in Angular 7](#step-2) 
-      * [Importing Dependencies in Component Angular 7](#step-3)
-      * [Component Decorators in Angular 7](#step-4)
-      * [Selector Angular 7 component](#step-5)
-      * [TemplateUrl in Angular 7 Component](#step-6)
-      * [styleUrls in Angular 7 Component](#step-7)
-      * [Adding Data to the Component in Angular 7](#step-8)
-  3. [Rendering Angular 7 Template](#step-9)
-
-  ![Minion](https://www.angularjswiki.com/wp-content/uploads/2017/09/Angular-Hello-World.jpeg)
+{{%toc%}}
 
 
-## Creating First Angular 7 Hello World Example: {#step-1}
+## Creating First Angular 7 Hello World Example
 
 We create a project called Hello World in Angular 7.
 
@@ -40,71 +42,74 @@ I recommend you to create a folder in your local disk so that all Angular exampl
 
 Open command prompt navigate to created folder; use the ng new command (Angular CLI) to create a new Angular project from scratch.
 
-<pre class="lang:default decode:true ">ng new hello-world-angular</pre>
-
-&nbsp;
-
+```
+ng new hello-world-angular
+```
 It will take some time to create new project.
 
-_NOTE: If you are using latest version of Angular CLI by default it uses Angular 7 (i.e., latest angular version). And there is no much difference between Angular 2 or Angular 4 it’s just an update. Please go through the following article to know more about this versioning of Angular._
+{{% alert note %}}
+
+If you are using latest version of Angular CLI by default it uses Angular 7 (i.e., latest angular version). And there is no much difference between Angular 2 or Angular 4 or other versions it’s just an update. Please go through the following article to know more about this versioning of Angular.
+{{% /alert %}}
+
 
 <a href="https://www.angularjswiki.com/angular/is-it-angular-2-or-just-angular/" target="_blank" rel="noopener">Is it Angular 2 or Angular 4 or Angular?</a>
 
 After successful completion, you should see following message.
 
-![Minion](https://www.angularjswiki.com/wp-content/uploads/2017/04/hello-world-angular-created.png)
+{{< figure src="hello-world-angular-created.png" title="hello-world-angular-created" alt="hello-world-angular-created">}} 
 
 
-Project ‘hello-world-angular&#8217; successfully created.
+Project "hello-world-angular" successfully created.
 
 Now navigate to the created ‘hello-world-angular’ directory.
 
 Use your favourite editor (my choice would be visual studio code) open the created folder. The directory structure will be something like below.
 
-![Minion](https://www.angularjswiki.com/wp-content/uploads/2017/04/Angular-Directory-structure.png)
+{{< figure src="Angular-Directory-structure.png" title="Angular Directory structure" alt="Angular Directory structure">}} 
 
 This structure may vary depending upon the version of Angular CLI version (this article uses latest version of Angular CLI so it would be Angular 4).
 
 Navigate to D:\AngularExamples\hello-world-angular\src\index.html file.
 
-&nbsp;
+```
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<title>HelloWorldAngular</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+<app-root>Loading...</app-root>
+</body>
+</html>
+```
 
-<pre class="lang:xhtml decode:true">&lt;!doctype html&gt;
-&lt;head&gt;
-&lt;meta charset="utf-8"&gt;
-&lt;title&gt;HelloWorldAngular&lt;/title&gt;
-&lt;base href="/"&gt;
-&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
-&lt;link rel="icon" type="image/x-icon" href="favicon.ico"&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;app-root&gt;Loading...&lt;/app-root&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+You can see `<app-root>` tag this where our application will be rendered.
 
-&nbsp;
-
-You can see _<app-root>_ tag this where our application will be rendered.
-
-In Angular 2 (or Angular) world, we can create our own HTML tags & give them custom functionality, we will call them “Components”.
+In Angular 2 (or Angular) world, we can create our own HTML tags & give them custom functionality, we will call them "Components".
 
 App-root is component auto generated by Angular CLI.
 
 Now in command prompt type
 
-<pre class="lang:default decode:true">ng serve</pre>
+```
+ng serve
+```
 
-Then browse <http://localhost:4200> it will show App Works as shown below.
+Then browse http://localhost:4200 it will show App Works as shown below.
 
-![Minion](https://www.angularjswiki.com/wp-content/uploads/2017/04/Angular-CLI-Sample-Example-1.png)
+{{< figure src="Angular-CLI-Sample-Example-1.png" title="Angular CLI Sample Example" alt="Angular CLI Sample Example">}} 
 
-## Creating a Component in Angular 7: {#step-2}
+## Creating a Component in Angular 7
 
 We will create a component using Angular CLI command.
 
-<pre class="lang:default decode:true ">ng generate component hello-world.</pre>
-
-&nbsp;
+```
+ng generate component hello-world
+```
 
 It will create four files as shown below
 
@@ -113,11 +118,13 @@ It will create four files as shown below
   * src/app/hello-world/hello-world.component.spec.ts
   * src/app/hello-world/hello-world.component.ts.
   
-![Minion](https://www.angularjswiki.com/wp-content/uploads/2017/04/Angular-CLI-Sample-Example-1.png)
+{{< figure src="hello-world-component.png" title="Angular Hello World Component" alt="Angular Hello World Component">}} 
+
 
 Open “hello-world.component.ts” file in editor.
 
-<pre class="lang:js decode:true">import { Component, OnInit } from '@angular/core';
+```
+import { Component, OnInit } from '@angular/core';
 
 @Component({
 selector: 'app-hello-world',
@@ -132,9 +139,8 @@ constructor() { }
 ngOnInit() {
 }
 
-}</pre>
-
-&nbsp;
+}
+```
 
 This is a simple component written typescript.
 
@@ -142,11 +148,11 @@ If you know java or C# it is easy to understand but do not worry, we will unders
 
 Here we are declaring a class named “HelloWorldComponent” which is a component.
 
-## Importing Dependencies in Component in Angular 7: {#step-3}
+## Importing Dependencies in Component in Angular 7
 
 First line tells the compiler that import “Component” and “OnInit” objects from @angular/core (node module installed when we created project via Angular CLI).
 
-## Component Decorators in Angular 7: {#step-4}
+## Component Decorators in Angular 7
 
 After importing Component object, we have to tell the compiler that this class is a Component.
 
@@ -158,49 +164,50 @@ For example in \hello-world-angular\src\app\app-module.ts file, Decorator tells 
 
 });
 
-&nbsp;
-
-<pre class="lang:default decode:true">@Component({
+```
+@Component({
 selector: 'app-hello-world',
 templateUrl: './hello-world.component.html',
 styleUrls: ['./hello-world.component.css']
-})</pre>
+})
+```
 
 Component Contains Three important declaration
 
-## Selector in Angular 7 component: {#step-5}
+## Selector in Angular 7 component
 
 Selector property indicates the tag name we are going to use in DOM.
 
-<pre class="lang:default decode:true">&lt;app-hello-world&gt;&lt;/app-hello-world &gt;</pre>
-
+```
+<app-hello-world></app-hello-world >
+```
 (While creating component we gave name as “hello-world” Angular CLI added app as prefix).
 
-## TemplateUrl in Angular 7 Component: {#step-6}
+## TemplateUrl in Angular 7 Component
 
-<app-hello-world> tag uses hello-world.component.html file as html template. So whenever we use <app-hello-world></app-hello-world> it will display the contents of file HTML located in
+`<app-hello-world>` tag uses hello-world.component.html file as html template. So whenever we use `<app-hello-world></app-hello-world>` it will display the contents of file HTML located in
 
 \hello-world-angular\src\app\hello-world\hello-world.component.html
 
 Instead of giving templateUrl we can use inline html also. As shown below
 
-&nbsp;
-
-<pre class="lang:default decode:true">@Component({
+```
+@Component({
 
 selector: 'app-hello-world',
-template:` &lt;p&gt;
+template:` <p>
 hello-world works!
-&lt;/p&gt;`,
+</p>`,
 styleUrls: ['./hello-world.component.css']
 
-})</pre>
+})
+```
 
 For small html contents, we can use inline html template. HTML in between backticks(\`….\`).
 
 It is better to use separate template because most of the code editors do not support syntax highlighting in inline HTML strings.
 
-## styleUrls in Angular 7 Component: {#step-7}
+## styleUrls in Angular 7 Component
 
 This property tells the compiler that use the styles located in hello-world.component.css for this component.
 
@@ -208,18 +215,19 @@ These are the main properties in Components in Angular 7 (or Angular)
 
 Now open \hello-world-angular\src\app\app.component.html file and add the created component as shown below.
 
-<pre class="lang:default decode:true">&lt;h1&gt;
+```
+<h1>
   {{title}}
-  &lt;app-hello-world&gt;&lt;/app-hello-world&gt;
-&lt;/h1&gt;</pre>
+  <app-hello-world></app-hello-world>
+</h1>
+```
 
 Now refresh the browser
 
-![Minion](https://www.angularjswiki.com/wp-content/uploads/2017/04/Angular-CLI-Sample-Example-1.png)
+{{< figure src="hello-world-angular-example.png" title="Hello world angular example" alt="Hello world angular example">}} 
 
-##### 
 
-## Adding Data to the Component in Angular 7: {#step-8}
+## Adding Data to the Component in Angular 7
 
 We have rendered static template, now we will add some data to the component.
 
@@ -227,13 +235,12 @@ Open “hello-world.component.ts” file in editor.
 
 And add the name property as shown below.
 
-_name:string;_
+`name:string;`
 
 We are declaring a property or variable named “name” which is a string type. This is similar to declaration of variables in object-oriented languages. If we assign any type other than string the compiler will throw error.
 
-&nbsp;
-
-<pre class="lang:default decode:true">import { Component, OnInit } from '@angular/core';
+```
+import { Component, OnInit } from '@angular/core';
 
 @Component({
 selector: 'app-hello-world',
@@ -254,33 +261,30 @@ this.name="AngularJs Wiki"
 ngOnInit() {
 }
 
-}</pre>
-
-&nbsp;
+}
+```
 
 In constructor we will assign name variable. Constructor will be called whenever we create a new instance of a class. Similar to C# or Java language.
 
-## Rendering Angular 7 template: {#step-9}
+## Rendering Angular 7 template
 
-Now we have to use the declared variable in our template file i.e., HTML file. We have to use two curley brackets to display the value of variable &#8220;{{ }}&#8221;. We will call them template tags.
-
-&nbsp;
+Now we have to use the declared variable in our template file i.e., HTML file. We have to use two curley brackets to display the value of variable `{{ }}`. We will call them template tags.
 
 To use the name variable open the template file hello-world.component.html
 
-&nbsp;
-
-<pre class="lang:default decode:true">&lt;p&gt;
+```
+<p>
 
 hello-world works!
 {{name}}
 
-&lt;/p&gt;</pre>
+</p>
+```
 
 As the template bind to component(hello-world component) whenever compiler encounters flower brackets(i.e., template tags) it will replace the text with bounded property (i.e., name) value i.e., ”Angular Js Wiki”.
 
 Now refresh the browser
 
-![Minion](https://www.angularjswiki.com/wp-content/uploads/2017/04/hello-world-angular-example-with-data.png)
+{{< figure src="hello-world-angular-example-with-data.png" title="hello world angular example with data" alt="hello world angular example with data">}} 
 
 I hope you understood the basics of Angular 7. If you have any doubts or suggestions feel free to comment.
