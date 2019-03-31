@@ -22,6 +22,7 @@ authors = ["admin"]
 
 Angular Currency Pipe is one of the bulit in pipe in Angular used to format currency value according to given country code,currency,decimal,locale information.
 
+
 {{% toc %}}
   
 
