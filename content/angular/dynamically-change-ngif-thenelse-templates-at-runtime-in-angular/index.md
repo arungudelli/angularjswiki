@@ -12,7 +12,7 @@ authors = ["admin"]
 
 We can take full advantage of `ngIfThen`,`ngIfElse` template references in `*ngIf` directive to change `then` or `else` templates dynamically at runtime. Go through the below example to understand it further.
 
-<a href="https://www.angularjswiki.com/angular/understanding-angulars-ngif-else-then-with-examples/" target="_blank" rel="noopener">Understanding Angular’s NgIf, Else, Then With Examples</a>
+<a href="https://www.angularjswiki.com/angular/understanding-angulars-ngif-else-then-with-examples/" target="_blank">Understanding Angular’s NgIf, Else, Then With Examples</a>
 
 I have created a component called `NgifthenelseComponent` in my Angular project.
 
@@ -97,6 +97,6 @@ Else Template
 ```
 Whenever we click on `Switch Then Template` button `then` template being toggle between primary and secondary template which is assigned to `[ngIfThen]` template reference.
 
-`<ng-template>` being passed to NgIf class inputs `ngIfThen` and `ngIfElse` via TemplateRef see more at <a href="https://www.angularjswiki.com/angular/what-is-ng-template-in-angular/" target="_blank" rel="noopener">What Is Ng-Template In Angular?</a>
+`<ng-template>` being passed to NgIf class inputs `ngIfThen` and `ngIfElse` via TemplateRef see more at <a href="https://www.angularjswiki.com/angular/what-is-ng-template-in-angular/" target="_blank">What Is Ng-Template In Angular?</a>
 
 And we can add as many as templates based upon our conditions.
