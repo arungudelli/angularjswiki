@@ -5,6 +5,7 @@ summary ="To update Angular CLI versions to latest Angular CLI versions 7 and 6 
 keywords=["ng update angular cli,update angular cli version to 7,update angular cli version to 6"]
 date="2019-01-30T01:01:05+0000"
 lastmod="2019-01-30T04:58:49+0000"
+type="post"
 draft=false
 authors = ["admin"]
 

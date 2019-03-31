@@ -1,5 +1,6 @@
 +++
 title = "Is It Angular 2 Or Angular 4 Or Just Angular?"
+type="post"
 subtitle = "Angular Version History"
 summary ="Explains the version change history of Angular 2 or angular &amp; why we should call just Angular instead of adding suffix like angular 2 or Angular 4."
 keywords=["angular 2,angular 4,version history of angular 2,angular"]

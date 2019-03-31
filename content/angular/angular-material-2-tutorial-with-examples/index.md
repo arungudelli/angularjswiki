@@ -1,7 +1,7 @@
 +++
 title = "Angular Material Tutorial: Creating Angular Apps Using Material Design"
-menuTitle = "Angular Material Design"
-description ="This Angular Material tutorial covers basics of Angular material.Material module helps us to create high-quality UI apps with Angular framework by using Material Design"
+type="post"
+summary ="This Angular Material tutorial covers basics of Angular material.Material module helps us to create high-quality UI apps with Angular framework by using Material Design"
 keywords="angular material tutorial,material design,angular material,angular 7 material apps"
 og_image="https://www.angularjswiki.com/wp-content/uploads/2017/10/Angular-Material-Design-Tutorial.jpg"
 +++

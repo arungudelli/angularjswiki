@@ -1,6 +1,7 @@
 +++
 title = "How To Install And Use JQuery In Angular Projects"
 subtitle = "learn how to use jQuery in Angular"
+type="post"
 summary ="Use below commands to install and use jquery in Angular with jquery types npm install --save jquery; npm install --save @types/jquery"
 keywords=["npm install --save jquery,npm install --save @types/jquery,jquery in angular,install jquery in angular should we use jquery in angular"]
 date="2019-01-30T01:01:05+0000"
