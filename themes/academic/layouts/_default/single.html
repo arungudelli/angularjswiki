@@ -10,6 +10,7 @@
     <div class="article-style" itemprop="articleBody">
       {{ .Content }}
     </div>
+    {{ partial "subscription.html" }}
 
     {{ partial "tags.html" . }}
 
@@ -28,7 +29,6 @@
       </div>
       {{ end }}
     {{ end }}
-
     {{ if .Site.Params.section_pager }}
     <div class="article-widget">
       {{ partial "section_pager.html" . }}

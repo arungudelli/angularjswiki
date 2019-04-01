@@ -50,7 +50,6 @@ hero_media = "hero-academic.png"
 
 Learn Angular from basics to advanced topics with simple detailed tutorials and examples.
 
-Signup 
 
 <a href="https://twitter.com/angular_js" target="_blank" rel="noopener">
 <span>
