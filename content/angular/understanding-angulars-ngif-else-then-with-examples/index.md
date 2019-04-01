@@ -5,7 +5,7 @@ type="post"
 summary ="To write ngIf else in angular 6 or 7 we need to pass else template to *ngIf directive.Angular *ngIf else displays or removes an element from DOM based on the condition"
 keywords=["ngif in angular,ngif else in angular,ngif with then,ngif else and then templates in angular"]
 date="2019-01-30T01:01:05+0000"
-lastmod="2019-01-30T04:58:49+0000"
+lastmod="2019-02-12T16:20:19+0000"
 draft=false
 authors = ["admin"]
 

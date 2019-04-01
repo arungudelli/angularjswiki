@@ -5,7 +5,7 @@ type="post"
 summary ="Angular Material button module MatButtonModule(mat-button,mat-raised-button,mat-icon-button,mat-fab,mat-mini-fab) enhances the user experience of normal buttons () and anchor () tags by following Material design principles."
 keywords=["buttons,angular material buttons,mat-button,mat-raised-button,mat-icon-button,mat-fab,mat-mini-fab"]
 date="2019-01-30T01:01:05+0000"
-lastmod="2019-01-30T04:58:49+0000"
+lastmod="2018-10-15T16:49:27+0000"
 draft=false
 authors = ["admin"]
 

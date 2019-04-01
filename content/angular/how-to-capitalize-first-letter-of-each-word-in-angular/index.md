@@ -5,7 +5,7 @@ type="post"
 summary ="To capitalize first letter of each word in Angular use Angular&#039;s TitleCasePipe.We have to pass input to the titlecase pipe."
 keywords=["capitalize first letter of each word in angular,angular titlecase pipe"]
 date="2019-01-30T01:01:05+0000"
-lastmod="2019-01-30T04:58:49+0000"
+lastmod="2019-02-09T18:10:05+0000"
 draft=false
 authors = ["admin"]
 

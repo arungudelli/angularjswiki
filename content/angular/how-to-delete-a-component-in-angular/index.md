@@ -5,7 +5,7 @@ type="post"
 summary ="Steps to delete a component in Angular1.Remove the import line reference from Angular app.module.ts file2.Remove the component declaration from @NgModule declaration array in app.module.ts file 3.And then manually delete the component folder from Angular project. 4.Finally Delete all the references of component manually from the Angular project."
 keywords=["delete component in angular,ng delete component command"]
 date="2019-01-30T01:01:05+0000"
-lastmod="2019-01-30T04:58:49+0000"
+lastmod="2019-02-02T04:44:37+0000"
 draft=false
 authors = ["admin"]
 

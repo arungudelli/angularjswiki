@@ -5,7 +5,7 @@ type="post"
 summary ="Use below commands to install and use jquery in Angular with jquery types npm install --save jquery; npm install --save @types/jquery"
 keywords=["npm install --save jquery,npm install --save @types/jquery,jquery in angular,install jquery in angular should we use jquery in angular"]
 date="2019-01-30T01:01:05+0000"
-lastmod="2019-01-30T04:58:49+0000"
+lastmod="2019-02-02T04:44:37+0000"
 draft=false
 authors = ["admin"]
 
