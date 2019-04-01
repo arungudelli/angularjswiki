@@ -54,10 +54,7 @@
   <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
   {{ end }}
   <link rel="alternate" hreflang="{{ .Site.LanguageCode | default "en-us" }}" href="{{ .Permalink }}">
-  {{/* We cannot use SRI with Google Fonts because the CSS is dynamically generated according to the user agent. */}}
-  {{ with ($scr.Get "google_fonts") }}
-  <link rel="stylesheet" {{ printf "href=\"//fonts.googleapis.com/css?family=%s\"" . | safeHTMLAttr }}>
-  {{ end }}
+  
   {{ partial "css/parse_theme.css" . }}
   {{ $css := .Site.Data.assets.css }}
   {{ $js := .Site.Data.assets.js }}
@@ -125,6 +122,11 @@
     {{ $css_bundle := $css_bundle | resources.Concat "css/academic-bundle-pre.css" | minify }}
     {{ $css_bundle := slice $css_bundle_head $css_bundle | resources.Concat "css/academic.css" | fingerprint "md5" }}
     <link rel="stylesheet" href="{{ $css_bundle.RelPermalink }}">
+  {{ end }}
+
+  {{/* We cannot use SRI with Google Fonts because the CSS is dynamically generated according to the user agent. */}}
+  {{ with ($scr.Get "google_fonts") }}
+  <link rel="stylesheet" {{ printf "href=\"//fonts.googleapis.com/css?family=%s\"" . | safeHTMLAttr }}>
   {{ end }}
 
   {{ $cat := "" }}
