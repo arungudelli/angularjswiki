@@ -48,7 +48,7 @@ hero_media = "hero-academic.png"
 #  label = '<a id="academic-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release <!-- V --></a>'
 +++
 
-A Startup Guide to Learn Angular, From basics to advanced topics with simple, but detailed explanations and examples.
+A Startup Guide to Learn Angular,from basics to advanced topics with simple detailed explanations and examples.
 
 <a href="https://twitter.com/angular_js" target="_blank" rel="noopener">
 <span>

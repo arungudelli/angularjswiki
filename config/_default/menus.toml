@@ -5,7 +5,7 @@
 
 [[main]]
   name = "Home"
-  url = "#about"
+  url = "#"
   weight = 10
 
 [[main]]
@@ -18,15 +18,7 @@
   url = "/angular/"
   weight = 25  
 
-[[main]]
-  name = "Tutorials"
-  url = "/tutorial/"
-  weight = 50
 
-[[main]]
-  name = "Material"
-  url = "/material/"
-  weight = 55
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
