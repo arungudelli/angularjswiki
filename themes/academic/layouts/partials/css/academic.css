@@ -599,7 +599,7 @@ a[data-fancybox] img {
 .wg-hero .hero-lead,
 .wg-hero .hero-cta-alt,
 .wg-hero .hero-note {
-  color: #fff;
+  color: #000;
   /*text-shadow: 1px 1px 4px rgba(0,0,0,0.5);*/ /* Uncomment to standout on complicated backgrounds. */
 }
 
@@ -608,7 +608,7 @@ a[data-fancybox] img {
 }
 
 .wg-hero .hero-lead a {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .wg-hero .cta-btns {

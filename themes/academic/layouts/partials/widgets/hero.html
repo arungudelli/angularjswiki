@@ -58,7 +58,9 @@
   {{ if $page.Params.hero_media }}
   </div>
   <div class="col-6 mx-auto col-md-6 order-md-2 hero-media">
-    <img src="{{ printf "img/%s" $page.Params.hero_media | relURL }}" alt="">
+    <!-- <img src="{{ printf "img/%s" $page.Params.hero_media | relURL }}" alt=""> -->
+    {{ partial "subscription.html" }}
+
   </div>
 </div>
 {{ end }}
