@@ -8,7 +8,7 @@ lastmod="2019-02-02T08:07:46+0000"
 draft=false
 authors = ["admin"]
 [image]
-  caption = "Angular keyValue pipe"
+  caption = "Angular Material Design"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
@@ -251,27 +251,352 @@ Here is the list of UI components available in Angular Material project.
 
 ## Angular Material Form Components List
 
-[table id=33 /]
+<div class="table-responsive">
+<table class="table">
+	<thead>
+		<tr>
+			<th>Form Components</th>
+			<th>Example</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Autocomplete</td>
+			<td>&lt;mat-form-field&gt;
+  &lt;input type="text" matInput [formControl]="myControl" [matAutocomplete]="auto"&gt;
+&lt;&#47;mat-form-field&gt;
+
+&lt;mat-autocomplete #auto="matAutocomplete"&gt;
+  &lt;mat-option *ngFor="let option of options" [value]="option"&gt;{{option}}&lt;&#47;mat-option&gt;
+&lt;&#47;mat-autocomplete&gt;</td>
+		</tr>
+		<tr>
+			<td><a href="https://www.angularjswiki.com/angular/checkbox-implementation-in-angular-using-angular-material/" target="_blank">Checkbox</a></td>
+			<td>&lt;mat-checkbox&gt;Check me!&lt;&#47;mat-checkbox&gt;
+</td>
+		</tr>
+		<tr>
+			<td>Datepicker</td>
+			<td>&lt;input matInput [matDatepicker]="picker" placeholder="Choose a date"&gt;
+  &lt;mat-datepicker-toggle matSuffix [for]="picker"&gt;&lt;&#47;mat-datepicker-toggle&gt;
+  &lt;mat-datepicker #picker&gt;&lt;&#47;mat-datepicker&gt;</td>
+		</tr>
+		<tr>
+			<td>Form field</td>
+			<td>&lt;mat-form-field&gt;
+    &lt;input matInput placeholder="Input"&gt;
+  &lt;&#47;mat-form-field&gt;</td>
+		</tr>
+		<tr>
+			<td>Input</td>
+			<td>&lt;mat-form-field class="example-width"&gt;
+    &lt;textarea matInput placeholder="Leave a comment"&gt;&lt;&#47;textarea&gt;
+  &lt;&#47;mat-form-field&gt;</td>
+		</tr>
+		<tr>
+			<td>Radio button</td>
+			<td>&lt;mat-radio-group&gt;
+  &lt;mat-radio-button value="1"&gt;Option 1&lt;&#47;mat-radio-button&gt;
+  &lt;mat-radio-button value="2"&gt;Option 2&lt;&#47;mat-radio-button&gt;
+&lt;&#47;mat-radio-group&gt;</td>
+		</tr>
+		<tr>
+			<td>Select</td>
+			<td>&lt;mat-select placeholder="Select City"&gt;
+    &lt;mat-option *ngFor="let city of cities" [value]="city.id"&gt;
+      {{city.name}}
+    &lt;&#47;mat-option&gt;
+  &lt;&#47;mat-select&gt;</td>
+		</tr>
+		<tr>
+			<td>Slider</td>
+			<td>&lt;mat-slider&gt;&lt;&#47;mat-slider&gt;
+</td>
+		</tr>
+		<tr>
+			<td>Slide toggle</td>
+			<td>&lt;mat-slide-toggle&gt;Slide me!&lt;&#47;mat-slide-toggle&gt;
+</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
 
 ## Angular Material Navigation Components List
 
-[table id=34 /]
+<div class="table-responsive"><table class="table">	<thead>
+		<tr>
+			<th>Navigation Components</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Menu</td>
+			<td>&lt;button mat-button [matMenuTriggerFor]="menu"&gt;Menu&lt;&#47;button&gt;
+&lt;mat-menu #menu="matMenu"&gt;
+  &lt;button mat-menu-item&gt;Item 1&lt;&#47;button&gt;
+  &lt;button mat-menu-item&gt;Item 2&lt;&#47;button&gt;
+&lt;&#47;mat-menu&gt;</td>
+		</tr>
+		<tr>
+			<td>Side Nav</td>
+			<td>&lt;mat-sidenav-container&gt;
+  &lt;mat-sidenav mode="side" opened&gt;Sidenav content&lt;&#47;mat-sidenav&gt;
+  &lt;mat-sidenav-content&gt;Main content&lt;&#47;mat-sidenav-content&gt;
+&lt;&#47;mat-sidenav-container&gt;</td>
+		</tr>
+		<tr>
+			<td>Toolbar</td>
+			<td>&lt;mat-toolbar&gt;Toolbar&lt;&#47;mat-toolbar&gt;
+</td>
+		</tr>
+	</tbody>
+</table></div>
+
 
 ## Angular Material Layout Components List
 
-[table id=35 /]
+<div class="table-responsive"><table class="table">	<thead>
+		<tr>
+			<th>layout Components</th>
+			<th>Example</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Card</td>
+			<td>  &lt;mat-card&gt;Simple card&lt;&#47;mat-card&gt;
+</td>
+		</tr>
+		<tr>
+			<td><a href="https://www.angularjswiki.com/angular/angular-material-divider-mat-divider-example/" target="_blank">Divider</a></td>
+			<td>  &lt;mat-divider&gt;&lt;&#47;mat-divider&gt;
+</td>
+		</tr>
+		<tr>
+			<td>Expansion Panel</td>
+			<td>&lt;mat-expansion-panel&gt;
+    &lt;mat-expansion-panel-header&gt;
+      &lt;mat-panel-title&gt;
+        Panel Title
+      &lt;&#47;mat-panel-title&gt;
+      &lt;mat-panel-description&gt;
+        panel Description
+      &lt;&#47;mat-panel-description&gt;
+    &lt;&#47;mat-expansion-panel-header&gt;
+    &lt;p>I'm visible When opened&lt;&#47;p>
+  &lt;&#47;mat-expansion-panel&gt;</td>
+		</tr>
+		<tr>
+			<td>Grid list</td>
+			<td>&lt;mat-grid-list&gt;
+  &lt;mat-grid-tile&gt;1&lt;&#47;mat-grid-tile&gt;
+  &lt;mat-grid-tile&gt;2&lt;&#47;mat-grid-tile&gt;
+&lt;&#47;mat-grid-list&gt;
+</td>
+		</tr>
+		<tr>
+			<td>List</td>
+			<td>&lt;mat-list role="list"&gt;
+  &lt;mat-list-item role="listitem"&gt;Item 1&lt;&#47;mat-list-item&gt;
+  &lt;mat-list-item role="listitem"&gt;Item 2&lt;&#47;mat-list-item&gt;
+&lt;&#47;mat-list&gt;
+</td>
+		</tr>
+		<tr>
+			<td>Stepper</td>
+			<td>&lt;mat-horizontal-stepper&gt;
+  &lt;mat-step&gt;
+  Step 1
+  &lt;&#47;mat-step&gt;
+  &lt;mat-step&gt;
+  Step 2  
+  &lt;&#47;mat-step&gt;
+  &lt;mat-step&gt;
+    Done
+  &lt;&#47;mat-step&gt;
+&lt;&#47;mat-horizontal-stepper&gt;
+</td>
+		</tr>
+		<tr>
+			<td>Tabs</td>
+			<td>&lt;mat-tab-group&gt;
+  &lt;mat-tab label="First"&gt; Tab 1 &lt;&#47;mat-tab&gt;
+  &lt;mat-tab label="Second"&gt; Tab 2 &lt;&#47;mat-tab&gt;
+  &lt;mat-tab label="Third"&gt; Tab 3 &lt;&#47;mat-tab&gt;
+&lt;&#47;mat-tab-group&gt;
+</td>
+		</tr>
+		<tr>
+			<td>Tree</td>
+			<td>&lt;mat-tree&gt;
+  &lt;mat-tree-node&gt; parent&lt;&#47;mat-tree-node&gt;
+  &lt;mat-tree-node&gt; -- child1 &lt;&#47;mat-tree-node&gt;
+  &lt;mat-tree-node&gt; -- child2 &lt;&#47;mat-tree-node&gt;
+&lt;&#47;mat-tree&gt;</td>
+		</tr>
+	</tbody>
+</table></div>
+
 
 ## Angular Material Buttons & indicators Components
 
-[table id=36 /]
+<div class="table-responsive"><table class="table">	<thead>
+		<tr>
+			<th>Buttons&amp; indicators</th>
+			<th>Example</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Button</td>
+			<td>&lt;button mat-button&gt;Click me!&lt;&#47;button&gt;
+</td>
+		</tr>
+		<tr>
+			<td>Button toggle</td>
+			<td>&lt;mat-button-toggle-group name="fontStyle" aria-label="Font Style"&gt;
+  &lt;mat-button-toggle value="bold"&gt;Bold&lt;&#47;mat-button-toggle&gt;
+  &lt;mat-button-toggle value="italic"&gt;Italic&lt;&#47;mat-button-toggle&gt;
+  &lt;mat-button-toggle value="underline"&gt;Underline&lt;&#47;mat-button-toggle&gt;
+&lt;&#47;mat-button-toggle-group&gt;
+</td>
+		</tr>
+		<tr>
+			<td>Badge</td>
+			<td>&lt;p matBadge="4" matBadgeOverlap="false"&gt;Text with a badge&lt;&#47;p&gt;</td>
+		</tr>
+		<tr>
+			<td>Chips</td>
+			<td>&lt;mat-chip-list&gt;
+  &lt;mat-chip&gt;Chip 1&lt;&#47;mat-chip&gt;
+  &lt;mat-chip&gt;Chip 2&lt;&#47;mat-chip&gt;
+  &lt;mat-chip&gt;Chip 3&lt;&#47;mat-chip&gt;
+&lt;&#47;mat-chip-list&gt;</td>
+		</tr>
+		<tr>
+			<td>Icon</td>
+			<td>&lt;mat-icon&gt;home&lt;&#47;mat-icon&gt;</td>
+		</tr>
+		<tr>
+			<td>Progress spinner</td>
+			<td>&lt;mat-spinner&gt;&lt;&#47;mat-spinner&gt;
+</td>
+		</tr>
+		<tr>
+			<td><a href="https://www.angularjswiki.com/angular/progress-bar-in-angular-mat-progress-bar-examplematerial-design/" target="_blank">Progress bar</a></td>
+			<td>&lt;mat-progress-bar mode="determinate" value="40"&gt;&lt;&#47;mat-progress-bar&gt;
+</td>
+		</tr>
+		<tr>
+			<td>Ripples</td>
+			<td>&lt;div
+     matRipple
+     [matRippleCentered]="centered"
+     [matRippleDisabled]="disabled"
+     [matRippleUnbounded]="unbounded"
+     [matRippleRadius]="radius"
+     [matRippleColor]="color"&gt;
+  Click me
+&lt;&#47;div&gt;</td>
+		</tr>
+	</tbody>
+</table></div>
+
 
 ## Angular Material Popups & modals Components
 
-[table id=37 /]
+<div class="table-responsive"><table class="table">	<thead>
+		<tr>
+			<th>popups &amp; modals</th>
+			<th>Example</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Bottom Sheet</td>
+			<td>const bottomSheetRef = bottomSheet.open(SocialShareComponent, {
+  ariaLabel: 'Share on social media'
+});</td>
+		</tr>
+		<tr>
+			<td>Dialog</td>
+			<td>let dialogRef = dialog.open(UserProfileComponent, {
+  height: '400px',
+  width: '600px',
+});</td>
+		</tr>
+		<tr>
+			<td>Snackbar</td>
+			<td>let snackBarRef = snackBar.open('Message archived');
+</td>
+		</tr>
+		<tr>
+			<td>Tooltip</td>
+			<td>&lt;button mat-raised-button
+        matTooltip="Tooltip Action"
+        &gt;
+  Tooltip
+&lt;&#47;button&gt;</td>
+		</tr>
+	</tbody>
+</table></div>
+
 
 ## Angular Material DataTable Components
 
-[table id=38 /]
+<div class="table-responsive"><table class="table">	<thead>
+		<tr>
+			<th>DataTable Components</th>
+			<th>Example</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Paginator</td>
+			<td>&lt;mat-paginator [length]="100"
+              [pageSize]="10"
+              [pageSizeOptions]="[5, 10, 25, 100]"&gt;
+&lt;&#47;mat-paginator&gt;
+</td>
+		</tr>
+		<tr>
+			<td>Sort Header</td>
+			<td>&lt;table matSort (matSortChange)="sortData($event)"&gt;
+  &lt;tr&gt;
+    &lt;th mat-sort-header="name"&gt;name&lt;&#47;th&gt;
+    &lt;th mat-sort-header="id"&gt;id&lt;&#47;th&gt;
+  &lt;&#47;tr&gt;
+
+  &lt;tr *ngFor="let item of sortedData"&gt;
+    &lt;td&gt;{{item.name}}&lt;&#47;td&gt;
+    &lt;td&gt;{{item.id}}
+  &lt;&#47;tr&gt;
+&lt;&#47;table&gt;
+</td>
+		</tr>
+		<tr>
+			<td>Table</td>
+			<td>&lt;table mat-table [dataSource]="dataSource"&gt;
+  &lt;ng-container matColumnDef="position"&gt;
+    &lt;th mat-header-cell *matHeaderCellDef>id&lt;&#47;th&gt;
+    &lt;td mat-cell *matCellDef="let element"&gt; {{element.id}} &lt;&#47;td&gt;
+  &lt;&#47;ng-container&gt;
+  &lt;ng-container matColumnDef="name"&gt;
+    &lt;th mat-header-cell *matHeaderCellDef> Name &lt;&#47;th&gt;
+    &lt;td mat-cell *matCellDef="let element"&gt; {{element.name}} &lt;&#47;td&gt;
+  &lt;&#47;ng-container&gt;
+
+  &lt;tr mat-header-row *matHeaderRowDef="displayedColumns"&gt;&lt;&#47;tr&gt;
+  &lt;tr mat-row *matRowDef="let row; columns: displayedColumns;"&gt;&lt;&#47;tr&gt;
+&lt;&#47;table&gt;
+</td>
+		</tr>
+	</tbody>
+</table></div>
+
 
 ## Angular Material components Browser support
 
