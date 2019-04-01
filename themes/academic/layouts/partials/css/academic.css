@@ -1289,6 +1289,7 @@ article .article-metadata {
 /*************************************************
  *  Projects
  **************************************************/
+ /*
 
 .project-widget-simple li {
   margin-bottom: 1rem;
@@ -1310,7 +1311,7 @@ article .article-metadata {
 .projects-container {
   display: block;
   position: relative;
-  /*margin-top: 5rem;*/
+  margin-top: 5rem;
   overflow: hidden;
 }
 
@@ -1320,16 +1321,16 @@ article .article-metadata {
 
 .project-card {
   position: relative;
-  width: calc(33.3% - 2*20px); /* Fluid 3 columns (inc. 20px gutter) */
+  width: calc(33.3% - 2*20px); /* Fluid 3 columns (inc. 20px gutter)
 }
 @media screen and (max-width: 1199px) {
   .project-card {
-    width: calc(50% - 20px); /* Fluid 2 columns (inc. 20px gutter) */
+    width: calc(50% - 20px); /* Fluid 2 columns (inc. 20px gutter) 
   }
 }
 @media screen and (max-width: 768px) {
   .project-card {
-    width: 100%; /* 1 column */
+    width: 100%; /* 1 column
   }
 }
 
@@ -1338,11 +1339,11 @@ article .article-metadata {
 }
 
 .project-card.project-item {
-  margin: 0 0 20px 0; /* Set to Isotope's gutter size */
+  margin: 0 0 20px 0; /* Set to Isotope's gutter size
 }
 
 .project-card .card {
-  margin: 0; /* Remove default card margin and use Isotope gutter */
+  margin: 0; /* Remove default card margin and use Isotope gutter
 }
 
 .project-showcase .project-item {
@@ -1360,13 +1361,14 @@ article .article-metadata {
 .isotope-item:hover{
   z-index: 3;
 }
+*/
 
 /*************************************************
  *  Accomplishments
  **************************************************/
- 
+/* 
 .card.course {
-  margin-bottom: 1rem; /* More compact spacing than Experience widget as typically more items here. */
+  margin-bottom: 1rem; /* More compact spacing than Experience widget as typically more items here.
 }
 
 .card.course:last-of-type {
@@ -1385,7 +1387,7 @@ article .article-metadata {
 /*************************************************
  *  Card component
  **************************************************/
-
+/*
 .card-simple {
   background: #fff;
   box-shadow: 0 1px 4px rgba(0,0,0,.04);
