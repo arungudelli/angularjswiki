@@ -9,11 +9,6 @@
   weight = 10
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 20
-
-[[main]]
   name = "Angular"
   url = "/angular/"
   weight = 25  
