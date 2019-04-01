@@ -4,8 +4,8 @@ type="post"
 subtitle = "Learn how to format currencies in Angular using Angular currency Pipe"
 summary ="Angular Currency Pipe is one of the bulit in pipe in Angular used to format currency value according to given country code,currency,decimal,locale information."
 keywords=["angular currency pipe,formatting currency in angular"]
-date="2019-01-30T01:01:05+0000"
-lastmod="2019-02-09T13:40:49+0000"
+date="2019-02-09T01:01:05+0000"
+lastmod="2019-02-10T13:40:49+0000"
 draft=false
 authors = ["admin"]
 
