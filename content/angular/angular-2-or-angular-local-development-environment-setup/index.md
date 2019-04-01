@@ -5,7 +5,7 @@ type="post"
 summary ="Explains Angular local development environment set up with Angular CLI. This is same for Angular 4 as well. Angular learning will be easy if we setup local development environment."
 keywords=["angular 7,angular 4,angular 2 local environment setup"]
 date="2019-01-30T01:01:05+0000"
-lastmod="2019-01-30T04:58:49+0000"
+lastmod="2018-10-15T17:00:23+0000"
 draft=false
 authors = ["admin"]
 [image]

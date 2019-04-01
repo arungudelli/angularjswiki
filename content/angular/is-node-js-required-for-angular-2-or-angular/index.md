@@ -5,7 +5,7 @@ type="post"
 summary ="Node js Required to develop angular 2 or angular apps. This tutorial explains reasons why node js required to develop angular 2 or angular apps. with the help node js angular apps development will be easy."
 keywords=["angular 2,angular,nodejs,why node js required for angular,angular 4"]
 date="2019-01-30T01:01:05+0000"
-lastmod="2019-01-30T04:58:49+0000"
+lastmod="2018-10-15T17:00:48+0000"
 draft=false
 authors = ["admin"]
 

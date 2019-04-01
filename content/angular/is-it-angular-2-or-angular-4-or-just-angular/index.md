@@ -5,7 +5,7 @@ subtitle = "Angular Version History"
 summary ="Explains the version change history of Angular 2 or angular &amp; why we should call just Angular instead of adding suffix like angular 2 or Angular 4."
 keywords=["angular 2,angular 4,version history of angular 2,angular"]
 date="2019-01-30T01:01:05+0000"
-lastmod="2019-01-30T04:58:49+0000"
+lastmod="2018-10-15T17:01:18+0000"
 draft=false
 authors = ["admin"]
 

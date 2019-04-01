@@ -5,7 +5,7 @@ type="post"
 summary ="Port 4200 is already in use. Use --port to specify a different port error occures sometimes when we run our angular app using ng serve.That means there is another existing service already running on port 4200."
 keywords=["angular,angular cli,change port number in angular,port 4200 is already in use"]
 date="2019-01-30T01:01:05+0000"
-lastmod="2019-01-30T04:58:49+0000"
+lastmod="2018-11-04T03:56:11+0000"
 draft=false
 authors = ["admin"]
 

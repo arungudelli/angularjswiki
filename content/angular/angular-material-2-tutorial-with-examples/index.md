@@ -4,7 +4,7 @@ type="post"
 summary ="This Angular Material tutorial covers basics of Angular material.Material module helps us to create high-quality UI apps with Angular framework by using Material Design"
 keywords=["angular material tutorial,material design,angular material,angular 7 material apps"]
 date="2019-01-30T01:01:05+0000"
-lastmod="2019-01-30T04:58:49+0000"
+lastmod="2019-02-02T08:07:46+0000"
 draft=false
 authors = ["admin"]
 [image]

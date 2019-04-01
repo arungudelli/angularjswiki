@@ -5,7 +5,7 @@ type="post"
 summary ="The main difference between angular ngIf directive &amp; hidden or display:none is ngIf will add or remove the element from DOM based on condition or expression. hidden attribute in html5 and display none CSS will show or hide the HTML element."
 keywords=["ngif in angular,hidden,ngif vs hidden"]
 date="2019-01-30T01:01:05+0000"
-lastmod="2019-01-30T04:58:49+0000"
+lastmod="2018-10-15T16:54:45+0000"
 draft=false
 authors = ["admin"]
 +++
