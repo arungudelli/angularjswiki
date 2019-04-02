@@ -64,5 +64,5 @@ preserveTaxonomyNames = true
 [taxonomies]
   tag = "tags"
   category = "categories"
-  publication_type = "publication_types"
+# publication_type = "publication_types"
   author = "authors"
