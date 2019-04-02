@@ -29,13 +29,13 @@
       {{ end }}
 
       <div class="portrait-title">
-        <h2 itemprop="name">{{ $person.name }}</h2>
+        <h2 itemprop="name headline">{{ $person.name }}</h2>
         {{ with $person.role }}<h3 itemprop="jobTitle">{{ . }}</h3>{{ end }}
 
         {{ range $person.organizations }}
         <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
           {{ with .url }}<a href="{{ . }}" target="_blank" itemprop="url" rel="noopener">{{ end }}
-          <span itemprop="name">{{ .name }}</span>
+          <span itemprop="name headline">{{ .name }}</span>
           {{ if .url }}</a>{{ end }}
         </h3>
         {{ end }}

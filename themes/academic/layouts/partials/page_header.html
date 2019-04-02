@@ -41,7 +41,7 @@
   <div class="row">
     <div class="col-6">
       <div class="split-header-content">
-        <h1 itemprop="name">{{ $title }}</h1>
+        <h1 itemprop="name headline">{{ $title }}</h1>
 
         {{ with $page.Params.subtitle }}
         <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
@@ -64,7 +64,7 @@
 </div>
 
 <div class="article-container d-xl-none">
-  <h1 itemprop="name">{{ $title }}</h1>
+  <h1 itemprop="name headline">{{ $title }}</h1>
 
   {{ with $page.Params.subtitle }}
   <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
@@ -82,7 +82,7 @@
     {{ $ctnr = "universal-wrapper" }}
   {{end}}
 <div class="{{$ctnr}} pt-3">
-  <h1 itemprop="name">{{ $title }}</h1>
+  <h1 itemprop="name headline">{{ $title }}</h1>
 
   {{ with $page.Params.subtitle }}
   <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
