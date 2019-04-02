@@ -13,6 +13,11 @@
   url = "/angular/"
   weight = 25  
 
+[[main]]
+  name = "Material Design"
+  url = "/material/"
+  weight = 25  
+
 
 
 # Link to a PDF of your resume/CV from the menu.
