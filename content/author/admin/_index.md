@@ -9,7 +9,7 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Senior Software Developer"
+#role = "Senior Software Developer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -54,9 +54,14 @@ user_groups = ["Researchers", "Visitors"]
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 [[social]]
+  icon = "globe"
+  icon_pack = "fas"
+  link = "https://www.arungudelli.com"
+
+[[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "#contact"  # For a direct email link, use "mailto:arunkumar.gudelli@gmail.com".
+  link = "mailto:arunkumar.gudelli@gmail.com"
 
 [[social]]
   icon = "twitter"
@@ -64,9 +69,19 @@ user_groups = ["Researchers", "Visitors"]
   link = "https://twitter.com/arungudelli"
 
 [[social]]
+  icon = "facebook"
+  icon_pack = "fab"
+  link = "https://facebook.com/gudelliarun"
+
+[[social]]
   icon = "github"
   icon_pack = "fab"
-  link = "https://github.com/arungudelli"
+  link = "https://github.com/gudelliarun"
+
+[[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://in.linkedin.com/in/arungudelli"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
