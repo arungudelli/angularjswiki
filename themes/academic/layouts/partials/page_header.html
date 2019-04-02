@@ -14,7 +14,7 @@
   {{end}}
 {{end}}
 
-{{/* Header image */}}
+<!-- {{/* Header image */}}
 {{ if and .Params.header.image (not (and $featured (not .Params.image.preview_only))) }}
 <div class="article-header">
   {{ $img_src := urls.Parse .Params.header.image }}
@@ -93,4 +93,31 @@
     {{ partial "page_links_div.html" $page }}
   {{end}}
 </div>
+{{end}} -->
+
+{{/* Case when page has no image */}}
+
+{{/* Wider container for nodes */}}
+{{ $ctnr := "article-container" }}
+{{ if $page.IsNode }}
+  {{ $ctnr = "universal-wrapper" }}
 {{end}}
+<div class="{{$ctnr}} pt-3">
+  <h1 itemprop="name headline">{{ $title }}</h1>
+
+  {{ with $page.Params.subtitle }}
+  <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
+  {{end}}
+
+  {{ if not .IsNode }}
+    {{ partial "page_metadata" (dict "content" $page "is_list" 0 "share" true) }}
+    {{ partial "page_links_div.html" $page }}
+  {{end}}
+
+  {{ if and $featured (not .Params.image.preview_only) }}
+  <div>
+    <img src="{{ $featured.RelPermalink }}" itemprop="image" alt="{{$.Params.image.caption}}"> 
+  </div>
+  <br/>
+  {{end}} 
+</div>
