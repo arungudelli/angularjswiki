@@ -13,10 +13,10 @@
   url = "/angular/"
   weight = 25  
 
-#[[main]]
-#  name = "Material Design"
-#  url = "/material/"
-#  weight = 25  
+[[main]]
+  name = "Material Design"
+  url = "/material/"
+  weight = 25  
 
 
 
