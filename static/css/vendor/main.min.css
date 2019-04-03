@@ -7015,4 +7015,6 @@ a.text-dark:hover {
 .fa-moon:before {
   content: "\f186"; }
 .fa-bars:before {
-  content: "\f0c9"; } 
+	content: "\f0c9"; } 
+.fa-globe:before {
+		content: "\f0ac"; }
