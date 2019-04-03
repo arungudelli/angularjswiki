@@ -35,7 +35,8 @@ Angular Currency Pipe takes currency value as input and currencyCode,display,dig
 {{currency_value|currency[:currencyCode[:display[:digitsInfo[:locale]]]]}}
 ```
 
-<table>
+<div class="table-responsive">
+<table class="table">
 	<thead>
 		<tr>
 			<th>Parameter</th>
@@ -61,6 +62,7 @@ Angular Currency Pipe takes currency value as input and currencyCode,display,dig
 		</tr>
 	</tbody>
 </table>
+</div>
 
 
 ## Angular Currency Pipe example

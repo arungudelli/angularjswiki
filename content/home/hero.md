@@ -37,7 +37,7 @@ hero_media = "hero-academic.png"
   url = "/angular/"
   label = "Get Started"
   icon_pack = "fas"
-  icon = "download"
+  icon = "arrow-circle-right"
   
 #[cta_alt]
 #  url = "https://sourcethemes.com/academic/"
