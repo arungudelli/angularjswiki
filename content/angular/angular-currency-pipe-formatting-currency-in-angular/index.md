@@ -290,7 +290,8 @@ Now i can use my custom currency pipe as show below.
 
 ## List of All Countries currency codes of Angular Currency Pipes
 
-<table>
+<div class="table-responsive">
+<table class="table">
 	<thead>
 		<tr>
 			<th>Country Currency</th>
@@ -981,3 +982,4 @@ Now i can use my custom currency pipe as show below.
 		</tr>
 	</tbody>
 </table>
+</div>
