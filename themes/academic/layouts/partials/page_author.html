@@ -28,7 +28,7 @@
   {{ end }}
 
   <div class="media-body">
-    <h5 class="card-title" itemprop="name headline"><a href="{{ $link }}">{{ .Params.name }}</a></h5>
+    <h5 class="card-title" itemprop="name"><a href="{{ $link }}">{{ .Params.name }}</a></h5>
     {{ with .Params.role }}<h6 class="card-subtitle">{{.}}</h6>{{end}}
     {{ with .Params.bio }}<p class="card-text" itemprop="description">{{. | markdownify | emojify}}</p>{{end}}
     <ul class="network-icon" aria-hidden="true">
