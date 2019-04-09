@@ -10,8 +10,13 @@
     <div class="article-style" itemprop="articleBody">
       {{ .Content }}
     </div>
-    
+
+    {{ partial "share_svg.html" }}
+    <br/>
     {{ partial "subscription.html" }}
+    
+    
+    
 
     {{ partial "tags.html" . }}
 
