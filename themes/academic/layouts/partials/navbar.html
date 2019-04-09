@@ -114,20 +114,14 @@
           </ul>
         </li>
         {{ end }}
-        <li class="nav-item">
-            <a class="nav-link" title="linkedin" href="https://www.linkedin.com/company/angular-js/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" title="facebook" href="https://www.facebook.com/angularjswiki" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" title="twitter" href="https://twitter.com/angular_js" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-        </li>
-        {{ if .Site.Params.day_night }}
+        
+        {{partial  "socialicons_page.html" }}
+        
+        <!-- {{ if .Site.Params.day_night }}
         <li class="nav-item">
           <a class="nav-link js-dark-toggle" href="#" title="toggle visibility"><i class="fas fa-moon" aria-hidden="true"></i></a>
         </li>
-        {{ end }}
+        {{ end }} -->
 
       </ul>
 
