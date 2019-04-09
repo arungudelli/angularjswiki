@@ -51,24 +51,4 @@ hero_media = "hero-academic.png"
 Learn Angular from basics to advanced topics with simple detailed tutorials and examples.
 
 
-<a href="https://twitter.com/angular_js" target="_blank" rel="noopener">
-<span>
-<i class="fab fa-twitter" style="color: #55acee; font-size: 1.5rem; line-height: 1.25;padding-right:5px;"></i>
-<span>
-</a>
-<a href="https://www.facebook.com/angularjswiki" target="_blank" rel="noopener">
-<span>
-<i class="fab fa-facebook" style="color: #55acee; font-size: 1.5rem; line-height: 1.25;padding-right:5px;"></i>
-<span>
-</a>
-<a href="https://www.linkedin.com/company/angular-js/" target="_blank" rel="noopener">
-<span>
-<i class="fab fa-linkedin" style="color: #55acee; font-size: 1.5rem; line-height: 1.25;padding-right:5px;"></i>
-<span>
-</a>
-<a href="https://www.instagram.com/angularwiki/" target="_blank" rel="noopener">
-<span>
-<i class="fab fa-instagram" style="color: #55acee; font-size: 1.5rem; line-height: 1.25;padding-right:5px;"></i>
-<span>
-</a>
 

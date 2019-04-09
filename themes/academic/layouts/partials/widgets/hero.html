@@ -11,7 +11,9 @@
     </h1>
 
     {{ with $page.Content }}
-    <div class="hero-lead">{{ . }}</div>
+    <div class="hero-lead">{{ . }}
+        {{partial "socialicons_page.html"}}
+    </div>
     {{ end }}
 
     {{/* Call-to-action link */}}
