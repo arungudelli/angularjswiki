@@ -9,7 +9,7 @@ title = "Angular Wiki"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://eloquent-jackson-db7418.netlify.com/"
 canonifyURLs =true
 
 # Enter a copyright notice to display in the site footer.
