@@ -117,20 +117,18 @@
 
   {{ if and $featured (not .Params.image.preview_only) }}
   {{ $image300 := $featured.Resize "300x" }}
+  {{ $image400 := $featured.Resize "400x" }}
   {{ $image768 := $featured.Resize "768x" }}
   {{ $image1024 := $featured.Resize "1024x" }}
-  <div>
-    <img src="{{ $featured.RelPermalink }}" 
-     srcset="
-     {{$image300.RelPermalink}} 300w,
-     {{$image768.RelPermalink}} 768w,
-     {{$image1024.RelPermalink}} 1024w,
-     {{$featured.RelPermalink}} {{$featured.Width}}w" 
-     width="{{$featured.Width}}"
-     height="{{$featured.Height}}" 
-     itemprop="image" 
-     alt="{{$.Params.image.caption}}"
-     sizes="(max-width:{{$featured.Width}}px) 100vw {{$featured.Width}}px"> 
+  {{ $image720 := $featured.Resize "720x" }}
+
+  <div style="text-align:center">
+      <picture>
+          <source media="(min-width: 720px)" srcset="{{$image720.RelPermalink}}">  
+          <source media="(min-width: 400px)" srcset="{{$image400.RelPermalink}}">
+          <source media="(min-width: 300px)" srcset="{{$image300.RelPermalink}}">
+          <img src="{{ $featured.RelPermalink }}" alt="{{$.Params.image.caption}}" itemprop="image">
+        </picture>
   </div>
   <br/>
   {{end}} 
