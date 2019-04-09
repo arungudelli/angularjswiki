@@ -31,7 +31,7 @@
     <h5 class="card-title" itemprop="name"><a href="{{ $link }}">{{ .Params.name }}</a></h5>
     {{ with .Params.role }}<h6 class="card-subtitle">{{.}}</h6>{{end}}
     {{ with .Params.bio }}<p class="card-text" itemprop="description">{{. | markdownify | emojify}}</p>{{end}}
-    <ul class="network-icon" aria-hidden="true">
+    <!-- <ul class="network-icon" aria-hidden="true">
       {{ range .Params.social }}
       {{ $pack := or .icon_pack "fas" }}
       {{ $pack_prefix := $pack }}
@@ -51,8 +51,10 @@
           <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}"></i>
         </a>
       </li>
+      
       {{ end }}
-    </ul>
+    </ul> -->
+    {{partial "socialicons.html"}}    
   </div>
 </div>
 {{end}}
