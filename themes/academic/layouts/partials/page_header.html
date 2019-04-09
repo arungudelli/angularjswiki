@@ -1,5 +1,6 @@
 {{ $page := . }}
 {{ $featured := (.Resources.ByType "image").GetMatch "*featured*" }}
+
 {{ $anchor := $page.Params.image.focal_point | default "Smart" }}
 
 {{/* Set default titles for node pages */}}
@@ -115,8 +116,21 @@
   {{end}}
 
   {{ if and $featured (not .Params.image.preview_only) }}
+  {{ $image300 := $featured.Resize "300x" }}
+  {{ $image768 := $featured.Resize "768x" }}
+  {{ $image1024 := $featured.Resize "1024x" }}
   <div>
-    <img src="{{ $featured.RelPermalink }}" itemprop="image" alt="{{$.Params.image.caption}}"> 
+    <img src="{{ $featured.RelPermalink }}" 
+     srcset="
+     {{$image300.RelPermalink}} 300w,
+     {{$image768.RelPermalink}} 768w,
+     {{$image1024.RelPermalink}} 1024w,
+     {{$featured.RelPermalink}} {{$featured.Width}}w" 
+     width="{{$featured.Width}}"
+     height="{{$featured.Height}}" 
+     itemprop="image" 
+     alt="{{$.Params.image.caption}}"
+     sizes="(max-width:{{$featured.Width}}px) 100vw {{$featured.Width}}px"> 
   </div>
   <br/>
   {{end}} 
