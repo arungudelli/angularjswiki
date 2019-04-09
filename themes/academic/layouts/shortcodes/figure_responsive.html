@@ -1,0 +1,19 @@
+{{ $altText := .Get "alt"}}
+{{ $caption := .Get "title"}}
+{{ $image:= $.Page.Resources.GetMatch (.Get "src")}}
+{{ $image300 := $image.Resize "300x" }}
+{{ $image768 := $image.Resize "768x" }}
+{{ $image1024 := $image.Resize "1024x" }}
+<figure>
+  <img src="{{ $image.RelPermalink }}" 
+  srcset="
+  {{$image300.RelPermalink}} 300w,
+  {{$image768.RelPermalink}} 768w,
+  {{$image1024.RelPermalink}} 1024w,
+  {{$image.RelPermalink}} {{$image.Width}}w" 
+  width="{{$image.Width}}"
+  height="{{$image.Height}}" 
+  alt="{{$.Params.image.caption}}"
+  sizes="(max-width:{{$image.Width}}px) 100vw {{$image.Width}}px"> 
+    <figcaption data-pre="Figure " data-post=":"><h4>{{ $caption }}</h4></figcaption>
+</figure>
