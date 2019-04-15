@@ -3,6 +3,8 @@
 {{ if .Get "library" }}
   {{ $image_src = printf "img/%s" $image_src | relURL }}
 {{ end }}
+
+{{ if ne $.Page.Type "amp" }}
 <figure{{ with .Get "class" }} class="{{.}}"{{ end }}>
 {{ if .Get "link"}}<a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>{{ end }}
 <img src="{{ $image_src }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}" {{ end }}{{ with .Get "width" }}width="{{.}}" {{ end }}{{ with .Get "height" }}height="{{.}}" {{ end }}/>
@@ -20,3 +22,8 @@
 </figcaption>
 {{ end }}
 </figure>
+{{end}}
+{{ if eq $.Page.Type "amp" }}
+<amp-img src="{{$image_src}}" width="1280" height="853" layout="responsive" alt="{{.Get "alt"}}" class="mb4 mx3"></amp-img>
+{{ end }}
+
