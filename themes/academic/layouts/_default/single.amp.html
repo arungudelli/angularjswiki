@@ -112,7 +112,11 @@ limitations under the License.
     <time class="ampstart-byline-pubdate block bold my1">{{$date}}</time>
   </address>
   <!-- End byline -->
-          <amp-img src="../img/blog/spritzer.jpg" width="1280" height="853" layout="responsive" alt="The final spritzer" class="mb4 mx3"></amp-img>
+
+{{ $featured := (.Resources.ByType "image").GetMatch "*featured*" }}
+{{ if and $featured (not .Params.image.preview_only) }}
+<amp-img src="{{$featured.RelPermalink}}" width="1280" height="853" layout="responsive" alt="{{.Params.image.caption}}" class="mb4 mx3"></amp-img>
+{{end}}
 
         </header>
         <div>{{ .Content }}</div>
