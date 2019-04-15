@@ -148,7 +148,7 @@ import * as myjQuery from 'jquery';
 And now the same code wont compile at all it will return an error saying.
 
 {{% alert warning %}}
-Argument of type '1' is not assignable to parameter of type 'false | EventHandlerBase<HTMLElement, ClickEvent<HTMLElement, null, HTMLElement, HTMLElement>>'.
+Argument of type '1' is not assignable to parameter of type 'false | EventHandlerBase HTMLElement, ClickEvent HTMLElement, null, HTMLElement, HTMLElement'.
 {{% /alert %}}
 
 
