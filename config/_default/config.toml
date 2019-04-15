@@ -44,8 +44,9 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 preserveTaxonomyNames = true
 
 [outputs]
-  home = [ "HTML", "CSS", "RSS", "JSON" ]
-  section = [ "HTML", "RSS" ]
+  home = [ "HTML", "CSS", "RSS", "JSON"]
+  section = [ "HTML", "RSS"]
+  page =["HTML","AMP"]
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
