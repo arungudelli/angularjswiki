@@ -189,6 +189,10 @@
   <link rel="apple-touch-icon" type="image/png" href="{{ "/img/icon-192.png" | relURL }}">
 
   <link rel="canonical" href="{{ .Permalink }}">
+  {{ with  .OutputFormats.Get "amp" }}
+  <link rel="amphtml" href="{{ .Permalink }}">
+  {{end}}
+
 
   {{ $featured_image := (.Resources.ByType "image").GetMatch "*featured*" }}
   {{ $og_image := "" }}
