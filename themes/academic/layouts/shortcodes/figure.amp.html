@@ -1,0 +1,48 @@
+{{/* Enable image to be loaded from local page dir or media library at `static/img/`. */}}
+{{ $image_src := .Get "src" }}
+{{ $featured := (.Page.Resources.ByType "image").GetMatch $image_src }}
+{{ if .Get "library" }}
+  {{ $image_src = printf "img/%s" $image_src | relURL }}
+{{ end }}
+
+{{ $image300 := $featured.Resize "300x" }}
+{{ $image400 := $featured.Resize "400x" }}
+{{ $image720 := $featured.Resize "720x" }}
+
+{{ .Scratch.Set "srcset" "" }}
+
+
+{{ $sizes := print "px, 100vw" | print $featured.Width | print "px) " | print $featured.Width | print "(min-width:"}}
+
+{{ if lt $featured.Width 300 }}
+{{ .Scratch.Set "srcset" "false" }}
+{{ end }}
+
+{{ if and (gt $featured.Width 300) (lt $featured.Width 400) }}
+{{ $srcset1 := print " 300w" | print $image300.RelPermalink | print "," | print "w" | print $featured.Width | print " " | print $featured.RelPermalink }}
+{{ .Scratch.Set "srcset" $srcset1}}
+{{ end }}
+
+{{ if and (gt $featured.Width 400) (lt $featured.Width 720) }}
+{{ $srcset2 := print " 300w" | print $image300.RelPermalink | print "," | print " 400w" | print $image400.RelPermalink | print "," | print "w" | print $featured.Width | print " " | print $featured.RelPermalink }}
+{{ .Scratch.Set "srcset" $srcset2}}
+{{ end }}
+
+{{ if gt $featured.Width 720}}
+{{ $srcset3 := print " 300w" | print $image300.RelPermalink | print "," | print " 400w" | print $image400.RelPermalink | print "," | print " 720w" | print $image720.RelPermalink | print "," | print "w" | print $featured.Width | print " " | print $featured.RelPermalink }}
+{{ .Scratch.Set "srcset" $srcset3}}
+{{ end }}
+
+
+{{$srcsetFor := .Scratch.Get "srcset" }}
+
+<div style="text-align: center">
+
+{{ if eq $srcsetFor "false"}}
+<amp-img src="{{$image_src}}" sizes="{{$sizes}}" width="{{$featured.Width}}" height="{{$featured.Height}}" alt="{{.Get "alt"}}" class="mb4 mx3" layout="responsive"></amp-img>
+{{end}}
+{{ if ne $srcsetFor "false"}}
+<amp-img src="{{$image_src}}" srcset="{{$srcsetFor}}" sizes="{{$sizes}}" width="{{$featured.Width}}" height="{{$featured.Height}}" alt="{{.Get "alt"}}" class="mb4 mx3" layout="responsive"></amp-img>
+{{end}}
+</div>
+
