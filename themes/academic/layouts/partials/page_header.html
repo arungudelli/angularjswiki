@@ -122,9 +122,24 @@
 
   <div style="text-align:center">
       <picture>
-          <source media="(min-width: 720px)" srcset="{{$image720.RelPermalink}}">  
+          {{ if gt $featured.Width 720}}
+          <source media="(min-width: {{$featured.Width}}px)" srcset="{{$featured.RelPermalink}}">  
+          <source media="(min-width: 720px)" srcset="{{$image720.RelPermalink}}"> 
           <source media="(min-width: 400px)" srcset="{{$image400.RelPermalink}}">
           <source media="(min-width: 300px)" srcset="{{$image300.RelPermalink}}">
+          {{end}}
+          {{ if and (gt $featured.Width 400) (lt $featured.Width 720) }}
+            <source media="(min-width: {{$featured.Width}}px)" srcset="{{$featured.RelPermalink}}">  
+            <source media="(min-width: 400px)" srcset="{{$image400.RelPermalink}}">
+            <source media="(min-width: 300px)" srcset="{{$image300.RelPermalink}}">
+          {{end}}
+          {{ if and (gt $featured.Width 300) (lt $featured.Width 400) }}
+          <source media="(min-width: {{$featured.Width}}px)" srcset="{{$featured.RelPermalink}}">  
+          <source media="(min-width: 300px)" srcset="{{$image300.RelPermalink}}">
+          {{end}}
+          {{if lt $featured.Width 300}}
+          <source media="(min-width: {{$featured.Width}}px)" srcset="{{$featured.RelPermalink}}">  
+          {{end}}
           <img src="{{ $featured.RelPermalink }}" alt="{{$.Params.image.caption}}" itemprop="image">
         </picture>
   </div>
