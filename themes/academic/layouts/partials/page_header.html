@@ -123,7 +123,7 @@
   <div style="text-align:center">
       <picture>
           {{ if gt $featured.Width 720}}
-          <source media="(min-width: {{$featured.Width}}px)" srcset="{{$featured.RelPermalink}}">  
+          <!-- <source media="(min-width: {{$featured.Width}}px)" srcset="{{$featured.RelPermalink}}">   -->
           <source media="(min-width: 720px)" srcset="{{$image720.RelPermalink}}"> 
           <source media="(min-width: 400px)" srcset="{{$image400.RelPermalink}}">
           <source media="(min-width: 300px)" srcset="{{$image300.RelPermalink}}">
