@@ -118,8 +118,6 @@
   {{ if and $featured (not .Params.image.preview_only) }}
   {{ $image300 := $featured.Resize "300x" }}
   {{ $image400 := $featured.Resize "400x" }}
-  {{ $image768 := $featured.Resize "768x" }}
-  {{ $image1024 := $featured.Resize "1024x" }}
   {{ $image720 := $featured.Resize "720x" }}
 
   <div style="text-align:center">
