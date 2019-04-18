@@ -166,7 +166,7 @@ Using <code>disabled</code> propery of <code>&lt;mat-checkbox&gt;</code> we can 
 ```  
 ## mat-checkbox color and Theming
   
-The color of Angular Checkbox can be changed by color property of <mat-checkbox>. By default value is "accent" and can be change to primary or warn according to Material design theming guidelines.
+The color of Angular Checkbox can be changed by color property of `<mat-checkbox>`. By default value is "accent" and can be change to primary or warn according to Material design theming guidelines.
   
 And We can disable ripple animation using Angular Material Checkbox property <code>disableRipple</code>
   
