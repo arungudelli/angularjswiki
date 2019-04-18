@@ -47,14 +47,14 @@ You can see an empty comment section in place of ng-template tag. Lets go throug
   1. ng-template is a virtual element and its contents are displayed only when needed (based on conditions).
   2. ng-template should be used along with structural directives like [ngIf],[ngFor],[NgSwitch] or custom structural directives.That is why in the above example the contents of ng-template are not displayed.
   3. ng-template never meant to be used like other HTML elements. It&#8217;s an internal implementation of Angular&#8217;s structural directives.
-  4. When you use a structural directive in Angular we will add a prefix asterisk(*) before the directive name. This asterisk is short hand notation for _<ng-template>._
+  4. When you use a structural directive in Angular we will add a prefix asterisk(*) before the directive name. This asterisk is short hand notation for _ng-template._
   5. Whenever Angular encounter with the asterisk(*) symbol, we are informing Angular saying that it is a structural directive and Angular will convert directive attribute to ng-template element.
   6. ng-template is not exactly a true web element. When we compile our code, we will not see a ng-template tag in HTML DOM.
   7. Angular will evaluate the ng-template element to convert it into a comment section in HTML DOM.
 
 We will go through the different structural directives like `*ngIf`,`*ngFor` and `[NgSwitch]` to understand this further.
 
-## Using <ng-template> with *ngIf example
+## Using ng-template with *ngIf example
 
 Take an examle of <a href="https://www.angularjswiki.com/angular/understanding-angulars-ngif-else-then-with-examples/" target="_blank" rel="noopener">*ngIf directive</a> in Angular
 
@@ -70,7 +70,7 @@ Take an examle of <a href="https://www.angularjswiki.com/angular/understanding-a
   * The directive being converted to data member of ng-template
   * The inline template element along with the attributes (class etc), moved inside the ng-template element
 
-So we have only `then` template which is an inline template and there is no `else` template.Now will dig into the source code of `NgIf` Class to understand how `<ng-template>` element will work.
+So we have only `then` template which is an inline template and there is no `else` template.Now will dig into the source code of `NgIf` Class to understand how `ng-template` element will work.
 
 {{< figure src="NgIf-Defination-min.png" title="NgIf Source Code and ng-template" alt="NgIf Source Code and ng-template">}} 
 
@@ -123,7 +123,7 @@ And we can <a href="https://www.angularjswiki.com/angular/dynamically-change-ngi
 
 ## Using ng-template with *ngFor example
 
-You might be thinking that why we need to use asterisk(*) notation when we can use ng-template element directly. Yes we can use <ng-template> instead of short hand notation.
+You might be thinking that why we need to use asterisk(*) notation when we can use ng-template element directly. Yes we can use ng-template instead of short hand notation.
 
 *ngIf is a simple directive without much complexity. This asterisk notation or microsyntax (in Angular terms) is very useful incase complex structural directives like `*ngFor`. Take a look at the below example
 
