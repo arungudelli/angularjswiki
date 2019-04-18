@@ -42,7 +42,7 @@ You can see an empty comment section in place of ng-template tag. Lets go throug
 
 {{%toc%}}
 
-## What is <ng-template> in Angular
+## What is ng-template in Angular
 
   1. ng-template is a virtual element and its contents are displayed only when needed (based on conditions).
   2. ng-template should be used along with structural directives like [ngIf],[ngFor],[NgSwitch] or custom structural directives.That is why in the above example the contents of ng-template are not displayed.
