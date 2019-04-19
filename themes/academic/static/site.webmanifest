@@ -3,7 +3,7 @@
   "short_name": "Angular Wiki",
   "theme_color": "#2962ff",
   "background_color": "#fff",
-  "display": "browser",
+  "display": "standalone",
   "Scope": "/",
   "start_url": "/",
   "icons": [
