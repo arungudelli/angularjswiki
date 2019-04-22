@@ -13,7 +13,7 @@ superuser = true
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Camp Systems", url = "" } ]
+#organizations = [ { name = "Camp Systems", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "I am One among a million Software engineers of India. I write beautiful markup.I make the Web useful."
@@ -22,11 +22,11 @@ bio = "I am One among a million Software engineers of India. I write beautiful m
 email = ""
 
 # List (academic) interests or hobbies
-interests = [
-  "Artificial Intelligence",
-  "Computational Linguistics",
-  "Information Retrieval"
-]
+#interests = [
+#  "Artificial Intelligence",
+#  "Computational Linguistics",
+#  "Information Retrieval"
+#]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -53,35 +53,35 @@ interests = [
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
-[[social]]
-  icon = "globe"
-  icon_pack = "fas"
-  link = "https://www.arungudelli.com"
+#[[social]]
+#  icon = "globe"
+#  icon_pack = "fas"
+#  link = "https://www.arungudelli.com"
 
-[[social]]
-  icon = "envelope"
-  icon_pack = "fas"
-  link = "mailto:arunkumar.gudelli@gmail.com"
+#[[social]]
+#  icon = "envelope"
+#  icon_pack = "fas"
+#  link = "mailto:arunkumar.gudelli@gmail.com"
 
-[[social]]
-  icon = "twitter"
-  icon_pack = "fab"
-  link = "https://twitter.com/arungudelli"
+#[[social]]
+#  icon = "twitter"
+#  icon_pack = "fab"
+#  link = "https://twitter.com/arungudelli"
 
-[[social]]
-  icon = "facebook"
-  icon_pack = "fab"
-  link = "https://facebook.com/gudelliarun"
+#[[social]]
+#  icon = "facebook"
+#  icon_pack = "fab"
+#  link = "https://facebook.com/gudelliarun"
 
-[[social]]
-  icon = "github"
-  icon_pack = "fab"
-  link = "https://github.com/gudelliarun"
+#[[social]]
+#  icon = "github"
+#  icon_pack = "fab"
+#  link = "https://github.com/gudelliarun"
 
-[[social]]
-  icon = "linkedin"
-  icon_pack = "fab"
-  link = "https://in.linkedin.com/in/arungudelli"
+#[[social]]
+#  icon = "linkedin"
+#  icon_pack = "fab"
+#  link = "https://in.linkedin.com/in/arungudelli"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
