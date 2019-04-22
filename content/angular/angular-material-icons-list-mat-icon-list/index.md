@@ -33,7 +33,7 @@ We have to import MatIconModule from <a href="https://www.angularjswiki.com/angu
 
 `import {MatIconModule} from '@angular/material/icon'`
 
-These icons are not limited to angular,In normal webpages just use  in place of `<mat-icon>` tag.
+These icons are not limited to angular,In normal webpages just use `<i></i>`  in place of `<mat-icon>` tag.
 
 `<i>home</i>`
 
