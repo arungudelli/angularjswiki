@@ -3,7 +3,7 @@ title = "{{ replace .Name "-" " " | title }}"
 subtitle = ""
 
 # Add a summary to display on homepage (optional).
-summary = ""
+summary = "Learn Angular from basics to advanced topics with simple detailed tutorials and examples."
 
 date = {{ .Date }}
 draft = false
