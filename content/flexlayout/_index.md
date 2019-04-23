@@ -9,7 +9,7 @@ type = "docs"  # Do not modify.
 
 # Add menu entry to sidebar.
 [menu.flexlayout]
-  name = "Overview"
+  name = "Basics"
   weight = 1
 +++
 
@@ -36,7 +36,7 @@ Most of the Flexbox CSS libraries are either
 * pure CSS-only implementations or
 * JS+CSS stylesheets.
 
-AngularJS (1.x version) material layout API is built using JS+CSS.
+AngularJS (1.x version) [material layout API](https://material.angularjs.org/latest/layout/container) is built using JS+CSS.
 
 AngularJS Material clearly explained the limitations of a CSS based FlexBox layout like limitations with using parameterized values.
 
@@ -278,6 +278,8 @@ See the below flex layout row demo to understand how to align children elements 
 
 Angular Flex layout row example demo
 
+![Angular Flex layout row example demo](Angular Flex layout row example demo.gif)
+
 ## Angular Flex Layout column example 
 
 Now we will go through the column layout example.
@@ -296,7 +298,7 @@ Just add fxLayout  attribute value as column as shown below.
 
 Similarly we can change the alignment of children element using fxLayoutAlign attribute.
 
-Angular Flex layout column example demo
+![Angular Flex layout column example demo](Angular Flex layout column example demo.gif)
 
 ## Angular Flex Layout responsive API
 
@@ -347,4 +349,5 @@ I have added an extra attribute `fxLayout.xs` with values as column.
 
 So basically we are giving instructions to flex layout engine saying if the device width is extra small follow the column layout otherwise default layout i.e., row layout.
 
-Responsive engine example
+![Responsive engine example](Responsive engine example.gif)
+
