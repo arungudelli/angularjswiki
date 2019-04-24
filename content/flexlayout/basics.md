@@ -204,9 +204,7 @@ Cross Axis values
 
 See the below flex layout row demo to understand how to align children elements inside the flex box container.
 
-Angular Flex layout row example demo
-
-![Angular Flex layout row example demo](../Angular Flex layout row example demo.gif)
+{{< video src="/img/flex/angular-flex-layout-row-example-demo.mp4" srcwebm="/img/flex/angular-flex-layout-row-example-demo.webm">}} 
 
 ## Angular Flex Layout column example 
 
@@ -226,7 +224,8 @@ Just add fxLayout  attribute value as column as shown below.
 
 Similarly we can change the alignment of children element using fxLayoutAlign attribute.
 
-![Angular Flex layout column example demo](../Angular Flex layout column example demo.gif)
+{{< video src="/img/flex/angular-flex-layout-column-example-demo.mp4" srcwebm="/img/flex/angular-flex-layout-column-example-demo.webm">}} 
+
 
 ## Angular Flex Layout responsive API
 
@@ -277,5 +276,5 @@ I have added an extra attribute `fxLayout.xs` with values as column.
 
 So basically we are giving instructions to flex layout engine saying if the device width is extra small follow the column layout otherwise default layout i.e., row layout.
 
-![Responsive engine example](../Responsive engine example.gif)
+{{< video src="/img/flex/Responsive-engine-example.mp4" srcwebm="/img/flex/Responsive-engine-example.webm">}} 
 

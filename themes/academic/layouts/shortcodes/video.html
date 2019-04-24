@@ -7,6 +7,8 @@
 {{ end }}
 
 {{ $video := printf "%s%s" $path (.Get "src") }}
+{{ $videowebm := printf "%s%s" $path (.Get "srcwebm") }}
+
 {{ $video_type := substr (.Get "src") -1 3 }}
 {{ if .Get "library" }}
   {{ $video = $video | relURL }}
@@ -22,6 +24,8 @@
   {{ $poster = "" }}
 {{ end }}
 
-<video {{if (.Get "controls")}}controls{{else}}autoplay loop{{end}} {{with $poster}}poster="{{.}}"{{end}}>
-  <source src="{{ $video }}" type="video/{{$video_type}}">
+<video autoplay loop muted playsinline>
+  <source src="{{ $video }}" type="video/mp4">
+  <source src="{{ $videowebm }}" type="video/webm">
+
 </video>
