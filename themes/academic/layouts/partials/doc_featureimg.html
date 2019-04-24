@@ -1,0 +1,61 @@
+{{ $page := . }}
+{{ $imagepath := print $page.Params.featured}}
+{{ $featured := (.Resources.ByType "image").GetMatch $imagepath }}
+
+<meta content="{{ $.Params.Date }}" itemprop="datePublished">
+<meta content="{{ $.Params.LastMod }}" itemprop="dateModified">
+<link itemprop="mainEntityOfPage" href="{{ $.Permalink }}" />
+<div class="article-metadata">
+
+<span class="article-date">
+    {{ $date := $.Lastmod.Format $.Site.Params.date_format }}
+    {{ if eq $.Type "publication" }}
+      {{ $date = $.Date.Format ($.Site.Params.publications.date_format | default "January, 2006") }}
+    {{ else }}
+      {{ if ne $.Params.Lastmod $.Params.Date }}
+          {{ i18n "last_updated" }}
+      {{ end }}
+    {{ end }}
+    <time>{{ $date }}</time>
+  </span>
+</div>
+<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+      <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+        <meta itemprop="url" content="{{ "/img/Angular-wiki-logo.png" | absURL }}">
+        <meta itemprop="width" content="250">
+        <meta itemprop="height" content="48">
+      </div>
+      <meta itemprop="name" content="Angular wiki">
+</div>
+
+  {{ if and $featured (not .Params.image.preview_only) }}
+  {{ $image300 := $featured.Resize "300x" }}
+  {{ $image400 := $featured.Resize "400x" }}
+  {{ $image720 := $featured.Resize "720x" }}
+
+  <div style="text-align:center">
+      <picture>
+          {{ if gt $featured.Width 720}}
+          <!-- <source media="(min-width: {{$featured.Width}}px)" srcset="{{$featured.RelPermalink}}">   -->
+          <source media="(min-width: 720px)" srcset="{{$image720.RelPermalink}}"> 
+          <source media="(min-width: 400px)" srcset="{{$image400.RelPermalink}}">
+          <source media="(min-width: 300px)" srcset="{{$image300.RelPermalink}}">
+          {{end}}
+          {{ if and (gt $featured.Width 400) (lt $featured.Width 720) }}
+            <source media="(min-width: {{$featured.Width}}px)" srcset="{{$featured.RelPermalink}}">  
+            <source media="(min-width: 400px)" srcset="{{$image400.RelPermalink}}">
+            <source media="(min-width: 300px)" srcset="{{$image300.RelPermalink}}">
+          {{end}}
+          {{ if and (gt $featured.Width 300) (lt $featured.Width 400) }}
+          <source media="(min-width: {{$featured.Width}}px)" srcset="{{$featured.RelPermalink}}">  
+          <source media="(min-width: 300px)" srcset="{{$image300.RelPermalink}}">
+          {{end}}
+          {{if lt $featured.Width 300}}
+          <source media="(min-width: {{$featured.Width}}px)" srcset="{{$featured.RelPermalink}}">  
+          {{end}}
+          <img src="{{ $featured.RelPermalink }}" alt="{{$.Params.image.caption}}" itemprop="image">
+        </picture>
+  </div>
+  <br/>
+  {{end}} 
+

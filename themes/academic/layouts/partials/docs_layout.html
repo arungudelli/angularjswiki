@@ -31,6 +31,8 @@
         <div class="docs-article-container">
           <h1 itemprop="name headline">{{ .Title }}</h1>
 
+          {{partial "doc_featureimg.html" .}}
+
           <div class="article-style" itemprop="articleBody">
             {{ .Content }}
           </div>
