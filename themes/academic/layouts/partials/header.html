@@ -195,6 +195,12 @@
 
 
   {{ $featured_image := (.Resources.ByType "image").GetMatch "*featured*" }}
+  {{ if $featured_image }}
+  {{else}}
+  {{ $imagepathdoc := print .Params.featured}}
+  {{ $featured_image = (.Resources.ByType "image").GetMatch $imagepathdoc }}
+  {{end}}
+
   {{ $og_image := "" }}
   {{ $twitter_card := "summary_large_image" }}
   {{ if $featured_image }}
