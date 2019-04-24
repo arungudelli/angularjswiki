@@ -10,6 +10,8 @@ prev = "flexlayout"
 next = "flexlayout/example"
 featured="angular flex layout tutorial.jpg"
 authors = ["admin"]
+summary ="Tutorial explains basics of Angular flex layout and flex layout directives with examples"
+keywords=["Angular flex layout,Angular flex layout directives"]
 
 
 # Add menu entry to sidebar.

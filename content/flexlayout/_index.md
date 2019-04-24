@@ -9,7 +9,8 @@ type = "docs"  # Do not modify.
 next="flexlayout/basics"
 featured="angular flex layout tutorial.jpg"
 authors = ["admin"]
-
+summary ="Understanding Angular flex layout and flex layout advantages over css flexbox approach"
+keywords=["Angular flex layout,flexbox css"]
 
 # Add menu entry to sidebar.
 
