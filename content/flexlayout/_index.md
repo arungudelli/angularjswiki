@@ -8,6 +8,8 @@ toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 next="flexlayout/basics"
 featured="angular flex layout tutorial.jpg"
+authors = ["admin"]
+
 
 # Add menu entry to sidebar.
 

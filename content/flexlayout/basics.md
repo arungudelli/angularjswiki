@@ -9,6 +9,8 @@ type = "docs"  # Do not modify.
 prev = "flexlayout"
 next = "flexlayout/example"
 featured="angular flex layout tutorial.jpg"
+authors = ["admin"]
+
 
 # Add menu entry to sidebar.
 linktitle = "Basics"
