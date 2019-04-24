@@ -39,12 +39,11 @@
 
           {{ partial "tags.html" . }}
         </div>
-
-        <div class="body-footer">
-          {{ i18n "last_updated" }} {{ $.Lastmod.Format $.Site.Params.date_format }}
-        </div>
       </article>
       {{ partial "docs_pager.html" . }}
+      {{ partial "share_svg.html" .}}
+      <br/>
+      {{ partial "subscription.html" }}
       {{ partial "footer_section.html" . }}
 
     </main>
