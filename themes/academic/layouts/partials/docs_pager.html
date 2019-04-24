@@ -1,0 +1,26 @@
+{{ $current:= .}}
+{{ $prev := print $current.Params.prev }}
+{{ $next := print $current.Params.next }}
+
+<div class="post-nav">
+
+{{ with .Site.GetPage $prev }}
+
+<div class="post-nav-item">
+  <div class="meta-nav">{{ i18n "prev" }}</div>
+  <a href="{{.URL}}" rel="prev">{{.Title}}</a>
+</div>
+
+{{ end }}
+
+{{ with .Site.GetPage $next }}
+
+<div class="post-nav-item">
+  <div class="meta-nav">{{ i18n "next" }}</div>
+  <a href="{{.URL}}" rel="next">{{.Title}}</a>
+</div>
+
+{{ end }}
+
+
+</div>

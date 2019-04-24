@@ -71,12 +71,12 @@
     {{ end }}
 
     {{/* Load hash anchors for documentation pages. */}}
-    {{ if eq .Type "docs" }}
+    <!-- {{ if eq .Type "docs" }}
     {{ printf "<script src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.anchor.url $js.anchor.version) $js.anchor.sri | safeHTML }}
     <script>
       anchors.add();
     </script>
-    {{ end }}
+    {{ end }} -->
 
     {{ if eq $.Site.Params.search.engine 1 }}
     {{/* Fuse search result template. */}}
