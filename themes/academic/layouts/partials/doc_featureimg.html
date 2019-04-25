@@ -1,6 +1,7 @@
 {{ $page := . }}
-{{ $imagepath := print $page.Params.featured}}
-{{ $featured := (.Resources.ByType "image").GetMatch $imagepath }}
+{{ $parentDoc := .Site.GetPage $page.Params.parentdoc}}
+{{ $imagepath := $page.Params.featured}}
+{{ $featured :=  ($parentDoc.Resources.ByType "image").GetMatch $imagepath }}
 
 <meta content="{{ $.Params.Date }}" itemprop="datePublished">
 <meta content="{{ $.Params.LastMod }}" itemprop="dateModified">

@@ -197,8 +197,11 @@
   {{ $featured_image := (.Resources.ByType "image").GetMatch "*featured*" }}
   {{ if $featured_image }}
   {{else}}
-  {{ $imagepathdoc := print .Params.featured}}
-  {{ $featured_image = (.Resources.ByType "image").GetMatch $imagepathdoc }}
+  {{ if eq .Params.type "docs"}}
+  {{ $imagepath := .Params.featured}}
+  {{ $parentDoc := .Site.GetPage .Params.parentdoc}}
+  {{ $featured_image = ($parentDoc.Resources.ByType "image").GetMatch $imagepath }}
+  {{end}}
   {{end}}
 
   {{ $og_image := "" }}
