@@ -82,7 +82,7 @@
     {{ with $resource }}
     {{ $image := .Resize "150x" }}
     <a href="{{ $item.RelPermalink }}">
-      <img src="{{ $image.RelPermalink }}" itemprop="image">
+      <img src="{{ $image.RelPermalink }}" itemprop="image" alt="{{$item.Title}}">
     </a>
     {{end}}
   </div>
