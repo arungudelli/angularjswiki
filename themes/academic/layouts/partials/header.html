@@ -9,6 +9,12 @@
   <meta name="generator" content="Source Themes Academic {{ .Site.Data.academic.version }}">
   {{ .Hugo.Generator }}
 
+  <link rel='preconnect' href='//codefund.app' />
+  <link rel='preconnect' href='//cdn2.codefund.app' />
+  <link rel='preconnect' href='//fonts.googleapis.com' />
+  <link rel='preconnect' href='//www.googletagmanager.com'/>
+  <link rel='preconnect' href='//www.google-analytics.com'/>
+
   {{ $scr := .Scratch }}
 
   {{/* Attempt to load superuser. */}}
@@ -246,7 +252,7 @@
 
   <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
 
-  <link rel='preconnect' href='//codefund.app' />
+
 
 
 </head>
