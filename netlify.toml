@@ -28,3 +28,8 @@ HUGO_VERSION = "0.54.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+from = "http://angularjswiki.com/*"
+to = "https://www.angularjswiki.com/:splat"
+status = 301
