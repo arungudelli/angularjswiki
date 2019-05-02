@@ -112,7 +112,7 @@ Button type should be given as attribute to button or anchor tag.
   6. mat-fab (Normal floating action button)
   7. mat-mini-fab (Mini floating action button)
 
-Most of the google products are developed in Angular material. One of the product is <a href="https://express.google.com" target="_blank" rel="noopener">https://express.google.com</a>.
+Most of the google products are developed in Angular material. One of the product is <a href="https://express.google.com" target="_blank" rel="noopener" aria-label="expressgoogle">express google</a>.
 
 Google express uses all kinds of material buttons in its website.
 
