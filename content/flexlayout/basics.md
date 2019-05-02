@@ -240,6 +240,8 @@ Responsive engine has some predefined breakpoint aliases with its mediaquery va
 
 We have to extend the static flex layout API by using these breakpoint aliases.
 
+## List of Available Breakpoints in Angular Flex Layout
+
 Go through the below list of breakpoint aliases and its media query values.
 
 |breakpoint | mediaQuery|
