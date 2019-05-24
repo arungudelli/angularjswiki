@@ -105,11 +105,11 @@ import { Observable } from 'rxjs';
 export class ReadingComponent implements OnInit {
  private _jsonURL = 'assets/SampleJson.json';
  constructor(private http: HttpClient) {
-   this.getJSON().subscribe(data =&gt; {
+   this.getJSON().subscribe(data => {
     console.log(data);
    });
  }
- public getJSON(): Observable&lt;any&gt; {
+ public getJSON(): Observable<any> {
    return this.http.get(this._jsonURL);
  }
  ngOnInit() {
@@ -139,13 +139,13 @@ private _jsonURL = 'assets/SampleJson.json';
 
 constructor(private http: Http) {
  var object;
- this.getJSON().subscribe(data =&gt; object=data, error =&gt; console.log(error));
+ this.getJSON().subscribe(data => object=data, error => console.log(error));
 }
 
-public getJSON(): Observable&lt;any&gt; {
+public getJSON(): Observable<any> {
   return this.http.get(_jsonURL)
-   .map((response:any) =&gt; response.json())
-   .catch((error:any) =&gt; console.log(error));
+   .map((response:any) => response.json())
+   .catch((error:any) => console.log(error));
 
 }
 }
