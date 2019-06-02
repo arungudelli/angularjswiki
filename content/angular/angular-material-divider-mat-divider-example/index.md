@@ -46,7 +46,7 @@ We have three types of material dividers depending upon our usage.
 
 ## Simple mat-divider example
 
-Just add <mat-divider> it will display a simple divider i.e., horizontaal line
+Just add `<mat-divider>` it will display a simple divider i.e., horizontaal line
 
 ```html
 <mat-divider></mat-divider>
