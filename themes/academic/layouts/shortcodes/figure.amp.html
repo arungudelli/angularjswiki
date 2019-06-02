@@ -42,7 +42,7 @@
 <amp-img src="{{$image_src}}" sizes="{{$sizes}}" width="{{$featured.Width}}" height="{{$featured.Height}}" alt="{{.Get "alt"}}" class="mb4 mx3" layout="responsive"></amp-img>
 {{end}}
 {{ if ne $srcsetFor "false"}}
-<amp-img src="{{$image_src}}" srcset="{{$srcsetFor}}" sizes="{{$sizes}}" width="{{$featured.Width}}" height="{{$featured.Height}}" alt="{{.Get "alt"}}" class="mb4 mx3" layout="responsive"></amp-img>
+<amp-img src="{{$image_src}}" srcset="{{$image_src}}" sizes="{{$sizes}}" width="{{$featured.Width}}" height="{{$featured.Height}}" alt="{{.Get "alt"}}" class="mb4 mx3" layout="responsive"></amp-img>
 {{end}}
 </div>
 
