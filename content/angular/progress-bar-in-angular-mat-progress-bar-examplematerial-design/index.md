@@ -38,7 +38,7 @@ To use mat-progress-bar we need to import `MatProgressBarModule` from `@angular/
 
 <pre>import {MatProgressBarModule} from '@angular/material'</pre>
 
-After importing angular material progress bar module. We can use <mat-progress-bar> selector in component html file.
+After importing angular material progress bar module. We can use `<mat-progress-bar>` selector in component html file.
 
 `<mat-progress-bar value=40></mat-progress-bar>`
   
