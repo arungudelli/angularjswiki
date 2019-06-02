@@ -46,7 +46,7 @@ preserveTaxonomyNames = true
 
 [outputs]
   home = [ "HTML", "CSS", "RSS", "JSON"]
-  section = [ "HTML", "RSS"]
+  section = [ "HTML", "RSS","AMP"]
   page =["HTML","AMP"]
 
 # Configure BlackFriday Markdown rendering.
