@@ -174,6 +174,19 @@
             }
         });
         {{ end }}
+        {{ if eq .Type "post" }}
+        var docsnavigator = document.querySelector('.docs-toggle');
+        docsnavigator.addEventListener('click',function(){
+            var docmenu=document.getElementById('docs-nav');
+            if(docsnavigator.getAttribute('aria-expanded')=="false"){
+              docmenu.classList.add('show');
+              docsnavigator.setAttribute('aria-expanded',"true")
+            }else{
+              docmenu.classList.remove('show');
+              docsnavigator.setAttribute('aria-expanded',"false")
+            }
+        });
+        {{ end }}
       });
       if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js').catch(function(err) {
