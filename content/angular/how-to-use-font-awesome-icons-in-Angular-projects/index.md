@@ -79,4 +79,115 @@ npm install @fortawesome/pro-light-svg-icons
 
 ## Using fontawesome icons in Angular applications
 
-After installing the fontawesome icons
+We can use fontawesome icons in Angular applications two ways depending upon our requirements
+
+1. Using Explicitly in Component
+2. Using Icon library 
+
+Steps to use fontawesome icons at component level
+
+1. In app.module.ts file import FontAwesomeModule from @fortawesome package as shown below
+```
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+``` 
+2. And then add FontAwesomeModuel in imports array as shown below
+
+```
+@NgModule({
+  declarations: [
+    AppComponent,
+    FontawesomeDemoComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FontAwesomeModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+```
+I have created a component called FontAwesomeDemo in my angular application to use fontawesome icons
+
+Import the required icons from `@fortawesome/free-solid-svg-icons` file as shown below.
+In this example I am importing Coffee Icon.
+
+```
+import { Component, OnInit } from '@angular/core';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
+
+@Component({
+  selector: 'app-fontawesome-demo',
+  templateUrl: './fontawesome-demo.component.html',
+  styleUrls: ['./fontawesome-demo.component.scss']
+})
+export class FontawesomeDemoComponent implements OnInit {
+
+  coffeeIcon = faCoffee;
+  constructor() { }
+  ngOnInit() {
+  }
+
+}
+```
+I have created a variable called coffeeIcon and assign it to the faCoffee imported from free svg icons package.
+
+In the component html render using `fa-icon` selector show below
+
+```
+<fa-icon [icon]="coffeeIcon"></fa-icon>
+```
+
+This approach is good when you are using fontawesome icons in a single component. But most of the times this is not the case We will be using icons across the applications.
+
+So each time importing icons in individual components is not a good idea. 
+
+That's where Icon library very useful. We can import all necessary icons in one place and use them across the application. Go through the below example
+
+## Using fontawesome Icon library
+
+To use fontawesome icons across the application follow the below steps.
+
+1. In app.module.ts file Import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+2. Next add FontAwesomeModule to imports array as shown above.
+3. To use the icon library  Import { library } from '@fortawesome/fontawesome-svg-core'
+4. Import required icons for example { faCoffee } from '@fortawesome/free-solid-svg-icons'
+5. And finally Add them the library with library.add(faCoffee)
+6. Ideally we will be using more than one icons, so to add multiple icons just pass them to library.add method as comma separated values.
+
+After setting up library icons now we can use icons directly in our component file using their name as shown below
+
+```
+<fa-icon icon="coffee"></fa-icon>
+```
+
+by default the icon style is 'fas' i.e., font awesome solid style.
+
+If you want to change the icon style we can pass the style to icon attribute as shown below
+
+```
+<fa-icon [icon]="['far', 'coffee']"></fa-icon>
+```
+far means font awesome regular styles.
+
+As the icons are not managed by component file, if you remove the icons from library at app module level the components which are using those icons will break. 
+
+If you want to use all available icons, You can add them to library as shown below
+
+```
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+library.add(fas, far);
+```
+
+Here I am adding bothe regular and solid styles to the library. Now we can use all free icons within our project.
+
+The only disadvantage of this approach is angular project bundle size will increase.
+
+So it is better to add necessary icons to the library instead of adding all icons.
+
+
+
+
