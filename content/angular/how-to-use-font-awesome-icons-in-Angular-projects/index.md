@@ -246,10 +246,11 @@ Angular fontawesome icons comes up with useful features like
 1. Changing icons size
 2. Fixed width icons
 3. Rotating icons
-4. Animating icons
-5. Adding border to the icons
-6. Pulled icons
-7. Changing default styles of icons like color and stroke
+4. Mirroring icons
+5. Animating icons
+6. Adding border to the icons
+7. Pulled icons
+8. Changing default styles of icons like color and stroke
 
 ### Changin size of fontawesome icons in Angular
 
@@ -328,7 +329,7 @@ Normal <fa-icon [icon]="['fas', 'snowboarding']"></fa-icon>
 270 <fa-icon [icon]="['fas', 'snowboarding']" rotate="270"></fa-icon>
 ```
 
-### Mirroting fontawesome icons in Angular
+### Mirroing fontawesome icons in Angular
 
 We can mirror the fontawesome icons using `flip` property as shown below
 
@@ -349,4 +350,42 @@ Allowed values for `flip` property are
 <fa-icon [icon]="['fas', 'snowboarding']" flip="both"></fa-icon>
 
 ```
+
+### Animating fontawesome icons in Angular
+
+One of the best features of fontawesome icons is the ability to add animation to the icons.
+
+This feature very useful when we want to add loading or status communicating symbols.
+
+In fontawesome Angular we can use `spin` and `pulse` to animate the icons.
+
+Have a look at the rotating fan icon
+```
+<fa-icon [icon]="['fas', 'fan']" [spin]="true"></fa-icon>
+<fa-icon [icon]="['fas', 'fan']" [pulse]="true"></fa-icon>
+```
+
+And spinner and sync icons are usually used along with animations.
+
+```
+<fa-icon [icon]="['fas', 'spinner']" [spin]="true"></fa-icon>
+<fa-icon [icon]="['fas', 'spinner']" [pulse]="true"></fa-icon>
+
+<fa-icon [icon]="['fas', 'sync']" [spin]="true"></fa-icon>
+<fa-icon [icon]="['fas', 'sync']" [pulse]="true"></fa-icon>
+```
+
+### Pulled Icons
+
+Usually notes and tips are wrapped around the single quotes or double quotes to give us some visual distinction.
+
+We can use `pull` property of fontawesome angular to wrap text around icons.
+
+```
+<fa-icon [icon]="['fas', 'quote-left']" pull="left"></fa-icon>
+If You Are Working On Something That You Really Care About, You Don’t Have To Be Pushed. The Vision Pulls You
+<fa-icon [icon]="['fas', 'quote-right']" pull="right"></fa-icon>
+```
+The allowed values of pull are left,right.
+
 
