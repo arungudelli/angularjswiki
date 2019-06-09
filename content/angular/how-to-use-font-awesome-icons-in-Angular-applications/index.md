@@ -456,7 +456,7 @@ And spinner and sync icons are usually used along with animations.
 <fa-icon [icon]="['fas', 'sync']" [spin]="true"></fa-icon>
 <fa-icon [icon]="['fas', 'sync']" [pulse]="true"></fa-icon>
 ```
-{{< video src="/img/fontawesome/fontawesome icons animations.mp4" srcwebm="/img/fontawesome/fontawesome icons animations.webm">}} 
+<!-- {{< video src="/img/fontawesome/fontawesome icons animations.mp4" srcwebm="/img/fontawesome/fontawesome icons animations.webm">}}  -->
 
 The real fun is we can bind the `spin` and `pulse` values to angular component variables.
 As shown below
@@ -502,7 +502,7 @@ size="5x"
 ```
 
 
-{{< video src="/img/fontawesome/FontawesomeAnimation.mp4" srcwebm="/img/fontawesome/FontawesomeAnimation.webm">}} 
+<!-- {{< video src="/img/fontawesome/FontawesomeAnimation.mp4" srcwebm="/img/fontawesome/FontawesomeAnimation.webm">}}  -->
 
 ## Pulled fontawesome Icons
 
@@ -587,7 +587,7 @@ transform="rotate-270"></fa-icon>
 We can bind `rotate` values to our component variables to create animatation effect. 
 Have a look at the below jumping horse animation.
 
-{{< video src="/img/fontawesome/Jumping horce animation.mp4" srcwebm="/img/fontawesome/Jumping horce animation.webm">}} 
+<!-- {{< video src="/img/fontawesome/Jumping horce animation.mp4" srcwebm="/img/fontawesome/Jumping horce animation.webm">}}  -->
 
 ```
 <fa-icon 
