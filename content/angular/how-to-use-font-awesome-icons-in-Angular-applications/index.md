@@ -6,7 +6,7 @@ summary ="Step by step tutotial to use fontawesome icons in Angular applications
 keywords=["fontawesome icons in Angular,fontawesome"]
 date="2019-06-09T01:01:05+0000"
 lastmod="2019-06-09T13:15:51+0000"
-draft=true
+draft=false
 authors = ["admin"]
 
 [image]
