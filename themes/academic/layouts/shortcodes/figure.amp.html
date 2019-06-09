@@ -5,9 +5,6 @@
   {{ $image_src = printf "img/%s" $image_src | relURL }}
 {{ end }}
 
-{{ $image300 := $featured.Resize "300x" }}
-{{ $image400 := $featured.Resize "400x" }}
-{{ $image720 := $featured.Resize "720x" }}
 
 {{ .Scratch.Set "srcset" "" }}
 
@@ -19,16 +16,22 @@
 {{ end }}
 
 {{ if and (gt $featured.Width 300) (lt $featured.Width 400) }}
+{{ $image300 := $featured.Resize "300x" }}
 {{ $srcset1 := print " 300w" | print $image300.RelPermalink | print "," | print "w" | print $featured.Width | print " " | print $featured.RelPermalink }}
 {{ .Scratch.Set "srcset" $srcset1}}
 {{ end }}
 
 {{ if and (gt $featured.Width 400) (lt $featured.Width 720) }}
+{{ $image300 := $featured.Resize "300x" }}
+{{ $image400 := $featured.Resize "400x" }}
 {{ $srcset2 := print " 300w" | print $image300.RelPermalink | print "," | print " 400w" | print $image400.RelPermalink | print "," | print "w" | print $featured.Width | print " " | print $featured.RelPermalink }}
 {{ .Scratch.Set "srcset" $srcset2}}
 {{ end }}
 
 {{ if gt $featured.Width 720}}
+{{ $image300 := $featured.Resize "300x" }}
+{{ $image400 := $featured.Resize "400x" }}
+{{ $image720 := $featured.Resize "720x" }}
 {{ $srcset3 := print " 300w" | print $image300.RelPermalink | print "," | print " 400w" | print $image400.RelPermalink | print "," | print " 720w" | print $image720.RelPermalink | print "," | print "w" | print $featured.Width | print " " | print $featured.RelPermalink }}
 {{ .Scratch.Set "srcset" $srcset3}}
 {{ end }}
