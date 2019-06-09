@@ -19,15 +19,15 @@ authors = ["admin"]
   # Show image only in page previews?
   preview_only = false
 +++
-In this tutorial I will explain how to use fontawesome icons in our Angular applications.
+In this tutorial I will explain how to use fontawesome icons in Angular applications.
 
 First we will learn basic fontawesome icons rendering in Angular and then we will go through some cool fontawesome features like animations,layering,transforming etc..
 
 {{% toc %}}
 
-## Installing free version fontawesome icons
+## Installing free version fontawesome icons in Angular
 
-To install fontawesome icons use the below npm or yarn commands
+To install fontawesome icons in Angular applications use the below npm or yarn commands
 
 ```
 npm install @fortawesome/fontawesome-svg-core
@@ -43,15 +43,18 @@ yarn add @fortawesome/free-solid-svg-icons
 yarn add @fortawesome/angular-fontawesome
 ```
 
-## Installing pro version fontawesome icons
+## Installing pro version fontawesome icons in Angular
 
-If you buy a license for fontawesome icons you have to configure your npm registry to use pro icons
+To install pro version fontawesome icons follow the below steps
+
+1. Configure npm registry to install icons from fontawesome npm package.
+2. If you buy a license for fontawesome icons you will be given an authentication token through which you can set your npm registry.
 
 This configuration can be done at global level or per project level
 
 ## Global level configuration
 
-To use fontawesome icons across all the projects add @fortawesome scope to use fontawesome pro npm package source
+To use fontawesome icons across all the angular projects add @fortawesome scope to use fontawesome pro npm package source
 i.e., npm.fontawesome.com
 
 ```
