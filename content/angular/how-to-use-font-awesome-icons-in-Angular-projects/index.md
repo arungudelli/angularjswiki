@@ -6,7 +6,7 @@ summary ="Step by step tutotial to use fontawesome icons in Angular applications
 keywords=["fontawesome icons in Angular,fontawesome"]
 date="2019-06-06T01:01:05+0000"
 lastmod="2019-06-06T13:15:51+0000"
-draft=false
+draft=true
 authors = ["admin"]
 
 [image]
@@ -386,6 +386,160 @@ We can use `pull` property of fontawesome angular to wrap text around icons.
 If You Are Working On Something That You Really Care About, You Don’t Have To Be Pushed. The Vision Pulls You
 <fa-icon [icon]="['fas', 'quote-right']" pull="right"></fa-icon>
 ```
-The allowed values of pull are left,right.
+The allowed values of `pull` are left,right.
 
+### Transform fontawesome icons in Angular
 
+we can scale,position,flip and rotate icons using `transform` attribute of fontawesome selector in Angular.
+
+And further we can combine them for some beatiful effects.
+
+To scale fontawesome icons using transform attribute use `shrink-x` or `grow-x`. Where `x` is any numeric value including decimals.
+
+```
+<fa-icon [icon]="['fas', 'snowboarding']"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="shrink-5"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="grow-5"></fa-icon>
+```
+
+To position the icons i.e., to move icons up, down, left, or right, use `up-x, down-x, left-x, and right-x` where `x` any numeric value, including decimals.
+
+```
+
+<fa-icon [icon]="['fas', 'snowboarding']"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="up-5"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="down-5"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="left-5"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="right-5"></fa-icon>
+```
+
+Now we will combine both position and scaling as shown below.
+
+```
+<fa-icon [icon]="['fas', 'snowboarding']"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="shrink-10 up-5"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="shrink-10 down-5"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="shrink-10 left-5"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="shrink-10 right-5"></fa-icon>
+```
+
+To rotate the icons using fontawesome transform property use `rotate-x`. Where `x` is degrees to rotate and negative values also allowed.
+
+```
+<fa-icon [icon]="['fas', 'snowboarding']"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="rotate-90"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="rotate--90"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="rotate-180"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="rotate-270"></fa-icon>
+```
+
+To mirror or flip the icons we can use `flip-h` (horizontal) or `flip-v` (vertical) or we can use both `flip-h flip-v` to flip both horiztontally and vertically.
+
+```
+<fa-icon [icon]="['fas', 'snowboarding']"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="flip-h"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="flip-v"></fa-icon>
+<fa-icon [icon]="['fas', 'snowboarding']" transform="flip-v flip-h"></fa-icon>
+```
+
+We can use all of them in one tranform as shown below
+
+```
+<fa-icon [icon]="['fas', 'snowboarding']" transform="flip-h rotate-90 shrink-10 up-5"></fa-icon>
+```
+
+### Combine two icons using fontawesome mask
+
+We can combine two icons into one single color icons using mask property for `fa-icon` as shown below
+
+```
+<fa-icon [icon]="['fas', 'headphones']" transform="shrink-6" [mask]="['fas', 'square']"></fa-icon>
+<fa-icon [icon]="['fas', 'pencil-alt']" transform="shrink-6" [mask]="['fas', 'comment']"></fa-icon>
+```
+
+mask icon i.e., outer icon acts like background to the actual icon as shown below. 
+transform property will be applied on actual icon.
+
+In the above example heaphones and pencil-alt are actual icons. Where as square and comment icons acts like background.
+
+### Layering, Text, & Counters fontawesome icons
+
+fontawesome layers have some cool features like
+
+1. we can place multiple icons on top of each other.
+2. We can add text on top of icons.
+3. We can add counters to the icons.
+
+Angular fontawesome has a selector called `fa-layers` which is used to place icons on top of each other.
+
+We will try to place twitter icon on top of square icon. To achieve this use the below code snippet
+
+``` 
+<fa-layers>
+        <fa-icon [icon]="['fas', 'square']"></fa-icon>
+        <fa-icon [icon]="['fab', 'twitter']"></fa-icon>
+</fa-layers> 
+```
+
+The above code first renderes square icon (layer one) on top of that it will add one more layer with twitter icon.
+
+But if you see the output you won't see anything other than square icon because both icon layers are of same color.
+
+So if you give some other color to the twitter icons it will be visible
+
+```
+<fa-layers>
+    <fa-icon [icon]="['fas', 'square']"></fa-icon>
+    <fa-icon [icon]="['fab', 'twitter']" style="color:yellow"></fa-icon>
+</fa-layers> 
+```
+
+Or instead of giving color you can use `inverse` attribute to create knock-out looking effect.
+
+```
+<fa-layers>
+    <fa-icon [icon]="['fas', 'square']"></fa-icon>
+    <fa-icon [inverse]="true" [icon]="['fab', 'twitter']" ></fa-icon>
+</fa-layers> 
+```
+
+Further we can use `transform` to shrink and position the twitter icon exactly middle of square icon.
+
+```
+<fa-layers>
+    <fa-icon [icon]="['fas', 'square']"></fa-icon>
+    <fa-icon [inverse]="true" [icon]="['fab', 'twitter']" transform="left-1 shrink-5"></fa-icon>
+</fa-layers> 
+```
+
+Placing multiple icons on top of each other has several real world usecases. 
+
+For example banning cellphones and camera symbols icons.  
+
+```
+<fa-layers>
+  <fa-icon [icon]="['fas', 'camera']" transform="shrink-7"></fa-icon>
+  <fa-icon [icon]="['fas', 'ban']" style="color:red"></fa-icon>
+</fa-layers>
+<br/>
+
+<fa-layers>
+  <fa-icon [icon]="['fas', 'mobile-alt']" transform="shrink-7 right-3"></fa-icon>
+  <fa-icon [icon]="['fas', 'ban']" style="color:red"></fa-icon>
+</fa-layers>
+```
+
+### Adding text to fontawesome icons in Angular
+ 
+To add text to the icon we can use `fa-layers-text` selector inside `fa-layer` as shown below
+
+Here we are adding date to the calender icons using `fa-layer-text`.
+
+```
+<fa-layers>
+    <fa-icon [icon]="['fas', 'calendar']"></fa-icon>
+    <fa-layers-text content="16" style="color: white;font-weight: bold" transform="shrink-5 right-6 down-3"></fa-layers-text>
+</fa-layers>
+```
+
+### Adding counters to fontaweomse icons in Angular
