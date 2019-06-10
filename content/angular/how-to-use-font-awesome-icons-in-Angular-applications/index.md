@@ -754,7 +754,7 @@ Here we are adding date to the calender icons using `fa-layer-text`.
  {{< figure src="fontawesome icon layer text.png" title="fontawesome icons layer text" alt="fontawesome icons layer text">}} 
 
 
-## Adding counters to fontaweomse icons in Angular
+## Adding counters to Font Awesome icons in Angular
 
 To add counters to Font Awesome icons in Angular we can use `fa-layers-counter` along with `fa-layer`.
 
