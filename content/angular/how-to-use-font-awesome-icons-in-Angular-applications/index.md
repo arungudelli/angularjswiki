@@ -294,6 +294,16 @@ Now we can use bell icon in our component file as shown below
 ```
  {{< figure src="Regular vs solid icons.png" title="Regular vs solid icons" alt="Regular vs solid icons">}} 
 
+## Changing Font Awesome Icons color and stroke in Angular
+
+To change the Font Awesome Icons color and stroke we can use `style` attribute of `fa-icon` selector
+as shown below
+
+```
+<fa-icon [icon]="['fas', 'film']" 
+[styles]="{'stroke': 'red', 'color': 'red'}"></fa-icon>
+```
+
 ## Changing default icon style in Font Awesome Angular
 
 To change the default icon style in Font Awesome we have to inject `FaIconService` and change the `defaultPrefix` property as shown below
