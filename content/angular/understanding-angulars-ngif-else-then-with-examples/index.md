@@ -51,7 +51,7 @@ Or we can bind alternative templates based upon our usage.
 ```
 <p *ngIf="display">Visible only if display is true</p>
 ```
-Or we can apply it to other angular components, for instance, <a href="https://www.angularjswiki.com/tutorial/angular/checkbox-implementation-in-angular-using-angular-material/" target="_blank" rel="noopener">material checkbox</a> component
+Or we can apply it to other angular components, for instance, <a href="https://www.angularjswiki.com/angular/checkbox-implementation-in-angular-using-angular-material/" target="_blank" rel="noopener">material checkbox</a> component
 
 ```
 <mat-checkbox *ngIf="display">Material Checkbox</mat-checkbox>
@@ -92,7 +92,7 @@ And If you see the generated HTML,no element will be added to the DOM if `ngIf` 
 
 So why angular will remove the element rather than hiding it. Go through the below article to understand it further.
 
-<a href="https://www.angularjswiki.com/tutorial/angular/difference-between-ngif-and-hidden-or-displaynone-in-angular/" target="_blank" rel="noopener">Difference between ngIf and hidden in Angular</a>
+<a href="https://www.angularjswiki.com/angular/difference-between-ngif-and-hidden-or-displaynone-in-angular/" target="_blank" rel="noopener">Difference between ngIf and hidden in Angular</a>
 
 We can use `ngIf` in four different ways
 
@@ -205,7 +205,7 @@ You might think that why we need `[ngIfThen]` template reference when we have In
 
 we can change the _then_ or _else_ templates dynamically at runtime by taking adventage of these `[ngIfThen]` and `[ngIfElse]` Go through the below article to understand it further
 
-<a href="https://www.angularjswiki.com/tutorial/angular/dynamically-change-ngif-thenelse-templates-at-runtime-in-angular/" target="_blank" rel="noopener">Dynamically Change NgIf, Then,Else Templates At Runtime In Angular</a>
+<a href="https://www.angularjswiki.com/angular/dynamically-change-ngif-thenelse-templates-at-runtime-in-angular/" target="_blank" rel="noopener">Dynamically Change NgIf, Then,Else Templates At Runtime In Angular</a>
 
 ## *ngif else and then templates example in Angular
 
