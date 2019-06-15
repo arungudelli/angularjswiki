@@ -90,7 +90,7 @@ ngOnInit() called by Angular to indicate that Angular is done with initializing 
 
 To use ngOnInit() we have to import `OnInit` from `@angular/core` (Actually it is not required but as a good practice import the `OnInit`)
 
-Whenever you create a new component using <a href="http://www.angularjswiki.com/tutorial/angular/angular-2-or-angular-local-development-environment-setup/" target="_blank" rel="noopener">angular-cli</a> ngOnInit being added by default.
+Whenever you create a new component using <a href="http://www.angularjswiki.com/angular/angular-2-or-angular-local-development-environment-setup/" target="_blank" rel="noopener">angular-cli</a> ngOnInit being added by default.
 
 Go through the sample example
 
@@ -162,7 +162,7 @@ To understand it further will take an example
 
 ## Understand difference between constructor & ngOnInit() in Angular with example
 
-We will take an example of the <a href="http://www.angularjswiki.com/tutorial/angular/checkbox-implementation-in-angular-using-angular-material/" target="_blank" rel="noopener">Angular Material Checkbox</a> component.
+We will take an example of the <a href="http://www.angularjswiki.com/angular/checkbox-implementation-in-angular-using-angular-material/" target="_blank" rel="noopener">Angular Material Checkbox</a> component.
 
 I have created a checkbox list component `<app-checkboxlist>` which displays two material checkboxes using a child component `<app-checkbox>`
 
