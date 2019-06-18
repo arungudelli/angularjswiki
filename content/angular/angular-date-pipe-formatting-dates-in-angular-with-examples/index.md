@@ -6,7 +6,7 @@ summary ="Angular datepipe is used to format the date values according to the lo
 keywords=["angular datepipe,formatting dates in Angular"]
 date="2019-06-15T01:01:05+0000"
 lastmod="2019-06-15T18:10:05+0000"
-draft=true
+draft=false
 authors = ["admin"]
 
 
@@ -25,6 +25,8 @@ authors = ["admin"]
 Angular date pipe used to format dates in angular according to their locale information.
 
 We can convert a date object, a number (milliseconds from UTC) or an ISO date string to according to given pre defined angular formats or custom angular formats.
+
+{{%toc%}}
 
 ## Angular Date Pipe Syntax
 
@@ -233,7 +235,15 @@ We have to pass first parameter "format" as quoted string with the pre-defined d
 
 In addition to the above date time formats,we can define our own custom datetime formats using the below symbols.
 
-For example
+For example `{{today | date:'GGGG'}}` displays the era of time "Anno Domini"
+
+We can combine these symbols to display our own date formats as shown below.
+
+```
+{{today | date:'EEEE d MMMM y GGGG'}}
+
+// Tuesday 18 June 2019 Anno Domini
+```
 
 <div class="table-responsive">
 <table class="table">
@@ -507,3 +517,12 @@ For example
    </tbody>
 </table>
 </div>
+
+## Angular date pipe timezone example
+
+In addition to the date format we can pass timezone as a parameter to date pipe to display date in particular timezone.
+
+The timezone paramter can be timezone offset ('0530') or standard UTC/GMT (IST) or continental US timezone abbreviation.
+
+For example to display to time in IST 
+
