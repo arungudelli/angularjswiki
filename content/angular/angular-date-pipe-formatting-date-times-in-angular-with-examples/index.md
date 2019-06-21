@@ -251,7 +251,7 @@ We can combine these symbols to display our own date formats as shown below.
       <tr >
          <th >Format Name</th>
          <th >Format specifier</th>
-         <th >Example Value</th>
+         <th >Result</th>
       </tr>
    </thead>
    <tbody >
