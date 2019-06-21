@@ -2,7 +2,7 @@
 title = "Angular Date Pipe & formatting date times in Angular with examples"
 subtitle = "Learn how to format dates in Angular using Angular date Pipe"
 type="post"
-summary ="Angular date pipe used to format dates in angular according to their locale information."
+summary ="Angular date pipe used to format dates in angular according to the given datetime formats,timezone and country locale information."
 keywords=["angular datepipe,formatting dates in Angular"]
 date="2019-06-19T01:01:05+0000"
 lastmod="2019-06-19T18:10:05+0000"
