@@ -22,7 +22,7 @@ authors = ["admin"]
 
 +++
 
-Angular date pipe used to format dates in angular according to their locale information.
+Angular date pipe used to format dates in angular according to the given datetime formats,timezone and country locale information.
 
 We can convert a date object, a number (milliseconds from UTC) or an ISO date strings according to given pre defined angular date formats or custom angular date formats.
 
@@ -251,7 +251,7 @@ We can combine these symbols to display our own date formats as shown below.
       <tr >
          <th >Format Name</th>
          <th >Format specifier</th>
-         <th >Result</th>
+         <th >Eg. Result</th>
       </tr>
    </thead>
    <tbody >
@@ -543,7 +543,7 @@ Result:
 Today is 6/19/19, 12:29 PM
 ```
 
-## How to display UTC date and time format in angular
+## How to display UTC date time in angular using date pipe
 
 To display UTC date and time in Angular we have to pass timezone paramters as 'UTC' or timezone offset as '+0000' as shown below
 
