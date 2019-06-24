@@ -145,7 +145,7 @@ The format 'short' is one of the predefined date formats in angular which conver
 	<thead>
 		<tr>
 			<th>DateTime Format</th>
-			<th>Angular code</th>
+			<th>Angular datepipe code</th>
       <th>Result</th>
 		</tr>
 	</thead>
