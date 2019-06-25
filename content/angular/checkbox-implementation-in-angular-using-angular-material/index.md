@@ -5,7 +5,7 @@ type="post"
 summary ="mat-checkbox selector is an angular material checkbox component, it works like input type=checkbox sugar coated with Material design styling and animations.mat-checkbox part of Angular Material module called MatCheckboxModule."
 keywords=["angular,angular material design,angular checkbox,angular material checkbox,mat-checkbox"]
 date="2018-02-15T01:01:05+0000"
-lastmod="2018-10-15T16:57:24+0000"
+lastmod="2019-06-25T06:00:24+0530"
 draft=false
 authors = ["admin"]
 
@@ -417,6 +417,23 @@ And to change label alignment I have added `<mat-radio-group>` and binded LabelA
 {{< figure src="Angular-material-checkbox-Bind-data.png" title="Angular material-checkbox Bind data" alt="Angular material-checkbox Bind data">}}
 
 And if we select both `Checked` and `Indeterminate` checkboxes. The checkbox in result section displayed as Indeterminate as explained above.
+
+## mat checkbox checked by default
+
+To set mat-checkbox checked by default we use `checked` attribute or [ngModel] as shown below.
+
+```
+<mat-checkbox [(ngModel)]="IsChecked">
+	<label>Checked by default using ngModel</label>
+</mat-checkbox>
+
+
+<mat-checkbox [checked]="IsChecked">
+	<label>Checked by default using checked attribute</label>
+</mat-checkbox>
+```
+
+We can set the `IsChecked` property to `true` in constructor.
 
 ## mat-checkbox change event
 
