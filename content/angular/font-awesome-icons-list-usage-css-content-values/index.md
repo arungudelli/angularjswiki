@@ -28,7 +28,7 @@ In font awesome 5.9 version we have around 1534 free icons.Free font awesome ico
 2. font awesome regular icons
 3. font awesome brand icons
 
-We can [download](https://use.fontawesome.com/releases/v5.9.0/fontawesome-free-5.9.0-web.zip)  font awesome icons css file and serve them from our own server Or we can serve them from public CDNs.
+We can <a href="https://use.fontawesome.com/releases/v5.9.0/fontawesome-free-5.9.0-web.zip" rel="noopener" target="_blank">download</a> font awesome icons css file and serve them from our own server Or we can serve them from public CDNs.
 
 {{% toc %}}
 
