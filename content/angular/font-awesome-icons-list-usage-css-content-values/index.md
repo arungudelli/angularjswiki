@@ -65,6 +65,10 @@ Now to display facebook icon using font awesome icons use the below html code
 
 Facebook icon is part of brand icons so i have added `fab` as additional class name.
 
+To use font awesome icons in Angular applications go through the article
+[How To Use Font Awesome icons in Angular Applications]
+(https://www.angularjswiki.com/angular/how-to-use-font-awesome-icons-in-angular-applications/)
+
 ## Using font awesome icons as CSS content values.
 
 The above approach requires us to change our icon html classes names.
