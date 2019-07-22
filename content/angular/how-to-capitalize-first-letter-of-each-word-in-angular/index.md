@@ -1,11 +1,11 @@
 +++
-title = " How To Capitalize First Letter Of Each Word In Angular"
+title = "Angular Title Case Pipe:Capitalize First Letter Of Each Word In Angular"
 subtitle = "Angular Title Case Pipe"
 type="post"
 summary ="To capitalize first letter of each word in Angular use Angular&#039;s TitleCasePipe.We have to pass input to the titlecase pipe."
 keywords=["capitalize first letter of each word in angular,angular titlecase pipe"]
 date="2019-02-09T01:01:05+0000"
-lastmod="2019-02-12T18:10:05+0000"
+lastmod="2019-07-22T18:10:05+0000"
 draft=false
 authors = ["admin"]
 
@@ -22,7 +22,7 @@ authors = ["admin"]
 
 +++
 
-To capitalize first letter of each word in Angular use Angular&#8217;s TitleCasePipe.We have to pass input to the titlecase pipe as shown below
+To capitalize first letter of each word in Angular use Angular's TitleCasePipe.We have to pass input to the titlecase pipe as shown below
 
 ```
 <p>{{'titleCasePipe capitalizes first letter of each word in angular'
