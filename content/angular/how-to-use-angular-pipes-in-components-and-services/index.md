@@ -2,10 +2,7 @@
 title = "How To Use Angular Pipes in Components & Service ts files"
 subtitle = "Use Angular Pipes in Components & Service ts files"
 type="post"
-summary ="Steps to use angular pipes in components and service ts files 
-  1. Import angular pipe in `app.module.ts` file and add it to the providers array.
-  2. In Component file, import angular pipe & inject the pipe into the constructor.
-  3. And Finally use the angular pipe transform method & pass the required parameters according     to pipe defination to format the values."
+summary ="Steps to use angular pipes in components and service ts files 1.Import angular pipe in `app.module.ts` file and add it to the providers array.2.In Component file, import angular pipe & inject the pipe into the constructor.3. And Finally use the angular pipe transform method & pass the required parameters according to pipe defination to format the values."
 keywords=["delete component in angular,ng delete component command"]
 date="2019-02-08T01:01:05+0000"
 lastmod="2019-02-09T04:44:37+0000"
