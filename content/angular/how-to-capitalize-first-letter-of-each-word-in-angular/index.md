@@ -1,5 +1,5 @@
 +++
-title = "Angular Title Case Pipe:Capitalize First Letter Of Each Word In Angular"
+title = "Angular TitleCase Pipe:Capitalize First Letter Of Each Word In Angular"
 subtitle = "Angular Title Case Pipe"
 type="post"
 summary ="To capitalize first letter of each word in Angular use Angular&#039;s TitleCasePipe.We have to pass input to the titlecase pipe."
@@ -67,3 +67,5 @@ We will create a component called titlecase component in our Angular project. An
 Even though if you pass mixed case text to Angular titlecase pipe, It will convert the first letter of each word to uppercase and remaining letters to lowercase.
 
 And the delimiter should be whitespace only. Commas,Pipes,hyphens etc are not considered as delimiters.
+
+That is why in above example 'angular-titlecase' is displayed as "Angular-titlecase" instead of "Angular-Titlecase"
