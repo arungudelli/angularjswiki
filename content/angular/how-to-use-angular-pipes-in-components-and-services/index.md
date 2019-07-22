@@ -32,7 +32,7 @@ Steps to use angular pipes in components and service ts files
 
 Now we will understand it further using examples.
 
-## Use Date Pipe in Component & Services ts file
+## Use Date Pipe in Angular Components & Services ts file
 
 To use date pipe in component & services follow the below steps
 
@@ -124,3 +124,86 @@ export class AngularpipeComponent implements OnInit {
 We have to inject the locale information into the component constructor to pass it to the `formatDate` method
 
 The adventage of this kind of approach is, it's not required to add date pipe to app module providers and injecting it into the component constructor.
+
+## Use Currency Pipe in Angular Components & Services ts file
+
+Now we will use the above two methods to use angular currency pipes in components & services ts file.
+
+Use currency pipe in componets & servcies ts file by injecting currency pipe into the component constructor as shown below.
+
+```
+import { Component, OnInit } from '@angular/core';
+import { CurrencyPipe } from '@angular/common';
+
+@Component({
+  selector: 'app-angularpipe',
+  templateUrl: './angularpipe.component.html',
+  styleUrls: ['./angularpipe.component.scss']
+})
+export class AngularpipeComponent implements OnInit {
+
+  currencyPipeString : string;
+
+  constructor(private datePipe: DatePipe) { 
+    this.currencyPipeString = currencyPipe.transform(100,'USD');
+    console.log(this.currencyPipeString);
+    //$100.00
+  }
+
+  ngOnInit() {
+  }
+
+}
+```
+
+You might get `NullInjectorError: No provider for CurrencyPipe!` error if you forgot to add the currency pipe to the app module providers array as shown below.
+
+```
+import { CurrencyPipe } from '@angular/common';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    AngularpipeComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
+  providers: [CurrencyPipe],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
+
+Now to use currency pipe in components,without injecting it into the component constructors we can use currency pipe public methods `formatCurrency` & `getCurrencySymbol` as shown below.
+
+```
+import { Component, OnInit, Inject,LOCALE_ID } from '@angular/core';
+import { formatCurrency,getCurrencySymbol } from '@angular/common';
+
+@Component({
+  selector: 'app-angularpipe',
+  templateUrl: './angularpipe.component.html',
+  styleUrls: ['./angularpipe.component.scss']
+})
+export class AngularpipeComponent implements OnInit {
+
+  currencyPipeString : string;
+
+  constructor(@Inject(LOCALE_ID) private locale: string) { 
+    this.currencyPipeString = formatCurrency(200,this.locale,getCurrencySymbol('USD', 'wide'));
+    console.log(this.currencyPipeString);
+    //$200
+  }
+
+  ngOnInit() {
+  }
+
+}
+```
+
+[Angular Currency Pipe & Formatting Currency In Angular](https://www.angularjswiki.com/angular/angular-currency-pipe-formatting-currency-in-angular/) 
+
+
+
