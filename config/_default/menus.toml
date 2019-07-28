@@ -18,6 +18,11 @@
   url = "/flexlayout/"
   weight = 25  
 
+[[main]]
+  name = "Pipes"
+  url = "/pipes/"
+  weight = 25  
+
 
 
 # Link to a PDF of your resume/CV from the menu.
