@@ -30,7 +30,7 @@ We can convert a date object, a number (milliseconds from UTC) or an ISO date st
 
 ## Angular Date Pipe Syntax
 
-Angular date pipe accpets threee parameters
+Angular date pipe accepts three parameters
 
 1. format
 2. timezone
@@ -235,7 +235,7 @@ We have to pass first parameter "format" as quoted string with the pre-defined d
 
 In addition to the date format we can pass timezone as a parameter to date pipe to display date in particular timezone.
 
-The timezone paramter can be timezone offset ('0530') or standard UTC/GMT (IST) or continental US timezone abbreviation.
+The timezone parameter can be timezone offset ('0530') or standard UTC/GMT (IST) or continental US timezone abbreviation.
 
 For example to display to time in IST timezone
 
@@ -249,7 +249,7 @@ Today is 6/19/19, 12:29 PM
 
 ## How to display UTC date time in angular using date pipe
 
-To display UTC date and time in Angular we have to pass timezone paramters as 'UTC' or timezone offset as '+0000' as shown below
+To display UTC date and time in Angular we have to pass timezone parameters as 'UTC' or timezone offset as '+0000' as shown below
 
 ```
 Today is {{todayDate | date:'short':'UTC'}}
@@ -290,7 +290,7 @@ Which displays time as 'Wednesday 19 June 2019 8:33 PM'.
 
 In our angular projects, we will be displaying dates very frequently and each time we need to pass the format parameter.
 
-To avoid this We can create our own custome date pipe with the above format, use it across the application as shown below.
+To avoid this We can create our own custom date pipe with the above format, use it across the application as shown below.
 
 ```
 {{ todayDate | customDate }}
@@ -327,7 +327,7 @@ And import `CustomDatePipe` in app.module.ts and add it in declaration array of 
    ]);
    ```
    
-Now we can use our custome date pipe in component file as shown below
+Now we can use our custom date pipe in component file as shown below
    
    ```
    {{todayDate | customDate}}
