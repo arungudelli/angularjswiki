@@ -18,7 +18,7 @@ keywords=["Angular flex layout,Angular flex layout directives"]
 # Add menu entry to sidebar.
 linktitle = "Title Case Pipe"
 [menu.pipes]
-  parent = "Built in Pipes"
+  parent = "Pipes In Angular"
   weight = 2
 +++
 
