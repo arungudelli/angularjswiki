@@ -66,7 +66,7 @@ TOKEN will be given when you buy a professional license.
 
 ## Project level configuration
 
-To use Font Awesome icons in a single project creat a .npmrc file at project root level and set the below configuration
+To use Font Awesome icons in a single project create a .npmrc file at project root level and set the below configuration
 
 ```
 @fortawesome:registry=https://npm.fontawesome.com/
@@ -164,7 +164,7 @@ To use Font Awesome icons across the application follow the below steps.
 3. To use the icon library  Import { library } from '@fortawesome/fontawesome-svg-core'
 4. Import required icons for example { faFilm } from '@fortawesome/free-solid-svg-icons'
 5. And finally Add them the library with library.add(faFilm)
-6. Ideally we will be using more than one icons, so to add multiple icons just pass them to library.add method as comma separated values.
+6. Ideally we will be using more than one icon, so to add multiple icons just pass them to library.add method as comma separated values.
 
 ```
 import { BrowserModule } from '@angular/platform-browser';
@@ -397,7 +397,7 @@ I have added background color to Font Awesome icons for visual indication of ico
 
  {{< figure src="fixed width fontawesome icons.png" title="fixed width fontawesome icons" alt="fixed width fontawesome icons">}} 
 
-As you can see, the icons renderend with `fixedWidth` are vertically aligned with same width
+As you can see, the icons rendered with `fixedWidth` are vertically aligned with same width
 
 Often in our projects we might need to rotate,flip or mirror an icon depending upon the project design.
 
@@ -416,7 +416,7 @@ We can rotate the Font Awesome icons in Angular using rotate property of `<fa-ic
 
  {{< figure src="Rotating fontawesome icons.png" title="Rotating fontawesome icons" alt="Rotating fontawesome icons">}} 
 
-## Mirroing Font Awesome icons in Angular
+## Mirroring Font Awesome icons in Angular
 
 We can mirror the Font Awesome icons using `flip` property as shown below
 
@@ -472,7 +472,7 @@ The real fun is we can bind the `spin` and `pulse` values to angular component v
 As shown below
 
 I have created a variable called `isAnimated` and binding it to the `fa-icon` spin property.
-On cliking the icon Iam toggling the isAnimated value
+On clicking the icon Iam toggling the isAnimated value
 
 ```
 <fa-icon 
@@ -610,11 +610,11 @@ transform="rotate-{{rotation}}">
 [value]="rotation" 
 (input)="rotation=$event.target.value"/>
 ```
-I have created a range input with minimum value as `-15` and maximum value as `0`. And binded it to rotation value of horse icon.
+I have created a range input with minimum value as `-15` and maximum value as `0`. And bound it to rotation value of horse icon.
 
 The horse icon will jump from -15 to 0 angle whenever we change the range.
 
-To mirror or flip the icons we can use `flip-h` (horizontal) or `flip-v` (vertical) or we can use both `flip-h flip-v` to flip both horiztontally and vertically.
+To mirror or flip the icons we can use `flip-h` (horizontal) or `flip-v` (vertical) or we can use both `flip-h flip-v` to flip both horizontally and vertically.
 
 ```
 <fa-icon [icon]="['fas', 'snowboarding']"></fa-icon>
@@ -651,7 +651,7 @@ We can combine two icons into one single color icons using mask property for `fa
 mask icon i.e., outer icon acts like background to the actual icon as shown below. 
 transform property will be applied on actual icon.
 
-In the above example headphones and pencil-alt are actual icons. Where as square and comment icons acts like background.
+In the above example headphones and pencil-alt are actual icons. Whereas square and comment icons acts like background.
 
  {{< figure src="masking fontawesome icons.png" title="masking fontawesome icons" alt="masking fontawesome icons">}} 
 
@@ -675,7 +675,7 @@ We will try to place twitter icon on top of square icon. To achieve this use the
 </fa-layers> 
 ```
 
-The above code first renderes square icon (layer one) on top of that it will add one more layer with twitter icon.
+The above code first renders square icon (layer one) on top of that it will add one more layer with twitter icon.
 
 But if you see the output you won't see anything other than square icon because both icon layers are of same color.
 
@@ -727,7 +727,7 @@ I am placing sun,moon,star on top of rotated play icon (i.e., triangle). I have 
 
  {{< figure src="fontawesome multiple icons.png" title="fontawesome multiple icons" alt="fontawesome multiple icons">}} 
 
-Placing multiple icons on top of each other has several real world usecases. 
+Placing multiple icons on top of each other has several real world use cases. 
 
 For example banning cellphones and camera symbols icons.  
 
@@ -752,7 +752,7 @@ For example banning cellphones and camera symbols icons.
  
 To add text to the icon we can use `fa-layers-text` selector inside `fa-layer` as shown below
 
-Here we are adding date to the calender icons using `fa-layer-text`.
+Here we are adding date to the calendar icons using `fa-layer-text`.
 
 ```
 <fa-layers>
