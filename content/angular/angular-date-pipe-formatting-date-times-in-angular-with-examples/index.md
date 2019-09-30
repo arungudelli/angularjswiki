@@ -1,8 +1,8 @@
 +++
-title = "Angular Date Pipe & formatting date times in Angular with examples"
+title = "Angular Date Pipe & formatting dates in Angular with examples"
 subtitle = "Learn how to format dates in Angular using Angular date Pipe"
 type="post"
-summary ="Angular date pipe used to format dates in angular according to the given datetime formats,timezone and country locale information."
+summary ="Angular date pipe used to format dates in angular according to the given date formats,timezone and country locale information."
 keywords=["angular datepipe,formatting dates in Angular"]
 date="2019-06-19T01:01:05+0000"
 lastmod="2019-06-19T18:10:05+0000"
@@ -22,19 +22,19 @@ authors = ["admin"]
 
 +++
 
-Angular date pipe used to format dates in angular according to the given datetime formats,timezone and country locale information.
+Angular date pipe used to format dates in angular according to the given date formats,timezone and country locale information.
 
-We can convert a date object, a number (milliseconds from UTC) or an ISO date strings according to given pre defined angular date formats or custom angular date formats.
+Using date pipe, we can convert a date object, a number (milliseconds from UTC) or an ISO date strings according to given predefined angular date formats or custom angular date formats.
 
 {{%toc%}}
 
-## Angular Date Pipe Syntax
+## How to Use Angular Date Pipe
 
-Angular date pipe accpets threee parameters
+Angular date pipe accpets three parameters
 
-1. format
-2. timezone
-3. locale
+1. Format
+2. Timezone
+3. Locale
 
 ```
 {{ date_Value | date [ : format [ : timezone [ : locale ] ] ] }}
@@ -52,11 +52,11 @@ Angular date pipe accpets threee parameters
 	<tbody>
 		<tr>
 			<td>format</td>
-			<td>We can pass predefined angular date formats or our custom date format as a parameter. The default value is 'mediumDate'. Optional parameter</td>
+			<td>We can pass predefined angular date formats or our custom date format as a parameter. The default value is 'mediumDate' (Optional parameter)</td>
 		</tr>
 		<tr>
 			<td>timezone</td>
-			<td>The default timezone is local system timezone of the user's machine. To change the timezone we can pass timezone offset ('0530') or standard UTC/GMT (IST) or continental US timezone abbreviation and it is optional parameter</td>
+			<td>The default timezone is local system timezone of the user's machine. To change the timezone we can pass timezone offset ('0530') or standard UTC/GMT (IST) or continental US timezone abbreviation and it is an optional parameter</td>
 		</tr>
 		<tr>
 			<td>locale</td>
@@ -68,9 +68,9 @@ Angular date pipe accpets threee parameters
 
 ## Angular Date Pipe Examples
 
-Now we will go through few examples to understand it further.
+Now we will go through few angular date pipe examples to understand it further.
 
-I have created a datepipe component in my Angular project and added current datetime values in different formats like milliseconds,date object,datetime string,ISO datetime string.
+I have created a date pipe component in my Angular project and added current datetime values in different formats like milliseconds,date object,datetime string,ISO datetime string.
 
 ```
 import { Component, OnInit } from '@angular/core';
@@ -138,13 +138,13 @@ To change the datetime format in angular we have to pass date time format parame
 
 The format 'short' is one of the predefined date formats in angular which converts our date value to **'M/d/yy, h:mm a'** format.
 
-## List of all pre-defined datetime formats in Angular
+## List of all predefined date formats in Angular
 
 <div class="table-responsive">
 <table class="table">
 	<thead>
 		<tr>
-			<th>DateTime Format</th>
+			<th>Date Format</th>
 			<th>Angular datepipe code</th>
       <th>Result</th>
 		</tr>
@@ -214,9 +214,9 @@ The format 'short' is one of the predefined date formats in angular which conver
 </table>
 </div>
 
-Angular datetime pipe has 12 pre-defined date time formats as shown in above table.
+Angular date pipe has 12 predefined date formats as shown in above table.
 
-We have to pass first parameter "format" as quoted string with the pre-defined date time format names listed below.
+We have to pass first parameter "format" as quoted string with the predefined date format names listed below.
 
 1. short
 2. medium
@@ -235,7 +235,7 @@ We have to pass first parameter "format" as quoted string with the pre-defined d
 
 In addition to the date format we can pass timezone as a parameter to date pipe to display date in particular timezone.
 
-The timezone paramter can be timezone offset ('0530') or standard UTC/GMT (IST) or continental US timezone abbreviation.
+The timezone parameter can be timezone offset ('0530') or standard UTC/GMT (IST) or continental US timezone abbreviation.
 
 For example to display to time in IST timezone
 
@@ -249,7 +249,7 @@ Today is 6/19/19, 12:29 PM
 
 ## How to display UTC date time in angular using date pipe
 
-To display UTC date and time in Angular we have to pass timezone paramters as 'UTC' or timezone offset as '+0000' as shown below
+To display UTC date and time in Angular we have to pass timezone parameters as 'UTC' or timezone offset as '+0000' as shown below
 
 ```
 Today is {{todayDate | date:'short':'UTC'}}
@@ -263,7 +263,7 @@ Today is 6/19/19, 11:11 AM
 
 To display date according to country locale format rules, We have to pass country locale code as a third parameter to angular date pipe as shown below.
 
-For example France follows Central European Summer Time and it has an timezone offset '+0200'.
+For example France follows "Central European Summer Time" and it has a timezone offset '+0200'.
 
 To display date time in french locale in Angular use locale code 'fr' as parameter as shown below
 
@@ -284,13 +284,13 @@ To add the country locale information refer [Angular currency pipe](https://www.
 
 The default date format in Angular is 'mediumDate'. 
 
-What if we want to change it and replace it with our own custom format 'EEEE d MMMM y h:mm a'
+What if we want to change it and replace it with our own custom format like 'EEEE d MMMM y h:mm a'
 
 Which displays time as 'Wednesday 19 June 2019 8:33 PM'.
 
 In our angular projects, we will be displaying dates very frequently and each time we need to pass the format parameter.
 
-To avoid this We can create our own custome date pipe with the above format, use it across the application as shown below.
+To avoid this We can create our own custom date pipe with the above format, use it across the application as shown below.
 
 ```
 {{ todayDate | customDate }}
@@ -327,14 +327,14 @@ And import `CustomDatePipe` in app.module.ts and add it in declaration array of 
    ]);
    ```
    
-Now we can use our custome date pipe in component file as shown below
+Now we can use our custom date pipe in component file as shown below
    
    ```
    {{todayDate | customDate}}
    Result:
    Thursday 20 June 2019 4:15 AM
    ```   
-## Defining Custom datetime formats in Angular
+## Defining Custom date formats in Angular
 
 In addition to the above date time formats,we can define our own custom datetime formats using the below symbols.
 
