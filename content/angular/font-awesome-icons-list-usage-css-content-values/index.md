@@ -1,9 +1,9 @@
 
 +++
-title = "1534 font awesome icons list,usage,css content values cheatsheet"
+title = "Font Awesome Icons list & Font Awesome CSS content values cheatsheet"
 subtitle = "Complete list of 1534 free font awesome icons cheatsheet"
 type="post"
-summary ="To use font awesome icons, add the font awesome icons cdn link css file in head section & display fa icons using class name with the prefix fa followed by the fa icon name"
+summary ="This post contains complete font awesome icons list with their CSS content values and step by step tutorial to use font awesome icons in our webpages"
 keywords=["font awesome icons,font awesome icons list,fa icons list,icons"]
 date="2019-07-14T01:01:05+0000"
 lastmod="2019-07-14T17:18:08+0000"
@@ -22,7 +22,11 @@ categories=["faicons"]
 
 +++
 
-In font awesome 5.9 version we have around 1534 free icons.Free font awesome icons divided into three categories. 
+This post contains complete font awesome icons list with their CSS content values and step by step tutorial to use font awesome icons in our webpages.
+
+In font awesome 5.9 version we have around 1534 free icons.
+
+And these free font awesome icons divided into three categories. 
 
 1. font awesome solid icons
 2. font awesome regular icons
@@ -142,7 +146,7 @@ To display twitter icon using Pseudo element use the following CSS content code
 
 ## Complete Font Awesome Icons List
 
-Here is the complete list of 1534 free font awesome icons
+Here is the complete list of 1534 free font awesome icons cheatsheet.
 
 ## Font Awesome Icons List - Solid Icons
 
