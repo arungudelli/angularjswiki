@@ -54,3 +54,7 @@ npm list -global --depth 0
 +-- typescript@3.5.3
 `-- UNMET PEER DEPENDENCY zone.js@~0.8.26
 ```
+
+To Update the Angular CLI version follow the below Tutorial
+
+[How To Update Angular CLI Version](https://www.angularjswiki.com/angular/update-angular-cli-version-ng-update-to-latest-6-7-versions/)
