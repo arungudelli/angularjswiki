@@ -152,7 +152,7 @@ Now our template html file became more complex in addition to the new font aweso
 ```
 ## Pass a method to ngClass
 
-To avoid this we can simply move the logic to a method in our component ts file.
+To avoid this we can simply move the logic to a method in our component ts file and pass that method to `[ngClass]`
 
 ```
 <div [ngClass]="getClass(info.priority)">{{info.text}}</div>
