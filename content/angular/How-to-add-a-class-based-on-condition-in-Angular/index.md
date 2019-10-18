@@ -22,6 +22,10 @@ We can add a single class or multiple classes dynamically based upon the conditi
 
 We will go through few examples to understand it further.
 
+{{%toc%}}
+
+## Add a Class based upon the condition
+
 To add a single conditional class we can use the above syntax
 
 We can directly pass `true` or `false` to add a class.
@@ -69,6 +73,8 @@ If the the `priority` is less than 10 will add `message` class, if it's between 
 <div [ngClass]="{'message': info.priority<10}">{{info.text}}</div> 
 ```
 
+## Add a class based on multiple conditions
+
 And in case of `warn` class we need to add it based upon multiple conditions. We can pass conditional expression as an object key as shown. 
 
 ```
@@ -109,6 +115,8 @@ Now to the information `div` we can pass the above three conditional classes.
 ```
 The code might be little bit weird, but only single class will be added at run time.
 
+## Add multiple Classs using ngClass
+
 In addition to that we can add multiple classes based upon the conditions.
 
 In the above information text, we need to add an icon in case of class `error`.
@@ -142,6 +150,7 @@ Now our template html file became more complex in addition to the new font aweso
 
 </div>
 ```
+## Pass a method to ngClass
 
 To avoid this we can simply move the logic to a method in our component ts file.
 
