@@ -149,7 +149,14 @@
     <script>
         // $('#TableOfContents > ul > li > ul').unwrap().unwrap();
         window.addEventListener('load', function() {
-
+        
+        var languageSelector = document.querySelector("#langselect");
+        
+        languageSelector.addEventListener('click',function(){
+           var langMenu = document.querySelector("#lang");
+           langMenu.classList.add("show")
+        });
+        
         var navigator = document.querySelector('.navbar-toggler');
         navigator.addEventListener('click',function(){
             var menu=document.getElementById('navbar');
