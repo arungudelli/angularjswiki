@@ -89,6 +89,8 @@ export class AngularpipeComponent implements OnInit {
 
 And transform method accepts same parameters as datepipe, you can see it in visual studio code intelligence as shown below.
 
+ {{< figure src="use date pipe in component ts files.png" title="use date pipe in component ts files" alt="use date pipe in component ts files">}} 
+
 The above method works in every verison of Angular.
 
 In laterst version of Angular i.e., from version 6 we can directly use angular pipes's public methods inside the components to format the values.
