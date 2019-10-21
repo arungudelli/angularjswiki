@@ -63,7 +63,6 @@
 .dropdown{
   position: relative;
   margin-left:5px;
-  border:1px solid;
 }
 .dropdown .nav-link{
   font-size: 12px;
@@ -103,6 +102,18 @@ color:black;
 }
 .dropdown-menu.show {
     display: block;
+}
+.arrow-down{
+  width: 0;
+    height: 0;
+    float:left;
+    margin-left:3px;
+    border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 10px solid black;
+}
+.lang-name{
+  float:left;
 }
   </style>  
   {{ $js := .Site.Data.assets.js }}

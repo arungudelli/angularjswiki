@@ -103,7 +103,11 @@
         
         <li class="nav-item dropdown" id="langselect">
           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-            <span>{{ index .Site.Data.i18n.languages .Lang }}</span>
+            <div class="lang-sec">
+            <div class="lang-name">{{ index .Site.Data.i18n.languages .Lang }}</div>
+            <div class="arrow-down"></div>
+            </div>
+
           </a>
           <ul class="dropdown-menu" id="lang">
             {{ range .Translations }}
@@ -115,6 +119,7 @@
             {{ end }}
           </ul>
         </li>
+
         {{ end }}
         
         
