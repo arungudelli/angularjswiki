@@ -1,5 +1,7 @@
+{{ $ := .root }}
+{{ $i18n := "subscription_text" }}
 <div id="mc_embed_signup">
-Get free link to download 900+ material icons
+   {{ i18n $i18n | default "Get free link to download 900+ material icons" }}
 <form id="mc-embedded-subscribe-form" class="validate" action="https://angularjswiki.us18.list-manage.com/subscribe/post?u=e192476b173f610e0808e2561&amp;id=236d3dbb17" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
 <div id="mc_embed_signup_scroll">
         <table class="subbox">
