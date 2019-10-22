@@ -6,7 +6,7 @@ summary ="We can take full advantage of ngIfThen,ngIfElse template references in
 keywords=["ngif in angular,ngif with else,ngif with then,ngif with then and else"]
 date="2018-08-05T01:01:05+0000"
 lastmod="2018-10-15T16:53:28+0000"
-draft=false
+draft=true
 authors = ["admin"]
 +++
 

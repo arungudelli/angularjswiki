@@ -6,7 +6,7 @@ summary ="We can create a beatiful Progress bar in Angular using mat-progress-ba
 keywords=["mat-progress-bar,angular material progress bar,mat-progress-bar example"]
 date="2018-08-20T01:01:05+0000"
 lastmod="2018-11-15T17:02:19+0000"
-draft=false
+draft=true
 authors = ["admin"]
 
 

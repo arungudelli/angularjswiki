@@ -6,7 +6,7 @@ summary ="To capitalize first letter of each word in Angular use Angular&#039;s 
 keywords=["capitalize first letter of each word in angular,angular titlecase pipe"]
 date="2019-02-09T01:01:05+0000"
 lastmod="2019-07-22T18:10:05+0000"
-draft=false
+draft=true
 authors = ["admin"]
 
 

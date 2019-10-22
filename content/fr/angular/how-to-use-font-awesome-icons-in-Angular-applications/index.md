@@ -6,7 +6,7 @@ summary ="Step by step tutotial to use Font Awesome icons in Angular application
 keywords=["Font Awesome icons in Angular,Font Awesome"]
 date="2019-06-09T01:01:05+0000"
 lastmod="2019-06-09T13:15:51+0000"
-draft=false
+draft=true
 authors = ["admin"]
 
 [image]

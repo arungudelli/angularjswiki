@@ -6,7 +6,7 @@ summary ="Node js Required to develop angular 2 or angular apps. This tutorial e
 keywords=["angular 2,angular,nodejs,why node js required for angular,angular 4"]
 date="2018-02-11T01:01:05+0000"
 lastmod="2018-10-15T17:00:48+0000"
-draft=false
+draft=true
 authors = ["admin"]
 
 [image]

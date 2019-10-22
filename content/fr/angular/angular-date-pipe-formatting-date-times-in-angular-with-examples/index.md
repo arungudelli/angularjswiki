@@ -6,7 +6,7 @@ summary ="Angular date pipe used to format dates in angular according to the giv
 keywords=["angular datepipe,formatting dates in Angular"]
 date="2019-06-19T01:01:05+0000"
 lastmod="2019-06-19T18:10:05+0000"
-draft=false
+draft=true
 authors = ["admin"]
 
 

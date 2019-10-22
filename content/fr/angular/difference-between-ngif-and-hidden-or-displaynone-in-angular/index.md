@@ -6,7 +6,7 @@ summary ="The main difference between angular ngIf directive &amp; hidden or dis
 keywords=["ngif in angular,hidden,ngif vs hidden"]
 date="2018-08-02T01:01:05+0000"
 lastmod="2018-10-15T16:54:45+0000"
-draft=false
+draft=true
 authors = ["admin"]
 +++
 

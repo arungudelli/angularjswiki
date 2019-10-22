@@ -6,7 +6,7 @@ summary ="KeyValue pipe released in Angular 6.1 to loop through objects,Maps and
 keywords=["angular keyvalue pipe,angular 6.1,loop object key values using *ngfor,ngfor,angular *ngfor"]
 date="2018-08-15T01:01:05+0000"
 lastmod="2019-01-30T04:58:49+0000"
-draft=false
+draft=true
 authors = ["admin"]
 [image]
   caption = "Angular keyValue pipe"

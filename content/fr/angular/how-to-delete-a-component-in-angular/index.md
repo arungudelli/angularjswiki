@@ -6,7 +6,7 @@ summary ="Steps to delete a component in Angular1.Remove the import line referen
 keywords=["delete component in angular,ng delete component command"]
 date="2019-02-08T01:01:05+0000"
 lastmod="2019-02-09T04:44:37+0000"
-draft=false
+draft=true
 authors = ["admin"]
 
 [image]

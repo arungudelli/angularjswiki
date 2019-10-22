@@ -6,7 +6,7 @@ summary ="This artile explains history of angularjs like who invented angularjs,
 keywords=["angularjs,getangular,history of angularjs,angular"]
 date="2018-01-30T01:01:05+0000"
 lastmod="2018-10-15T17:02:04+0000"
-draft=false
+draft=true
 authors = ["admin"]
 +++
 

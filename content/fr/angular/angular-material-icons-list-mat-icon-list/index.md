@@ -7,7 +7,7 @@ summary ="mat-icon selector used to display Material icons in Angular.We have ar
 keywords=["angular material icons list,mat-icon list,material design,icons,mat-icon"]
 date="2018-08-16T01:01:05+0000"
 lastmod="2019-03-30T17:18:08+0000"
-draft=false
+draft=true
 authors = ["admin"]
 categories=["icons"]
 [image]

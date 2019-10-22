@@ -6,7 +6,7 @@ summary ="Explains Angular local development environment set up with Angular CLI
 keywords=["angular 7,angular 4,angular 2 local environment setup"]
 date="2018-02-12T01:01:05+0000"
 lastmod="2018-10-15T17:00:23+0000"
-draft=false
+draft=true
 authors = ["admin"]
 [image]
   caption = "Angular 7 Local Environment Setup"

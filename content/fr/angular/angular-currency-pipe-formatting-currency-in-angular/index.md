@@ -6,7 +6,7 @@ summary ="Angular Currency Pipe is one of the bulit in pipe in Angular used to f
 keywords=["angular currency pipe,formatting currency in angular"]
 date="2019-02-09T01:01:05+0000"
 lastmod="2019-02-10T13:40:49+0000"
-draft=false
+draft=true
 authors = ["admin"]
 
 [image]

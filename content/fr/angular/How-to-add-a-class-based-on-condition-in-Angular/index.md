@@ -6,7 +6,7 @@ keywords=["conditional class angular,add class dynamically in Angular,ngClass an
 date="2019-10-17T01:01:05+0000"
 lastmod="2019-10-17T02:45:18+0000"
 type="post"
-draft=false
+draft=true
 authors = ["admin"]
 
 +++

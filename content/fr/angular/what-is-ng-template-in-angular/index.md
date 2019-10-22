@@ -6,7 +6,7 @@ summary ="ng-template is a virtual element and its contents are displayed only w
 keywords=["ng-template,ng-template tag in angular,ng-template and *ngif,ng-template and *ngfor,ng-template and ngswitch"]
 date="2018-08-10T01:01:05+0000"
 lastmod="2019-01-30T05:31:49+0000"
-draft=false
+draft=true
 authors = ["admin"]
 
 [image]

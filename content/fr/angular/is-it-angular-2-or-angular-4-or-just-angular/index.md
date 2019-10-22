@@ -6,7 +6,7 @@ summary ="Explains the version change history of Angular 2 or angular &amp; why 
 keywords=["angular 2,angular 4,version history of angular 2,angular"]
 date="2018-02-10T01:01:05+0000"
 lastmod="2018-10-15T17:01:18+0000"
-draft=false
+draft=true
 authors = ["admin"]
 
 +++

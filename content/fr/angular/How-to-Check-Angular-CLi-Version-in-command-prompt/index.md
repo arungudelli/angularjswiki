@@ -6,7 +6,7 @@ keywords=["Angular CLI verison,Angular CLI version Command"]
 date="2019-10-16T01:01:05+0000"
 lastmod="2019-10-16T02:45:18+0000"
 type="post"
-draft=false
+draft=true
 authors = ["admin"]
 
 +++
