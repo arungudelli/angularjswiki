@@ -7,9 +7,9 @@
   languageCode = "en-us"
   contentDir = "content/en"
 
-[pt-br]
-languageCode = "pt-br"
-contentDir = "content/pt-BR"
+[fr]
+languageCode = "fr"
+contentDir = "content/fr"
 
 # Uncomment the lines below to configure your website in a second language.
 #[zh]
