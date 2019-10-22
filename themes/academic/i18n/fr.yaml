@@ -225,4 +225,10 @@
   translation: En savoir plus
 
 - id: subscription_text
-  translation: Obtenir un lien gratuit pour télécharger 900+ Material Icons   
+  translation: Obtenir un lien gratuit pour télécharger 900+ Material Icons
+
+- id: subscribe
+  translation : S'abonner
+
+- id: name
+  translation : Nom
