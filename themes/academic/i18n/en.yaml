@@ -223,3 +223,6 @@
 
 - id: name
   translation : Name
+
+- id: spread_text
+  translation: Spread the word 

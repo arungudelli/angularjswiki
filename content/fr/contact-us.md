@@ -1,6 +1,6 @@
 +++
-title = "Contact Us"
+title = "Contactez-moi"
 draft=false
 +++
-You can contact me via arunkumar.gudelli@gmail.com
+Vous pouvez me contacter via arunkumar.gudelli@gmail.com
 

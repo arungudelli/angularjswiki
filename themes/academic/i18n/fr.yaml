@@ -232,3 +232,6 @@
 
 - id: name
   translation : Nom
+
+- id: spread_text
+  translation: Passez le mot 
