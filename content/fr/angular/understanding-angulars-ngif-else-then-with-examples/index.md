@@ -91,31 +91,34 @@ Angular convertira l'attribut `*ngif` en élément `<ng-template>` comme indiqu�
 
 Maintenant, la définition ci-dessus a un sens. 
 
- `then` template is `<div>Hi I am Visible</div>` which is inline,and there is no `else` template.
+"then template" est `<div>Hi I am Visible</div>` qui est inline.
+ Il n'y a pas d' "else template".
 
-The asterisk is just a syntactic sugar to <a href="https://www.angularjswiki.com/angular/what-is-ng-template-in-angular/" target="_blank" rel="noopener">ng-template</a>
+L'astérisque n'est qu'un sucre syntaxique de l'élément [https://www.angularjswiki.com/angular/what-is-ng-template-in-angular/](ng-template).
 
-And If you see the generated HTML,no element will be added to the DOM if `ngIf` expression evaluated to `false`.
+Et si vous voyez le HTML généré, aucun élément ne sera ajouté au DOM si la condition de `ngIf` est `false`.
 
 {{< figure src="ngif.png" title="ngif" alt="ngif">}} 
 
-So why angular will remove the element rather than hiding it. Go through the below article to understand it further.
+Alors pourquoi angular enlèvera l'élément plutôt que de le cacher ?
 
-<a href="https://www.angularjswiki.com/angular/difference-between-ngif-and-hidden-or-displaynone-in-angular/" target="_blank" rel="noopener">Difference between ngIf and hidden in Angular</a>
+Lire la suite
+[https://www.angularjswiki.com/angular/difference-between-ngif-and-hidden-or-displaynone-in-angular/](Différence entre ngIf et "hidden" dans Angular)
 
-We can use `ngIf` in four different ways
+Nous pouvons utiliser `ngIf' de quatre manières différentes
 
-  1. Simple `ngIf` (as explained above)
-  2. `*ngIf` with `else`
-  3. `*ngIf` with `then`
-  4. `*ngIf` with `then` and `else`
+  1. Simple `ngIf' (comme expliqué ci-dessus)
+  2. "*ngIf" avec "else"
+  3. "*ngIf" avec "then"
+  4. "*ngIf" avec "then" et "else"
 
-Now how can we write `*ngIf else` in Angular? 
-we need bind `else` template to `*ngIf`
+Maintenant, comment pouvons-nous écrire `*ngIf else` en angular ? 
+
+nous avons besoin de lier `else' template à `*ngIf''.
 
 ## Using *ngIf else in Angular with example
 
-Now we will see how to write `*ngIf` else by using Angular's `<ng-template>` with a simple example.
+Nous apprendrons à écrire "*ngIf else" en utilisant le `<ng-template>` d'Angular avec un exemple simple.
 
 ```
 <div *ngIf="display; else elseTemplate" class="main">
@@ -128,9 +131,10 @@ Now we will see how to write `*ngIf` else by using Angular's `<ng-template>` wit
 </ng-template>
 ```
 
-`else` binding points to a `<ng-template>` labeled as `#elseTemplate`. If the condition or expression is true then default inline template will be rendered otherwise else template will be rendered.
+Le bloc `else` pointe vers un `<ng-template>` étiqueté `#elseTemplate`.
+Si la condition ou l'expression est vraie, "inline template" sera rendu par défaut sinon else template sera rendu.
 
-And this template can be defined anywhere in the component view, But as a good practice and to improve readability it is defined right below the `ngIf` block.
+Et ce template peut être défini n'importe où dans la vue des composants, mais comme une bonne pratique et pour améliorer la lisibilité, il est défini juste en dessous du bloc `ngIf`.
 
 ```
 import { Component, OnInit } from '@angular/core';
@@ -166,7 +170,7 @@ export class NgifelseComponent implements OnInit {
 ```
 
 
-I have declared `else` template above the `*ngIf` block in `NgIfElseComponent` view, But avoid declaring like this as it is difficult to understand.
+J'ai déclaré "else template" au-dessus du bloc `*ngIf' dans la vue `NgIfElseComponent', mais évitez d'écrire ainsi car c'est difficile à comprendre.
 
 The above `*ngIf else` block will be converted to the following `<ng-template>` element
 

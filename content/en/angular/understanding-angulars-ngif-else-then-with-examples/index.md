@@ -94,7 +94,7 @@ The asterisk before `ngIf` makes our life simple. Angular will convert `*ngif` 
 </ng-template>
 ```
 
-Now the above definition makes sense. `then` template is `<div>Hi I am Visible</div>` which is inline,and there is no `else` template.
+Now the above definition makes sense. `then` template is `<div>Hi I am Visible</div>` which is inline and there is no `else` template.
 
 The asterisk is just a syntactic sugar to <a href="https://www.angularjswiki.com/angular/what-is-ng-template-in-angular/" target="_blank" rel="noopener">ng-template</a>
 
