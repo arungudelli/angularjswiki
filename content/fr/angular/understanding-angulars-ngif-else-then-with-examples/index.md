@@ -172,7 +172,7 @@ export class NgifelseComponent implements OnInit {
 
 J'ai déclaré "else template" au-dessus du bloc `*ngIf' dans la vue `NgIfElseComponent', mais évitez d'écrire ainsi car c'est difficile à comprendre.
 
-The above `*ngIf else` block will be converted to the following `<ng-template>` element
+Le bloc `*ngIf else` ci-dessus sera converti en l'élément `<ng-template>` suivant.
 
 ```
 <ng-template [ngIf]="display" [ngIfElse]="elseTemplate"> 
@@ -189,9 +189,11 @@ The above `*ngIf else` block will be converted to the following `<ng-template>`
 
 ## Using *ngIf with alternative then template in Angular
 
-By default, the `then` template of `*ngIf` is the inline template. We can change the inline template of `ngIf` by binding  `<ng-template>` just like else binding as explained above.
+Par défaut, le "then template" de `*ngIf` est le "inline template".
 
-See the below example
+Pour changer le inline template de `ngIf`, il suffit de lier "then block" à l'alternative `<ng-template>`.
+
+Voir l'exemple ci-dessous
 
 ```
 import { Component, OnInit } from '@angular/core';
@@ -217,17 +219,19 @@ ngOnInit() {}
 </ng-template>
 ```
 
-You might think that why we need `[ngIfThen]` template reference when we have Inline template.
+Vous pourriez penser que pourquoi nous avons besoin d'une référence de template `[ngIfThen]` quand nous avons un template Inline.
 
-we can change the `then` or `else` templates dynamically at run time by taking advantage of these `[ngIfThen]` and `[ngIfElse]` Go through the below article to understand it further
+nous pouvons changer les blocs "then" ou "else" dynamiquement au moment de l'exécution en profitant de ces `[ngIfThen]` et `[ngIfElse]`
 
-<a href="https://www.angularjswiki.com/angular/dynamically-change-ngif-thenelse-templates-at-runtime-in-angular/" target="_blank" rel="noopener">Dynamically Change NgIf, Then,Else Templates At Run time In Angular</a>
+Lire l'article
+
+[https://www.angularjswiki.com/angular/dynamically-change-ngif-thenelse-templates-at-runtime-in-angular/](Modifier dynamiquement NgIf "Then", "Else" Templates Au moment de l'exécution Dans Angular)
 
 ## *ngif else and then templates example in Angular
 
-We can pass both `else` template and `then` template to `*ngIf` directive as shown below. 
+Nous pouvons lier à la fois "else template" et "then template" à la directive `*ngIf` comme indiqué ci-dessous. 
 
-And default inline template will be ignored in this case.
+Et dans ce cas, le "inline template" par défaut sera ignoré.
 
 ```
 <div *ngIf="display; then thenTemplate; else elseTemplate">
@@ -241,7 +245,7 @@ And default inline template will be ignored in this case.
 </ng-template>
 ```
 
-And this will be converted to
+Et ceci sera converti en
 
 ```
 <ng-template [ngIf]="display" [ngIfThen]="thenTemplate" [ngIfElse]="elseTemplate">
