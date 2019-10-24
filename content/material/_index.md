@@ -1,17 +1,27 @@
 +++
-title = "Overview"
-date = 2018-09-09T00:00:00
-# lastmod = 2018-09-09T00:00:00
+title = "Angular Flex Layout Tutorial with examples"
+date = 2019-04-24T00:00:00
+lastmod = 2019-04-24T01:00:00
 
 draft = true  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
+parentdoc = "flexlayout"
+next="flexlayout/basics"
+featured="angular flex layout tutorial.jpg"
+authors = ["admin"]
+summary ="Understanding Angular flex layout and flex layout advantages over css flexbox approach"
+keywords=["Angular flex layout,flexbox css"]
 
 # Add menu entry to sidebar.
+
+linktitle = "Introduction"
 [menu.material]
-  name = "Overview"
+  parent = "Tutorial"
   weight = 1
+
 +++
+
 
 This feature can be used for publishing content such as:
 
