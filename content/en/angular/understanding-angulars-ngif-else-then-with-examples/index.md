@@ -21,17 +21,24 @@ authors = ["admin"]
 
 +++
 
+To write **ngIf else in angular** we need to define "else" template for `*ngIf` directive.
+
+`*ngIf` displays or removes an element from DOM based on the given condition. 
+
 To write **ngIf else in angular** we need to pass else template to `*ngIf`.`*ngIf` directive displays or removes an element from DOM based on the condition passed.
 
 we can use `async` pipe with `*ngIf` to handle the data coming from an observable in a better way.
 
-The syntax and usage of `*ngIf` directive is same in all the versions of Angular.
+In all versions of Angular, the syntax of `*ngif` directive is same.
 
 {{%toc%}}
 
 ## Using *ngIf in Angular with example
 
-`*ngIf` evaluates the passed expression & then renders the `then` or `else` templates. Look at the below example
+`*ngIf` evaluates the given condition & then renders the "then template" or "else template".
+
+ Look at the below example
+
 
 ```
 <div *ngIf="display">Hi I am Visible</div>
@@ -41,10 +48,13 @@ If `display` property is true then the `<div>` element will be added to the DOM.
 
 The default templates of `*ngIf` are
 
-  * `then` template is inline template of `ngIf`(in above inline template means `<div>Hi I am Visible</div>`)
-  * `else` template is blank (and there is no `else` template)
+  * `then template` is inline template of `ngIf`
+  * `else template` is blank
 
-Or we can bind alternative templates based upon our usage.
+In the above code inline template is `<div>Hi I am Visible</div>` and there is no `else template`
+
+
+Or we can bind alternative templates to `*ngif` based upon our usage.
 
 `*ngIf` is a directive that means we can add it to any HTML element or component
 

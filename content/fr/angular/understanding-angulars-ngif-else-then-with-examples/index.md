@@ -21,48 +21,53 @@ authors = ["admin"]
 
 +++
 
-To write **ngIf else in angular** we need to pass else template to `*ngIf`.`*ngIf` directive displays or removes an element from DOM based on the condition passed.
+Pour écrire "ngIf else" dans angular, il faut définir un modèle "else" pour la directive "*ngIf".
+"*ngIf" affiche ou supprime un élément du DOM en fonction de la condition donnée. 
 
-we can use `async` pipe with `*ngIf` to handle the data coming from an observable in a better way.
+"*ngIf" combiné avec "async pipe" est très utile lors de la lecture de données à partir d'un fichier observable.
 
-The syntax and usage of `*ngIf` directive is same in all the versions of Angular.
-
+Dans toutes les versions de Angular, la syntaxe de la directive `*ngif` est la même.
 {{%toc%}}
 
 ## Using *ngIf in Angular with example
 
-`*ngIf` evaluates the passed expression & then renders the `then` or `else` templates. Look at the below example
+`*ngIf` évalue la condition donnée et rend ensuite le "then template" ou "else template".
+
+ Regardez l'exemple ci-dessous
 
 ```
 <div *ngIf="display">Hi I am Visible</div>
 ```
 
-If `display` property is true then the `<div>` element will be added to the DOM. Otherwise, no element will be added.
+Si la propriété `display` est vraie alors l'élément `<div>' sera ajouté au DOM. Sinon, aucun élément ne sera ajouté.
 
-The default templates of `*ngIf` are
+Les templates par défaut de `*ngIf` sont
 
-  * `then` template is inline template of `ngIf`(in above inline template means `<div>Hi I am Visible</div>`)
-  * `else` template is blank (and there is no `else` template)
+  * "then template" est inline template de `ngIf`.    
+  * "else template" est vide 
 
-Or we can bind alternative templates based upon our usage.
+Dans le code ci-dessus, inline template est `<div>Hi I am Visible</div>` et il n'y a pas else template.
 
-`*ngIf` is a directive that means we can add it to any HTML element or component
+Nous pouvons lier des templates alternatifs à `*ngif` en fonction de notre utilisation.
+
+`*ngIf` est une directive qui signifie que nous pouvons l'ajouter à n'importe quelle "HTML tag"
 
 ```
 <p *ngIf="display">Visible only if display is true</p>
 ```
 
-Or we can apply it to other angular components, for instance, <a href="https://www.angularjswiki.com/angular/checkbox-implementation-in-angular-using-angular-material/" target="_blank" rel="noopener">material checkbox</a> component
+Ou nous pouvons l'appliquer à d'autres composants angular, par exemple le composant (Material Checkbox)[https://www.angularjswiki.com/angular/checkbox-implementation-in-angular-using-angular-material/].
 
 ```
 <mat-checkbox *ngIf="display">Material Checkbox</mat-checkbox>
 ```
+La syntaxe est très simple, nous devons ajouter un préfixe, astérisque(*) avant le nom de la directive `ngIf'.
 
-The syntax is very simple we need to add a prefix, asterisk(*) before the directive name `ngIf`.
+Alors pourquoi devons-nous ajouter l'astérisque avant le nom de la directive ?
 
-So why we need to add the asterisk before the directive name?
+L'astérisque devant " ngIf " nous simplifie la vie. 
 
-The asterisk before `ngIf` makes our life simple. Angular will convert `*ngif` attribute to `<ng-template>` element as displayed below.
+Angular convertira l'attribut `*ngif` en élément `<ng-template>` comme indiqué ci-dessous.
 
 ```
 <div *ngIf="display" class="inline">Hi I am Visible</div> 
@@ -84,7 +89,9 @@ The asterisk before `ngIf` makes our life simple. Angular will convert `*ngif` 
 </ng-template>
 ```
 
-Now the above definition makes sense. `then` template is `<div>Hi I am Visible</div>` which is inline,and there is no `else` template.
+Maintenant, la définition ci-dessus a un sens. 
+
+ `then` template is `<div>Hi I am Visible</div>` which is inline,and there is no `else` template.
 
 The asterisk is just a syntactic sugar to <a href="https://www.angularjswiki.com/angular/what-is-ng-template-in-angular/" target="_blank" rel="noopener">ng-template</a>
 
