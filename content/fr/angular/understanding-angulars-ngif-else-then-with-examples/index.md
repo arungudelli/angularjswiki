@@ -261,7 +261,9 @@ Et ceci sera converti en
 
 ## *ngif with Logical Operators AND (&&), OR(||), NOT(!)
 
-We can pass logical operators AND (&&),OR(||) and NOT(!) in *ngif condition. Here are the examples.
+Nous pouvons utiliser les opérateurs logiques AND (&&&),OR(|||) et NOT( !) en condition *ngif.
+
+En voici des exemples.
 
 ```
 <!-- logic AND && operator -->
@@ -282,7 +284,10 @@ Visible only when display is false.
 
 ## Using `*ngIf as syntax` to store `*ngIf` condition in a local variable
 
-We can save th `*ngIf` condition in a local variable using `as` so that we can use it in template. Have a look at the below example.
+Nous pouvons sauvegarder la condition `*ngIf` dans une variable locale en utilisant `as` et nous pouvons l'utiliser dans le template.
+
+Jetez un coup d'oeil à l'exemple ci-dessous.
+
 
 ```
 <div *ngIf="display as ngIfCondition;else elseTemplate">
@@ -294,13 +299,16 @@ We can save th `*ngIf` condition in a local variable using `as` so that we can u
 </ng-template>
 ```
 
-We are storing `*ngIf` condition in a local variable called `ngIfCondition`.So that we can use it in `then` or `else` templates if required.
+J'ai sauvegardé la condition `*ngIf` dans une variable locale appelée `ngIfCondition`.
+Pour que nous puissions l'utiliser dans "else template" ou "then template" si nécessaire.
 
-And in `<ng-template>` we have to pass local variable prefixing with `let` keyword.
+And in `<ng-template>` we must use the prefix `let` before the variable.
 
-You might wonder why this is useful, because anyway the expression is going to be `true` or `false`. Or we can simply use `{{display}}` instead of declaring local variable `ngIfCondition`.
+Vous vous demandez peut-être pourquoi c'est utile, parce que de toute façon l'expression va être "true" ou "false". Ou nous pouvons simplement utiliser `{{display}}` au lieu de déclarer la variable locale `ngIfCondition`.
 
-`display` variable is readily available at the time of `*ngIf` evaluation.What if the  variable is asynchronous and coming from an observable.
+La variable `display` est statique et disponible au moment de l'évaluation `*ngIf`.
+
+Et si la variable est asynchrone ? et provient d'une observable ?
 
 ## Using *ngIf async pipe with observable example
 

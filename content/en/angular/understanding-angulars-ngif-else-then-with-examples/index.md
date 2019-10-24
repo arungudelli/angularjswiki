@@ -277,7 +277,7 @@ Visible only when display is false.
 
 ## Using `*ngIf as syntax` to store `*ngIf` condition in a local variable
 
-We can save th `*ngIf` condition in a local variable using `as` so that we can use it in template. Have a look at the below example.
+We can save the `*ngIf` condition in a local variable using `as` so that we can use it in template. Have a look at the below example.
 
 ```
 <div *ngIf="display as ngIfCondition;else elseTemplate">
