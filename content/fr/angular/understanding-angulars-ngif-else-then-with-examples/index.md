@@ -331,12 +331,12 @@ Nous allons lier des données de produit provenant d'un observable à un composa
 </div>
 ```
 
-We should use pipe on every property we want to display.
+On devrait utiliser des tuyaux sur toutes les propriétés qu'on veut montrer.
 
-The problem with above approach is
+Le problème avec l'approche ci-dessus est le suivant
 
-  * We are using pipe on every property, this creates subscription each time async pipe is used. In the above example we will create 4 subscriptions.
-  * To prevent this we can use rxjs share() operator to share subscription with multiple subscribers.
+  * Nous avons utilisé des tuyaux sur chaque propriété, ce qui crée un abonnement chaque fois que des tuyaux asynchrones sont utilisés. Dans l'exemple ci-dessus, nous allons créer 4 abonnements.
+  * Pour éviter cela, nous pouvons utiliser rxjs share() operator pour partager l'abonnement avec plusieurs abonnés.
 
 ```
  product: Observable<{}>;
@@ -346,10 +346,10 @@ The problem with above approach is
       }
 ```
 
-  * But the component view remains the same foreach property we have to use `async` pipe and ? Operator
-  * And we cannot display alternate template during the data load.
+   * Mais la vue composant reste la même, pour chaque propriété il faut utiliser "async pipe" et " ? Opérateur"
+  * Et nous ne pouvons pas afficher de "templates alternatifs" pendant le chargement des données.
 
-The ideal solution will be something like below
+La solution idéale sera la suivante.
 
 ```
  if(product){
@@ -363,7 +363,7 @@ The ideal solution will be something like below
     }
 ```    
 
-That is exactly what *ngIf will does with async pipe with observable by using `*ngIf as` syntax
+C'est exactement ce que `*ngIf` fera avec "async pipe" avec observable en utilisant la syntaxe `*ngIf as`.
 
 ```
 <h1>*ngIf async pipe with observable</h1>
@@ -388,16 +388,18 @@ That is exactly what *ngIf will does with async pipe with observable by using `*
 </ng-template>
 ```
 
-we will dig into the code and see what is happening here
+nous allons creuser dans le code et voir ce qui se passe ici
 
 ```
 <div *ngIf="product | async as productItem; else loading">
 ```
-We are passing product observable to *ngIf with async pipe and storing it in `productItem` local variable.
+Nous passons le produit observable à "*ngIf avec async pipe" et le stockons dans la variable locale `productItem`.
 
-Initially if product is null it will show the loading template.Once product is available it will show inline template of `*ngIf`
+Initialement, si le produit est nul, il affichera le "#Loading template", une fois le produit disponible, il affichera "Inline template" de `*ngIf`.
 
-The above code with *ngIf is very clean and easy to understand. We are removing unwanted safe-traversal-operator.? operator and multiple subscriptions.
 
-I hope you understood the basic concepts of the `*ngIf` directive with then and else templates.
+Le code ci-dessus avec *ngIf est très propre et facile à comprendre. Nous supprimons les opérateurs de safe-traversal-opérateur non désirés et les abonnements multiples.
+
+
+J'espère que vous avez compris les concepts de base de la directive `*ngIf' avec "then template" et "else templates".
 
