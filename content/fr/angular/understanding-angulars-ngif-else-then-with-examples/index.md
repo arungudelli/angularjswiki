@@ -312,7 +312,7 @@ Et si la variable est asynchrone ? et provient d'une observable ?
 
 ## Using *ngIf async pipe with observable example
 
-We will bind some product data coming from an Observable to a component using `async` pipe.
+Nous allons lier des données de produit provenant d'un observable à un composant à l'aide d'un "async pipe".
 
 ```
 <div>
