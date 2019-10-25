@@ -1,11 +1,11 @@
 +++
-title = "NgIf Else In Angular & *NgIf Else Async Pipe Observable Example"
+title = "NgIf Else In Angular & *NgIf Async Pipe Observable Example"
 subtitle = "Understanding ngIf else in Angular"
 type="post"
-summary ="To write ngIf else in angular,we need to pass else template to *ngIf.*ngIf directive displays or removes an element from DOM based on the condition passed"
+summary ="Angular's *ngIf directive displays or removes an element from DOM based on the condition passed.To write ngIf else in angular,we need to define else template for *ngIf."
 keywords=["ngif in angular,ngif else in angular,ngif with then,ngif else and then templates in angular"]
 date="2018-08-04T01:01:05+0000"
-lastmod="2019-10-18T16:20:19+0000"
+lastmod="2019-10-26T16:20:19+0000"
 draft=false
 authors = ["admin"]
 
@@ -21,24 +21,21 @@ authors = ["admin"]
 
 +++
 
+Angular's **ngIf** directive displays or removes an element from DOM based on given condition.
+
 To write **ngIf else in angular** we need to define "else" template for `*ngIf` directive.
 
-`*ngIf` displays or removes an element from DOM based on the given condition. 
-
-To write **ngIf else in angular** we need to pass else template to `*ngIf`.`*ngIf` directive displays or removes an element from DOM based on the condition passed.
-
-we can use `async` pipe with `*ngIf` to handle the data coming from an observable in a better way.
+we can use `async` pipe with `*ngIf` to read the data coming from an observable.
 
 In all versions of Angular, the syntax of `*ngif` directive is same.
 
 {{%toc%}}
 
-## Using *ngIf in Angular with example
+## Understand *ngIf in Angular with example
 
 `*ngIf` evaluates the given condition & then renders the "then template" or "else template".
 
- Look at the below example
-
+Look at the below example
 
 ```
 <div *ngIf="display">Hi I am Visible</div>
@@ -116,7 +113,7 @@ We can use `ngIf` in four different ways
 Now how can we write `*ngIf else` in Angular? 
 we need bind `else` template to `*ngIf`
 
-## Using *ngIf else in Angular with example
+## Steps to write *ngIf else in Angular with example
 
 Now we will see how to write `*ngIf` else by using Angular's `<ng-template>` with a simple example.
 
@@ -186,7 +183,7 @@ The above `*ngIf else` block will be converted to the following `<ng-template>`
 </ng-template>
 ```
 
-## Using *ngIf with alternative then template in Angular
+## *ngIf with alternative then template in Angular
 
 By default, the `then` template of `*ngIf` is the inline template. We can change the inline template of `ngIf` by binding  `<ng-template>` just like else binding as explained above.
 
@@ -222,7 +219,7 @@ we can change the `then` or `else` templates dynamically at run time by taking a
 
 <a href="https://www.angularjswiki.com/angular/dynamically-change-ngif-thenelse-templates-at-runtime-in-angular/" target="_blank" rel="noopener">Dynamically Change NgIf, Then,Else Templates At Run time In Angular</a>
 
-## *ngif else and then templates example in Angular
+## *ngif with both else and then templates example in Angular
 
 We can pass both `else` template and `then` template to `*ngIf` directive as shown below. 
 
@@ -275,7 +272,7 @@ Visible only when display is false.
 </div>
 ```
 
-## Using `*ngIf as syntax` to store `*ngIf` condition in a local variable
+## Using `as` to store `*ngIf` condition in a local variable
 
 We can save the `*ngIf` condition in a local variable using `as` so that we can use it in template. Have a look at the below example.
 
@@ -297,7 +294,7 @@ You might wonder why this is useful, because anyway the expression is going to b
 
 `display` variable is readily available at the time of `*ngIf` evaluation.What if the  variable is asynchronous and coming from an observable.
 
-## Using *ngIf async pipe with observable example
+## *ngIf with async pipe and observable example
 
 We will bind some product data coming from an Observable to a component using `async` pipe.
 

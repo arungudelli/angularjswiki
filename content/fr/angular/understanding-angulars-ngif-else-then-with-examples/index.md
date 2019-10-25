@@ -1,16 +1,16 @@
 +++
-title = "NgIf Else In Angular & *NgIf Else Async Pipe Observable Example"
-subtitle = "Understanding ngIf else in Angular"
+title = "*ngIf else dans Angular & Exemple *NgIf Async Pipe Observable"
+subtitle = "Comprendre ngIf dans Angular"
 type="post"
-summary ="To write ngIf else in angular,we need to pass else template to *ngIf.*ngIf directive displays or removes an element from DOM based on the condition passed"
+summary ="Pour écrire ngIf else dans angular, il faut définir un modèle else pour la directive *ngIf.*ngIf affiche ou supprime un élément du DOM en fonction de la condition donnée."
 keywords=["ngif in angular,ngif else in angular,ngif with then,ngif else and then templates in angular"]
 date="2018-08-04T01:01:05+0000"
-lastmod="2019-10-18T16:20:19+0000"
-draft=true
+lastmod="2019-10-26T16:20:19+0000"
+draft=false
 authors = ["admin"]
 
 [image]
-  caption = "ng If Else Angular"
+  caption = "ngIf Else Angular"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
@@ -21,15 +21,17 @@ authors = ["admin"]
 
 +++
 
+Angular's "*ngIf" affiche ou supprime un élément du DOM en fonction de la condition donnée. 
+
 Pour écrire "ngIf else" dans angular, il faut définir un modèle "else" pour la directive "*ngIf".
-"*ngIf" affiche ou supprime un élément du DOM en fonction de la condition donnée. 
 
 "*ngIf" combiné avec "async pipe" est très utile lors de la lecture de données à partir d'un fichier observable.
 
 Dans toutes les versions de Angular, la syntaxe de la directive `*ngif` est la même.
+
 {{%toc%}}
 
-## Using *ngIf in Angular with example
+## comprendre *ngIf dans Angular avec exemple
 
 `*ngIf` évalue la condition donnée et rend ensuite le "then template" ou "else template".
 
@@ -56,7 +58,7 @@ Nous pouvons lier des templates alternatifs à `*ngif` en fonction de notre util
 <p *ngIf="display">Visible only if display is true</p>
 ```
 
-Ou nous pouvons l'appliquer à d'autres composants angular, par exemple le composant (Material Checkbox)[https://www.angularjswiki.com/angular/checkbox-implementation-in-angular-using-angular-material/].
+Ou nous pouvons l'appliquer à d'autres composants angular, par exemple le composant [Material Checkbox](https://www.angularjswiki.com/angular/checkbox-implementation-in-angular-using-angular-material/).
 
 ```
 <mat-checkbox *ngIf="display">Material Checkbox</mat-checkbox>
@@ -94,7 +96,7 @@ Maintenant, la définition ci-dessus a un sens.
 "then template" est `<div>Hi I am Visible</div>` qui est inline.
  Il n'y a pas d' "else template".
 
-L'astérisque n'est qu'un sucre syntaxique de l'élément [https://www.angularjswiki.com/angular/what-is-ng-template-in-angular/](ng-template).
+L'astérisque n'est qu'un sucre syntaxique de l'élément [ng-template](https://www.angularjswiki.com/angular/what-is-ng-template-in-angular/).
 
 Et si vous voyez le HTML généré, aucun élément ne sera ajouté au DOM si la condition de `ngIf` est `false`.
 
@@ -102,8 +104,8 @@ Et si vous voyez le HTML généré, aucun élément ne sera ajouté au DOM si la
 
 Alors pourquoi angular enlèvera l'élément plutôt que de le cacher ?
 
-Lire la suite
-[https://www.angularjswiki.com/angular/difference-between-ngif-and-hidden-or-displaynone-in-angular/](Différence entre ngIf et "hidden" dans Angular)
+Lire la suite [Différence entre ngIf et "hidden" dans Angular]
+(https://www.angularjswiki.com/angular/difference-between-ngif-and-hidden-or-displaynone-in-angular/)
 
 Nous pouvons utiliser `ngIf' de quatre manières différentes
 
@@ -116,7 +118,7 @@ Maintenant, comment pouvons-nous écrire `*ngIf else` en angular ?
 
 nous avons besoin de lier `else' template à `*ngIf''.
 
-## Using *ngIf else in Angular with example
+## Etapes pour écrire "*ngIf else" en Angulaire avec exemple
 
 Nous apprendrons à écrire "*ngIf else" en utilisant le `<ng-template>` d'Angular avec un exemple simple.
 
@@ -187,7 +189,7 @@ Le bloc `*ngIf else` ci-dessus sera converti en l'élément `<ng-template>` suiv
 </ng-template>
 ```
 
-## Using *ngIf with alternative then template in Angular
+## *ngIf avec alternative puis template dans Angular
 
 Par défaut, le "then template" de `*ngIf` est le "inline template".
 
@@ -227,7 +229,7 @@ Lire l'article
 
 [https://www.angularjswiki.com/angular/dynamically-change-ngif-thenelse-templates-at-runtime-in-angular/](Modifier dynamiquement NgIf "Then", "Else" Templates Au moment de l'exécution Dans Angular)
 
-## *ngif else and then templates example in Angular
+## *ngif avec "else and then templates" exemple dans Angular
 
 Nous pouvons lier à la fois "else template" et "then template" à la directive `*ngIf` comme indiqué ci-dessous. 
 
@@ -259,7 +261,7 @@ Et ceci sera converti en
 </ng-template>
 ```
 
-## *ngif with Logical Operators AND (&&), OR(||), NOT(!)
+## *ngif avec opérateurs logiques AND (&&), OR(||), NOT( !)
 
 Nous pouvons utiliser les opérateurs logiques AND (&&&),OR(|||) et NOT( !) en condition *ngif.
 
@@ -282,7 +284,7 @@ Visible only when display is false.
 </div>
 ```
 
-## Using `*ngIf as syntax` to store `*ngIf` condition in a local variable
+## Utiliser la syntaxe "as" pour stocker la condition `*ngIf` dans une variable locale
 
 Nous pouvons sauvegarder la condition `*ngIf` dans une variable locale en utilisant `as` et nous pouvons l'utiliser dans le template.
 
@@ -310,7 +312,7 @@ La variable `display` est statique et disponible au moment de l'évaluation `*ng
 
 Et si la variable est asynchrone ? et provient d'une observable ?
 
-## Using *ngIf async pipe with observable example
+## *ngIf avec async pipe et exemple observable
 
 Nous allons lier des données de produit provenant d'un observable à un composant à l'aide d'un "async pipe".
 
@@ -397,9 +399,7 @@ Nous passons le produit observable à "*ngIf avec async pipe" et le stockons dan
 
 Initialement, si le produit est nul, il affichera le "#Loading template", une fois le produit disponible, il affichera "Inline template" de `*ngIf`.
 
-
 Le code ci-dessus avec *ngIf est très propre et facile à comprendre. Nous supprimons les opérateurs de safe-traversal-opérateur non désirés et les abonnements multiples.
-
 
 J'espère que vous avez compris les concepts de base de la directive `*ngIf' avec "then template" et "else templates".
 
