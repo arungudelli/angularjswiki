@@ -3,10 +3,10 @@ title = "How To Use Angular Pipes in Components & Service ts files"
 subtitle = "Use Angular Pipes in Components & Service ts files"
 type="post"
 summary ="Steps to use angular pipes in components and service ts files 1.Import angular pipe in `app.module.ts` file and add it to the providers array.2.In Component file, import angular pipe & inject the pipe into the constructor.3. And Finally use the angular pipe transform method & pass the required parameters according to pipe defination to format the values."
-keywords=["delete component in angular,ng delete component command"]
-date="2019-02-08T01:01:05+0000"
-lastmod="2019-02-09T04:44:37+0000"
-draft=true
+keywords=["angular 6 use pipe in component,angular use pipe in component"]
+date="2019-10-20T01:01:05+0000"
+lastmod="2019-10-20T04:44:37+0000"
+draft=false
 authors = ["admin"]
 
 [image]
@@ -28,6 +28,8 @@ Steps to use angular pipes in components and service ts files
   3. And Finally use the angular pipe transform method & pass the required parameters according     to pipe defination to format the values.
 
 Now we will understand it further using examples.
+
+{{%toc%}}
 
 ## Use Date Pipe in Angular Components & Services ts file
 
@@ -87,6 +89,8 @@ export class AngularpipeComponent implements OnInit {
 
 And transform method accepts same parameters as datepipe, you can see it in visual studio code intelligence as shown below.
 
+ {{< figure src="use date pipe in component ts files.png" title="use date pipe in component ts files" alt="use date pipe in component ts files">}} 
+
 The above method works in every verison of Angular.
 
 In laterst version of Angular i.e., from version 6 we can directly use angular pipes's public methods inside the components to format the values.
@@ -121,6 +125,8 @@ export class AngularpipeComponent implements OnInit {
 We have to inject the locale information into the component constructor to pass it to the `formatDate` method
 
 The adventage of this kind of approach is, it's not required to add date pipe to app module providers and injecting it into the component constructor.
+
+[Angular Date Pipe & formatting dates in Angular with examples](https://www.angularjswiki.com/angular/angular-date-pipe-formatting-date-times-in-angular-with-examples/)
 
 ## Use Currency Pipe in Angular Components & Services ts file
 
