@@ -52,7 +52,10 @@
     
   <meta name="description" content="{{ $desc }}">
   <meta name="keywords" content="{{$keywords}}">
-
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ with  .OutputFormats.Get "amp" }}
+  <link rel="amphtml" href="{{ .Permalink }}">
+  {{end}}
   {{ range .Translations }}
   <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
   {{ end }}
@@ -187,10 +190,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
   <link rel="icon" type="image/png" href="{{ "/img/favicon-16x16.png" | relURL }}">
   <link rel="apple-touch-icon" type="image/png" href="{{ "/img/icon-192x192.png" | relURL }}">
 
-  <link rel="canonical" href="{{ .Permalink }}">
-  {{ with  .OutputFormats.Get "amp" }}
-  <link rel="amphtml" href="{{ .Permalink }}">
-  {{end}}
+ 
 
 
   {{ $featured_image := (.Resources.ByType "image").GetMatch "*featured*" }}
