@@ -1,12 +1,12 @@
 +++
-title = "How To Read Local JSON Files In Angular"
-subtitle = "Learn how to read local json files"
+title = "Comment lire les fichiers JSON local dans Angular"
+subtitle = "Apprendre à lire les fichiers json local."
 type="post"
-summary ="We can import or read local JSON files in Angular,several different ways depending upon the Angular version we are using.In this post I am listing out different methods with examples to read JSON files"
+summary ="Nous pouvons importer ou lire des fichiers JSON local dans Angular, de plusieurs façons différentes selon la version Angular que nous utilisons"
 keywords=["angular 7 read local json file,angular 5 read local json file,how to read json file in angular 4,angular 6 read json file,angular2 read json file example,angular read file from disk"]
 date="2018-11-02T01:01:05+0000"
 lastmod="2018-11-13T13:15:51+0000"
-draft=true
+draft=false
 authors = ["admin"]
 
 [image]
@@ -20,18 +20,21 @@ authors = ["admin"]
   preview_only = false
 +++
 
-We can import or read local JSON files in Angular,several different ways depending upon the Angular version we are using.
+Nous pouvons importer ou lire des fichiers JSON local dans Angular, de plusieurs façons différentes selon la version Angular que nous utilisons.
 
-In this post I am listing out different methods with examples on how to read JSON files in Angular.
+Dans cet article, vous apprendrez différentes méthodes pour lire les fichiers JSON en Angular avec des exemples.
 
 {{% toc %}}
 
-## Reading local JSON files in Angular 7 and Angular 6.1
+## Lecture des fichiers JSON local dans Angular 7 et Angular 6.1
 
-Angular framework supports TypeScript 2.9 from 6.1 version onwards.In typescript 2.9 with the help of resolveJsonModule we can import local JSON files just like modules
+Le framework Angular supporte TypeScript 2.9 à partir de la version 6.1.
 
-I have added a sample JSON file in assets folder of Angular App.
-Have a look at the sample json example
+Dans typescript 2.9 avec l'aide de resolveJsonModule nous pouvons importer des fichiers JSON locaux comme des modules
+
+J'ai ajouté un exemple de fichier JSON dans le dossier assets de Angular App.
+
+Jetez un coup d'oeil à l'échantillon json 
 
 ```
 {
@@ -40,7 +43,7 @@ Have a look at the sample json example
 "Version": 7
 }
 ```
-I have imported sampleJson.json in our ReadingJsonFilesComponent as shown below
+J'ai importé sampleJson.json dans notre composant ReadingJsonFiles Component comme indiqué ci-dessous
 
 ```
 import { Component, OnInit } from '@angular/core';
@@ -64,7 +67,7 @@ ngOnInit() {}
 }
 ```
   
-Now If you build the application you will get the following error
+Maintenant, si vous compilez l'application, vous obtiendrez l'erreur suivante.
 
 {{% alert warning %}}
 
@@ -72,25 +75,27 @@ ERROR in src/app/reading-json-files/reading-json-files.component.ts(2,24): error
 
 {{% /alert %}}
   
-To remove the above error,In tsconfig.json file under compiler options we need to add "resolveJsonModule" and "esModuleInterop" configurations as true as shown below.
+Pour supprimer l'erreur ci-dessus, dans le fichier tsconfig.json sous les options du compilateur, nous devons ajouter les configurations "resolveJsonModule" et "esModuleInterop" comme indiqué ci-dessous.
 
 ```
 {  "compilerOptions": {  "resolveJsonModule": true, "esModuleInterop": true } }
 ```
 
-One more thing you need to understand is the the imported JSON file contents are typesafe.
-In the above json version is a number. So if you tried to change the version to string it will throw error.
+Une autre chose que vous devez comprendre est que le contenu du fichier JSON importé est typesafe.
+
+Dans le json ci-dessus, version est un nombre. Ainsi, si vous affectez la version à une chaîne de caractères, une erreur sera générée.
 
   
 ```
 SampleJson.Version= "Seven"; //throws error as Version is of type number
 ```
   
-## Reading local JSON files in Angular 5 or Angular 4
+## Lecture des fichiers JSON local dans Angular 5 ou Angular 4
     
-In earlier versions of Angular like Angular 5 or Angular 4 to read local json files, we need to use HttpClient from '@angular/common/http' and Observable from 'rxjs/Observable'  as shows below.
+Dans les versions antérieures de Angular comme Angular 5 ou Angular 4 pour lire les fichiers json locaux, nous avons besoin d'utiliser HttpClient depuis '@angular/common/http' et Observable depuis 'rxjs/Observable' comme indiqué ci-dessous.
   
-We need to inject HttpClient in constructor.
+Nous devons injecter HttpClient dans le constructor.
+
   
 ```
 import { HttpClient } from '@angular/common/http';
@@ -117,11 +122,12 @@ export class ReadingComponent implements OnInit {
 }
 ```
 
-HttpClient is introduced in Angular 4.3, If you are using Angular version 4.3 below use the below method to read the JSON files
-  
-## Reading local JSON files in Angular 2+ versions
+HttpClient est introduit dans Angular 4.3, Si vous utilisez Angular version 4.3 ci-dessous utilisez la méthode ci-dessous pour lire les fichiers JSON
 
-We need to use Http from "@angular/http" to import JSON files in Angular version 4.3 below and Angular 2 +.
+## Lecture des fichiers JSON local dans les versions Angular 2+.
+
+Nous avons besoin d'utiliser Http depuis "@angular/http" pour importer les fichiers JSON dans Angular version 4.3 ci-dessous et Angular 2 + applications.
+
 
   
 ```
@@ -152,11 +158,13 @@ public getJSON(): Observable<any> {
 ```
   
 
-## Reading local JSON files in Offline Angular Applications
+## Lecture des fichiers JSON local dans les applications angulaires hors ligne
 
-Angular Http will not work if the application goes offline.
-In that case we have an alternate way of importing JSON files
-We need to add a new file json-typings.d.ts in app folder along with index.html file
+Angular Http ne fonctionnera pas si l'application est hors ligne.
+
+Dans ce cas, nous avons un autre moyen d'importer les fichiers JSON.
+
+Nous devons ajouter un nouveau fichier json-typings.d.ts dans le dossier app.
 
 ``` 
 declare module "*.json" {
@@ -164,6 +172,6 @@ declare module "*.json" {
   export default value;
 }
 ```
-And then we can import JSON files just like latest versions of Angular
+Et puis nous pouvons importer des fichiers JSON tout comme les dernières versions d'Angular
   
 `import * as SampleJson from "../../assets/SampleJson.json";`
