@@ -1,17 +1,17 @@
 
 +++
-title = "Font Awesome Icons list & Font Awesome CSS content values cheatsheet"
-subtitle = "Complete list of 1534 free font awesome icons cheatsheet"
+title = "Liste des icônes Font Awesome et leurs valeurs de contenu CSS"
+subtitle = "Liste complète des 1534 icônes gratuites font awesome"
 type="post"
-summary ="This post contains complete font awesome icons list with their CSS content values and step by step tutorial to use font awesome icons in our webpages"
-keywords=["font awesome icons,font awesome icons list,fa icons list,icons"]
+summary ="Cet article contient la liste complète des icônes font awesome avec leurs valeurs de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans nos pages web."
+keywords=["font awesome icônes,font awesome icônes liste,fa icônes liste,icônes"]
 date="2019-07-14T01:01:05+0000"
 lastmod="2019-07-14T17:18:08+0000"
-draft=true
+draft=false
 authors = ["admin"]
 categories=["faicons"]
 [image]
-  caption = "font awesome icons"
+  caption = "font awesome icônes"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
@@ -22,31 +22,30 @@ categories=["faicons"]
 
 +++
 
-This post contains complete font awesome icons list with their CSS content values and step by step tutorial to use font awesome icons in our webpages.
+Cet article contient la liste complète des icônes "font awesome" avec leurs valeurs de contenu CSS et un tutoriel étape par étape pour utiliser les icônes "font awesome" dans nos pages web.
 
-In font awesome 5.9 version we have around 1534 free icons.
+Dans la version "font awesome 5.9" nous avons environ 1534 icônes libres.
 
-And these free font awesome icons divided into three categories. 
+Et ces icônes gratuites sont divisées en trois catégories. 
 
-1. font awesome solid icons
-2. font awesome regular icons
-3. font awesome brand icons
+1. icônes " font awesome solid" 
+2. icônes " font awesome regular".
+3. Icônes " font awesome brand". 
 
-We can <a href="https://use.fontawesome.com/releases/v5.9.0/fontawesome-free-5.9.0-web.zip" rel="noopener" target="_blank">download</a> font awesome icons css file and serve them from our own server Or we can serve them from public CDNs.
+Nous pouvons [télécharger](https://use.fontawesome.com/releases/v5.9.0/fontawesome-free-5.9.0-web.zip) le fichier CSS des icônes "font awesome" et les servir à partir de notre propre serveur ou nous pouvons les servir à partir de CDNs publics.
+
 
 {{% toc %}}
 
-## How to use font awesome icons
+## Comment utiliser les icônes "font awesome"?
 
-To use free font awesome icons, add the font awesome icons cdn link css file in head section & display fa icons using class name with the prefix fa followed by the fa icon name.
+Pour utiliser les icônes "font awesome", suivez les étapes suivantes
 
-To use font awesome icons follow the below steps
+1. Ajouter le fichier css des icônes "font awesome" dans la section head du html
+2. Et puis afficher les icônes "fa" en utilisant le nom de la classe avec le préfixe "fa" suivi du nom de l'icône "font awesome".
+3. De plus, nous devons ajouter des classes de catégories.
 
-1. Add the font awesome icons css file in head section of html
-2. And then display fa icons using class name with the prefix `fa` followed by the font awesome icon name.
-3. Additionally we have to add category classes.
-
-First we will add the font awesome icons css in head section of html file as shown below
+Tout d'abord, nous allons ajouter les icônes "font awesome" css dans la section tête du fichier html comme indiqué ci-dessous.
 
 ```
 <head>
@@ -56,33 +55,34 @@ First we will add the font awesome icons css in head section of html file as sho
 </head>
 
 ```
-I am using cloudfare font awesome icons cdn link. 
+J'utilise le lien d'icônes "Font awesome" de cloudfare CDN.
 
-Now to display facebook icon using font awesome icons use the below html code
+Maintenant pour afficher l'icône facebook en utilisant les icônes "font awesome", utilisez le code html ci-dessous.
 
 ```
 <i class="fab fa-facebook"></i>
 ```
 
-Facebook icon is part of brand icons so i have added `fab` as additional class name.
+L'icône Facebook fait partie des icônes de marque donc j'ai ajouté `fab' comme nom de classe supplémentaire.
 
-To use font awesome icons in Angular applications go through the article
-[How To Use Font Awesome icons in Angular Applications]
+Pour utiliser les icônes "font awesome" dans les applications angular, parcourir l'article
+
+[Comment utiliser les icônes "Font Awesome" dans les applications angular]
 (https://www.angularjswiki.com/angular/how-to-use-font-awesome-icons-in-angular-applications/)
 
-## Using font awesome icons as CSS content values.
+## Utilisation d'icônes "font awesome" comme valeurs de contenu CSS.
 
-The above approach requires us to change our icon html classes names.
+L'approche ci-dessus nous oblige à changer les noms des classes html de nos icônes.
 
-If your project is new then we can follow the above approach. 
+Si votre projet est nouveau, nous pouvons suivre l'approche ci-dessus. 
 
-But if it is an existing project, it is very difficult to change the icon html classes.
+Mais s'il s'agit d'un projet existant, il est très difficile de changer les classes html des icônes.
 
-In this case we can display the font awesome icons using their CSS content values.
+Dans ce cas, nous pouvons afficher les icônes "font awesome" en utilisant leurs valeurs de contenu CSS.
 
-We can use the CSS Pseudo-elements elements features `::before` or `::after` to display them.
+Nous pouvons utiliser les fonctionnalités des pseudo-éléments CSS `::before` ou `::after` pour les afficher.
 
-For example to display login icons
+Par exemple pour afficher les icônes de connexion
 
 ```
 <li>
@@ -90,9 +90,9 @@ For example to display login icons
 </li>
 ``` 
 
-I gave one class as `icons` (for all icons) and icon name as `login`.
+J'ai donné une classe comme `icons' (pour toutes les icônes) et un nom d'icône comme `login'.
 
-I have added few common css properties which are applicable to all icons, in the `icons` css class as below. 
+J'ai ajouté quelques propriétés css communes qui sont applicables à toutes les icônes, dans la classe `icons' css comme ci-dessous.  
 
 ```
  .icons::before {
@@ -104,9 +104,9 @@ I have added few common css properties which are applicable to all icons, in the
   }
 ```
 
-This is to simplify our main icon CSS definition.
+Ceci a pour but de simplifier la définition de notre icône principale CSS.
 
-Now for the actual icon i.e., login add the below css properties.
+Maintenant, pour l'icône actuelle, c'est-à-dire "login", ajoutez les propriétés css ci-dessous.
 
 ```
 .login::before {
@@ -116,18 +116,18 @@ Now for the actual icon i.e., login add the below css properties.
 }
 ```
 
-I gave content as `\f007` which is unicode value for login defined by font awesome icons.
+I gave the content as `\f007' which is the unicode value for "login" defined by the "font awesome" icons.
 
-For all 1534 free font awesome icons, unicode values are already defined.
+Pour toutes les 1534 icônes gratuites "font awesome", les valeurs unicode sont déjà définies.
 
-To display font awesome icons using CSS Pseudo elements we have to follow the below steps
+Pour afficher les icônes "font awesome" en utilisant des pseudo-éléments CSS, nous devons suivre les étapes suivantes
 
-1. Set the font-family to "Font Awesome 5 Free" (For regular,solid icons) or "Font Awesome 5 Pro" (If you buy a pro license) or "Font Awesome 5 Brands" (For brand icons)
-2. Set the font-weight: 900 (For Solid), 400 (Regular or Brands), 300 (Light for pro icons)
-3. Set the content to the unicode value font awesome icons
-4. And like explained, add common CSS definitions for all icons as explained above.
+1. Réglez "Font-family" sur "Font Awesome 5 Free" (pour les icônes régulières et solides) ou "Font Awesome 5 Pro" (si vous achetez une licence pro) ou "Font Awesome 5 Brands" (pour les marques)
+2. Réglez le "font-weight" sur 900 (Pour solide), 400 (Régulier ou Marques), 300 (Léger pour les icônes pro)
+3. Réglez le "contenu" à la valeur unicode des icônes "font awesome".
+4. Et comme expliqué, ajoutez des définitions CSS communes pour toutes les icônes.
 
-To display twitter icon using Pseudo element use the following CSS content code
+Pour afficher l'icône twitter en utilisant un pseudo-élément, utilisez le code CSS suivant
 
 ```
 <li>
@@ -141,42 +141,42 @@ To display twitter icon using Pseudo element use the following CSS content code
 }
 ```
 
-## Complete Font Awesome Icons List
+## Liste complète des icônes "Font Awesome"
 
-Here is the complete list of 1534 free font awesome icons cheatsheet.
+Voici la liste complète des 1534 icônes gratuites "font awesome" cheatsheet.
 
-To use font awesome brand icons use class name as `fab`
+Pour utiliser les icônes de marque "font awesome", utilisez le nom de la classe comme `fab`.
 
-For example to display twitter icon use the following html code
+Par exemple, pour afficher l'icône de Twitter, utilisez le code html suivant
 
 ```
 <i class="fab fa-twitter"></i>
 ```
 
-To use font awesome solid icons add the class name as `fas`
+Pour utiliser les icônes solides "font awesome", ajoutez le nom de la classe comme `fas`.
 
-For example to display barcode icon use the following html code
+Par exemple, pour afficher l'icône du code-barres, utilisez le code html suivant.
 
 ```
 <i class="fas fa-barcode"></i>
 ```
-To use font awesome regular icons add the class name as `far`
+Pour utiliser les icônes régulières "font awesome", ajoutez le nom de la classe comme `far`.
 
-To display bookmark icon use the following html code
+Pour afficher l'icône du signet, utilisez le code html suivant
 
 ```
 <i class="far fa-bookmark"></i>
 ```
 
 
-## Font Awesome Icons List - Solid Icons
+## Liste d'icônes "Font Awesome" - Icônes solides
 
 <div class="table-responsive">
 <table class="table">
 <tr>
-<th>Name</th>
+<th>Nom</th>
 <th>Code</th>
-<th>CSS Content code</th>
+<th>CSS Code du contenu</th>
 </tr>
  <tr><td><i class="fas fa-ad"></i> ad</td><td>fa-ad</td><td>f641</td></tr>
  <tr><td><i class="fas fa-address-book"></i> address-book</td><td>fa-address-book</td><td>f2b9</td></tr>
@@ -1138,14 +1138,14 @@ To display bookmark icon use the following html code
 
 </div>
 
-## Font Awesome Icons List - Regular Icons
+## Liste d'icônes "Font Awesome" - Icônes régulières
 
 <div class="table-responsive">
 <table class="table">
 <tr>
-<th>Icon</th>
+<th>Nom</th>
 <th>Code</th>
-<th>CSS Content Code</th>
+<th>CSS Code du contenu</th>
 </tr>
  <tr><td><i class="far fa-address-book"></i> address-book</td><td>fa-address-book</td><td>f2b9</td></tr>
  <tr><td><i class="far fa-address-card"></i> address-card</td><td>fa-address-card</td><td>f2bb</td></tr>
@@ -1302,14 +1302,14 @@ To display bookmark icon use the following html code
 
 </div>
 
-## Font Awesome Icons List - Brand Icons
+## Liste d'icônes "Font Awesome" - Icônes de marque
 
 <div class="table-responsive">
 <table class="table">
 <tr>
-<th>Name</th>
+<th>Nom</th>
 <th>Code</th>
-<th>CSS Content Code</th>
+<th>CSS Code du contenu</th>
 </tr>
  <tr><td><i class="fab fa-500px"></i> 500px</td><td>fa-500px</td><td>f26e</td></tr>
  <tr><td><i class="fab fa-accessible-icon"></i> accessible-icon</td><td>fa-accessible-icon</td><td>f368</td></tr>
