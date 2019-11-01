@@ -1,10 +1,10 @@
 +++
-title = "How To Update Angular CLI Version To Latest Versions"
+title = "How To Update Angular CLI To Latest Version 9"
 subtitle = "Update Angular CLI version"
-summary ="To update Angular CLI versions to latest Angular CLI versions 7 and 6 use below command ng update @angular/cli@latest."
+summary ="To update Angular CLI to latest version 9 use below command ng update @angular/cli@latest."
 keywords=["ng update angular cli,update angular cli version to 7,update angular cli version to 6"]
 date="2019-01-22T01:01:05+0000"
-lastmod="2019-02-09T18:45:18+0000"
+lastmod="2019-11-01T00:45:18+0000"
 type="post"
 draft=false
 authors = ["admin"]
@@ -21,15 +21,34 @@ authors = ["admin"]
 
 +++
 
-To update the Angular CLI version to 7 simply use the below command.
 
-```
-ng update @angular/cli
-```
+To update the Angular CLI to latest version 9 follow the below steps.
 
-But this command might not work, if you are using older version of Angular CLI. We will start with checking of Angular CLI version and update the Angular CLI package accordingly
+1. First update the local angular cli to version 8.3.17 or 8.x version by using below command.
 
-{{%toc%}}
+    ```
+      npm install --no-save @angular/cli@^8.3.15
+    ```
+2. After updating angular cli to version 8 and above, use the below command to update angular     cli to version 9
+
+    ```
+      ng update @angular/cli @angular/core --next
+    ```
+
+{{< figure src="updating angular cli to version 9.png" title="updating angular cli to version 9" alt="updating angular cli to version 9">}} 
+
+
+As Angular 9 is in RC period, the flag `--next` is required while using `ng update` command. This flag is not required, once final version of Angular 9 is released.
+
+As there are some breaking changes are coming in Angular 9 
+
+The above commands will run a series of small migrations that will convert the code of your application to be compatible with version 9 as shown below.
+
+{{< figure src="migrating the project to Angular 9.png" title="migrating the project to Angular 9" alt="migrating the project to Angular 9">}} 
+
+
+If you are using older versions of Angular like 5 or 6 or 7. You need to follow some additional steps as show below.
+
 
 ## Angular CLI version check
 
