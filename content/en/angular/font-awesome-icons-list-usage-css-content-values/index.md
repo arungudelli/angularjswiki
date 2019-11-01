@@ -38,8 +38,6 @@ We can <a href="https://use.fontawesome.com/releases/v5.9.0/fontawesome-free-5.9
 
 ## How to use font awesome icons
 
-To use free font awesome icons, add the font awesome icons cdn link css file in head section & display fa icons using class name with the prefix fa followed by the fa icon name.
-
 To use font awesome icons follow the below steps
 
 1. Add the font awesome icons css file in head section of html
@@ -67,6 +65,7 @@ Now to display facebook icon using font awesome icons use the below html code
 Facebook icon is part of brand icons so i have added `fab` as additional class name.
 
 To use font awesome icons in Angular applications go through the article
+
 [How To Use Font Awesome icons in Angular Applications]
 (https://www.angularjswiki.com/angular/how-to-use-font-awesome-icons-in-angular-applications/)
 
