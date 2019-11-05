@@ -2,7 +2,7 @@
 title = "Angular Material Progress Bar: Mat-Progress-Bar Example"
 subtitle = "Learn how to create beautiful progress bar using material design"
 type="post"
-summary ="We can create a beautiful Progress bar in Angular using mat-progress-bar which is part of angular material progress bar module called MatProgressBarModule"
+summary ="We can create a beautiful Progress bar in Angular using material design component mat-progress-bar."
 keywords=["mat-progress-bar,angular material progress bar,mat-progress-bar example"]
 date="2018-08-20T01:01:05+0000"
 lastmod="2018-11-15T17:02:19+0000"
