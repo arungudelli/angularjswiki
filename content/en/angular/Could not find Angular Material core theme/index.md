@@ -40,7 +40,7 @@ There might be two reasons for this "Could not find Angular Material core theme"
 1. Missing loading of pre built theme or custom theme in Angular Material
 2. Adding prebuilt theme in wrong location.
 
-To fix "Could not find Angular Material core theme" error in Angular material import or add any of the below prebuilt themes (or your own custom theme) in global `styles.scss` file of Angular project.
+To fix "Could not find Angular Material core theme" error in Angular material import or add any of the below prebuilt themes (or your own custom theme) in global `styles.scss` file of Angular project. 
 
 ```
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
