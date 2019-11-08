@@ -1,6 +1,6 @@
 +++
-title = "NgIf Else In Angular & *NgIf Async Pipe Observable Example"
-subtitle = "Understanding ngIf else in Angular"
+title = "Understanding *ngif else then in Angular with examples"
+subtitle = "*ngIf Directive Guide"
 type="post"
 summary ="Angular's *ngIf directive displays or removes an element from DOM based on the condition passed.To write ngIf else in angular,we need to define else template for *ngIf."
 keywords=["ngif in angular,ngif else in angular,ngif with then,ngif else and then templates in angular"]
@@ -21,116 +21,205 @@ authors = ["admin"]
 
 +++
 
-Angular's **ngIf** directive displays or removes an element from DOM based on given condition.
+We all know that angular's `*ngIf` directive displays or removes an element from DOM based on given condition.
 
-To write **ngIf else in angular** we need to define "else" template for `*ngIf` directive.
+Take a look at the below example.
 
-we can use `async` pipe with `*ngIf` to read the data coming from an observable.
+```
+<div *ngIf="display">Hi I am Visible</div>
+```
+If the `display` property is `true` then `<div>` element will be added to the HTML DOM.
 
-In all versions of Angular, the syntax of `*ngif` directive is same.
+What if we want to display an alternate HTML, if the `*ngif` condition is false?
 
-{{%toc%}}
+Initially, I used to write two `*ngIf` blocks to handle these kinds of scenarios as shown below.
 
-## Understand *ngIf in Angular with example
+```
+<div *ngIf="display">Hi I am Visible</div>
+<div *ngIf="!display">Hi I am Visible Only if display is false</div>
+```
 
-`*ngIf` evaluates the given condition & then renders the "then template" or "else template".
+But it's kind of odd to write such `*ngIf` blocks to handle simple if else conditions. And I don't know whether it's correct way.
 
-Look at the below example
+So I dig more into `*ngIf` directive and learnt how to write *ngIf else in angular.   
+
+## How *ngIf directive will work?
+
+The reason why I wrote two `*ngIf` blocks is I don't know how `*ngIf` directive works in Angular. 
+
+If you are coming from traditional programming backgroud you will be writing if else condition as shown below.
+
+```
+if(condition){
+// then block
+}else{
+//else block
+}
+
+```
+
+But `*ngIf` is a directive, that means we are applying if else conditions on HTML elements directly.
 
 ```
 <div *ngIf="display">Hi I am Visible</div>
 ```
 
-If `display` property is true then the `<div>` element will be added to the DOM. Otherwise, no element will be added.
-
-The default templates of `*ngIf` are
-
-  * `then template` is inline template of `ngIf`
-  * `else template` is blank
-
-In the above code inline template is `<div>Hi I am Visible</div>` and there is no `else template`
-
-
-Or we can bind alternative templates to `*ngif` based upon our usage.
-
-`*ngIf` is a directive that means we can add it to any HTML element or component
+If you are coming from php or asp.net background, we can directly write if else blocks in HTML templates as shown below.(just a sample code syntax might defer in php and asp.net)
 
 ```
-<p *ngIf="display">Visible only if display is true</p>
+if(display){
+  <div>Hi I am Visible</div>
+}else{
+  <div>
+  Hi I am Visible Only id display is false
+  </div>
+}
 ```
 
-Or we can apply it to other angular components, for instance, <a href="https://www.angularjswiki.com/angular/checkbox-implementation-in-angular-using-angular-material/" target="_blank" rel="noopener">material checkbox</a> component
+But we cannot write if else blocks using flower brackets in Angular. Because our HTML file should only contain markup elements.
+
+The ideal soultion will be, we should replace `if else` condition blocks with some html markup element something similar like below.
 
 ```
-<mat-checkbox *ngIf="display">Material Checkbox</mat-checkbox>
+<IfBlock value="display">
+   <div>Hi I am Visible</div>
+</IfBlock>
+<ElseBlock>
+  <div>
+  Hi I am Visible Only id display is false
+  </div>
+</ElseBlock>
 ```
 
-The syntax is very simple we need to add a prefix, asterisk(*) before the directive name `ngIf`.
+Are you convinced are confused? That's what exactly `*ngIf` directive will do.
 
-So why we need to add the asterisk before the directive name?
+How you ever thought about asterisk(*) before the structural directive `ngIf`?
 
-The asterisk before `ngIf` makes our life simple. Angular will convert `*ngif` attribute to `<ng-template>` element as displayed below.
+When we write `*ngif` directive with HTML elements, angular will place that element inside a `<ng-template>` tag with the given condtion.
 
 ```
-<div *ngIf="display" class="inline">Hi I am Visible</div> 
+<div *ngIf="display">Hi I am Visible</div> 
+```
+The above *ngIf will be converted to `<ng-template>` mark up as shown below. 
 
-//This will be converted to 
+```
+<ng-template [ngIf]="display">
+   <div>Hi I am Visible</div>
+</ng-template>  
+```
+
+The asterisk is just a syntactic sugar to [ng-template](https://www.angularjswiki.com/angular/what-is-ng-template-in-angular/) element.
+
+`<ng-template>` is a pseudo element in Angular framework and it won't be added in final HTML result. Only the elements inside the `<ng-template>` will be added. 
+
+If the elements has any attributes like id or class etc.Those will be added to the `<div>` element inside the `<ng-template>`.
+
+```
+<div *ngIf="display" class="information" id="info">
+ Hi I am Visible
+</div> 
 
 <ng-template [ngIf]="display">
-<div class="inline">Hi I am Visible</div>
-</ng-template>  
-
-//inline default template (then template)                
-//And no else template
-
-<div *ngIf="false" class="inline">This is not added to DOM</div>
-
-<ng-template [ngIf]="false"> 
- <div class="inline">This is not added to DOM
- </div> 
-</ng-template>
+   <div class="information" id="info">
+     Hi I am Visible
+   </div>
+</ng-template> 
 ```
 
-Now the above definition makes sense. `then` template is `<div>Hi I am Visible</div>` which is inline and there is no `else` template.
+As `*ngIf` is a directive, we can add it to any HTML element.
 
-The asterisk is just a syntactic sugar to <a href="https://www.angularjswiki.com/angular/what-is-ng-template-in-angular/" target="_blank" rel="noopener">ng-template</a>
+```
+<p *ngIf="display">
+  Visible only if display is true
+</p>
+```
 
-And If you see the generated HTML,no element will be added to the DOM if `ngIf` expression evaluated to `false`.
+Or we can apply it to other angular components, for instance, [material checkbox Component](https://www.angularjswiki.com/angular/checkbox-implementation-in-angular-using-angular-material/)
+
+```
+<mat-checkbox *ngIf="display">
+  Material Checkbox
+</mat-checkbox>
+```
+
+And If you see the generated HTML,no element will be added to the DOM if `ngIf` expression evaluated to `false`. (becuase ng-template condition evaluated to false)
 
 {{< figure src="ngif.png" title="ngif" alt="ngif">}} 
 
 So why angular will remove the element rather than hiding it. Go through the below article to understand it further.
 
-<a href="https://www.angularjswiki.com/angular/difference-between-ngif-and-hidden-or-displaynone-in-angular/" target="_blank" rel="noopener">Difference between ngIf and hidden in Angular</a>
+[Difference between ngIf and hidden in Angular](https://www.angularjswiki.com/angular/difference-between-ngif-and-hidden-or-displaynone-in-angular/)
 
-We can use `ngIf` in four different ways
+## Writing *ngIf else in Angular
 
-  1. Simple `ngIf` (as explained above)
-  2. `*ngIf` with `else`
-  3. `*ngIf` with `then`
-  4. `*ngIf` with `then` and `else`
+Now we will learn how to write *ngIf else in Angular.
 
-Now how can we write `*ngIf else` in Angular? 
-we need bind `else` template to `*ngIf`
-
-## Steps to write *ngIf else in Angular with example
-
-Now we will see how to write `*ngIf` else by using Angular's `<ng-template>` with a simple example.
+As explained above, we need to declare an else block. We will be using `<ng-template>` element to write the `else` block.
 
 ```
-<div *ngIf="display; else elseTemplate" class="main">
+<ng-template [ngIf]="display">
+   <div>Hi I am Visible</div>
+</ng-template> 
+
+<ng-template>
+   <div>
+    Hi I am Visible Only if display is false
+   </div>
+</ng-template> 
+
+```
+
+I have added a new `<ng-template>` block which will be added only if the condition is false. 
+
+But there is no relation between two elements. We need to tell Angular framework that load the below `<ng-template>` else block if the condition is false.
+
+For that purpose we have to give a label to the `else` block element as shown below.
+
+```
+<ng-template [ngIf]="display">
+   <div>Hi I am Visible</div>
+</ng-template> 
+
+<ng-template #elseBlock>
+   <div>
+    Hi I am Visible Only if display is false
+   </div>
+</ng-template> 
+```
+
+And by using `[ngIfElse]` property we can refer the else block as shown below.
+
+```
+<ng-template [ngIf]="display" [ngIfElse]="elseTemplate">
+   <div>Hi I am Visible</div>
+</ng-template> 
+
+<ng-template #elseBlock>
+  <div>
+    Hi I am Visible Only if display is false
+  </div>
+</ng-template> 
+```
+
+Now you might be thinking that should we use `<ng-template>` without asterisk to write *ngIf else?
+
+No.
+
+We can simply pass else template `*ngIf` directive as shown below.
+
+```
+<div *ngIf="display; else elseTemplate">
    Visible when display is true
 </div>
+
 <ng-template #elseTemplate>
-   <div class="alternative">
+   <div>
       Visible when display is false
    </div>
 </ng-template>
 ```
 
-`else` binding points to a `<ng-template>` labeled as `#elseTemplate`. If the condition or expression is true then default inline template will be rendered otherwise else template will be rendered.
-
-And this template can be defined anywhere in the component view, But as a good practice and to improve readability it is defined right below the `ngIf` block.
+And this template can be defined anywhere in the component view as shown below.
 
 ```
 import { Component, OnInit } from '@angular/core';
@@ -165,134 +254,338 @@ export class NgifelseComponent implements OnInit {
 </div>
 ```
 
+I have declared `else` template above the `*ngIf` block in `NgIfElseComponent` view.
 
-I have declared `else` template above the `*ngIf` block in `NgIfElseComponent` view, But avoid declaring like this as it is difficult to understand.
+But as a good practice and to improve readability it is better to define it right below the `ngIf` block.
 
-The above `*ngIf else` block will be converted to the following `<ng-template>` element
+And this template can be reused in other `*ngIf else` blocks also.
+
+For example, data in a HTML page can be displayed by using different ajax calls from the server.
+
+In that case while getting the data, We can show `loading..` template which can be reused in both places as shown below. 
 
 ```
-<ng-template [ngIf]="display" [ngIfElse]="elseTemplate"> 
- <div class="main">
-    Visible when display is true
- </div>
-</ng-template>
+<div *ngIf="display; else elseTemplate">
+   //Displaying data from server
+</div>
+
 <ng-template #elseTemplate>
- <div class="alternative">
-    Visible when display is false 
- </div>
+   <div>
+      Loading...
+   </div>
+</ng-template>
+
+<div *ngIf="isReceivedData; else elseTemplate">
+   //Displaying data from server
+</div>
+
+```
+
+## *ngIf then template
+
+Now you might be thinking that, what if we want to reuse the HTML which is place inside `*ngIf` element.
+
+For example, in a online shopping website product details can be displayed in multiple places depending upon the size of the device i.., mobile device one place and in desktop other place. 
+
+```
+//below the product image
+<div *ngIf="isMobile">
+   //User Details
+   <span>{{Name}}</span>
+   .....
+   .....
+</div>
+
+
+//Right side of the product image
+<div *ngIf="isDesktop">
+   //User Details
+   <span>{{Name}}</span>
+   .....
+   .....
+</div>
+
+```
+
+The html written inside the `*ngIf` element is called as inline template and will be added to the DOM if the condition is `true`
+
+Instead of writing product details (inline template) HTML in both places, we can place them inside a `<ng-template>` and reuse it in both places by referring that template in `*ngIf` directive using `[ngIfThen]` property.
+
+```
+<ng-template [ngIf]="isMobile" [ngIfThen]="productDetails">
+</ng-template> 
+
+<ng-template [ngIf]="isDesktop" [ngIfThen]="productDetails">
+</ng-template> 
+
+<ng-template #productDetails>
+  //User Details
+   <span>{{Name}}</span>
+   .....
+   .....
 </ng-template>
 ```
 
-## *ngIf with alternative then template in Angular
-
-By default, the `then` template of `*ngIf` is the inline template. We can change the inline template of `ngIf` by binding  `<ng-template>` just like else binding as explained above.
-
-See the below example
+Again we can use short hand notation for `then` template instead of using `[ngIfThen]` as shown below.
 
 ```
-import { Component, OnInit } from '@angular/core';
+<div *ngIf="isMobile; then productDetails;">
+</div>
+
+<ng-template #productDetails>
+  //User Details
+   <span>{{Name}}</span>
+   .....
+   .....
+</ng-template>
+
+<div *ngIf="isDesktop; then productDetails;">
+</div>
+
+```
+
+Now we can resue the `#productDetails` template in both places.
+
+Now we will see what happens, if we use both `then` template & inline template in `*ngIf` directive?
+
+```
+<div *ngIf="isMobile; then productDetails;">
+  //Product Details
+   <span>{{Name}}</span>
+   //This is inline template                       
+</div>
+
+<ng-template #productDetails>
+  //Product Details
+   <span>{{Name}}</span>
+   <span>{{Description}}</span>
+</ng-template>
+
+```
+
+If you see the final output both Name and Description will be visible in the webpage.
+
+{{% alert note %}}
+Inline template will be ignored if `*ngIf` contains alternative `then` template.
+{{% /alert %}}
+
+## *ngIf else & then templates
+
+We can use both `[ngIfThen]` & `[ngIfElse]` template references along with `*ngIf` directive.
+
+```
+<div *ngIf="isMobile; then shortProductDetails; else productDetails;">
+</div>
+
+<ng-template #shortProductDetails>
+  //Product Details
+   <span>{{Name}}</span>
+</ng-template>
+
+<ng-template #productDetails>
+  //Product Details
+   <span>{{Name}}</span>
+   <span>{{Description}}</span>
+</ng-template>
+
+```
+
+At runtime the above code snippet will be converted to 
+
+```
+<ng-template [ngIf]="isMobile" [ngIfThen]="shortProductDetails" [ngIfElse]="productDetails">
+</ng-template>
+
+
+<ng-template #shortProductDetails>
+<div>
+<span>{{Name}}</span>
+</div>
+</ng-template>
+
+<ng-template #productDetails>
+<div>
+<span>{{Name}}</span>
+<span>{{Description}}</span>
+</div>
+</ng-template>
+
+```
+
+We can change the then or else template references dynamically at run time by taking advantage of these [ngIfThen] and [ngIfElse].
+
+Go through the below article to understand it further
+
+(Dynamically Change NgIf, Then,Else Templates At Run time In Angular)[https://www.angularjswiki.com/angular/dynamically-change-ngif-thenelse-templates-at-runtime-in-angular/]
+
+## Using *ngIf with multiple conditions
+
+What if we want to use `*ngIf` with multiple condition to display an element in the DOM?
+
+And it's very common scenario.
+
+In our traditional programming languages we can use logical operators like AND, OR and NOT inside an if condition.
+
+## AND condition in *ngIf
+
+We can use multiple conditions in `*ngIf` with logical operator AND (&&) to decide the trustworthy of *ngIf expression.
+
+If all conditions are true, then element will be added to the DOM.
+
+```
+<div *ngIf="isMobile && isTablet">
+  //Prodcut details
+  <span>{{Name}}</span>
+</div>
+
+```
+
+## OR condition in *ngIf
+
+Similary If you want to display the element with `*ngIf` only if one of the condition is true. We can use OR (||) operator.
+
+```
+<div *ngIf="isDesktop || isTablet">
+// Show Price comparison chart
+</div>
+```
+
+## NOT condition in *ngIf
+
+We can use NOT operator(!) to invert the `*ngIf` condition as shown below
+
+```
+<div *ngIf="!isDesktop">
+//Show Mobile Navigation Menu
+</div>
+```
+
+We can combine these logical operators with as many as conditions in `*ngIf` directive.
+
+```
+<div *ngIf="(condition1 && condition2) || condition3"></div>
+```
+
+## Checking null or undefined with *ngIf
+
+We mostly deal with objects while displaying data in Angular.
+
+So it's very common for us to forgot or initialize objects before displaying them in HTML.
+
+In that case we will get "Cannot read property of undefined" errors in console.
+
+```
+import { Component } from '@angular/core';
+
 @Component({
-selector:'app-ngifthen',
-templateUrl:'./ngifthen.component.html',
-styleUrls: ['./ngifthen.component.css']
+  selector: 'my-app',
+  templateUrl: './app.component.html',
+  styleUrls: [ './app.component.css' ]
 })
-export class NgifthenComponent implements OnInit {
-display:boolean;
-constructor() {
-this.display=true;
+export class AppComponent  {
+   
+   productItem : Product;
+   constructor(){
+
+   }
 }
-ngOnInit() {}
+
+interface Product{
+  id: number;
+  description: string;
 }
 
-//NgIfthen Component view
-<div *ngIf="display; then thenTemplate">
-  Inline template will be ignored
-</div>
-<ng-template #thenTemplate>
-  Displayed when display is true
-</ng-template>
-```
+//app.component.html
 
-You might think that why we need `[ngIfThen]` template reference when we have Inline template.
-
-we can change the `then` or `else` templates dynamically at run time by taking advantage of these `[ngIfThen]` and `[ngIfElse]` Go through the below article to understand it further
-
-<a href="https://www.angularjswiki.com/angular/dynamically-change-ngif-thenelse-templates-at-runtime-in-angular/" target="_blank" rel="noopener">Dynamically Change NgIf, Then,Else Templates At Run time In Angular</a>
-
-## *ngif with both else and then templates example in Angular
-
-We can pass both `else` template and `then` template to `*ngIf` directive as shown below. 
-
-And default inline template will be ignored in this case.
-
-```
-<div *ngIf="display; then thenTemplate; else elseTemplate">
- Inline template will be ignored
-</div>
-<ng-template #thenTemplate>
- Displayed when display is true
-</ng-template>
-<ng-template #elseTemplate>
- Displayed when display is false
-</ng-template>
-```
-
-And this will be converted to
-
-```
-<ng-template [ngIf]="display" [ngIfThen]="thenTemplate" [ngIfElse]="elseTemplate">
- Inline template will be ignored
-</ng-template>
-<ng-template #thenTemplate>
- Displayed when display is true
-</ng-template>
-<ng-template #elseTemplate>
- Displayed when display is false
-</ng-template>
-```
-
-## *ngif with Logical Operators AND (&&), OR(||), NOT(!)
-
-We can pass logical operators AND (&&),OR(||) and NOT(!) in *ngif condition. Here are the examples.
-
-```
-<!-- logic AND && operator -->
-<div *ngIf="display && hasAccess">
-Visible when display and hasAccess are true
+<div>
+{{productItem.id}}
+{{productItem.description}}
 </div>
 
-<!-- logic OR || operator -->
-<div *ngIf="display || hasAccess">
-Visisble when one of the variable display or hasAccess true
+```
+
+We can use safe navigation operator ? to check for null or undefined.
+
+```
+<div>
+{{productItem?.id}}
+{{productItem?.description}}
 </div>
 
-<!-- logical NOT ! operator" -->
-<div *ngIf="!display">
-Visible only when display is false.
+```
+
+The problem is for each property we display, we have to use safe navigation operator.
+
+To handle such scenarios, we can check if the object is undefined or null using `*ngIf` before displaying the data as shown below.
+
+```
+<div *ngIf="productItem">
+{{productItem.id}}
+{{productItem.description}}
+</div>
+
+```
+
+## Checking array length with *ngIf
+
+In some cases we want to display array of elements only when array length greater than zero. 
+
+In that case to check array length and display else template pass conditional expression `array.length > 0` to `*ngIf`.
+
+```
+export class AppComponent  {
+   
+   productItems : Product[];
+   constructor(){
+
+   }
+}
+
+<div *ngIf="productItems.length > 0">
+// Display elements
 </div>
 ```
 
-## Using `as` to store `*ngIf` condition in a local variable
+If you execute above code you will get  "Cannot read property 'length' of undefined" error, because the array is not initialized.
 
-We can save the `*ngIf` condition in a local variable using `as` so that we can use it in template. Have a look at the below example.
+To avoid "Cannot read property 'length' of undefined" error, we have to use safe navigation operator(?) while checking length of array.
+
 
 ```
-<div *ngIf="display as ngIfCondition;else elseTemplate">
-  shows when display is {{ngIfCondition}}
+<div *ngIf="productItems?.length > 0">
+// Display elements
 </div>
+```
 
-<ng-template #elseTemplate let-ngIfCondition>
-  shows when display is {{ngIfCondition}}
+
+## Using `*ngIf as` variable
+
+In the above example we are using `productItem` object to display product details in component html file.
+
+In component file instead of using productItem component variable, we can save it in a local variable for instance `product` using `as` syntax.
+
+We can save the `*ngIf` condition in a local variable using `as` so that we can use it in template. 
+
+
+```
+<div *ngIf="productItem as product">
+{{product.id}}
+{{product.description}}
+</div>
+```
+
+To use the `*ngif as` variable in alternative then template or else template, refer the variable prefixed with `let` keyword in `<ng-template>` element. 
+
+```
+<div *ngIf="productItem as product;then productDetails">
+</div>
+<ng-template #productDetails let-product>
+{{product.id}}
+{{product.description}}
 </ng-template>
 ```
 
-We are storing `*ngIf` condition in a local variable called `ngIfCondition`.So that we can use it in `then` or `else` templates if required.
-
-And in `<ng-template>` we have to pass local variable prefixing with `let` keyword.
-
-You might wonder why this is useful, because anyway the expression is going to be `true` or `false`. Or we can simply use `{{display}}` instead of declaring local variable `ngIfCondition`.
-
-`display` variable is readily available at the time of `*ngIf` evaluation.What if the  variable is asynchronous and coming from an observable.
+`*ngIf as` will be very useful when the data is asynchronous and coming from an observable. 
 
 ## *ngIf with async pipe and observable example
 
@@ -323,7 +616,7 @@ The problem with above approach is
   * To prevent this we can use rxjs share() operator to share subscription with multiple subscribers.
 
 ```
- product: Observable<{}>;
+ productObservable: Observable<{}>;
       constructor() { }
       ngOnInit() {
         this.product= this.getAsyncData().pipe(share());
@@ -352,7 +645,7 @@ That is exactly what *ngIf will does with async pipe with observable by using `*
 ```
 <h1>*ngIf async pipe with observable</h1>
 
-<div *ngIf="product | async as productItem; else loading">
+<div *ngIf="productObservable | async as productItem; else loading">
 <div>
  <h3>Name:</h3>
  <p>{{productItem.Name}}</p>
@@ -375,13 +668,13 @@ That is exactly what *ngIf will does with async pipe with observable by using `*
 we will dig into the code and see what is happening here
 
 ```
-<div *ngIf="product | async as productItem; else loading">
+<div *ngIf="productObservable | async as productItem; else loading">
 ```
 We are passing product observable to *ngIf with async pipe and storing it in `productItem` local variable.
 
-Initially if product is null it will show the loading template.Once product is available it will show inline template of `*ngIf`
+Initially if product is null, it will show the loading template.Once product is available it will show inline template of `*ngIf`
 
-The above code with *ngIf is very clean and easy to understand. We are removing unwanted safe-traversal-operator.? operator and multiple subscriptions.
+The above code with *ngIf is very clean and easy to understand. We are removing unwanted safe navigation operator(?) and multiple subscriptions.
 
 I hope you understood the basic concepts of the `*ngIf` directive with then and else templates.
 
