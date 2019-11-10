@@ -41,7 +41,7 @@ Initially, I used to write two `*ngIf` blocks to handle these kinds of scenarios
 
 But it's kind of odd to write such `*ngIf` blocks to handle simple if else conditions. 
 
-And I don't know whether it's correct way.And it will create multiple subscriptions if we are using an observable inside `*ngIf`.
+And I don't know whether it's a correct way. And it will create multiple subscriptions if we are using an observable inside `*ngIf`.
 
 So I dig more into `*ngIf` directive and learnt how to write *ngIf else in angular.   
 
@@ -82,7 +82,7 @@ if(display){
 
 But we cannot write if else blocks using flower brackets in HTML. Because our HTML file should only contain markup elements.
 
-The ideal soultion will be, we should replace `if else` condition blocks with some html markup element something similar like below.
+The ideal solution will be, we should replace `if else` condition blocks with some html markup element something similar like below.
 
 ```
 <IfBlock value="display">
@@ -99,7 +99,7 @@ Are you convinced are confused? That's what exactly `*ngIf` directive will do.
 
 How you ever thought about asterisk(*) before the structural directive `ngIf`?
 
-When we write `*ngif` directive with HTML elements, angular will place that element inside a `<ng-template>` tag with the given condtion.
+When we write `*ngif` directive with HTML elements, angular will place that element inside a `<ng-template>` tag with the given condition.
 
 ```
 <div *ngIf="display">Hi I am Visible</div> 
@@ -116,7 +116,7 @@ The asterisk is just a syntactic sugar to [ng-template](https://www.angularjswik
 
 `<ng-template>` is a pseudo element in Angular framework and it won't be added in final HTML result. Only the elements inside the `<ng-template>` will be added. 
 
-If the elements has any attributes like id or class etc.Those will be added to the `<div>` element inside the `<ng-template>`.
+If the elements has any attributes like id or class etc. Those will be added to the `<div>` element inside the `<ng-template>`.
 
 ```
 <div *ngIf="display" class="information" id="info">
@@ -146,7 +146,7 @@ Or we can apply it to other angular components, for instance, [material checkbox
 </mat-checkbox>
 ```
 
-And If you see the generated HTML,no element will be added to the DOM if `ngIf` expression evaluated to `false`. (becuase ng-template condition evaluated to false)
+And If you see the generated HTML,no element will be added to the DOM if `ngIf` expression evaluated to `false`. (because ng-template condition evaluated to false)
 
 {{< figure src="ngif.png" title="ngif" alt="ngif">}} 
 
@@ -262,7 +262,7 @@ I have declared `else` template above the `*ngIf` block in `NgIfElseComponent` v
 
 But as a good practice and to improve readability it is better to define it right below the `ngIf` block.
 
-And this template can be reused in other `*ngIf else` blocks also.
+And this template can be reused in other `*ngIf else` blocks as well.
 
 For example, data in a HTML page can be displayed by using different ajax calls from the server.
 
@@ -348,7 +348,7 @@ Again we can use short hand notation for `then` template instead of using `[ngIf
 
 ```
 
-Now we can resue the `#productDetails` template in both places.
+Now we can reuse the `#productDetails` template in both places.
 
 Now we will see what happens, if we use both `then` template & inline template in `*ngIf` directive?
 
@@ -714,7 +714,7 @@ we will dig into the code and see what is happening here
 ```
 We are passing product observable to *ngIf with async pipe and storing it in `productItem` local variable.
 
-Initially if product is null, it will show the loading template.Once product is available it will show inline template of `*ngIf`
+Initially if product is null, it will show the loading template. Once product is available it will show inline template of `*ngIf`
 
 The above code with *ngIf is very clean and easy to understand. We are removing unwanted safe navigation operator(?) and multiple subscriptions.
 
