@@ -62,7 +62,8 @@ We can use `mat-progress-spinner` in two different modes
 `mode` property indicates the type of progress spinner.
 
 ```
-<mat-progress-spinner value="100" mode="determinate"></mat-progress-spinner>
+<mat-progress-spinner value="100" mode="determinate">
+</mat-progress-spinner>
 <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
 ```
 
@@ -77,9 +78,16 @@ If the value is 100, that means the process has been completed.
 We should bind the `value` property to the process completion rate to animate the progress spinner.
 
 ```
+<mat-progress-spinner mode="determinate" value=25>
+</mat-progress-spinner>
 <mat-progress-spinner mode="determinate" value=50>
 </mat-progress-spinner>
+<mat-progress-spinner mode="determinate" value=75>
+</mat-progress-spinner>
+<mat-progress-spinner mode="determinate" value=100>
+</mat-progress-spinner>
 ```
+{{< figure src="mat progress spinner determinate mode example.png" title="mat progress spinner determinate mode example" alt="mat progress spinner determinate mode example">}} 
 
 Here the value is static.
 
@@ -91,7 +99,7 @@ Here the value is static.
 //No Progress Indicator as there is no value property
 ```
 
-#### mat-progress-bar indeterminate mode
+#### mat-progress-spinner indeterminate mode
 
 When progress of an action isn’t detectable, or if it’s not necessary to indicate how long an activity will take, we will use `indeterminate` mode.
 
@@ -177,7 +185,7 @@ The default color is themes `primary` color. We can change it to `accent` or `w
 
 ### Giving custom color to mat-progress-spinner
 
-Color property accepts only default theme ThemePalettes or our custom themes.
+Color property accepts only default ThemePalettes or our own custom themes.
 
 In case if you want to give custom color to `mat-spinner`, not color from prebiult-themes, you can override the theme CSS colors by changing circle element stroke property.
 
@@ -443,8 +451,6 @@ To use regular progress spinner just use `app-mat-spinner-overlay`
 </app-mat-spinner-overlay>
 ```
 
-Progress Spinner displays the progress of an ongoing process by animating the indicator along a fixed invisible circular track in a clockwise direction
-
 In `mat-progress-spinner`, animation will happen along invisible circular track.
 
 What if we want to animate the progress on a visible circular track? 
@@ -453,19 +459,18 @@ Just like twitter loading spinner as shown below
 
 {{< figure src="Twitter like circular indicator.png" title="twitter loading spinner" alt="twitter loading spinner">}} 
 
-
 Now we will learn how to create such progress indicator using mat-progress-spinner.
 
-## Creating twitter like loading spinner using mat-spinner.
+## Creating loading spinner with background using mat-spinner.
 
 If you observe the above picture there are two main elements are there
 
-1. One circular track with color opacity.
+1. One circular track with color opacity (which acts as background).
 2. Other one is animating circle.
 
-To animvate `mat-progress-spinner` along a fixed visible track we can use two `mat-spinner` elements.
+To animate `mat-progress-spinner` along a fixed visible track or to load the spinner with background we can use two `mat-spinner` elements.
 
-One element will act as circular track. So we can use `mat-progress-spinner` with determinate mode and value as "100" to complete the circle.
+One element will act as circular track i.e., background. So we can use `mat-progress-spinner` with determinate mode and value as "100" to complete the circle.
 
 Other will be regular indeterminate progress spinner element which is nothing but animating circle.
 
@@ -487,7 +492,7 @@ So I have added `stroke-opacity:0.3` CSS to mat progress spinner circle element.
 
 And finally we need to place the animating circle on top of circular track element.
 
-The default display CSS property of `mat-progress-element` is "block".
+The default `display` CSS property of `mat-progress-element` is "block".
 
 If we change it to inline they will be placed on top of each other.
 
@@ -515,39 +520,3 @@ And now we will override the default display property of both elements using `.m
 
 {{< video src="/img/material/Twitter like progress spinner.mp4" srcwebm="/img/material/Twitter like progress spinner.webm">}} 
 
-## mat-progress-bar properties
-
-We will summarise all the mat-progress-bar properties in one place.
-
-<div class="table-responsive">
-<table class="table">
-	<thead>
-		<tr>
-			<th>MatProgressBar property</th>
-			<th>Description</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>value</td>
-			<td>Indicates the progress bar value. Range is 0 to 100. Default value is 0</td>
-		</tr>
-		<tr>
-			<td>mode</td>
-			<td>mode values are determinate,indeterminate,buffer, query. Default mode is determinate.</td>
-		</tr>
-		<tr>
-			<td>bufferValue</td>
-			<td>bufferValue indicates value of buffer indicator of buffered progress value</td>
-		</tr>
-		<tr>
-			<td>color</td>
-			<td>ThemePalette of the theme. defaults to primary.</td>
-		</tr>
-		<tr>
-			<td>progressbarId</td>
-			<td>ID of the material progress bar.</td>
-		</tr>
-	</tbody>
-</table>
-</div>

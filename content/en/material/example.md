@@ -6,9 +6,8 @@ lastmod = 2019-04-24T01:00:00
 draft = true  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
-parentdoc = "flexlayout"
-prev = "flexlayout"
-next = "flexlayout/example"
+parentdoc = "material"
+prev = "material"
 featured="Angular-flex-layout-basics.jpg"
 authors = ["admin"]
 summary ="Tutorial explains basics of Angular flex layout and flex layout directives with examples"
@@ -16,7 +15,7 @@ keywords=["Angular flex layout,Angular flex layout directives"]
 
 
 # Add menu entry to sidebar.
-linktitle = "Basics"
+linktitle = "Example"
 [menu.material]
   parent = "Tutorial"
   weight = 2
