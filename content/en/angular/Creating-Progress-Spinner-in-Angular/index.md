@@ -1,12 +1,12 @@
 +++
-title = "Progress Spinner in Angular using mat-progress-spinner"
+title = "Creating Progress Spinner in Angular using mat-progress-spinner"
 subtitle = "Learn how to create a beautiful progress spinner in Angular using material design"
 type="post"
 summary ="We can create a Progress spinner in Angular using material design component mat-progress-spinner."
-keywords=["mat-progress-bar,angular material progress bar,mat-progress-bar example"]
-date="2019-11-10T01:01:05+0000"
-lastmod="2019-11-10T17:02:19+0000"
-draft=true
+keywords=["mat-progress-spinner,angular material progress spinner,mat-progress-spinner example"]
+date="2019-11-14T01:01:05+0000"
+lastmod="2019-11-14T17:02:19+0000"
+draft=false
 authors = ["admin"]
 
 
@@ -520,3 +520,14 @@ And now we will override the default display property of both elements using `.m
 
 {{< video src="/img/material/Twitter like progress spinner.mp4" srcwebm="/img/material/Twitter like progress spinner.webm">}} 
 
+## Where to use Progress Spinners?
+
+We can use progress spinner in two scenarios
+
+1. When it placed on the center of the screen or webpage, it indicates the     initial loading of screen content.
+2. To represent where new content will be appeared, we can place it above or below existing content to draw the user attention. 
+
+Twitter will use circular progress spinners in above two cases.
+
+And also in Android, the “swipe to refresh” gesture displays a circular progress indicator to represent that the UI is being refreshed.
+ 
