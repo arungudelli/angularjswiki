@@ -1,16 +1,16 @@
 +++
 title = "Angular Material Badge: matBadge example"
-date = 2019-04-24T00:00:00
-lastmod = 2019-04-24T01:00:00
+date = 2019-12-13T00:00:00
+lastmod = 2019-12-13T01:00:00
 
 draft = false  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
 prev = "material"
-featured="MatBadge example.png"
+featured="angular-material-badge.jpg"
 authors = ["admin"]
-summary ="Angular Material Badge component used to create notification badges."
+summary ="Angular Material Badge (matBadge) used to create notification badges."
 keywords=["matBadge,Angular Material Badge"]
 
 
@@ -21,16 +21,18 @@ linktitle = "Badge"
   weight = 2
 +++
 
-Angular Material Badge component used to display notifications counts like unread messages in Gmail. 
+Angular Material Badge (`matBadge`), used to display notifications counts like unread messages in Gmail. 
 
-`matBadge` selector is used to displaye badges on top of UI elements.
+`matBadge` selector is used to display the badges on top of UI elements.
 
 It is part of Angular material module called `MatBadgeModule`.
 
+{{%toc%}}
+
+
 ## Angular Material Badge
 
-A badge nothing but a small circle,that will be displayed on top of other HTML elements.
-or angular components.
+A badge is nothing but a small circle,that will be displayed on top of other HTML elements or angular components.
 
 An anuglar material badge may contain a number or small set of characters.
 
@@ -171,7 +173,7 @@ To give our own custom color to material badge we can override the CSS of `matBa
 
 By default the text color of material badge content is white.
 
-To change the text color of matBadge content we can changed CSS of `.mat-badge-content` class as shown below.
+To change the text color of matBadge content we can change the CSS of `.mat-badge-content` class as shown below.
 
 ```
 .mat-badge-content{
@@ -234,7 +236,7 @@ export class BadgeComponent implements OnInit {
 
 Now we will create a notification counter using matBadge
 
-## Notification Counter Using matBadge.
+## Notification Counter Using matBadge
 
 I have created a componet called `NotificationBadgeComponent` and in that added a variable named `badgeCounter`.
 
@@ -244,7 +246,7 @@ By default the counter value is '0'.
 
 To increase or decrease the counter, I created two buttons `+` and `-` and one button is to reset the counter.
 
-On clicking these buttons badgeCounter will either or decrease.   
+On clicking these buttons badgeCounter will either increase or decrease.   
 
 ```
 
@@ -272,6 +274,8 @@ export class NotificationBadgeComponent implements OnInit  {
   }
 
   decreaseCount() {
+    if(this.badgeCounter < 0)
+     return;
     this.badgeCounter++;
   }
 
@@ -281,7 +285,7 @@ export class NotificationBadgeComponent implements OnInit  {
 }
 ```
 
-Now the problem is even though the counter is '0'. The badge content still displayed with values zero.
+Now the problem is even though the counter is '0'. The badge content still displayed with value zero.
 
 Ideally when there are no notifications we wont be showing count as zero, will simply hide the notifications.
 
@@ -299,7 +303,7 @@ If `matBadgeHidden` is true then `matBadge` will be hidden.
 </mat-icon>
 ```
 
-Now in the above example to hide the notifications when the counter became zero we can use `matBadgeHidden`. 
+Now in the above example with the help of `matBadgeHidden` we can hide the notifications, when the counter became zero. 
 
 I have created a variable called `hideMatBadge` and the value will be toggled when the counter will became zero. 
 
@@ -347,7 +351,7 @@ export class BadgeComponent implements OnInit {
 
 And actually It's not required to create an extra variable (hideMatBadge), we can directly pass an expression to `[matBadgeHidden]` input.
 
-if the badgeCounter is zero hide the badge.
+If the badgeCounter is zero hide the badge.
 
 ```
 <mat-icon [matBadge]="badgeCounter" [matBadgeHidden]="badgeCounter==0">
@@ -357,7 +361,7 @@ if the badgeCounter is zero hide the badge.
 
 ## matBadge disabled
 
-When a badge is added to an element, for instance button, and if the button element is disabled, the badge still visible according to primary, accent, or warn color as shown below.
+When a badge is added to an element, for instance button, and if the button element is disabled, the badge color will be shown according to primary, accent, or warn color irrespective of host element shown below.
 
 ```
 <button mat-raised-button 

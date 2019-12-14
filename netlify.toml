@@ -33,3 +33,9 @@ HUGO_ENABLEGITINFO = "true"
 from = "http://angularjswiki.com/*"
 to = "https://www.angularjswiki.com/:splat"
 status = 301
+
+[[redirects]]
+from = "/angular/angular-material-2-tutorial-with-examples/"
+to = "/material/"
+status = 301
+  
