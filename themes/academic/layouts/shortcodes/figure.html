@@ -1,9 +1,24 @@
 {{/* Enable image to be loaded from local page dir or media library at `static/img/`. */}}
+{{ $page := . }}
+{{ .Scratch.Set "featured" "" }}
 {{ $image_src := .Get "src" }}
 {{ if .Get "library" }}
   {{ $image_src = printf "img/%s" $image_src | relURL }}
 {{ end }}
-{{ $featured := (.Page.Resources.ByType "image").GetMatch $image_src }}
+
+
+{{ $resource := (.Page.Resources.ByType "image").GetMatch $image_src}}
+{{ .Scratch.Set "featured" $resource }}
+
+
+{{ if eq .Params.type "docs" }}
+{{ $parentDoc := .Site.GetPage $page.Params.parentdoc}}
+{{ .Scratch.Set "featured"  ($parentDoc.Resources.ByType "image").GetMatch $image_src }}
+{{ end }}
+
+
+{{ $featured := .Scratch.Get "featured" }}
+
 
 <figure{{ with .Get "class" }} class="{{.}}"{{ end }}>
 {{ if .Get "link"}}<a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>{{ end }}

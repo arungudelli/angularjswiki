@@ -78,7 +78,7 @@ Adding matBadge to Icons
 </mat-icon>
 ```
 
-
+{{< figure src="MatBadge example.PNG" title="MatBadge example" alt="MatBadge example">}}
 
 ## mat Badge overlap
 
@@ -96,9 +96,7 @@ To remove overlapping of badge with the host element we can use `matBadgeOverlap
    </button>
    <mat-icon matBadge="10" matBadgeOverlap=false>notifications</mat-icon>
 ```
-
-
-
+{{< figure src="matbadge Overlap.PNG" title="MatBadge Overlap" alt="MatBadge Overlap">}}
 
 ## Changing matBadge Position
 
@@ -130,6 +128,8 @@ The default value is `above after`.
     </mat-icon>
 
 ``` 
+{{< figure src="matBadge Position.PNG" title="MatBadge Position" alt="MatBadge Position">}}
+
 
 In most of the cases we will not be using mat badge position as badge is like notification and always displayed on top of other elements.
 
@@ -152,6 +152,8 @@ To change the color of matBadge we can use `matBadgeColor` attribute as shown be
 The default value is `primary`.
 
 We can change the color of matBadge to the default theme themePalettes like `primary, accent, or warn`.
+
+{{< figure src="changing matBadge color.PNG" title="changing MatBadge color" alt="changing MatBadge color">}}
 
 ## Giving Custom Color to matBadge
 
@@ -177,6 +179,8 @@ To change the text color of matBadge content we can changed CSS of `.mat-badge-c
 }
 ```
 
+{{< figure src="matbadge custom color.PNG" title="MatBadge custom color" alt="MatBadge custom color">}}
+
 ## Changing size of matBadge
 
 Angular material will provide three sizes for matBadge.
@@ -200,6 +204,8 @@ We can change the size of matBadge by using `matBadgeSize` attribute as shown be
   notifications
 </mat-icon>
 ```
+{{< figure src="change matBadge Size.PNG" title="change matBadge size" alt="change matBadge size">}}
+
 
 ## Changing matBadge content dynamically.
 
@@ -279,6 +285,8 @@ Now the problem is even though the counter is '0'. The badge content still displ
 
 Ideally when there are no notifications we wont be showing count as zero, will simply hide the notifications.
 
+{{< figure src="Notification Counter matBadge.PNG" title="Notification Counter matBadge" alt="Notification Counter matBadge">}}
+
 ## Display or Hide matBadge
 
 We can display or hide the material badge by using `matBadgeHidden` property.
@@ -352,8 +360,12 @@ if the badgeCounter is zero hide the badge.
 When a badge is added to an element, for instance button, and if the button element is disabled, the badge still visible according to primary, accent, or warn color as shown below.
 
 ```
-<button mat-raised-button color="primary"
-      matBadge="8" matBadgePosition="before" matBadgeColor="primary" disabled>
+<button mat-raised-button 
+      color="primary"
+      matBadge="8" 
+      matBadgePosition="before" 
+      matBadgeColor="primary" 
+      disabled>
     Action
 </button>
 ```
@@ -374,3 +386,5 @@ So in such cases to disable matBadge we can use `[matBadgeDisabled]` input prope
 ```
 
 But remember that it just changes the color of matBadge to gray. And it is possible change the matBadge content dynamically as explained above. 
+
+{{< figure src="matBadge Disabled.PNG" title="matBadge Disabled" alt="matBadge Disabled">}}
