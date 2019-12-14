@@ -5,7 +5,7 @@ summary ="This Angular Material tutorial covers basics of Angular material.Mater
 keywords=["angular material tutorial,material design,angular material,angular 7 material apps"]
 date="2018-02-14T01:01:05+0000"
 lastmod="2019-02-02T08:07:46+0000"
-draft=false
+draft=true
 authors = ["admin"]
 [image]
   caption = "Angular Material Design"
