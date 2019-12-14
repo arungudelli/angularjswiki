@@ -5,7 +5,7 @@
   {{ $image_src = printf "img/%s" $image_src | relURL }}
 {{ end }}
 
-
+ 
 {{ .Scratch.Set "srcset" "" }}
 
 
@@ -48,4 +48,4 @@
 <amp-img src="{{$image_src}}" srcset="{{$image_src}}" sizes="{{$sizes}}" width="{{$featured.Width}}" height="{{$featured.Height}}" alt="{{.Get "alt"}}" class="mb4 mx3" layout="responsive"></amp-img>
 {{end}}
 </div>
-
+ 

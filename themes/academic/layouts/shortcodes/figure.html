@@ -5,7 +5,6 @@
 {{ end }}
 {{ $featured := (.Page.Resources.ByType "image").GetMatch $image_src }}
 
-
 <figure{{ with .Get "class" }} class="{{.}}"{{ end }}>
 {{ if .Get "link"}}<a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>{{ end }}
 <picture>
@@ -51,5 +50,5 @@
   </p> {{ end }}
 </figcaption>
 {{ end }}
-</figure>
+</figure> 
 

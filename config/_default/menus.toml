@@ -18,10 +18,10 @@
   url = "/flexlayout/"
   weight = 25  
 
-#[[main]]
-#  name = "Material Design"
-#  url = "/material/"
-#  weight = 30 
+[[main]]
+  name = "Material Design"
+  url = "/material/"
+  weight = 30 
 
 
 
