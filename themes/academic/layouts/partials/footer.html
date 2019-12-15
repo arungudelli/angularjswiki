@@ -152,10 +152,12 @@
         
         var languageSelector = document.querySelector("#langselect");
         
+        if(languageSelector){
         languageSelector.addEventListener('click',function(){
            var langMenu = document.querySelector("#lang");
            langMenu.classList.add("show")
         });
+        }
         
         var navigator = document.querySelector('.navbar-toggler');
         navigator.addEventListener('click',function(){
