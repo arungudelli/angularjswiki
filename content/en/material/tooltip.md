@@ -28,7 +28,7 @@ To add tooltips in Angular we can use angular material tooltip module called `Ma
 {{%toc%}}
 
 
-## Tooltip in Angular
+## Tooltips in Angular
 
 Steps to add tooltips in Angular applications.
 
@@ -181,14 +181,16 @@ The two properties accepts delay time in milliseconds.
 Now we will learn how to add delay before showing or hiding the tooltip with an example.
 
 ```
-<!--Input to add a delay between hovering over the element and displaying the tooltip-->
+<!--Input to add a delay between hovering over 
+the element and displaying the tooltip-->
 <mat-form-field>
   <input matInput placeholder="Show delay in milliseconds)"
          type="number"
          [formControl]="showDelay">
 </mat-form-field>
 
-<!--Input to add a delay between hovering away from the element and hiding the tooltip-->
+<!--Input to add a delay between hovering away 
+from the element and hiding the tooltip-->
 
 <mat-form-field>
   <input matInput placeholder="Hide delay in milliseconds"
@@ -196,7 +198,8 @@ Now we will learn how to add delay before showing or hiding the tooltip with an 
          [formControl]="hideDelay">
 </mat-form-field>
 
-<!--Element that displays a tooltip with a custom delay in showing and hiding-->
+<!--Element that displays a tooltip 
+with a custom delay in showing and hiding-->
 <button mat-raised-button
         matTooltip="Info about the action"
         [matTooltipShowDelay]="showDelay.value"
@@ -353,7 +356,7 @@ Conditional Tooltip
 </button>
 ```
 
-## Add tooltip to a disabled button Angular
+## Add tooltip to a disabled button in Angular
 
 The angular material tooltip will be triggered on the `mouseenter` event and it doesn't get fired by most browsers for disabled elements. So tooltip will not be displayed for disabled elements.
 
@@ -364,12 +367,132 @@ Tooltip can be very useful in such cases.
 To add a tooltip to a disabled button, we can add `matTooltip` to a parent element as shown below.
 
 ```
-<div matTooltip="You do not have permission to delete" [matTooltipDisabled]="!isButtonDisabled()">
-    <button mat-raised-button [disabled]="isButtonDisabled()">
-        Delete
+<div matTooltip="You do not have permission to delete"
+     [matTooltipDisabled]="!isButtonDisabled()">
+    <button mat-raised-button 
+            [disabled]="isButtonDisabled()">
+            Delete
     </button>
 </div>
 ```
 
 In the above code I am using `matTooltipDisabled` input property to enable tooltip only when button is disabled.
+
+## Manually Trigger the tooltip in Angular
+
+Angular Material tooltip module API have three methods which will be used to display or hide tooltip manually.
+
+1. show
+2. hide 
+3. toggle
+
+### matTooltip show
+
+matTooltip show method accepts the show tooltip delay as a parameter.
+
+delay will be in milli seconds if there is no parameter passed then delay will 0ms or defaults to tooltip-delay-show.
+
+### matTooltip hide
+
+matTooltip hide method accepts the hide tooltip delay as a parameter.
+
+delay will be in milli seconds if there is no parameter passed then delay will 0ms or defaults to tooltip-delay-hide.
+
+### matTooltip toggle
+
+Used to toggle the tooltip 
+
+We will understand these methods further using a simple example.
+
+Add `matTooltip` to the host element. and then add a template reference(#tooltip) to matTooltip as shown below.
+
+```
+    <button mat-raised-button #tooltip="matTooltip"
+            matTooltip="Manually triggered tooltip">
+             Manual Tooltip
+    </button>
+
+```
+And further we can use the template reference variable to show or hide the tooltip on a button click event as shown below.
+
+```
+<mat-card>
+   
+    <button mat-raised-button #tooltip="matTooltip"
+            matTooltip="Manually triggered tooltip">
+             Manual Tooltip
+    </button>
+   
+
+    <button mat-button
+            (click)="tooltip.show()">
+      show
+    </button>
+    <button mat-button
+            (click)="tooltip.hide()">
+      hide
+    </button>
+    <button mat-button
+            (click)="tooltip.toggle()">
+      toggle
+    </button>
+
+    </mat-card>
+
+```
+
+In the above example we are using template reference (#tooltip) in the HTML file itself.
+
+And if you want to trigger the tooltip manually from component ts file we can use the ViewChild decorator.
+
+```
+export class TooltipComponent implements OnInit {
+
+  constructor() { }
+
+  @ViewChild('tooltip') manualTooltip: MatTooltip;
+
+
+  ngOnInit() {
+  }
+
+  showTooltip(){
+    this.manualTooltip.show();
+  }
+
+  hideTooltip(){
+    this.manualTooltip.hide();
+  }
+
+  toggleTooltip(){
+    this.manualTooltip.toggle();
+  }
+
+}
+```
+
+And we can refactor the above template html file to use the methods in component ts files as shown below.
+
+```
+<button mat-button
+    (click)="showTooltip()">
+show
+</button>
+
+<button mat-button
+    (click)="hideTooltip()">
+hide
+</button>
+
+<button mat-button
+    (click)="toggleTooltip()">
+toggle
+</button>
+
+<button mat-raised-button #tooltip="matTooltip"
+    matTooltip="Manually triggered tooltip">
+    Manual Tooltip
+</button>
+```
+
 
