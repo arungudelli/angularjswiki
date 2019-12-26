@@ -8,7 +8,7 @@ toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
 prev = "badge"
-featured="angular-material-badge.jpg"
+featured="angular-material-tooltip.jpg"
 authors = ["admin"]
 summary ="To add tooltips in Angular we can use angular material tooltip module called MatTooltipModule."
 keywords=["mattooltip,Angular Material Tooltip"]
@@ -111,6 +111,8 @@ To display tooltip on the right side of element we can set property to "right" a
 ```
 
 If there is no enough space to display tooltip on the right side, then it will be displayed on the left side of element.
+
+{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
 
 ### Angular tooltips in RTL websites
 
@@ -285,6 +287,8 @@ To change the font size of tooltip add `font-size` css to the tooltip class as s
 
 If font size is not changing then please cross check whether you have added `encapsulation: ViewEncapsulation.None` to the component declaration.
 
+{{< figure src="Change the font size mattooltip.PNG" title="Change the font size mattooltip" alt="Change the font size mattooltip">}}
+
 ## Adding multiline tooltip using matTooltip
 
 To add a multiline matTooltip follow the below steps
@@ -296,7 +300,7 @@ To add a multiline matTooltip follow the below steps
 Add a component called `MultilineTooltipComponent` in your project file by using below command `ng generate component multiline-tooltip`.
 
 ```
-mport { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-multiline-tooltip',
@@ -324,7 +328,7 @@ Multiline tooltip
 </button>
 ```
 
-In `matTooltip` content, I have added new line character (&#13;).
+In `matTooltip` content, I have added new line character (`&#13;`).
 
 And finally add `white-space: pre-line` css to the custom class.
 
@@ -333,6 +337,9 @@ And finally add `white-space: pre-line` css to the custom class.
   white-space: pre-line;
 }
 ```
+
+{{< figure src="multiline mattooltip.PNG" title="multiline mattooltip" alt="multiline mattooltip">}}
+
 ## Show Angular Material Tooltip Conditionally.
 
 We can use `matTooltipDisabled` property to show tooltip conditionally as shown below.
@@ -377,6 +384,8 @@ To add a tooltip to a disabled button, we can add `matTooltip` to a parent eleme
 ```
 
 In the above code I am using `matTooltipDisabled` input property to enable tooltip only when button is disabled.
+
+{{< figure src="add tooltip to disabled button.PNG" title="add tooltip to disabled button" alt="add tooltip to disabled button">}}
 
 ## Manually Trigger the tooltip in Angular
 
@@ -495,4 +504,65 @@ toggle
 </button>
 ```
 
+## Change the tooltip content dynamically in Angular
 
+To change the tooltip content dynamically we can bind a variable or pass a method to 
+`matTooltip` selector.
+
+And use `[matTooltip]` instead of `matTooltip` while binding the content.
+
+```
+
+<button mat-raised-button
+    [matTooltip]="getTooltipContent()">
+    Manual Tooltip
+</button>
+
+or 
+
+<button mat-raised-button
+    [matTooltip]="tooltipContent">
+    Manual Tooltip
+</button>
+
+
+export class TooltipComponent implements OnInit {
+
+  tooltipContent : string;
+  constructor() {
+    this.tooltipContent = "defaultMessage"
+  }
+  
+  getTooltipContent(){
+    this.tooltipContent = "Changing tooltip Content".
+  }
+  
+}  
+```
+
+## matTooltip not working
+
+Angular material tooltip module depends upon BrowserAnimationsModule. Other wise matTooltip will not be displayed
+
+To use matTooltip we need to add `BrowserAnimationsModule` in app.module.ts file
+
+```
+import { BrowserAnimationsModule } 
+from '@angular/platform-browser/animations';
+```
+
+And also remember to add `MatTooltipModule` as mentioned in step 1.
+
+If you are not installed and imported HammerJs you may need to add it as material uses hammerjs for some animations and touch gestures
+
+```
+npm i -S hammerjs
+npm i -D @types/hammerjs
+```
+
+Import hammerjs in app.module.ts 
+
+```
+import 'hammerjs'; 
+
+```
