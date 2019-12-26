@@ -1,5 +1,5 @@
 +++
-title = " Angular Material Tooltip: mattooltip example"
+title = " Angular Material Tooltip: matTooltip example"
 date = 2019-12-13T00:00:00
 lastmod = 2019-12-13T01:00:00
 
@@ -222,7 +222,11 @@ export class TooltipDelayExample implements OnInit {
 }
 ```
 
-## Adding a class to tooltip container using matTooltipClass
+## Change the Styles of matTooltip 
+
+We can change the style of angular material tooltip by adding a class to the matTooltip.
+
+### Adding a class to tooltip container using matTooltipClass
 
 We can give custom class to tooltip container using `matTooltipClass`.It has similar syntax as `ngClass`.
 
@@ -243,6 +247,129 @@ And in our component's style.css file we can override the existing tooltip style
 
 }
 ```
+After adding class to the tooltip container we need to remove view encapsulation so that the custom tooltip style defined in component's style css(tooltip.component.scss) file will not be scoped to this component's view.
 
-### Set font size of Angular Material Tooltip
+```
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+
+@Component({
+  selector: 'app-tooltip',
+  templateUrl: './tooltip.component.html',
+  styleUrls: ['./tooltip.component.scss'],
+  encapsulation: ViewEncapsulation.None
+})
+export class TooltipComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+```
+
+### Change font size of Angular Material Tooltip
+
+Now after adding class to the tooltip container, we can define our own styles to the tooltip container.
+
+To change the font size of tooltip add `font-size` css to the tooltip class as shown below.
+
+```
+.custom-tooltip {
+   font-size:25px;
+}
+```
+
+If font size is not changing then please cross check whether you have added `encapsulation: ViewEncapsulation.None` to the component declaration.
+
+## Adding multiline tooltip using matTooltip
+
+To add a multiline matTooltip follow the below steps
+
+1. Add a custom class to the matTooltip
+2. Add `white-space: pre-line;` css to the class
+3. Add new line character(\n) `&#13;` in the matTooltip content.
+
+Add a component called `MultilineTooltipComponent` in your project file by using below command `ng generate component multiline-tooltip`.
+
+```
+mport { Component, OnInit, ViewEncapsulation } from '@angular/core';
+
+@Component({
+  selector: 'app-multiline-tooltip',
+  templateUrl: './multiline-tooltip.component.html',
+  styleUrls: ['./multiline-tooltip.component.scss'],
+  encapsulation: ViewEncapsulation.None
+})
+export class MultilineTooltipComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+```
+
+And in component html file we will add a multiline tooltip to a button element as shown below.
+
+```
+<button mat-raised-button
+        matTooltip="Multiline Tooltip &#13; This is second line"
+        matTooltipClass="multiline-tooltip">
+Multiline tooltip
+</button>
+```
+
+In `matTooltip` content, I have added new line character (&#13;).
+
+And finally add `white-space: pre-line` css to the custom class.
+
+```
+.multiline-tooltip{
+  white-space: pre-line;
+}
+```
+## Show Angular Material Tooltip Conditionally.
+
+We can use `matTooltipDisabled` property to show tooltip conditionally as shown below.
+
+```
+<button mat-raised-button
+        matTooltip="Tooltip conditionally"
+        [matTooltipDisabled]="isHidden()">
+Conditional Tooltip
+</button>
+```
+
+We can bind a variable or we can pass a function to `[matTooltipDisabled]` to toggle the visibilty of material tooltip.
+
+Instead of that we can pass an expression to `[matTooltip]` to display or hide the tooltip as shown below.
+
+```
+<button mat-raised-button
+        [matTooltip]="!isHidden() ? 'Tooltip' : ''">
+Conditional Tooltip
+</button>
+```
+
+## Add tooltip to a disabled button Angular
+
+The angular material tooltip will be triggered on the `mouseenter` event and it doesn't get fired by most browsers for disabled elements. So tooltip will not be displayed for disabled elements.
+
+And sometimes we want to communicate to the user, why an element is disabled?
+
+Tooltip can be very useful in such cases.
+
+To add a tooltip to a disabled button, we can add `matTooltip` to a parent element as shown below.
+
+```
+<div matTooltip="You do not have permission to delete" [matTooltipDisabled]="!isButtonDisabled()">
+    <button mat-raised-button [disabled]="isButtonDisabled()">
+        Delete
+    </button>
+</div>
+```
+
+In the above code I am using `matTooltipDisabled` input property to enable tooltip only when button is disabled.
 
