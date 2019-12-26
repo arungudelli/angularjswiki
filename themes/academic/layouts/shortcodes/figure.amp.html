@@ -10,10 +10,7 @@
 {{ .Scratch.Set "featured" $resource }}
 
 
-{{ if eq .Params.type "docs" }}
-{{ $parentDoc := .Site.GetPage $page.Params.parentdoc}}
-{{ .Scratch.Set "featured"  ($parentDoc.Resources.ByType "image").GetMatch $image_src }}
-{{ end }}
+
 
 
 {{ $featured := .Scratch.Get "featured" }}

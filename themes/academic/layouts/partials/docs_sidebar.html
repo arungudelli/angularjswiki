@@ -1,5 +1,6 @@
 {{ $current_page := . }}
 {{ $menu_name := (path.Base (path.Split .Path).Dir) }}
+{{$menu_name := $current_page.Params.parentDoc}}
 {{ with (index .Site.Menus $menu_name) }}
 {{ else }}
 {{ errorf "Please define menu items named `[menu.%s]` in your %s front matter or define `[[menu.%s]]` in `config.toml`." $menu_name .Path $menu_name }}
