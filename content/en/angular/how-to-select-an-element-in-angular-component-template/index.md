@@ -1,12 +1,12 @@
 +++
 title = "How to select an element in Angular Component Template"
-subtitle = "add a class dynamically using ngClass"
-summary ="To add a conditional class in Angular we can pass an object to `ngClass` where key is the class name and value is condition i.e., true or false"
-keywords=["conditional class angular,add class dynamically in Angular,ngClass angular"]
+subtitle = "select an element in component template"
+summary ="To select an element in Angular component template use ViewChild decorator"
+keywords=["select an element in component template,ViewChild"]
 date="2019-12-26T01:01:05+0000"
 lastmod="2019-12-26T02:45:18+0000"
 type="post"
-draft=true
+draft=false
 authors = ["admin"]
 
 +++
@@ -16,7 +16,7 @@ Steps to select an element in Angular component template
 1. Add a template reference variable to the component HTML element.
 2. Import `@ViewChild` decorator from `@angular/core` in component ts file.
 3. Use `ViewChild` decorator to access template reference variable inside the component.
-4. And finally use the reference in `ngAfterViewInit` method by accessing `nativeElement` property.
+4. And finally select the element in `ngAfterViewInit` method by accessing element's `nativeElement` property.
 
 Now we will go through an example to understand it further.
 
@@ -32,15 +32,12 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class SelectElementComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
+   constructor() { }
+   ngOnInit() {
   }
-
 }
 ```
-In `select-element.component.html` file I have added a `input` element with template reference variable `#inputElement`
+In component html file I have added a `input` element with template reference variable `#inputElement`
 
 ```
 <input #inputElement value="Angular Wiki">
@@ -49,7 +46,8 @@ In `select-element.component.html` file I have added a `input` element with temp
 In component file we can access `#inputElement` by using `@ViewChild` decorator.
 
 ```
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } 
+from '@angular/core';
 
 @Component({
   selector: 'app-select-element',
@@ -59,7 +57,7 @@ import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 export class SelectElementComponent implements OnInit {
 
   @ViewChild('inputElement') inputElement:ElementRef; 
-
+  
   constructor() { }
 
   ngOnInit() {
@@ -68,8 +66,9 @@ export class SelectElementComponent implements OnInit {
   ngAfterViewInit() {
     console.log(this.inputElement.nativeElement.value);
   }
-
 }
 ```
 
 In `ngAfterViewInit` method I am logging the value of inputElement i.e., "Angular Wiki"
+
+{{< figure src="select an element in component template.png" title="select an element in component template" alt="select an element in component template">}} 
