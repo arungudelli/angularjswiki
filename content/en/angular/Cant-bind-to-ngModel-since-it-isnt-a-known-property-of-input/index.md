@@ -1,5 +1,5 @@
 +++
-title = "[(ngModel)]Angular Error: Can't bind to 'ngModel' since it isn't a known property of 'input'"
+title = "ngModel Angular Error: Can't bind to 'ngModel' since it isn't a known property of 'input'"
 subtitle = "Can't bind to 'ngModel' since it isn't a known property of 'input'"
 type="post"
 summary ="To fix Can't bind to 'ngModel' since it isn't a known property of 'input' error in Angular we have to import FormsModule in app.module.ts"
