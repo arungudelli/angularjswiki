@@ -56,7 +56,7 @@ error TS8002: Can't bind to 'ngModel' since it isn't a known property of 'input'
 
 In Angular applications, If you want to use two-way data binding for form inputs in we need to import the `FormsModule` from `@angular/core`.
 
-To fix `Can't bind to 'ngModel' since it isn't a known property of 'input' error` in Angular applications we have to import `FormModule` in `app.module.ts` file.
+**To fix `Can't bind to 'ngModel' since it isn't a known property of 'input' error` in Angular applications we have to import `FormModule` in `app.module.ts` file.**
 
 ```
 import { NgModule } from '@angular/core';
