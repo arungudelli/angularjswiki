@@ -1,5 +1,5 @@
 +++
-title = " Angular Material Tooltip: matTooltip example"
+title = " Angular Material Tooltip: mat Tooltip example"
 date = 2019-12-25T00:00:00
 lastmod = 2019-12-25T01:00:00
 
@@ -11,7 +11,7 @@ prev = "badge"
 featured="angular-material-tooltip.jpg"
 authors = ["admin"]
 summary ="To add tooltips in Angular we can use angular material tooltip module called MatTooltipModule."
-keywords=["mattooltip,Angular Material Tooltip"]
+keywords=["mat tooltip,Angular Material Tooltip"]
 
 
 # Add menu entry to sidebar.
@@ -40,9 +40,9 @@ We can import tooltip module (MatTooltipModule) in our components ts file or app
 import {MatTooltipModule} from '@angular/material';
 ```
 
-### step 2: Use matTooltip selector to display tooltips
+### step 2: Use mat Tooltip selector to display tooltips
 
-After importing `MatTooltipModule` in our component file, we can use `matTooltip` selector to add tooltip texts as shown below. 
+After importing `MatTooltipModule` in our component file, we can use `mat Tooltip` selector to add tooltip texts as shown below. 
 
 ```
 <button mat-raised-button
@@ -52,13 +52,13 @@ After importing `MatTooltipModule` in our component file, we can use `matTooltip
 ```
 In the above code I am adding tooltip to a button element.
 
-### step 3: Set the tooltip Position using matTooltipPosition 
+### step 3: Set the mat tooltip Position using matTooltipPosition 
 
 By default tooltip is displayed below the element. 
 
 we can change the tooltip position by using `matTooltipPosition` input property.  
 
-#### matTooltip above
+#### mat Tooltip above
 
 To display tooltip above the element set the `matTooltipPosition` property as `above`
 
@@ -70,7 +70,7 @@ To display tooltip above the element set the `matTooltipPosition` property as `a
 </button>
 ```
 
-#### matTooltip below
+#### mat Tooltip below
 
 Default behavior.
 
@@ -84,7 +84,7 @@ Tooltip always displayed below the element
 </button>
 ```
 
-#### matTooltip left
+#### mat Tooltip left
 
 To display tooltip on the left side of element we can set property to "left" as shown below.
 
@@ -98,7 +98,7 @@ To display tooltip on the left side of element we can set property to "left" as 
 
 If there is no enough space to display tooltip on the left side, then it will be displayed on the right side of element.
 
-#### matTooltip right
+#### mat Tooltip right
 
 To display tooltip on the right side of element we can set property to "right" as shown below.
 
@@ -118,7 +118,7 @@ If there is no enough space to display tooltip on the right side, then it will b
 
 If you are developing RTL (Right To Left) websites, and to display tooltips on the left side or right of the HTML elements we have to use "before" and "after" instead of "left" or "right".
 
-#### matTooltip before
+#### mat Tooltip before
 
 In RTL website layouts,below code displays the tooltip on the left side of the element. 
 
@@ -130,7 +130,7 @@ In RTL website layouts,below code displays the tooltip on the left side of the e
 </button>
 ```
 
-#### matTooltip after
+#### mat Tooltip after
 
 If you set `matTooltipPosition` property to "after", the tooltip will be displayed after the element in RTL websites.
 
@@ -142,7 +142,7 @@ If you set `matTooltipPosition` property to "after", the tooltip will be display
 </button>
 ```
 
-## Disable tooltips in Angular using matTooltipDisabled
+## Disable mat tooltip in Angular using matTooltipDisabled
 
 `matTooltipDisabled` is used to disable tooltips in Angular. 
 
@@ -227,11 +227,11 @@ export class TooltipDelayExample implements OnInit {
 }
 ```
 
-## Change the Styles of matTooltip 
+## Change the Styles of mat Tooltip 
 
-We can change the style of angular material tooltip by adding a class to the matTooltip.
+We can change the style of angular material tooltip by adding a class to the mat Tooltip.
 
-### Adding a class to tooltip container using matTooltipClass
+### Adding a class to mat tooltip container using matTooltipClass
 
 We can give custom class to tooltip container using `matTooltipClass`.It has similar syntax as `ngClass`.
 
@@ -289,13 +289,13 @@ If font size is not changing then please cross check whether you have added `enc
 
 {{< figure src="Change the font size mattooltip.PNG" title="Change the font size mattooltip" alt="Change the font size mattooltip">}}
 
-## Adding multiline tooltip using matTooltip
+## Adding multiline tooltip using mat Tooltip
 
-To add a multiline matTooltip follow the below steps
+To add a multiline mat Tooltip follow the below steps
 
-1. Add a custom class to the matTooltip
+1. Add a custom class to the mat Tooltip
 2. Add `white-space: pre-line;` css to the class
-3. Add new line character(\n) `&#13;` in the matTooltip content.
+3. Add new line character(\n) `&#13;` in the mat Tooltip content.
 
 Add a component called `MultilineTooltipComponent` in your project file by using below command `ng generate component multiline-tooltip`.
 
@@ -328,7 +328,7 @@ Multiline tooltip
 </button>
 ```
 
-In `matTooltip` content, I have added new line character (`&#13;`).
+In `mat Tooltip` content, I have added new line character (`&#13;`).
 
 And finally add `white-space: pre-line` css to the custom class.
 
@@ -395,25 +395,25 @@ Angular Material tooltip module API have three methods which will be used to dis
 2. hide 
 3. toggle
 
-### matTooltip show
+### mat Tooltip show
 
-matTooltip show method accepts the show tooltip delay as a parameter.
+mat Tooltip show method accepts the show tooltip delay as a parameter.
 
 delay will be in milli seconds if there is no parameter passed then delay will 0ms or defaults to tooltip-delay-show.
 
-### matTooltip hide
+### mat Tooltip hide
 
-matTooltip hide method accepts the hide tooltip delay as a parameter.
+mat Tooltip hide method accepts the hide tooltip delay as a parameter.
 
 delay will be in milli seconds if there is no parameter passed then delay will 0ms or defaults to tooltip-delay-hide.
 
-### matTooltip toggle
+### mat Tooltip toggle
 
 Used to toggle the tooltip 
 
 We will understand these methods further using a simple example.
 
-Add `matTooltip` to the host element. and then add a template reference(#tooltip) to matTooltip as shown below.
+Add `mat Tooltip` to the host element. and then add a template reference(#tooltip) to matTooltip as shown below.
 
 ```
     <button mat-raised-button #tooltip="matTooltip"
@@ -504,7 +504,7 @@ toggle
 </button>
 ```
 
-## Change the tooltip content dynamically in Angular
+## Change the mat tooltip content dynamically in Angular
 
 To change the tooltip content dynamically we can bind a variable or pass a method to 
 `matTooltip` selector.
@@ -540,11 +540,11 @@ export class TooltipComponent implements OnInit {
 }  
 ```
 
-## matTooltip not working
+## mat Tooltip not working
 
 Angular material tooltip module depends upon BrowserAnimationsModule. Other wise matTooltip will not be displayed
 
-To use matTooltip we need to add `BrowserAnimationsModule` in app.module.ts file
+To use mat Tooltip we need to add `BrowserAnimationsModule` in app.module.ts file
 
 ```
 import { BrowserAnimationsModule } 

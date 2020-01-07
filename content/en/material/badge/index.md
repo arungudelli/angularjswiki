@@ -1,5 +1,5 @@
 +++
-title = "Angular Material Badge: matBadge example"
+title = "Angular Material Badge: mat Badge example"
 date = 2019-12-13T00:00:00
 lastmod = 2019-12-13T01:00:00
 
@@ -10,8 +10,9 @@ parentdoc = "material"
 prev = "material"
 featured="angular-material-badge.jpg"
 authors = ["admin"]
-summary ="Angular Material Badge (matBadge) used to create notification badges."
-keywords=["matBadge,Angular Material Badge"]
+summary ="Angular Material Badge (mat Badge) used to create notification badges."
+keywords=["mat +96-3
+Badge,Angular Material Badge"]
 
 
 # Add menu entry to sidebar.
@@ -21,7 +22,7 @@ linktitle = "Badge"
   weight = 2
 +++
 
-Angular Material Badge (`matBadge`), used to display notifications counts like unread messages in Gmail. 
+Angular Material Badge (`mat Badge`), used to display notifications counts like unread messages in Gmail. 
 
 `matBadge` selector is used to display the badges on top of UI elements.
 
@@ -52,9 +53,9 @@ We can import badge module in our component ts file or app.module.ts file or som
 import {MatBadgeModule} from '@angular/material'
 ```
 
-### step 2: Use matBadge directive to display status descriptors
+### step 2: Use mat Badge directive to display status descriptors
 
-After importing angular material badge module. We can use `matBadge` directive to display notification texts as shown below. 
+After importing angular material badge module. We can use `mat Badge` directive to display notification texts as shown below. 
 
 ```
 <p>
@@ -62,7 +63,7 @@ After importing angular material badge module. We can use `matBadge` directive t
 </p>
 ```
 
-Adding matBadge to the buttons 
+Adding mat Badge to the buttons 
 
 ```
 <button mat-raised-button 
@@ -72,7 +73,7 @@ Adding matBadge to the buttons
 </button>
 ```
 
-Adding matBadge to Icons
+Adding mat Badge to Icons
 
 ```
 <mat-icon matBadge="10">
@@ -100,11 +101,11 @@ To remove overlapping of badge with the host element we can use `matBadgeOverlap
 ```
 {{< figure src="matbadge Overlap.PNG" title="MatBadge Overlap" alt="MatBadge Overlap">}}
 
-## Changing matBadge Position
+## Changing mat Badge Position
 
 By default, material badge will be displayed on top right corner of the element.
 
-We can change the position of `matBadge` by using `matBadgePosition` input. 
+We can change the position of `mat Badge` by using `matBadgePosition` input. 
 
 `matBadgePosition` accepts four values as listed below.
 
@@ -135,9 +136,9 @@ The default value is `above after`.
 
 In most of the cases we will not be using mat badge position as badge is like notification and always displayed on top of other elements.
 
-## Changing matBadge Color
+## Changing mat Badge Color
 
-To change the color of matBadge we can use `matBadgeColor` attribute as shown below.
+To change the color of mat Badge we can use `matBadgeColor` attribute as shown below.
 
 ```
 <mat-icon matBadge="22" matBadgeColor="primary">
@@ -153,15 +154,15 @@ To change the color of matBadge we can use `matBadgeColor` attribute as shown be
 
 The default value is `primary`.
 
-We can change the color of matBadge to the default theme themePalettes like `primary, accent, or warn`.
+We can change the color of mat Badge to the default theme themePalettes like `primary, accent, or warn`.
 
 {{< figure src="changing matBadge color.PNG" title="changing MatBadge color" alt="changing MatBadge color">}}
 
-## Giving Custom Color to matBadge
+## Giving Custom Color to mat Badge
 
 As explained above we can pass only default themePalettes to `matBadgeColor` attribute.
 
-To give our own custom color to material badge we can override the CSS of `matBadge` elemenet.
+To give our own custom color to material badge we can override the CSS of `mat Badge` elemenet.
 
 ```
 .mat-badge-content{
@@ -169,11 +170,11 @@ To give our own custom color to material badge we can override the CSS of `matBa
 }
 ```
 
-## Changing text color of matBadge Content
+## Changing text color of mat Badge Content
 
 By default the text color of material badge content is white.
 
-To change the text color of matBadge content we can change the CSS of `.mat-badge-content` class as shown below.
+To change the text color of mat Badge content we can change the CSS of `.mat-badge-content` class as shown below.
 
 ```
 .mat-badge-content{
@@ -183,9 +184,9 @@ To change the text color of matBadge content we can change the CSS of `.mat-badg
 
 {{< figure src="matbadge custom color.PNG" title="MatBadge custom color" alt="MatBadge custom color">}}
 
-## Changing size of matBadge
+## Changing size of mat Badge
 
-Angular material will provide three sizes for matBadge.
+Angular material will provide three sizes for mat Badge.
 
 1. small
 2. medium
@@ -193,7 +194,7 @@ Angular material will provide three sizes for matBadge.
 
 The default size of the badge is medium.
 
-We can change the size of matBadge by using `matBadgeSize` attribute as shown below.
+We can change the size of mat Badge by using `matBadgeSize` attribute as shown below.
 
 ```
 <mat-icon matBadge="10" matBadgeSize="large">
@@ -209,11 +210,11 @@ We can change the size of matBadge by using `matBadgeSize` attribute as shown be
 {{< figure src="change matBadge Size.PNG" title="change matBadge size" alt="change matBadge size">}}
 
 
-## Changing matBadge content dynamically.
+## Changing mat Badge content dynamically.
 
 In the above example we are using static values for material badge content. 
 
-To change matBadge content dynamically, we can bind a variable to `matBadge` and update it whenever required as shown below.
+To change mat Badge content dynamically, we can bind a variable to `matBadge` and update it whenever required as shown below.
 
 ```
 <mat-icon [matBadge]="badgeContent">
@@ -234,9 +235,9 @@ export class BadgeComponent implements OnInit {
 }
 ```
 
-Now we will create a notification counter using matBadge
+Now we will create a notification counter using mat Badge
 
-## Notification Counter Using matBadge
+## Notification Counter Using mat Badge
 
 I have created a componet called `NotificationBadgeComponent` and in that added a variable named `badgeCounter`.
 
@@ -291,11 +292,11 @@ Ideally when there are no notifications we wont be showing count as zero, will s
 
 {{< figure src="Notification Counter matBadge.PNG" title="Notification Counter matBadge" alt="Notification Counter matBadge">}}
 
-## Display or Hide matBadge
+## Display or Hide mat Badge
 
 We can display or hide the material badge by using `matBadgeHidden` property.
 
-If `matBadgeHidden` is true then `matBadge` will be hidden.
+If `matBadgeHidden` is true then `mat Badge` will be hidden.
 
 ```
 <mat-icon matBadge="22" matBadgeHidden="true">
@@ -359,7 +360,7 @@ If the badgeCounter is zero hide the badge.
 </mat-icon>
 ```
 
-## matBadge disabled
+## mat Badge disabled
 
 When a badge is added to an element, for instance button, and if the button element is disabled, the badge color will be shown according to primary, accent, or warn color irrespective of host element shown below.
 
@@ -374,7 +375,7 @@ When a badge is added to an element, for instance button, and if the button elem
 </button>
 ```
 
-So in such cases to disable matBadge we can use `[matBadgeDisabled]` input property.
+So in such cases to disable mat Badge we can use `[matBadgeDisabled]` input property.
 
 
  ```
@@ -389,6 +390,6 @@ So in such cases to disable matBadge we can use `[matBadgeDisabled]` input prope
 </button>
 ```
 
-But remember that it just changes the color of matBadge to gray. And it is possible change the matBadge content dynamically as explained above. 
+But remember that it just changes the color of mat Badge to gray. And it is possible change the mat Badge content dynamically as explained above. 
 
 {{< figure src="matBadge Disabled.PNG" title="matBadge Disabled" alt="matBadge Disabled">}}
