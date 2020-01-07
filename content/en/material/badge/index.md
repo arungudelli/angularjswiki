@@ -11,8 +11,7 @@ prev = "material"
 featured="angular-material-badge.jpg"
 authors = ["admin"]
 summary ="Angular Material Badge (mat Badge) used to create notification badges."
-keywords=["mat +96-3
-Badge,Angular Material Badge"]
+keywords=["mat Badge,Angular Material Badge"]
 
 
 # Add menu entry to sidebar.
