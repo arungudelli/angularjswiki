@@ -42,7 +42,7 @@ import {MatDatepickerModule} from '@angular/material';
 
 ### step 2: Use matDatepicker selector along with input element
 
-After importing `MatDatepickerModule` in our component file, use `mat-datepicker`,`mat-datepicker-toggle` and `input` elements together as shown below to display calender pop up.
+After importing `MatDatepickerModule` in our component file, use `mat-datepicker`,`mat-datepicker-toggle` and `input` elements together to display calender pop up.
 
 ## mat-datepicker example
 
@@ -132,8 +132,139 @@ export class DatepickerComponent implements OnInit {
 
 }
 ```
-## Angular Date picker validations
+## mat-datepicker validations
 
-To 
+`mat-datepicker` contains three additional properties to add validation to date picker input.
 
-## mat-datepicker min max validations
+1. min : we can set the minimum date
+2. max : we can set the maximum date
+3. matDatepickerFilter : we can add custom validation on each date. 
+
+## mat-datepicker min max date validations
+
+Now we will learn how to enforce min max validations to mat-datepicker input using an example.
+
+```
+<mat-form-field>
+  <input #minmaxInput matInput 
+    [min]="minDate" 
+    [max]="maxDate"
+    [matDatepicker]="minmaxvalidation" 
+    placeholder="Pick a date">
+  <mat-datepicker-toggle matSuffix [for]="minmaxvalidation">
+     </mat-datepicker-toggle>
+  <mat-datepicker #minmaxvalidation></mat-datepicker>
+</mat-form-field>
+```
+
+In our component ts file we can set the minimum and maximum dates and bind them in `min` and `max` properties.
+
+```
+export class DatepickerComponent implements OnInit {
+
+  constructor() { }
+  
+  minDate = new Date(1990, 0, 1);
+  maxDate = new Date(2020,0,1);
+  
+  ngOnInit() {
+  }
+
+}
+```
+
+All of the dates before 1990 and past 2020 are unselectable and he cannot go beyond this date range.
+
+But user can able to type the dates manually in mat-datepicker input element.
+
+In that case input element will have validation errors.
+
+To handle this case we can add min and max date validation messages.
+
+### mat-datepicker min max date validations with error messages
+
+When a user manually type a date beyond min max range. The input element will have following validation errors.
+
+1. matDatepickerMin 
+2. matDatepickerMax 
+
+We can use this two errors to display validation error messages on `mat-datepicker` input element.
+
+```
+  <mat-datepicker-toggle [for]="resultPicker"></mat-datepicker-toggle>
+  <mat-form-field>
+    <mat-label>Pick a date</mat-label>
+    <input matInput
+           #resultPickerModel="ngModel"
+           [matDatepicker]="resultPicker"
+           [(ngModel)]="date"
+           [min]="minDate"
+           [max]="maxDate">
+    <mat-datepicker #resultPicker>
+    </mat-datepicker>
+    <mat-error *ngIf="resultPickerModel.hasError('matDatepickerParse')">
+      "{{resultPickerModel.getError('matDatepickerParse').text}}" is not a valid date!
+    </mat-error>
+    <mat-error *ngIf="resultPickerModel.hasError('matDatepickerMin')">
+      Minimum date should be {{maxDate | date }}</mat-error>
+    <mat-error *ngIf="resultPickerModel.hasError('matDatepickerMax')">
+      Maximum date should be {{maxDate | date }}
+    </mat-error>    
+  </mat-form-field>  
+```
+
+I am using `mat-error` element to display error messages.
+
+In the above example, I have created a `date` variable and bind it to datepicker input element using `ngModel`.
+
+Added a template reference variable `#resultPickerModel` to ngModel to track error messages.  
+
+And also if we enter invalid date, the input element will contain `matDatepickerParse` error.
+
+## matDatepickerFilter validation.
+
+If we want to custom validation on each and every date we can use `matDatepickerFilter` property.
+
+For example if we want to disable selection of saturday and sunday as they are weekends we can make use of `matDatepickerFilter` property.
+
+matDatepickerFilter property accepts a function of <DateType> => boolean (where <DateType> is the type of date used by the datepicker). 
+
+If the funtion returns `true` then the date is valid and it it is `false` then it is not.
+
+We will go through an example to understand it futher.
+
+```
+  <mat-datepicker-toggle [for]="resultPicker"></mat-datepicker-toggle>
+  <mat-form-field>
+    <mat-label>Pick a date</mat-label>
+    <input matInput
+           #resultPickerModel="ngModel"
+           [matDatepicker]="resultPicker"
+           [(ngModel)]="date"
+           [matDatepickerFilter]="dateFilter">
+    <mat-datepicker #resultPicker>
+    </mat-datepicker>
+    <mat-error *ngIf="resultPickerModel.hasError('matDatepickerParse')">
+      "{{resultPickerModel.getError('matDatepickerParse').text}}" is not a valid date!
+    </mat-error>
+    <mat-error *ngIf="resultPickerModel.hasError('matDatepickerFilter')">
+      Date unavailable! It's a weekend.
+    </mat-error>
+  </mat-form-field>  
+```
+
+And in component ts file I have added a dateFilter function to check for saturday and sunday.
+
+```
+dateFilter: (date: Date | null) => boolean =
+    (date: Date | null) => {
+      const day = date.getDay();
+      return day !== 0 && day !== 6;
+      //0 means sunday
+      //6 means saturday
+  }
+```
+
+And if the user manually types the date which is a weekend, the input element will have `matDatepickerFilter` validation error.
+
+I am using that error to display error message.
