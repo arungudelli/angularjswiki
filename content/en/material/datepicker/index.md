@@ -9,7 +9,7 @@ parentdoc = "material"
 prev = "badge"
 featured="angular-material-tooltip.jpg"
 authors = ["admin"]
-summary ="To add tooltips in Angular we can use angular material tooltip module called MatTooltipModule."
+summary ="To implement date picker in Angular we can use angular material datepicker module called MatDatepickerModule."
 keywords=["matdatepicker,Angular Material datepicker"]
 
 
