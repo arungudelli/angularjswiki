@@ -17,7 +17,7 @@ keywords=["matdatepicker,Angular Material datepicker"]
 linktitle = "Datepicker"
 [menu.material]
   parent = "Tutorial"
-  weight = 2
+  weight = 4
 +++
 
 To implement date picker in Angular we can use angular material datepicker module called `MatDatepickerModule`.
@@ -132,7 +132,7 @@ export class DatepickerComponent implements OnInit {
 
 }
 ```
-## mat-datepicker validations
+## Angular Material datepicker validations
 
 `mat-datepicker` contains three additional properties to add validation to date picker input.
 
@@ -210,7 +210,19 @@ We can use this two errors to display validation error messages on `mat-datepick
     <mat-error *ngIf="resultPickerModel.hasError('matDatepickerMax')">
       Maximum date should be {{maxDate | date }}
     </mat-error>    
-  </mat-form-field>  
+  </mat-form-field>
+  
+  export class DatepickerComponent implements OnInit {
+
+  constructor() { }
+  
+  date : any;
+  
+  ngOnInit() {
+  }
+
+}
+    
 ```
 
 I am using `mat-error` element to display error messages.
@@ -256,15 +268,175 @@ We will go through an example to understand it futher.
 And in component ts file I have added a dateFilter function to check for saturday and sunday.
 
 ```
-dateFilter: (date: Date | null) => boolean =
+export class DatepickerComponent implements OnInit {
+
+  constructor() { }
+  
+  date : any;
+  
+  ngOnInit() {
+  }
+
+
+  dateFilter: (date: Date | null) => boolean =
     (date: Date | null) => {
       const day = date.getDay();
       return day !== 0 && day !== 6;
       //0 means sunday
       //6 means saturday
   }
+}
 ```
 
 And if the user manually types the date which is a weekend, the input element will have `matDatepickerFilter` validation error.
 
 I am using that error to display error message.
+
+## mat-datepicker format
+
+To format the dates in `mat-datepicker` input we have to write our own `DateAdapter`.
+
+Steps to format the dates in `mat-datepicker` input
+
+1. Create a custom date adapter (PickDateAdapter) by extending `NativeDateAdapter`.
+2. Import `formatDate` from `@angular/common` to change the datepicker input format.
+3. Add custom date picker formats (PICK_FORMATS).
+4. Finally add the custom date adapter and custom date formats to the provider array of component to overwrite default DateAdapter and MAT_DATE_FORMATS.
+
+You have to import NativeDateAdapter, DateAdapter, MAT_DATE_FORMATS from angular material.
+
+```
+import { NativeDateAdapter, DateAdapter, MAT_DATE_FORMATS } from '@angular/material';
+```
+
+The below date picker example display the date in `dd-MMM-yyyy` format. i.e., `08-Jan-2020`.
+
+And similarly the format `dd-MM-yyyy` displays the date as `07-01-2020`.
+
+For example to display date along with day use format `EEEE, MMMM d, y`. 
+i.e.,`Monday, January 6, 2020`
+
+```
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { FormControl } from '@angular/forms';
+import { NativeDateAdapter, DateAdapter, MAT_DATE_FORMATS } from '@angular/material';
+import { formatDate } from '@angular/common';
+
+export const PICK_FORMATS = {
+  parse: {dateInput: {month: 'short', year: 'numeric', day: 'numeric'}},
+  display: {
+      dateInput: 'input',
+      monthYearLabel: {year: 'numeric', month: 'short'},
+      dateA11yLabel: {year: 'numeric', month: 'long', day: 'numeric'},
+      monthYearA11yLabel: {year: 'numeric', month: 'long'}
+  }
+};
+
+class PickDateAdapter extends NativeDateAdapter {
+  format(date: Date, displayFormat: Object): string {
+      if (displayFormat === 'input') {
+          return formatDate(date,'dd-MMM-yyyy',this.locale);;
+      } else {
+          return date.toDateString();
+      }
+  }
+}
+
+@Component({
+  selector: 'app-datepicker',
+  templateUrl: './datepicker.component.html',
+  styleUrls: ['./datepicker.component.scss'],
+  providers: [
+    {provide: DateAdapter, useClass: PickDateAdapter},
+    {provide: MAT_DATE_FORMATS, useValue: PICK_FORMATS}
+]
+})
+
+export class DatepickerComponent implements OnInit {
+
+  constructor() { }
+  
+  date : any;
+  
+  ngOnInit() {
+  }
+
+}
+
+```
+
+Go through the below article for the complete list of date formats.
+
+[Angular date pipe](https://www.angularjswiki.com/angular/angular-date-pipe-formatting-date-times-in-angular-with-examples/)
+
+## mat-datepicker dateClass
+
+`dateClass` property used to add classes to the date picker input.
+
+It's very helpful in case of if you want to apply styles to the dates in calender pop up.
+
+A real world example would be highlight holidays in a calender.
+
+`dateClass` accepts a function which will be called for each and every dates in the calendar and will apply any classes that are returned from the method.
+
+And the funtion can return object as well. i.e., we can return an `ngClass` object. 
+
+### Highlighting dates in mat-datepicker calender.
+
+We will highlight the weekends in calender pop-up using `dateClass`.
+
+Steps to highlight dates in calender
+
+1. Define a dateClass function which will return class name in component ts file.
+2. Add `dateClass` propery to the `mat-datepicker` element and bind it to the funtion created above.
+3. Define styles for the dateClass in component styles.css file.
+4. Add `encapsulation: ViewEncapsulation.None` to the component declaration.
+
+The below examples highlight the weekends in calender pop up i.e., saturday and sunday.
+
+
+```
+<mat-datepicker-toggle [for]="resultPicker"></mat-datepicker-toggle>
+  <mat-form-field>
+    <mat-label>Pick a date</mat-label>
+    <input matInput
+           #resultPickerModel="ngModel"
+           [matDatepicker]="resultPicker"
+           [(ngModel)]="date"
+           >
+    <mat-datepicker #resultPicker [dateClass]="dateClass">
+    </mat-datepicker>
+</mat-form-field>  
+
+@Component({
+  selector: 'app-datepicker',
+  templateUrl: './datepicker.component.html',
+  styleUrls: ['./datepicker.component.scss'],
+  encapsulation: ViewEncapsulation.None
+})
+export class DatepickerComponent implements OnInit {
+
+  constructor() { }
+  
+  date : any;
+  
+  ngOnInit() {
+  }
+
+
+  dateClass = (d: Date) => {
+    const date = d.getDay();
+    // Highlight saturday and sunday.
+    return (date === 0 || date === 6) ? 'highlight-dates' : undefined;
+  }
+}
+```
+
+And add styles to the `highlight-dates` class in `datepicker.component.scss` file.
+
+```
+.highlight-dates{
+    background: red;
+    border-radius: 100%;
+}
+```
