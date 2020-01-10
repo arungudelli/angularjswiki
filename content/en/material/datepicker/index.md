@@ -58,6 +58,8 @@ Now we will implement a basic date picker in angular using `mat-datepicker` elem
 <mat-datepicker #basicDatepicker></mat-datepicker>
 ```
 
+{{< figure src="basic datepicker angular.PNG" title="basic datepicker angular" alt="basic datepicker angular">}}
+
 ## Change the icon of mat-datepicker-toggle 
 
 To change the icon of datepicker toggle button use `mat-icon` along with `matDatepickerToggleIcon` property inside `mat-datepicker-toggle` element.
@@ -71,6 +73,8 @@ To change the icon of datepicker toggle button use `mat-icon` along with `matDat
 </mat-datepicker-toggle>
 <mat-datepicker #basicDatepicker></mat-datepicker>
 ```
+
+{{< figure src="basic datepicker angular.PNG" title="matTooltip Position" alt="matTooltip Position">}}
 
 ## mat-datepicker Start View
 
@@ -93,6 +97,8 @@ To set the start view to current year (which displays months in the year)set the
     <mat-datepicker #pickeryear startView="year"></mat-datepicker>
 </mat-form-field>
 ```
+{{< figure src="mat-datepicker-startview-year.PNG" title="mat-datepicker startview year" alt="mat-datepicker startview year">}}
+
 ### mat-datepicker startView multi-year
 
 Similary we can set the calender pop up view to `multi-year` to display 24 years.
@@ -104,6 +110,8 @@ Similary we can set the calender pop up view to `multi-year` to display 24 years
     <mat-datepicker #pickeryear startView="year"></mat-datepicker>
 </mat-form-field>
 ```
+
+{{< figure src="mat-datepicker-startview-multiyear.PNG" title="mat-datepicker startview year" alt="mat-datepicker startview year">}}
 
 ## mat-datepicker startAt
 
@@ -132,6 +140,8 @@ export class DatepickerComponent implements OnInit {
 
 }
 ```
+{{< figure src="mat-datepicker-startat.PNG" title="mat-datepicker startat" alt="mat-datepicker startat">}}
+
 ## Angular Material datepicker validations
 
 `mat-datepicker` contains three additional properties to add validation to date picker input.
@@ -174,6 +184,8 @@ export class DatepickerComponent implements OnInit {
 ```
 
 All of the dates before 1990 and past 2020 are unselectable and he cannot go beyond this date range.
+
+{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
 
 But user can able to type the dates manually in mat-datepicker input element.
 
@@ -233,6 +245,8 @@ Added a template reference variable `#resultPickerModel` to ngModel to track err
 
 And also if we enter invalid date, the input element will contain `matDatepickerParse` error.
 
+{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
+
 ## matDatepickerFilter validation.
 
 If we want to custom validation on each and every date we can use `matDatepickerFilter` property.
@@ -291,6 +305,8 @@ export class DatepickerComponent implements OnInit {
 And if the user manually types the date which is a weekend, the input element will have `matDatepickerFilter` validation error.
 
 I am using that error to display error message.
+
+{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
 
 ## mat-datepicker format
 
@@ -369,6 +385,8 @@ Go through the below article for the complete list of date formats.
 
 [Angular date pipe](https://www.angularjswiki.com/angular/angular-date-pipe-formatting-date-times-in-angular-with-examples/)
 
+{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
+
 ## mat-datepicker dateClass
 
 `dateClass` property used to add classes to the date picker input.
@@ -440,6 +458,7 @@ And add styles to the `highlight-dates` class in `datepicker.component.scss` fil
     border-radius: 100%;
 }
 ```
+{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
 
 ## Disable mat-datepicker
 
@@ -484,6 +503,8 @@ But we can override disabled property at datepicker and toggle elements.
 
 So now we cannot enter date manually but can be selected through calender pop up.
 
+{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
+
 ## mat-datepicker disable manual typing in input element
 
 The above approach can be used to disable typing in date picker input. But the selected date will be in gray color.
@@ -497,6 +518,7 @@ So to disable typing in datepicker, add `readonly` propery to input element.
   <mat-datepicker #disableTyping></mat-datepicker>
 </mat-form-field>
 ```
+{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
 
 ## mat-datepicker touch Ui mode in mobile devices
 
@@ -513,6 +535,8 @@ But in mobile devices we don't have much space and we need bigger real estate to
   <mat-datepicker touchUi="true" #touchUi></mat-datepicker>
 </mat-form-field>
 ```
+{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
+
 ## Change mat-datepicker color
 
 To change the color of mat-datepicker we can make use of `color` property which accepts themepalette (primary, accent, or warn).
@@ -525,3 +549,4 @@ To change the color of mat-datepicker we can make use of `color` property which 
   <mat-datepicker #datepickercolor color="warn"></mat-datepicker>
 </mat-form-field>
 ```
+{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
