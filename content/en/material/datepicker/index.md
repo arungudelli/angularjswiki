@@ -440,3 +440,60 @@ And add styles to the `highlight-dates` class in `datepicker.component.scss` fil
     border-radius: 100%;
 }
 ```
+
+## Disable mat-datepicker
+
+We can disable the datepicker by adding `disabled` property to the input element. 
+
+```
+<mat-form-field>
+    <input matInput [matDatepicker]="disabledatepicker" placeholder="disabled datepicker" disabled>
+    <mat-datepicker-toggle matSuffix [for]="disabledatepicker"></mat-datepicker-toggle>
+    <mat-datepicker #disabledatepicker></mat-datepicker>
+</mat-form-field>
+```
+
+### Disable mat-datepicker-toggle
+
+To disable only datepicker toggle we can add `dispabled` property to the `mat-datepicker-toggle` element.
+
+```
+<mat-form-field>
+  <input matInput [matDatepicker]="disabletoggle" placeholder="disabled datepicker toggle">
+  <mat-datepicker-toggle matSuffix [for]="disabletoggle" disabled></mat-datepicker-toggle>
+  <mat-datepicker #disabletoggle></mat-datepicker>
+</mat-form-field>
+```
+
+In this case user can only enter date by manually typing.
+
+
+### Disable mat-datepicker input
+
+When we add `disabled` property on `input` element `<mat-datepicker>` and `<mat-datepicker-toggle>` will inherit the disabled state, that's why both datepicker and datepicker-toggle are disabled.
+
+But we can override disabled property at datepicker and toggle elements.
+
+```
+<mat-form-field>
+  <input matInput [matDatepicker]="disabletext" placeholder="" disabled>
+  <mat-datepicker-toggle matSuffix [for]="disabletext"></mat-datepicker-toggle>
+  <mat-datepicker #disabletext disabled="false"></mat-datepicker>
+</mat-form-field>
+```
+
+So now we cannot enter date manually but can be selected through calender pop up.
+
+## mat-datepicker disable manual typing in input element
+
+The above approach can be used to disable typing in date picker input. But the selected date will be in gray color.
+
+So to disable typing in datepicker, add `readonly` propery to input element.
+
+```
+<mat-form-field>
+  <input matInput [matDatepicker]="disableTyping" placeholder="disable typing" readonly>
+  <mat-datepicker-toggle matSuffix [for]="disableTyping"></mat-datepicker-toggle>
+  <mat-datepicker #disableTyping></mat-datepicker>
+</mat-form-field>
+```
