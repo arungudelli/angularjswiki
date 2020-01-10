@@ -497,3 +497,31 @@ So to disable typing in datepicker, add `readonly` propery to input element.
   <mat-datepicker #disableTyping></mat-datepicker>
 </mat-form-field>
 ```
+
+## mat-datepicker touch Ui mode in mobile devices
+
+Normally in datepicker calender popup will be displayed under the input element.
+
+But in mobile devices we don't have much space and we need bigger real estate to click and select dates.
+
+`mat-datepicker` comes up with `touchUi` property, if we set to `true` calendar opens in a large touch friendly UI dialog.
+
+```
+<mat-form-field>
+  <input matInput [matDatepicker]="touchUi" placeholder="mobile touchUi">
+  <mat-datepicker-toggle matSuffix [for]="touchUi"></mat-datepicker-toggle>
+  <mat-datepicker touchUi="true" #touchUi></mat-datepicker>
+</mat-form-field>
+```
+## Change mat-datepicker color
+
+To change the color of mat-datepicker we can make use of `color` property which accepts themepalette (primary, accent, or warn).
+
+```
+<mat-form-field>
+  <mat-label>mat-datepicker color</mat-label>
+  <input matInput [matDatepicker]="datepickercolor">
+  <mat-datepicker-toggle matSuffix [for]="datepickercolor"></mat-datepicker-toggle>
+  <mat-datepicker #datepickercolor color="warn"></mat-datepicker>
+</mat-form-field>
+```
