@@ -2,12 +2,12 @@
 title = "Datepicker in Angular using mat-datepicker | Material Design"
 date = 2019-12-25T00:00:00
 lastmod = 2019-12-25T01:00:00
-draft = true  # Is this a draft? true/false
+draft = false  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
 prev = "badge"
-featured="angular-material-tooltip.jpg"
+featured="angular-material-date-picker.jpg"
 authors = ["admin"]
 summary ="To implement date picker in Angular we can use angular material datepicker module called MatDatepickerModule."
 keywords=["matdatepicker,Angular Material datepicker"]
@@ -34,7 +34,7 @@ Steps to create datepicker in Angular applications.
 
 ### step 1: Import Angular material datepicker module 
 
-We should add `MatTooltipModule` in our components ts file or `app.module.ts` file or some common material module which can be used across the application as explained in angular material tutorial.
+We should add `MatDatepickerModule` in our components ts file or `app.module.ts` file or some common material module which can be used across the application as explained in angular material tutorial.
 
 ```
 import {MatDatepickerModule} from '@angular/material';
@@ -42,7 +42,7 @@ import {MatDatepickerModule} from '@angular/material';
 
 ### step 2: Use matDatepicker selector along with input element
 
-After importing `MatDatepickerModule` in our component file, use `mat-datepicker`,`mat-datepicker-toggle` and `input` elements together to display calender pop up.
+After importing `MatDatepickerModule` in our component file, use `mat-datepicker`,`mat-datepicker-toggle` and `input` elements together to display datepicker calender pop up.
 
 ## mat-datepicker example
 
@@ -68,13 +68,13 @@ To change the icon of datepicker toggle button use `mat-icon` along with `matDat
 <input [matDatepicker]="basicDatepicker">
 <mat-datepicker-toggle [for]="basicDatepicker">
   <mat-icon matDatepickerToggleIcon>
-      keyboard_arrow_down
+      mouse
   </mat-icon>
 </mat-datepicker-toggle>
 <mat-datepicker #basicDatepicker></mat-datepicker>
 ```
 
-{{< figure src="basic datepicker angular.PNG" title="matTooltip Position" alt="matTooltip Position">}}
+{{< figure src="mat-datepicker-icon-change.PNG" title="mat-datepicker icon change" alt="mat-datepicker icon change">}}
 
 ## mat-datepicker Start View
 
@@ -92,8 +92,10 @@ To set the start view to current year (which displays months in the year)set the
 
 ```
 <mat-form-field>
-    <input matInput [matDatepicker]="pickeryear" placeholder="Choose a date">
-    <mat-datepicker-toggle  [for]="pickeryear"></mat-datepicker-toggle>
+    <input matInput [matDatepicker]="pickeryear" 
+     placeholder="Choose a date">
+    <mat-datepicker-toggle  [for]="pickeryear">
+    </mat-datepicker-toggle>
     <mat-datepicker #pickeryear startView="year"></mat-datepicker>
 </mat-form-field>
 ```
@@ -105,8 +107,10 @@ Similary we can set the calender pop up view to `multi-year` to display 24 years
 
 ```
 <mat-form-field>
-    <input matInput [matDatepicker]="pickeryear" placeholder="Choose a date">
-    <mat-datepicker-toggle  [for]="pickeryear"></mat-datepicker-toggle>
+    <input matInput [matDatepicker]="pickeryear" 
+    placeholder="Choose a date">
+    <mat-datepicker-toggle  [for]="pickeryear">
+    </mat-datepicker-toggle>
     <mat-datepicker #pickeryear startView="year"></mat-datepicker>
 </mat-form-field>
 ```
@@ -121,9 +125,12 @@ To change this behavior we can use `startAt` property of `mat-datepicker`.
 
 ```
 <mat-form-field>
-    <input matInput [matDatepicker]="startatpicker" placeholder="Choose a date">
-    <mat-datepicker-toggle  [for]="startatpicker"></mat-datepicker-toggle>
-    <mat-datepicker #startatpicker startView="year" [startAt]="startDate"></mat-datepicker>
+    <input matInput [matDatepicker]="startatpicker"
+     placeholder="Choose a date">
+    <mat-datepicker-toggle  [for]="startatpicker">
+    </mat-datepicker-toggle>
+    <mat-datepicker #startatpicker startView="year" 
+    [startAt]="startDate"></mat-datepicker>
 </mat-form-field>
 
 ```
@@ -185,7 +192,9 @@ export class DatepickerComponent implements OnInit {
 
 All of the dates before 1990 and past 2020 are unselectable and he cannot go beyond this date range.
 
-{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
+{{< figure src="mat-datepicker-max-date.PNG" title="mat-datepicker max date" alt="mat-datepicker max date">}}
+
+{{< figure src="mat-datepicker-min-date.PNG" title="mat-datepicker min date" alt="mat-datepicker min date">}}
 
 But user can able to type the dates manually in mat-datepicker input element.
 
@@ -215,7 +224,8 @@ We can use this two errors to display validation error messages on `mat-datepick
     <mat-datepicker #resultPicker>
     </mat-datepicker>
     <mat-error *ngIf="resultPickerModel.hasError('matDatepickerParse')">
-      "{{resultPickerModel.getError('matDatepickerParse').text}}" is not a valid date!
+      "{{resultPickerModel.getError('matDatepickerParse').text}}"
+       is not a valid date!
     </mat-error>
     <mat-error *ngIf="resultPickerModel.hasError('matDatepickerMin')">
       Minimum date should be {{maxDate | date }}</mat-error>
@@ -245,17 +255,17 @@ Added a template reference variable `#resultPickerModel` to ngModel to track err
 
 And also if we enter invalid date, the input element will contain `matDatepickerParse` error.
 
-{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
+{{< figure src="mat-datepicker-with-min-max-errors.PNG" title="mat-datepicker with min max errors" alt="mat-datepicker with min max errors">}}
 
 ## matDatepickerFilter validation.
 
-If we want to custom validation on each and every date we can use `matDatepickerFilter` property.
+If we want to add custom validation on each and every date we can use `matDatepickerFilter` property.
 
 For example if we want to disable selection of saturday and sunday as they are weekends we can make use of `matDatepickerFilter` property.
 
 matDatepickerFilter property accepts a function of <DateType> => boolean (where <DateType> is the type of date used by the datepicker). 
 
-If the funtion returns `true` then the date is valid and it it is `false` then it is not.
+If the funtion returns `true` then the date is valid and if it is `false` then it is not.
 
 We will go through an example to understand it futher.
 
@@ -271,7 +281,8 @@ We will go through an example to understand it futher.
     <mat-datepicker #resultPicker>
     </mat-datepicker>
     <mat-error *ngIf="resultPickerModel.hasError('matDatepickerParse')">
-      "{{resultPickerModel.getError('matDatepickerParse').text}}" is not a valid date!
+      "{{resultPickerModel.getError('matDatepickerParse').text}}"
+       is not a valid date!
     </mat-error>
     <mat-error *ngIf="resultPickerModel.hasError('matDatepickerFilter')">
       Date unavailable! It's a weekend.
@@ -306,7 +317,7 @@ And if the user manually types the date which is a weekend, the input element wi
 
 I am using that error to display error message.
 
-{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
+{{< figure src="mat-datepicker-filter.PNG" title="mat-datepicker filter" alt="mat-datepicker filter">}}
 
 ## mat-datepicker format
 
@@ -322,7 +333,8 @@ Steps to format the dates in `mat-datepicker` input
 You have to import NativeDateAdapter, DateAdapter, MAT_DATE_FORMATS from angular material.
 
 ```
-import { NativeDateAdapter, DateAdapter, MAT_DATE_FORMATS } from '@angular/material';
+import { NativeDateAdapter, DateAdapter, 
+MAT_DATE_FORMATS } from '@angular/material';
 ```
 
 The below date picker example display the date in `dd-MMM-yyyy` format. i.e., `08-Jan-2020`.
@@ -335,7 +347,8 @@ i.e.,`Monday, January 6, 2020`
 ```
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { NativeDateAdapter, DateAdapter, MAT_DATE_FORMATS } from '@angular/material';
+import { NativeDateAdapter, DateAdapter,
+ MAT_DATE_FORMATS } from '@angular/material';
 import { formatDate } from '@angular/common';
 
 export const PICK_FORMATS = {
@@ -385,7 +398,7 @@ Go through the below article for the complete list of date formats.
 
 [Angular date pipe](https://www.angularjswiki.com/angular/angular-date-pipe-formatting-date-times-in-angular-with-examples/)
 
-{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
+{{< figure src="mat-datepicker-format.PNG" title="mat-datepicker format" alt="mat-datepicker format">}}
 
 ## mat-datepicker dateClass
 
@@ -458,7 +471,7 @@ And add styles to the `highlight-dates` class in `datepicker.component.scss` fil
     border-radius: 100%;
 }
 ```
-{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
+{{< figure src="highlighting-dates-in-datepicker-angular.PNG" title="highlighting dates in datepicker angular" alt="highlighting dates in datepicker angular">}}
 
 ## Disable mat-datepicker
 
@@ -466,8 +479,10 @@ We can disable the datepicker by adding `disabled` property to the input element
 
 ```
 <mat-form-field>
-    <input matInput [matDatepicker]="disabledatepicker" placeholder="disabled datepicker" disabled>
-    <mat-datepicker-toggle matSuffix [for]="disabledatepicker"></mat-datepicker-toggle>
+    <input matInput [matDatepicker]="disabledatepicker" 
+      placeholder="disabled datepicker" disabled>
+    <mat-datepicker-toggle matSuffix [for]="disabledatepicker">
+    </mat-datepicker-toggle>
     <mat-datepicker #disabledatepicker></mat-datepicker>
 </mat-form-field>
 ```
@@ -478,8 +493,10 @@ To disable only datepicker toggle we can add `dispabled` property to the `mat-da
 
 ```
 <mat-form-field>
-  <input matInput [matDatepicker]="disabletoggle" placeholder="disabled datepicker toggle">
-  <mat-datepicker-toggle matSuffix [for]="disabletoggle" disabled></mat-datepicker-toggle>
+  <input matInput [matDatepicker]="disabletoggle" 
+  placeholder="disabled datepicker toggle">
+  <mat-datepicker-toggle matSuffix [for]="disabletoggle" disabled>
+  </mat-datepicker-toggle>
   <mat-datepicker #disabletoggle></mat-datepicker>
 </mat-form-field>
 ```
@@ -496,14 +513,16 @@ But we can override disabled property at datepicker and toggle elements.
 ```
 <mat-form-field>
   <input matInput [matDatepicker]="disabletext" placeholder="" disabled>
-  <mat-datepicker-toggle matSuffix [for]="disabletext"></mat-datepicker-toggle>
-  <mat-datepicker #disabletext disabled="false"></mat-datepicker>
+  <mat-datepicker-toggle matSuffix [for]="disabletext">
+  </mat-datepicker-toggle>
+  <mat-datepicker #disabletext disabled="false">
+  </mat-datepicker>
 </mat-form-field>
 ```
 
 So now we cannot enter date manually but can be selected through calender pop up.
 
-{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
+{{< figure src="mat-datepicker-disabled.PNG" title="mat-datepicker disabled" alt="mat-datepicker disabled">}}
 
 ## mat-datepicker disable manual typing in input element
 
@@ -513,12 +532,14 @@ So to disable typing in datepicker, add `readonly` propery to input element.
 
 ```
 <mat-form-field>
-  <input matInput [matDatepicker]="disableTyping" placeholder="disable typing" readonly>
-  <mat-datepicker-toggle matSuffix [for]="disableTyping"></mat-datepicker-toggle>
+  <input matInput [matDatepicker]="disableTyping" 
+  placeholder="disable typing" readonly>
+  <mat-datepicker-toggle matSuffix [for]="disableTyping">
+  </mat-datepicker-toggle>
   <mat-datepicker #disableTyping></mat-datepicker>
 </mat-form-field>
 ```
-{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
+{{< figure src="mat-datepicker-disabled-typing.PNG" title="mat-datepicker disabled typing" alt="mat-datepicker disabled typing">}}
 
 ## mat-datepicker touch Ui mode in mobile devices
 
@@ -535,7 +556,7 @@ But in mobile devices we don't have much space and we need bigger real estate to
   <mat-datepicker touchUi="true" #touchUi></mat-datepicker>
 </mat-form-field>
 ```
-{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
+{{< figure src="mat-datepicker-touch-ui-mobile.PNG" title="mat-datepicker touch ui mobile" alt="mat-datepicker touch ui mobile">}}
 
 ## Change mat-datepicker color
 
@@ -545,8 +566,82 @@ To change the color of mat-datepicker we can make use of `color` property which 
 <mat-form-field>
   <mat-label>mat-datepicker color</mat-label>
   <input matInput [matDatepicker]="datepickercolor">
-  <mat-datepicker-toggle matSuffix [for]="datepickercolor"></mat-datepicker-toggle>
+  <mat-datepicker-toggle matSuffix [for]="datepickercolor">
+  </mat-datepicker-toggle>
   <mat-datepicker #datepickercolor color="warn"></mat-datepicker>
 </mat-form-field>
 ```
-{{< figure src="matTooltip Position.PNG" title="matTooltip Position" alt="matTooltip Position">}}
+{{< figure src="mat-datepicker-color-change.PNG" title="mat-datepicker color change" alt="mat-datepicker color change">}}
+
+## Common errors while implementing mat-datepicker
+
+Now we will go through the most common errors while adding mat-datepicker in our angular applications.
+
+### Error: 'mat-form-field' is not a known element
+
+To fix `mat-form-field is not a known element` error import `MatInputModule` along with `MatDatepickerModule` other wise you will get following error.
+
+{{%alert warning%}}
+'mat-form-field' is not a known
+element:
+1. If 'mat-form-field' is an Angular component, then verify that it is part of this module.
+2. If 'mat-form-field' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of
+this component to suppress this message.
+{{%/alert%}}
+
+### Error: MatDatepicker: No provider found for DateAdapter
+
+To fix `No provider found for DateAdapter` error we have to import `MatNativeDateModule` or `MatMomentDateModule` in our app.module.ts file or common material module. 
+
+Oe we can add our own custom date adapter as explained above.
+
+{{%alert warning%}}
+Error: MatDatepicker: No provider found for DateAdapter. You must import one of the following modules at your application root: MatNativeDateModule, MatMomentDateModule, or provide a custom implementation.
+{{%/alert%}}
+
+
+### Error: A MatDatepicker can only be associated with a single input.
+
+If more than one `matInput` elements connected to same `mat-datepicker` we will get `A MatDatepicker can only be associated with a single input`
+error.
+
+```
+<mat-form-field>
+    <input matInput [matDatepicker]="pickerSame" 
+    placeholder="Choose a date">
+    <mat-datepicker-toggle matSuffix [for]="pickerSame">
+    </mat-datepicker-toggle>
+    <mat-datepicker #pickerSame></mat-datepicker>
+</mat-form-field>
+
+<mat-form-field>
+  <input matInput [matDatepicker]="pickerSame" 
+  placeholder="Choose a date">
+  <mat-datepicker-toggle matSuffix [for]="pickerSame">
+  </mat-datepicker-toggle>
+  <mat-datepicker #pickerSame></mat-datepicker>
+</mat-form-field>
+```
+
+In the above code two input elements are connrected to same matDatepicker element i.e., `pickerSame`.
+
+### Error: Attempted to open an MatDatepicker with no associated input
+
+See the below code 
+
+```
+<mat-form-field>
+    <input matInput [matDatepicker]="pickerdate" 
+    placeholder="Choose a date">
+    <mat-datepicker-toggle matSuffix [for]="datepicker">
+    </mat-datepicker-toggle>
+    <mat-datepicker #datepicker></mat-datepicker>
+</mat-form-field>
+```
+
+In the above code, I am connecting input element to `pickerdate` which does not exists in component file. In that case we will get following error.
+
+{{%alert warning%}}
+Error: Attempted to open an MatDatepicker with no associated input.
+{{%/alert%}}
+
