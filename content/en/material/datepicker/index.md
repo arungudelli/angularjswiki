@@ -263,7 +263,7 @@ If we want to add custom validation on each and every date we can use `matDatepi
 
 For example if we want to disable selection of saturday and sunday as they are weekends we can make use of `matDatepickerFilter` property.
 
-matDatepickerFilter property accepts a function of <DateType> => boolean (where <DateType> is the type of date used by the datepicker). 
+matDatepickerFilter property accepts a function of `DateType` => boolean (where `DateType` is the type of date used by the datepicker). 
 
 If the funtion returns `true` then the date is valid and if it is `false` then it is not.
 
