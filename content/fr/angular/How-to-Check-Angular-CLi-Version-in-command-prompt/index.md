@@ -1,23 +1,19 @@
 +++
-title = "How to Check Angular CLI Version in Command prompt"
-subtitle = "Angular CLI version Check"
-summary ="To check the Angular CLI version use ng --version or ng v command"
-keywords=["Angular CLI verison,Angular CLI version Command"]
-date="2019-10-16T01:01:05+0000"
-lastmod="2019-10-16T02:45:18+0000"
+title = "Comment vérifier la version Angular CLI dans l'invite de commande"
+subtitle = "Vérification de la version Angular CLI"
+summary ="Pour vérifier la version Angular CLI, utilisez la commande ng --version ou ng v."
+keywords=["Angular CLI, verison,Angular CLI version Commande"]
+date="2020-01-14T01:01:05+0000"
+lastmod="2020-01-14T02:45:18+0000"
 type="post"
-draft=true
+draft=false
 authors = ["admin"]
 
 +++
 
-To Check the Angular CLI version in Command prompt use the below commands.
+Pour vérifier la version Angular CLI, utilisez les commandes `ng --version` ou `ng v` ou `npm list -global --depth 0`.
 
-1. ng --version
-2. ng v
-3. npm list -global --depth 0
-
-`ng --version` command returns the details of version of Angular CLI installed and in addition to that version of Angular development packages like @angular-devkit/architect,rxjs etc.. as shown below.
+La commande `ng --version` renvoie les détails de la version de Angular CLI installée et en plus de cela les versions des paquets de développement Angular comme @angular-devkit/architect,rxjs etc... comme indiqué ci-dessous.
 
 ```
 Angular CLI: 8.1.1
@@ -35,13 +31,13 @@ Package                      Version
 @schematics/update           0.801.1
 rxjs                         6.4.0
 ```
-{{< figure src="Angular CLI Version.png" title="Check Angular CLI version" alt="Check Angular CLI version">}}
+{{< figure src="Angular CLI Version.png" title="Vérification de la version Angular CLI" alt="Vérification de la version Angular CLI">}}
 
-Or We can use `npm list -global` to list all the packages versions installed on our machine. 
+Ou nous pouvons utiliser `npm list -global` pour lister toutes les versions des paquets installés sur notre machine. 
 
-In that list we can check for Angular CLI version. 
+Dans cette liste, nous pouvons vérifier la version Angular CLI. 
 
-For viewing specific lists at different levels use `--depth`.
+Pour afficher des listes spécifiques à différents niveaux, utilisez `--depth`.
 
 ```
 npm list -global --depth 0
@@ -55,6 +51,6 @@ npm list -global --depth 0
 `-- UNMET PEER DEPENDENCY zone.js@~0.8.26
 ```
 
-To Update the Angular CLI version follow the below Tutorial
+Pour mettre à jour la version Angular CLI suivez le Tutoriel ci-dessous
 
 [How To Update Angular CLI Version](https://www.angularjswiki.com/angular/update-angular-cli-version-ng-update-to-latest-6-7-versions/)

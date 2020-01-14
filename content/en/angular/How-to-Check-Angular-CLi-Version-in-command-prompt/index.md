@@ -11,11 +11,8 @@ authors = ["admin"]
 
 +++
 
-To Check the Angular CLI version in Command prompt use the below commands.
-
-1. ng --version
-2. ng v
-3. npm list -global --depth 0
+To Check Angular CLI version use `ng --version` or `ng v`
+or `npm list -global --depth 0` commands.
 
 `ng --version` command returns the details of version of Angular CLI installed and in addition to that version of Angular development packages like @angular-devkit/architect,rxjs etc.. as shown below.
 
@@ -55,6 +52,6 @@ npm list -global --depth 0
 `-- UNMET PEER DEPENDENCY zone.js@~0.8.26
 ```
 
-To Update the Angular CLI version follow the below Tutorial
+To Update Angular CLI version follow the below Tutorial
 
 [How To Update Angular CLI Version](https://www.angularjswiki.com/angular/update-angular-cli-version-ng-update-to-latest-6-7-versions/)
