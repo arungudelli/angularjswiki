@@ -1,13 +1,13 @@
 
 +++
-title = "Mat-Icon List : 900+ Angular Material Icons"
-subtitle = "Learn how to use Angular material Icons"
+title = "Mat-Icon List : 900+ Icônes de matériaux angular"
+subtitle = "Apprenez à utiliser le matériel angular Icônes"
 type="post"
-summary ="mat-icon selector used to display Material icons in Angular.We have around 900+ Angular Material icons.To show the below mat-icon list icons,We need to load material icons css provided by Google"
+summary ="L élément mat-icon est utilisé pour afficher les icônes de matériaux en Angular.Nous avons environ 900+ icônes de matériaux en Angular. Pour afficher la liste d icônes mat-icon ci-dessous, nous devons charger les icônes de matériaux css fournies par Google"
 keywords=["angular material icons list,mat-icon list,material design,icons,mat-icon"]
-date="2018-08-16T01:01:05+0000"
-lastmod="2019-03-30T17:18:08+0000"
-draft=true
+date="2020-01-12T01:01:05+0000"
+lastmod="2020-01-12T17:18:08+0000"
+draft=false
 authors = ["admin"]
 categories=["icons"]
 [image]
@@ -23,42 +23,58 @@ categories=["icons"]
 +++
 
 
-`<mat-icon>` selector used to display Material icons in Angular.We have around 900+ Angular Material icons.To show the below `<mat-icon>` list icons,We need to load material icons css provided by Google
+L'élément `<mat-icon>` est utilisé pour afficher les icônes de matériaux en Angular.
 
-`<mat-icon>` is part of angular material module called _MatIconModule_.We can use font ligature as an icon by putting the ligature text in `<mat-icon>` component.
+Nous avons environ 900+ icônes de matériaux en Angular.
 
-For example `<mat-icon>home</mat-icon>` displays home icon.
+Pour afficher la liste d'icônes `<mat-icon>` ci-dessous, nous devons charger les icônes de matériaux css fournies par Google
 
-We have to import MatIconModule from <a href="https://www.angularjswiki.com/angular/angular-material-2-tutorial-with-examples/" target="_blank" rel="noopener">Angular Material</a> Modules.
+`<mat-icon>` fait partie du module de matériau angular appelé `MatIconModule`.
 
-`import {MatIconModule} from '@angular/material/icon'`
+Nous pouvons utiliser la ligature de police comme une icône en mettant le texte de la ligature dans l'élément `<mat-icon>`.
 
-These icons are not limited to angular,In normal webpages just use `<i></i>`  in place of `<mat-icon>` tag.
+Par exemple, `<mat-icon>home</mat-icon>` affiche l'icône de la maison.
 
-`<i>home</i>`
+Nous devons importer MatIconModule depuis <a href="https://www.angularjswiki.com/angular/angular-material-2-tutorial-with-examples/" target="_blank" rel="noopener">matériau angular</a> Modules.
 
-All the material icons packaged into a single font file. All we need to do is adding the below Google web fonts css in our html page.
+```
+import {MatIconModule} from '@angular/material/icon'
+```
 
-`<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">`
+Ces icônes ne sont pas limitées à angular,Dans les pages web normales, utilisez simplement `<i></i>` à la place du tag `<mat-icon>`.
 
-  1. We have around 900+ icons all from a single, small file(42KB) and divided into 10+ categories.
-  2. We can serve the file from Google web font server or can be hosted from our own server
-  3. Material icons mat-icon supported by all modern web browsers
-  4. We can do all theming like color,size etc using pure CSS  
+```
+<i>home</i>
+```
+
+Toutes les icônes de matériaux sont regroupées dans un seul fichier de police.
+
+Il suffit d'ajouter les polices web css de Google ci-dessous dans notre page html.
+
+```
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" 
+rel="stylesheet">
+```
+
+  1. Nous avons environ 900+ icônes, toutes issues d'un seul petit fichier (42Ko) et divisées en 10+ catégories.
+  2. Nous pouvons servir le fichier à partir du serveur de police web de Google ou peut être hébergé à partir de notre propre serveur
+  3. Icônes de matériel supportées par tous les navigateurs Web modernes
+  4. Nous pouvons changer la couleur, la taille, etc. en utilisant du CSS pur   
+
 
 {{% toc %}}
 
-## Angular Material Icons list categories
+## Catégories de la liste Icônes de matériaux angulaires
 
-Go through the below material icon list categories
+Passez par les catégories de la liste d'icônes de matériel ci-dessous
 
 
-## mat-icon List Category-Action
+## mat-icon List Catégorie-Action
 <div class="table-responsive">
 <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -1016,12 +1032,12 @@ Go through the below material icon list categories
 </div>
 
 
-## mat-icon List Category-Communication
+## mat-icon List Catégorie-Communication
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -1266,12 +1282,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Av
+## mat-icon List Catégorie-Av
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -1604,12 +1620,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Connection
+## mat-icon List Catégorie-Connection
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -1810,12 +1826,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Device
+## mat-icon List Catégorie-Device
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -2048,12 +2064,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Editor
+## mat-icon List Catégorie-Editor
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -2358,12 +2374,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-File
+## mat-icon List Catégorie-File
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -2420,12 +2436,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Hardware
+## mat-icon List Catégorie-Hardware
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -2630,12 +2646,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Images
+## mat-icon List Catégorie-Images
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -3284,12 +3300,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Maps
+## mat-icon List Catégorie-Maps
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -3614,12 +3630,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Navigation
+## mat-icon List Catégorie-Navigation
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -3752,12 +3768,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Notification
+## mat-icon List Catégorie-Notification
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -3974,12 +3990,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Places
+## mat-icon List Catégorie-Places
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -4072,12 +4088,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Toggle
+## mat-icon List Catégorie-Toggle
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -4118,12 +4134,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Warning
+## mat-icon List Catégorie-Warning
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -4152,12 +4168,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Social
+## mat-icon List Catégorie-Social
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
