@@ -319,9 +319,9 @@ I am using that error to display error message.
 
 {{< figure src="mat-datepicker-filter.PNG" title="mat-datepicker filter" alt="mat-datepicker filter">}}
 
-## mat-datepicker format
+## mat-datepicker date format
 
-To format the dates in `mat-datepicker` input we have to write our own `DateAdapter`.
+To change `mat-datepicker` date format in we have to write our own `DateAdapter`.
 
 Steps to format the dates in `mat-datepicker` input
 
