@@ -37,6 +37,14 @@ Nous pouvons [télécharger](https://use.fontawesome.com/releases/v5.9.0/fontawe
 
 {{% toc %}}
 
+## Qu'est-ce qui est font awesome ?
+
+1. font awesome est la boîte à outils de polices et d'icônes la plus populaire du web, basée sur les CSS et LESS.
+2. font awesome est créé par Dave Gandy.
+3. font awesome a été le nouveau projet open source le plus populaire de github en 2012 et est actuellement l'un des 10 meilleurs projets au monde.
+4. Font Awesome est actuellement présent sur 47 millions de sites web et la moitié des développeurs web du monde utilisent les icônes de Font Awesome.
+5. Font Awesome permet d'ajouter facilement des icônes vectorielles et des logos sociaux à nos sites Web.
+
 ## Comment utiliser les icônes "font awesome"?
 
 Pour utiliser les icônes "font awesome", suivez les étapes suivantes
@@ -139,6 +147,37 @@ Pour afficher l'icône twitter en utilisant un pseudo-élément, utilisez le cod
 	font-weight: 400;
 	content: "\f099";
 }
+```
+
+## Font Awesome CDN
+
+Font Awesome CDN est le meilleur moyen d'obtenir Font Awesome sur les sites Web ou les applications, nous avons besoin de créer un compte dans font awesome site Web. 
+
+Ensuite, font awesome fournira un fichier javascript cdn, qui peut être ajouté aux sites web avec une seule ligne de code.
+
+```
+<script src="https://kit.fontawesome.com/samplekit.js"
+crossorigin="anonymous"></script>
+```
+
+Ou nous pouvons utiliser des icônes "font awesome" cdns comme cdnjs ou maxcdn
+
+### Font awesome 5 CDN link 
+
+Pour la dernière version de "font awesome" 5 cdn utilisez cdnjs (cloudfare).
+```
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css
+
+https://cdnjs.com/libraries/font-awesome
+```
+### Font awesome Bootstrap CDN link
+
+Pour la version précédente comme "font awesome" 4.7 nous pouvons utiliser les liens cdn de bootstap
+
+```
+https://www.bootstrapcdn.com/fontawesome/
+https://stackpath.bootstrapcdn.com
+/font-awesome/4.7.0/css/font-awesome.min.css
 ```
 
 ## Liste complète des icônes "Font Awesome"

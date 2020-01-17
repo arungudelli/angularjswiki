@@ -36,6 +36,14 @@ We can <a href="https://use.fontawesome.com/releases/v5.9.0/fontawesome-free-5.9
 
 {{% toc %}}
 
+## What is font awesome?
+
+1. font awesome is web's most popular font and icon toolkit based on CSS and LESS.
+2. font awesome is created by by Dave Gandy.
+3. font awesome was github's most popular new open source project in 2012 and is  currently one of the top 10 projects overall.
+4. Font Awesome is currently live on 47M websites and half the world's web developers use fomt awesome icons.
+5. Font Awesome makes it easy to add vector icons and social logos to our websites.
+
 ## How to use font awesome icons
 
 To use font awesome icons follow the below steps
@@ -138,6 +146,38 @@ To display twitter icon using Pseudo element use the following CSS content code
 	font-weight: 400;
 	content: "\f099";
 }
+```
+
+## Font Awesome CDN
+
+Font Awesome CDN is the best way to get Font Awesome on websites or applications, We need to create an account in font awesome website. 
+
+Then font awesome will provides a javascript file's cdn, which can be added to websites with single line of code.
+
+```
+<script src="https://kit.fontawesome.com/samplekit.js"
+ crossorigin="anonymous"></script>
+```
+
+Or we can use font awesome icons cdns like cdnjs or maxcdn
+
+### Font awesome 5 CDN link 
+
+For the latest font awesome 5 version cdn use cdnjs (cloudfare).
+
+```
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css
+
+https://cdnjs.com/libraries/font-awesome
+```
+### Font awesome Bootstrap CDN link
+
+For the earlier version like font awesome 4.7 we can use bootstap cdn links
+
+```
+https://www.bootstrapcdn.com/fontawesome/
+https://stackpath.bootstrapcdn.com/
+font-awesome/4.7.0/css/font-awesome.min.css
 ```
 
 ## Complete Font Awesome Icons List
