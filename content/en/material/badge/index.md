@@ -8,6 +8,7 @@ toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
 prev = "material"
+next = "tooltip"
 featured="angular-material-badge.jpg"
 authors = ["admin"]
 summary ="Angular Material Badge (mat Badge) used to create notification badges."

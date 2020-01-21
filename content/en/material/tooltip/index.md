@@ -8,6 +8,7 @@ toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
 prev = "badge"
+next ="datepicker"
 featured="angular-material-tooltip.jpg"
 authors = ["admin"]
 summary ="To add tooltips in Angular we can use angular material tooltip module called MatTooltipModule."
