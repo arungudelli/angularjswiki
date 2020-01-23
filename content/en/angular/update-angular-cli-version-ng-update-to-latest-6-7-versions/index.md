@@ -4,7 +4,7 @@ subtitle = "Update Angular CLI version"
 summary ="To update Angular CLI to latest version 9 use below command ng update @angular/cli@latest."
 keywords=["ng update angular cli,update angular cli version to 7,update angular cli version to 6"]
 date="2019-01-22T01:01:05+0000"
-lastmod="2019-11-01T00:45:18+0000"
+lastmod="2020-01-22T00:45:18+0000"
 type="post"
 draft=false
 authors = ["admin"]
@@ -29,7 +29,7 @@ To update the Angular CLI to latest version 9 follow the below steps.
     ```
       npm install --no-save @angular/cli@^8.3.15
     ```
-2. After updating angular cli to version 8 and above, use the below command to update angular     cli to version 9
+2. After updating angular cli to version 8 and above, use the below command to update angular cli to version 9
 
     ```
       ng update @angular/cli @angular/core --next
@@ -46,9 +46,47 @@ The above commands will run a series of small migrations that will convert the c
 
 {{< figure src="migrating the project to Angular 9.png" title="migrating the project to Angular 9" alt="migrating the project to Angular 9">}} 
 
+## Angular version 9.0.0-rc.10 released 
+
+On January 22, 2020 Angular version 9.0.0.-rc.10 is released.
+
+To update angular version to 9.0.0-rc.10 use the below command
+
+```
+ng update --next
+```
+You can see following message in command prompt
+
+```
++ @angular/cli@9.0.0-rc.10
+added 261 packages from 206 contributors in 32.549s
+Installed packages for tooling via npm.
+Using package manager: 'npm'
+Collecting installed dependencies...
+Found 35 dependencies.
+    We analyzed your package.json, there are some packages to update:
+
+Name                               Version                  Command to update
+--------------------------------------------------------------------------------
+@angular/cdk               8.2.3 -> 9.0.0-rc.8      ng update @angular/cdk --next
+@angular/cli               9.0.0-rc.0 -> 9.0.0-rc.10 ng update @angular/cli --next
+@angular/core              9.0.0-rc.0 -> 9.0.0-rc.10 ng update @angular/core --next
+@angular/material          8.2.3 -> 9.0.0-rc.8      ng update @angular/material --next
+```
+
+{{< figure src="angular-cli-version-9-0-0-rc10.png" title="angular-cli-version-9-0-0-rc10" alt="angular-cli-version-9-0-0-rc10">}} 
+
+Make sure you update the angular project to version 9 as explained above, before upgrading to Angular version 9.0.0-rc.10.
+
+As it's pointing out we need to upgrade @angular/cli and @angular/core to 9.0.0-rc.10 version.
+
+Use the below command to update them as well
+
+```
+ng update @angular/cli @angular/core --next
+```
 
 If you are using older versions of Angular like 5 or 6 or 7. You need to follow some additional steps as show below.
-
 
 ## Angular CLI version check
 
