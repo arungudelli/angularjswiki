@@ -149,6 +149,8 @@ Some languages like Arabic have multiple forms as listed below
 
 To test above mentioned category matches I changed my application locale to Arabic.
 
+[How to change Locale of angular app](https://www.angularjswiki.com/angular/angular-currency-pipe-formatting-currency-in-angular/#angular-currency-pipe-example-with-locale) 
+
 ```
  <p [ngPlural]="numberOfProducts">
     <ng-template ngPluralCase="zero">
