@@ -1,5 +1,5 @@
 +++
-title = "Angular Currency Pipe & Formatting Currency In Angular"
+title = "Angular Currency Pipe & Format Currency In Angular with examples"
 type="post"
 subtitle = "Learn how to format currencies in Angular using Angular currency Pipe"
 summary ="Angular Currency Pipe is one of the bulit in pipe in Angular used to format currency value according to given country code,currency,decimal,locale information."
@@ -27,11 +27,11 @@ Angular Currency Pipe is one of the bulit in pipe in Angular used to format curr
 {{% toc %}}
   
 
-## Angular Currency Pipe Syntax
+## How to use Angular Currency Pipe
 
 Angular Currency Pipe takes currency value as input and currencyCode,display,digitsInfo and locale as parameters as shown below
 
-```html
+```
 {{currency_value|currency[:currencyCode[:display[:digitsInfo[:locale]]]]}}
 ```
 
