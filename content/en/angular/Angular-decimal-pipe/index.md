@@ -74,7 +74,7 @@ Angular decimal pipe acceps two parameters
 
 Now we will go through few angular decimal pipe examples to understand it further.
 
-I created a decimal pipe component in my Angular project and added different number variables.
+I created a decimal pipe component in my Angular project and added `decimal_value` number variable.
 
 ```
 import { Component, OnInit } from '@angular/core';
@@ -216,6 +216,10 @@ So using decimal pipe we can easily format numbers in Angular upto 2 decimal poi
 
 ```
 
+## Angular Decimal Pipe with No decimal points
+
+If you want to remove decimal points and rounding to nearest integet values we can pass digit info as `x.0-0`. (x is minimum number of digits before decimal)
+
 ## How to use decimal pipe in Components in Angular
 
 As explained in [How To Use Angular Pipes in Components & Service ts files](https://www.angularjswiki.com/angular/how-to-use-angular-pipes-in-components-and-services/) article.
@@ -232,7 +236,9 @@ export class DecimalpipeComponent implements OnInit {
 
   decimal_value: number = 5.123456789;
   constructor(private _decimalPipe: DecimalPipe) {
-      console.log(this._decimalPipe.transform(this.decimal_value,"1.2-2"));
+     var decimal_formatted = 
+         this._decimalPipe.transform(this.decimal_value,"1.2-2")
+     console.log(decimal_formatted);
   }
 }
 
@@ -256,9 +262,13 @@ export class DecimalpipeComponent implements OnInit {
 
   decimal_value: number = 5.123456789;
   constructor(@Inject(LOCALE_ID) private locale: string) {
-      var formattedNumber= formatNumber(this.decimal_value,this.locale,'1.2-2');
+      var formattedNumber= 
+      formatNumber(this.decimal_value,this.locale,'1.2-2');
       console.log(formattedNumber);
 }
+
+// In console 5.12
+
 ```
 
 {{< figure src="format number in angular.png" title="format number in angular" alt="format number in angular">}} 
