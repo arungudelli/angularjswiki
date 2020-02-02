@@ -220,6 +220,20 @@ So using decimal pipe we can easily format numbers in Angular upto 2 decimal poi
 
 If you want to remove decimal points and rounding to nearest integet values we can pass digit info as `x.0-0`. (x is minimum number of digits before decimal)
 
+```
+//decimal_value: number = 5.123456789;
+
+Without decimal
+{{decimal_value | number:'1.0-0'}}
+// 5
+
+//decimal_value: number = 5.523456789;
+
+{{decimal_value | number:'1.0-0'}}
+//6
+
+```
+
 ## How to use decimal pipe in Components in Angular
 
 As explained in [How To Use Angular Pipes in Components & Service ts files](https://www.angularjswiki.com/angular/how-to-use-angular-pipes-in-components-and-services/) article.
@@ -272,3 +286,66 @@ export class DecimalpipeComponent implements OnInit {
 ```
 
 {{< figure src="format number in angular.png" title="format number in angular" alt="format number in angular">}} 
+
+## Removing Comma from number angular decimal pipe
+
+Angular decimal pipe adds commas to the number according to counry locale rules.
+
+```
+//decimal_value: number = 55234.342342;
+
+{{decimal_value | number:'1.2-2'}}
+55,234.34
+
+```
+And there is no direct way to remove those commas from number using decimal pipe.
+
+For that purpose we need to create our own custom pipe which removes commas from formatted number.
+
+```
+import { Pipe, PipeTransform } from '@angular/core';
+
+@Pipe({
+  name: 'removeComma'
+})
+export class RemoveCommaPipe implements PipeTransform {
+
+  transform(value: string): string {
+    if (value !== undefined && value !== null) {
+      return value.replace(/,/g, "");
+    } else {
+      return "";
+    }
+  }
+}
+```
+
+And we need apply this `removeComma` Pipe after using decimal pipe.
+
+```
+{{decimal_value | number:'1.2-2' | removeComma}}
+
+//55234.34
+
+```
+
+## Error: InvalidPipeArgument: 'not a valid digit info' for pipe 'DecimalPipe'
+
+We need to pass digit information parameter in following format "X.X-X"
+
+```
+{minimumIntegerDigits}.{minimumFractionDigits}-{maximumFractionDigits}
+```
+
+If you pass the parameter in wrong format for instance as shown below
+
+```
+{{decimal_value | number:'1-2.2'}}
+```
+
+You will get following error in console.
+
+{{% alert warning%}}
+Error: InvalidPipeArgument: '1-2.2 is not a valid digit info' 
+for pipe 'DecimalPipe'
+{{% /alert %}}
