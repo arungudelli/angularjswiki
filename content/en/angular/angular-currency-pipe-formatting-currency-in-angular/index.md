@@ -157,6 +157,8 @@ CLP100
 <p>{{Value | currency:'CLP':'symbol'}}</p>
 ```
 
+Read about [Angular Decimal Pipe](https://www.angularjswiki.com/angular/angular-decimal-pipe/)
+
 ## Angular Currency Pipe example with locale
 
 We can pass local as parameter to Angular currency Pipe as shown below.
