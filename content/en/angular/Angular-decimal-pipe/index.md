@@ -2,7 +2,7 @@
 title = "Angular Decimal Pipe & formatting numbers in Angular with examples"
 subtitle = "Learn how to format numbers in Angular using Angular Decimal Pipe"
 type="post"
-summary ="Angular Decimal Pipe is one of the bulit in pipe in Angular used to format numbers according to the given digits info and locale information."
+summary ="Angular Decimal Pipe is one of the bulit in pipe in Angular used to format numbers according to the given decimal digits info and locale information."
 keywords=["Angular Decimal Pipe,formatting numbers in Angular"]
 date="2020-01-30T01:01:05+0000"
 lastmod="2020-01-30T04:44:37+0000"
@@ -21,7 +21,7 @@ authors = ["admin"]
 
 +++
 
-Angular Decimal Pipe is one of the bulit in pipe in Angular used to format numbers according to the given digits info and locale information.
+Angular Decimal Pipe is one of the bulit in pipe in Angular used to format numbers according to the given decimal digits info and locale information.
 
 {{%toc%}}
 
@@ -29,7 +29,7 @@ Angular Decimal Pipe is one of the bulit in pipe in Angular used to format numbe
 
 Angular decimal pipe acceps two parameters
 
-1. digits info
+1. decimal digit info
 2. locale
 
 ```
