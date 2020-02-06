@@ -1,5 +1,5 @@
 +++
-title = "Angular Decimal Pipe & formatting numbers in Angular with examples"
+title = "Angular Decimal Pipe & formatting decimal numbers in Angular with examples"
 subtitle = "Learn how to format numbers in Angular using Angular Decimal Pipe"
 type="post"
 summary ="Angular Decimal Pipe is one of the bulit in pipe in Angular used to format decimal numbers according to the given decimal digits info and locale information."
