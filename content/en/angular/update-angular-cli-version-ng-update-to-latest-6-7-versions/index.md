@@ -86,6 +86,25 @@ Use the below command to update them as well
 ng update @angular/cli @angular/core --next
 ```
 
+## Update to Angular 9 Final version
+
+On february 7 2020 The Angular 9 version released. 
+
+To update to angular 9 version use the below command.
+
+```
+ng update @angular/cli @angular/core
+```
+
+If everything is ok then you can see following message in console
+
+```
+Your project has been updated to Angular version 9!
+For more info, please see: https://v9.angular.io/guide/updating-to-version-9
+```
+
+As the final version angular 9 is released. It is not required to use --next flag. 
+
 If you are using older versions of Angular like 5 or 6 or 7. You need to follow some additional steps as show below.
 
 ## Angular CLI version check
