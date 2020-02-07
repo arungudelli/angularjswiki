@@ -86,7 +86,7 @@ Use the below command to update them as well
 ng update @angular/cli @angular/core --next
 ```
 
-## Update to Angular 9 Final version
+## Angular 9 Released
 
 On february 7 2020 The Angular 9 version released. 
 
