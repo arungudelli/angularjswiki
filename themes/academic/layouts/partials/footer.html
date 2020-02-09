@@ -202,6 +202,7 @@
     console.log('ServiceWorker failed', err);
   });
 }
+
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80463924-1"></script>
@@ -209,11 +210,31 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-80463924-1');
 </script>
-<div id="codefund"><!-- fallback content --></div>
 <script src="https://codefund.io/properties/122/funder.js" async="async"></script>
 <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+{{ partial "subscription_bottom.html"}}
+<script>
+var subhead = document.getElementsByClassName("parenthead")[0];
+var parentsub = document.getElementsByClassName("parentsub")[0];
+var closeform = document.getElementsByClassName("close-form")[0];
+console.log(closeform);
+if(subhead){
+  subhead.addEventListener("click",function(){
+    console.log('Clicked');
+    subhead.className+=" sub-hide";
+    parentsub.className = "parentsub";
+  });
+}
+
+if(parentsub){
+  closeform.addEventListener("click",function(){
+    parentsub.className+=" sub-hide";
+    subhead.className = "parenthead";
+  });
+}
+
+</script>
 </body>
 </html>

@@ -4,7 +4,7 @@ date = 2019-04-24T00:00:00
 lastmod = 2019-04-24T01:00:00
 
 draft = false  # Is this a draft? true/false
-toc = true  # Show table of contents? true/false
+toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "flexlayout"
 next="flexlayout/basics"
@@ -23,6 +23,8 @@ linktitle = "Introduction"
 +++
 
 In this Angular Flexlayout tutorial, we will learn how to build powerful responsive HTML UI layouts in Angular apps using flex layout module.
+
+{{%toc%}}
 
 ## What is Angular Flex Layout
 

@@ -1,13 +1,18 @@
 {{ $ := .root }}
 
 <style>
-        .parent {
+
+    .sub-hide{
+        display: none;
+    }
+        .parenthead {
             position: fixed;
-        right: 0;
+        right: 20px;
         width: 310px;
         height: 45px;
         bottom: 0;
-        background-color: #43ac6a;
+        /* background-color: #43ac6a; */
+        background-color: #2962ff;
         color: white;
         font-weight: bold;
         cursor: pointer;
@@ -32,23 +37,25 @@
         }
       
         .arrow{
-            position: fixed;right:10px;font-size: x-large;
+            position: fixed;right:30px;font-size: x-large;
         }
 
         .sub-head{
-            color: #43ac6a;
+            /* color: #43ac6a; */
+            color: #2962ff;
             font-weight: bold;
 
         }
         .close-form{
             position: fixed;right:25px;
+            cursor: pointer;
         }
       </style>
-      <div class="parent">
+      <div class="parenthead">
       <span class="text">Improre your Angular Skills</span>
       <span class="arrow">^</span>
       </div>
-<div class="parentsub">
+<div class="parentsub sub-hide">
 <span class="sub-head">Improve your Angular skills</span>
 <span class="close-form">X</span>
 <br/>
@@ -56,13 +63,11 @@
 <form id="mc-embedded-subscribe-form" class="validate" action="https://angularjswiki.us18.list-manage.com/subscribe/post?u=e192476b173f610e0808e2561&amp;id=236d3dbb17" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
 <label for="mce-EMAIL">Email</label>
 <input id="mce-EMAIL" class="required email" name="EMAIL" type="email" value="" />
-
-
-
 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 <div style="position: absolute; left: -5000px;" aria-hidden="true">
     <input tabindex="-1" name="b_e192476b173f610e0808e2561_236d3dbb17" type="text" value="" />
 </div>
+<div></div>
 <button type="submit" class="btn btn-light btn-lg subscribe">
                 <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -72,6 +77,5 @@
                 </span> Send Angular tutorial
 </button>
     
-    <!-- <input id="mc-embedded-subscribe" class="button" name="subscribe" type="submit" value="Subscribe" /></div> -->
 </form>
 </div>

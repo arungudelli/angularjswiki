@@ -7,8 +7,11 @@
     <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
       {{ partial "docs_sidebar.html" . }}
     </div>
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      {{ partial "ads.html"}}
+    </div>
 
-    {{ if .Params.toc }}
+    <!-- {{ if .Params.toc }}
     <div class="d-none d-xl-block col-xl-2 docs-toc">
       {{ with (i18n "on_this_page") }}
       <p class="docs-toc-title">{{.}}</p>
@@ -22,7 +25,7 @@
 
       {{ partial "docs_toc_foot.html" . }}
     </div>
-    {{ end }}
+    {{ end }} -->
 
     <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
 

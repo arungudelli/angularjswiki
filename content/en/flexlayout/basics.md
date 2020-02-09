@@ -4,7 +4,7 @@ date = 2019-04-24T00:00:00
 lastmod = 2019-04-24T01:00:00
 
 draft = false  # Is this a draft? true/false
-toc = true  # Show table of contents? true/false
+toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "flexlayout"
 prev = "flexlayout"
@@ -30,6 +30,9 @@ Angular flex layout features divided into two main categories
 Each API has its own directives or APIs which can be applied on flexbox container or flexbox child elements.
 
 In this section we will learn about basic flex layout directives
+
+{{%toc%}}
+
 
 ## Angular flex layout directives for flexbox containers
 
