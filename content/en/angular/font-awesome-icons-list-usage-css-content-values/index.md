@@ -41,15 +41,15 @@ We can <a href="https://use.fontawesome.com/releases/v5.9.0/fontawesome-free-5.9
 1. font awesome is web's most popular font and icon toolkit based on CSS and LESS.
 2. font awesome is created by by Dave Gandy.
 3. font awesome was github's most popular new open source project in 2012 and is  currently one of the top 10 projects overall.
-4. Font Awesome is currently live on 47M websites and half the world's web developers use fomt awesome icons.
+4. Font Awesome is currently live on 47M websites and half the world's web developers use font awesome icons.
 5. Font Awesome makes it easy to add vector icons and social logos to our websites.
 
 ## How to use font awesome icons
 
-To use font awesome icons follow the below steps
+Follow the below steps To use font awesome icons 
 
 1. Add the font awesome icons css file in head section of html
-2. And then display fa icons using class name with the prefix `fa` followed by the font awesome icon name.
+2. And then display font awesome icons using class attribute with the prefix `fa` followed by the font awesome icon name.
 3. Additionally we have to add category classes.
 
 First we will add the font awesome icons css in head section of html file as shown below
