@@ -4,11 +4,6 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Home"
-  url = "#"
-  weight = 10
-
-[[main]]
   name = "Angular"
   url = "/angular/"
   weight = 25  
@@ -21,6 +16,11 @@
 [[main]]
   name = "Material Design"
   url = "/material/"
+  weight = 30 
+
+[[main]]
+  name = "Pipes"
+  url = "/pipes/"
   weight = 30 
 
 
