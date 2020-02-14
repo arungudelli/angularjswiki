@@ -18,10 +18,10 @@
   url = "/material/"
   weight = 30 
 
-[[main]]
-  name = "Pipes"
-  url = "/pipes/"
-  weight = 30 
+#[[main]]
+#  name = "Pipes"
+#  url = "/pipes/"
+#  weight = 30 
 
 
 
