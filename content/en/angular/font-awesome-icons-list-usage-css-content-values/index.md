@@ -6,7 +6,7 @@ type="post"
 summary ="This post contains complete font awesome icons list with their CSS content values and step by step tutorial to use font awesome icons in our webpages"
 keywords=["font awesome icons,font awesome icons list,fa icons list,icons"]
 date="2019-07-14T01:01:05+0000"
-lastmod="2019-07-14T17:18:08+0000"
+lastmod="2020-02-13T17:18:08+0000"
 draft=false
 authors = ["admin"]
 categories=["faicons"]
@@ -33,6 +33,10 @@ And these free font awesome icons divided into three categories.
 3. font awesome brand icons
 
 We can <a href="https://use.fontawesome.com/releases/v5.9.0/fontawesome-free-5.9.0-web.zip" rel="noopener" target="_blank">download</a> font awesome icons css file and serve them from our own server Or we can serve them from public CDNs.
+
+{{% alert note %}}
+And also I have created a [free ebook](#download-font-awesome-icons-list-pdf) which contains complete list of font awesome icons in PDF format.
+{{% /alert%}}
 
 {{% toc %}}
 
@@ -1779,3 +1783,7 @@ To display bookmark icon use the following html code
  <tr><td><i class="fab fa-zhihu"></i> zhihu</td><td>fa-zhihu</td><td>f63f</td></tr>
 </table>
 </div>
+
+## Download font awesome icons list PDF
+
+Subscribe to our Angular wiki newsletter and download font awesome icons list in PDF format.

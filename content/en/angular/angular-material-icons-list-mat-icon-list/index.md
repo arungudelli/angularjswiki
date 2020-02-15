@@ -6,7 +6,7 @@ type="post"
 summary ="mat-icon selector used to display Material icons in Angular.We have around 900+ Angular Material icons.To show the below mat-icon list icons,We need to load material icons css provided by Google"
 keywords=["angular material icons list,mat-icon list,material design,icons,mat-icon"]
 date="2018-08-16T01:01:05+0000"
-lastmod="2019-03-30T17:18:08+0000"
+lastmod="2020-02-13T17:18:08+0000"
 draft=false
 authors = ["admin"]
 categories=["icons"]
@@ -45,6 +45,10 @@ All the material icons packaged into a single font file. All we need to do is ad
   2. We can serve the file from Google web font server or can be hosted from our own server
   3. Material icons mat-icon supported by all modern web browsers
   4. We can do all theming like color,size etc using pure CSS  
+
+{{% alert note %}}
+I have created a [free ebook](#download-angular-material-icons-list-pdf) which contains complete list of material icons in PDF format.
+{{% /alert%}}  
 
 {{% toc %}}
 
@@ -4291,3 +4295,5 @@ Go through the below material icon list categories
 
 
 ## Download Angular Material Icons List PDF
+
+Subscribe to our Angular wiki newsletter and get free link to download complete material icons list in PDF format.

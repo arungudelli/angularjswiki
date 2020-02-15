@@ -6,7 +6,7 @@ type="post"
 summary ="Cet article contient la liste complète des icônes font awesome avec leurs valeurs de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans nos pages web."
 keywords=["font awesome icônes,font awesome icônes liste,fa icônes liste,icônes"]
 date="2019-07-14T01:01:05+0000"
-lastmod="2019-07-14T17:18:08+0000"
+lastmod="2020-02-13T17:18:08+0000"
 draft=false
 authors = ["admin"]
 categories=["faicons"]
@@ -34,6 +34,9 @@ Et ces icônes gratuites sont divisées en trois catégories.
 
 Nous pouvons [télécharger](https://use.fontawesome.com/releases/v5.9.0/fontawesome-free-5.9.0-web.zip) le fichier CSS des icônes "font awesome" et les servir à partir de notre propre serveur ou nous pouvons les servir à partir de CDNs publics.
 
+{{% alert note %}}
+J'ai également créé un livre électronique gratuit qui contient une liste complète d'[icônes fontawesome](#télécharger-la-liste-des-icônes-fontawesome-pdf) au format PDF.
+{{% /alert%}}
 
 {{% toc %}}
 
@@ -1779,3 +1782,7 @@ Pour afficher l'icône du signet, utilisez le code html suivant
  <tr><td><i class="fab fa-zhihu"></i> zhihu</td><td>fa-zhihu</td><td>f63f</td></tr>
 </table>
 </div>
+
+## Télécharger la liste des "icônes fontawesome" PDF
+
+Abonnez-vous à notre newsletter "Angular wiki" et téléchargez la liste des "icônes fontawesome" au format PDF.

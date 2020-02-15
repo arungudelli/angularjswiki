@@ -6,7 +6,7 @@ type="post"
 summary ="L élément mat-icon est utilisé pour afficher les icônes de matériaux en Angular.Nous avons environ 900+ icônes de matériaux en Angular. Pour afficher la liste d icônes mat-icon ci-dessous, nous devons charger les icônes de matériaux css fournies par Google"
 keywords=["angular material icons list,mat-icon list,material design,icons,mat-icon"]
 date="2020-01-12T01:01:05+0000"
-lastmod="2020-01-12T17:18:08+0000"
+lastmod="2020-02-13T17:18:08+0000"
 draft=false
 authors = ["admin"]
 categories=["icons"]
@@ -60,6 +60,10 @@ rel="stylesheet">
   2. Nous pouvons servir le fichier à partir du serveur de police web de Google ou peut être hébergé à partir de notre propre serveur
   3. Icônes de matériel supportées par tous les navigateurs Web modernes
   4. Nous pouvons changer la couleur, la taille, etc. en utilisant du CSS pur   
+
+{{% alert note %}}
+J'ai créé un livre électronique gratuit qui contient la liste complète des ["icônes de matériel"](#télécharger-la-liste-des-icônes-de-matériaux-angulaires-pdf) au format PDF.
+{{% /alert%}}  
 
 
 {{% toc %}}
@@ -4306,4 +4310,6 @@ Passez par les catégories de la liste d'icônes de matériel ci-dessous
 </table></div>
 
 
-## Download Angular Material Icons List PDF
+## Télécharger la liste des icônes de matériaux angulaires PDF
+
+Abonnez-vous à notre newsletter "Angular wiki" et recevez gratuitement un lien pour télécharger la liste complète des "icônes de matériel" au format PDF.
