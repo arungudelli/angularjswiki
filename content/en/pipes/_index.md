@@ -41,7 +41,7 @@ For example, we will get the date information from the server in raw string form
 Sun July 28 2019 00:00:00 GMT-0700 (Pacific Daylight Time)
 ```
 
-Generally users likes to see the simple date formats in their locale or simply the might need to see the date shown below.
+Generally users likes to see the simple date formats in their locale or simply they want to see the date in the format shown below.
 
 ```
 July 28 2019
@@ -54,8 +54,6 @@ So to transform data directly in template html files Angular team came with the 
 It is similar to pipes in linux operating systems.
 
 In Linux, Pipe is an operator that takes a stream of inputs, transforms it, and returns. 
-
-We can use angular pipes whenever we want to perform some logic on data inside our templates. And this is way more beautiful and reusable, than performing logic inside our component
 
 ## What is an Angular Pipe?
 
@@ -120,9 +118,9 @@ Built in pipes like uppercase or lowercase pipes can be used in every component 
 // angular pipe 
 // ANGULAR PIPE
 ```
-We can create our own custome pipes according to our requirements use them across the angular applications.
+We can create our own custome pipes according to our requirements use them in angular applications.
 
-For example we want to perform square operation on numbers before displaying them, in that case we can create our own pipe called `squarepipe` and use it across the applications.
+For example we want to perform square operation on numbers before displaying them, in that case we can create our own pipe called `squarepipe` and use it across the application.
 
 ```
 {{ numbervalue | squarepipe}}
@@ -133,14 +131,14 @@ For example we want to perform square operation on numbers before displaying the
 
 ## Angular Pipes Performance
 
-In the above example instead of creating squarepipe we can declare a function in component file use it in template html file as shown below.
+In the above example instead of creating squarepipe, we can declare a function in component file use it in template html file as shown below.
 
 ```
 @Component({
   selector: 'app-square',
   template:  `
     Input value: {{inputValue}} <br>
-    Square value: {{square(counter)}} <br>
+    Square value: {{square(inputValue)}} <br>
     <button (click)="changeInputValue()">Change Value</button>
   `,
 })
@@ -148,8 +146,8 @@ export class SquareComponent {
   
   public inputValue = 0;
 
-  square(value) {
-    return value * value;
+  square(input) {
+    return input * input;
   }
 
   changeInputValue() {
@@ -158,7 +156,7 @@ export class SquareComponent {
 }
 ```
 
-But the probelm with the above approach is the function in component template html is called every time when change detection runs.
+But the probelm with the above approach is the function in component template html is called every time when change detection occurs.
 
 For simple operations it might not be a problem. 
 
