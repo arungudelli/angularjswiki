@@ -141,7 +141,7 @@ Now we can use our custom pipe in template expression as shown below.
 
 Now we will create a custom pipe which accepts parameters.
 
-In the above example we are returning square value of the number.
+The above custom pipe will return square value of the number.
 
 Instead of that we can pass an exponent parameter, which decides how many times we have to multiply the number.
 
@@ -183,7 +183,7 @@ In the component file we have to pass exponent parameter to our custom pipe usin
 
 ## Angular custom pipe with optional parameters
 
-In the above example if we are not passing exponent parameter, angular cli will return following error.
+If we are not passing any parameter to the custom pipe, angular cli will return following error.
 
 ```
 {{ 100 | power}}
@@ -195,9 +195,9 @@ error TS2554: Expected 2 arguments, but got 1.
 
 Why because exponent parameter is required when using power pipe.
 
-Instead of that we can make exponent parameter optional. 
+Instead of that we can make parameter optional. 
 
-To make a parameter optional, we have to assign some default value to the parameter.
+To make a parameter optional in a custom pipe, we have to assign some default value to the parameter.
 
 In this case we can assign value of exponent parameter to 1, so that if we are not passing any parameter it will returns the same number. i.e., exponent of 1.
 
@@ -214,7 +214,7 @@ export class PowerPipe implements PipeTransform {
 }
 ```
 
-In the above example, I am assigning exponent parameter to default number `1`.
+I am assigning exponent parameter to default number `1`.
 
 So if we use custom pipe without parameter it will returns the same number.
 
@@ -227,7 +227,7 @@ So if we use custom pipe without parameter it will returns the same number.
 
 ## Angular Custom pipe with multiple parameters.
 
-In the above example we are using only single parameter i.e., exponent.
+The custom pipe created above will accept only single parameter i.e., exponent.
 
 We can pass multiple arguments to angular pipes by separating them with colons as shown below.
 
@@ -265,9 +265,7 @@ Now in component html file use pipe with both exponent and buffer parameters by 
 
 ## Angular Custom pipe with variable number of arguments.
 
-In the above examples, we are passing fixed number of arguments to the pipe.
-
-Instead of that we can create a pipe which can accepts variable number of arguments by using rest parameter.
+We can create a pipe which can accepts variable number of arguments by using rest parameter.
 
 ```
 import { Pipe, PipeTransform } from '@angular/core';
@@ -282,7 +280,7 @@ export class PowerPipe implements PipeTransform {
 }
 ```
 
-In the above example the `...lastName` rest parameter accepts variable number of parameters.
+I have created a custom pipe named `userFullName` which has an argument `...lastName` (rest parameter) which accepts variable number of parameters.
 
 Now in component html file we can use `userFullName` with any number of parameters as shown below.
 
