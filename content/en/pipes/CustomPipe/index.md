@@ -70,7 +70,7 @@ CREATE src/app/custom.pipe.ts (217 bytes)
 UPDATE src/app/app.module.ts (2931 bytes)
 ```
 
-The command will create a file named `custom.pipe.ts` along with sample code to impelement custom pipe at application root level.
+The command will create a file named `custom.pipe.ts` along with sample code to implement custom pipe at application root level.
 
 ```
 import { Pipe, PipeTransform } from '@angular/core';
@@ -93,7 +93,7 @@ Additionally the command will create a spec file to write unit tests and it will
 
 ## Angular Custom Pipe Example
 
-Now we will go through an example to understand it further.
+We will go through an example to understand it further.
 
 We will create a custom pipe which converts a number to it's square.
 
@@ -110,7 +110,7 @@ CREATE src/app/square.pipe.ts (217 bytes)
 UPDATE src/app/app.module.ts (2931 bytes)
 ```
 
-Now we will change the transform method to accept a number parameter and returns it's square value.
+I changed the transform method of square pipe to accept a number parameter and returns it's square value.
 
 ```
 import { Pipe, PipeTransform } from '@angular/core';
@@ -127,7 +127,7 @@ export class SquarePipe implements PipeTransform {
 }
 ```
 
-Now we can use our custom pipe in template expression as shown below.
+we can use our custom pipe in the component template expression as shown below.
 
 ```
 {{ 4 | square}}
@@ -139,9 +139,9 @@ Now we can use our custom pipe in template expression as shown below.
 
 ## Angular custom pipe with parameters
 
-Now we will create a custom pipe which accepts parameters.
+To create a custom pipe which accepts parameter, we should change the transform method of custom pipe.
 
-The above custom pipe will return square value of the number.
+The above custom pipe will return square value of the number. And the transform method has only one parameter i.e., value.
 
 Instead of that we can pass an exponent parameter, which decides how many times we have to multiply the number.
 
@@ -172,7 +172,7 @@ export class PowerPipe implements PipeTransform {
 }
 ```
 
-In the component file we have to pass exponent parameter to our custom pipe using colon.
+In the component file, we can pass parameter to our custom pipe using colon.
 
 ```
 {{ 10 | power:2}}
@@ -235,7 +235,7 @@ We can pass multiple arguments to angular pipes by separating them with colons a
 {{ inputData | customPipe: 'argument1':'argument2':'argument3'... }}
 ```
 
-Now we will create a custom pipe which accepts multiple parameters.
+To create a custom pipe which accepts multiple parameters we have to change the defination of transform method to support more than one argument.
 
 We will extend our `power` pipe to add some buffer value after applying exponent.
 
