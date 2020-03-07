@@ -216,7 +216,7 @@ export class PowerPipe implements PipeTransform {
 
 I am assigning exponent parameter to default number `1`.
 
-So if we use custom pipe without parameter it will returns the same number.
+If we use custom pipe without parameter it will returns the same number.
 
 ```
 {{ 10 | power}}
