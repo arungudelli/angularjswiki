@@ -9,7 +9,7 @@ parentdoc = "pipes"
 next="pipes/list"
 featured="pipes-in-angular.jpg"
 authors = ["admin"]
-summary ="Understanding pipes in angular in with examples."
+summary ="Understanding pipes in angular with examples."
 keywords=["Angular pipe,Pipes in Angular,Pipes"]
 
 # Add menu entry to sidebar.
@@ -21,7 +21,7 @@ linktitle = "Introduction"
 
 +++
 
-In this tutorial we will understand pipes in angular in with examples.
+In this tutorial we will understand pipes in angular with examples.
 
 {{%toc%}}
 
