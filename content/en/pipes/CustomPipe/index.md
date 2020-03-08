@@ -9,7 +9,7 @@ parentdoc = "pipes"
 next="pipes/jsonpipe"
 featured="angular-custom-pipe.jpg"
 authors = ["admin"]
-summary ="Steps to create custom pipe in Angular"
+summary ="Learn how to create a custom pipe in Angular with examples."
 keywords=["Angular custom pipe,custom Pipe"]
 
 # Add menu entry to sidebar.
@@ -53,7 +53,7 @@ And in component html file use the custom pipe as shown below.
 
 {{% toc %}}
 
-## Creating custom pipe using Angular CLI command.
+## Creating custom pipe in Angular using Angular CLI command.
 
 The above approach requires a lot of manual work. Instead of that we can use angular cli ng generate command to create custom pipes.
 
