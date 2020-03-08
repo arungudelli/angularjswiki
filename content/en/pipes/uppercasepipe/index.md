@@ -10,8 +10,8 @@ prev = "pipes/list"
 next = "pipes/example" 
 featured="uppercase.jpg"
 authors = ["admin"]
-summary ="Tutorial explains basics of Angular flex layout and flex layout directives with examples"
-keywords=["Angular flex layout,Angular flex layout directives"]
+summary ="Angular Uppercase Pipe used to convert string or text to uppercase in Angular"
+keywords=["convert string to uppercase,Angular uppercase pipe"]
 
 
 # Add menu entry to sidebar.
