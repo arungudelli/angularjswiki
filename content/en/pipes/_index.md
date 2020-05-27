@@ -156,7 +156,7 @@ export class SquareComponent {
 }
 ```
 
-But the probelm with the above approach is the function in component template html is called every time when change detection occurs.
+But the probelm with the above approach is, the function in component template html is called every time when change detection occurs.
 
 For simple operations it might not be a problem. 
 

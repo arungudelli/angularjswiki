@@ -2,13 +2,15 @@
 title = "Understanding fxFlex API in Angular flex layout"
 date = 2019-04-24T00:00:00
 lastmod = 2019-04-24T01:00:00
-draft = true  # Is this a draft? true/false 
+draft = false  # Is this a draft? true/false 
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 prev = "flexlayout/basics"
 parentdoc="flexlayout"
-featured="angular flex layout tutorial.jpg"
+featured="fxFlex_api.jpg"
 authors = ["admin"]
+summary ="In this tutorial we will learn how to use fxFlex API in Angular flex layout with examples"
+keywords=["fxFlex,fxFlex example,fxFlex api"]
 
 #Add menu entry to sidebar.
 linktitle = "fxFlex"
@@ -35,11 +37,26 @@ fxFlex accepts three parameters
 2. flex-shrink
 3. flex-basis
 
+### fxflex syntax
+
+The syntax is very simple we have to pass flex grow, shrink and basis parameters to fxFlex property as shown below
+
+```
+/*fxFlex long form syntax*/
+<div fxFlex="<flex-grow> <flex-shrink> <flex-basic>"></div>    
+
+/*fxFlex short form syntax*/
+<div fxFlex="<flex-basic>"></div>    
+
+```
+
 ### flex-grow
 
-flex grow specifies how much the flexbox item will grow relative to the rest of the flexbox items inside the same flex container when there is a space.
+flex grow specifies how much the flexbox item will grow relative to the rest of the flexbox items inside the same flex container, when there is enough space.
 
-In CSS,The flex-grow value overrides the width property of flex box item. But in angular flex layout module it will work only when we add flex basis value as "auto".
+In CSS,The flex-grow value overrides the width property of flex box item. 
+
+But in angular flex layout module it will work only when we add flex basis value as "auto".
 
 ### flex-shrink 
 
@@ -47,9 +64,9 @@ flex shrink specifies how much the flexbox item should shrink relative to the re
 
 ### flex-basis
 
-In CSS, the flex-basis property specifies the initial defualt size of the flexible item before it is changed by other flexbox properties like flex grow and shrink.
+In CSS, the flex-basis property specifies the initial default size of the flex box item before it is changed by other flexbox properties like flex grow and shrink.
 
-But in Angular flex layout once you specify initial size, the flex item will not grow or shrink even we specify the grow and shrink properties
+But in Angular flex layout, once you specify the initial size, the flex item will not grow or shrink even we specify the grow and shrink properties.
 
 {{% alert note%}}
 If we set flex item initial size with flex basis property, the item will not grow or shrink, the grow/shrink is relative to the other flex items works only when we set flex basis value to "auto"
@@ -190,14 +207,17 @@ The width of first flexbox item (with fxFlex grow 2) will be, double the size of
 
 i.e, first element will be of width 250px. And other two elements will have 125px each.
 
+{{< figure src="fxFlex example.png" title="fxFlex example" alt="create custom pipe angular">}} 
+
+
 ### How flex grow works?
 
 flex grow values can be 0 or 1 or any integer value.
 
-0: Do not stretch. Either size to element's content width, or 'flex-basis'.
-1: (Default value). Stretch; will be the same size to all other flex items on
+1. 0 means Do not stretch. Size will be element's content width, or 'flex-basis'.
+2. 1: (Default value). Stretch; will be the same size to all other flex items on
 the same row since they have a default value of 1.
-≥2 (integer n): Stretch. Will be n times the size of other elements
+3. ≥2 (integer n): Stretch. Will be n times the size of other elements
 with 'flex-grow: 1' on the same row.
 
 ### How flex shrink works?
@@ -222,3 +242,13 @@ As the width of the flex container decreases, the first element will shrink more
 As long as there is enough space inside the container the both flex items try to maintain same width.
 
 {{< video src="flexShrink.mp4" srcwebm="flexshrink.webm">}} 
+
+## fxFlex calc
+
+To specify flex basis we can use calc function as shown below
+
+```
+<div fxFlex="2 1 calc(10px+100px)"></div>
+```
+
+Now the above element will have a flex basis value 110px.
