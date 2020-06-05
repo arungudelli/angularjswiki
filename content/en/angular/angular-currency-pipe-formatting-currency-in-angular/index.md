@@ -290,6 +290,8 @@ Now i can use my custom currency pipe as show below.
 100,23 €
 ```
 
+[Find Angular Jobs with Jooble](https://jooble.org/jobs-angularjs-developer)
+
 ## List of All Countries currency codes of Angular Currency Pipes
 
 <div class="table-responsive">
