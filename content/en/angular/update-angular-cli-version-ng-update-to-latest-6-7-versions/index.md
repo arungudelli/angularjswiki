@@ -66,6 +66,8 @@ I updated a sample Angular application to Angular 10 (Which is in version Angula
 
 Updating to Angular 10 is pretty much simple. You can see the version update log below.
 
+## Angular 10 Update Log
+
 ```
 Using package manager: 'npm'
 Collecting installed dependencies...
