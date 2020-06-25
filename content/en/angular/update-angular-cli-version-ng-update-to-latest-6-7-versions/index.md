@@ -1,10 +1,10 @@
 +++
-title = "How To Update Angular CLI To Latest Version 9"
+title = "How To Update Angular CLI To Latest Version 9 and Angular 10"
 subtitle = "Update Angular CLI version"
-summary ="To update Angular CLI to latest version 9 use below command ng update @angular/cli@latest."
+summary ="To update Angular CLI to latest version 9 and Angular 10 use below command ng update @angular/cli@latest."
 keywords=["ng update angular cli,update angular cli version to 7,update angular cli version to 6"]
 date="2019-01-22T01:01:05+0000"
-lastmod="2020-02-07T00:00:00+0000"
+lastmod="2020-06-24T00:00:00+0000"
 type="post"
 draft=false
 authors = ["admin"]
@@ -21,6 +21,141 @@ authors = ["admin"]
 
 +++
 
+Angular 10.0.0 is finally here. 
+
+On June 25, 2020 Angular version 10.0.0 is released.
+
+Angular 10 version one of the major release after version 9 which was released 4 months
+ago.
+
+To update Angular application to the latest angular 10 version run the below `ng update` command
+
+```
+ng update @angular/core @angular/cli
+```
+
+If you are using Angular material You have to update it also by using below command
+
+```
+ng update @angular/material
+```
+
+The above commands will update your angular application from version 9 to version 10. 
+If you are using older versions other than 9. First better to update to Angular 9.
+
+## Major breaking changes in Angular 10 version
+
+1. Angular 10 supports only typescript 3.9. We have to update Typescript to version 3.9. Typescript versions 3.6, 3.7, and 3.8 are no longer supported.
+2. In earlier versions of angular input field of type number used to fire valueChanges two times. First time after typing in the input field and second time when the input field loses the focus. (<a href="https://github.com/angular/angular/pull/36087" target="_blank">PR 36087</a>)
+3. The minLength and maxLength validators now verify that a value has numeric length property and only then validation will occur.(<a href="https://github.com/angular/angular/pull/36157" target="_blank">PR 36157</a>)
+4. in Angular 10,The Warnings about unknown elements are now logged as errors instead of warnings (console.warn to console.error)(<a href="https://github.com/angular/angular/pull/36399" target="_blank">PR 36399</a>)
+5. In previous versions of angular if you return null for UrlMatchResult we used to get `Type 'null' is not assignable to type 'UrlMatchResult'.` error. This has been fixed now 
+(<a href="https://github.com/angular/angular/pull/36402" target="_blank">PR 36402</a>)
+6. In Angular 10 version transplanted views will refresh only at the insertion location in Ivy.(<a href="https://github.com/angular/angular/pull/35968" target="_blank">PR 35968</a>)
+7. If you try to use `formatDate` or [DatePipe](https://www.angularjswiki.com/angular/angular-date-pipe-formatting-date-times-in-angular-with-examples/) with the "B" or "b" format codes ("at night", "in the morning", etc.), this does not work for locale "en" (and sublocales) between 21:00 and 06:00. Instead of getting "at night", you'll get "AM/PM".In the older versions the code was not able to cope with a period that crossed midnight. This is fixed as part of (<a href="https://github.com/angular/angular/pull/36611" target="_blank">PR 36611</a>)
+8. When an angular route has at least two resolvers, and if any resolver resolves to empty, navigation will be canceled, as it is the behaviour for a single resolver
+and if all resolvers resolve to empty, the router will not throw any errors. earlier it used to emit uncaught errors (<a target="_blank" href="https://github.com/angular/angular/pull/24621">PR 24621</a>)
+
+New Angular 10 projects use the filename `.browserslistrc` instead of `browserslist`. And `ng update` will migrate it automatically if your updating from older versions.
+
+Angular 10 recommends the use of a `tsconfig.base.json` to help organize the various typings contexts (shared, unit tests, end to end tests, application, etc). ng update will migrate you automatically.
+
+{{< figure src="Angular 10 update.png" title="Angular 10 update" alt="Angular 10 update">}}
+
+I updated a sample Angular application to Angular 10 (Which is in version Angular 9).
+
+Updating to Angular 10 is pretty much simple. You can see the version update log below.
+
+```
+Using package manager: 'npm'
+Collecting installed dependencies...
+Found 35 dependencies.
+Fetching dependency metadata from registry...
+    Updating package.json with dependency @angular/cli @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency @angular/core @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency @angular-devkit/build-angular @ "0.1000.0" (was "0.900.0")...
+    Updating package.json with dependency @angular/compiler-cli @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency @angular/animations @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency @angular/compiler @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency @angular/common @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency @angular/platform-browser @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency @angular/forms @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency zone.js @ "0.10.3" (was "0.10.2")...
+    Updating package.json with dependency @angular/language-service @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency typescript @ "3.9.5" (was "3.6.4")...
+    Updating package.json with dependency @angular/platform-browser-dynamic @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency @angular/router @ "10.0.0" (was "9.0.0")...
+UPDATE package.json (1595 bytes)
+√ Packages installed successfully.
+** Executing migrations of package '@angular/cli' **
+
+> Replace deprecated 'styleext' and 'spec' Angular schematic options.
+  Migration completed.
+
+> Update Browserslist configuration file name to '.browserslistrc' from deprecated 'browserslist'.
+RENAME browserslist => .browserslistrc
+  Migration completed.
+
+> Update tslint to version 6 and adjust rules to maintain existing behavior.
+UPDATE package.json (1595 bytes)
+UPDATE tslint.json (3348 bytes)
+  Migration completed.
+
+> Remove deprecated 'es5BrowserSupport' browser builder option.
+  The inclusion for ES5 polyfills will be determined from the browsers listed in the browserslist configuration.
+  Migration completed.
+
+> Replace deprecated and removed 'styleext' and 'spec' Angular schematic options with 'style' and 'skipTests', respectively.
+  Migration completed.
+
+> Remove deprecated options from 'angular.json' that are no longer present in v10.
+  Migration completed.
+
+> Add "Solution Style" TypeScript configuration file support.
+  This improves developer experience using editors powered by TypeScript’s language server.
+  Read more about this here: https://v10.angular.io/guide/migration-solution-style-tsconfig
+RENAME tsconfig.json => tsconfig.base.json
+CREATE tsconfig.json (427 bytes)
+UPDATE tsconfig.app.json (215 bytes)
+UPDATE tsconfig.spec.json (275 bytes)
+UPDATE e2e/tsconfig.json (219 bytes)
+  Migration completed.
+
+> Add the tslint deprecation rule to tslint JSON configuration files.
+  Migration completed.
+
+> Update library projects to use tslib version 2 as a direct dependency.
+  Read more about this here: https://v10.angular.io/guide/migration-update-libraries-tslib
+  Migration completed.
+
+> Update 'module' and 'target' TypeScript compiler options.
+  Read more about this here: https://v10.angular.io/guide/migration-update-module-and-target-compiler-options
+UPDATE e2e/tsconfig.json (222 bytes)
+  Migration completed.
+
+> Update workspace dependencies to match a new v10 project.
+UPDATE package.json (1594 bytes)
+√ Packages installed successfully.
+  Migration completed.
+
+** Executing migrations of package '@angular/core' **
+
+> Missing @Injectable and incomplete provider definition migration.
+  As of Angular 9, enforcement of @Injectable decorators for DI is a bit stricter and incomplete provider definitions behave differently.
+  Read more about this here: https://v9.angular.io/guide/migration-injectable
+  Migration completed.
+
+> ModuleWithProviders migration.
+  As of Angular 10, the ModuleWithProviders type requires a generic.
+  This migration adds the generic where it is missing.
+  Read more about this here: https://v10.angular.io/guide/migration-module-with-providers
+  Migration completed.
+
+> Undecorated classes with Angular features migration.
+  In version 10, classes that use Angular features and do not have an Angular decorator are no longer supported.
+  Read more about this here: https://v10.angular.io/guide/migration-undecorated-classes
+  Migration completed.
+```
 
 To update the Angular CLI to latest version 9 follow the below steps.
 
