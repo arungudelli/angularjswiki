@@ -1,9 +1,9 @@
 +++
-title = "How To loop or get names & values of Enum in typescript"
-subtitle = "Loop or Get names & values of enum in typescript"
+title = "How To loop or get names & values of Enums in typescript"
+subtitle = "Loop or Get names & values of enums in typescript"
 type="post"
-summary =""
-keywords=["delete component in angular,ng delete component command"]
+summary ="To get the names and values of Enums in typescript,we can loop through the enum object using for loop."
+keywords=["enum name and values typescript,enum typescript"]
 date="2020-07-02T01:01:05+0000"
 lastmod="2020-07-02T04:44:37+0000"
 draft=false
@@ -20,7 +20,7 @@ authors = ["admin"]
 
 +++
 
-To get the names and values of Enum object in typescript,we can loop through the enum using for loop.
+To get the names and values of Enums in typescript,we can loop through the enum object using for loop.
 
 {{%toc%}}
 
