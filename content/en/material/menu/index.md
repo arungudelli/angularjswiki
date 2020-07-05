@@ -3,7 +3,7 @@ title = " Angular Material Menu: mat Menu example"
 date = 2020-07-02T00:00:00
 lastmod = 2020-07-02T01:00:00
 
-draft = true  # Is this a draft? true/false
+draft = false  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
@@ -144,5 +144,285 @@ Further we can use icons as menu trigger elements.
 </mat-menu>
 ```
 
-## Creating Nested Menus
+## How to create Nested Menus or sub-menus?
 
+Creating nested menus or sub menus is very simple. 
+
+We need to attach another menu to `mat-menu-item` using `matMenuTriggerFor` property.
+
+We will create a simple nested menu which represents different types of programming languages which follows the below structure.
+
+1. languages
+   1. frontend
+      1. Javascript
+         1. jQuery
+         2. VueJs
+      2. Typescript
+      3. Angular
+   2. backend
+      1. C#
+      2. Java   
+
+We have three levels of sub menus. 
+
+First We will create first level of Menus with root as languages and menu list items as frontend and backend.
+
+```
+<button mat-button [matMenuTriggerFor]="languages">languages</button>
+    <mat-menu #languages="matMenu">
+      <button mat-menu-item>frontend</button>
+      <button mat-menu-item>backend</button>
+    </mat-menu>
+```
+
+Now under frontend menu-list-item we have three sub menu items as Javascript,typescript and Angular. Similarly for backend we have two sub menu list items as C# and Java.
+
+Now we will create second level sub menus by creating two new menu items as frontend and backend.
+
+```
+ <mat-menu #frontend="matMenu">      
+      <button mat-menu-item>Javascript</button>
+      <button mat-menu-item>Typescript</button>
+      <button mat-menu-item>Angular</button>
+  </mat-menu>
+
+  <mat-menu #backend="matMenu">      
+        <button mat-menu-item>C#</button>
+        <button mat-menu-item>Java</button>
+  </mat-menu>
+
+```
+
+Now we need to attach this second level menus to the above frontend and backend menu list items using `matMenuTriggerFor`.
+
+```
+<button mat-button [matMenuTriggerFor]="languages">languages</button>
+
+<!--First level Menu-->
+<mat-menu #languages="matMenu">
+      <button mat-menu-item [matMenuTriggerFor]="frontend">frontend</button>
+      <button mat-menu-item [matMenuTriggerFor]="backend">backend</button>
+</mat-menu>
+
+<!--Second level Menu-->    
+
+<mat-menu #frontend="matMenu">      
+      <button mat-menu-item>Javascript</button>
+      <button mat-menu-item>Typescript</button>
+      <button mat-menu-item>Angular</button>
+</mat-menu>
+
+<mat-menu #backend="matMenu">      
+        <button mat-menu-item>C#</button>
+        <button mat-menu-item>Java</button>
+</mat-menu>
+```
+
+Now we will create third level sub menu Javascript.
+
+```
+<mat-menu #javascript="matMenu">      
+  <button mat-menu-item>jQuery</button>
+  <button mat-menu-item>Vuejs</button>
+</mat-menu>
+```
+
+And attach this second level sub menu list item i.e.,Javascript using  `matMenuTriggerFor`.
+
+Now our three level Nested Menu is ready. 
+
+```
+<mat-card>
+  
+<button mat-button [matMenuTriggerFor]="languages">languages</button>
+
+  <!--First level Menu-->
+    
+    <mat-menu #languages="matMenu">
+      <button mat-menu-item [matMenuTriggerFor]="frontend">frontend</button>
+      <button mat-menu-item [matMenuTriggerFor]="backend">backend</button>
+    </mat-menu>
+
+  <!--Second level sub Menu--> 
+
+    <mat-menu #frontend="matMenu">      
+      <button mat-menu-item [matMenuTriggerFor]="javascript">
+         Javascript
+      </button>
+      <button mat-menu-item>Typescript</button>
+      <button mat-menu-item>Angular</button>
+    </mat-menu>
+
+    <mat-menu #backend="matMenu">      
+        <button mat-menu-item>C#</button>
+        <button mat-menu-item>Java</button>
+    </mat-menu>
+
+  <!--Third level sub Menu--> 
+
+  <mat-menu #javascript="matMenu">      
+        <button mat-menu-item>jQuery</button>
+        <button mat-menu-item>Vuejs</button>
+  </mat-menu>
+
+</mat-card>
+```
+
+## lazy loading of Menu
+
+The mat menu content will be initialized even when the menu panel is closed. 
+
+To defer initialization of mat menu content until the menu is open, i.e., to lazy load the menu content, We can use [ng-template](https://www.angularjswiki.com/angular/what-is-ng-template-in-angular/) along with the `matMenuContent` property.
+
+```
+
+<button mat-icon-button [matMenuTriggerFor]="lazyMenu">
+  Lazy menu
+</button>
+
+<mat-menu #lazyMenu="matMenu">
+  <ng-template matMenuContent>
+    <button mat-menu-item>Home</button>
+    <button mat-menu-item>Contact</button>
+  </ng-template>
+</mat-menu>
+
+
+```
+
+## Passing Data to the Menu
+
+We can render single menu instance with a different set of data, depending upon the trigger element that opened it.
+
+To do that we can pass the data to the menu panel via the `matMenuTriggerData` input.
+
+This is very helpful in some real world cases. For example in twitter we have the ability to manage multiple accounts at a time.
+
+I have two twitter accounts one is personal [@arungudelli](https://twitter.com/arungudelli) and [@angular_js](https://twitter.com/angular_js).
+
+We can manage two accounts using menu placed at the bottom left corner of the webpage.
+
+If we click on the menu item, we will see multiple options as shown in the below image.
+
+The last menu list item Log out displays user name as well i.e.,`Log Out @angular_js`,which ever account we are using marked with a tick mark.
+
+Depeding upon the selected account these two many entries will change.
+
+### matMenuContent Example
+
+We will try to develop above twitter manage accounts menu using `matMenuTriggerData` input.
+
+We will create few new classes in our component HTML file and use them to pass dynamic data to the mat menu panel.
+
+```
+export class MenuComponent implements OnInit {
+
+  activeUser : User;
+  menuItems : MenuData;
+
+  constructor() { 
+    
+    this.activeUser = new User();
+    this.activeUser.Name = "@angular_js";
+    this.activeUser.IsActive = true;
+
+    this.menuItems = new MenuData();
+    this.menuItems.Users = [];
+
+    this.menuItems.Users.push({Name:"@arungudelli",IsActive:false});
+    this.menuItems.Users.push(this.activeUser);
+
+    this.menuItems.ActiveUser = this.activeUser;
+
+    this.menuItems.OtherMenus = [];
+    this.menuItems.OtherMenus.push("Add an existing account");
+    this.menuItems.OtherMenus.push("Manage accounts");
+
+  }
+
+  ngOnInit(): void {
+  }
+
+}
+
+export class MenuData{
+  Users : User[];
+  OtherMenus : string[];
+  ActiveUser : User;
+}
+
+export class User{
+  Name : string;
+  IsActive : boolean;
+}
+
+```
+
+I have defined 3 objects 
+
+1. Active User
+2. Menu Items
+
+Now we will build our dynamic menu content structure.
+
+```
+  <button mat-button [matMenuTriggerFor]="manageAccounts" 
+                   [matMenuTriggerData]="menuItems">
+        {{activeUser.Name}}
+</button>
+
+<mat-menu #manageAccounts="matMenu">
+    
+  <ng-template [matMenuContent]="menuItems">
+
+      <ng-container *ngFor="let user of menuItems.Users">        
+        <button mat-menu-item>
+            <span>{{user.Name}}</span>
+            <mat-icon *ngIf="user.IsActive">
+               how_to_reg
+            </mat-icon>
+        </button>
+      </ng-container> 
+
+      <ng-container *ngFor="let othermenu of menuItems.OtherMenus">        
+        <button mat-menu-item>{{othermenu}}</button>
+      </ng-container> 
+
+      <button mat-menu-item>Log off {{menuItems.ActiveUser.Name}}</button>
+    
+  </ng-template>
+   
+</mat-menu>
+
+```
+
+`matMenuTriggerData` property used to pass dynamic content data to the menu panel. In the above case I am passing `menuItems` object.
+
+I have defined a menu content panel with the name `manageAccounts`, and attached it to the active user name element via `matMenuTriggerFor`.
+
+In the menu content panel using `ng-template` selector and `matMenuContent` input we can lazy load the menu panel data until the menu trigger is clicked.
+
+And in the ng-template, Using `[matMenuContent]` I am reading the data provided by the `matMenuTriggerData` input.
+ 
+```
+<ng-template [matMenuContent]="menuItems"></ng-template>
+```
+
+I am passing a complex object to `matMenuContent` input. Which has list of users, other menu items and active user.
+
+If you have a simple object you can directly use `let` keyword to define a new variable and use it in menu content panel.
+
+```
+<button mat-icon-button 
+        [matMenuTriggerFor]="userMenu"
+        [matMenuTriggerData]="{name: 'ArunGudelli'}">
+  <mat-icon>more_vert</mat-icon>
+</button>
+
+<mat-menu #userMenu="matMenu">
+  <ng-template matMenuContent let-username="name">
+    <button mat-menu-item>Log off {{username}}</button>
+  </ng-template>
+</mat-menu>
+
+```
