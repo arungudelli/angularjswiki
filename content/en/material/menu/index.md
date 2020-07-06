@@ -9,7 +9,7 @@ type = "docs"  # Do not modify.
 parentdoc = "material"
 prev = "badge"
 next ="datepicker"
-featured="angular-material-tooltip.jpg"
+featured="angular-material-menu.png"
 authors = ["admin"]
 summary ="To implement menu items in Angular we can use angular material menu module called MatMenuModule."
 keywords=["mat menu,Angular Material Menu"]
@@ -70,6 +70,8 @@ The menu should be attached to a trigger element which will open and close the m
 ```
 
 In the above example I am attaching `mat-menu` container to a button called "Simple Menu" via  `matMenuTriggerFor` attribute.
+
+{{< figure src="simple mat menu.PNG" title="simple mat menu" alt="simple mat menu">}}
 
 ## Changing mat Menu Position
 
@@ -143,6 +145,8 @@ Further we can use icons as menu trigger elements.
   <button mat-menu-item><mat-icon>home</mat-icon><span>Home</span></button>
 </mat-menu>
 ```
+
+{{< figure src="mat menu icon.PNG" title="mat menu icon" alt="mat menu icon">}}
 
 ## How to create Nested Menus or sub-menus?
 
@@ -267,6 +271,48 @@ Now our three level Nested Menu is ready.
 
 </mat-card>
 ```
+{{< figure src="nested menus.PNG" title="nested menus" alt="nested menus">}}
+
+## How to open mat menu programmatically?
+
+To open mat open programmatically we need to get instance of `MatMenuTrigger` from `matMenuTriggerFor` element.
+
+In the below example `matMenuTriggerFor` element is an icon button. 
+I have added template variable `#triggerBtn` to that element. 
+
+```
+<button (click)="openMatMenuProgrammatically()" 
+        mat-button>
+    Open Menu
+</button>
+
+<button mat-icon-button 
+        #triggerBtn 
+        [matMenuTriggerFor]="normalMenu">
+        <mat-icon>more_vert</mat-icon>
+</button>
+
+<mat-menu #normalMenu="matMenu">
+    <button mat-menu-item>Home</button>
+    <button mat-menu-item>Contact</button>
+</mat-menu>
+```
+
+And now in component ts file, using  `@ViewChild` to get the instance `MatMenuTrigger` from the trigger element. i.e., triggerBtn. 
+
+```
+@ViewChild(MatMenuTrigger) triggerBtn: MatMenuTrigger;
+
+openMatMenuProgrammatically(){
+    this.triggerBtn.openMenu();
+}
+```
+
+MatMenuTrigger will expose several methods including `openMenu()`.
+
+For our demo purpose I have created a button `Open Menu` and attached a click event method `openMatMenuProgrammatically()`.
+
+Inside openMatMenuProgrammatically() method I am calling `this.triggerBtn.openMenu()` which will open our menu.
 
 ## Creating dynamic menu list items
 
@@ -329,6 +375,8 @@ And in component HTML file using `*ngFor` we can generate menu list items as sho
   </button>
 </mat-menu>  
 ```
+{{< figure src="dynamic-mat-menu-list.PNG" title="dynamic-mat-menu-list" alt="dynamic-mat-menu-list">}}
+
 
 Even if we have static menu items, I prefer creating a menu list object and bind it to mat-menu panel in component HTML file.
 
@@ -398,13 +446,11 @@ If you are menu item only handle with route navigation then you can directly add
 ```
 <button mat-menu-item 
         *ngFor="let item of menuListItems" 
-        [routerLink]="item.routerLink"
-
+        routerLink="item.routerLink"
     <mat-icon>{{ item.menuIcon }}</mat-icon>
     <span> {{ item.menuLinkText }}</span>
 </button>
 ```
-
 
 ## How to disable mat-menu-item ? 
 
@@ -423,31 +469,9 @@ In the above MatMenuListItem object I have added a property called `IsDisabled`.
 ```
 
 
-## Lazy loading of Menu
+## Passing Data to the Menu Content Panel
 
-The mat menu content will be initialized even when the menu panel is closed. 
-
-To defer initialization of mat menu content until the menu is open, i.e., to lazy load the menu content, We can use [ng-template](https://www.angularjswiki.com/angular/what-is-ng-template-in-angular/) along with the `matMenuContent` property.
-
-```
-
-<button mat-icon-button [matMenuTriggerFor]="lazyMenu">
-  Lazy menu
-</button>
-
-<mat-menu #lazyMenu="matMenu">
-  <ng-template matMenuContent>
-    <button mat-menu-item>Home</button>
-    <button mat-menu-item>Contact</button>
-  </ng-template>
-</mat-menu>
-
-
-```
-
-## Passing Data to the Menu
-
-We can render single menu instance with a different set of data, depending upon the trigger element that opened it.
+We can render single menu instance with a different set of data, depending upon the data being passed by the trigger element.
 
 To do that we can pass the data to the menu panel via the `matMenuTriggerData` input.
 
@@ -460,6 +484,10 @@ We can manage two accounts using menu placed at the bottom left corner of the we
 If we click on the menu item, we will see multiple options as shown in the below image.
 
 The last menu list item Log out displays user name as well i.e.,`Log Out @angular_js`,which ever account we are using marked with a tick mark.
+
+
+{{< figure src="Passing-Data-to-the-Menu-Twitter.PNG" title="Passing Data to the Menu Twitter" alt="Passing Data to the Menu Twitter">}}
+
 
 Depeding upon the selected account these two many entries will change.
 
@@ -513,7 +541,7 @@ export class User{
 
 ```
 
-I have defined 3 objects 
+I have defined 2 objects 
 
 1. Active User
 2. Menu Items
@@ -555,7 +583,7 @@ Now we will build our dynamic menu content structure.
 
 I have defined a menu content panel with the name `manageAccounts`, and attached it to the active user name element via `matMenuTriggerFor`.
 
-In the menu content panel using `ng-template` selector and `matMenuContent` input we can lazy load the menu panel data until the menu trigger is clicked.
+In the menu content panel using [ng-template](https://www.angularjswiki.com/angular/what-is-ng-template-in-angular/) selector and `matMenuContent` input we can lazy load the menu panel data until the menu trigger is clicked.
 
 And in the ng-template, Using `[matMenuContent]` I am reading the data provided by the `matMenuTriggerData` input.
  
@@ -582,4 +610,4 @@ If you have a simple object you can directly use `let` keyword to define a new v
 
 ```
 
-
+{{< figure src="Passing data to the mat menu content.PNG" title="Passing data to the mat menu content" alt="Passing data to the mat menu content">}}
