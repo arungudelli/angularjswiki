@@ -272,9 +272,10 @@ Now our three level Nested Menu is ready.
 
 The above menu list items are static.
 
-In most of the real world cases, we might need to create dynamic menus, where the menu list items may come from an API through ajax call or an observable.  
+In most of the real world cases, we might need to create dynamic menus, where the menu list items may come from an API through ajax call or
+from an observable.  
 
-For that purpose I have create a MatMenuListItem object which will be used to generate dynamic menu list items.
+For that purpose I have create a `MatMenuListItem` object which will be used to generate dynamic menu list items.
 
 ```
 export class MatMenuListItem {
@@ -307,7 +308,7 @@ For this demo purpose, I am assinging values in the constructor.
 
 This menu list item data may come from observable as well.
 
-And in component HTML file using *ngFor we can generate menu list items as shown below.
+And in component HTML file using `*ngFor` we can generate menu list items as shown below.
 
 ```
 <mat-toolbar>
@@ -315,6 +316,7 @@ And in component HTML file using *ngFor we can generate menu list items as shown
           [matMenuTriggerFor]="clickmenu">
           <mat-icon>more_vert</mat-icon>
   </button>
+  <span>Selected Menu {{selectedMenu}}</span>
 </mat-toolbar>
 
 <mat-menu #clickmenu="matMenu">
@@ -325,12 +327,12 @@ And in component HTML file using *ngFor we can generate menu list items as shown
     <mat-icon>{{ item.menuIcon }}</mat-icon>
     <span> {{ item.menuLinkText }}</span>
   </button>
+</mat-menu>  
 ```
 
-Even if we have static menu items, I prefer creating a menu list object bind it mat-menu panel in component file.
+Even if we have static menu items, I prefer creating a menu list object and bind it to mat-menu panel in component HTML file.
 
 Because *ngFor will simplify our HTML code.
-
 
 ## mat-menu-item click event
 
@@ -341,26 +343,87 @@ In the above example, I have created a method called `selectMenuItem` and bind i
 ```
 selectMenuItem(menuItem : MatMenuListItem){
      console.log(menuItem);
+     this.selectedMenu = menuItem.menuLinkText;
 }
 ```
 
-### Navigate to route on menu click event
+### Navigate to an angular route on menu click event
+ 
+If you are using angular routes in your application we can navigate to that particular route on mat menu click event.
 
-Now based upon the menu click events, we navigate to the corresponding page in our angular application.
+```
+import {Router} from '@angular/router';
 
-If you are using routes in your application we can navigate to that particular route.
+constructor(private router: Router){}
+
+selectMenuItem(menuItem : MatMenuListItem){
+     this.selectedMenu = menuItem.menuLinkText;
+
+     if(menuItem.menuLinkText === 'AboutUs'){
+       this.router.navigate(['/AboutUs']);
+     }
+}
+
+```
+
+Or we can add another property to the `MatMenuListItem` which represents angular route to navigate so that we can avoid the above if loop check.
+
+```
+export class MatMenuListItem {
+  menuLinkText: string;
+  menuIcon: string;
+  isDisabled: boolean;
+  routerLink: string;
+}
+
+
+this.menuListItems.push(
+{
+  menuLinkText: 'Settings', 
+  menuIcon: 'settings',
+  isDisabled:false,
+  routerLink: '/settings'
+}
+);
+
+
+selectMenuItem(menuItem : MatMenuListItem){    
+  this.router.navigate([menuItem.routerLink]);
+}
+
+```
+
+If you are menu item only handle with route navigation then you can directly add `routerLink` attribute to `mat-menu-item`.
+
+```
+<button mat-menu-item 
+        *ngFor="let item of menuListItems" 
+        [routerLink]="item.routerLink"
+
+    <mat-icon>{{ item.menuIcon }}</mat-icon>
+    <span> {{ item.menuLinkText }}</span>
+</button>
+```
 
 
 ## How to disable mat-menu-item ? 
 
-To disable the menu item we can use disable property of mat- menu-item.
+To disable the mat menu item we can use disable property.
+
+In the above MatMenuListItem object I have added a property called `IsDisabled`. And it can be used to disable the menu link
 
 ```
-
+<button mat-menu-item 
+          *ngFor="let item of menuListItems" 
+          (click)="selectMenuItem(item)" 
+          [disabled]="item.isDisabled">
+    <mat-icon>{{ item.menuIcon }}</mat-icon>
+    <span> {{ item.menuLinkText }}</span>
+</button>
 ```
 
 
-## lazy loading of Menu
+## Lazy loading of Menu
 
 The mat menu content will be initialized even when the menu panel is closed. 
 
