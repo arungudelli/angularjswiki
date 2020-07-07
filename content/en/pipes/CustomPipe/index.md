@@ -1,7 +1,8 @@
 +++
-title = "How to create custom pipe in Angular"
-date = 2020-03-06T00:00:00
-lastmod = 2020-03-06T01:00:00
+title = "How to create a custom pipe in Angular"
+subtitle="Learn how to create a custom pipe in Angular with examples"
+date = 2020-07-06T00:00:00
+lastmod = 2020-07-06T01:00:00
 draft = false  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
@@ -9,7 +10,7 @@ parentdoc = "pipes"
 next="pipes/jsonpipe"
 featured="angular-custom-pipe.jpg"
 authors = ["admin"]
-summary ="Learn how to create a custom pipe in Angular with examples."
+summary ="Custom Pipes in Angular are very useful in case if you want to re use some buisness logic across our application.We can create custom pipes in Angular manually or by using ng generate pipe angular cli command."
 keywords=["Angular custom pipe,custom Pipe"]
 
 # Add menu entry to sidebar.
@@ -19,6 +20,12 @@ linktitle = "Custom Pipe"
   parent = "Pipes In Angular"
   weight = 4
 +++
+
+Custom Pipes in Angular are very useful in case, if we want to re use some buisness logic across our application.
+
+We can create custom pipes in Angular manually or by `using ng generate pipe` angular cli command.
+
+To create custome pipe manually follow the below steps.
 
 Steps to create custom pipe in Angular
 
@@ -91,7 +98,7 @@ Additionally the command will create a spec file to write unit tests and it will
 
 {{< figure src="create-custom-pipe-angular.png" title="create custom pipe angular" alt="create custom pipe angular">}} 
 
-## Angular Custom Pipe Example
+## Custom Pipe Example
 
 We will go through an example to understand it further.
 
@@ -137,7 +144,7 @@ we can use our custom pipe in the component template expression as shown below.
 16
 ```
 
-## Angular custom pipe with parameters
+## Passing parameters to the custom pipe
 
 To create a custom pipe which accepts parameter, we should change the transform method of custom pipe.
 
@@ -181,7 +188,7 @@ In the component file, we can pass parameter to our custom pipe using colon.
 100
 ```
 
-## Angular custom pipe with optional parameters
+## Passing optional parameters
 
 If we are not passing any parameter to the custom pipe, angular cli will return following error.
 
@@ -225,7 +232,7 @@ If we use custom pipe without parameter it will returns the same number.
 10
 ```
 
-## Angular Custom pipe with multiple parameters.
+## Custom pipe with multiple parameters.
 
 The custom pipe created above will accept only single parameter i.e., exponent.
 
@@ -263,7 +270,7 @@ Now in component html file use pipe with both exponent and buffer parameters by 
 120
 ```
 
-## Angular Custom pipe with variable number of arguments.
+## Passing variable number of arguments to custom pipe.
 
 We can create a pipe which can accepts variable number of arguments by using rest parameter.
 
@@ -301,7 +308,7 @@ Now in component html file we can use `userFullName` with any number of paramete
 //Arun kumar gudelli
 ```
 
-## Angular Custom Pipe not found Error NG8004: No pipe found with name
+## Custom Pipe not found Error NG8004: No pipe found with name
 
 The most common error you will get while creating custom pipes is `No Pipe found with name`.
 

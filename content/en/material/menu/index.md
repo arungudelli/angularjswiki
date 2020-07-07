@@ -2,7 +2,7 @@
 title = " Angular Material Menu: mat Menu example"
 date = 2020-07-02T00:00:00
 lastmod = 2020-07-02T01:00:00
-
+subtitle="Create beautiful menu items in Angular using material design"
 draft = false  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.

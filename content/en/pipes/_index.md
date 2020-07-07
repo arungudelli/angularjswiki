@@ -1,5 +1,6 @@
 +++
 title = "Pipes in Angular"
+subtitle = "Understanding Pipes in Angular with examples"
 date = 2020-02-11T00:00:00
 lastmod = 2020-02-11T01:00:00
 draft = false  # Is this a draft? true/false
@@ -9,7 +10,7 @@ parentdoc = "pipes"
 next="pipes/list"
 featured="pipes-in-angular.jpg"
 authors = ["admin"]
-summary ="Understanding pipes in angular with examples."
+summary ="Pipes in Angular used to convert the data coming from the server to the more user friendly format directly in template HTML files"
 keywords=["Angular pipe,Pipes in Angular,Pipes"]
 
 # Add menu entry to sidebar.
@@ -21,7 +22,7 @@ linktitle = "Introduction"
 
 +++
 
-In this tutorial we will understand pipes in angular with examples.
+Pipes in Angular used to convert the data coming from the server to the more user friendly format directly in template HTML files  
 
 {{%toc%}}
 
@@ -69,7 +70,7 @@ In Linux, Pipe is an operator that takes a stream of inputs, transforms it, and 
 // $8907.56
 ```
 
-## Why to use Pipes In Angular?
+## Why to use Pipes?
 
 You might be thinking why I have to use angular pipes in template HTML files, when I can transform the data in component ts file itself?
 
@@ -106,7 +107,7 @@ Yes we can always do this, But few problems here
 2. And other problem is by looking at the component file I will not know how the data being displayed.
 3. If I use the pipe `{{input | uppercase}}` by looking at the code itself, I will understand it is being displayed as uppercase.
 
-## Angular Pipes are reusable
+## Pipes are reusable
 
 We can reuse Angular pipes whenever we want to perform some business logic on data inside our component html files.
 
@@ -118,7 +119,7 @@ Built in pipes like uppercase or lowercase pipes can be used in every component 
 // angular pipe 
 // ANGULAR PIPE
 ```
-We can create our own custome pipes according to our requirements use them in angular applications.
+We can create our own custom pipes according to our requirements use them in angular applications.
 
 For example we want to perform square operation on numbers before displaying them, in that case we can create our own pipe called `squarepipe` and use it across the application.
 
@@ -129,7 +130,7 @@ For example we want to perform square operation on numbers before displaying the
 //4
 ```
 
-## Angular Pipes Performance
+## Improving Performance of the app using Pipes
 
 In the above example instead of creating squarepipe, we can declare a function in component file use it in template html file as shown below.
 
