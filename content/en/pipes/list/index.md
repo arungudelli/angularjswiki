@@ -1,5 +1,6 @@
 +++
 title = "List of Built-in Pipes in Angular"
+subtitle= "Complete list of built in pipes"
 date = 2020-02-11T00:00:00
 lastmod = 2020-02-11T01:00:00
 draft = false  # Is this a draft? true/false
@@ -9,7 +10,7 @@ parentdoc = "pipes"
 next="pipes/jsonpipe"
 featured="pipes-list.jpg"
 authors = ["admin"]
-summary ="List of Built-in Pipes in Angular"
+summary ="We have around 13 built in pipes in Angular which are part of @angular/common"
 keywords=["Angular pipe list"]
 
 # Add menu entry to sidebar.

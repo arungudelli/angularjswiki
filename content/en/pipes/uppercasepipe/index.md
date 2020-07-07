@@ -1,5 +1,6 @@
 +++
 title = "Angular Uppercase Pipe : Convert string/text to uppercase in Angular"
+subtitle="Upper case pipe example"
 date = 2019-04-24T00:00:00
 lastmod = 2019-04-24T01:00:00
 draft = false  # Is this a draft? true/false
@@ -36,7 +37,7 @@ Angular UpperCasePipe is one of the built in pipes which converts text to upperc
 
 {{% toc %}}
 
-## Angular UpperCasePipe Usage & Syntax
+## UpperCasePipe Usage & Syntax
 
 The syntax is very similar to other built in pipes, we need to pass input string to uppercase pipe without any parameters
 
@@ -44,7 +45,7 @@ The syntax is very similar to other built in pipes, we need to pass input string
 {{ string | uppercase }}
 ```
 
-## Angular UpperCasePipe Examples
+## UpperCasePipe Examples
 
 We go through the different types of strings and convert them to uppercase using Angular TitleCasePipe.
 
