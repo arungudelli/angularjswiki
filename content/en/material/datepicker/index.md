@@ -7,6 +7,7 @@ toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
 prev = "tooltip"
+next="menu"
 featured="angular-material-date-picker.jpg"
 authors = ["admin"]
 summary ="To implement date picker in Angular we can use angular material datepicker module called MatDatepickerModule."
