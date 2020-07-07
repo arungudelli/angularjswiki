@@ -122,6 +122,9 @@ yPosition accepts the values "above" or "below".
 </mat-menu>
 ```
 
+{{< video src="mat-menu-position.mp4" srcwebm="mat-menu-position.webm">}} 
+
+
 ## Mat Menu with Icons
 
 We can display material icons before the menu item text by placing `mat-icon` elements.
@@ -314,6 +317,9 @@ For our demo purpose I have created a button `Open Menu` and attached a click ev
 
 Inside openMatMenuProgrammatically() method I am calling `this.triggerBtn.openMenu()` which will open our menu.
 
+{{< video src="open-menu-programmetically.mp4" srcwebm="open-menu-programmetically.webm">}} 
+
+
 ## Creating dynamic menu list items
 
 The above menu list items are static.
@@ -394,6 +400,9 @@ selectMenuItem(menuItem : MatMenuListItem){
      this.selectedMenu = menuItem.menuLinkText;
 }
 ```
+
+{{< video src="mat menu click event.mp4" srcwebm="mat menu click event.webm">}} 
+
 
 ### Navigate to an angular route on menu click event
  
