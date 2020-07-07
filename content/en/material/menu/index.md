@@ -35,7 +35,7 @@ Steps to implement Menu items in Angular applications.
 
 ### step 1: Import Angular material Menu module 
 
-We can import Menu module (MatMenuModule) in our components ts file or app.module.ts file or some common material module which can be used across the application as explained in angular material tutorial.
+We can import material menu module (MatMenuModule) in our components ts file or app.module.ts file or some common material module which can be used across the application as explained in [angular material tutorial](https://www.angularjswiki.com/material/).
 
 ```
 import {MatMenuModule} from '@angular/material/menu';
@@ -54,11 +54,19 @@ After importing `MatMenuModule` in our component file, use `mat-menu` selector w
 
 I am using `button` element as Menu Item. And do not forgot to add `mat-menu-item` to the menu options.
 
+Add a template reference variable to the `mat-menu` which will be used to refer our menu panel.
+
+In this case I have added variable `#menu`.
+
+```
+<mat-menu #menu="matMenu"></mat-menu>
+```
+
 ### step 3: Add matMenuTriggerFor Element
 
 The above `mat-menu` element does not render anything in the UI. 
 
-The menu should be attached to a trigger element which will open and close the menu using `matMenuTriggerFor` directive
+The menu should be attached to a trigger element, which will open and close the menu using `matMenuTriggerFor` directive
 
 ```
 <button mat-button [matMenuTriggerFor]="menu">Simple Menu</button>
@@ -73,13 +81,15 @@ In the above example I am attaching `mat-menu` container to a button called "Sim
 
 {{< figure src="simple mat menu.PNG" title="simple mat menu" alt="simple mat menu">}}
 
+Use the template reference variable i.e., `#menu`, created in step 2 to attach the menu panel to the trigger element.
+
 ## Changing mat Menu Position
 
 By default material menu will be displayed under the menu trigger element. 
 
-To change the menu position we can use xPosition and yPosition properties of mat-menu selector.
+To change the menu position we can use `xPosition` and `yPosition` properties of mat-menu selector.
 
-### mat Menu position Before or after
+### mat-Menu position Before or after
 
 If you want display menu before and after the menu trigger element we can pass xPosition value as "before" or "after".
 
@@ -127,7 +137,7 @@ yPosition accepts the values "above" or "below".
 
 ## Mat Menu with Icons
 
-We can display material icons before the menu item text by placing `mat-icon` elements.
+We can display material icons before the menu item text by placing [mat-icon](https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/) elements.
 
 ```
 <button mat-button [matMenuTriggerFor]="menu">MenuIcon</button>
@@ -137,7 +147,7 @@ We can display material icons before the menu item text by placing `mat-icon` el
 </mat-menu>
 ```
 
-Further we can use icons as menu trigger elements.
+Further we can use mat icons as menu trigger elements.
 
 ```
 <button mat-button [matMenuTriggerFor]="menu">
@@ -182,7 +192,9 @@ First We will create first level of Menus with root as languages and menu list i
     </mat-menu>
 ```
 
-Now under frontend menu-list-item we have three sub menu items as Javascript,typescript and Angular. Similarly for backend we have two sub menu list items as C# and Java.
+Now under frontend menu-list-item, we have three sub menu items as Javascript,typescript and Angular. 
+
+Similarly for backend we have two sub menu list items as C# and Java.
 
 Now we will create second level sub menus by creating two new menu items as frontend and backend.
 
@@ -234,7 +246,7 @@ Now we will create third level sub menu Javascript.
 </mat-menu>
 ```
 
-And attach this second level sub menu list item i.e.,Javascript using  `matMenuTriggerFor`.
+And attach this to second level sub menu list item i.e.,Javascript using  `matMenuTriggerFor`.
 
 Now our three level Nested Menu is ready. 
 
@@ -281,6 +293,7 @@ Now our three level Nested Menu is ready.
 To open mat open programmatically we need to get instance of `MatMenuTrigger` from `matMenuTriggerFor` element.
 
 In the below example `matMenuTriggerFor` element is an icon button. 
+
 I have added template variable `#triggerBtn` to that element. 
 
 ```
@@ -301,7 +314,7 @@ I have added template variable `#triggerBtn` to that element.
 </mat-menu>
 ```
 
-And now in component ts file, using  `@ViewChild` to get the instance `MatMenuTrigger` from the trigger element. i.e., triggerBtn. 
+And now in component ts file, I am using  `@ViewChild` to get the instance `MatMenuTrigger` from the trigger element. i.e., `triggerBtn`. 
 
 ```
 @ViewChild(MatMenuTrigger) triggerBtn: MatMenuTrigger;
@@ -315,7 +328,7 @@ MatMenuTrigger will expose several methods including `openMenu()`.
 
 For our demo purpose I have created a button `Open Menu` and attached a click event method `openMatMenuProgrammatically()`.
 
-Inside openMatMenuProgrammatically() method I am calling `this.triggerBtn.openMenu()` which will open our menu.
+Inside `openMatMenuProgrammatically()` method I am calling `this.triggerBtn.openMenu()` which will open our menu.
 
 {{< video src="open-menu-programmetically.mp4" srcwebm="open-menu-programmetically.webm">}} 
 
@@ -324,8 +337,7 @@ Inside openMatMenuProgrammatically() method I am calling `this.triggerBtn.openMe
 
 The above menu list items are static.
 
-In most of the real world cases, we might need to create dynamic menus, where the menu list items may come from an API through ajax call or
-from an observable.  
+In most of the real world cases, we might need to create dynamic menus, where the menu list items may come from an API through ajax call or from an observable.  
 
 For that purpose I have create a `MatMenuListItem` object which will be used to generate dynamic menu list items.
 
@@ -356,11 +368,11 @@ this.menuListItems = [
 
 ```
 
-For this demo purpose, I am assinging values in the constructor. 
+I am assinging mat menu item values in the constructor. 
 
 This menu list item data may come from observable as well.
 
-And in component HTML file using `*ngFor` we can generate menu list items as shown below.
+And in component HTML file using `*ngFor` we can create menu list items as shown below.
 
 ```
 <mat-toolbar>
@@ -374,7 +386,7 @@ And in component HTML file using `*ngFor` we can generate menu list items as sho
 <mat-menu #clickmenu="matMenu">
   <button mat-menu-item 
           *ngFor="let item of menuListItems" 
-          (click)="selectMenuItem(item)" 
+          (click)="clickMenuItem(item)" 
           [disabled]="item.isDisabled">
     <mat-icon>{{ item.menuIcon }}</mat-icon>
     <span> {{ item.menuLinkText }}</span>
@@ -382,7 +394,6 @@ And in component HTML file using `*ngFor` we can generate menu list items as sho
 </mat-menu>  
 ```
 {{< figure src="dynamic-mat-menu-list.PNG" title="dynamic-mat-menu-list" alt="dynamic-mat-menu-list">}}
-
 
 Even if we have static menu items, I prefer creating a menu list object and bind it to mat-menu panel in component HTML file.
 
@@ -392,10 +403,10 @@ Because *ngFor will simplify our HTML code.
 
 To add click events to mat menu item, we can use built in click event method.
 
-In the above example, I have created a method called `selectMenuItem` and bind it to the mat-menu-item click event.
+In the above example, I have created a method called `clickMenuItem` and bind it to the mat-menu-item click event.
 
 ```
-selectMenuItem(menuItem : MatMenuListItem){
+clickMenuItem(menuItem : MatMenuListItem){
      console.log(menuItem);
      this.selectedMenu = menuItem.menuLinkText;
 }
@@ -413,7 +424,7 @@ import {Router} from '@angular/router';
 
 constructor(private router: Router){}
 
-selectMenuItem(menuItem : MatMenuListItem){
+clickMenuItem(menuItem : MatMenuListItem){
      this.selectedMenu = menuItem.menuLinkText;
 
      if(menuItem.menuLinkText === 'AboutUs'){
@@ -444,13 +455,13 @@ this.menuListItems.push(
 );
 
 
-selectMenuItem(menuItem : MatMenuListItem){    
+clickMenuItem(menuItem : MatMenuListItem){    
   this.router.navigate([menuItem.routerLink]);
 }
 
 ```
 
-If you are menu item only handle with route navigation then you can directly add `routerLink` attribute to `mat-menu-item`.
+If your menu item only handles with route navigation then you can directly add `routerLink` attribute to `mat-menu-item`.
 
 ```
 <button mat-menu-item 
@@ -492,15 +503,15 @@ We can manage two accounts using menu placed at the bottom left corner of the we
 
 If we click on the menu item, we will see multiple options as shown in the below image.
 
-The last menu list item Log out displays user name as well i.e.,`Log Out @angular_js`,which ever account we are using marked with a tick mark.
-
-
 {{< figure src="Passing-Data-to-the-Menu-Twitter.PNG" title="Passing Data to the Menu Twitter" alt="Passing Data to the Menu Twitter">}}
 
+The last menu list item Log out displays user name as well i.e.,`Log Out @angular_js`,which ever account we are using marked with a tick mark.
 
-Depeding upon the selected account these two many entries will change.
+Depeding upon the selected account these two entries will change.
 
 ### matMenuContent Example
+
+In the menu panel, `matMenuContent` used to receive the data from mat-menu trigger element.
 
 We will try to develop above twitter manage accounts menu using `matMenuTriggerData` input.
 
