@@ -3,8 +3,8 @@
 {{ $authorLen := len $.Params.authors }}
 {{ if gt $authorLen 0 }}
   {{ range $k, $v := $.Params.authors -}}
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
+    <span>
+      <span>
         {{ $link := ($.Site.GetPage (printf "/authors/%s" $v)).RelPermalink }}
 
       {{ $person_page_path := (printf "/author/%s" (urlize $v)) }}
