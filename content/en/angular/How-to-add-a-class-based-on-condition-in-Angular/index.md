@@ -132,7 +132,7 @@ I am adding a font awesome icon class `fa-exclamation-triangle` in addition to t
 
 [Free 1500+ font awesome icons List](https://www.angularjswiki.com/angular/font-awesome-icons-list-usage-css-content-values/)
 
-We can add as many as classed separated by delimiter space
+We can add as many as classes separated by delimiter space
 
 ```
 <div [ngClass]="{'class1 class2 class3 class4': conditionalExpression}">
