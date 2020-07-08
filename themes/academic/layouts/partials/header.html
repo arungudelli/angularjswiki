@@ -7,8 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content="#2962ff">
   <meta name="google-site-verification" content="xs41tO2R1bwa_XSFshm1bdIi5xl1Pclcl0-Ar5NdwNg" />
-  <meta name="generator" content="Source Themes Academic {{ .Site.Data.academic.version }}">
-  {{ .Hugo.Generator }}
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 
   <link rel='preconnect' href='//www.googletagmanager.com'/>
   <link rel='preconnect' href='//www.google-analytics.com'/>
@@ -267,24 +269,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
 </link>
 {{end}}
 
-  {{ if not .Site.IsServer }}
-  {{ if .Site.GoogleAnalytics }}
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', '{{ .Site.GoogleAnalytics }}', 'auto');
-      {{ if .Site.Params.privacy_pack }}ga('set', 'anonymizeIp', true);{{ end }}
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="//www.google-analytics.com/analytics.js"></script>
-    {{ if ($scr.Get "use_cdn") }}
-    {{ printf "<script async src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.autotrack.url $js.autotrack.version) $js.autotrack.sri | safeHTML }}
-    {{ end }}
-  {{ end }}
-  {{ end }}
-
   {{ if or .Site.RSSLink .RSSLink }}
   <link rel="alternate" href="{{ .RSSLink | default .Site.RSSLink  }}" type="application/rss+xml" title="{{ .Site.Title }}">
   <link rel="feed" href="{{ .RSSLink | default .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}">
@@ -350,6 +334,34 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
   <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
 
 
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": "{{- with $og_image }}{{.}}{{end}}",
+      "author": {
+        "@type": "Person",
+        "name": "Arunkumar Gudelli"
+      },
+      "headline": "{{ .Title }}",
+      
+      "description": "{{ $desc }}",
+       "mainEntityOfPage":"{{ .Permalink }}",
+      
+      "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | safeHTML }}",
+      "dateModified":"{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}",
+      
+      
+      "publisher": {
+        "@type": "Organization",
+        "name": "Angular Wiki",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.angularjswiki.com/img/Angular-wiki-logo.png"
+        }
+      }
+    }
+    </script>  
 
 
 </head>

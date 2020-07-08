@@ -104,15 +104,8 @@
   {{ $ctnr = "universal-wrapper" }}
 {{end}}
 <div class="{{$ctnr}} pt-3">
-    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-      <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-        <meta itemprop="url" content="{{ "/img/Angular-wiki-logo.png" | absURL }}">
-        <meta itemprop="width" content="250">
-        <meta itemprop="height" content="48">
-      </div>
-      <meta itemprop="name" content="Angular wiki">
-    </div>
-  <h1 itemprop="name headline">{{ $title }}</h1>
+
+  <h1>{{ $title }}</h1>
 
   {{ with $page.Params.subtitle }}
   <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
@@ -123,34 +116,5 @@
     {{ partial "page_links_div.html" $page }}
   {{end}}
 
-  {{ if and $featured (not .Params.image.preview_only) }}
-  {{ $image300 := $featured.Resize "300x" }}
-  {{ $image400 := $featured.Resize "400x" }}
-  {{ $image720 := $featured.Resize "720x" }}
-
-  <div style="text-align:center">
-      <picture>
-          {{ if gt $featured.Width 720}}
-          <!-- <source media="(min-width: {{$featured.Width}}px)" srcset="{{$featured.RelPermalink}}">   -->
-          <source media="(min-width: 720px)" srcset="{{$image720.RelPermalink}}"> 
-          <source media="(min-width: 400px)" srcset="{{$image400.RelPermalink}}">
-          <source media="(min-width: 300px)" srcset="{{$image300.RelPermalink}}">
-          {{end}}
-          {{ if and (gt $featured.Width 400) (lt $featured.Width 720) }}
-            <source media="(min-width: {{$featured.Width}}px)" srcset="{{$featured.RelPermalink}}">  
-            <source media="(min-width: 400px)" srcset="{{$image400.RelPermalink}}">
-            <source media="(min-width: 300px)" srcset="{{$image300.RelPermalink}}">
-          {{end}}
-          {{ if and (gt $featured.Width 300) (lt $featured.Width 400) }}
-          <source media="(min-width: {{$featured.Width}}px)" srcset="{{$featured.RelPermalink}}">  
-          <source media="(min-width: 300px)" srcset="{{$image300.RelPermalink}}">
-          {{end}}
-          {{if lt $featured.Width 300}}
-          <source media="(min-width: {{$featured.Width}}px)" srcset="{{$featured.RelPermalink}}">  
-          {{end}}
-          <img src="{{ $featured.RelPermalink }}" alt="{{$.Params.image.caption}}" itemprop="image">
-        </picture>
-  </div>
-  {{end}} 
 </div>
 <br/>

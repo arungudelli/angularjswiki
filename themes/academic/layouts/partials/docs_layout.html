@@ -29,26 +29,16 @@
 
     <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
 
-      <article class="article" itemscope itemtype="http://schema.org/Article">
+      <article class="article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name headline">{{ .Title }}</h1>
+          <h1>{{ .Title }}</h1>
           {{ with $current_page.Params.subtitle }}
           <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
           {{end}}
-          {{partial "doc_featureimg.html" .}}
-          <!-- <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-5168564215048853"
-     data-ad-slot="5219087145"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<br/> -->
+          <!-- {{partial "doc_featureimg.html" .}} -->
 
-          <div class="article-style" itemprop="articleBody">
+          <div class="article-style">
             {{ .Content }}
           </div>
 
