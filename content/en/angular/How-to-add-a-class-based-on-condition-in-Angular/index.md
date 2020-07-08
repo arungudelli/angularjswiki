@@ -115,7 +115,7 @@ Now to the information `div` we can pass the above three conditional classes.
 ```
 The code might be little bit weird, but only single class will be added at run time.
 
-## Add multiple Classs using ngClass
+## Add multiple Classes using ngClass
 
 In addition to that we can add multiple classes based upon the conditions.
 
@@ -132,7 +132,7 @@ I am adding a font awesome icon class `fa-exclamation-triangle` in addition to t
 
 [Free 1500+ font awesome icons List](https://www.angularjswiki.com/angular/font-awesome-icons-list-usage-css-content-values/)
 
-We can add as many as classed separated by delimiter space
+We can add as many as classes separated by delimiter space
 
 ```
 <div [ngClass]="{'class1 class2 class3 class4': conditionalExpression}">
