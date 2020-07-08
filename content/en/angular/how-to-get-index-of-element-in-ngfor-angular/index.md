@@ -1,7 +1,7 @@
 +++
 title = "How to get index of ngFor element in Angular"
 subtitle = "get index of ngFor element"
-summary ="To get index of ngFor element we need to declare a variable and assign it to index inside ngFor directive"
+summary ="Steps to get index of ngFor element in Angular 1. Declare a variable inside *ngFor directive using let or as keyword. for instance say indexofelement. 2. Assign the variable value to index 3. And display the index of ngFor element using angular expression."
 keywords=["ngFor index,get index of ngFor element"]
 date="2020-02-13T01:01:05+0000"
 lastmod="2020-02-13T02:45:18+0000"
