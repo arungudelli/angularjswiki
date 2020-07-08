@@ -115,7 +115,7 @@ Now to the information `div` we can pass the above three conditional classes.
 ```
 The code might be little bit weird, but only single class will be added at run time.
 
-## Add multiple Classs using ngClass
+## Add multiple Classes using ngClass
 
 In addition to that we can add multiple classes based upon the conditions.
 
