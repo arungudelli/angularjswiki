@@ -82,6 +82,10 @@ npm install @fortawesome/pro-regular-svg-icons
 npm install @fortawesome/pro-light-svg-icons
 ```
 
+To display font awesome icons in normal HTML pages using their class name, CSS content values and for complete free icon list go through the below article.
+
+[Font Awesome Icons List](https://www.angularjswiki.com/angular/font-awesome-icons-list-usage-css-content-values/)
+
 ## Using Font Awesome icons in Angular applications
 
 We can use Font Awesome icons in Angular applications two ways depending upon our requirements
