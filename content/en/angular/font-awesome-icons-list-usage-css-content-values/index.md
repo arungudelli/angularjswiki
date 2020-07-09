@@ -3,7 +3,7 @@
 title = "1534+ Font Awesome Icons list: Font Awesome CSS content values & CSS Class Names"
 subtitle = "Complete list of 1534 free font awesome icons cheatsheet"
 type="post"
-summary ="This post contains complete font awesome icons list with their CSS icon class names & CSS content value codes & step by step tutorial to use font awesome icons in HTML pages."
+summary ="This post contains complete font awesome icons list with their CSS icon class names, CSS content value codes & step by step tutorial to use font awesome icons in HTML pages."
 keywords=["font awesome icons,font awesome icons list,fa icons list,icons"]
 date="2019-07-14T01:01:05+0000"
 lastmod="2020-07-09T00:00:08+0000"
