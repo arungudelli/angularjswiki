@@ -1,9 +1,9 @@
 
 +++
-title = "Font Awesome Icons list & Font Awesome CSS content values cheatsheet"
+title = "1534+ Font Awesome Icons list: Font Awesome CSS content values & CSS Class Names"
 subtitle = "Complete list of 1534 free font awesome icons cheatsheet"
 type="post"
-summary ="This post contains complete font awesome icons list with their CSS content values and step by step tutorial to use font awesome icons in our webpages"
+summary ="This post contains complete font awesome icons list with their CSS icon class names & CSS content value codes & step by step tutorial to use font awesome icons in HTML pages."
 keywords=["font awesome icons,font awesome icons list,fa icons list,icons"]
 date="2019-07-14T01:01:05+0000"
 lastmod="2020-02-13T17:18:08+0000"
@@ -22,7 +22,7 @@ categories=["faicons"]
 
 +++
 
-This post contains complete font awesome icons list with their CSS content values and step by step tutorial to use font awesome icons in our webpages.
+This post contains complete font awesome icons list with their CSS icon class names & CSS content value codes & step by step tutorial to use font awesome icons in HTML pages.
 
 In font awesome 5.9 version we have around 1534 free icons.
 
@@ -52,8 +52,8 @@ And also I have created a [free ebook](#download-font-awesome-icons-list-pdf) wh
 
 Follow the below steps To use font awesome icons 
 
-1. Add the font awesome icons css file in head section of html
-2. And then display font awesome icons using class attribute with the prefix `fa` followed by the font awesome icon name.
+1. Add the font awesome icons css file in head section of the html.
+2. And then display font awesome icons by adding corresponding icon name as a class prefixed with `fa`.
 3. Additionally we have to add category classes.
 
 First we will add the font awesome icons css in head section of html file as shown below
@@ -68,11 +68,13 @@ First we will add the font awesome icons css in head section of html file as sho
 ```
 I am using cloudfare font awesome icons cdn link. 
 
-Now to display facebook icon using font awesome icons use the below html code
+Now to display facebook icon in font awesome icons use the below html code
 
 ```
 <i class="fab fa-facebook"></i>
 ```
+
+We need to add font awesome icon name as class to the `i` html tag.
 
 Facebook icon is part of brand icons so i have added `fab` as additional class name.
 
@@ -103,7 +105,7 @@ For example to display login icons
 
 I gave one class as `icons` (for all icons) and icon name as `login`.
 
-I have added few common css properties which are applicable to all icons, in the `icons` css class as below. 
+I have added few common css properties which are applicable to all icons, in the `icons` css class name as shown below. 
 
 ```
  .icons::before {
@@ -117,7 +119,7 @@ I have added few common css properties which are applicable to all icons, in the
 
 This is to simplify our main icon CSS definition.
 
-Now for the actual icon i.e., login add the below css properties.
+Now for the actual icon i.e., login, add the below css properties.
 
 ```
 .login::before {
@@ -127,15 +129,15 @@ Now for the actual icon i.e., login add the below css properties.
 }
 ```
 
-I gave content as `\f007` which is unicode value for login defined by font awesome icons.
+I gave content as `\f007` which is unicode value for login icon defined by font awesome icons.
 
 For all 1534 free font awesome icons, unicode values are already defined.
 
 To display font awesome icons using CSS Pseudo elements we have to follow the below steps
 
 1. Set the font-family to "Font Awesome 5 Free" (For regular,solid icons) or "Font Awesome 5 Pro" (If you buy a pro license) or "Font Awesome 5 Brands" (For brand icons)
-2. Set the font-weight: 900 (For Solid), 400 (Regular or Brands), 300 (Light for pro icons)
-3. Set the content to the unicode value font awesome icons
+2. Set the font-weight css property as 900 (For Solid), 400 (Regular or Brands), 300 (Light for pro icons)
+3. Set the content css property to the unicode value font awesome icons
 4. And like explained, add common CSS definitions for all icons as explained above.
 
 To display twitter icon using Pseudo element use the following CSS content code
@@ -218,8 +220,8 @@ To display bookmark icon use the following html code
 <table class="table">
 <tr>
 <th>Name</th>
-<th>Code</th>
-<th>CSS Content code</th>
+<th>CSS Class Name</th>
+<th>CSS Content Code</th>
 </tr>
  <tr><td><i class="fas fa-ad"></i> ad</td><td>fa-ad</td><td>f641</td></tr>
  <tr><td><i class="fas fa-address-book"></i> address-book</td><td>fa-address-book</td><td>f2b9</td></tr>
@@ -1186,8 +1188,8 @@ To display bookmark icon use the following html code
 <div class="table-responsive">
 <table class="table">
 <tr>
-<th>Icon</th>
-<th>Code</th>
+<th>Name</th>
+<th>CSS Class Name</th>
 <th>CSS Content Code</th>
 </tr>
  <tr><td><i class="far fa-address-book"></i> address-book</td><td>fa-address-book</td><td>f2b9</td></tr>
@@ -1351,7 +1353,7 @@ To display bookmark icon use the following html code
 <table class="table">
 <tr>
 <th>Name</th>
-<th>Code</th>
+<th>CSS Class Name</th>
 <th>CSS Content Code</th>
 </tr>
  <tr><td><i class="fab fa-500px"></i> 500px</td><td>fa-500px</td><td>f26e</td></tr>
