@@ -48,13 +48,33 @@ And also I have created a [free ebook](#download-font-awesome-icons-list-pdf) wh
 4. Font Awesome is currently live on 47M websites and half the world's web developers use font awesome icons.
 5. Font Awesome makes it easy to add vector icons and social logos to our websites.
 
-## How to use font awesome icons
+## How to use font awesome icons?
 
-Follow the below steps To use font awesome icons 
+There are two ways we can use font awesome icons in our web applications.
 
-1. Add the font awesome icons css file in head section of the html.
-2. And then display font awesome icons by adding corresponding icon name as a class prefixed with `fa`.
-3. Additionally we have to add category classes.
+1. Using CSS class names
+2. Using CSS content values
+
+First we need to add font awesome icons css file in head section of the html file.
+
+## Display font awesome icons using CSS class names 
+
+The most common way of displaying font awesome icons is using their class names.
+
+For each and every icon a class names is prefefined, just we need add the fa icon as class name.
+
+font awesome icons uses italic tag i.e., `<i></i>` to display the icons. 
+
+The reason behind using this `<i>` tag as icon is 
+
+1. It's short
+2. I stand of Icon (not in HTML world though)
+
+To display the font awesome icons using css class names folow the steps.
+
+1. Add an icon tag.
+2. Add icon name prefixed with `fa` to the class attribute.
+3. Additionally we have to add category class. i.e., solid or regular or brand
 
 First we will add the font awesome icons css in head section of html file as shown below
 
@@ -73,39 +93,36 @@ Now to display facebook icon in font awesome icons use the below html code
 ```
 <i class="fab fa-facebook"></i>
 ```
-
-We need to add font awesome icon name as class to the `i` html tag.
-
-Facebook icon is part of brand icons so i have added `fab` as additional class name.
+Facebook icon is part of brand icons, so I have added `fab` as additional class name.
 
 To use font awesome icons in Angular applications go through the article
 
 [How To Use Font Awesome icons in Angular Applications]
 (https://www.angularjswiki.com/angular/how-to-use-font-awesome-icons-in-angular-applications/)
 
-## Using font awesome icons as CSS content values.
+## Display font awesome icons using CSS content values
 
-The above approach requires us to change our icon html classes names.
+The above approach requires us to change our icon class names.
 
 If your project is new then we can follow the above approach. 
 
-But if it is an existing project, it is very difficult to change the icon html classes.
+But if it is an existing project, it is very difficult to change the icon class name.
 
 In this case we can display the font awesome icons using their CSS content values.
 
 We can use the CSS Pseudo-elements elements features `::before` or `::after` to display them.
 
-For example to display login icons
+For example to display login icon, We might have used below HTML code.
 
 ```
 <li>
 <span class="icons login"></span> Login
 </li>
 ``` 
+If you have a common icon class to the all existing icons, in this case `icons`. 
 
-I gave one class as `icons` (for all icons) and icon name as `login`.
+Add the below CSS snippet to that class. If you dont have any then you might need to add it.
 
-I have added few common css properties which are applicable to all icons, in the `icons` css class name as shown below. 
 
 ```
  .icons::before {
@@ -133,12 +150,12 @@ I gave content as `\f007` which is unicode value for login icon defined by font 
 
 For all 1534 free font awesome icons, unicode values are already defined.
 
-To display font awesome icons using CSS Pseudo elements we have to follow the below steps
+To display font awesome icons using CSS Content code values (as a Pseudo element) follow the below steps
 
 1. Set the font-family to "Font Awesome 5 Free" (For regular,solid icons) or "Font Awesome 5 Pro" (If you buy a pro license) or "Font Awesome 5 Brands" (For brand icons)
 2. Set the font-weight css property as 900 (For Solid), 400 (Regular or Brands), 300 (Light for pro icons)
-3. Set the content css property to the unicode value font awesome icons
-4. And like explained, add common CSS definitions for all icons as explained above.
+3. Set the content css property to the unicode value font awesome icon.
+4. And like explained, add a common CSS name for all icons as explained above.
 
 To display twitter icon using Pseudo element use the following CSS content code
 
