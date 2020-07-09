@@ -123,3 +123,7 @@ Why because in the component html file,while using `formGroup` I have added
 And other case might be adding `formsGroup` extra s, instead of `formGroup`
 
 This kind of errors happens frequently, and these spell checks are very difficult to identify. So be careful.
+
+See Also
+
+[ngModel Angular Error: Can't bind to 'ngModel' since it isn't a known property of 'input'](https://www.angularjswiki.com/angular/cant-bind-to-ngmodel-since-it-isnt-a-known-property-of-input/)

@@ -75,4 +75,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 ```
 
-If you are using FormBuilder class to create reactive form we have to import `ReactiveFormsModule` as well.
+If you are using FormBuilder class to create reactive form we have to import `ReactiveFormsModule` as well to avoid below error.
+
+[Can't bind to 'formGroup' since it isn't a known property of 'form'](https://www.angularjswiki.com/angular/cant-bind-to-formgroup-since-it-is-not-a-known-property-of-form/)
