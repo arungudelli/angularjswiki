@@ -22,7 +22,7 @@ categories=["faicons"]
 
 +++
 
-This post contains complete font awesome icons list with their CSS icon class names & CSS content value codes & step by step tutorial to use font awesome icons in HTML pages.
+This post contains complete font awesome icons list with their CSS icon class names, CSS content value codes & step by step tutorial to use font awesome icons in HTML pages.
 
 In font awesome 5.9 version we have around 1534 free icons.
 
