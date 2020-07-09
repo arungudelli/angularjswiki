@@ -1,7 +1,7 @@
 +++
 title = "How to get current route in Angular"
 subtitle = "get current route Url in Angular"
-summary ="Steps to get current route in Angular. 1. Import Router,NavigationEnd from angular/router and in the constructor. 2. Subscribe to the NavigationEnd event of the router.3. Get the current route Url by accessing NavigationEnd url property."
+summary ="Steps to get current route in Angular. 1. Import Router,NavigationEnd from angular/router and inject in the constructor. 2. Subscribe to the NavigationEnd event of the router.3. Get the current route Url by accessing NavigationEnd url property."
 keywords=["get current route Angular,current route url angular,angular NavigationEnd"]
 date="2020-07-07T01:01:05+0000"
 lastmod="2020-07-08T00:00:00+0000"
@@ -13,7 +13,7 @@ authors = ["admin"]
 
 Steps to get current route in Angular.
 
-1. Import Router,NavigationEnd from '@angular/router' and in the constructor.
+1. Import Router,NavigationEnd from '@angular/router' and inject in the constructor.
 2. Subscribe to the `NavigationEnd` event of the router.
 3. Get the current route url by accessing NavigationEnd's url property.
 
