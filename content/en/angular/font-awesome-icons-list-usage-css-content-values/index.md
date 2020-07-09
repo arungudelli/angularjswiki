@@ -61,7 +61,7 @@ First we need to add font awesome icons css file in head section of the html fil
 
 The most common way of displaying font awesome icons is using their class names.
 
-For each and every icon a class names is prefefined, just we need add the fa icon as class name.
+For each and every icon a class name is prefefined, just we need add the fa icon name as class.
 
 font awesome icons uses italic tag i.e., `<i></i>` to display the icons. 
 
@@ -121,7 +121,7 @@ For example to display login icon, We might have used below HTML code.
 ``` 
 If you have a common icon class to the all existing icons, in this case `icons`. 
 
-Add the below CSS snippet to that class. If you dont have any then you might need to add it.
+Add the below CSS snippet to that class. If you dont have any, then you might need to add it.
 
 
 ```
