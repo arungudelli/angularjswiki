@@ -36,7 +36,7 @@ The error says, that `FormGroup` is not recognized or identified in the correspo
 
 `formGroup` is used to bind `FormGroup` data to a component element.
 
-Lets take an example of a registration. I am not going deep into the implementation. 
+Let's take an example of a registration form. I am not going deep into the implementation. 
 
 ```
 <form [formGroup]="RegistrationFrom" (submit)="RegisterUser()">
@@ -58,14 +58,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 And then we need to add them in imports array of the module.
 
 ```
-
-```
-
 imports: [
         FormsModule,
         ReactiveFormsModule
 ]
-
+```
 Ideally, your module should have below template to work with `formModule`. 
 
 ```
@@ -93,13 +90,13 @@ export class AppModule { }
 
 ## formGroup in child modules and components.
 
-As in the steps it is mentioned We must import FormsModule, ReactiveFormsModule from '@angular/forms' in **each and every module** that uses `FormGroup`.
+In the steps it is mentioned that, we must import FormsModule, ReactiveFormsModule from '@angular/forms' in **each and every module** that uses `FormGroup`.
 
 You might have added it in app.module.ts file. But that might not work.
 
 We need to follow shared modules strategy to handle errors related to this type of most commonly used modules as explained in below article.
 
-(Angular material Tutorial)[https://www.angularjswiki.com/material/#adding-a-custom-angular-material-module]
+[Angular material Tutorial](https://www.angularjswiki.com/material/#adding-a-custom-angular-material-module)
 
 Add a shared module in your angular app. Refer it in App.module.ts file.
 
@@ -111,13 +108,13 @@ You will think of me as a dumb person, but it's happened with me.
 
 I have imported everything still got `Can't bind to 'formGroup' since it isn't a known property of 'form'` error. 
 
-Why because in the component html file I have added
+Why because in the component html file,while using `formGroup` I have added
 
 ```
 <form [FormGroup]="RegistrationFrom" (submit)="RegisterUser()">
 ```
 
-**Capital F instead of small f**
+**FormGroup** : **Capital F instead of small f**
 
 ```
 <form [formGroup]="RegistrationFrom" (submit)="RegisterUser()">
@@ -125,4 +122,4 @@ Why because in the component html file I have added
 
 And other case might be adding `formsGroup` extra s, instead of `formGroup`
 
-This kind of errors happens frequently, and these spelli checks are very difficult to identify. So be careful.
+This kind of errors happens frequently, and these spell checks are very difficult to identify. So be careful.
