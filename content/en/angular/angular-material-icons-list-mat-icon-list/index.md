@@ -43,13 +43,13 @@ All we need to do is adding the below Google web fonts css in our html page.
 
 `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">`
 
-  1. We have around 900+ icons all from a single, small file(42KB) and divided into 10+ categories.
-  2. We can serve the file from Google web font server or can be hosted from our own server
-  3. Material icons mat-icon supported by all modern web browsers
-  4. We can do all theming like color,size etc using pure CSS  
+1. There are around 900+ material icons, all are from a single, small file(42KB) and divided into 10+ categories.
+2. We can use the file hosted in Google web font server or can be hosted in our own server.
+3. Material icons (mat-icon) are supported by all modern web browsers.
+4. We can do all theming like color,size etc using pure CSS.  
 
 {{% alert note %}}
-I have created a [free ebook](#download-angular-material-icons-list-pdf) which contains complete list of material icons in PDF format.
+I have created a [free ebook](#download-angular-material-icons-list-pdf), which contains material icon list in PDF format.
 {{% /alert%}}  
 
 {{% toc %}}

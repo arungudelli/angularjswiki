@@ -1,10 +1,10 @@
 
 +++
-title = "Mat-Icon Liste : 900+ Angular Material-Icons"
-subtitle = "Lernen Sie, wie man Angular Material-Icons verwendet"
+title = "Mat-Icon Liste : 900+ Angular Material-Ikonen"
+subtitle = "Lernen Sie, wie man Angular Material-Ikonen verwendet"
 type="post"
-summary ="Der Selektor mat-icon wird verwendet, um Material-Icons in Angular anzuzeigen.Wir haben etwa 900+ Angular Materialikonen.Um Material-Icons anzuzeigen, müssen wir die von Google zur Verfügung gestellten Material-Icons css laden."
-keywords=["angular material icons Liste,mat-icon Liste"]
+summary ="Der Selektor mat-icon wird verwendet, um Material-Ikonen in Angular anzuzeigen.Wir haben etwa 900+ Angular Material ikonen.Um Material-Ikonen anzuzeigen, müssen wir die von Google zur Verfügung gestellten Material-Ikonen css laden."
+keywords=["angular material Ikonen Liste,mat-icon Liste"]
 date="2020-01-12T01:01:05+0000"
 lastmod="2020-02-13T17:18:08+0000"
 draft=false
@@ -22,19 +22,19 @@ categories=["icons"]
 
 +++
 
-Der Selektor `<mat-icon>` wird verwendet, um Material-Icons in "Angular" anzuzeigen.
+Der Selektor `<mat-icon>` wird verwendet, um Material-Ikonen in "Angular" anzuzeigen.
 
-Wir haben etwa 900+ "Angular"-Materialikonen.
+Wir haben etwa 900+ Angular Material ikonen.
 
-Um Material-Icons anzuzeigen, müssen wir die von Google zur Verfügung gestellten Material-Icons css laden.
+Um Material-Ikonen anzuzeigen, müssen wir die von Google zur Verfügung gestellten Material-Ikonen css laden.
 
-`<mat-icon>` ist Teil des angular material Moduls, das als _MatIconModule_ bezeichnet wird.
+`<mat-icon>` ist Teil des angular material Moduls, das als `MatIconModule` bezeichnet wird.
 
 Wir können die Schriftart Ligatur als Icon verwenden, indem wir den Ligatur-Text in die Komponente `<mat-icon>` legen.
 
 Zum Beispiel zeigt `<mat-icon>home</mat-icon>` das Home-Symbol an.
 
-Wir müssen MatIconModule importieren aus <a href="https://www.angularjswiki.com/angular/angular-material-2-tutorial-with-examples/" target="_blank" rel="noopener">angular material Module</a>.
+Wir müssen `MatIconModule` importieren aus <a href="https://www.angularjswiki.com/angular/angular-material-2-tutorial-with-examples/" target="_blank" rel="noopener">angular material Module</a>.
 
 ```
 import {MatIconModule} from '@angular/material/icon'
@@ -45,25 +45,31 @@ In HTML-Webseiten verwenden Sie einfach `<i><</i>` anstelle des `<mat-icon>` Tag
 ```
 <i>home</i>
 ```
+Alle Material Ikonen sind in einer einzigen Schriftdatei verpackt. 
 
+Alles, was wir tun müssen, ist, die untenstehende Google Webfonts css-Datei in unserem Kopfbereich der html-Seite hinzuzufügen.
 
 ```
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" 
 rel="stylesheet">
 ```
-
+ 1. Es gibt etwa 900+ Materialikonen, die alle aus einer einzigen, kleinen Datei (42KB) stammen und in über 10 Kategorien unterteilt sind.
+ 2. Wir können die Datei verwenden, die auf dem Webfontserver von Google gehostet wird, oder sie kann auf unserem eigenen Server gehostet werden.
+ 3. Material-Ikonen(Mat-Icon) werden von allen modernen Webbrowsern unterstützt.
+ 4. Wir können alle Thematisierungen wie Farbe, Größe usw. mit reinem CSS vornehmen.  
 
 {{% alert note %}}
+Ich habe ein kostenloses E-Book erstellt, das eine Liste mit Material-Ikonen im PDF-Format enthält.
 {{% /alert%}}  
 
 
 {{% toc %}}
 
-## Catégories de la liste Icônes de matériaux angulaires
+## Angular Material-Ikonen Listenkategorien
 
 
 
-## mat-icon List Catégorie-Action
+## mat-icon Liste Kategorie-Aktion
 <div class="table-responsive">
 <table class="table">
 	<thead>
@@ -1026,7 +1032,7 @@ rel="stylesheet">
 </div>
 
 
-## mat-icon List Catégorie-Communication
+## mat-icon Liste Kategorie-Kommunikation
 
 <div class="table-responsive"> <table class="table">
 	<thead>
@@ -1276,7 +1282,7 @@ rel="stylesheet">
 </table></div>
 
 
-## mat-icon List Catégorie-Av
+## mat-icon Liste Kategorie-Av
 
 <div class="table-responsive"> <table class="table">
 	<thead>
@@ -1614,7 +1620,7 @@ rel="stylesheet">
 </table></div>
 
 
-## mat-icon List Catégorie-Connection
+## mat-icon Liste Kategorie-Verbindung
 
 <div class="table-responsive"> <table class="table">
 	<thead>
@@ -1820,7 +1826,7 @@ rel="stylesheet">
 </table></div>
 
 
-## mat-icon List Catégorie-Device
+## mat-icon Liste Kategorie-Gerät
 
 <div class="table-responsive"> <table class="table">
 	<thead>
@@ -2058,7 +2064,7 @@ rel="stylesheet">
 </table></div>
 
 
-## mat-icon List Catégorie-Editor
+## mat-icon Liste Kategorie-Editor
 
 <div class="table-responsive"> <table class="table">
 	<thead>
@@ -2368,7 +2374,7 @@ rel="stylesheet">
 </table></div>
 
 
-## mat-icon List Catégorie-File
+## mat-icon Liste Kategorie-Datei
 
 <div class="table-responsive"> <table class="table">
 	<thead>
@@ -2430,7 +2436,7 @@ rel="stylesheet">
 </table></div>
 
 
-## mat-icon List Catégorie-Hardware
+## mat-icon Liste Kategorie - Hardware
 
 <div class="table-responsive"> <table class="table">
 	<thead>
@@ -2640,7 +2646,7 @@ rel="stylesheet">
 </table></div>
 
 
-## mat-icon List Catégorie-Images
+## mat-icon Liste Kategorie-Bilder
 
 <div class="table-responsive"> <table class="table">
 	<thead>
@@ -3294,7 +3300,7 @@ rel="stylesheet">
 </table></div>
 
 
-## mat-icon List Catégorie-Maps
+## mat-icon Liste Kategorie-Karten
 
 <div class="table-responsive"> <table class="table">
 	<thead>
@@ -3624,7 +3630,7 @@ rel="stylesheet">
 </table></div>
 
 
-## mat-icon List Catégorie-Navigation
+## mat-icon Liste Kategorie - Navigation
 
 <div class="table-responsive"> <table class="table">
 	<thead>
@@ -3762,7 +3768,7 @@ rel="stylesheet">
 </table></div>
 
 
-## mat-icon List Catégorie-Notification
+## mat-icon Liste Kategorie-Benachrichtigung
 
 <div class="table-responsive"> <table class="table">
 	<thead>
@@ -3984,7 +3990,7 @@ rel="stylesheet">
 </table></div>
 
 
-## mat-icon List Catégorie-Places
+##  mat-icon Liste Kategorie-Plätze
 
 <div class="table-responsive"> <table class="table">
 	<thead>
@@ -4082,7 +4088,7 @@ rel="stylesheet">
 </table></div>
 
 
-## mat-icon List Catégorie-Toggle
+## mat-icon Liste Kategorie-Umschaltung
 
 <div class="table-responsive"> <table class="table">
 	<thead>
@@ -4128,7 +4134,7 @@ rel="stylesheet">
 </table></div>
 
 
-## mat-icon List Catégorie-Warning
+## mat-icon Liste Kategorie-Warnung
 
 <div class="table-responsive"> <table class="table">
 	<thead>
@@ -4162,7 +4168,7 @@ rel="stylesheet">
 </table></div>
 
 
-## mat-icon List Catégorie-Social
+## mat-icon Liste Kategorie-Sozial
 
 <div class="table-responsive"> <table class="table">
 	<thead>
@@ -4300,6 +4306,6 @@ rel="stylesheet">
 </table></div>
 
 
-## Télécharger la liste des icônes de matériaux angulaires PDF
+## Angulare Material-Ikonen-Liste PDF herunterladen
 
-Abonnez-vous à notre newsletter "Angular wiki" et recevez gratuitement un lien pour télécharger la liste complète des "icônes de matériel" au format PDF.
+Abonnieren Sie unseren "Angular wiki"-Newsletter und erhalten Sie einen kostenlosen Link zum Herunterladen der vollständigen Liste der Materialikonen im PDF-Format.
