@@ -37,10 +37,9 @@ These icons are not limited to angular,In HTML webpages just use `<i></i>`  in p
 
 `<i>home</i>`
 
-Alle Material Ikonen sind in einer einzigen Schriftdatei verpackt. 
+All the material icons packaged into a single font file. 
 
-Alles, was wir tun müssen, ist, die untenstehende Google Webfonts css-Datei in unserem Kopfbereich der html-Seite hinzuzufügen.
-
+All we need to do is adding the below Google web fonts css in our html page.
 
 `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">`
 
