@@ -1,10 +1,10 @@
 
 +++
-title = "Mat-Icon List : 900+ Icônes de matériaux angular"
-subtitle = "Apprenez à utiliser le matériel angular Icônes"
+title = "Mat-Icon Liste : 900+ Angular Material-Icons"
+subtitle = "Lernen Sie, wie man Angular Material-Icons verwendet"
 type="post"
-summary ="L élément mat-icon est utilisé pour afficher les icônes de matériaux en Angular.Nous avons environ 900+ icônes de matériaux en Angular. Pour afficher la liste d icônes mat-icon ci-dessous, nous devons charger les icônes de matériaux css fournies par Google"
-keywords=["angular material icons list,mat-icon list,material design,icons,mat-icon"]
+summary ="Der Selektor mat-icon wird verwendet, um Material-Icons in Angular anzuzeigen.Wir haben etwa 900+ Angular Materialikonen.Um Material-Icons anzuzeigen, müssen wir die von Google zur Verfügung gestellten Material-Icons css laden."
+keywords=["angular material icons Liste,mat-icon Liste"]
 date="2020-01-12T01:01:05+0000"
 lastmod="2020-02-13T17:18:08+0000"
 draft=false
@@ -22,47 +22,38 @@ categories=["icons"]
 
 +++
 
+Der Selektor `<mat-icon>` wird verwendet, um Material-Icons in "Angular" anzuzeigen.
 
-L'élément `<mat-icon>` est utilisé pour afficher les icônes de matériaux en Angular.
+Wir haben etwa 900+ "Angular"-Materialikonen.
 
-Nous avons environ 900+ icônes de matériaux en Angular.
+Um Material-Icons anzuzeigen, müssen wir die von Google zur Verfügung gestellten Material-Icons css laden.
 
-Pour afficher la liste d'icônes `<mat-icon>` ci-dessous, nous devons charger les icônes de matériaux css fournies par Google
+`<mat-icon>` ist Teil des angular material Moduls, das als _MatIconModule_ bezeichnet wird.
 
-`<mat-icon>` fait partie du module de matériau angular appelé `MatIconModule`.
+Wir können die Schriftart Ligatur als Icon verwenden, indem wir den Ligatur-Text in die Komponente `<mat-icon>` legen.
 
-Nous pouvons utiliser la ligature de police comme une icône en mettant le texte de la ligature dans l'élément `<mat-icon>`.
+Zum Beispiel zeigt `<mat-icon>home</mat-icon>` das Home-Symbol an.
 
-Par exemple, `<mat-icon>home</mat-icon>` affiche l'icône de la maison.
-
-Nous devons importer MatIconModule depuis <a href="https://www.angularjswiki.com/angular/angular-material-2-tutorial-with-examples/" target="_blank" rel="noopener">matériau angular</a> Modules.
+Wir müssen MatIconModule importieren aus <a href="https://www.angularjswiki.com/angular/angular-material-2-tutorial-with-examples/" target="_blank" rel="noopener">angular material Module</a>.
 
 ```
 import {MatIconModule} from '@angular/material/icon'
 ```
-
-Ces icônes ne sont pas limitées à angular,Dans les pages web normales, utilisez simplement `<i></i>` à la place du tag `<mat-icon>`.
+Diese Symbole sind nicht auf die "angular" Apps beschränkt,
+In HTML-Webseiten verwenden Sie einfach `<i><</i>` anstelle des `<mat-icon>` Tags.
 
 ```
 <i>home</i>
 ```
 
-Toutes les icônes de matériaux sont regroupées dans un seul fichier de police.
-
-Il suffit d'ajouter les polices web css de Google ci-dessous dans notre page html.
 
 ```
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" 
 rel="stylesheet">
 ```
 
-  1. Nous avons environ 900+ icônes, toutes issues d'un seul petit fichier (42Ko) et divisées en 10+ catégories.
-  2. Nous pouvons servir le fichier à partir du serveur de police web de Google ou peut être hébergé à partir de notre propre serveur
-  3. Icônes de matériel supportées par tous les navigateurs Web modernes
-  4. Nous pouvons changer la couleur, la taille, etc. en utilisant du CSS pur   
 
 {{% alert note %}}
-J'ai créé un livre électronique gratuit qui contient la liste complète des ["icônes de matériel"](#télécharger-la-liste-des-icônes-de-matériaux-angulaires-pdf) au format PDF.
 {{% /alert%}}  
 
 
@@ -70,7 +61,6 @@ J'ai créé un livre électronique gratuit qui contient la liste complète des [
 
 ## Catégories de la liste Icônes de matériaux angulaires
 
-Passez par les catégories de la liste d'icônes de matériel ci-dessous
 
 
 ## mat-icon List Catégorie-Action

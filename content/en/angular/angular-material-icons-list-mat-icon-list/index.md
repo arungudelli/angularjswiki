@@ -23,7 +23,7 @@ categories=["icons"]
 +++
 
 
-`<mat-icon>` selector used to display Material icons in Angular.We have around 900+ Angular Material icons.To show the below `<mat-icon>` list icons,We need to load material icons css provided by Google
+`<mat-icon>` selector is used to display Material icons in Angular.We have around 900+ Angular Material icons.To show the below `<mat-icon>` list icons,We need to load material icons css provided by Google
 
 `<mat-icon>` is part of angular material module called _MatIconModule_.We can use font ligature as an icon by putting the ligature text in `<mat-icon>` component.
 
@@ -33,11 +33,14 @@ We have to import MatIconModule from <a href="https://www.angularjswiki.com/angu
 
 `import {MatIconModule} from '@angular/material/icon'`
 
-These icons are not limited to angular,In normal webpages just use `<i></i>`  in place of `<mat-icon>` tag.
+These icons are not limited to angular,In HTML webpages just use `<i></i>`  in place of `<mat-icon>` tag.
 
 `<i>home</i>`
 
-All the material icons packaged into a single font file. All we need to do is adding the below Google web fonts css in our html page.
+Alle Material Ikonen sind in einer einzigen Schriftdatei verpackt. 
+
+Alles, was wir tun müssen, ist, die untenstehende Google Webfonts css-Datei in unserem Kopfbereich der html-Seite hinzuzufügen.
+
 
 `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">`
 
