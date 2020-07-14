@@ -1,8 +1,8 @@
 +++
-title = "Comment vérifier la version Angular CLI dans l'invite de commande"
-subtitle = "Vérification de la version Angular CLI"
-summary ="Pour vérifier la version Angular CLI, utilisez la commande ng --version ou ng v."
-keywords=["Angular CLI, verison,Angular CLI version Commande"]
+title = "Prüfen Sie die Angular CLI Version in der Eingabeaufforderung"
+subtitle = "Angular CLI Versionsprüfung"
+summary ="Um die Angular CLI Version zu überprüfen, benutzen Sie die Befehle ng --version oder ng v oder npm list -global - depth 0."
+keywords=["Angulare CLI-Version,Angular CLI Version Befehl"]
 date="2020-01-14T01:01:05+0000"
 lastmod="2020-01-14T02:45:18+0000"
 type="post"
@@ -11,9 +11,9 @@ authors = ["admin"]
 
 +++
 
-Pour vérifier la version Angular CLI, utilisez les commandes `ng --version` ou `ng v` ou `npm list -global --depth 0`.
+Um die Angular CLI Version zu überprüfen, benutzen Sie die Befehle `ng --version` oder `ng v` oder `npm list -global - depth` 0.
 
-La commande `ng --version` renvoie les détails de la version de Angular CLI installée et en plus de cela les versions des paquets de développement Angular comme @angular-devkit/architect,rxjs etc... comme indiqué ci-dessous.
+Der Befehl ng --version gibt die Details der Version von "Angular CLI" zurück, die installiert ist und zusätzlich zu dieser Version von "Angular"-Entwicklungspaketen wie "@angular-devkit/architect,rxjs" usw... wie unten gezeigt.
 
 ```
 Angular CLI: 8.1.1
@@ -33,11 +33,11 @@ rxjs                         6.4.0
 ```
 {{< figure src="Angular CLI Version.png" title="Vérification de la version Angular CLI" alt="Vérification de la version Angular CLI">}}
 
-Ou nous pouvons utiliser `npm list -global` pour lister toutes les versions des paquets installés sur notre machine. 
+Oder wir können "npm list -global" verwenden, um alle auf unserem Rechner installierten Paketversionen aufzulisten.
 
-Dans cette liste, nous pouvons vérifier la version Angular CLI. 
+In dieser Liste können wir nach Angular CLI-Versionen suchen.
 
-Pour afficher des listes spécifiques à différents niveaux, utilisez `--depth`.
+Für die Anzeige spezifischer Listen auf verschiedenen Ebenen verwenden Sie "--depth".
 
 ```
 npm list -global --depth 0
@@ -51,6 +51,6 @@ npm list -global --depth 0
 `-- UNMET PEER DEPENDENCY zone.js@~0.8.26
 ```
 
-Pour mettre à jour la version Angular CLI suivez le Tutoriel ci-dessous
+Um die Angular CLI-Version zu aktualisieren, folgen Sie dem folgenden Tutorial
 
-[How To Update Angular CLI Version](https://www.angularjswiki.com/angular/update-angular-cli-version-ng-update-to-latest-6-7-versions/)
+[Wie man die Angular CLI-Version aktualisiert](https://www.angularjswiki.com/angular/update-angular-cli-version-ng-update-to-latest-6-7-versions/)
