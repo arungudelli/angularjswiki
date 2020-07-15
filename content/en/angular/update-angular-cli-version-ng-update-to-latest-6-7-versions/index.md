@@ -49,7 +49,7 @@ ng update @angular/material
 
 If you are using older versions other than 9. First better to update to Angular 9 as mentioned below.
 
-Steps to upgrade Angular application is same across the operating systems like Windows OS,MacOS and Linux OS or Unix based machines.
+Steps to upgrade Angular application are same across the operating systems like Windows OS,MacOS and Linux OS or Unix based machines.
 
 ## Major breaking changes in Angular 10 version
 
