@@ -63,6 +63,15 @@ In den älteren Versionen war der Code nicht in der Lage, einen Zeitraum zu bew�
 8. Wenn eine Angular-Route mindestens zwei Resolver hat, und wenn ein Resolver auf leer auflöst, Die Navigation wird abgebrochen, Da es das Verhalten für einen einzelnen Resolver ist und wenn alle Resolver beschließen, sich zu leeren,
 Der Router wirft keine Fehler. Früher hat er nicht abgefangene Fehler ausgegeben. 
 
+Neue Angular 10-Projekte verwenden den Dateinamen .browserslistrc anstelle von browserslist. Und ng update migriert sie automatisch, wenn Sie von älteren Versionen aktualisieren.
+
+Angular 10 empfiehlt die Verwendung einer tsconfig.base.json, um verschiedene Typisierungskontexte zu organisieren. 
+ (shared, unit tests, end to end tests, application, etc).ng update wird Ihr Projekt automatisch migrieren.
+
+{{< figure src="Angular 10 update.png" title="Angular 10 update" alt="Angular 10 update">}}
+
+
+
 
 To update the Angular CLI version to 7 simply use the below command.
 

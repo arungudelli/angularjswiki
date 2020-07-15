@@ -66,7 +66,7 @@ and if all resolvers resolve to empty, the router will not throw any errors. ear
 
 New Angular 10 projects use the filename `.browserslistrc` instead of `browserslist`. And `ng update` will migrate it automatically if your updating from older versions.
 
-Angular 10 recommends the use of a `tsconfig.base.json` to help organize the various typings contexts (shared, unit tests, end to end tests, application, etc). ng update will migrate you automatically.
+Angular 10 recommends the use of a `tsconfig.base.json` to help organize the various typings contexts (shared, unit tests, end to end tests, application, etc). ng update will migrate your project automatically.
 
 {{< figure src="Angular 10 update.png" title="Angular 10 update" alt="Angular 10 update">}}
 
