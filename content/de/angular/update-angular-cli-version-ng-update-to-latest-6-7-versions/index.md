@@ -1,8 +1,8 @@
 +++
-title = "How To Update Angular CLI Version To Latest Versions"
-subtitle = "Update Angular CLI version"
-summary ="To update Angular CLI versions to latest Angular CLI versions 7 and 6 use below command ng update @angular/cli@latest."
-keywords=["ng update angular cli,update angular cli version to 7,update angular cli version to 6"]
+title = "Wie man Angular-CLI auf die neueste Version 9 & Angular 10 aktualisiert"
+subtitle = "Angular-CLI-Version aktualisieren"
+summary ="Um Angular-CLI auf die neueste Version 9 & Angular 10 zu aktualisieren, verwenden Sie den Befehl ng update @angular/core @angular/cli@latest"
+keywords=["ng update angular cli,angular 10,angular 9"]
 date="2019-01-22T01:01:05+0000"
 lastmod="2019-02-09T18:45:18+0000"
 type="post"
@@ -20,6 +20,40 @@ authors = ["admin"]
   preview_only = false
 
 +++
+
+Der Angular 10.0.0 ist endlich da. 
+
+Während des Upgrades auf die Version Angular 10 sollten Sie einige Dinge beachten, bevor Sie den Befehl "ng update" ausführen.
+
+1. Es ist immer ratsam, Ihre Anwendung auf die nächste Hauptversion zu aktualisieren.
+2. Das heißt, wenn Sie die Versionen Angular 7 oder Angular 8 oder Angular 6,5, 4 usw. verwenden, versuchen Sie nicht, direkt auf Angular 10 zu aktualisieren.
+3. Aktualisieren Sie zuerst Ihre Angular-Anwendung auf Angular 9 und verwenden Sie dann den Befehl ng update.
+
+Angular Version 10.0.0 veröffentlicht am 25. Juni 2020 .
+
+Angular 10 Version eine der Hauptversionen nach Version 9, die vor 4 Monaten veröffentlicht wurde.
+
+Wie ich oben sagte, ist die Aktualisierung auf Angular 10 einfach, wenn Ihre Anwendung die Version Angular 9 verwendet.
+
+Aktualisieren Sie einfach @angular/core und @angular/cli mit dem Befehl "ng update".
+
+```
+ng update @angular/core @angular/cli
+```
+
+Wenn Sie Angular-Material verwenden, sollten Sie es ebenfalls mit dem Befehl "ng update" aktualisieren.
+
+```
+ng update @angular/material
+```
+
+Wenn Sie andere ältere Versionen als 9 verwenden. Zuerst besser auf Angular 9 aktualisieren, wie unten erwähnt.
+
+## Wesentliche Änderungen in der Version Angular 10
+
+1. Angular 10 unterstützt nur Typescript 3.9. Wir müssen Typescript auf Version 3.9 aktualisieren. Die Typescript-Versionen 3.6, 3.7 und 3.8 werden nicht mehr unterstützt.
+2. In früheren Versionen des Angular-Eingabefeldes der Typennummer löst zweimal `valueChanges` aus.Das erste Mal nach der Eingabe in das Eingabefeld, das zweite Mal, wenn das Feld den Fokus verliert.
+3. Die Validatoren `minLength` und `maxLength` überprüfen nun, ob ein Wert die Eigenschaft numerische Länge hat, und erst dann erfolgt die Validierung.
 
 To update the Angular CLI version to 7 simply use the below command.
 
