@@ -1,7 +1,7 @@
 +++
 title = "How To Update Angular CLI To Latest Version 9 & Angular 10"
 subtitle = "Update Angular CLI version"
-summary ="To update Angular CLI to latest version 9 & Angular 10 use below command ng update @angular/cli@latest."
+summary ="To update Angular CLI to latest version 9 & Angular 10 use ng update @angular/core @angular/cli@latest command."
 keywords=["ng update angular cli,update angular cli version to 7,update angular cli version to 6"]
 date="2019-01-22T01:01:05+0000"
 lastmod="2020-06-24T00:00:00+0000"
@@ -21,27 +21,33 @@ authors = ["admin"]
 
 +++
 
-Angular 10.0.0 is finally here. 
+Angular 10.0.0 is finally here. While upgrading to Angular 10 version remember few things before running `ng update` command.
+
+1. Its always advisable to update your app to its next major version.
+2. That is if you are using Angular 7 or Angular 8 or Angular 6,5, 4 etc versions, Do not try to update to Angular 10 Directly.
+3. First Update your Angular app to Angular 9.
+4. Then use `ng update` command. 
 
 On June 25, 2020 Angular version 10.0.0 is released.
 
 Angular 10 version one of the major release after version 9 which was released 4 months
 ago.
 
-To update Angular application to the latest angular 10 version run the below `ng update` command
+As I said above, Updating to Angular 10 is easy If your application using using Angular 9 version. 
+
+Just update @angular/core and @angular/cli by using `ng update` command.
 
 ```
 ng update @angular/core @angular/cli
 ```
 
-If you are using Angular material You have to update it also by using below command
+If you are using Angular material You have to update it as well using `ng update` command.
 
 ```
 ng update @angular/material
 ```
 
-The above commands will update your angular application from version 9 to version 10. 
-If you are using older versions other than 9. First better to update to Angular 9.
+If you are using older versions other than 9. First better to update to Angular 9 as mentioned below.
 
 ## Major breaking changes in Angular 10 version
 
