@@ -1,6 +1,6 @@
 +++
-title = "Comment supprimer un component dans Angular"
-subtitle = "Suppression de components dans Angular"
+title = "Wie löscht man eine Komponente in Angular"
+subtitle = "Löschen von Komponenten in Angular"
 type="post"
 summary ="Étapes pour supprimer un component dans Angular 1.Supprimer la référence du composant du fichier app.module.ts angulaire (supprimer la ligne d'import).2.Supprimer la déclaration de component du array de déclaration @NgModule dans le fichier app.module.ts.3.Puis supprimez manuellement le dossier du composant de l'arborescence du projet Angular.4.Enfin Supprimer manuellement toutes les références de component du projet Angular"
 keywords=["delete component in angular,ng delete component command"]
@@ -21,18 +21,19 @@ authors = ["admin"]
 
 +++
 
-Étapes pour supprimer un component dans Angular
+Schritte zum Löschen einer Komponente in Angular
 
-  1. Supprimer la référence du composant du fichier `app.module.ts` angulaire (supprimer la ligne d'import).
-  2. Supprimer la déclaration de component du array de déclaration @NgModule dans le fichier `app.module.ts`.
-  3. Puis supprimez manuellement le dossier du composant de l'arborescence du projet Angular.
-  4. Enfin Supprimer manuellement toutes les références de component du projet Angular.
+1. Entfernen Sie die Importlinienreferenz aus der Datei Angular "app.module.ts".
+2. Entfernen Sie die Komponentendeklaration aus dem @NgModule-Deklarationsarray in der Datei app.module.ts.
+3. und löschen Sie dann manuell den Komponentenordner aus dem Projekt Angular.
+4. und schließlich löschen Sie alle Referenzen der Komponente manuell aus dem Angular-Projekt.
 
-Dans le Angular CLI, il n'y a pas de commande disponible pour supprimer un composant.
 
-Il n'y a pas de commande "ng delete component" dans le Angular CLI.
+Ab sofort verfügt Angular CLI, nicht über einen Befehl zum Löschen einer von ihm erstellten Komponente.
 
-Si vous voulez savoir ce qui se passera au moment de la création du componenr, vous pouvez essayer `--dry--run` flag
+Es gibt keinen "ng delete component"-Befehl als Teil von Angular CLI.
+
+Wenn Sie wissen möchten, was zum Zeitpunkt der Komponentenerstellung geschieht, können Sie die Option --dry--run flag
 
 ```
 ng generate component test --dry--run

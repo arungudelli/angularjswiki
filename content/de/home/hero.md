@@ -35,7 +35,7 @@ hero_media = "hero-academic.png"
 #   Remove a link/note by deleting a cta/note block.
 [cta]
   url = "/angular/"
-  label = "Apprendre"
+  label = "Erste Schritte"
   icon_pack = "fas"
   icon = "arrow-circle-right"
   
@@ -48,7 +48,7 @@ hero_media = "hero-academic.png"
 #  label = '<a id="academic-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release <!-- V --></a>'
 +++
 
-Apprenez Angular des bases aux sujets avancés avec des tutoriels simples et détaillés et des exemples.
+Lernen Sie Angular von den Grundlagen bis hin zu fortgeschrittenen Themen mit einfachen, detaillierten Tutorials und Beispielen.
 
 
 
