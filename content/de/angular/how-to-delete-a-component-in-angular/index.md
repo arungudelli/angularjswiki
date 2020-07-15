@@ -46,4 +46,4 @@ UPDATE src/app/app.module.ts (914 bytes)
 NOTE: The "dryRun" flag means no changes were made.
 ```
 
-Aucun changement n'est apporté au angular projet.
+Es werden keine Änderungen am Projekt vorgenommen.

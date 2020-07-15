@@ -59,7 +59,7 @@ rel="stylesheet">
  4. Wir können alle Thematisierungen wie Farbe, Größe usw. mit reinem CSS vornehmen.  
 
 {{% alert note %}}
-Ich habe ein kostenloses E-Book erstellt, das eine Liste mit Material-Ikonen im PDF-Format enthält.
+Ich habe ein kostenloses [E-Book](#angulare-material-ikonen-liste-pdf-herunterladen) erstellt, das eine Liste mit Material-Ikonen im PDF-Format enthält.
 {{% /alert%}}  
 
 
