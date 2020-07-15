@@ -49,6 +49,8 @@ ng update @angular/material
 
 If you are using older versions other than 9. First better to update to Angular 9 as mentioned below.
 
+Steps to upgrade Angular application is same across the operating systems like Windows OS,MacOS and Linux OS or Unix based machines.
+
 ## Major breaking changes in Angular 10 version
 
 1. Angular 10 supports only typescript 3.9. We have to update Typescript to version 3.9. Typescript versions 3.6, 3.7, and 3.8 are no longer supported.
