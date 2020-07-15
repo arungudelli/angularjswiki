@@ -54,6 +54,15 @@ Wenn Sie andere ältere Versionen als 9 verwenden. Zuerst besser auf Angular 9 a
 1. Angular 10 unterstützt nur Typescript 3.9. Wir müssen Typescript auf Version 3.9 aktualisieren. Die Typescript-Versionen 3.6, 3.7 und 3.8 werden nicht mehr unterstützt.
 2. In früheren Versionen des Angular-Eingabefeldes der Typennummer löst zweimal `valueChanges` aus.Das erste Mal nach der Eingabe in das Eingabefeld, das zweite Mal, wenn das Feld den Fokus verliert.
 3. Die Validatoren `minLength` und `maxLength` überprüfen nun, ob ein Wert die Eigenschaft numerische Länge hat, und erst dann erfolgt die Validierung.
+4. In Angular 10,Die Warnungen über unbekannte Elemente werden jetzt als Fehler statt als Warnungen protokolliert (console.warn zu console.error)
+5. In früheren Versionen von Angular, wenn Sie `Null` für `UrlMatchResult` zurückgeben, erhalten wir den Fehler "Type null is not assignable to type UrlMatchResult". Dieser Fehler ist jetzt behoben.
+6. In der Version Angular 10 werden "transplanted views" nur an der "insertion location" in Ivy aktualisiert.
+7. Wenn Sie versuchen, "formatDate" oder "DatePipe" mit den Formatcodes "B" oder "b" ("at night", "in the morning" usw.) zu verwenden, funktioniert dies nicht für das Gebietsschema "en" (und "sublocales") zwischen 21:00 und 06:00 Uhr. 
+Statt "nachts" erhalten Sie "AM/PM".
+In den älteren Versionen war der Code nicht in der Lage, einen Zeitraum zu bewältigen, der über Mitternacht hinausging. Dies ist behoben.
+8. Wenn eine Angular-Route mindestens zwei Resolver hat, und wenn ein Resolver auf leer auflöst, Die Navigation wird abgebrochen, Da es das Verhalten für einen einzelnen Resolver ist und wenn alle Resolver beschließen, sich zu leeren,
+Der Router wirft keine Fehler. Früher hat er nicht abgefangene Fehler ausgegeben. 
+
 
 To update the Angular CLI version to 7 simply use the below command.
 
