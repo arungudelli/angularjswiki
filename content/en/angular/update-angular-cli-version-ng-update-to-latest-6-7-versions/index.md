@@ -33,7 +33,7 @@ On June 25, 2020 Angular version 10.0.0 is released.
 Angular 10 version one of the major release after version 9 which was released 4 months
 ago.
 
-As I said above, Updating to Angular 10 is easy If your application using using Angular 9 version. 
+As I said above, Updating to Angular 10 is easy If your application using Angular 9 version. 
 
 Just update @angular/core and @angular/cli by using `ng update` command.
 
@@ -250,7 +250,7 @@ For more info, please see: https://v9.angular.io/guide/updating-to-version-9
 
 As the final version angular 9 is released. It is not required to use --next flag. 
 
-If you are using older versions of Angular like 5 or 6 or 7. You need to follow some additional steps as show below.
+If you are using older versions of Angular like 5 or 6 or 7. You need to follow some additional steps as shown below.
 
 ## Angular CLI version check
 
