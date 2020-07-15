@@ -70,8 +70,119 @@ Angular 10 empfiehlt die Verwendung einer tsconfig.base.json, um verschiedene Ty
 
 {{< figure src="Angular 10 update.png" title="Angular 10 update" alt="Angular 10 update">}}
 
+Ich habe eine Beispielanwendung auf Version 10 aktualisiert.
+(Es ist in Angular 9) 
 
+Die Aktualisierung auf Angular 10 ist ziemlich einfach. Sie können das Protokoll der Versionsaktualisierung unten sehen.
 
+## Angular 10 Aktualisierungsprotokoll
+
+```
+Using package manager: 'npm'
+Collecting installed dependencies...
+Found 35 dependencies.
+Fetching dependency metadata from registry...
+    Updating package.json with dependency @angular/cli @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency @angular/core @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency @angular-devkit/build-angular @ "0.1000.0" (was "0.900.0")...
+    Updating package.json with dependency @angular/compiler-cli @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency @angular/animations @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency @angular/compiler @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency @angular/common @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency @angular/platform-browser @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency @angular/forms @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency zone.js @ "0.10.3" (was "0.10.2")...
+    Updating package.json with dependency @angular/language-service @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency typescript @ "3.9.5" (was "3.6.4")...
+    Updating package.json with dependency @angular/platform-browser-dynamic @ "10.0.0" (was "9.0.0")...
+    Updating package.json with dependency @angular/router @ "10.0.0" (was "9.0.0")...
+UPDATE package.json (1595 bytes)
+√ Packages installed successfully.
+** Executing migrations of package '@angular/cli' **
+
+> Replace deprecated 'styleext' and 'spec' Angular schematic options.
+  Migration completed.
+
+> Update Browserslist configuration file name to '.browserslistrc' from deprecated 'browserslist'.
+RENAME browserslist => .browserslistrc
+  Migration completed.
+
+> Update tslint to version 6 and adjust rules to maintain existing behavior.
+UPDATE package.json (1595 bytes)
+UPDATE tslint.json (3348 bytes)
+  Migration completed.
+
+> Remove deprecated 'es5BrowserSupport' browser builder option.
+  The inclusion for ES5 polyfills will be determined from the browsers listed in the browserslist configuration.
+  Migration completed.
+
+> Replace deprecated and removed 'styleext' and 'spec' Angular schematic options with 'style' and 'skipTests', respectively.
+  Migration completed.
+
+> Remove deprecated options from 'angular.json' that are no longer present in v10.
+  Migration completed.
+
+> Add "Solution Style" TypeScript configuration file support.
+  This improves developer experience using editors powered by TypeScript’s language server.
+  Read more about this here: https://v10.angular.io/guide/migration-solution-style-tsconfig
+RENAME tsconfig.json => tsconfig.base.json
+CREATE tsconfig.json (427 bytes)
+UPDATE tsconfig.app.json (215 bytes)
+UPDATE tsconfig.spec.json (275 bytes)
+UPDATE e2e/tsconfig.json (219 bytes)
+  Migration completed.
+
+> Add the tslint deprecation rule to tslint JSON configuration files.
+  Migration completed.
+
+> Update library projects to use tslib version 2 as a direct dependency.
+  Read more about this here: https://v10.angular.io/guide/migration-update-libraries-tslib
+  Migration completed.
+
+> Update 'module' and 'target' TypeScript compiler options.
+  Read more about this here: https://v10.angular.io/guide/migration-update-module-and-target-compiler-options
+UPDATE e2e/tsconfig.json (222 bytes)
+  Migration completed.
+
+> Update workspace dependencies to match a new v10 project.
+UPDATE package.json (1594 bytes)
+√ Packages installed successfully.
+  Migration completed.
+
+** Executing migrations of package '@angular/core' **
+
+> Missing @Injectable and incomplete provider definition migration.
+  As of Angular 9, enforcement of @Injectable decorators for DI is a bit stricter and incomplete provider definitions behave differently.
+  Read more about this here: https://v9.angular.io/guide/migration-injectable
+  Migration completed.
+
+> ModuleWithProviders migration.
+  As of Angular 10, the ModuleWithProviders type requires a generic.
+  This migration adds the generic where it is missing.
+  Read more about this here: https://v10.angular.io/guide/migration-module-with-providers
+  Migration completed.
+
+> Undecorated classes with Angular features migration.
+  In version 10, classes that use Angular features and do not have an Angular decorator are no longer supported.
+  Read more about this here: https://v10.angular.io/guide/migration-undecorated-classes
+  Migration completed.
+```
+
+Um die Angular-CLI auf die neueste Version 9 zu aktualisieren, führen Sie die folgenden Schritte aus.
+
+Aktualisieren Sie zunächst die lokale Angular-Cli auf Version 8.3.17 oder 8.x, indem Sie den Befehl unten verwenden.
+
+```
+  npm install --no-save @angular/cli@^8.3.15
+
+```
+Nachdem Sie Angular-Cli auf Version 8 und höher aktualisiert haben, verwenden Sie den folgenden Befehl, um Angular-Cli auf Version 9 zu aktualisieren.
+
+```
+  ng update @angular/cli @angular/core --next
+```
+
+{{< figure src="updating angular cli to version 9.png" title="updating angular cli to version 9" alt="updating angular cli to version 9">}} 
 
 To update the Angular CLI version to 7 simply use the below command.
 
