@@ -1,11 +1,11 @@
 
 +++
-title = "Mat-Icon List : 900+ Angular Material Icons"
-subtitle = "Learn how to use Angular material Icons"
+title = "Mat-Icon Liste : 900+ Angular Material-Ikonen"
+subtitle = "Lernen Sie, wie man Angular Material-Ikonen verwendet"
 type="post"
-summary ="mat-icon selector used to display Material icons in Angular.We have around 900+ Angular Material icons.To show the below mat-icon list icons,We need to load material icons css provided by Google"
-keywords=["angular material icons list,mat-icon list,material design,icons,mat-icon"]
-date="2018-08-16T01:01:05+0000"
+summary ="Der Selektor mat-icon wird verwendet, um Material-Ikonen in Angular anzuzeigen.Wir haben etwa 900+ Angular Material ikonen.Um Material-Ikonen anzuzeigen, müssen wir die von Google zur Verfügung gestellten Material-Ikonen css laden."
+keywords=["angular material Ikonen Liste,mat-icon Liste"]
+date="2020-01-12T01:01:05+0000"
 lastmod="2020-02-13T17:18:08+0000"
 draft=false
 authors = ["admin"]
@@ -22,49 +22,59 @@ categories=["icons"]
 
 +++
 
+Der Selektor `<mat-icon>` wird verwendet, um Material-Ikonen in "Angular" anzuzeigen.
 
-`<mat-icon>` selector is used to display Material icons in Angular.We have around 900+ Angular Material icons.To show the below `<mat-icon>` list icons,We need to load material icons css provided by Google
+Wir haben etwa 900+ Angular Material ikonen.
 
-`<mat-icon>` is part of angular material module called _MatIconModule_.We can use font ligature as an icon by putting the ligature text in `<mat-icon>` component.
+Um Material-Ikonen anzuzeigen, müssen wir die von Google zur Verfügung gestellten Material-Ikonen css laden.
 
-For example `<mat-icon>home</mat-icon>` displays home icon.
+`<mat-icon>` ist Teil des angular material Moduls, das als `MatIconModule` bezeichnet wird.
 
-We have to import MatIconModule from <a href="https://www.angularjswiki.com/angular/angular-material-2-tutorial-with-examples/" target="_blank" rel="noopener">Angular Material</a> Modules.
+Wir können die Schriftart Ligatur als Icon verwenden, indem wir den Ligatur-Text in die Komponente `<mat-icon>` legen.
 
-`import {MatIconModule} from '@angular/material/icon'`
+Zum Beispiel zeigt `<mat-icon>home</mat-icon>` das Home-Symbol an.
 
-These icons are not limited to angular,In HTML webpages just use `<i></i>`  in place of `<mat-icon>` tag.
+Wir müssen `MatIconModule` importieren aus <a href="https://www.angularjswiki.com/angular/angular-material-2-tutorial-with-examples/" target="_blank" rel="noopener">angular material Module</a>.
 
-`<i>home</i>`
+```
+import {MatIconModule} from '@angular/material/icon'
+```
+Diese Symbole sind nicht auf die "angular" Apps beschränkt,
+In HTML-Webseiten verwenden Sie einfach `<i><</i>` anstelle des `<mat-icon>` Tags.
 
-All the material icons packaged into a single font file. 
+```
+<i>home</i>
+```
+Alle Material Ikonen sind in einer einzigen Schriftdatei verpackt. 
 
-All we need to do is adding the below Google web fonts css in our html page.
+Alles, was wir tun müssen, ist, die untenstehende Google Webfonts css-Datei in unserem Kopfbereich der html-Seite hinzuzufügen.
 
-`<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">`
-
-1. There are around 900+ material icons, all are from a single, small file(42KB) and divided into 10+ categories.
-2. We can use the file hosted in Google web font server or can be hosted in our own server.
-3. Material icons (mat-icon) are supported by all modern web browsers.
-4. We can do all theming like color,size etc using pure CSS.  
+```
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" 
+rel="stylesheet">
+```
+ 1. Es gibt etwa 900+ Materialikonen, die alle aus einer einzigen, kleinen Datei (42KB) stammen und in über 10 Kategorien unterteilt sind.
+ 2. Wir können die Datei verwenden, die auf dem Webfontserver von Google gehostet wird, oder sie kann auf unserem eigenen Server gehostet werden.
+ 3. Material-Ikonen(Mat-Icon) werden von allen modernen Webbrowsern unterstützt.
+ 4. Wir können alle Thematisierungen wie Farbe, Größe usw. mit reinem CSS vornehmen.  
 
 {{% alert note %}}
-I have created a [free ebook](#download-angular-material-icons-list-pdf), which contains material icon list in PDF format.
+Ich habe ein kostenloses [E-Book](#angulare-material-ikonen-liste-pdf-herunterladen) erstellt, das eine Liste mit Material-Ikonen im PDF-Format enthält.
 {{% /alert%}}  
+
 
 {{% toc %}}
 
-## Angular Material Icons list categories
-
-Go through the below material icon list categories
+## Angular Material-Ikonen Listenkategorien
 
 
-## mat-icon List Category-Action
+
+## mat-icon Liste Kategorie-Aktion
 <div class="table-responsive">
 <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -1022,12 +1032,12 @@ Go through the below material icon list categories
 </div>
 
 
-## mat-icon List Category-Communication
+## mat-icon Liste Kategorie-Kommunikation
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -1272,12 +1282,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Av
+## mat-icon Liste Kategorie-Av
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -1610,12 +1620,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Connection
+## mat-icon Liste Kategorie-Verbindung
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -1816,12 +1826,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Device
+## mat-icon Liste Kategorie-Gerät
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -2054,12 +2064,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Editor
+## mat-icon Liste Kategorie-Editor
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -2364,12 +2374,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-File
+## mat-icon Liste Kategorie-Datei
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -2426,12 +2436,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Hardware
+## mat-icon Liste Kategorie - Hardware
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -2636,12 +2646,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Images
+## mat-icon Liste Kategorie-Bilder
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -3290,12 +3300,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Maps
+## mat-icon Liste Kategorie-Karten
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -3620,12 +3630,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Navigation
+## mat-icon Liste Kategorie - Navigation
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -3758,12 +3768,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Notification
+## mat-icon Liste Kategorie-Benachrichtigung
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -3980,12 +3990,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Places
+##  mat-icon Liste Kategorie-Plätze
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -4078,12 +4088,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Toggle
+## mat-icon Liste Kategorie-Umschaltung
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -4124,12 +4134,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Warning
+## mat-icon Liste Kategorie-Warnung
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -4158,12 +4168,12 @@ Go through the below material icon list categories
 </table></div>
 
 
-## mat-icon List Category-Social
+## mat-icon Liste Kategorie-Sozial
 
 <div class="table-responsive"> <table class="table">
 	<thead>
 		<tr>
-			<th>Icon Name</th>
+			<th>Nom de l'icône</th>
 			<th>mat-icon code</th>
 		</tr>
 	</thead>
@@ -4296,6 +4306,6 @@ Go through the below material icon list categories
 </table></div>
 
 
-## Download Angular Material Icons List PDF
+## Angulare Material-Ikonen-Liste PDF herunterladen
 
-Subscribe to our Angular wiki newsletter and get free link to download complete material icons list in PDF format.
+Abonnieren Sie unseren "Angular wiki"-Newsletter und erhalten Sie einen kostenlosen Link zum Herunterladen der vollständigen Liste der Materialikonen im PDF-Format.

@@ -15,6 +15,14 @@ contentDir = "content/fr"
   url = "#"
   weight = 10
 
+[de]
+languageCode = "de"
+contentDir = "content/de"
+ [[de.menu.main]]
+ name = "Home"
+  url = "#"
+  weight = 10
+
 # Uncomment the lines below to configure your website in a second language.
 #[zh]
 #  languageCode = "zh-Hans"
