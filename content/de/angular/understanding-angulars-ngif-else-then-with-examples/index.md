@@ -6,7 +6,7 @@ summary ="Pour écrire ngIf else dans angular, il faut définir un modèle else 
 keywords=["ngif in angular,ngif else in angular,ngif with then,ngif else and then templates in angular"]
 date="2018-08-04T01:01:05+0000"
 lastmod="2019-10-26T16:20:19+0000"
-draft=false
+draft=true
 authors = ["admin"]
 
 [image]

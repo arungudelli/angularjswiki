@@ -2,8 +2,8 @@
 title = "Wie löscht man eine Komponente in Angular"
 subtitle = "Löschen von Komponenten in Angular"
 type="post"
-summary ="Étapes pour supprimer un component dans Angular 1.Supprimer la référence du composant du fichier app.module.ts angulaire (supprimer la ligne d'import).2.Supprimer la déclaration de component du array de déclaration @NgModule dans le fichier app.module.ts.3.Puis supprimez manuellement le dossier du composant de l'arborescence du projet Angular.4.Enfin Supprimer manuellement toutes les références de component du projet Angular"
-keywords=["delete component in angular,ng delete component command"]
+summary ="Schritte zum Löschen einer Komponente in Angular 1. Entfernen Sie die Importlinienreferenz aus der Datei Angular app.module.ts.2. Entfernen Sie die Komponentendeklaration aus dem @NgModule-Deklarationsarray in der Datei app.module.ts.3. und löschen Sie dann manuell den Komponentenordner aus dem Projekt Angular.4. und schließlich löschen Sie alle Referenzen der Komponente manuell aus dem Angular-Projekt."
+keywords=["Löschen von Komponenten in Angular,ng delete component"]
 date="2019-02-08T01:01:05+0000"
 lastmod="2019-10-25T04:44:37+0000"
 draft=false
