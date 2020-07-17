@@ -1,11 +1,11 @@
 +++
-title = "Creating Progress Spinner in Angular using mat-progress-spinner"
+title = "Progress Spinner in Angular using mat-progress-spinner | Material Design"
 subtitle = "Learn how to create a beautiful progress spinner in Angular using material design"
 type="post"
 summary ="We can create a Progress spinner in Angular using material design component mat-progress-spinner."
 keywords=["mat-progress-spinner,angular material progress spinner,mat-progress-spinner example"]
 date="2019-11-14T01:01:05+0000"
-lastmod="2019-11-14T17:02:19+0000"
+lastmod="2020-07-16T00:02:19+0000"
 draft=false
 authors = ["admin"]
 
@@ -66,8 +66,36 @@ We can use `mat-progress-spinner` in two different modes
 </mat-progress-spinner>
 <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
 ```
+### Step 4: Give progress indicator value to mat-progress-spinner
 
-#### mat-progress-spinner determinate mode
+As explained above the `value` property of mat-progress-spinner indicates the progress of an on going process. 
+
+And it's applicable only in 'determinate' mode
+
+The property `value` range is from 0 to 100. 
+
+```
+<mat-progress-spinner mode="determinate" value="50">
+</mat-progress-spinner>
+```
+
+### Step 5: Changing Progress Spinner Styles
+
+`mat-spinner` has three additional properties through which we can style the progress spinner.
+
+1. diameter
+2. strokeWidth
+2. color
+
+## mat-progress-spinner example
+
+Now we will create a progress spinner in angular using mat-progress-spinner element.
+
+We will go through different types of examples to understand material progress spinner
+
+
+
+### mat-progress-spinner determinate mode
 
 We will use progress spinner with `determinate` mode, when we can detect the process completion rate. 
 
@@ -99,7 +127,7 @@ Here the value is static.
 //No Progress Indicator as there is no value property
 ```
 
-#### mat-progress-spinner indeterminate mode
+### mat-progress-spinner indeterminate mode
 
 When progress of an action isn’t detectable, or if it’s not necessary to indicate how long an activity will take, we will use `indeterminate` mode.
 
@@ -117,20 +145,9 @@ Ones `ngIf` condition i.e., `IsWait` becomes false. Progress spinner will be rem
 {{< video src="/img/material/mat-progress-spinner-indeterminate.mp4" srcwebm="/img/material/mat-progress-spinner-indeterminate.webm">}} 
 
 
-### Step 4: Give progress indicator value to mat-progress-spinner
 
-As explained above the `value` property of mat-progress-spinner indicates the progress of an on going process. 
 
-And it's applicable only in 'determinate' mode
-
-The property `value` range is from 0 to 100. 
-
-```
-<mat-progress-spinner mode="determinate" value="50">
-</mat-progress-spinner>
-```
-
-#### mat-spinner vs mat-progress-spinner
+### mat-spinner vs mat-progress-spinner
 
 You might be wondering why we have two elements `mat-spinner` and `mat-progress-spinner`.
 
@@ -158,15 +175,8 @@ And in `mat-progress-spinner` element `mode` property is required. otherwise no 
 //Nothing will be displayed
 ```
 
-### Step 5: Changing Progress Spinner Styles
 
-`mat-spinner` has three additional properties through which we can style the progress spinner.
-
-1. diameter
-2. strokeWidth
-2. color
-
-#### Changing Color of mat-progress-spinner
+## Changing Color of mat-progress-spinner
 
 To change the color of mat-progress-spinner, we can use color property.
 
@@ -183,7 +193,7 @@ The default color is themes `primary` color. We can change it to `accent` or `w
 
 {{< video src="/img/material/mat spinner color indeterminate.mp4" srcwebm="/img/material/mat spinner color indeterminate.webm">}} 
 
-### Giving custom color to mat-progress-spinner
+## Giving custom color to mat-progress-spinner
 
 Color property accepts only default ThemePalettes or our own custom themes.
 
@@ -209,7 +219,7 @@ mode="determinate" value="100"></mat-spinner>
 
 {{< figure src="mat spinner custom color.png" title="mat spinner custom color" alt="mat spinner custom color">}} 
 
-### Changing Size of mat-spinner using diameter
+## Changing Size of mat-spinner using diameter
 
 The default height and width of mat-spinner is "100px".
 
@@ -231,7 +241,7 @@ mode="determinate" value="100"></mat-progress-spinner>
 {{< figure src="mat progress spinner size.png" title="mat progress spinner size" alt="mat progress spinner size">}} 
 
 
-### Changing the Stroke width of progress spinner track
+## Changing the Stroke width of progress spinner track
 
 Usually stroke width of progress spinner track will be 10% of progress spinner diameter.
 

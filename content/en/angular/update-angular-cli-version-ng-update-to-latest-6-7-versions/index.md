@@ -33,7 +33,7 @@ On June 25, 2020 Angular version 10.0.0 is released.
 Angular 10 version one of the major release after version 9 which was released 4 months
 ago.
 
-As I said above, Updating to Angular 10 is easy If your application using using Angular 9 version. 
+As I said above, Updating to Angular 10 is easy If your application using Angular 9 version. 
 
 Just update @angular/core and @angular/cli by using `ng update` command.
 
@@ -60,13 +60,13 @@ Steps to upgrade Angular application are same across the operating systems like 
 5. In previous versions of angular if you return null for UrlMatchResult we used to get `Type 'null' is not assignable to type 'UrlMatchResult'.` error. This has been fixed now 
 (<a href="https://github.com/angular/angular/pull/36402" target="_blank">PR 36402</a>)
 6. In Angular 10 version transplanted views will refresh only at the insertion location in Ivy.(<a href="https://github.com/angular/angular/pull/35968" target="_blank">PR 35968</a>)
-7. If you try to use `formatDate` or [DatePipe](https://www.angularjswiki.com/angular/angular-date-pipe-formatting-date-times-in-angular-with-examples/) with the "B" or "b" format codes ("at night", "in the morning", etc.), this does not work for locale "en" (and sublocales) between 21:00 and 06:00. Instead of getting "at night", you'll get "AM/PM".In the older versions the code was not able to cope with a period that crossed midnight. This is fixed as part of (<a href="https://github.com/angular/angular/pull/36611" target="_blank">PR 36611</a>)
+7. If you try to use `formatDate` or [DatePipe](https://www.angularjswiki.com/angular/angular-date-pipe-formatting-date-times-in-angular-with-examples/) with the "B" or "b" format codes ("at night", "in the morning", etc.), This does not work for locale "en" (and sublocales) between 21:00 and 06:00. Instead of getting "at night", you'll get "AM/PM".In the older versions the code was not able to handle period of time that crossed midnight. This is fixed as part of (<a href="https://github.com/angular/angular/pull/36611" target="_blank">PR 36611</a>)
 8. When an angular route has at least two resolvers, and if any resolver resolves to empty, navigation will be canceled, as it is the behaviour for a single resolver
 and if all resolvers resolve to empty, the router will not throw any errors. earlier it used to emit uncaught errors (<a target="_blank" href="https://github.com/angular/angular/pull/24621">PR 24621</a>)
 
 New Angular 10 projects use the filename `.browserslistrc` instead of `browserslist`. And `ng update` will migrate it automatically if your updating from older versions.
 
-Angular 10 recommends the use of a `tsconfig.base.json` to help organize the various typings contexts (shared, unit tests, end to end tests, application, etc). ng update will migrate you automatically.
+Angular 10 recommends the use of a `tsconfig.base.json` to help organize the various typings contexts (shared, unit tests, end to end tests, application, etc). ng update will migrate your project automatically.
 
 {{< figure src="Angular 10 update.png" title="Angular 10 update" alt="Angular 10 update">}}
 
@@ -250,7 +250,7 @@ For more info, please see: https://v9.angular.io/guide/updating-to-version-9
 
 As the final version angular 9 is released. It is not required to use --next flag. 
 
-If you are using older versions of Angular like 5 or 6 or 7. You need to follow some additional steps as show below.
+If you are using older versions of Angular like 5 or 6 or 7. You need to follow some additional steps as shown below.
 
 ## Angular CLI version check
 
@@ -272,7 +272,7 @@ First you need to uninstall the existing angular cli packages followed by _npm c
 
 And the install the Angular CLI version again by using _npm install -g @angular/cli@latest_
 
-If you are using MAC or linux systems you might need to add the prefix before npm
+If you are using MAC or linux systems you might need to add the prefix sudo before npm
 
 ```
 sudo npm uninstall -g angular-cli
@@ -284,13 +284,15 @@ sudo npm install -g @angular/cli@latest
 
 After updating Angular CLI globally you might get this warning if your local project's angular cli version less than the global angular cli version.
 
-As local packages have more priority than global packages you will get _Your global Angular CLI version is greater than your local version.The local Angular CLI version is used_
+As local packages have more priority than global packages you will get _Your global Angular CLI version is greater than your local version.The local Angular CLI version is used_ warning.
 
 So mostly you need to update your local Angular CLI version as well
 
 ## Update Angular CLI version Locally
 
-To update Angular CLI version in your local projects use the following commands. Navigate to your local Angular project and execute the below commands.
+To update Angular CLI version in your local projects use the following commands. 
+
+Navigate to your local Angular project folder and execute the below commands.
 
 ```
 rm -rf node_modules
@@ -301,11 +303,13 @@ npm install
 
 ## Update Angular CLI version to 6
 
-If you are migrating from older Angular CLI versions like 1.x to latest Angular version 6. You need to do few additional checks apart from above commands.
+If you are migrating from older versions of Angular CLI like 1.x to latest Angular version 6. 
 
-First of all you need to convert _angular-cli.json_ file older Angular CLI version to latest _angular.json_ used in version 6.
+You need to do few additional checks apart from the above commands.
 
-To convert it use the following command
+First you need to convert "angular-cli.json" file in older Angular CLI version to the latest "angular.json" file used in version 6.
+
+To convert "angular-cli.json" file, use the following command
 
 ```
 ng update @angular/cli --from=1.7.4 --migrate-only
