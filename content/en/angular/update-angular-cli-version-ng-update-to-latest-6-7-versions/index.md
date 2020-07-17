@@ -284,13 +284,15 @@ sudo npm install -g @angular/cli@latest
 
 After updating Angular CLI globally you might get this warning if your local project's angular cli version less than the global angular cli version.
 
-As local packages have more priority than global packages you will get _Your global Angular CLI version is greater than your local version.The local Angular CLI version is used_
+As local packages have more priority than global packages you will get _Your global Angular CLI version is greater than your local version.The local Angular CLI version is used_ warning.
 
 So mostly you need to update your local Angular CLI version as well
 
 ## Update Angular CLI version Locally
 
-To update Angular CLI version in your local projects use the following commands. Navigate to your local Angular project and execute the below commands.
+To update Angular CLI version in your local projects use the following commands. 
+
+Navigate to your local Angular project folder and execute the below commands.
 
 ```
 rm -rf node_modules
@@ -301,11 +303,13 @@ npm install
 
 ## Update Angular CLI version to 6
 
-If you are migrating from older Angular CLI versions like 1.x to latest Angular version 6. You need to do few additional checks apart from above commands.
+If you are migrating from older versions of Angular CLI like 1.x to latest Angular version 6. 
 
-First of all you need to convert _angular-cli.json_ file older Angular CLI version to latest _angular.json_ used in version 6.
+You need to do few additional checks apart from the above commands.
 
-To convert it use the following command
+First you need to convert "angular-cli.json" file in older Angular CLI version to the latest "angular.json" file used in version 6.
+
+To convert "angular-cli.json" file, use the following command
 
 ```
 ng update @angular/cli --from=1.7.4 --migrate-only
