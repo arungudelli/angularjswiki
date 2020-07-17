@@ -23,6 +23,11 @@
   url = "/pipes/"
   weight = 30 
 
+#[[main]]
+#  name = "FontAwesome"
+#  url = "/fontawesome/"
+#  weight = 30 
+
 
 
 # Link to a PDF of your resume/CV from the menu.

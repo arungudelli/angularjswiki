@@ -272,7 +272,7 @@ First you need to uninstall the existing angular cli packages followed by _npm c
 
 And the install the Angular CLI version again by using _npm install -g @angular/cli@latest_
 
-If you are using MAC or linux systems you might need to add the prefix before npm
+If you are using MAC or linux systems you might need to add the prefix sudo before npm
 
 ```
 sudo npm uninstall -g angular-cli
