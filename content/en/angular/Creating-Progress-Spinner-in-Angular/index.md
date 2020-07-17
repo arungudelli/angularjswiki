@@ -5,7 +5,7 @@ type="post"
 summary ="We can create a Progress spinner in Angular using material design component mat-progress-spinner."
 keywords=["mat-progress-spinner,angular material progress spinner,mat-progress-spinner example"]
 date="2019-11-14T01:01:05+0000"
-lastmod="2019-11-14T17:02:19+0000"
+lastmod="2020-07-16T00:02:19+0000"
 draft=false
 authors = ["admin"]
 
