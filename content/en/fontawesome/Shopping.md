@@ -1,0 +1,19 @@
++++
+title="18+ Shopping icons in font awesome"
+summary="Font awesome icons have 18 different types of Shopping icons."
+keywords=["Shopping icons,font awesome"]
+date="19-07-2020T21:31:26"
+lastmod="19-07-2020T21:31:26"
+type="docs"
+parentdoc="fontawesome"
+featured='font-awesome-icons.png'
+categories=['faicons']
+prev="Shapes"
+next="Social"
+linktitle="Shopping Icons"
+[menu.fontawesome]
+parent="fontawesome"
+weight=10
+draft=false
++++
+Font awesome icons have 18 different types of Shopping icons.<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Example</th></tr></thead><tbody><tr><td><i class="fas fa-barcode"></i>Barcode</td><td>fa-barcode</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-barcode/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-cart-arrow-down"></i>Cart Arrow Down</td><td>fa-cart-arrow-down</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-cart-arrow-down/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-cart-plus"></i>Cart Plus</td><td>fa-cart-plus</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-cart-plus/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-cash-register"></i>Cash Register</td><td>fa-cash-register</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-cash-register/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-gift"></i>Gift</td><td>fa-gift</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-gift/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-gifts"></i>Gifts</td><td>fa-gifts</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-gifts/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-person-booth"></i>Person Booth</td><td>fa-person-booth</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-person-booth/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-receipt"></i>Receipt</td><td>fa-receipt</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-receipt/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-shipping-fast"></i>Shipping Fast</td><td>fa-shipping-fast</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-shipping-fast/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-shopping-bag"></i>Shopping Bag</td><td>fa-shopping-bag</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-shopping-bag/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-shopping-basket"></i>Shopping Basket</td><td>fa-shopping-basket</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-shopping-basket/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-shopping-cart"></i>Shopping Cart</td><td>fa-shopping-cart</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-shopping-cart/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-store"></i>Store</td><td>fa-store</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-store/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-store-alt"></i>Store Alt</td><td>fa-store-alt</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-store-alt/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-store-alt-slash"></i>Store Alt Slash</td><td>fa-store-alt-slash</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-store-alt-slash/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-store-slash"></i>Store Slash</td><td>fa-store-slash</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-store-slash/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-truck"></i>Truck</td><td>fa-truck</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-truck/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-tshirt"></i>Tshirt</td><td>fa-tshirt</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-tshirt/' target='_blank'>TryIt!</a></td></tr></tbody></table></div>

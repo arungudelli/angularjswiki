@@ -1,0 +1,19 @@
++++
+title="18+ Charity icons in font awesome"
+summary="Font awesome icons have 18 different types of Charity icons."
+keywords=["Charity icons,font awesome"]
+date="19-07-2020T21:31:26"
+lastmod="19-07-2020T21:31:26"
+type="docs"
+parentdoc="fontawesome"
+featured='font-awesome-icons.png'
+categories=['faicons']
+prev="Camping"
+next="Chat"
+linktitle="Charity Icons"
+[menu.fontawesome]
+parent="fontawesome"
+weight=10
+draft=false
++++
+Font awesome icons have 18 different types of Charity icons.<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Example</th></tr></thead><tbody><tr><td><i class="fas fa-dollar-sign"></i>Dollar Sign</td><td>fa-dollar-sign</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-dollar-sign/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-donate"></i>Donate</td><td>fa-donate</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-donate/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-dove"></i>Dove</td><td>fa-dove</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-dove/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-gift"></i>Gift</td><td>fa-gift</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-gift/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-globe"></i>Globe</td><td>fa-globe</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-globe/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-hand-holding-heart"></i>Hand Holding Heart</td><td>fa-hand-holding-heart</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-hand-holding-heart/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-hand-holding-usd"></i>Hand Holding Usd</td><td>fa-hand-holding-usd</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-hand-holding-usd/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-hand-holding-water"></i>Hand Holding Water</td><td>fa-hand-holding-water</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-hand-holding-water/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-hands-helping"></i>Hands Helping</td><td>fa-hands-helping</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-hands-helping/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-handshake"></i>Handshake</td><td>fa-handshake</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-handshake/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="far fa-handshake"></i>Handshake</td><td>fa-handshake</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-handshake/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-heart"></i>Heart</td><td>fa-heart</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-heart/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="far fa-heart"></i>Heart</td><td>fa-heart</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-heart/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-leaf"></i>Leaf</td><td>fa-leaf</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-leaf/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-parachute-box"></i>Parachute Box</td><td>fa-parachute-box</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-parachute-box/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-piggy-bank"></i>Piggy Bank</td><td>fa-piggy-bank</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-piggy-bank/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-ribbon"></i>Ribbon</td><td>fa-ribbon</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-ribbon/' target='_blank'>TryIt!</a></td></tr><tr><td><i class="fas fa-seedling"></i>Seedling</td><td>fa-seedling</td><td><a href='https://www.angularjswiki.com/fontawesome/fa-seedling/' target='_blank'>TryIt!</a></td></tr></tbody></table></div>
