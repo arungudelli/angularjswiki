@@ -32,7 +32,10 @@
     <ul class="nav docs-sidenav">
       {{ range .Children }}
       <li {{ if $current_page.IsMenuCurrent $menu_name . }}class="active"{{ end }}>
+        {{ if not (hasPrefix .Name "fa-") }}
         <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}         
+        
       </li>
       {{ end }}
     </ul>

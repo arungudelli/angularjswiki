@@ -23,10 +23,10 @@
   url = "/pipes/"
   weight = 30 
 
-#[[main]]
-#  name = "FontAwesome"
-#  url = "/fontawesome/"
-#  weight = 30 
+[[main]]
+  name = "FontAwesome"
+  url = "/fontawesome/"
+  weight = 40 
 
 
 
