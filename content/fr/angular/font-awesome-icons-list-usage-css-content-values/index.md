@@ -65,7 +65,7 @@ Pour chaque icône, un nom de classe est prédéfini, il suffit d'ajouter le nom
 
 Les icônes "font awesome" utilisent une balise italique, c'est-à-dire <i></i> pour afficher les icônes.
 
-La raison pour laquelle on utilise cette balise <i> comme icône est
+La raison pour laquelle on utilise cette balise `<i>` comme icône est
 
 1. C'est court
 2. "I" signifie Icône (mais pas dans le monde HTML)
