@@ -7,7 +7,7 @@ summary ="Cet article contient la liste complète des icônes font awesome avec 
 keywords=["font awesome icônes,font awesome icônes liste,fa icônes liste,icônes"]
 date="2019-07-14T01:01:05+0000"
 lastmod="2020-07-12T17:18:08+0000"
-draft=false
+draft=true
 authors = ["admin"]
 categories=["faicons"]
 [image]

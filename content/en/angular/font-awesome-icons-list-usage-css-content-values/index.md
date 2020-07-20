@@ -7,7 +7,7 @@ summary ="This post contains complete font awesome icons class list with their C
 keywords=["font awesome icons,font awesome icons list,fa icons list,icons"]
 date="2019-07-14T01:01:05+0000"
 lastmod="2020-07-12T00:00:08+0000"
-draft=false
+draft=true
 authors = ["admin"]
 categories=["faicons"]
 [image]
