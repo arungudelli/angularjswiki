@@ -1,0 +1,273 @@
++++
+title="Weibo icon in font awesome icons"
+summary="Weibo icon represented as fa-weibo in font awesome icons is part of brand (fab) icons"
+keywords=["fa-weibo,f18a,Weibo"]
+date="19-07-2020T22:19:06"
+lastmod="19-07-2020T22:19:06"
+type="docs"
+parentdoc="fontawesome"
+featured='font-awesome-icons.png'
+categories=['faicons']
+prev="fa-weebly"
+next="fa-weight"
+linktitle="fa-weibo"
+[menu.fontawesome]
+parent="fontawesome"
+weight=20
+draft=false
++++
+
+
+Weibo icon represented as fa-weibo in font awesome icons is part of brand (fab) icons
+
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Weibo</td><td>fa-weibo</td><td>f18a</td></tr></tbody></table></div>
+
+
+
+## Weibo icon Usage
+
+To display Weibo icon add predefined class name i.e.,fa-weibo (with prefix fa-) to the 'i' tag.
+
+Here 'i' tag represents icon.
+
+And we need to add corresponding category for fa-weibo icon. i.e., fab.
+
+
+```
+
+<i class='fab fa-weibo'>fa-weibo</i>
+```
+
+<i class='fab fa-weibo'>fa-weibo</i>
+
+
+
+
+## Change Weibo icon size
+To increase Weibo font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-weibo.
+
+Increase in icon size will be relative to their parent container. 
+
+```
+
+<i class='fab fa-weibo fa-lg'>fa-lg</i><br/>
+<i class='fab fa-weibo fa-2x'>fa-2x</i><br/>
+<i class='fab fa-weibo fa-3x'>fa-3x</i><br/>
+<i class='fab fa-weibo fa-4x'>fa-4x</i><br/>
+<i class='fab fa-weibo fa-5x'>fa-5x</i><br/>
+            
+```
+
+<i class='fab fa-weibo fa-lg'>fa-lg</i><br/>
+<i class='fab fa-weibo fa-2x'>fa-2x</i><br/>
+<i class='fab fa-weibo fa-3x'>fa-3x</i><br/>
+<i class='fab fa-weibo fa-4x'>fa-4x</i><br/>
+<i class='fab fa-weibo fa-5x'>fa-5x</i><br/>
+            
+
+
+
+## Weibo Icon with Fixed Width 
+
+All the font awesome icons does not have same width.
+
+For example fa-weibo icon and fa-home may not have same height and width.
+
+So to display two icons with fixed width and height we can use fa-fw class.
+
+
+```
+
+<i class='fab fa-weibo fa-fw fa-3x'></i>Fixed Width<i class='fab fa-weibo fa-3x'></i>Normal<br/>
+<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+```
+
+<i class='fab fa-weibo fa-fw fa-3x'></i>Fixed Width<i class='fab fa-weibo fa-3x'></i>Normal<br/>
+<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+
+
+
+## Weibo Icon Border 
+
+To add border to fa-weibo icon, use fa-border class.
+
+
+```
+<i class='fab fa-weibo fa-border fa-3x'></i>
+
+```
+<i class='fab fa-weibo fa-border fa-3x'></i>
+
+
+
+
+
+## Pull Weibo icon To the left
+
+To pull icon fa-weibo to the left of the container use fa-pull-left class.\n
+
+```
+
+<div style='width: 500px;'>
+<i class='fab fa-weibo fa-pull-left fa-3x'></i>
+  ... The text after fa-weibo Icon will be displayed on the right side of the icons
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='width: 500px;'>
+<i class='fab fa-weibo fa-pull-left fa-3x'></i>
+  ... The text after fa-weibo Icon will be displayed on the right side of the icons
+</div>
+<div style = 'clear: both;'></div>
+
+
+
+
+## Pull Weibo icon To the right
+To pull icon fa-weibo to the right of the container use fa-pull-right class.
+
+```
+
+<div style='width: 500px;'>
+<i class='fab fa-weibo fa-pull-right fa-3x'></i>
+  ... The text after fa-weibo Icon will be displayed on the left side of the icons
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='width: 500px;'>
+<i class='fab fa-weibo fa-pull-right fa-3x'></i>
+  ... The text after fa-weibo Icon will be displayed on the left side of the icons
+</div>
+<div style = 'clear: both;'></div>
+
+These two classes can used to add single quotes or double quotes to the text.
+
+
+## Animate Weibo icon using fa-spin
+To animate font awesome fa-weibo icon, use fa-spin class.
+
+```
+<i class='fab fa-weibo fa-spin fa-3x'></i>
+```
+<i class='fab fa-weibo fa-spin fa-3x'></i>
+
+
+
+
+## Animate Weibo icon with steps
+While animating the font awesome icon,We can rotate fa-weibo icon in 8 steps instead of uniform rotation.
+
+To animate font awesome fa-weibo icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
+
+
+```
+<i class='fab fa-weibo fa-pulse fa-spin fa-3x'></i>
+
+```
+<i class='fab fa-weibo fa-pulse fa-spin fa-3x'></i>
+
+
+
+
+
+## Rotate Weibo Icon using fa-rotate-x
+To rotate the font awesome icon fa-weibo, Use fa-rotate-x class
+
+Where 'x' represents degree of rotation.
+
+
+```
+
+<div>
+<i class='fab fa-weibo fa-3x'>R</i>normal<br/><br/>
+<i class='fab fa-weibo fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
+<i class='fab fa-weibo fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
+<i class='fab fa-weibo fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
+</div>
+```
+
+<div>
+<i class='fab fa-weibo fa-3x'>R</i>normal<br/><br/>
+<i class='fab fa-weibo fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
+<i class='fab fa-weibo fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
+<i class='fab fa-weibo fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
+</div>
+
+
+
+
+## Flip Weibo Icon using fa-flip-*
+To flip fa-weibo font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+
+```
+
+<i class='fab fa-weibo fa-3x'>F</i> Normal <br>
+<i class='fab fa-weibo fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
+<i class='fab fa-weibo fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+```
+
+<i class='fab fa-weibo fa-3x'>F</i> Normal <br>
+<i class='fab fa-weibo fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
+<i class='fab fa-weibo fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+
+
+
+
+## Combine Weibo icon with other font awesome icons
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+
+To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+
+And use class fa-inverse for an alternative icon color. 
+In the below example, I am displaying fa-weibo on top of icons like fa-square,fa-circle and fa-ban.
+
+And used fa-inverse in the second example to invert the color of the icon.
+
+```
+
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fab fa-weibo fa-stack-1x'></i>
+    </span>
+      fa-weibo on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fab fa-weibo fa-stack-1x fa-inverse'></i>
+    </span>
+      fa-weibo on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fab fa-weibo fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      fa-weibo on fa-ban
+</div>
+```
+
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fab fa-weibo fa-stack-1x'></i>
+    </span>
+      fa-weibo on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fab fa-weibo fa-stack-1x fa-inverse'></i>
+    </span>
+      fa-weibo on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fab fa-weibo fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      fa-weibo on fa-ban
+</div>
+
+
+
+
+
+

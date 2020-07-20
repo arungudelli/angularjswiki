@@ -7,7 +7,7 @@ summary ="Cet article contient la liste complète des icônes font awesome avec 
 keywords=["font awesome icônes,font awesome icônes liste,fa icônes liste,icônes"]
 date="2019-07-14T01:01:05+0000"
 lastmod="2020-07-12T17:18:08+0000"
-draft=false
+draft=true
 authors = ["admin"]
 categories=["faicons"]
 [image]
@@ -65,7 +65,7 @@ Pour chaque icône, un nom de classe est prédéfini, il suffit d'ajouter le nom
 
 Les icônes "font awesome" utilisent une balise italique, c'est-à-dire <i></i> pour afficher les icônes.
 
-La raison pour laquelle on utilise cette balise <i> comme icône est
+La raison pour laquelle on utilise cette balise `<i>` comme icône est
 
 1. C'est court
 2. "I" signifie Icône (mais pas dans le monde HTML)

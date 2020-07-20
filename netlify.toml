@@ -38,4 +38,14 @@ status = 301
 from = "/angular/angular-material-2-tutorial-with-examples/"
 to = "/material/"
 status = 301
+
+[[redirects]]
+from = "/angular/font-awesome-icons-list-usage-css-content-values/"
+to = "/fontawesome/"
+status = 301
+
+[[redirects]]
+from = "/fr/angular/font-awesome-icons-list-usage-css-content-values/"
+to = "/fr/fontawesome/"
+status = 301
   
