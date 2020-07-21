@@ -2,36 +2,45 @@
 title = "fxLayout API in Angular flex layout"
 date = 2019-04-24T00:00:00
 lastmod = 2019-04-24T01:00:00
-draft = true  # Is this a draft? true/false 
+draft = false  # Is this a draft? true/false 
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 prev = "flexlayout/basics"
 parentdoc="flexlayout"
 featured="fxFlex_api.jpg"
 authors = ["admin"]
-summary ="In this tutorial we will learn how to use fxFlex API in Angular flex layout with examples"
-keywords=["fxFlex,fxFlex example,fxFlex api"]
+summary ="In this tutorial we will learn how to use fxLayout API in Angular flex layout with examples."
+keywords=["fxLayout,fxLayout example,fxLayout api"]
 
 #Add menu entry to sidebar.
-linktitle = "fxFlex"
+linktitle = "fxLayout"
 [menu.flexlayout]
   parent = "Tutorial"
   weight = 2
 +++
 
+In this tutorial we will learn how to use fxLayout API in Angular flex layout with examples
+
 ## What is fxLayout API?
 
 1. fxLayout is a required and necessary API in Angular flex layout, should be used on flex container.
 2. fxLayout defines flow of children element along the main-axis or cross-axis, inside the flex container.
-3. fxLayout
-The fxLayout directive should be used on DOM containers whose children should layout or flow as the text direction along the main-axis or the cross-axis.
+3. Depending upon our layout we can pass four different values to the fxLayout attribute row,column, row-reverse and column-reverse.
+4. In addition to the fxLayout accepts other parameters like wrap and inline. 
+
+{{% alert note%}}
+fxLayout is case sensitive. So Use "fxLayout" only. "L" Capital.
+{{% /alert %}}
+
+## fxLayout row
 
 ```
 <div fxLayout="row">
   <div>1. One</div> <div>2. Two</div> <div>3. Three</div> <div>4. Four</div>
 </div>
 ```
-or
+
+## fxLayout column
 
 ```
 <div fxLayout="column">
@@ -41,6 +50,21 @@ or
   <div>4. Four</div>
 </div>
 ```
+
+## fxLayout row-reverse
+
+## fxLayout column-reverse
+
+## How fxLayout works?
+
+## fxLayout wrap
+
+## fxLayout inline
+
+
+or
+
+
 fxlayout
 
 fxLayout Options
