@@ -6,6 +6,7 @@ draft = false  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 prev = "flexlayout/basics"
+next = "flexlayout/fxLayout"
 parentdoc="flexlayout"
 featured="fxFlex_api.jpg"
 authors = ["admin"]
