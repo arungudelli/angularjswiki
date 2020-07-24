@@ -70,9 +70,12 @@ With fxLayout value row
 </mat-card>
 ```
 
-TODO: Add fxLayout row image
+{{< figure src="/img/flexLayout/fxLayout/fxLayout-row.PNG" title="fxLayout row example" alt="fxLayout row example">}} 
+
 
 ## fxLayout column
+
+fxLayout column will display flex children along the vertical axis.
 
 ```
 <div fxLayout="column">
