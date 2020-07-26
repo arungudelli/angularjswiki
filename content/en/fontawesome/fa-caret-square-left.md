@@ -1,9 +1,9 @@
 +++
-title="Caret Square Left icon in font awesome icons"
-summary="Caret Square Left icon represented as fa-caret-square-left in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-caret-square-left,f191,Caret Square Left"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-caret-square-left icon in font awesome icons"
+summary="fa-caret-square-left icon in font awesome icons has 2 variants regular (far) and solid (fas)"
+keywords=["fa-caret-square-left,f191,fa-caret-square-left"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Caret Square Left icon represented as fa-caret-square-left in font awesome icons has 2 variants regular (far) and solid (fas)
+fa-caret-square-left icon in font awesome icons has 2 variants regular (far) and solid (fas)
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Caret Square Left</td><td>fa-caret-square-left</td><td>f191</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-caret-square-left</td><td>fa-caret-square-left</td><td>f191</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Caret Square Left icon Usage
 
-To display Caret Square Left icon add predefined class name i.e.,fa-caret-square-left (with prefix fa-) to the 'i' tag.
+## fa-caret-square-left icon Usage
+
+To display fa-caret-square-left icon add predefined class name i.e.,fa-caret-square-left (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -45,8 +47,8 @@ And we need to add corresponding category for fa-caret-square-left icon. i.e., f
 
 
 
-## Change Caret Square Left icon size
-To increase Caret Square Left font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-caret-square-left.
+## Change fa-caret-square-left icon size
+To increase fa-caret-square-left font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-caret-square-left.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -69,7 +71,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Caret Square Left Icon with Fixed Width 
+## fa-caret-square-left Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -89,7 +91,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Caret Square Left Icon Border 
+## fa-caret-square-left Icon Border 
 
 To add border to fa-caret-square-left icon, use fa-border class.
 
@@ -104,20 +106,20 @@ To add border to fa-caret-square-left icon, use fa-border class.
 
 
 
-## Pull Caret Square Left icon To the left
+## Pull fa-caret-square-left icon To the left
 
 To pull icon fa-caret-square-left to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-caret-square-left fa-pull-left fa-3x'></i>
   ... The text after fa-caret-square-left Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-caret-square-left fa-pull-left fa-3x'></i>
   ... The text after fa-caret-square-left Icon will be displayed on the right side of the icons
 </div>
@@ -126,19 +128,19 @@ To pull icon fa-caret-square-left to the left of the container use fa-pull-left 
 
 
 
-## Pull Caret Square Left icon To the right
+## Pull fa-caret-square-left icon To the right
 To pull icon fa-caret-square-left to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-caret-square-left fa-pull-right fa-3x'></i>
   ... The text after fa-caret-square-left Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-caret-square-left fa-pull-right fa-3x'></i>
   ... The text after fa-caret-square-left Icon will be displayed on the left side of the icons
 </div>
@@ -147,7 +149,7 @@ To pull icon fa-caret-square-left to the right of the container use fa-pull-righ
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Caret Square Left icon using fa-spin
+## Animate fa-caret-square-left icon using fa-spin
 To animate font awesome fa-caret-square-left icon, use fa-spin class.
 
 ```
@@ -158,7 +160,7 @@ To animate font awesome fa-caret-square-left icon, use fa-spin class.
 
 
 
-## Animate Caret Square Left icon with steps
+## Animate fa-caret-square-left icon with steps
 While animating the font awesome icon,We can rotate fa-caret-square-left icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-caret-square-left icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -174,7 +176,7 @@ To animate font awesome fa-caret-square-left icon with 8 step rotation, use fa-p
 
 
 
-## Rotate Caret Square Left Icon using fa-rotate-x
+## Rotate fa-caret-square-left Icon using fa-rotate-x
 To rotate the font awesome icon fa-caret-square-left, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -200,7 +202,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Caret Square Left Icon using fa-flip-*
+## Flip fa-caret-square-left Icon using fa-flip-*
 To flip fa-caret-square-left font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -217,7 +219,7 @@ To flip fa-caret-square-left font awesome icon horizontally and vertically use f
 
 
 
-## Combine Caret Square Left icon with other font awesome icons
+## Combine fa-caret-square-left icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

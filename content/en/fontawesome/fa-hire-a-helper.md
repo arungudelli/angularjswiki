@@ -1,9 +1,9 @@
 +++
-title="Hire A Helper icon in font awesome icons"
-summary="Hire A Helper icon represented as fa-hire-a-helper in font awesome icons is part of brand (fab) icons"
-keywords=["fa-hire-a-helper,f3b0,Hire A Helper"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-hire-a-helper icon in font awesome icons"
+summary="fa-hire-a-helper icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-hire-a-helper,f3b0,fa-hire-a-helper"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Hire A Helper icon represented as fa-hire-a-helper in font awesome icons is part of brand (fab) icons
+fa-hire-a-helper icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Hire A Helper</td><td>fa-hire-a-helper</td><td>f3b0</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-hire-a-helper</td><td>fa-hire-a-helper</td><td>f3b0</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Hire A Helper icon Usage
 
-To display Hire A Helper icon add predefined class name i.e.,fa-hire-a-helper (with prefix fa-) to the 'i' tag.
+## fa-hire-a-helper icon Usage
+
+To display fa-hire-a-helper icon add predefined class name i.e.,fa-hire-a-helper (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-hire-a-helper icon. i.e., fab.
 
 
 
-## Change Hire A Helper icon size
-To increase Hire A Helper font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-hire-a-helper.
+## Change fa-hire-a-helper icon size
+To increase fa-hire-a-helper font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-hire-a-helper.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Hire A Helper Icon with Fixed Width 
+## fa-hire-a-helper Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Hire A Helper Icon Border 
+## fa-hire-a-helper Icon Border 
 
 To add border to fa-hire-a-helper icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-hire-a-helper icon, use fa-border class.
 
 
 
-## Pull Hire A Helper icon To the left
+## Pull fa-hire-a-helper icon To the left
 
 To pull icon fa-hire-a-helper to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-hire-a-helper fa-pull-left fa-3x'></i>
   ... The text after fa-hire-a-helper Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-hire-a-helper fa-pull-left fa-3x'></i>
   ... The text after fa-hire-a-helper Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-hire-a-helper to the left of the container use fa-pull-left clas
 
 
 
-## Pull Hire A Helper icon To the right
+## Pull fa-hire-a-helper icon To the right
 To pull icon fa-hire-a-helper to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-hire-a-helper fa-pull-right fa-3x'></i>
   ... The text after fa-hire-a-helper Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-hire-a-helper fa-pull-right fa-3x'></i>
   ... The text after fa-hire-a-helper Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-hire-a-helper to the right of the container use fa-pull-right cl
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Hire A Helper icon using fa-spin
+## Animate fa-hire-a-helper icon using fa-spin
 To animate font awesome fa-hire-a-helper icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-hire-a-helper icon, use fa-spin class.
 
 
 
-## Animate Hire A Helper icon with steps
+## Animate fa-hire-a-helper icon with steps
 While animating the font awesome icon,We can rotate fa-hire-a-helper icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-hire-a-helper icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-hire-a-helper icon with 8 step rotation, use fa-pulse
 
 
 
-## Rotate Hire A Helper Icon using fa-rotate-x
+## Rotate fa-hire-a-helper Icon using fa-rotate-x
 To rotate the font awesome icon fa-hire-a-helper, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Hire A Helper Icon using fa-flip-*
+## Flip fa-hire-a-helper Icon using fa-flip-*
 To flip fa-hire-a-helper font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-hire-a-helper font awesome icon horizontally and vertically use fa-fl
 
 
 
-## Combine Hire A Helper icon with other font awesome icons
+## Combine fa-hire-a-helper icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

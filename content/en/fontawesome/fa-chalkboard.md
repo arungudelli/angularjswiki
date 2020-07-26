@@ -1,9 +1,9 @@
 +++
-title="Chalkboard icon in font awesome icons"
-summary="Chalkboard icon represented as fa-chalkboard in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-chalkboard,f51b,Chalkboard"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-chalkboard icon in font awesome icons"
+summary="fa-chalkboard icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-chalkboard,f51b,fa-chalkboard"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Chalkboard icon represented as fa-chalkboard in font awesome icons has 1 variant fas i.e.,solid.
+fa-chalkboard icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Chalkboard</td><td>fa-chalkboard</td><td>f51b</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-chalkboard</td><td>fa-chalkboard</td><td>f51b</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Chalkboard icon Usage
 
-To display Chalkboard icon add predefined class name i.e.,fa-chalkboard (with prefix fa-) to the 'i' tag.
+## fa-chalkboard icon Usage
+
+To display fa-chalkboard icon add predefined class name i.e.,fa-chalkboard (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-chalkboard icon. i.e., fas.
 
 
 
-## Change Chalkboard icon size
-To increase Chalkboard font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-chalkboard.
+## Change fa-chalkboard icon size
+To increase fa-chalkboard font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-chalkboard.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Chalkboard Icon with Fixed Width 
+## fa-chalkboard Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Chalkboard Icon Border 
+## fa-chalkboard Icon Border 
 
 To add border to fa-chalkboard icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-chalkboard icon, use fa-border class.
 
 
 
-## Pull Chalkboard icon To the left
+## Pull fa-chalkboard icon To the left
 
 To pull icon fa-chalkboard to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-chalkboard fa-pull-left fa-3x'></i>
   ... The text after fa-chalkboard Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-chalkboard fa-pull-left fa-3x'></i>
   ... The text after fa-chalkboard Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-chalkboard to the left of the container use fa-pull-left class.\
 
 
 
-## Pull Chalkboard icon To the right
+## Pull fa-chalkboard icon To the right
 To pull icon fa-chalkboard to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-chalkboard fa-pull-right fa-3x'></i>
   ... The text after fa-chalkboard Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-chalkboard fa-pull-right fa-3x'></i>
   ... The text after fa-chalkboard Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-chalkboard to the right of the container use fa-pull-right class
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Chalkboard icon using fa-spin
+## Animate fa-chalkboard icon using fa-spin
 To animate font awesome fa-chalkboard icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-chalkboard icon, use fa-spin class.
 
 
 
-## Animate Chalkboard icon with steps
+## Animate fa-chalkboard icon with steps
 While animating the font awesome icon,We can rotate fa-chalkboard icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-chalkboard icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-chalkboard icon with 8 step rotation, use fa-pulse ic
 
 
 
-## Rotate Chalkboard Icon using fa-rotate-x
+## Rotate fa-chalkboard Icon using fa-rotate-x
 To rotate the font awesome icon fa-chalkboard, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Chalkboard Icon using fa-flip-*
+## Flip fa-chalkboard Icon using fa-flip-*
 To flip fa-chalkboard font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-chalkboard font awesome icon horizontally and vertically use fa-flip-
 
 
 
-## Combine Chalkboard icon with other font awesome icons
+## Combine fa-chalkboard icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

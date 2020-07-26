@@ -1,9 +1,9 @@
 +++
-title="Meteor icon in font awesome icons"
-summary="Meteor icon represented as fa-meteor in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-meteor,f753,Meteor"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-meteor icon in font awesome icons"
+summary="fa-meteor icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-meteor,f753,fa-meteor"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Meteor icon represented as fa-meteor in font awesome icons has 1 variant fas i.e.,solid.
+fa-meteor icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Meteor</td><td>fa-meteor</td><td>f753</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-meteor</td><td>fa-meteor</td><td>f753</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Meteor icon Usage
 
-To display Meteor icon add predefined class name i.e.,fa-meteor (with prefix fa-) to the 'i' tag.
+## fa-meteor icon Usage
+
+To display fa-meteor icon add predefined class name i.e.,fa-meteor (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-meteor icon. i.e., fas.
 
 
 
-## Change Meteor icon size
-To increase Meteor font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-meteor.
+## Change fa-meteor icon size
+To increase fa-meteor font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-meteor.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Meteor Icon with Fixed Width 
+## fa-meteor Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Meteor Icon Border 
+## fa-meteor Icon Border 
 
 To add border to fa-meteor icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-meteor icon, use fa-border class.
 
 
 
-## Pull Meteor icon To the left
+## Pull fa-meteor icon To the left
 
 To pull icon fa-meteor to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-meteor fa-pull-left fa-3x'></i>
   ... The text after fa-meteor Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-meteor fa-pull-left fa-3x'></i>
   ... The text after fa-meteor Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-meteor to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Meteor icon To the right
+## Pull fa-meteor icon To the right
 To pull icon fa-meteor to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-meteor fa-pull-right fa-3x'></i>
   ... The text after fa-meteor Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-meteor fa-pull-right fa-3x'></i>
   ... The text after fa-meteor Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-meteor to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Meteor icon using fa-spin
+## Animate fa-meteor icon using fa-spin
 To animate font awesome fa-meteor icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-meteor icon, use fa-spin class.
 
 
 
-## Animate Meteor icon with steps
+## Animate fa-meteor icon with steps
 While animating the font awesome icon,We can rotate fa-meteor icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-meteor icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-meteor icon with 8 step rotation, use fa-pulse icon a
 
 
 
-## Rotate Meteor Icon using fa-rotate-x
+## Rotate fa-meteor Icon using fa-rotate-x
 To rotate the font awesome icon fa-meteor, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Meteor Icon using fa-flip-*
+## Flip fa-meteor Icon using fa-flip-*
 To flip fa-meteor font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-meteor font awesome icon horizontally and vertically use fa-flip-hori
 
 
 
-## Combine Meteor icon with other font awesome icons
+## Combine fa-meteor icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

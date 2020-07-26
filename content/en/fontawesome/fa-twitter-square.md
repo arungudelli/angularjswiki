@@ -1,9 +1,9 @@
 +++
-title="Twitter Square icon in font awesome icons"
-summary="Twitter Square icon represented as fa-twitter-square in font awesome icons is part of brand (fab) icons"
-keywords=["fa-twitter-square,f081,Twitter Square"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-twitter-square icon in font awesome icons"
+summary="fa-twitter-square icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-twitter-square,f081,fa-twitter-square"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Twitter Square icon represented as fa-twitter-square in font awesome icons is part of brand (fab) icons
+fa-twitter-square icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Twitter Square</td><td>fa-twitter-square</td><td>f081</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-twitter-square</td><td>fa-twitter-square</td><td>f081</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Twitter Square icon Usage
 
-To display Twitter Square icon add predefined class name i.e.,fa-twitter-square (with prefix fa-) to the 'i' tag.
+## fa-twitter-square icon Usage
+
+To display fa-twitter-square icon add predefined class name i.e.,fa-twitter-square (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-twitter-square icon. i.e., fab.
 
 
 
-## Change Twitter Square icon size
-To increase Twitter Square font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-twitter-square.
+## Change fa-twitter-square icon size
+To increase fa-twitter-square font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-twitter-square.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Twitter Square Icon with Fixed Width 
+## fa-twitter-square Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Twitter Square Icon Border 
+## fa-twitter-square Icon Border 
 
 To add border to fa-twitter-square icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-twitter-square icon, use fa-border class.
 
 
 
-## Pull Twitter Square icon To the left
+## Pull fa-twitter-square icon To the left
 
 To pull icon fa-twitter-square to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-twitter-square fa-pull-left fa-3x'></i>
   ... The text after fa-twitter-square Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-twitter-square fa-pull-left fa-3x'></i>
   ... The text after fa-twitter-square Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-twitter-square to the left of the container use fa-pull-left cla
 
 
 
-## Pull Twitter Square icon To the right
+## Pull fa-twitter-square icon To the right
 To pull icon fa-twitter-square to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-twitter-square fa-pull-right fa-3x'></i>
   ... The text after fa-twitter-square Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-twitter-square fa-pull-right fa-3x'></i>
   ... The text after fa-twitter-square Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-twitter-square to the right of the container use fa-pull-right c
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Twitter Square icon using fa-spin
+## Animate fa-twitter-square icon using fa-spin
 To animate font awesome fa-twitter-square icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-twitter-square icon, use fa-spin class.
 
 
 
-## Animate Twitter Square icon with steps
+## Animate fa-twitter-square icon with steps
 While animating the font awesome icon,We can rotate fa-twitter-square icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-twitter-square icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-twitter-square icon with 8 step rotation, use fa-puls
 
 
 
-## Rotate Twitter Square Icon using fa-rotate-x
+## Rotate fa-twitter-square Icon using fa-rotate-x
 To rotate the font awesome icon fa-twitter-square, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Twitter Square Icon using fa-flip-*
+## Flip fa-twitter-square Icon using fa-flip-*
 To flip fa-twitter-square font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-twitter-square font awesome icon horizontally and vertically use fa-f
 
 
 
-## Combine Twitter Square icon with other font awesome icons
+## Combine fa-twitter-square icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

@@ -1,9 +1,9 @@
 +++
-title="Funnel Dollar icon in font awesome icons"
-summary="Funnel Dollar icon represented as fa-funnel-dollar in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-funnel-dollar,f662,Funnel Dollar"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-funnel-dollar icon in font awesome icons"
+summary="fa-funnel-dollar icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-funnel-dollar,f662,fa-funnel-dollar"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Funnel Dollar icon represented as fa-funnel-dollar in font awesome icons has 1 variant fas i.e.,solid.
+fa-funnel-dollar icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Funnel Dollar</td><td>fa-funnel-dollar</td><td>f662</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-funnel-dollar</td><td>fa-funnel-dollar</td><td>f662</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Funnel Dollar icon Usage
 
-To display Funnel Dollar icon add predefined class name i.e.,fa-funnel-dollar (with prefix fa-) to the 'i' tag.
+## fa-funnel-dollar icon Usage
+
+To display fa-funnel-dollar icon add predefined class name i.e.,fa-funnel-dollar (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-funnel-dollar icon. i.e., fas.
 
 
 
-## Change Funnel Dollar icon size
-To increase Funnel Dollar font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-funnel-dollar.
+## Change fa-funnel-dollar icon size
+To increase fa-funnel-dollar font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-funnel-dollar.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Funnel Dollar Icon with Fixed Width 
+## fa-funnel-dollar Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Funnel Dollar Icon Border 
+## fa-funnel-dollar Icon Border 
 
 To add border to fa-funnel-dollar icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-funnel-dollar icon, use fa-border class.
 
 
 
-## Pull Funnel Dollar icon To the left
+## Pull fa-funnel-dollar icon To the left
 
 To pull icon fa-funnel-dollar to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-funnel-dollar fa-pull-left fa-3x'></i>
   ... The text after fa-funnel-dollar Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-funnel-dollar fa-pull-left fa-3x'></i>
   ... The text after fa-funnel-dollar Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-funnel-dollar to the left of the container use fa-pull-left clas
 
 
 
-## Pull Funnel Dollar icon To the right
+## Pull fa-funnel-dollar icon To the right
 To pull icon fa-funnel-dollar to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-funnel-dollar fa-pull-right fa-3x'></i>
   ... The text after fa-funnel-dollar Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-funnel-dollar fa-pull-right fa-3x'></i>
   ... The text after fa-funnel-dollar Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-funnel-dollar to the right of the container use fa-pull-right cl
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Funnel Dollar icon using fa-spin
+## Animate fa-funnel-dollar icon using fa-spin
 To animate font awesome fa-funnel-dollar icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-funnel-dollar icon, use fa-spin class.
 
 
 
-## Animate Funnel Dollar icon with steps
+## Animate fa-funnel-dollar icon with steps
 While animating the font awesome icon,We can rotate fa-funnel-dollar icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-funnel-dollar icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-funnel-dollar icon with 8 step rotation, use fa-pulse
 
 
 
-## Rotate Funnel Dollar Icon using fa-rotate-x
+## Rotate fa-funnel-dollar Icon using fa-rotate-x
 To rotate the font awesome icon fa-funnel-dollar, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Funnel Dollar Icon using fa-flip-*
+## Flip fa-funnel-dollar Icon using fa-flip-*
 To flip fa-funnel-dollar font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-funnel-dollar font awesome icon horizontally and vertically use fa-fl
 
 
 
-## Combine Funnel Dollar icon with other font awesome icons
+## Combine fa-funnel-dollar icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

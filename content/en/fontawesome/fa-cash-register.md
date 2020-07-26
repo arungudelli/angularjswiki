@@ -1,9 +1,9 @@
 +++
-title="Cash Register icon in font awesome icons"
-summary="Cash Register icon represented as fa-cash-register in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-cash-register,f788,Cash Register"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-cash-register icon in font awesome icons"
+summary="fa-cash-register icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-cash-register,f788,fa-cash-register"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Cash Register icon represented as fa-cash-register in font awesome icons has 1 variant fas i.e.,solid.
+fa-cash-register icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Cash Register</td><td>fa-cash-register</td><td>f788</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-cash-register</td><td>fa-cash-register</td><td>f788</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Cash Register icon Usage
 
-To display Cash Register icon add predefined class name i.e.,fa-cash-register (with prefix fa-) to the 'i' tag.
+## fa-cash-register icon Usage
+
+To display fa-cash-register icon add predefined class name i.e.,fa-cash-register (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-cash-register icon. i.e., fas.
 
 
 
-## Change Cash Register icon size
-To increase Cash Register font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-cash-register.
+## Change fa-cash-register icon size
+To increase fa-cash-register font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-cash-register.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Cash Register Icon with Fixed Width 
+## fa-cash-register Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Cash Register Icon Border 
+## fa-cash-register Icon Border 
 
 To add border to fa-cash-register icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-cash-register icon, use fa-border class.
 
 
 
-## Pull Cash Register icon To the left
+## Pull fa-cash-register icon To the left
 
 To pull icon fa-cash-register to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-cash-register fa-pull-left fa-3x'></i>
   ... The text after fa-cash-register Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-cash-register fa-pull-left fa-3x'></i>
   ... The text after fa-cash-register Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-cash-register to the left of the container use fa-pull-left clas
 
 
 
-## Pull Cash Register icon To the right
+## Pull fa-cash-register icon To the right
 To pull icon fa-cash-register to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-cash-register fa-pull-right fa-3x'></i>
   ... The text after fa-cash-register Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-cash-register fa-pull-right fa-3x'></i>
   ... The text after fa-cash-register Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-cash-register to the right of the container use fa-pull-right cl
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Cash Register icon using fa-spin
+## Animate fa-cash-register icon using fa-spin
 To animate font awesome fa-cash-register icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-cash-register icon, use fa-spin class.
 
 
 
-## Animate Cash Register icon with steps
+## Animate fa-cash-register icon with steps
 While animating the font awesome icon,We can rotate fa-cash-register icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-cash-register icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-cash-register icon with 8 step rotation, use fa-pulse
 
 
 
-## Rotate Cash Register Icon using fa-rotate-x
+## Rotate fa-cash-register Icon using fa-rotate-x
 To rotate the font awesome icon fa-cash-register, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Cash Register Icon using fa-flip-*
+## Flip fa-cash-register Icon using fa-flip-*
 To flip fa-cash-register font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-cash-register font awesome icon horizontally and vertically use fa-fl
 
 
 
-## Combine Cash Register icon with other font awesome icons
+## Combine fa-cash-register icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

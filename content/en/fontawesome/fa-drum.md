@@ -1,9 +1,9 @@
 +++
-title="Drum icon in font awesome icons"
-summary="Drum icon represented as fa-drum in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-drum,f569,Drum"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-drum icon in font awesome icons"
+summary="fa-drum icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-drum,f569,fa-drum"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Drum icon represented as fa-drum in font awesome icons has 1 variant fas i.e.,solid.
+fa-drum icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Drum</td><td>fa-drum</td><td>f569</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-drum</td><td>fa-drum</td><td>f569</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Drum icon Usage
 
-To display Drum icon add predefined class name i.e.,fa-drum (with prefix fa-) to the 'i' tag.
+## fa-drum icon Usage
+
+To display fa-drum icon add predefined class name i.e.,fa-drum (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-drum icon. i.e., fas.
 
 
 
-## Change Drum icon size
-To increase Drum font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-drum.
+## Change fa-drum icon size
+To increase fa-drum font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-drum.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Drum Icon with Fixed Width 
+## fa-drum Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Drum Icon Border 
+## fa-drum Icon Border 
 
 To add border to fa-drum icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-drum icon, use fa-border class.
 
 
 
-## Pull Drum icon To the left
+## Pull fa-drum icon To the left
 
 To pull icon fa-drum to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-drum fa-pull-left fa-3x'></i>
   ... The text after fa-drum Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-drum fa-pull-left fa-3x'></i>
   ... The text after fa-drum Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-drum to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Drum icon To the right
+## Pull fa-drum icon To the right
 To pull icon fa-drum to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-drum fa-pull-right fa-3x'></i>
   ... The text after fa-drum Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-drum fa-pull-right fa-3x'></i>
   ... The text after fa-drum Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-drum to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Drum icon using fa-spin
+## Animate fa-drum icon using fa-spin
 To animate font awesome fa-drum icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-drum icon, use fa-spin class.
 
 
 
-## Animate Drum icon with steps
+## Animate fa-drum icon with steps
 While animating the font awesome icon,We can rotate fa-drum icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-drum icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-drum icon with 8 step rotation, use fa-pulse icon alo
 
 
 
-## Rotate Drum Icon using fa-rotate-x
+## Rotate fa-drum Icon using fa-rotate-x
 To rotate the font awesome icon fa-drum, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Drum Icon using fa-flip-*
+## Flip fa-drum Icon using fa-flip-*
 To flip fa-drum font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-drum font awesome icon horizontally and vertically use fa-flip-horizo
 
 
 
-## Combine Drum icon with other font awesome icons
+## Combine fa-drum icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

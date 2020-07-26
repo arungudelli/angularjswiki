@@ -1,9 +1,9 @@
 +++
-title="Cookie Bite icon in font awesome icons"
-summary="Cookie Bite icon represented as fa-cookie-bite in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-cookie-bite,f564,Cookie Bite"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-cookie-bite icon in font awesome icons"
+summary="fa-cookie-bite icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-cookie-bite,f564,fa-cookie-bite"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Cookie Bite icon represented as fa-cookie-bite in font awesome icons has 1 variant fas i.e.,solid.
+fa-cookie-bite icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Cookie Bite</td><td>fa-cookie-bite</td><td>f564</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-cookie-bite</td><td>fa-cookie-bite</td><td>f564</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Cookie Bite icon Usage
 
-To display Cookie Bite icon add predefined class name i.e.,fa-cookie-bite (with prefix fa-) to the 'i' tag.
+## fa-cookie-bite icon Usage
+
+To display fa-cookie-bite icon add predefined class name i.e.,fa-cookie-bite (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-cookie-bite icon. i.e., fas.
 
 
 
-## Change Cookie Bite icon size
-To increase Cookie Bite font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-cookie-bite.
+## Change fa-cookie-bite icon size
+To increase fa-cookie-bite font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-cookie-bite.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Cookie Bite Icon with Fixed Width 
+## fa-cookie-bite Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Cookie Bite Icon Border 
+## fa-cookie-bite Icon Border 
 
 To add border to fa-cookie-bite icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-cookie-bite icon, use fa-border class.
 
 
 
-## Pull Cookie Bite icon To the left
+## Pull fa-cookie-bite icon To the left
 
 To pull icon fa-cookie-bite to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-cookie-bite fa-pull-left fa-3x'></i>
   ... The text after fa-cookie-bite Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-cookie-bite fa-pull-left fa-3x'></i>
   ... The text after fa-cookie-bite Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-cookie-bite to the left of the container use fa-pull-left class.
 
 
 
-## Pull Cookie Bite icon To the right
+## Pull fa-cookie-bite icon To the right
 To pull icon fa-cookie-bite to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-cookie-bite fa-pull-right fa-3x'></i>
   ... The text after fa-cookie-bite Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-cookie-bite fa-pull-right fa-3x'></i>
   ... The text after fa-cookie-bite Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-cookie-bite to the right of the container use fa-pull-right clas
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Cookie Bite icon using fa-spin
+## Animate fa-cookie-bite icon using fa-spin
 To animate font awesome fa-cookie-bite icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-cookie-bite icon, use fa-spin class.
 
 
 
-## Animate Cookie Bite icon with steps
+## Animate fa-cookie-bite icon with steps
 While animating the font awesome icon,We can rotate fa-cookie-bite icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-cookie-bite icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-cookie-bite icon with 8 step rotation, use fa-pulse i
 
 
 
-## Rotate Cookie Bite Icon using fa-rotate-x
+## Rotate fa-cookie-bite Icon using fa-rotate-x
 To rotate the font awesome icon fa-cookie-bite, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Cookie Bite Icon using fa-flip-*
+## Flip fa-cookie-bite Icon using fa-flip-*
 To flip fa-cookie-bite font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-cookie-bite font awesome icon horizontally and vertically use fa-flip
 
 
 
-## Combine Cookie Bite icon with other font awesome icons
+## Combine fa-cookie-bite icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

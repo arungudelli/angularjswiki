@@ -1,9 +1,9 @@
 +++
-title="Transgender Alt icon in font awesome icons"
-summary="Transgender Alt icon represented as fa-transgender-alt in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-transgender-alt,f225,Transgender Alt"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-transgender-alt icon in font awesome icons"
+summary="fa-transgender-alt icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-transgender-alt,f225,fa-transgender-alt"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Transgender Alt icon represented as fa-transgender-alt in font awesome icons has 1 variant fas i.e.,solid.
+fa-transgender-alt icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Transgender Alt</td><td>fa-transgender-alt</td><td>f225</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-transgender-alt</td><td>fa-transgender-alt</td><td>f225</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Transgender Alt icon Usage
 
-To display Transgender Alt icon add predefined class name i.e.,fa-transgender-alt (with prefix fa-) to the 'i' tag.
+## fa-transgender-alt icon Usage
+
+To display fa-transgender-alt icon add predefined class name i.e.,fa-transgender-alt (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-transgender-alt icon. i.e., fas
 
 
 
-## Change Transgender Alt icon size
-To increase Transgender Alt font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-transgender-alt.
+## Change fa-transgender-alt icon size
+To increase fa-transgender-alt font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-transgender-alt.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Transgender Alt Icon with Fixed Width 
+## fa-transgender-alt Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Transgender Alt Icon Border 
+## fa-transgender-alt Icon Border 
 
 To add border to fa-transgender-alt icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-transgender-alt icon, use fa-border class.
 
 
 
-## Pull Transgender Alt icon To the left
+## Pull fa-transgender-alt icon To the left
 
 To pull icon fa-transgender-alt to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-transgender-alt fa-pull-left fa-3x'></i>
   ... The text after fa-transgender-alt Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-transgender-alt fa-pull-left fa-3x'></i>
   ... The text after fa-transgender-alt Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-transgender-alt to the left of the container use fa-pull-left cl
 
 
 
-## Pull Transgender Alt icon To the right
+## Pull fa-transgender-alt icon To the right
 To pull icon fa-transgender-alt to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-transgender-alt fa-pull-right fa-3x'></i>
   ... The text after fa-transgender-alt Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-transgender-alt fa-pull-right fa-3x'></i>
   ... The text after fa-transgender-alt Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-transgender-alt to the right of the container use fa-pull-right 
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Transgender Alt icon using fa-spin
+## Animate fa-transgender-alt icon using fa-spin
 To animate font awesome fa-transgender-alt icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-transgender-alt icon, use fa-spin class.
 
 
 
-## Animate Transgender Alt icon with steps
+## Animate fa-transgender-alt icon with steps
 While animating the font awesome icon,We can rotate fa-transgender-alt icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-transgender-alt icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-transgender-alt icon with 8 step rotation, use fa-pul
 
 
 
-## Rotate Transgender Alt Icon using fa-rotate-x
+## Rotate fa-transgender-alt Icon using fa-rotate-x
 To rotate the font awesome icon fa-transgender-alt, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Transgender Alt Icon using fa-flip-*
+## Flip fa-transgender-alt Icon using fa-flip-*
 To flip fa-transgender-alt font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-transgender-alt font awesome icon horizontally and vertically use fa-
 
 
 
-## Combine Transgender Alt icon with other font awesome icons
+## Combine fa-transgender-alt icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

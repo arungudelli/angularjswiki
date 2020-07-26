@@ -1,9 +1,9 @@
 +++
-title="Dumpster Fire icon in font awesome icons"
-summary="Dumpster Fire icon represented as fa-dumpster-fire in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-dumpster-fire,f794,Dumpster Fire"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-dumpster-fire icon in font awesome icons"
+summary="fa-dumpster-fire icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-dumpster-fire,f794,fa-dumpster-fire"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Dumpster Fire icon represented as fa-dumpster-fire in font awesome icons has 1 variant fas i.e.,solid.
+fa-dumpster-fire icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Dumpster Fire</td><td>fa-dumpster-fire</td><td>f794</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-dumpster-fire</td><td>fa-dumpster-fire</td><td>f794</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Dumpster Fire icon Usage
 
-To display Dumpster Fire icon add predefined class name i.e.,fa-dumpster-fire (with prefix fa-) to the 'i' tag.
+## fa-dumpster-fire icon Usage
+
+To display fa-dumpster-fire icon add predefined class name i.e.,fa-dumpster-fire (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-dumpster-fire icon. i.e., fas.
 
 
 
-## Change Dumpster Fire icon size
-To increase Dumpster Fire font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-dumpster-fire.
+## Change fa-dumpster-fire icon size
+To increase fa-dumpster-fire font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-dumpster-fire.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Dumpster Fire Icon with Fixed Width 
+## fa-dumpster-fire Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Dumpster Fire Icon Border 
+## fa-dumpster-fire Icon Border 
 
 To add border to fa-dumpster-fire icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-dumpster-fire icon, use fa-border class.
 
 
 
-## Pull Dumpster Fire icon To the left
+## Pull fa-dumpster-fire icon To the left
 
 To pull icon fa-dumpster-fire to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-dumpster-fire fa-pull-left fa-3x'></i>
   ... The text after fa-dumpster-fire Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-dumpster-fire fa-pull-left fa-3x'></i>
   ... The text after fa-dumpster-fire Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-dumpster-fire to the left of the container use fa-pull-left clas
 
 
 
-## Pull Dumpster Fire icon To the right
+## Pull fa-dumpster-fire icon To the right
 To pull icon fa-dumpster-fire to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-dumpster-fire fa-pull-right fa-3x'></i>
   ... The text after fa-dumpster-fire Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-dumpster-fire fa-pull-right fa-3x'></i>
   ... The text after fa-dumpster-fire Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-dumpster-fire to the right of the container use fa-pull-right cl
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Dumpster Fire icon using fa-spin
+## Animate fa-dumpster-fire icon using fa-spin
 To animate font awesome fa-dumpster-fire icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-dumpster-fire icon, use fa-spin class.
 
 
 
-## Animate Dumpster Fire icon with steps
+## Animate fa-dumpster-fire icon with steps
 While animating the font awesome icon,We can rotate fa-dumpster-fire icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-dumpster-fire icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-dumpster-fire icon with 8 step rotation, use fa-pulse
 
 
 
-## Rotate Dumpster Fire Icon using fa-rotate-x
+## Rotate fa-dumpster-fire Icon using fa-rotate-x
 To rotate the font awesome icon fa-dumpster-fire, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Dumpster Fire Icon using fa-flip-*
+## Flip fa-dumpster-fire Icon using fa-flip-*
 To flip fa-dumpster-fire font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-dumpster-fire font awesome icon horizontally and vertically use fa-fl
 
 
 
-## Combine Dumpster Fire icon with other font awesome icons
+## Combine fa-dumpster-fire icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

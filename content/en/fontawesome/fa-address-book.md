@@ -1,9 +1,9 @@
 +++
-title="Address Book icon in font awesome icons"
-summary="Address Book icon represented as fa-address-book in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-address-book,f2b9,Address Book"]
-date="19-07-2020T22:19:02"
-lastmod="19-07-2020T22:19:02"
+title="fa-address-book icon in font awesome icons"
+summary="fa-address-book icon in font awesome icons has 2 variants regular (far) and solid (fas)"
+keywords=["fa-address-book,f2b9,fa-address-book"]
+date="25-07-2020T22:59:19"
+lastmod="25-07-2020T22:59:19"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Address Book icon represented as fa-address-book in font awesome icons has 2 variants regular (far) and solid (fas)
+fa-address-book icon in font awesome icons has 2 variants regular (far) and solid (fas)
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Address Book</td><td>fa-address-book</td><td>f2b9</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-address-book</td><td>fa-address-book</td><td>f2b9</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Address Book icon Usage
 
-To display Address Book icon add predefined class name i.e.,fa-address-book (with prefix fa-) to the 'i' tag.
+## fa-address-book icon Usage
+
+To display fa-address-book icon add predefined class name i.e.,fa-address-book (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -45,8 +47,8 @@ And we need to add corresponding category for fa-address-book icon. i.e., fas,fa
 
 
 
-## Change Address Book icon size
-To increase Address Book font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-address-book.
+## Change fa-address-book icon size
+To increase fa-address-book font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-address-book.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -69,7 +71,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Address Book Icon with Fixed Width 
+## fa-address-book Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -89,7 +91,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Address Book Icon Border 
+## fa-address-book Icon Border 
 
 To add border to fa-address-book icon, use fa-border class.
 
@@ -104,20 +106,20 @@ To add border to fa-address-book icon, use fa-border class.
 
 
 
-## Pull Address Book icon To the left
+## Pull fa-address-book icon To the left
 
 To pull icon fa-address-book to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-address-book fa-pull-left fa-3x'></i>
   ... The text after fa-address-book Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-address-book fa-pull-left fa-3x'></i>
   ... The text after fa-address-book Icon will be displayed on the right side of the icons
 </div>
@@ -126,19 +128,19 @@ To pull icon fa-address-book to the left of the container use fa-pull-left class
 
 
 
-## Pull Address Book icon To the right
+## Pull fa-address-book icon To the right
 To pull icon fa-address-book to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-address-book fa-pull-right fa-3x'></i>
   ... The text after fa-address-book Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-address-book fa-pull-right fa-3x'></i>
   ... The text after fa-address-book Icon will be displayed on the left side of the icons
 </div>
@@ -147,7 +149,7 @@ To pull icon fa-address-book to the right of the container use fa-pull-right cla
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Address Book icon using fa-spin
+## Animate fa-address-book icon using fa-spin
 To animate font awesome fa-address-book icon, use fa-spin class.
 
 ```
@@ -158,7 +160,7 @@ To animate font awesome fa-address-book icon, use fa-spin class.
 
 
 
-## Animate Address Book icon with steps
+## Animate fa-address-book icon with steps
 While animating the font awesome icon,We can rotate fa-address-book icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-address-book icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -174,7 +176,7 @@ To animate font awesome fa-address-book icon with 8 step rotation, use fa-pulse 
 
 
 
-## Rotate Address Book Icon using fa-rotate-x
+## Rotate fa-address-book Icon using fa-rotate-x
 To rotate the font awesome icon fa-address-book, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -200,7 +202,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Address Book Icon using fa-flip-*
+## Flip fa-address-book Icon using fa-flip-*
 To flip fa-address-book font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -217,7 +219,7 @@ To flip fa-address-book font awesome icon horizontally and vertically use fa-fli
 
 
 
-## Combine Address Book icon with other font awesome icons
+## Combine fa-address-book icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

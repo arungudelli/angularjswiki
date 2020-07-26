@@ -1,9 +1,9 @@
 +++
-title="Skull Crossbones icon in font awesome icons"
-summary="Skull Crossbones icon represented as fa-skull-crossbones in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-skull-crossbones,f714,Skull Crossbones"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-skull-crossbones icon in font awesome icons"
+summary="fa-skull-crossbones icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-skull-crossbones,f714,fa-skull-crossbones"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Skull Crossbones icon represented as fa-skull-crossbones in font awesome icons has 1 variant fas i.e.,solid.
+fa-skull-crossbones icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Skull Crossbones</td><td>fa-skull-crossbones</td><td>f714</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-skull-crossbones</td><td>fa-skull-crossbones</td><td>f714</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Skull Crossbones icon Usage
 
-To display Skull Crossbones icon add predefined class name i.e.,fa-skull-crossbones (with prefix fa-) to the 'i' tag.
+## fa-skull-crossbones icon Usage
+
+To display fa-skull-crossbones icon add predefined class name i.e.,fa-skull-crossbones (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-skull-crossbones icon. i.e., fa
 
 
 
-## Change Skull Crossbones icon size
-To increase Skull Crossbones font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-skull-crossbones.
+## Change fa-skull-crossbones icon size
+To increase fa-skull-crossbones font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-skull-crossbones.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Skull Crossbones Icon with Fixed Width 
+## fa-skull-crossbones Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Skull Crossbones Icon Border 
+## fa-skull-crossbones Icon Border 
 
 To add border to fa-skull-crossbones icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-skull-crossbones icon, use fa-border class.
 
 
 
-## Pull Skull Crossbones icon To the left
+## Pull fa-skull-crossbones icon To the left
 
 To pull icon fa-skull-crossbones to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-skull-crossbones fa-pull-left fa-3x'></i>
   ... The text after fa-skull-crossbones Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-skull-crossbones fa-pull-left fa-3x'></i>
   ... The text after fa-skull-crossbones Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-skull-crossbones to the left of the container use fa-pull-left c
 
 
 
-## Pull Skull Crossbones icon To the right
+## Pull fa-skull-crossbones icon To the right
 To pull icon fa-skull-crossbones to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-skull-crossbones fa-pull-right fa-3x'></i>
   ... The text after fa-skull-crossbones Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-skull-crossbones fa-pull-right fa-3x'></i>
   ... The text after fa-skull-crossbones Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-skull-crossbones to the right of the container use fa-pull-right
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Skull Crossbones icon using fa-spin
+## Animate fa-skull-crossbones icon using fa-spin
 To animate font awesome fa-skull-crossbones icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-skull-crossbones icon, use fa-spin class.
 
 
 
-## Animate Skull Crossbones icon with steps
+## Animate fa-skull-crossbones icon with steps
 While animating the font awesome icon,We can rotate fa-skull-crossbones icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-skull-crossbones icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-skull-crossbones icon with 8 step rotation, use fa-pu
 
 
 
-## Rotate Skull Crossbones Icon using fa-rotate-x
+## Rotate fa-skull-crossbones Icon using fa-rotate-x
 To rotate the font awesome icon fa-skull-crossbones, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Skull Crossbones Icon using fa-flip-*
+## Flip fa-skull-crossbones Icon using fa-flip-*
 To flip fa-skull-crossbones font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-skull-crossbones font awesome icon horizontally and vertically use fa
 
 
 
-## Combine Skull Crossbones icon with other font awesome icons
+## Combine fa-skull-crossbones icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

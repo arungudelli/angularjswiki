@@ -1,9 +1,9 @@
 +++
-title="Grin Squint icon in font awesome icons"
-summary="Grin Squint icon represented as fa-grin-squint in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-grin-squint,f585,Grin Squint"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-grin-squint icon in font awesome icons"
+summary="fa-grin-squint icon in font awesome icons has 2 variants regular (far) and solid (fas)"
+keywords=["fa-grin-squint,f585,fa-grin-squint"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Grin Squint icon represented as fa-grin-squint in font awesome icons has 2 variants regular (far) and solid (fas)
+fa-grin-squint icon in font awesome icons has 2 variants regular (far) and solid (fas)
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Grin Squint</td><td>fa-grin-squint</td><td>f585</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-grin-squint</td><td>fa-grin-squint</td><td>f585</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Grin Squint icon Usage
 
-To display Grin Squint icon add predefined class name i.e.,fa-grin-squint (with prefix fa-) to the 'i' tag.
+## fa-grin-squint icon Usage
+
+To display fa-grin-squint icon add predefined class name i.e.,fa-grin-squint (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -45,8 +47,8 @@ And we need to add corresponding category for fa-grin-squint icon. i.e., fas,far
 
 
 
-## Change Grin Squint icon size
-To increase Grin Squint font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-grin-squint.
+## Change fa-grin-squint icon size
+To increase fa-grin-squint font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-grin-squint.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -69,7 +71,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Grin Squint Icon with Fixed Width 
+## fa-grin-squint Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -89,7 +91,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Grin Squint Icon Border 
+## fa-grin-squint Icon Border 
 
 To add border to fa-grin-squint icon, use fa-border class.
 
@@ -104,20 +106,20 @@ To add border to fa-grin-squint icon, use fa-border class.
 
 
 
-## Pull Grin Squint icon To the left
+## Pull fa-grin-squint icon To the left
 
 To pull icon fa-grin-squint to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-grin-squint fa-pull-left fa-3x'></i>
   ... The text after fa-grin-squint Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-grin-squint fa-pull-left fa-3x'></i>
   ... The text after fa-grin-squint Icon will be displayed on the right side of the icons
 </div>
@@ -126,19 +128,19 @@ To pull icon fa-grin-squint to the left of the container use fa-pull-left class.
 
 
 
-## Pull Grin Squint icon To the right
+## Pull fa-grin-squint icon To the right
 To pull icon fa-grin-squint to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-grin-squint fa-pull-right fa-3x'></i>
   ... The text after fa-grin-squint Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-grin-squint fa-pull-right fa-3x'></i>
   ... The text after fa-grin-squint Icon will be displayed on the left side of the icons
 </div>
@@ -147,7 +149,7 @@ To pull icon fa-grin-squint to the right of the container use fa-pull-right clas
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Grin Squint icon using fa-spin
+## Animate fa-grin-squint icon using fa-spin
 To animate font awesome fa-grin-squint icon, use fa-spin class.
 
 ```
@@ -158,7 +160,7 @@ To animate font awesome fa-grin-squint icon, use fa-spin class.
 
 
 
-## Animate Grin Squint icon with steps
+## Animate fa-grin-squint icon with steps
 While animating the font awesome icon,We can rotate fa-grin-squint icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-grin-squint icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -174,7 +176,7 @@ To animate font awesome fa-grin-squint icon with 8 step rotation, use fa-pulse i
 
 
 
-## Rotate Grin Squint Icon using fa-rotate-x
+## Rotate fa-grin-squint Icon using fa-rotate-x
 To rotate the font awesome icon fa-grin-squint, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -200,7 +202,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Grin Squint Icon using fa-flip-*
+## Flip fa-grin-squint Icon using fa-flip-*
 To flip fa-grin-squint font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -217,7 +219,7 @@ To flip fa-grin-squint font awesome icon horizontally and vertically use fa-flip
 
 
 
-## Combine Grin Squint icon with other font awesome icons
+## Combine fa-grin-squint icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

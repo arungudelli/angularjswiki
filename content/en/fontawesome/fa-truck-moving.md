@@ -1,9 +1,9 @@
 +++
-title="Truck Moving icon in font awesome icons"
-summary="Truck Moving icon represented as fa-truck-moving in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-truck-moving,f4df,Truck Moving"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-truck-moving icon in font awesome icons"
+summary="fa-truck-moving icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-truck-moving,f4df,fa-truck-moving"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Truck Moving icon represented as fa-truck-moving in font awesome icons has 1 variant fas i.e.,solid.
+fa-truck-moving icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Truck Moving</td><td>fa-truck-moving</td><td>f4df</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-truck-moving</td><td>fa-truck-moving</td><td>f4df</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Truck Moving icon Usage
 
-To display Truck Moving icon add predefined class name i.e.,fa-truck-moving (with prefix fa-) to the 'i' tag.
+## fa-truck-moving icon Usage
+
+To display fa-truck-moving icon add predefined class name i.e.,fa-truck-moving (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-truck-moving icon. i.e., fas.
 
 
 
-## Change Truck Moving icon size
-To increase Truck Moving font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-truck-moving.
+## Change fa-truck-moving icon size
+To increase fa-truck-moving font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-truck-moving.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Truck Moving Icon with Fixed Width 
+## fa-truck-moving Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Truck Moving Icon Border 
+## fa-truck-moving Icon Border 
 
 To add border to fa-truck-moving icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-truck-moving icon, use fa-border class.
 
 
 
-## Pull Truck Moving icon To the left
+## Pull fa-truck-moving icon To the left
 
 To pull icon fa-truck-moving to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-truck-moving fa-pull-left fa-3x'></i>
   ... The text after fa-truck-moving Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-truck-moving fa-pull-left fa-3x'></i>
   ... The text after fa-truck-moving Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-truck-moving to the left of the container use fa-pull-left class
 
 
 
-## Pull Truck Moving icon To the right
+## Pull fa-truck-moving icon To the right
 To pull icon fa-truck-moving to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-truck-moving fa-pull-right fa-3x'></i>
   ... The text after fa-truck-moving Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-truck-moving fa-pull-right fa-3x'></i>
   ... The text after fa-truck-moving Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-truck-moving to the right of the container use fa-pull-right cla
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Truck Moving icon using fa-spin
+## Animate fa-truck-moving icon using fa-spin
 To animate font awesome fa-truck-moving icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-truck-moving icon, use fa-spin class.
 
 
 
-## Animate Truck Moving icon with steps
+## Animate fa-truck-moving icon with steps
 While animating the font awesome icon,We can rotate fa-truck-moving icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-truck-moving icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-truck-moving icon with 8 step rotation, use fa-pulse 
 
 
 
-## Rotate Truck Moving Icon using fa-rotate-x
+## Rotate fa-truck-moving Icon using fa-rotate-x
 To rotate the font awesome icon fa-truck-moving, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Truck Moving Icon using fa-flip-*
+## Flip fa-truck-moving Icon using fa-flip-*
 To flip fa-truck-moving font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-truck-moving font awesome icon horizontally and vertically use fa-fli
 
 
 
-## Combine Truck Moving icon with other font awesome icons
+## Combine fa-truck-moving icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

@@ -1,9 +1,9 @@
 +++
-title="Check Circle icon in font awesome icons"
-summary="Check Circle icon represented as fa-check-circle in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-check-circle,f058,Check Circle"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-check-circle icon in font awesome icons"
+summary="fa-check-circle icon in font awesome icons has 2 variants regular (far) and solid (fas)"
+keywords=["fa-check-circle,f058,fa-check-circle"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Check Circle icon represented as fa-check-circle in font awesome icons has 2 variants regular (far) and solid (fas)
+fa-check-circle icon in font awesome icons has 2 variants regular (far) and solid (fas)
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Check Circle</td><td>fa-check-circle</td><td>f058</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-check-circle</td><td>fa-check-circle</td><td>f058</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Check Circle icon Usage
 
-To display Check Circle icon add predefined class name i.e.,fa-check-circle (with prefix fa-) to the 'i' tag.
+## fa-check-circle icon Usage
+
+To display fa-check-circle icon add predefined class name i.e.,fa-check-circle (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -45,8 +47,8 @@ And we need to add corresponding category for fa-check-circle icon. i.e., fas,fa
 
 
 
-## Change Check Circle icon size
-To increase Check Circle font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-check-circle.
+## Change fa-check-circle icon size
+To increase fa-check-circle font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-check-circle.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -69,7 +71,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Check Circle Icon with Fixed Width 
+## fa-check-circle Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -89,7 +91,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Check Circle Icon Border 
+## fa-check-circle Icon Border 
 
 To add border to fa-check-circle icon, use fa-border class.
 
@@ -104,20 +106,20 @@ To add border to fa-check-circle icon, use fa-border class.
 
 
 
-## Pull Check Circle icon To the left
+## Pull fa-check-circle icon To the left
 
 To pull icon fa-check-circle to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-check-circle fa-pull-left fa-3x'></i>
   ... The text after fa-check-circle Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-check-circle fa-pull-left fa-3x'></i>
   ... The text after fa-check-circle Icon will be displayed on the right side of the icons
 </div>
@@ -126,19 +128,19 @@ To pull icon fa-check-circle to the left of the container use fa-pull-left class
 
 
 
-## Pull Check Circle icon To the right
+## Pull fa-check-circle icon To the right
 To pull icon fa-check-circle to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-check-circle fa-pull-right fa-3x'></i>
   ... The text after fa-check-circle Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-check-circle fa-pull-right fa-3x'></i>
   ... The text after fa-check-circle Icon will be displayed on the left side of the icons
 </div>
@@ -147,7 +149,7 @@ To pull icon fa-check-circle to the right of the container use fa-pull-right cla
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Check Circle icon using fa-spin
+## Animate fa-check-circle icon using fa-spin
 To animate font awesome fa-check-circle icon, use fa-spin class.
 
 ```
@@ -158,7 +160,7 @@ To animate font awesome fa-check-circle icon, use fa-spin class.
 
 
 
-## Animate Check Circle icon with steps
+## Animate fa-check-circle icon with steps
 While animating the font awesome icon,We can rotate fa-check-circle icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-check-circle icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -174,7 +176,7 @@ To animate font awesome fa-check-circle icon with 8 step rotation, use fa-pulse 
 
 
 
-## Rotate Check Circle Icon using fa-rotate-x
+## Rotate fa-check-circle Icon using fa-rotate-x
 To rotate the font awesome icon fa-check-circle, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -200,7 +202,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Check Circle Icon using fa-flip-*
+## Flip fa-check-circle Icon using fa-flip-*
 To flip fa-check-circle font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -217,7 +219,7 @@ To flip fa-check-circle font awesome icon horizontally and vertically use fa-fli
 
 
 
-## Combine Check Circle icon with other font awesome icons
+## Combine fa-check-circle icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

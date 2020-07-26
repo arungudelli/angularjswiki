@@ -1,9 +1,9 @@
 +++
-title="Superscript icon in font awesome icons"
-summary="Superscript icon represented as fa-superscript in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-superscript,f12b,Superscript"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-superscript icon in font awesome icons"
+summary="fa-superscript icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-superscript,f12b,fa-superscript"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Superscript icon represented as fa-superscript in font awesome icons has 1 variant fas i.e.,solid.
+fa-superscript icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Superscript</td><td>fa-superscript</td><td>f12b</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-superscript</td><td>fa-superscript</td><td>f12b</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Superscript icon Usage
 
-To display Superscript icon add predefined class name i.e.,fa-superscript (with prefix fa-) to the 'i' tag.
+## fa-superscript icon Usage
+
+To display fa-superscript icon add predefined class name i.e.,fa-superscript (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-superscript icon. i.e., fas.
 
 
 
-## Change Superscript icon size
-To increase Superscript font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-superscript.
+## Change fa-superscript icon size
+To increase fa-superscript font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-superscript.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Superscript Icon with Fixed Width 
+## fa-superscript Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Superscript Icon Border 
+## fa-superscript Icon Border 
 
 To add border to fa-superscript icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-superscript icon, use fa-border class.
 
 
 
-## Pull Superscript icon To the left
+## Pull fa-superscript icon To the left
 
 To pull icon fa-superscript to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-superscript fa-pull-left fa-3x'></i>
   ... The text after fa-superscript Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-superscript fa-pull-left fa-3x'></i>
   ... The text after fa-superscript Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-superscript to the left of the container use fa-pull-left class.
 
 
 
-## Pull Superscript icon To the right
+## Pull fa-superscript icon To the right
 To pull icon fa-superscript to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-superscript fa-pull-right fa-3x'></i>
   ... The text after fa-superscript Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-superscript fa-pull-right fa-3x'></i>
   ... The text after fa-superscript Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-superscript to the right of the container use fa-pull-right clas
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Superscript icon using fa-spin
+## Animate fa-superscript icon using fa-spin
 To animate font awesome fa-superscript icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-superscript icon, use fa-spin class.
 
 
 
-## Animate Superscript icon with steps
+## Animate fa-superscript icon with steps
 While animating the font awesome icon,We can rotate fa-superscript icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-superscript icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-superscript icon with 8 step rotation, use fa-pulse i
 
 
 
-## Rotate Superscript Icon using fa-rotate-x
+## Rotate fa-superscript Icon using fa-rotate-x
 To rotate the font awesome icon fa-superscript, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Superscript Icon using fa-flip-*
+## Flip fa-superscript Icon using fa-flip-*
 To flip fa-superscript font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-superscript font awesome icon horizontally and vertically use fa-flip
 
 
 
-## Combine Superscript icon with other font awesome icons
+## Combine fa-superscript icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

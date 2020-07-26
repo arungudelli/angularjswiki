@@ -1,9 +1,9 @@
 +++
-title="Angle Double Left icon in font awesome icons"
-summary="Angle Double Left icon represented as fa-angle-double-left in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-angle-double-left,f100,Angle Double Left"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-angle-double-left icon in font awesome icons"
+summary="fa-angle-double-left icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-angle-double-left,f100,fa-angle-double-left"]
+date="25-07-2020T22:59:19"
+lastmod="25-07-2020T22:59:19"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Angle Double Left icon represented as fa-angle-double-left in font awesome icons has 1 variant fas i.e.,solid.
+fa-angle-double-left icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Angle Double Left</td><td>fa-angle-double-left</td><td>f100</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-angle-double-left</td><td>fa-angle-double-left</td><td>f100</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Angle Double Left icon Usage
 
-To display Angle Double Left icon add predefined class name i.e.,fa-angle-double-left (with prefix fa-) to the 'i' tag.
+## fa-angle-double-left icon Usage
+
+To display fa-angle-double-left icon add predefined class name i.e.,fa-angle-double-left (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-angle-double-left icon. i.e., f
 
 
 
-## Change Angle Double Left icon size
-To increase Angle Double Left font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-angle-double-left.
+## Change fa-angle-double-left icon size
+To increase fa-angle-double-left font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-angle-double-left.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Angle Double Left Icon with Fixed Width 
+## fa-angle-double-left Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Angle Double Left Icon Border 
+## fa-angle-double-left Icon Border 
 
 To add border to fa-angle-double-left icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-angle-double-left icon, use fa-border class.
 
 
 
-## Pull Angle Double Left icon To the left
+## Pull fa-angle-double-left icon To the left
 
 To pull icon fa-angle-double-left to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-angle-double-left fa-pull-left fa-3x'></i>
   ... The text after fa-angle-double-left Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-angle-double-left fa-pull-left fa-3x'></i>
   ... The text after fa-angle-double-left Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-angle-double-left to the left of the container use fa-pull-left 
 
 
 
-## Pull Angle Double Left icon To the right
+## Pull fa-angle-double-left icon To the right
 To pull icon fa-angle-double-left to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-angle-double-left fa-pull-right fa-3x'></i>
   ... The text after fa-angle-double-left Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-angle-double-left fa-pull-right fa-3x'></i>
   ... The text after fa-angle-double-left Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-angle-double-left to the right of the container use fa-pull-righ
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Angle Double Left icon using fa-spin
+## Animate fa-angle-double-left icon using fa-spin
 To animate font awesome fa-angle-double-left icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-angle-double-left icon, use fa-spin class.
 
 
 
-## Animate Angle Double Left icon with steps
+## Animate fa-angle-double-left icon with steps
 While animating the font awesome icon,We can rotate fa-angle-double-left icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-angle-double-left icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-angle-double-left icon with 8 step rotation, use fa-p
 
 
 
-## Rotate Angle Double Left Icon using fa-rotate-x
+## Rotate fa-angle-double-left Icon using fa-rotate-x
 To rotate the font awesome icon fa-angle-double-left, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Angle Double Left Icon using fa-flip-*
+## Flip fa-angle-double-left Icon using fa-flip-*
 To flip fa-angle-double-left font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-angle-double-left font awesome icon horizontally and vertically use f
 
 
 
-## Combine Angle Double Left icon with other font awesome icons
+## Combine fa-angle-double-left icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

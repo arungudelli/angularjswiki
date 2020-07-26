@@ -1,9 +1,9 @@
 +++
-title="Walking icon in font awesome icons"
-summary="Walking icon represented as fa-walking in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-walking,f554,Walking"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-walking icon in font awesome icons"
+summary="fa-walking icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-walking,f554,fa-walking"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Walking icon represented as fa-walking in font awesome icons has 1 variant fas i.e.,solid.
+fa-walking icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Walking</td><td>fa-walking</td><td>f554</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-walking</td><td>fa-walking</td><td>f554</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Walking icon Usage
 
-To display Walking icon add predefined class name i.e.,fa-walking (with prefix fa-) to the 'i' tag.
+## fa-walking icon Usage
+
+To display fa-walking icon add predefined class name i.e.,fa-walking (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-walking icon. i.e., fas.
 
 
 
-## Change Walking icon size
-To increase Walking font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-walking.
+## Change fa-walking icon size
+To increase fa-walking font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-walking.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Walking Icon with Fixed Width 
+## fa-walking Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Walking Icon Border 
+## fa-walking Icon Border 
 
 To add border to fa-walking icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-walking icon, use fa-border class.
 
 
 
-## Pull Walking icon To the left
+## Pull fa-walking icon To the left
 
 To pull icon fa-walking to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-walking fa-pull-left fa-3x'></i>
   ... The text after fa-walking Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-walking fa-pull-left fa-3x'></i>
   ... The text after fa-walking Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-walking to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Walking icon To the right
+## Pull fa-walking icon To the right
 To pull icon fa-walking to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-walking fa-pull-right fa-3x'></i>
   ... The text after fa-walking Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-walking fa-pull-right fa-3x'></i>
   ... The text after fa-walking Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-walking to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Walking icon using fa-spin
+## Animate fa-walking icon using fa-spin
 To animate font awesome fa-walking icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-walking icon, use fa-spin class.
 
 
 
-## Animate Walking icon with steps
+## Animate fa-walking icon with steps
 While animating the font awesome icon,We can rotate fa-walking icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-walking icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-walking icon with 8 step rotation, use fa-pulse icon 
 
 
 
-## Rotate Walking Icon using fa-rotate-x
+## Rotate fa-walking Icon using fa-rotate-x
 To rotate the font awesome icon fa-walking, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Walking Icon using fa-flip-*
+## Flip fa-walking Icon using fa-flip-*
 To flip fa-walking font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-walking font awesome icon horizontally and vertically use fa-flip-hor
 
 
 
-## Combine Walking icon with other font awesome icons
+## Combine fa-walking icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

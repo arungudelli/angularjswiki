@@ -1,9 +1,9 @@
 +++
-title="Youtube Square icon in font awesome icons"
-summary="Youtube Square icon represented as fa-youtube-square in font awesome icons is part of brand (fab) icons"
-keywords=["fa-youtube-square,f431,Youtube Square"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-youtube-square icon in font awesome icons"
+summary="fa-youtube-square icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-youtube-square,f431,fa-youtube-square"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Youtube Square icon represented as fa-youtube-square in font awesome icons is part of brand (fab) icons
+fa-youtube-square icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Youtube Square</td><td>fa-youtube-square</td><td>f431</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-youtube-square</td><td>fa-youtube-square</td><td>f431</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Youtube Square icon Usage
 
-To display Youtube Square icon add predefined class name i.e.,fa-youtube-square (with prefix fa-) to the 'i' tag.
+## fa-youtube-square icon Usage
+
+To display fa-youtube-square icon add predefined class name i.e.,fa-youtube-square (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-youtube-square icon. i.e., fab.
 
 
 
-## Change Youtube Square icon size
-To increase Youtube Square font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-youtube-square.
+## Change fa-youtube-square icon size
+To increase fa-youtube-square font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-youtube-square.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Youtube Square Icon with Fixed Width 
+## fa-youtube-square Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Youtube Square Icon Border 
+## fa-youtube-square Icon Border 
 
 To add border to fa-youtube-square icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-youtube-square icon, use fa-border class.
 
 
 
-## Pull Youtube Square icon To the left
+## Pull fa-youtube-square icon To the left
 
 To pull icon fa-youtube-square to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-youtube-square fa-pull-left fa-3x'></i>
   ... The text after fa-youtube-square Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-youtube-square fa-pull-left fa-3x'></i>
   ... The text after fa-youtube-square Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-youtube-square to the left of the container use fa-pull-left cla
 
 
 
-## Pull Youtube Square icon To the right
+## Pull fa-youtube-square icon To the right
 To pull icon fa-youtube-square to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-youtube-square fa-pull-right fa-3x'></i>
   ... The text after fa-youtube-square Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-youtube-square fa-pull-right fa-3x'></i>
   ... The text after fa-youtube-square Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-youtube-square to the right of the container use fa-pull-right c
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Youtube Square icon using fa-spin
+## Animate fa-youtube-square icon using fa-spin
 To animate font awesome fa-youtube-square icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-youtube-square icon, use fa-spin class.
 
 
 
-## Animate Youtube Square icon with steps
+## Animate fa-youtube-square icon with steps
 While animating the font awesome icon,We can rotate fa-youtube-square icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-youtube-square icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-youtube-square icon with 8 step rotation, use fa-puls
 
 
 
-## Rotate Youtube Square Icon using fa-rotate-x
+## Rotate fa-youtube-square Icon using fa-rotate-x
 To rotate the font awesome icon fa-youtube-square, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Youtube Square Icon using fa-flip-*
+## Flip fa-youtube-square Icon using fa-flip-*
 To flip fa-youtube-square font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-youtube-square font awesome icon horizontally and vertically use fa-f
 
 
 
-## Combine Youtube Square icon with other font awesome icons
+## Combine fa-youtube-square icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

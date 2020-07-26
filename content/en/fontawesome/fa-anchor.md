@@ -1,9 +1,9 @@
 +++
-title="Anchor icon in font awesome icons"
-summary="Anchor icon represented as fa-anchor in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-anchor,f13d,Anchor"]
-date="19-07-2020T22:19:02"
-lastmod="19-07-2020T22:19:02"
+title="fa-anchor icon in font awesome icons"
+summary="fa-anchor icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-anchor,f13d,fa-anchor"]
+date="25-07-2020T22:59:19"
+lastmod="25-07-2020T22:59:19"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Anchor icon represented as fa-anchor in font awesome icons has 1 variant fas i.e.,solid.
+fa-anchor icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Anchor</td><td>fa-anchor</td><td>f13d</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-anchor</td><td>fa-anchor</td><td>f13d</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Anchor icon Usage
 
-To display Anchor icon add predefined class name i.e.,fa-anchor (with prefix fa-) to the 'i' tag.
+## fa-anchor icon Usage
+
+To display fa-anchor icon add predefined class name i.e.,fa-anchor (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-anchor icon. i.e., fas.
 
 
 
-## Change Anchor icon size
-To increase Anchor font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-anchor.
+## Change fa-anchor icon size
+To increase fa-anchor font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-anchor.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Anchor Icon with Fixed Width 
+## fa-anchor Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Anchor Icon Border 
+## fa-anchor Icon Border 
 
 To add border to fa-anchor icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-anchor icon, use fa-border class.
 
 
 
-## Pull Anchor icon To the left
+## Pull fa-anchor icon To the left
 
 To pull icon fa-anchor to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-anchor fa-pull-left fa-3x'></i>
   ... The text after fa-anchor Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-anchor fa-pull-left fa-3x'></i>
   ... The text after fa-anchor Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-anchor to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Anchor icon To the right
+## Pull fa-anchor icon To the right
 To pull icon fa-anchor to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-anchor fa-pull-right fa-3x'></i>
   ... The text after fa-anchor Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-anchor fa-pull-right fa-3x'></i>
   ... The text after fa-anchor Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-anchor to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Anchor icon using fa-spin
+## Animate fa-anchor icon using fa-spin
 To animate font awesome fa-anchor icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-anchor icon, use fa-spin class.
 
 
 
-## Animate Anchor icon with steps
+## Animate fa-anchor icon with steps
 While animating the font awesome icon,We can rotate fa-anchor icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-anchor icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-anchor icon with 8 step rotation, use fa-pulse icon a
 
 
 
-## Rotate Anchor Icon using fa-rotate-x
+## Rotate fa-anchor Icon using fa-rotate-x
 To rotate the font awesome icon fa-anchor, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Anchor Icon using fa-flip-*
+## Flip fa-anchor Icon using fa-flip-*
 To flip fa-anchor font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-anchor font awesome icon horizontally and vertically use fa-flip-hori
 
 
 
-## Combine Anchor icon with other font awesome icons
+## Combine fa-anchor icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

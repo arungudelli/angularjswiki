@@ -1,9 +1,9 @@
 +++
-title="Ellipsis H icon in font awesome icons"
-summary="Ellipsis H icon represented as fa-ellipsis-h in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-ellipsis-h,f141,Ellipsis H"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-ellipsis-h icon in font awesome icons"
+summary="fa-ellipsis-h icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-ellipsis-h,f141,fa-ellipsis-h"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Ellipsis H icon represented as fa-ellipsis-h in font awesome icons has 1 variant fas i.e.,solid.
+fa-ellipsis-h icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Ellipsis H</td><td>fa-ellipsis-h</td><td>f141</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-ellipsis-h</td><td>fa-ellipsis-h</td><td>f141</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Ellipsis H icon Usage
 
-To display Ellipsis H icon add predefined class name i.e.,fa-ellipsis-h (with prefix fa-) to the 'i' tag.
+## fa-ellipsis-h icon Usage
+
+To display fa-ellipsis-h icon add predefined class name i.e.,fa-ellipsis-h (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-ellipsis-h icon. i.e., fas.
 
 
 
-## Change Ellipsis H icon size
-To increase Ellipsis H font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-ellipsis-h.
+## Change fa-ellipsis-h icon size
+To increase fa-ellipsis-h font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-ellipsis-h.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Ellipsis H Icon with Fixed Width 
+## fa-ellipsis-h Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Ellipsis H Icon Border 
+## fa-ellipsis-h Icon Border 
 
 To add border to fa-ellipsis-h icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-ellipsis-h icon, use fa-border class.
 
 
 
-## Pull Ellipsis H icon To the left
+## Pull fa-ellipsis-h icon To the left
 
 To pull icon fa-ellipsis-h to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-ellipsis-h fa-pull-left fa-3x'></i>
   ... The text after fa-ellipsis-h Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-ellipsis-h fa-pull-left fa-3x'></i>
   ... The text after fa-ellipsis-h Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-ellipsis-h to the left of the container use fa-pull-left class.\
 
 
 
-## Pull Ellipsis H icon To the right
+## Pull fa-ellipsis-h icon To the right
 To pull icon fa-ellipsis-h to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-ellipsis-h fa-pull-right fa-3x'></i>
   ... The text after fa-ellipsis-h Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-ellipsis-h fa-pull-right fa-3x'></i>
   ... The text after fa-ellipsis-h Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-ellipsis-h to the right of the container use fa-pull-right class
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Ellipsis H icon using fa-spin
+## Animate fa-ellipsis-h icon using fa-spin
 To animate font awesome fa-ellipsis-h icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-ellipsis-h icon, use fa-spin class.
 
 
 
-## Animate Ellipsis H icon with steps
+## Animate fa-ellipsis-h icon with steps
 While animating the font awesome icon,We can rotate fa-ellipsis-h icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-ellipsis-h icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-ellipsis-h icon with 8 step rotation, use fa-pulse ic
 
 
 
-## Rotate Ellipsis H Icon using fa-rotate-x
+## Rotate fa-ellipsis-h Icon using fa-rotate-x
 To rotate the font awesome icon fa-ellipsis-h, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Ellipsis H Icon using fa-flip-*
+## Flip fa-ellipsis-h Icon using fa-flip-*
 To flip fa-ellipsis-h font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-ellipsis-h font awesome icon horizontally and vertically use fa-flip-
 
 
 
-## Combine Ellipsis H icon with other font awesome icons
+## Combine fa-ellipsis-h icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

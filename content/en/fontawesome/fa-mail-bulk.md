@@ -1,9 +1,9 @@
 +++
-title="Mail Bulk icon in font awesome icons"
-summary="Mail Bulk icon represented as fa-mail-bulk in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-mail-bulk,f674,Mail Bulk"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-mail-bulk icon in font awesome icons"
+summary="fa-mail-bulk icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-mail-bulk,f674,fa-mail-bulk"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Mail Bulk icon represented as fa-mail-bulk in font awesome icons has 1 variant fas i.e.,solid.
+fa-mail-bulk icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Mail Bulk</td><td>fa-mail-bulk</td><td>f674</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-mail-bulk</td><td>fa-mail-bulk</td><td>f674</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Mail Bulk icon Usage
 
-To display Mail Bulk icon add predefined class name i.e.,fa-mail-bulk (with prefix fa-) to the 'i' tag.
+## fa-mail-bulk icon Usage
+
+To display fa-mail-bulk icon add predefined class name i.e.,fa-mail-bulk (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-mail-bulk icon. i.e., fas.
 
 
 
-## Change Mail Bulk icon size
-To increase Mail Bulk font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-mail-bulk.
+## Change fa-mail-bulk icon size
+To increase fa-mail-bulk font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-mail-bulk.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Mail Bulk Icon with Fixed Width 
+## fa-mail-bulk Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Mail Bulk Icon Border 
+## fa-mail-bulk Icon Border 
 
 To add border to fa-mail-bulk icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-mail-bulk icon, use fa-border class.
 
 
 
-## Pull Mail Bulk icon To the left
+## Pull fa-mail-bulk icon To the left
 
 To pull icon fa-mail-bulk to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-mail-bulk fa-pull-left fa-3x'></i>
   ... The text after fa-mail-bulk Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-mail-bulk fa-pull-left fa-3x'></i>
   ... The text after fa-mail-bulk Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-mail-bulk to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Mail Bulk icon To the right
+## Pull fa-mail-bulk icon To the right
 To pull icon fa-mail-bulk to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-mail-bulk fa-pull-right fa-3x'></i>
   ... The text after fa-mail-bulk Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-mail-bulk fa-pull-right fa-3x'></i>
   ... The text after fa-mail-bulk Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-mail-bulk to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Mail Bulk icon using fa-spin
+## Animate fa-mail-bulk icon using fa-spin
 To animate font awesome fa-mail-bulk icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-mail-bulk icon, use fa-spin class.
 
 
 
-## Animate Mail Bulk icon with steps
+## Animate fa-mail-bulk icon with steps
 While animating the font awesome icon,We can rotate fa-mail-bulk icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-mail-bulk icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-mail-bulk icon with 8 step rotation, use fa-pulse ico
 
 
 
-## Rotate Mail Bulk Icon using fa-rotate-x
+## Rotate fa-mail-bulk Icon using fa-rotate-x
 To rotate the font awesome icon fa-mail-bulk, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Mail Bulk Icon using fa-flip-*
+## Flip fa-mail-bulk Icon using fa-flip-*
 To flip fa-mail-bulk font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-mail-bulk font awesome icon horizontally and vertically use fa-flip-h
 
 
 
-## Combine Mail Bulk icon with other font awesome icons
+## Combine fa-mail-bulk icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

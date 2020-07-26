@@ -1,9 +1,9 @@
 +++
-title="Envelope Open Text icon in font awesome icons"
-summary="Envelope Open Text icon represented as fa-envelope-open-text in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-envelope-open-text,f658,Envelope Open Text"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-envelope-open-text icon in font awesome icons"
+summary="fa-envelope-open-text icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-envelope-open-text,f658,fa-envelope-open-text"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Envelope Open Text icon represented as fa-envelope-open-text in font awesome icons has 1 variant fas i.e.,solid.
+fa-envelope-open-text icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Envelope Open Text</td><td>fa-envelope-open-text</td><td>f658</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-envelope-open-text</td><td>fa-envelope-open-text</td><td>f658</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Envelope Open Text icon Usage
 
-To display Envelope Open Text icon add predefined class name i.e.,fa-envelope-open-text (with prefix fa-) to the 'i' tag.
+## fa-envelope-open-text icon Usage
+
+To display fa-envelope-open-text icon add predefined class name i.e.,fa-envelope-open-text (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-envelope-open-text icon. i.e., 
 
 
 
-## Change Envelope Open Text icon size
-To increase Envelope Open Text font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-envelope-open-text.
+## Change fa-envelope-open-text icon size
+To increase fa-envelope-open-text font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-envelope-open-text.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Envelope Open Text Icon with Fixed Width 
+## fa-envelope-open-text Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Envelope Open Text Icon Border 
+## fa-envelope-open-text Icon Border 
 
 To add border to fa-envelope-open-text icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-envelope-open-text icon, use fa-border class.
 
 
 
-## Pull Envelope Open Text icon To the left
+## Pull fa-envelope-open-text icon To the left
 
 To pull icon fa-envelope-open-text to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-envelope-open-text fa-pull-left fa-3x'></i>
   ... The text after fa-envelope-open-text Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-envelope-open-text fa-pull-left fa-3x'></i>
   ... The text after fa-envelope-open-text Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-envelope-open-text to the left of the container use fa-pull-left
 
 
 
-## Pull Envelope Open Text icon To the right
+## Pull fa-envelope-open-text icon To the right
 To pull icon fa-envelope-open-text to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-envelope-open-text fa-pull-right fa-3x'></i>
   ... The text after fa-envelope-open-text Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-envelope-open-text fa-pull-right fa-3x'></i>
   ... The text after fa-envelope-open-text Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-envelope-open-text to the right of the container use fa-pull-rig
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Envelope Open Text icon using fa-spin
+## Animate fa-envelope-open-text icon using fa-spin
 To animate font awesome fa-envelope-open-text icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-envelope-open-text icon, use fa-spin class.
 
 
 
-## Animate Envelope Open Text icon with steps
+## Animate fa-envelope-open-text icon with steps
 While animating the font awesome icon,We can rotate fa-envelope-open-text icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-envelope-open-text icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-envelope-open-text icon with 8 step rotation, use fa-
 
 
 
-## Rotate Envelope Open Text Icon using fa-rotate-x
+## Rotate fa-envelope-open-text Icon using fa-rotate-x
 To rotate the font awesome icon fa-envelope-open-text, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Envelope Open Text Icon using fa-flip-*
+## Flip fa-envelope-open-text Icon using fa-flip-*
 To flip fa-envelope-open-text font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-envelope-open-text font awesome icon horizontally and vertically use 
 
 
 
-## Combine Envelope Open Text icon with other font awesome icons
+## Combine fa-envelope-open-text icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

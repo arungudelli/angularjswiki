@@ -1,9 +1,9 @@
 +++
-title="Print icon in font awesome icons"
-summary="Print icon represented as fa-print in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-print,f02f,Print"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-print icon in font awesome icons"
+summary="fa-print icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-print,f02f,fa-print"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Print icon represented as fa-print in font awesome icons has 1 variant fas i.e.,solid.
+fa-print icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Print</td><td>fa-print</td><td>f02f</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-print</td><td>fa-print</td><td>f02f</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Print icon Usage
 
-To display Print icon add predefined class name i.e.,fa-print (with prefix fa-) to the 'i' tag.
+## fa-print icon Usage
+
+To display fa-print icon add predefined class name i.e.,fa-print (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-print icon. i.e., fas.
 
 
 
-## Change Print icon size
-To increase Print font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-print.
+## Change fa-print icon size
+To increase fa-print font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-print.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Print Icon with Fixed Width 
+## fa-print Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Print Icon Border 
+## fa-print Icon Border 
 
 To add border to fa-print icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-print icon, use fa-border class.
 
 
 
-## Pull Print icon To the left
+## Pull fa-print icon To the left
 
 To pull icon fa-print to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-print fa-pull-left fa-3x'></i>
   ... The text after fa-print Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-print fa-pull-left fa-3x'></i>
   ... The text after fa-print Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-print to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Print icon To the right
+## Pull fa-print icon To the right
 To pull icon fa-print to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-print fa-pull-right fa-3x'></i>
   ... The text after fa-print Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-print fa-pull-right fa-3x'></i>
   ... The text after fa-print Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-print to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Print icon using fa-spin
+## Animate fa-print icon using fa-spin
 To animate font awesome fa-print icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-print icon, use fa-spin class.
 
 
 
-## Animate Print icon with steps
+## Animate fa-print icon with steps
 While animating the font awesome icon,We can rotate fa-print icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-print icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-print icon with 8 step rotation, use fa-pulse icon al
 
 
 
-## Rotate Print Icon using fa-rotate-x
+## Rotate fa-print Icon using fa-rotate-x
 To rotate the font awesome icon fa-print, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Print Icon using fa-flip-*
+## Flip fa-print Icon using fa-flip-*
 To flip fa-print font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-print font awesome icon horizontally and vertically use fa-flip-horiz
 
 
 
-## Combine Print icon with other font awesome icons
+## Combine fa-print icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

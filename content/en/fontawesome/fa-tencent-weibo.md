@@ -1,9 +1,9 @@
 +++
-title="Tencent Weibo icon in font awesome icons"
-summary="Tencent Weibo icon represented as fa-tencent-weibo in font awesome icons is part of brand (fab) icons"
-keywords=["fa-tencent-weibo,f1d5,Tencent Weibo"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-tencent-weibo icon in font awesome icons"
+summary="fa-tencent-weibo icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-tencent-weibo,f1d5,fa-tencent-weibo"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Tencent Weibo icon represented as fa-tencent-weibo in font awesome icons is part of brand (fab) icons
+fa-tencent-weibo icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Tencent Weibo</td><td>fa-tencent-weibo</td><td>f1d5</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-tencent-weibo</td><td>fa-tencent-weibo</td><td>f1d5</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Tencent Weibo icon Usage
 
-To display Tencent Weibo icon add predefined class name i.e.,fa-tencent-weibo (with prefix fa-) to the 'i' tag.
+## fa-tencent-weibo icon Usage
+
+To display fa-tencent-weibo icon add predefined class name i.e.,fa-tencent-weibo (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-tencent-weibo icon. i.e., fab.
 
 
 
-## Change Tencent Weibo icon size
-To increase Tencent Weibo font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-tencent-weibo.
+## Change fa-tencent-weibo icon size
+To increase fa-tencent-weibo font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-tencent-weibo.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Tencent Weibo Icon with Fixed Width 
+## fa-tencent-weibo Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Tencent Weibo Icon Border 
+## fa-tencent-weibo Icon Border 
 
 To add border to fa-tencent-weibo icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-tencent-weibo icon, use fa-border class.
 
 
 
-## Pull Tencent Weibo icon To the left
+## Pull fa-tencent-weibo icon To the left
 
 To pull icon fa-tencent-weibo to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-tencent-weibo fa-pull-left fa-3x'></i>
   ... The text after fa-tencent-weibo Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-tencent-weibo fa-pull-left fa-3x'></i>
   ... The text after fa-tencent-weibo Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-tencent-weibo to the left of the container use fa-pull-left clas
 
 
 
-## Pull Tencent Weibo icon To the right
+## Pull fa-tencent-weibo icon To the right
 To pull icon fa-tencent-weibo to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-tencent-weibo fa-pull-right fa-3x'></i>
   ... The text after fa-tencent-weibo Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-tencent-weibo fa-pull-right fa-3x'></i>
   ... The text after fa-tencent-weibo Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-tencent-weibo to the right of the container use fa-pull-right cl
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Tencent Weibo icon using fa-spin
+## Animate fa-tencent-weibo icon using fa-spin
 To animate font awesome fa-tencent-weibo icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-tencent-weibo icon, use fa-spin class.
 
 
 
-## Animate Tencent Weibo icon with steps
+## Animate fa-tencent-weibo icon with steps
 While animating the font awesome icon,We can rotate fa-tencent-weibo icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-tencent-weibo icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-tencent-weibo icon with 8 step rotation, use fa-pulse
 
 
 
-## Rotate Tencent Weibo Icon using fa-rotate-x
+## Rotate fa-tencent-weibo Icon using fa-rotate-x
 To rotate the font awesome icon fa-tencent-weibo, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Tencent Weibo Icon using fa-flip-*
+## Flip fa-tencent-weibo Icon using fa-flip-*
 To flip fa-tencent-weibo font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-tencent-weibo font awesome icon horizontally and vertically use fa-fl
 
 
 
-## Combine Tencent Weibo icon with other font awesome icons
+## Combine fa-tencent-weibo icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

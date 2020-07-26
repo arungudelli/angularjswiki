@@ -1,9 +1,9 @@
 +++
-title="User Check icon in font awesome icons"
-summary="User Check icon represented as fa-user-check in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-user-check,f4fc,User Check"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-user-check icon in font awesome icons"
+summary="fa-user-check icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-user-check,f4fc,fa-user-check"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-User Check icon represented as fa-user-check in font awesome icons has 1 variant fas i.e.,solid.
+fa-user-check icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>User Check</td><td>fa-user-check</td><td>f4fc</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-user-check</td><td>fa-user-check</td><td>f4fc</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## User Check icon Usage
 
-To display User Check icon add predefined class name i.e.,fa-user-check (with prefix fa-) to the 'i' tag.
+## fa-user-check icon Usage
+
+To display fa-user-check icon add predefined class name i.e.,fa-user-check (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-user-check icon. i.e., fas.
 
 
 
-## Change User Check icon size
-To increase User Check font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-user-check.
+## Change fa-user-check icon size
+To increase fa-user-check font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-user-check.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## User Check Icon with Fixed Width 
+## fa-user-check Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## User Check Icon Border 
+## fa-user-check Icon Border 
 
 To add border to fa-user-check icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-user-check icon, use fa-border class.
 
 
 
-## Pull User Check icon To the left
+## Pull fa-user-check icon To the left
 
 To pull icon fa-user-check to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-user-check fa-pull-left fa-3x'></i>
   ... The text after fa-user-check Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-user-check fa-pull-left fa-3x'></i>
   ... The text after fa-user-check Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-user-check to the left of the container use fa-pull-left class.\
 
 
 
-## Pull User Check icon To the right
+## Pull fa-user-check icon To the right
 To pull icon fa-user-check to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-user-check fa-pull-right fa-3x'></i>
   ... The text after fa-user-check Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-user-check fa-pull-right fa-3x'></i>
   ... The text after fa-user-check Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-user-check to the right of the container use fa-pull-right class
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate User Check icon using fa-spin
+## Animate fa-user-check icon using fa-spin
 To animate font awesome fa-user-check icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-user-check icon, use fa-spin class.
 
 
 
-## Animate User Check icon with steps
+## Animate fa-user-check icon with steps
 While animating the font awesome icon,We can rotate fa-user-check icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-user-check icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-user-check icon with 8 step rotation, use fa-pulse ic
 
 
 
-## Rotate User Check Icon using fa-rotate-x
+## Rotate fa-user-check Icon using fa-rotate-x
 To rotate the font awesome icon fa-user-check, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip User Check Icon using fa-flip-*
+## Flip fa-user-check Icon using fa-flip-*
 To flip fa-user-check font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-user-check font awesome icon horizontally and vertically use fa-flip-
 
 
 
-## Combine User Check icon with other font awesome icons
+## Combine fa-user-check icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

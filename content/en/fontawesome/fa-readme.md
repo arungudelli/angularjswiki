@@ -1,9 +1,9 @@
 +++
-title="Readme icon in font awesome icons"
-summary="Readme icon represented as fa-readme in font awesome icons is part of brand (fab) icons"
-keywords=["fa-readme,f4d5,Readme"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-readme icon in font awesome icons"
+summary="fa-readme icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-readme,f4d5,fa-readme"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Readme icon represented as fa-readme in font awesome icons is part of brand (fab) icons
+fa-readme icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Readme</td><td>fa-readme</td><td>f4d5</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-readme</td><td>fa-readme</td><td>f4d5</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Readme icon Usage
 
-To display Readme icon add predefined class name i.e.,fa-readme (with prefix fa-) to the 'i' tag.
+## fa-readme icon Usage
+
+To display fa-readme icon add predefined class name i.e.,fa-readme (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-readme icon. i.e., fab.
 
 
 
-## Change Readme icon size
-To increase Readme font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-readme.
+## Change fa-readme icon size
+To increase fa-readme font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-readme.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Readme Icon with Fixed Width 
+## fa-readme Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Readme Icon Border 
+## fa-readme Icon Border 
 
 To add border to fa-readme icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-readme icon, use fa-border class.
 
 
 
-## Pull Readme icon To the left
+## Pull fa-readme icon To the left
 
 To pull icon fa-readme to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-readme fa-pull-left fa-3x'></i>
   ... The text after fa-readme Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-readme fa-pull-left fa-3x'></i>
   ... The text after fa-readme Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-readme to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Readme icon To the right
+## Pull fa-readme icon To the right
 To pull icon fa-readme to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-readme fa-pull-right fa-3x'></i>
   ... The text after fa-readme Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-readme fa-pull-right fa-3x'></i>
   ... The text after fa-readme Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-readme to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Readme icon using fa-spin
+## Animate fa-readme icon using fa-spin
 To animate font awesome fa-readme icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-readme icon, use fa-spin class.
 
 
 
-## Animate Readme icon with steps
+## Animate fa-readme icon with steps
 While animating the font awesome icon,We can rotate fa-readme icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-readme icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-readme icon with 8 step rotation, use fa-pulse icon a
 
 
 
-## Rotate Readme Icon using fa-rotate-x
+## Rotate fa-readme Icon using fa-rotate-x
 To rotate the font awesome icon fa-readme, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Readme Icon using fa-flip-*
+## Flip fa-readme Icon using fa-flip-*
 To flip fa-readme font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-readme font awesome icon horizontally and vertically use fa-flip-hori
 
 
 
-## Combine Readme icon with other font awesome icons
+## Combine fa-readme icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

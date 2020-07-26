@@ -1,9 +1,9 @@
 +++
-title="Low Vision icon in font awesome icons"
-summary="Low Vision icon represented as fa-low-vision in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-low-vision,f2a8,Low Vision"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-low-vision icon in font awesome icons"
+summary="fa-low-vision icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-low-vision,f2a8,fa-low-vision"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Low Vision icon represented as fa-low-vision in font awesome icons has 1 variant fas i.e.,solid.
+fa-low-vision icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Low Vision</td><td>fa-low-vision</td><td>f2a8</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-low-vision</td><td>fa-low-vision</td><td>f2a8</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Low Vision icon Usage
 
-To display Low Vision icon add predefined class name i.e.,fa-low-vision (with prefix fa-) to the 'i' tag.
+## fa-low-vision icon Usage
+
+To display fa-low-vision icon add predefined class name i.e.,fa-low-vision (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-low-vision icon. i.e., fas.
 
 
 
-## Change Low Vision icon size
-To increase Low Vision font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-low-vision.
+## Change fa-low-vision icon size
+To increase fa-low-vision font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-low-vision.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Low Vision Icon with Fixed Width 
+## fa-low-vision Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Low Vision Icon Border 
+## fa-low-vision Icon Border 
 
 To add border to fa-low-vision icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-low-vision icon, use fa-border class.
 
 
 
-## Pull Low Vision icon To the left
+## Pull fa-low-vision icon To the left
 
 To pull icon fa-low-vision to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-low-vision fa-pull-left fa-3x'></i>
   ... The text after fa-low-vision Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-low-vision fa-pull-left fa-3x'></i>
   ... The text after fa-low-vision Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-low-vision to the left of the container use fa-pull-left class.\
 
 
 
-## Pull Low Vision icon To the right
+## Pull fa-low-vision icon To the right
 To pull icon fa-low-vision to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-low-vision fa-pull-right fa-3x'></i>
   ... The text after fa-low-vision Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-low-vision fa-pull-right fa-3x'></i>
   ... The text after fa-low-vision Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-low-vision to the right of the container use fa-pull-right class
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Low Vision icon using fa-spin
+## Animate fa-low-vision icon using fa-spin
 To animate font awesome fa-low-vision icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-low-vision icon, use fa-spin class.
 
 
 
-## Animate Low Vision icon with steps
+## Animate fa-low-vision icon with steps
 While animating the font awesome icon,We can rotate fa-low-vision icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-low-vision icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-low-vision icon with 8 step rotation, use fa-pulse ic
 
 
 
-## Rotate Low Vision Icon using fa-rotate-x
+## Rotate fa-low-vision Icon using fa-rotate-x
 To rotate the font awesome icon fa-low-vision, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Low Vision Icon using fa-flip-*
+## Flip fa-low-vision Icon using fa-flip-*
 To flip fa-low-vision font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-low-vision font awesome icon horizontally and vertically use fa-flip-
 
 
 
-## Combine Low Vision icon with other font awesome icons
+## Combine fa-low-vision icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

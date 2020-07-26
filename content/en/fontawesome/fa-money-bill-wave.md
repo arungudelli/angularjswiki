@@ -1,9 +1,9 @@
 +++
-title="Money Bill Wave icon in font awesome icons"
-summary="Money Bill Wave icon represented as fa-money-bill-wave in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-money-bill-wave,f53a,Money Bill Wave"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-money-bill-wave icon in font awesome icons"
+summary="fa-money-bill-wave icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-money-bill-wave,f53a,fa-money-bill-wave"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Money Bill Wave icon represented as fa-money-bill-wave in font awesome icons has 1 variant fas i.e.,solid.
+fa-money-bill-wave icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Money Bill Wave</td><td>fa-money-bill-wave</td><td>f53a</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-money-bill-wave</td><td>fa-money-bill-wave</td><td>f53a</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Money Bill Wave icon Usage
 
-To display Money Bill Wave icon add predefined class name i.e.,fa-money-bill-wave (with prefix fa-) to the 'i' tag.
+## fa-money-bill-wave icon Usage
+
+To display fa-money-bill-wave icon add predefined class name i.e.,fa-money-bill-wave (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-money-bill-wave icon. i.e., fas
 
 
 
-## Change Money Bill Wave icon size
-To increase Money Bill Wave font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-money-bill-wave.
+## Change fa-money-bill-wave icon size
+To increase fa-money-bill-wave font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-money-bill-wave.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Money Bill Wave Icon with Fixed Width 
+## fa-money-bill-wave Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Money Bill Wave Icon Border 
+## fa-money-bill-wave Icon Border 
 
 To add border to fa-money-bill-wave icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-money-bill-wave icon, use fa-border class.
 
 
 
-## Pull Money Bill Wave icon To the left
+## Pull fa-money-bill-wave icon To the left
 
 To pull icon fa-money-bill-wave to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-money-bill-wave fa-pull-left fa-3x'></i>
   ... The text after fa-money-bill-wave Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-money-bill-wave fa-pull-left fa-3x'></i>
   ... The text after fa-money-bill-wave Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-money-bill-wave to the left of the container use fa-pull-left cl
 
 
 
-## Pull Money Bill Wave icon To the right
+## Pull fa-money-bill-wave icon To the right
 To pull icon fa-money-bill-wave to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-money-bill-wave fa-pull-right fa-3x'></i>
   ... The text after fa-money-bill-wave Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-money-bill-wave fa-pull-right fa-3x'></i>
   ... The text after fa-money-bill-wave Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-money-bill-wave to the right of the container use fa-pull-right 
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Money Bill Wave icon using fa-spin
+## Animate fa-money-bill-wave icon using fa-spin
 To animate font awesome fa-money-bill-wave icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-money-bill-wave icon, use fa-spin class.
 
 
 
-## Animate Money Bill Wave icon with steps
+## Animate fa-money-bill-wave icon with steps
 While animating the font awesome icon,We can rotate fa-money-bill-wave icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-money-bill-wave icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-money-bill-wave icon with 8 step rotation, use fa-pul
 
 
 
-## Rotate Money Bill Wave Icon using fa-rotate-x
+## Rotate fa-money-bill-wave Icon using fa-rotate-x
 To rotate the font awesome icon fa-money-bill-wave, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Money Bill Wave Icon using fa-flip-*
+## Flip fa-money-bill-wave Icon using fa-flip-*
 To flip fa-money-bill-wave font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-money-bill-wave font awesome icon horizontally and vertically use fa-
 
 
 
-## Combine Money Bill Wave icon with other font awesome icons
+## Combine fa-money-bill-wave icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

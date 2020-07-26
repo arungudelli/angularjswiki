@@ -1,9 +1,9 @@
 +++
-title="Forward icon in font awesome icons"
-summary="Forward icon represented as fa-forward in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-forward,f04e,Forward"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-forward icon in font awesome icons"
+summary="fa-forward icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-forward,f04e,fa-forward"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Forward icon represented as fa-forward in font awesome icons has 1 variant fas i.e.,solid.
+fa-forward icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Forward</td><td>fa-forward</td><td>f04e</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-forward</td><td>fa-forward</td><td>f04e</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Forward icon Usage
 
-To display Forward icon add predefined class name i.e.,fa-forward (with prefix fa-) to the 'i' tag.
+## fa-forward icon Usage
+
+To display fa-forward icon add predefined class name i.e.,fa-forward (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-forward icon. i.e., fas.
 
 
 
-## Change Forward icon size
-To increase Forward font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-forward.
+## Change fa-forward icon size
+To increase fa-forward font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-forward.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Forward Icon with Fixed Width 
+## fa-forward Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Forward Icon Border 
+## fa-forward Icon Border 
 
 To add border to fa-forward icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-forward icon, use fa-border class.
 
 
 
-## Pull Forward icon To the left
+## Pull fa-forward icon To the left
 
 To pull icon fa-forward to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-forward fa-pull-left fa-3x'></i>
   ... The text after fa-forward Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-forward fa-pull-left fa-3x'></i>
   ... The text after fa-forward Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-forward to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Forward icon To the right
+## Pull fa-forward icon To the right
 To pull icon fa-forward to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-forward fa-pull-right fa-3x'></i>
   ... The text after fa-forward Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-forward fa-pull-right fa-3x'></i>
   ... The text after fa-forward Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-forward to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Forward icon using fa-spin
+## Animate fa-forward icon using fa-spin
 To animate font awesome fa-forward icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-forward icon, use fa-spin class.
 
 
 
-## Animate Forward icon with steps
+## Animate fa-forward icon with steps
 While animating the font awesome icon,We can rotate fa-forward icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-forward icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-forward icon with 8 step rotation, use fa-pulse icon 
 
 
 
-## Rotate Forward Icon using fa-rotate-x
+## Rotate fa-forward Icon using fa-rotate-x
 To rotate the font awesome icon fa-forward, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Forward Icon using fa-flip-*
+## Flip fa-forward Icon using fa-flip-*
 To flip fa-forward font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-forward font awesome icon horizontally and vertically use fa-flip-hor
 
 
 
-## Combine Forward icon with other font awesome icons
+## Combine fa-forward icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

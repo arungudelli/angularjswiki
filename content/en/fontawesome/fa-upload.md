@@ -1,9 +1,9 @@
 +++
-title="Upload icon in font awesome icons"
-summary="Upload icon represented as fa-upload in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-upload,f093,Upload"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-upload icon in font awesome icons"
+summary="fa-upload icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-upload,f093,fa-upload"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Upload icon represented as fa-upload in font awesome icons has 1 variant fas i.e.,solid.
+fa-upload icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Upload</td><td>fa-upload</td><td>f093</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-upload</td><td>fa-upload</td><td>f093</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Upload icon Usage
 
-To display Upload icon add predefined class name i.e.,fa-upload (with prefix fa-) to the 'i' tag.
+## fa-upload icon Usage
+
+To display fa-upload icon add predefined class name i.e.,fa-upload (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-upload icon. i.e., fas.
 
 
 
-## Change Upload icon size
-To increase Upload font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-upload.
+## Change fa-upload icon size
+To increase fa-upload font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-upload.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Upload Icon with Fixed Width 
+## fa-upload Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Upload Icon Border 
+## fa-upload Icon Border 
 
 To add border to fa-upload icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-upload icon, use fa-border class.
 
 
 
-## Pull Upload icon To the left
+## Pull fa-upload icon To the left
 
 To pull icon fa-upload to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-upload fa-pull-left fa-3x'></i>
   ... The text after fa-upload Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-upload fa-pull-left fa-3x'></i>
   ... The text after fa-upload Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-upload to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Upload icon To the right
+## Pull fa-upload icon To the right
 To pull icon fa-upload to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-upload fa-pull-right fa-3x'></i>
   ... The text after fa-upload Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-upload fa-pull-right fa-3x'></i>
   ... The text after fa-upload Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-upload to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Upload icon using fa-spin
+## Animate fa-upload icon using fa-spin
 To animate font awesome fa-upload icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-upload icon, use fa-spin class.
 
 
 
-## Animate Upload icon with steps
+## Animate fa-upload icon with steps
 While animating the font awesome icon,We can rotate fa-upload icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-upload icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-upload icon with 8 step rotation, use fa-pulse icon a
 
 
 
-## Rotate Upload Icon using fa-rotate-x
+## Rotate fa-upload Icon using fa-rotate-x
 To rotate the font awesome icon fa-upload, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Upload Icon using fa-flip-*
+## Flip fa-upload Icon using fa-flip-*
 To flip fa-upload font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-upload font awesome icon horizontally and vertically use fa-flip-hori
 
 
 
-## Combine Upload icon with other font awesome icons
+## Combine fa-upload icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

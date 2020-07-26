@@ -1,9 +1,9 @@
 +++
-title="Door Open icon in font awesome icons"
-summary="Door Open icon represented as fa-door-open in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-door-open,f52b,Door Open"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-door-open icon in font awesome icons"
+summary="fa-door-open icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-door-open,f52b,fa-door-open"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Door Open icon represented as fa-door-open in font awesome icons has 1 variant fas i.e.,solid.
+fa-door-open icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Door Open</td><td>fa-door-open</td><td>f52b</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-door-open</td><td>fa-door-open</td><td>f52b</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Door Open icon Usage
 
-To display Door Open icon add predefined class name i.e.,fa-door-open (with prefix fa-) to the 'i' tag.
+## fa-door-open icon Usage
+
+To display fa-door-open icon add predefined class name i.e.,fa-door-open (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-door-open icon. i.e., fas.
 
 
 
-## Change Door Open icon size
-To increase Door Open font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-door-open.
+## Change fa-door-open icon size
+To increase fa-door-open font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-door-open.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Door Open Icon with Fixed Width 
+## fa-door-open Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Door Open Icon Border 
+## fa-door-open Icon Border 
 
 To add border to fa-door-open icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-door-open icon, use fa-border class.
 
 
 
-## Pull Door Open icon To the left
+## Pull fa-door-open icon To the left
 
 To pull icon fa-door-open to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-door-open fa-pull-left fa-3x'></i>
   ... The text after fa-door-open Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-door-open fa-pull-left fa-3x'></i>
   ... The text after fa-door-open Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-door-open to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Door Open icon To the right
+## Pull fa-door-open icon To the right
 To pull icon fa-door-open to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-door-open fa-pull-right fa-3x'></i>
   ... The text after fa-door-open Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-door-open fa-pull-right fa-3x'></i>
   ... The text after fa-door-open Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-door-open to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Door Open icon using fa-spin
+## Animate fa-door-open icon using fa-spin
 To animate font awesome fa-door-open icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-door-open icon, use fa-spin class.
 
 
 
-## Animate Door Open icon with steps
+## Animate fa-door-open icon with steps
 While animating the font awesome icon,We can rotate fa-door-open icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-door-open icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-door-open icon with 8 step rotation, use fa-pulse ico
 
 
 
-## Rotate Door Open Icon using fa-rotate-x
+## Rotate fa-door-open Icon using fa-rotate-x
 To rotate the font awesome icon fa-door-open, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Door Open Icon using fa-flip-*
+## Flip fa-door-open Icon using fa-flip-*
 To flip fa-door-open font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-door-open font awesome icon horizontally and vertically use fa-flip-h
 
 
 
-## Combine Door Open icon with other font awesome icons
+## Combine fa-door-open icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

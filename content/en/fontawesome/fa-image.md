@@ -1,9 +1,9 @@
 +++
-title="Image icon in font awesome icons"
-summary="Image icon represented as fa-image in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-image,f03e,Image"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-image icon in font awesome icons"
+summary="fa-image icon in font awesome icons has 2 variants regular (far) and solid (fas)"
+keywords=["fa-image,f03e,fa-image"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Image icon represented as fa-image in font awesome icons has 2 variants regular (far) and solid (fas)
+fa-image icon in font awesome icons has 2 variants regular (far) and solid (fas)
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Image</td><td>fa-image</td><td>f03e</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-image</td><td>fa-image</td><td>f03e</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Image icon Usage
 
-To display Image icon add predefined class name i.e.,fa-image (with prefix fa-) to the 'i' tag.
+## fa-image icon Usage
+
+To display fa-image icon add predefined class name i.e.,fa-image (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -45,8 +47,8 @@ And we need to add corresponding category for fa-image icon. i.e., fas,far.
 
 
 
-## Change Image icon size
-To increase Image font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-image.
+## Change fa-image icon size
+To increase fa-image font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-image.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -69,7 +71,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Image Icon with Fixed Width 
+## fa-image Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -89,7 +91,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Image Icon Border 
+## fa-image Icon Border 
 
 To add border to fa-image icon, use fa-border class.
 
@@ -104,20 +106,20 @@ To add border to fa-image icon, use fa-border class.
 
 
 
-## Pull Image icon To the left
+## Pull fa-image icon To the left
 
 To pull icon fa-image to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-image fa-pull-left fa-3x'></i>
   ... The text after fa-image Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-image fa-pull-left fa-3x'></i>
   ... The text after fa-image Icon will be displayed on the right side of the icons
 </div>
@@ -126,19 +128,19 @@ To pull icon fa-image to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Image icon To the right
+## Pull fa-image icon To the right
 To pull icon fa-image to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-image fa-pull-right fa-3x'></i>
   ... The text after fa-image Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-image fa-pull-right fa-3x'></i>
   ... The text after fa-image Icon will be displayed on the left side of the icons
 </div>
@@ -147,7 +149,7 @@ To pull icon fa-image to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Image icon using fa-spin
+## Animate fa-image icon using fa-spin
 To animate font awesome fa-image icon, use fa-spin class.
 
 ```
@@ -158,7 +160,7 @@ To animate font awesome fa-image icon, use fa-spin class.
 
 
 
-## Animate Image icon with steps
+## Animate fa-image icon with steps
 While animating the font awesome icon,We can rotate fa-image icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-image icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -174,7 +176,7 @@ To animate font awesome fa-image icon with 8 step rotation, use fa-pulse icon al
 
 
 
-## Rotate Image Icon using fa-rotate-x
+## Rotate fa-image Icon using fa-rotate-x
 To rotate the font awesome icon fa-image, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -200,7 +202,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Image Icon using fa-flip-*
+## Flip fa-image Icon using fa-flip-*
 To flip fa-image font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -217,7 +219,7 @@ To flip fa-image font awesome icon horizontally and vertically use fa-flip-horiz
 
 
 
-## Combine Image icon with other font awesome icons
+## Combine fa-image icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

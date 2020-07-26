@@ -1,9 +1,9 @@
 +++
-title="Kiss icon in font awesome icons"
-summary="Kiss icon represented as fa-kiss in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-kiss,f596,Kiss"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-kiss icon in font awesome icons"
+summary="fa-kiss icon in font awesome icons has 2 variants regular (far) and solid (fas)"
+keywords=["fa-kiss,f596,fa-kiss"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Kiss icon represented as fa-kiss in font awesome icons has 2 variants regular (far) and solid (fas)
+fa-kiss icon in font awesome icons has 2 variants regular (far) and solid (fas)
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Kiss</td><td>fa-kiss</td><td>f596</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-kiss</td><td>fa-kiss</td><td>f596</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Kiss icon Usage
 
-To display Kiss icon add predefined class name i.e.,fa-kiss (with prefix fa-) to the 'i' tag.
+## fa-kiss icon Usage
+
+To display fa-kiss icon add predefined class name i.e.,fa-kiss (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -45,8 +47,8 @@ And we need to add corresponding category for fa-kiss icon. i.e., fas,far.
 
 
 
-## Change Kiss icon size
-To increase Kiss font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-kiss.
+## Change fa-kiss icon size
+To increase fa-kiss font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-kiss.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -69,7 +71,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Kiss Icon with Fixed Width 
+## fa-kiss Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -89,7 +91,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Kiss Icon Border 
+## fa-kiss Icon Border 
 
 To add border to fa-kiss icon, use fa-border class.
 
@@ -104,20 +106,20 @@ To add border to fa-kiss icon, use fa-border class.
 
 
 
-## Pull Kiss icon To the left
+## Pull fa-kiss icon To the left
 
 To pull icon fa-kiss to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-kiss fa-pull-left fa-3x'></i>
   ... The text after fa-kiss Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-kiss fa-pull-left fa-3x'></i>
   ... The text after fa-kiss Icon will be displayed on the right side of the icons
 </div>
@@ -126,19 +128,19 @@ To pull icon fa-kiss to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Kiss icon To the right
+## Pull fa-kiss icon To the right
 To pull icon fa-kiss to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-kiss fa-pull-right fa-3x'></i>
   ... The text after fa-kiss Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-kiss fa-pull-right fa-3x'></i>
   ... The text after fa-kiss Icon will be displayed on the left side of the icons
 </div>
@@ -147,7 +149,7 @@ To pull icon fa-kiss to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Kiss icon using fa-spin
+## Animate fa-kiss icon using fa-spin
 To animate font awesome fa-kiss icon, use fa-spin class.
 
 ```
@@ -158,7 +160,7 @@ To animate font awesome fa-kiss icon, use fa-spin class.
 
 
 
-## Animate Kiss icon with steps
+## Animate fa-kiss icon with steps
 While animating the font awesome icon,We can rotate fa-kiss icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-kiss icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -174,7 +176,7 @@ To animate font awesome fa-kiss icon with 8 step rotation, use fa-pulse icon alo
 
 
 
-## Rotate Kiss Icon using fa-rotate-x
+## Rotate fa-kiss Icon using fa-rotate-x
 To rotate the font awesome icon fa-kiss, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -200,7 +202,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Kiss Icon using fa-flip-*
+## Flip fa-kiss Icon using fa-flip-*
 To flip fa-kiss font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -217,7 +219,7 @@ To flip fa-kiss font awesome icon horizontally and vertically use fa-flip-horizo
 
 
 
-## Combine Kiss icon with other font awesome icons
+## Combine fa-kiss icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

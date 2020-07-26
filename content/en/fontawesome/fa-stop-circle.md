@@ -1,9 +1,9 @@
 +++
-title="Stop Circle icon in font awesome icons"
-summary="Stop Circle icon represented as fa-stop-circle in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-stop-circle,f28d,Stop Circle"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-stop-circle icon in font awesome icons"
+summary="fa-stop-circle icon in font awesome icons has 2 variants regular (far) and solid (fas)"
+keywords=["fa-stop-circle,f28d,fa-stop-circle"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Stop Circle icon represented as fa-stop-circle in font awesome icons has 2 variants regular (far) and solid (fas)
+fa-stop-circle icon in font awesome icons has 2 variants regular (far) and solid (fas)
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Stop Circle</td><td>fa-stop-circle</td><td>f28d</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-stop-circle</td><td>fa-stop-circle</td><td>f28d</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Stop Circle icon Usage
 
-To display Stop Circle icon add predefined class name i.e.,fa-stop-circle (with prefix fa-) to the 'i' tag.
+## fa-stop-circle icon Usage
+
+To display fa-stop-circle icon add predefined class name i.e.,fa-stop-circle (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -45,8 +47,8 @@ And we need to add corresponding category for fa-stop-circle icon. i.e., fas,far
 
 
 
-## Change Stop Circle icon size
-To increase Stop Circle font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-stop-circle.
+## Change fa-stop-circle icon size
+To increase fa-stop-circle font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-stop-circle.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -69,7 +71,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Stop Circle Icon with Fixed Width 
+## fa-stop-circle Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -89,7 +91,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Stop Circle Icon Border 
+## fa-stop-circle Icon Border 
 
 To add border to fa-stop-circle icon, use fa-border class.
 
@@ -104,20 +106,20 @@ To add border to fa-stop-circle icon, use fa-border class.
 
 
 
-## Pull Stop Circle icon To the left
+## Pull fa-stop-circle icon To the left
 
 To pull icon fa-stop-circle to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-stop-circle fa-pull-left fa-3x'></i>
   ... The text after fa-stop-circle Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-stop-circle fa-pull-left fa-3x'></i>
   ... The text after fa-stop-circle Icon will be displayed on the right side of the icons
 </div>
@@ -126,19 +128,19 @@ To pull icon fa-stop-circle to the left of the container use fa-pull-left class.
 
 
 
-## Pull Stop Circle icon To the right
+## Pull fa-stop-circle icon To the right
 To pull icon fa-stop-circle to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-stop-circle fa-pull-right fa-3x'></i>
   ... The text after fa-stop-circle Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-stop-circle fa-pull-right fa-3x'></i>
   ... The text after fa-stop-circle Icon will be displayed on the left side of the icons
 </div>
@@ -147,7 +149,7 @@ To pull icon fa-stop-circle to the right of the container use fa-pull-right clas
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Stop Circle icon using fa-spin
+## Animate fa-stop-circle icon using fa-spin
 To animate font awesome fa-stop-circle icon, use fa-spin class.
 
 ```
@@ -158,7 +160,7 @@ To animate font awesome fa-stop-circle icon, use fa-spin class.
 
 
 
-## Animate Stop Circle icon with steps
+## Animate fa-stop-circle icon with steps
 While animating the font awesome icon,We can rotate fa-stop-circle icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-stop-circle icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -174,7 +176,7 @@ To animate font awesome fa-stop-circle icon with 8 step rotation, use fa-pulse i
 
 
 
-## Rotate Stop Circle Icon using fa-rotate-x
+## Rotate fa-stop-circle Icon using fa-rotate-x
 To rotate the font awesome icon fa-stop-circle, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -200,7 +202,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Stop Circle Icon using fa-flip-*
+## Flip fa-stop-circle Icon using fa-flip-*
 To flip fa-stop-circle font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -217,7 +219,7 @@ To flip fa-stop-circle font awesome icon horizontally and vertically use fa-flip
 
 
 
-## Combine Stop Circle icon with other font awesome icons
+## Combine fa-stop-circle icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

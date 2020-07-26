@@ -1,9 +1,9 @@
 +++
-title="Compact Disc icon in font awesome icons"
-summary="Compact Disc icon represented as fa-compact-disc in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-compact-disc,f51f,Compact Disc"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-compact-disc icon in font awesome icons"
+summary="fa-compact-disc icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-compact-disc,f51f,fa-compact-disc"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Compact Disc icon represented as fa-compact-disc in font awesome icons has 1 variant fas i.e.,solid.
+fa-compact-disc icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Compact Disc</td><td>fa-compact-disc</td><td>f51f</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-compact-disc</td><td>fa-compact-disc</td><td>f51f</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Compact Disc icon Usage
 
-To display Compact Disc icon add predefined class name i.e.,fa-compact-disc (with prefix fa-) to the 'i' tag.
+## fa-compact-disc icon Usage
+
+To display fa-compact-disc icon add predefined class name i.e.,fa-compact-disc (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-compact-disc icon. i.e., fas.
 
 
 
-## Change Compact Disc icon size
-To increase Compact Disc font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-compact-disc.
+## Change fa-compact-disc icon size
+To increase fa-compact-disc font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-compact-disc.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Compact Disc Icon with Fixed Width 
+## fa-compact-disc Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Compact Disc Icon Border 
+## fa-compact-disc Icon Border 
 
 To add border to fa-compact-disc icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-compact-disc icon, use fa-border class.
 
 
 
-## Pull Compact Disc icon To the left
+## Pull fa-compact-disc icon To the left
 
 To pull icon fa-compact-disc to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-compact-disc fa-pull-left fa-3x'></i>
   ... The text after fa-compact-disc Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-compact-disc fa-pull-left fa-3x'></i>
   ... The text after fa-compact-disc Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-compact-disc to the left of the container use fa-pull-left class
 
 
 
-## Pull Compact Disc icon To the right
+## Pull fa-compact-disc icon To the right
 To pull icon fa-compact-disc to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-compact-disc fa-pull-right fa-3x'></i>
   ... The text after fa-compact-disc Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-compact-disc fa-pull-right fa-3x'></i>
   ... The text after fa-compact-disc Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-compact-disc to the right of the container use fa-pull-right cla
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Compact Disc icon using fa-spin
+## Animate fa-compact-disc icon using fa-spin
 To animate font awesome fa-compact-disc icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-compact-disc icon, use fa-spin class.
 
 
 
-## Animate Compact Disc icon with steps
+## Animate fa-compact-disc icon with steps
 While animating the font awesome icon,We can rotate fa-compact-disc icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-compact-disc icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-compact-disc icon with 8 step rotation, use fa-pulse 
 
 
 
-## Rotate Compact Disc Icon using fa-rotate-x
+## Rotate fa-compact-disc Icon using fa-rotate-x
 To rotate the font awesome icon fa-compact-disc, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Compact Disc Icon using fa-flip-*
+## Flip fa-compact-disc Icon using fa-flip-*
 To flip fa-compact-disc font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-compact-disc font awesome icon horizontally and vertically use fa-fli
 
 
 
-## Combine Compact Disc icon with other font awesome icons
+## Combine fa-compact-disc icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

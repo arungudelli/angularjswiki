@@ -1,9 +1,9 @@
 +++
-title="Pushed icon in font awesome icons"
-summary="Pushed icon represented as fa-pushed in font awesome icons is part of brand (fab) icons"
-keywords=["fa-pushed,f3e1,Pushed"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-pushed icon in font awesome icons"
+summary="fa-pushed icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-pushed,f3e1,fa-pushed"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Pushed icon represented as fa-pushed in font awesome icons is part of brand (fab) icons
+fa-pushed icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Pushed</td><td>fa-pushed</td><td>f3e1</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-pushed</td><td>fa-pushed</td><td>f3e1</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Pushed icon Usage
 
-To display Pushed icon add predefined class name i.e.,fa-pushed (with prefix fa-) to the 'i' tag.
+## fa-pushed icon Usage
+
+To display fa-pushed icon add predefined class name i.e.,fa-pushed (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-pushed icon. i.e., fab.
 
 
 
-## Change Pushed icon size
-To increase Pushed font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-pushed.
+## Change fa-pushed icon size
+To increase fa-pushed font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-pushed.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Pushed Icon with Fixed Width 
+## fa-pushed Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Pushed Icon Border 
+## fa-pushed Icon Border 
 
 To add border to fa-pushed icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-pushed icon, use fa-border class.
 
 
 
-## Pull Pushed icon To the left
+## Pull fa-pushed icon To the left
 
 To pull icon fa-pushed to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-pushed fa-pull-left fa-3x'></i>
   ... The text after fa-pushed Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-pushed fa-pull-left fa-3x'></i>
   ... The text after fa-pushed Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-pushed to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Pushed icon To the right
+## Pull fa-pushed icon To the right
 To pull icon fa-pushed to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-pushed fa-pull-right fa-3x'></i>
   ... The text after fa-pushed Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-pushed fa-pull-right fa-3x'></i>
   ... The text after fa-pushed Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-pushed to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Pushed icon using fa-spin
+## Animate fa-pushed icon using fa-spin
 To animate font awesome fa-pushed icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-pushed icon, use fa-spin class.
 
 
 
-## Animate Pushed icon with steps
+## Animate fa-pushed icon with steps
 While animating the font awesome icon,We can rotate fa-pushed icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-pushed icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-pushed icon with 8 step rotation, use fa-pulse icon a
 
 
 
-## Rotate Pushed Icon using fa-rotate-x
+## Rotate fa-pushed Icon using fa-rotate-x
 To rotate the font awesome icon fa-pushed, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Pushed Icon using fa-flip-*
+## Flip fa-pushed Icon using fa-flip-*
 To flip fa-pushed font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-pushed font awesome icon horizontally and vertically use fa-flip-hori
 
 
 
-## Combine Pushed icon with other font awesome icons
+## Combine fa-pushed icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

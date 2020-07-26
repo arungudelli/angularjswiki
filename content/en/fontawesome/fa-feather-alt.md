@@ -1,9 +1,9 @@
 +++
-title="Feather Alt icon in font awesome icons"
-summary="Feather Alt icon represented as fa-feather-alt in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-feather-alt,f56b,Feather Alt"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-feather-alt icon in font awesome icons"
+summary="fa-feather-alt icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-feather-alt,f56b,fa-feather-alt"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Feather Alt icon represented as fa-feather-alt in font awesome icons has 1 variant fas i.e.,solid.
+fa-feather-alt icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Feather Alt</td><td>fa-feather-alt</td><td>f56b</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-feather-alt</td><td>fa-feather-alt</td><td>f56b</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Feather Alt icon Usage
 
-To display Feather Alt icon add predefined class name i.e.,fa-feather-alt (with prefix fa-) to the 'i' tag.
+## fa-feather-alt icon Usage
+
+To display fa-feather-alt icon add predefined class name i.e.,fa-feather-alt (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-feather-alt icon. i.e., fas.
 
 
 
-## Change Feather Alt icon size
-To increase Feather Alt font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-feather-alt.
+## Change fa-feather-alt icon size
+To increase fa-feather-alt font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-feather-alt.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Feather Alt Icon with Fixed Width 
+## fa-feather-alt Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Feather Alt Icon Border 
+## fa-feather-alt Icon Border 
 
 To add border to fa-feather-alt icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-feather-alt icon, use fa-border class.
 
 
 
-## Pull Feather Alt icon To the left
+## Pull fa-feather-alt icon To the left
 
 To pull icon fa-feather-alt to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-feather-alt fa-pull-left fa-3x'></i>
   ... The text after fa-feather-alt Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-feather-alt fa-pull-left fa-3x'></i>
   ... The text after fa-feather-alt Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-feather-alt to the left of the container use fa-pull-left class.
 
 
 
-## Pull Feather Alt icon To the right
+## Pull fa-feather-alt icon To the right
 To pull icon fa-feather-alt to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-feather-alt fa-pull-right fa-3x'></i>
   ... The text after fa-feather-alt Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-feather-alt fa-pull-right fa-3x'></i>
   ... The text after fa-feather-alt Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-feather-alt to the right of the container use fa-pull-right clas
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Feather Alt icon using fa-spin
+## Animate fa-feather-alt icon using fa-spin
 To animate font awesome fa-feather-alt icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-feather-alt icon, use fa-spin class.
 
 
 
-## Animate Feather Alt icon with steps
+## Animate fa-feather-alt icon with steps
 While animating the font awesome icon,We can rotate fa-feather-alt icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-feather-alt icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-feather-alt icon with 8 step rotation, use fa-pulse i
 
 
 
-## Rotate Feather Alt Icon using fa-rotate-x
+## Rotate fa-feather-alt Icon using fa-rotate-x
 To rotate the font awesome icon fa-feather-alt, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Feather Alt Icon using fa-flip-*
+## Flip fa-feather-alt Icon using fa-flip-*
 To flip fa-feather-alt font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-feather-alt font awesome icon horizontally and vertically use fa-flip
 
 
 
-## Combine Feather Alt icon with other font awesome icons
+## Combine fa-feather-alt icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

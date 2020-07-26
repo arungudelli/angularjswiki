@@ -1,9 +1,9 @@
 +++
-title="Hand Holding Medical icon in font awesome icons"
-summary="Hand Holding Medical icon represented as fa-hand-holding-medical in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-hand-holding-medical,f95c,Hand Holding Medical"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-hand-holding-medical icon in font awesome icons"
+summary="fa-hand-holding-medical icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-hand-holding-medical,f95c,fa-hand-holding-medical"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Hand Holding Medical icon represented as fa-hand-holding-medical in font awesome icons has 1 variant fas i.e.,solid.
+fa-hand-holding-medical icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Hand Holding Medical</td><td>fa-hand-holding-medical</td><td>f95c</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-hand-holding-medical</td><td>fa-hand-holding-medical</td><td>f95c</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Hand Holding Medical icon Usage
 
-To display Hand Holding Medical icon add predefined class name i.e.,fa-hand-holding-medical (with prefix fa-) to the 'i' tag.
+## fa-hand-holding-medical icon Usage
+
+To display fa-hand-holding-medical icon add predefined class name i.e.,fa-hand-holding-medical (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-hand-holding-medical icon. i.e.
 
 
 
-## Change Hand Holding Medical icon size
-To increase Hand Holding Medical font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-hand-holding-medical.
+## Change fa-hand-holding-medical icon size
+To increase fa-hand-holding-medical font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-hand-holding-medical.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Hand Holding Medical Icon with Fixed Width 
+## fa-hand-holding-medical Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Hand Holding Medical Icon Border 
+## fa-hand-holding-medical Icon Border 
 
 To add border to fa-hand-holding-medical icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-hand-holding-medical icon, use fa-border class.
 
 
 
-## Pull Hand Holding Medical icon To the left
+## Pull fa-hand-holding-medical icon To the left
 
 To pull icon fa-hand-holding-medical to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-hand-holding-medical fa-pull-left fa-3x'></i>
   ... The text after fa-hand-holding-medical Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-hand-holding-medical fa-pull-left fa-3x'></i>
   ... The text after fa-hand-holding-medical Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-hand-holding-medical to the left of the container use fa-pull-le
 
 
 
-## Pull Hand Holding Medical icon To the right
+## Pull fa-hand-holding-medical icon To the right
 To pull icon fa-hand-holding-medical to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-hand-holding-medical fa-pull-right fa-3x'></i>
   ... The text after fa-hand-holding-medical Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-hand-holding-medical fa-pull-right fa-3x'></i>
   ... The text after fa-hand-holding-medical Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-hand-holding-medical to the right of the container use fa-pull-r
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Hand Holding Medical icon using fa-spin
+## Animate fa-hand-holding-medical icon using fa-spin
 To animate font awesome fa-hand-holding-medical icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-hand-holding-medical icon, use fa-spin class.
 
 
 
-## Animate Hand Holding Medical icon with steps
+## Animate fa-hand-holding-medical icon with steps
 While animating the font awesome icon,We can rotate fa-hand-holding-medical icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-hand-holding-medical icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-hand-holding-medical icon with 8 step rotation, use f
 
 
 
-## Rotate Hand Holding Medical Icon using fa-rotate-x
+## Rotate fa-hand-holding-medical Icon using fa-rotate-x
 To rotate the font awesome icon fa-hand-holding-medical, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Hand Holding Medical Icon using fa-flip-*
+## Flip fa-hand-holding-medical Icon using fa-flip-*
 To flip fa-hand-holding-medical font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-hand-holding-medical font awesome icon horizontally and vertically us
 
 
 
-## Combine Hand Holding Medical icon with other font awesome icons
+## Combine fa-hand-holding-medical icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

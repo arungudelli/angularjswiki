@@ -1,9 +1,9 @@
 +++
-title="Creative Commons Pd Alt icon in font awesome icons"
-summary="Creative Commons Pd Alt icon represented as fa-creative-commons-pd-alt in font awesome icons is part of brand (fab) icons"
-keywords=["fa-creative-commons-pd-alt,f4ed,Creative Commons Pd Alt"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-creative-commons-pd-alt icon in font awesome icons"
+summary="fa-creative-commons-pd-alt icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-creative-commons-pd-alt,f4ed,fa-creative-commons-pd-alt"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Creative Commons Pd Alt icon represented as fa-creative-commons-pd-alt in font awesome icons is part of brand (fab) icons
+fa-creative-commons-pd-alt icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Creative Commons Pd Alt</td><td>fa-creative-commons-pd-alt</td><td>f4ed</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-creative-commons-pd-alt</td><td>fa-creative-commons-pd-alt</td><td>f4ed</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Creative Commons Pd Alt icon Usage
 
-To display Creative Commons Pd Alt icon add predefined class name i.e.,fa-creative-commons-pd-alt (with prefix fa-) to the 'i' tag.
+## fa-creative-commons-pd-alt icon Usage
+
+To display fa-creative-commons-pd-alt icon add predefined class name i.e.,fa-creative-commons-pd-alt (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-creative-commons-pd-alt icon. i
 
 
 
-## Change Creative Commons Pd Alt icon size
-To increase Creative Commons Pd Alt font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-creative-commons-pd-alt.
+## Change fa-creative-commons-pd-alt icon size
+To increase fa-creative-commons-pd-alt font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-creative-commons-pd-alt.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Creative Commons Pd Alt Icon with Fixed Width 
+## fa-creative-commons-pd-alt Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Creative Commons Pd Alt Icon Border 
+## fa-creative-commons-pd-alt Icon Border 
 
 To add border to fa-creative-commons-pd-alt icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-creative-commons-pd-alt icon, use fa-border class.
 
 
 
-## Pull Creative Commons Pd Alt icon To the left
+## Pull fa-creative-commons-pd-alt icon To the left
 
 To pull icon fa-creative-commons-pd-alt to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-creative-commons-pd-alt fa-pull-left fa-3x'></i>
   ... The text after fa-creative-commons-pd-alt Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-creative-commons-pd-alt fa-pull-left fa-3x'></i>
   ... The text after fa-creative-commons-pd-alt Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-creative-commons-pd-alt to the left of the container use fa-pull
 
 
 
-## Pull Creative Commons Pd Alt icon To the right
+## Pull fa-creative-commons-pd-alt icon To the right
 To pull icon fa-creative-commons-pd-alt to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-creative-commons-pd-alt fa-pull-right fa-3x'></i>
   ... The text after fa-creative-commons-pd-alt Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-creative-commons-pd-alt fa-pull-right fa-3x'></i>
   ... The text after fa-creative-commons-pd-alt Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-creative-commons-pd-alt to the right of the container use fa-pul
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Creative Commons Pd Alt icon using fa-spin
+## Animate fa-creative-commons-pd-alt icon using fa-spin
 To animate font awesome fa-creative-commons-pd-alt icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-creative-commons-pd-alt icon, use fa-spin class.
 
 
 
-## Animate Creative Commons Pd Alt icon with steps
+## Animate fa-creative-commons-pd-alt icon with steps
 While animating the font awesome icon,We can rotate fa-creative-commons-pd-alt icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-creative-commons-pd-alt icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-creative-commons-pd-alt icon with 8 step rotation, us
 
 
 
-## Rotate Creative Commons Pd Alt Icon using fa-rotate-x
+## Rotate fa-creative-commons-pd-alt Icon using fa-rotate-x
 To rotate the font awesome icon fa-creative-commons-pd-alt, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Creative Commons Pd Alt Icon using fa-flip-*
+## Flip fa-creative-commons-pd-alt Icon using fa-flip-*
 To flip fa-creative-commons-pd-alt font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-creative-commons-pd-alt font awesome icon horizontally and vertically
 
 
 
-## Combine Creative Commons Pd Alt icon with other font awesome icons
+## Combine fa-creative-commons-pd-alt icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

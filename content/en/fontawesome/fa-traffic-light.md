@@ -1,9 +1,9 @@
 +++
-title="Traffic Light icon in font awesome icons"
-summary="Traffic Light icon represented as fa-traffic-light in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-traffic-light,f637,Traffic Light"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-traffic-light icon in font awesome icons"
+summary="fa-traffic-light icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-traffic-light,f637,fa-traffic-light"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Traffic Light icon represented as fa-traffic-light in font awesome icons has 1 variant fas i.e.,solid.
+fa-traffic-light icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Traffic Light</td><td>fa-traffic-light</td><td>f637</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-traffic-light</td><td>fa-traffic-light</td><td>f637</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Traffic Light icon Usage
 
-To display Traffic Light icon add predefined class name i.e.,fa-traffic-light (with prefix fa-) to the 'i' tag.
+## fa-traffic-light icon Usage
+
+To display fa-traffic-light icon add predefined class name i.e.,fa-traffic-light (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-traffic-light icon. i.e., fas.
 
 
 
-## Change Traffic Light icon size
-To increase Traffic Light font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-traffic-light.
+## Change fa-traffic-light icon size
+To increase fa-traffic-light font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-traffic-light.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Traffic Light Icon with Fixed Width 
+## fa-traffic-light Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Traffic Light Icon Border 
+## fa-traffic-light Icon Border 
 
 To add border to fa-traffic-light icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-traffic-light icon, use fa-border class.
 
 
 
-## Pull Traffic Light icon To the left
+## Pull fa-traffic-light icon To the left
 
 To pull icon fa-traffic-light to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-traffic-light fa-pull-left fa-3x'></i>
   ... The text after fa-traffic-light Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-traffic-light fa-pull-left fa-3x'></i>
   ... The text after fa-traffic-light Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-traffic-light to the left of the container use fa-pull-left clas
 
 
 
-## Pull Traffic Light icon To the right
+## Pull fa-traffic-light icon To the right
 To pull icon fa-traffic-light to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-traffic-light fa-pull-right fa-3x'></i>
   ... The text after fa-traffic-light Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-traffic-light fa-pull-right fa-3x'></i>
   ... The text after fa-traffic-light Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-traffic-light to the right of the container use fa-pull-right cl
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Traffic Light icon using fa-spin
+## Animate fa-traffic-light icon using fa-spin
 To animate font awesome fa-traffic-light icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-traffic-light icon, use fa-spin class.
 
 
 
-## Animate Traffic Light icon with steps
+## Animate fa-traffic-light icon with steps
 While animating the font awesome icon,We can rotate fa-traffic-light icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-traffic-light icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-traffic-light icon with 8 step rotation, use fa-pulse
 
 
 
-## Rotate Traffic Light Icon using fa-rotate-x
+## Rotate fa-traffic-light Icon using fa-rotate-x
 To rotate the font awesome icon fa-traffic-light, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Traffic Light Icon using fa-flip-*
+## Flip fa-traffic-light Icon using fa-flip-*
 To flip fa-traffic-light font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-traffic-light font awesome icon horizontally and vertically use fa-fl
 
 
 
-## Combine Traffic Light icon with other font awesome icons
+## Combine fa-traffic-light icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

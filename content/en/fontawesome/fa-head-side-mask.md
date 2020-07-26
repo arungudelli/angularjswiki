@@ -1,9 +1,9 @@
 +++
-title="Head Side Mask icon in font awesome icons"
-summary="Head Side Mask icon represented as fa-head-side-mask in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-head-side-mask,f963,Head Side Mask"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-head-side-mask icon in font awesome icons"
+summary="fa-head-side-mask icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-head-side-mask,f963,fa-head-side-mask"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Head Side Mask icon represented as fa-head-side-mask in font awesome icons has 1 variant fas i.e.,solid.
+fa-head-side-mask icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Head Side Mask</td><td>fa-head-side-mask</td><td>f963</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-head-side-mask</td><td>fa-head-side-mask</td><td>f963</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Head Side Mask icon Usage
 
-To display Head Side Mask icon add predefined class name i.e.,fa-head-side-mask (with prefix fa-) to the 'i' tag.
+## fa-head-side-mask icon Usage
+
+To display fa-head-side-mask icon add predefined class name i.e.,fa-head-side-mask (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-head-side-mask icon. i.e., fas.
 
 
 
-## Change Head Side Mask icon size
-To increase Head Side Mask font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-head-side-mask.
+## Change fa-head-side-mask icon size
+To increase fa-head-side-mask font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-head-side-mask.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Head Side Mask Icon with Fixed Width 
+## fa-head-side-mask Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Head Side Mask Icon Border 
+## fa-head-side-mask Icon Border 
 
 To add border to fa-head-side-mask icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-head-side-mask icon, use fa-border class.
 
 
 
-## Pull Head Side Mask icon To the left
+## Pull fa-head-side-mask icon To the left
 
 To pull icon fa-head-side-mask to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-head-side-mask fa-pull-left fa-3x'></i>
   ... The text after fa-head-side-mask Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-head-side-mask fa-pull-left fa-3x'></i>
   ... The text after fa-head-side-mask Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-head-side-mask to the left of the container use fa-pull-left cla
 
 
 
-## Pull Head Side Mask icon To the right
+## Pull fa-head-side-mask icon To the right
 To pull icon fa-head-side-mask to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-head-side-mask fa-pull-right fa-3x'></i>
   ... The text after fa-head-side-mask Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-head-side-mask fa-pull-right fa-3x'></i>
   ... The text after fa-head-side-mask Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-head-side-mask to the right of the container use fa-pull-right c
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Head Side Mask icon using fa-spin
+## Animate fa-head-side-mask icon using fa-spin
 To animate font awesome fa-head-side-mask icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-head-side-mask icon, use fa-spin class.
 
 
 
-## Animate Head Side Mask icon with steps
+## Animate fa-head-side-mask icon with steps
 While animating the font awesome icon,We can rotate fa-head-side-mask icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-head-side-mask icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-head-side-mask icon with 8 step rotation, use fa-puls
 
 
 
-## Rotate Head Side Mask Icon using fa-rotate-x
+## Rotate fa-head-side-mask Icon using fa-rotate-x
 To rotate the font awesome icon fa-head-side-mask, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Head Side Mask Icon using fa-flip-*
+## Flip fa-head-side-mask Icon using fa-flip-*
 To flip fa-head-side-mask font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-head-side-mask font awesome icon horizontally and vertically use fa-f
 
 
 
-## Combine Head Side Mask icon with other font awesome icons
+## Combine fa-head-side-mask icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

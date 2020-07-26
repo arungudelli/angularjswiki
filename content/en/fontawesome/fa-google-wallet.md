@@ -1,9 +1,9 @@
 +++
-title="Google Wallet icon in font awesome icons"
-summary="Google Wallet icon represented as fa-google-wallet in font awesome icons is part of brand (fab) icons"
-keywords=["fa-google-wallet,f1ee,Google Wallet"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-google-wallet icon in font awesome icons"
+summary="fa-google-wallet icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-google-wallet,f1ee,fa-google-wallet"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Google Wallet icon represented as fa-google-wallet in font awesome icons is part of brand (fab) icons
+fa-google-wallet icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Google Wallet</td><td>fa-google-wallet</td><td>f1ee</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-google-wallet</td><td>fa-google-wallet</td><td>f1ee</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Google Wallet icon Usage
 
-To display Google Wallet icon add predefined class name i.e.,fa-google-wallet (with prefix fa-) to the 'i' tag.
+## fa-google-wallet icon Usage
+
+To display fa-google-wallet icon add predefined class name i.e.,fa-google-wallet (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-google-wallet icon. i.e., fab.
 
 
 
-## Change Google Wallet icon size
-To increase Google Wallet font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-google-wallet.
+## Change fa-google-wallet icon size
+To increase fa-google-wallet font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-google-wallet.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Google Wallet Icon with Fixed Width 
+## fa-google-wallet Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Google Wallet Icon Border 
+## fa-google-wallet Icon Border 
 
 To add border to fa-google-wallet icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-google-wallet icon, use fa-border class.
 
 
 
-## Pull Google Wallet icon To the left
+## Pull fa-google-wallet icon To the left
 
 To pull icon fa-google-wallet to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-google-wallet fa-pull-left fa-3x'></i>
   ... The text after fa-google-wallet Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-google-wallet fa-pull-left fa-3x'></i>
   ... The text after fa-google-wallet Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-google-wallet to the left of the container use fa-pull-left clas
 
 
 
-## Pull Google Wallet icon To the right
+## Pull fa-google-wallet icon To the right
 To pull icon fa-google-wallet to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-google-wallet fa-pull-right fa-3x'></i>
   ... The text after fa-google-wallet Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-google-wallet fa-pull-right fa-3x'></i>
   ... The text after fa-google-wallet Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-google-wallet to the right of the container use fa-pull-right cl
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Google Wallet icon using fa-spin
+## Animate fa-google-wallet icon using fa-spin
 To animate font awesome fa-google-wallet icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-google-wallet icon, use fa-spin class.
 
 
 
-## Animate Google Wallet icon with steps
+## Animate fa-google-wallet icon with steps
 While animating the font awesome icon,We can rotate fa-google-wallet icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-google-wallet icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-google-wallet icon with 8 step rotation, use fa-pulse
 
 
 
-## Rotate Google Wallet Icon using fa-rotate-x
+## Rotate fa-google-wallet Icon using fa-rotate-x
 To rotate the font awesome icon fa-google-wallet, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Google Wallet Icon using fa-flip-*
+## Flip fa-google-wallet Icon using fa-flip-*
 To flip fa-google-wallet font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-google-wallet font awesome icon horizontally and vertically use fa-fl
 
 
 
-## Combine Google Wallet icon with other font awesome icons
+## Combine fa-google-wallet icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

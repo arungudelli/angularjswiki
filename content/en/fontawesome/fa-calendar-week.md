@@ -1,9 +1,9 @@
 +++
-title="Calendar Week icon in font awesome icons"
-summary="Calendar Week icon represented as fa-calendar-week in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-calendar-week,f784,Calendar Week"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-calendar-week icon in font awesome icons"
+summary="fa-calendar-week icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-calendar-week,f784,fa-calendar-week"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Calendar Week icon represented as fa-calendar-week in font awesome icons has 1 variant fas i.e.,solid.
+fa-calendar-week icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Calendar Week</td><td>fa-calendar-week</td><td>f784</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-calendar-week</td><td>fa-calendar-week</td><td>f784</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Calendar Week icon Usage
 
-To display Calendar Week icon add predefined class name i.e.,fa-calendar-week (with prefix fa-) to the 'i' tag.
+## fa-calendar-week icon Usage
+
+To display fa-calendar-week icon add predefined class name i.e.,fa-calendar-week (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-calendar-week icon. i.e., fas.
 
 
 
-## Change Calendar Week icon size
-To increase Calendar Week font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-calendar-week.
+## Change fa-calendar-week icon size
+To increase fa-calendar-week font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-calendar-week.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Calendar Week Icon with Fixed Width 
+## fa-calendar-week Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Calendar Week Icon Border 
+## fa-calendar-week Icon Border 
 
 To add border to fa-calendar-week icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-calendar-week icon, use fa-border class.
 
 
 
-## Pull Calendar Week icon To the left
+## Pull fa-calendar-week icon To the left
 
 To pull icon fa-calendar-week to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-calendar-week fa-pull-left fa-3x'></i>
   ... The text after fa-calendar-week Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-calendar-week fa-pull-left fa-3x'></i>
   ... The text after fa-calendar-week Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-calendar-week to the left of the container use fa-pull-left clas
 
 
 
-## Pull Calendar Week icon To the right
+## Pull fa-calendar-week icon To the right
 To pull icon fa-calendar-week to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-calendar-week fa-pull-right fa-3x'></i>
   ... The text after fa-calendar-week Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-calendar-week fa-pull-right fa-3x'></i>
   ... The text after fa-calendar-week Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-calendar-week to the right of the container use fa-pull-right cl
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Calendar Week icon using fa-spin
+## Animate fa-calendar-week icon using fa-spin
 To animate font awesome fa-calendar-week icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-calendar-week icon, use fa-spin class.
 
 
 
-## Animate Calendar Week icon with steps
+## Animate fa-calendar-week icon with steps
 While animating the font awesome icon,We can rotate fa-calendar-week icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-calendar-week icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-calendar-week icon with 8 step rotation, use fa-pulse
 
 
 
-## Rotate Calendar Week Icon using fa-rotate-x
+## Rotate fa-calendar-week Icon using fa-rotate-x
 To rotate the font awesome icon fa-calendar-week, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Calendar Week Icon using fa-flip-*
+## Flip fa-calendar-week Icon using fa-flip-*
 To flip fa-calendar-week font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-calendar-week font awesome icon horizontally and vertically use fa-fl
 
 
 
-## Combine Calendar Week icon with other font awesome icons
+## Combine fa-calendar-week icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

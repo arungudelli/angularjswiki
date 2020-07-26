@@ -1,9 +1,9 @@
 +++
-title="File Import icon in font awesome icons"
-summary="File Import icon represented as fa-file-import in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-file-import,f56f,File Import"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-file-import icon in font awesome icons"
+summary="fa-file-import icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-file-import,f56f,fa-file-import"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-File Import icon represented as fa-file-import in font awesome icons has 1 variant fas i.e.,solid.
+fa-file-import icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>File Import</td><td>fa-file-import</td><td>f56f</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-file-import</td><td>fa-file-import</td><td>f56f</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## File Import icon Usage
 
-To display File Import icon add predefined class name i.e.,fa-file-import (with prefix fa-) to the 'i' tag.
+## fa-file-import icon Usage
+
+To display fa-file-import icon add predefined class name i.e.,fa-file-import (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-file-import icon. i.e., fas.
 
 
 
-## Change File Import icon size
-To increase File Import font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-file-import.
+## Change fa-file-import icon size
+To increase fa-file-import font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-file-import.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## File Import Icon with Fixed Width 
+## fa-file-import Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## File Import Icon Border 
+## fa-file-import Icon Border 
 
 To add border to fa-file-import icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-file-import icon, use fa-border class.
 
 
 
-## Pull File Import icon To the left
+## Pull fa-file-import icon To the left
 
 To pull icon fa-file-import to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-file-import fa-pull-left fa-3x'></i>
   ... The text after fa-file-import Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-file-import fa-pull-left fa-3x'></i>
   ... The text after fa-file-import Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-file-import to the left of the container use fa-pull-left class.
 
 
 
-## Pull File Import icon To the right
+## Pull fa-file-import icon To the right
 To pull icon fa-file-import to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-file-import fa-pull-right fa-3x'></i>
   ... The text after fa-file-import Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-file-import fa-pull-right fa-3x'></i>
   ... The text after fa-file-import Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-file-import to the right of the container use fa-pull-right clas
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate File Import icon using fa-spin
+## Animate fa-file-import icon using fa-spin
 To animate font awesome fa-file-import icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-file-import icon, use fa-spin class.
 
 
 
-## Animate File Import icon with steps
+## Animate fa-file-import icon with steps
 While animating the font awesome icon,We can rotate fa-file-import icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-file-import icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-file-import icon with 8 step rotation, use fa-pulse i
 
 
 
-## Rotate File Import Icon using fa-rotate-x
+## Rotate fa-file-import Icon using fa-rotate-x
 To rotate the font awesome icon fa-file-import, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip File Import Icon using fa-flip-*
+## Flip fa-file-import Icon using fa-flip-*
 To flip fa-file-import font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-file-import font awesome icon horizontally and vertically use fa-flip
 
 
 
-## Combine File Import icon with other font awesome icons
+## Combine fa-file-import icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

@@ -1,9 +1,9 @@
 +++
-title="Truck Monster icon in font awesome icons"
-summary="Truck Monster icon represented as fa-truck-monster in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-truck-monster,f63b,Truck Monster"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-truck-monster icon in font awesome icons"
+summary="fa-truck-monster icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-truck-monster,f63b,fa-truck-monster"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Truck Monster icon represented as fa-truck-monster in font awesome icons has 1 variant fas i.e.,solid.
+fa-truck-monster icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Truck Monster</td><td>fa-truck-monster</td><td>f63b</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-truck-monster</td><td>fa-truck-monster</td><td>f63b</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Truck Monster icon Usage
 
-To display Truck Monster icon add predefined class name i.e.,fa-truck-monster (with prefix fa-) to the 'i' tag.
+## fa-truck-monster icon Usage
+
+To display fa-truck-monster icon add predefined class name i.e.,fa-truck-monster (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-truck-monster icon. i.e., fas.
 
 
 
-## Change Truck Monster icon size
-To increase Truck Monster font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-truck-monster.
+## Change fa-truck-monster icon size
+To increase fa-truck-monster font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-truck-monster.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Truck Monster Icon with Fixed Width 
+## fa-truck-monster Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Truck Monster Icon Border 
+## fa-truck-monster Icon Border 
 
 To add border to fa-truck-monster icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-truck-monster icon, use fa-border class.
 
 
 
-## Pull Truck Monster icon To the left
+## Pull fa-truck-monster icon To the left
 
 To pull icon fa-truck-monster to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-truck-monster fa-pull-left fa-3x'></i>
   ... The text after fa-truck-monster Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-truck-monster fa-pull-left fa-3x'></i>
   ... The text after fa-truck-monster Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-truck-monster to the left of the container use fa-pull-left clas
 
 
 
-## Pull Truck Monster icon To the right
+## Pull fa-truck-monster icon To the right
 To pull icon fa-truck-monster to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-truck-monster fa-pull-right fa-3x'></i>
   ... The text after fa-truck-monster Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-truck-monster fa-pull-right fa-3x'></i>
   ... The text after fa-truck-monster Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-truck-monster to the right of the container use fa-pull-right cl
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Truck Monster icon using fa-spin
+## Animate fa-truck-monster icon using fa-spin
 To animate font awesome fa-truck-monster icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-truck-monster icon, use fa-spin class.
 
 
 
-## Animate Truck Monster icon with steps
+## Animate fa-truck-monster icon with steps
 While animating the font awesome icon,We can rotate fa-truck-monster icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-truck-monster icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-truck-monster icon with 8 step rotation, use fa-pulse
 
 
 
-## Rotate Truck Monster Icon using fa-rotate-x
+## Rotate fa-truck-monster Icon using fa-rotate-x
 To rotate the font awesome icon fa-truck-monster, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Truck Monster Icon using fa-flip-*
+## Flip fa-truck-monster Icon using fa-flip-*
 To flip fa-truck-monster font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-truck-monster font awesome icon horizontally and vertically use fa-fl
 
 
 
-## Combine Truck Monster icon with other font awesome icons
+## Combine fa-truck-monster icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

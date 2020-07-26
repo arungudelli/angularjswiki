@@ -1,9 +1,9 @@
 +++
-title="Confluence icon in font awesome icons"
-summary="Confluence icon represented as fa-confluence in font awesome icons is part of brand (fab) icons"
-keywords=["fa-confluence,f78d,Confluence"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-confluence icon in font awesome icons"
+summary="fa-confluence icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-confluence,f78d,fa-confluence"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Confluence icon represented as fa-confluence in font awesome icons is part of brand (fab) icons
+fa-confluence icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Confluence</td><td>fa-confluence</td><td>f78d</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-confluence</td><td>fa-confluence</td><td>f78d</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Confluence icon Usage
 
-To display Confluence icon add predefined class name i.e.,fa-confluence (with prefix fa-) to the 'i' tag.
+## fa-confluence icon Usage
+
+To display fa-confluence icon add predefined class name i.e.,fa-confluence (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-confluence icon. i.e., fab.
 
 
 
-## Change Confluence icon size
-To increase Confluence font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-confluence.
+## Change fa-confluence icon size
+To increase fa-confluence font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-confluence.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Confluence Icon with Fixed Width 
+## fa-confluence Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Confluence Icon Border 
+## fa-confluence Icon Border 
 
 To add border to fa-confluence icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-confluence icon, use fa-border class.
 
 
 
-## Pull Confluence icon To the left
+## Pull fa-confluence icon To the left
 
 To pull icon fa-confluence to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-confluence fa-pull-left fa-3x'></i>
   ... The text after fa-confluence Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-confluence fa-pull-left fa-3x'></i>
   ... The text after fa-confluence Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-confluence to the left of the container use fa-pull-left class.\
 
 
 
-## Pull Confluence icon To the right
+## Pull fa-confluence icon To the right
 To pull icon fa-confluence to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-confluence fa-pull-right fa-3x'></i>
   ... The text after fa-confluence Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-confluence fa-pull-right fa-3x'></i>
   ... The text after fa-confluence Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-confluence to the right of the container use fa-pull-right class
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Confluence icon using fa-spin
+## Animate fa-confluence icon using fa-spin
 To animate font awesome fa-confluence icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-confluence icon, use fa-spin class.
 
 
 
-## Animate Confluence icon with steps
+## Animate fa-confluence icon with steps
 While animating the font awesome icon,We can rotate fa-confluence icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-confluence icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-confluence icon with 8 step rotation, use fa-pulse ic
 
 
 
-## Rotate Confluence Icon using fa-rotate-x
+## Rotate fa-confluence Icon using fa-rotate-x
 To rotate the font awesome icon fa-confluence, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Confluence Icon using fa-flip-*
+## Flip fa-confluence Icon using fa-flip-*
 To flip fa-confluence font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-confluence font awesome icon horizontally and vertically use fa-flip-
 
 
 
-## Combine Confluence icon with other font awesome icons
+## Combine fa-confluence icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

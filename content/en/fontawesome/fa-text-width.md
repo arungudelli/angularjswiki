@@ -1,9 +1,9 @@
 +++
-title="Text Width icon in font awesome icons"
-summary="Text Width icon represented as fa-text-width in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-text-width,f035,Text Width"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-text-width icon in font awesome icons"
+summary="fa-text-width icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-text-width,f035,fa-text-width"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Text Width icon represented as fa-text-width in font awesome icons has 1 variant fas i.e.,solid.
+fa-text-width icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Text Width</td><td>fa-text-width</td><td>f035</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-text-width</td><td>fa-text-width</td><td>f035</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Text Width icon Usage
 
-To display Text Width icon add predefined class name i.e.,fa-text-width (with prefix fa-) to the 'i' tag.
+## fa-text-width icon Usage
+
+To display fa-text-width icon add predefined class name i.e.,fa-text-width (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-text-width icon. i.e., fas.
 
 
 
-## Change Text Width icon size
-To increase Text Width font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-text-width.
+## Change fa-text-width icon size
+To increase fa-text-width font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-text-width.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Text Width Icon with Fixed Width 
+## fa-text-width Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Text Width Icon Border 
+## fa-text-width Icon Border 
 
 To add border to fa-text-width icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-text-width icon, use fa-border class.
 
 
 
-## Pull Text Width icon To the left
+## Pull fa-text-width icon To the left
 
 To pull icon fa-text-width to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-text-width fa-pull-left fa-3x'></i>
   ... The text after fa-text-width Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-text-width fa-pull-left fa-3x'></i>
   ... The text after fa-text-width Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-text-width to the left of the container use fa-pull-left class.\
 
 
 
-## Pull Text Width icon To the right
+## Pull fa-text-width icon To the right
 To pull icon fa-text-width to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-text-width fa-pull-right fa-3x'></i>
   ... The text after fa-text-width Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-text-width fa-pull-right fa-3x'></i>
   ... The text after fa-text-width Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-text-width to the right of the container use fa-pull-right class
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Text Width icon using fa-spin
+## Animate fa-text-width icon using fa-spin
 To animate font awesome fa-text-width icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-text-width icon, use fa-spin class.
 
 
 
-## Animate Text Width icon with steps
+## Animate fa-text-width icon with steps
 While animating the font awesome icon,We can rotate fa-text-width icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-text-width icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-text-width icon with 8 step rotation, use fa-pulse ic
 
 
 
-## Rotate Text Width Icon using fa-rotate-x
+## Rotate fa-text-width Icon using fa-rotate-x
 To rotate the font awesome icon fa-text-width, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Text Width Icon using fa-flip-*
+## Flip fa-text-width Icon using fa-flip-*
 To flip fa-text-width font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-text-width font awesome icon horizontally and vertically use fa-flip-
 
 
 
-## Combine Text Width icon with other font awesome icons
+## Combine fa-text-width icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

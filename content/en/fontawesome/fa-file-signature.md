@@ -1,9 +1,9 @@
 +++
-title="File Signature icon in font awesome icons"
-summary="File Signature icon represented as fa-file-signature in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-file-signature,f573,File Signature"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-file-signature icon in font awesome icons"
+summary="fa-file-signature icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-file-signature,f573,fa-file-signature"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-File Signature icon represented as fa-file-signature in font awesome icons has 1 variant fas i.e.,solid.
+fa-file-signature icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>File Signature</td><td>fa-file-signature</td><td>f573</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-file-signature</td><td>fa-file-signature</td><td>f573</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## File Signature icon Usage
 
-To display File Signature icon add predefined class name i.e.,fa-file-signature (with prefix fa-) to the 'i' tag.
+## fa-file-signature icon Usage
+
+To display fa-file-signature icon add predefined class name i.e.,fa-file-signature (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-file-signature icon. i.e., fas.
 
 
 
-## Change File Signature icon size
-To increase File Signature font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-file-signature.
+## Change fa-file-signature icon size
+To increase fa-file-signature font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-file-signature.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## File Signature Icon with Fixed Width 
+## fa-file-signature Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## File Signature Icon Border 
+## fa-file-signature Icon Border 
 
 To add border to fa-file-signature icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-file-signature icon, use fa-border class.
 
 
 
-## Pull File Signature icon To the left
+## Pull fa-file-signature icon To the left
 
 To pull icon fa-file-signature to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-file-signature fa-pull-left fa-3x'></i>
   ... The text after fa-file-signature Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-file-signature fa-pull-left fa-3x'></i>
   ... The text after fa-file-signature Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-file-signature to the left of the container use fa-pull-left cla
 
 
 
-## Pull File Signature icon To the right
+## Pull fa-file-signature icon To the right
 To pull icon fa-file-signature to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-file-signature fa-pull-right fa-3x'></i>
   ... The text after fa-file-signature Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-file-signature fa-pull-right fa-3x'></i>
   ... The text after fa-file-signature Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-file-signature to the right of the container use fa-pull-right c
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate File Signature icon using fa-spin
+## Animate fa-file-signature icon using fa-spin
 To animate font awesome fa-file-signature icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-file-signature icon, use fa-spin class.
 
 
 
-## Animate File Signature icon with steps
+## Animate fa-file-signature icon with steps
 While animating the font awesome icon,We can rotate fa-file-signature icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-file-signature icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-file-signature icon with 8 step rotation, use fa-puls
 
 
 
-## Rotate File Signature Icon using fa-rotate-x
+## Rotate fa-file-signature Icon using fa-rotate-x
 To rotate the font awesome icon fa-file-signature, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip File Signature Icon using fa-flip-*
+## Flip fa-file-signature Icon using fa-flip-*
 To flip fa-file-signature font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-file-signature font awesome icon horizontally and vertically use fa-f
 
 
 
-## Combine File Signature icon with other font awesome icons
+## Combine fa-file-signature icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

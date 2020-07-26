@@ -1,9 +1,9 @@
 +++
-title="Crown icon in font awesome icons"
-summary="Crown icon represented as fa-crown in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-crown,f521,Crown"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-crown icon in font awesome icons"
+summary="fa-crown icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-crown,f521,fa-crown"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Crown icon represented as fa-crown in font awesome icons has 1 variant fas i.e.,solid.
+fa-crown icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Crown</td><td>fa-crown</td><td>f521</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-crown</td><td>fa-crown</td><td>f521</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Crown icon Usage
 
-To display Crown icon add predefined class name i.e.,fa-crown (with prefix fa-) to the 'i' tag.
+## fa-crown icon Usage
+
+To display fa-crown icon add predefined class name i.e.,fa-crown (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-crown icon. i.e., fas.
 
 
 
-## Change Crown icon size
-To increase Crown font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-crown.
+## Change fa-crown icon size
+To increase fa-crown font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-crown.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Crown Icon with Fixed Width 
+## fa-crown Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Crown Icon Border 
+## fa-crown Icon Border 
 
 To add border to fa-crown icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-crown icon, use fa-border class.
 
 
 
-## Pull Crown icon To the left
+## Pull fa-crown icon To the left
 
 To pull icon fa-crown to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-crown fa-pull-left fa-3x'></i>
   ... The text after fa-crown Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-crown fa-pull-left fa-3x'></i>
   ... The text after fa-crown Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-crown to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Crown icon To the right
+## Pull fa-crown icon To the right
 To pull icon fa-crown to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-crown fa-pull-right fa-3x'></i>
   ... The text after fa-crown Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-crown fa-pull-right fa-3x'></i>
   ... The text after fa-crown Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-crown to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Crown icon using fa-spin
+## Animate fa-crown icon using fa-spin
 To animate font awesome fa-crown icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-crown icon, use fa-spin class.
 
 
 
-## Animate Crown icon with steps
+## Animate fa-crown icon with steps
 While animating the font awesome icon,We can rotate fa-crown icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-crown icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-crown icon with 8 step rotation, use fa-pulse icon al
 
 
 
-## Rotate Crown Icon using fa-rotate-x
+## Rotate fa-crown Icon using fa-rotate-x
 To rotate the font awesome icon fa-crown, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Crown Icon using fa-flip-*
+## Flip fa-crown Icon using fa-flip-*
 To flip fa-crown font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-crown font awesome icon horizontally and vertically use fa-flip-horiz
 
 
 
-## Combine Crown icon with other font awesome icons
+## Combine fa-crown icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

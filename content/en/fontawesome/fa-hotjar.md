@@ -1,9 +1,9 @@
 +++
-title="Hotjar icon in font awesome icons"
-summary="Hotjar icon represented as fa-hotjar in font awesome icons is part of brand (fab) icons"
-keywords=["fa-hotjar,f3b1,Hotjar"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-hotjar icon in font awesome icons"
+summary="fa-hotjar icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-hotjar,f3b1,fa-hotjar"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Hotjar icon represented as fa-hotjar in font awesome icons is part of brand (fab) icons
+fa-hotjar icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Hotjar</td><td>fa-hotjar</td><td>f3b1</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-hotjar</td><td>fa-hotjar</td><td>f3b1</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Hotjar icon Usage
 
-To display Hotjar icon add predefined class name i.e.,fa-hotjar (with prefix fa-) to the 'i' tag.
+## fa-hotjar icon Usage
+
+To display fa-hotjar icon add predefined class name i.e.,fa-hotjar (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-hotjar icon. i.e., fab.
 
 
 
-## Change Hotjar icon size
-To increase Hotjar font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-hotjar.
+## Change fa-hotjar icon size
+To increase fa-hotjar font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-hotjar.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Hotjar Icon with Fixed Width 
+## fa-hotjar Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Hotjar Icon Border 
+## fa-hotjar Icon Border 
 
 To add border to fa-hotjar icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-hotjar icon, use fa-border class.
 
 
 
-## Pull Hotjar icon To the left
+## Pull fa-hotjar icon To the left
 
 To pull icon fa-hotjar to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-hotjar fa-pull-left fa-3x'></i>
   ... The text after fa-hotjar Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-hotjar fa-pull-left fa-3x'></i>
   ... The text after fa-hotjar Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-hotjar to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Hotjar icon To the right
+## Pull fa-hotjar icon To the right
 To pull icon fa-hotjar to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-hotjar fa-pull-right fa-3x'></i>
   ... The text after fa-hotjar Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-hotjar fa-pull-right fa-3x'></i>
   ... The text after fa-hotjar Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-hotjar to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Hotjar icon using fa-spin
+## Animate fa-hotjar icon using fa-spin
 To animate font awesome fa-hotjar icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-hotjar icon, use fa-spin class.
 
 
 
-## Animate Hotjar icon with steps
+## Animate fa-hotjar icon with steps
 While animating the font awesome icon,We can rotate fa-hotjar icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-hotjar icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-hotjar icon with 8 step rotation, use fa-pulse icon a
 
 
 
-## Rotate Hotjar Icon using fa-rotate-x
+## Rotate fa-hotjar Icon using fa-rotate-x
 To rotate the font awesome icon fa-hotjar, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Hotjar Icon using fa-flip-*
+## Flip fa-hotjar Icon using fa-flip-*
 To flip fa-hotjar font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-hotjar font awesome icon horizontally and vertically use fa-flip-hori
 
 
 
-## Combine Hotjar icon with other font awesome icons
+## Combine fa-hotjar icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

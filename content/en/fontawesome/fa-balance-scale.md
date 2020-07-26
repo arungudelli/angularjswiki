@@ -1,9 +1,9 @@
 +++
-title="Balance Scale icon in font awesome icons"
-summary="Balance Scale icon represented as fa-balance-scale in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-balance-scale,f24e,Balance Scale"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-balance-scale icon in font awesome icons"
+summary="fa-balance-scale icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-balance-scale,f24e,fa-balance-scale"]
+date="25-07-2020T22:59:19"
+lastmod="25-07-2020T22:59:19"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Balance Scale icon represented as fa-balance-scale in font awesome icons has 1 variant fas i.e.,solid.
+fa-balance-scale icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Balance Scale</td><td>fa-balance-scale</td><td>f24e</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-balance-scale</td><td>fa-balance-scale</td><td>f24e</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Balance Scale icon Usage
 
-To display Balance Scale icon add predefined class name i.e.,fa-balance-scale (with prefix fa-) to the 'i' tag.
+## fa-balance-scale icon Usage
+
+To display fa-balance-scale icon add predefined class name i.e.,fa-balance-scale (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-balance-scale icon. i.e., fas.
 
 
 
-## Change Balance Scale icon size
-To increase Balance Scale font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-balance-scale.
+## Change fa-balance-scale icon size
+To increase fa-balance-scale font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-balance-scale.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Balance Scale Icon with Fixed Width 
+## fa-balance-scale Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Balance Scale Icon Border 
+## fa-balance-scale Icon Border 
 
 To add border to fa-balance-scale icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-balance-scale icon, use fa-border class.
 
 
 
-## Pull Balance Scale icon To the left
+## Pull fa-balance-scale icon To the left
 
 To pull icon fa-balance-scale to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-balance-scale fa-pull-left fa-3x'></i>
   ... The text after fa-balance-scale Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-balance-scale fa-pull-left fa-3x'></i>
   ... The text after fa-balance-scale Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-balance-scale to the left of the container use fa-pull-left clas
 
 
 
-## Pull Balance Scale icon To the right
+## Pull fa-balance-scale icon To the right
 To pull icon fa-balance-scale to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-balance-scale fa-pull-right fa-3x'></i>
   ... The text after fa-balance-scale Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-balance-scale fa-pull-right fa-3x'></i>
   ... The text after fa-balance-scale Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-balance-scale to the right of the container use fa-pull-right cl
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Balance Scale icon using fa-spin
+## Animate fa-balance-scale icon using fa-spin
 To animate font awesome fa-balance-scale icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-balance-scale icon, use fa-spin class.
 
 
 
-## Animate Balance Scale icon with steps
+## Animate fa-balance-scale icon with steps
 While animating the font awesome icon,We can rotate fa-balance-scale icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-balance-scale icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-balance-scale icon with 8 step rotation, use fa-pulse
 
 
 
-## Rotate Balance Scale Icon using fa-rotate-x
+## Rotate fa-balance-scale Icon using fa-rotate-x
 To rotate the font awesome icon fa-balance-scale, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Balance Scale Icon using fa-flip-*
+## Flip fa-balance-scale Icon using fa-flip-*
 To flip fa-balance-scale font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-balance-scale font awesome icon horizontally and vertically use fa-fl
 
 
 
-## Combine Balance Scale icon with other font awesome icons
+## Combine fa-balance-scale icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

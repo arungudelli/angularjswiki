@@ -1,9 +1,9 @@
 +++
-title="Sort Amount Up icon in font awesome icons"
-summary="Sort Amount Up icon represented as fa-sort-amount-up in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-sort-amount-up,f161,Sort Amount Up"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-sort-amount-up icon in font awesome icons"
+summary="fa-sort-amount-up icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-sort-amount-up,f161,fa-sort-amount-up"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Sort Amount Up icon represented as fa-sort-amount-up in font awesome icons has 1 variant fas i.e.,solid.
+fa-sort-amount-up icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Sort Amount Up</td><td>fa-sort-amount-up</td><td>f161</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-sort-amount-up</td><td>fa-sort-amount-up</td><td>f161</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Sort Amount Up icon Usage
 
-To display Sort Amount Up icon add predefined class name i.e.,fa-sort-amount-up (with prefix fa-) to the 'i' tag.
+## fa-sort-amount-up icon Usage
+
+To display fa-sort-amount-up icon add predefined class name i.e.,fa-sort-amount-up (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-sort-amount-up icon. i.e., fas.
 
 
 
-## Change Sort Amount Up icon size
-To increase Sort Amount Up font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-sort-amount-up.
+## Change fa-sort-amount-up icon size
+To increase fa-sort-amount-up font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-sort-amount-up.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Sort Amount Up Icon with Fixed Width 
+## fa-sort-amount-up Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Sort Amount Up Icon Border 
+## fa-sort-amount-up Icon Border 
 
 To add border to fa-sort-amount-up icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-sort-amount-up icon, use fa-border class.
 
 
 
-## Pull Sort Amount Up icon To the left
+## Pull fa-sort-amount-up icon To the left
 
 To pull icon fa-sort-amount-up to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-sort-amount-up fa-pull-left fa-3x'></i>
   ... The text after fa-sort-amount-up Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-sort-amount-up fa-pull-left fa-3x'></i>
   ... The text after fa-sort-amount-up Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-sort-amount-up to the left of the container use fa-pull-left cla
 
 
 
-## Pull Sort Amount Up icon To the right
+## Pull fa-sort-amount-up icon To the right
 To pull icon fa-sort-amount-up to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-sort-amount-up fa-pull-right fa-3x'></i>
   ... The text after fa-sort-amount-up Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-sort-amount-up fa-pull-right fa-3x'></i>
   ... The text after fa-sort-amount-up Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-sort-amount-up to the right of the container use fa-pull-right c
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Sort Amount Up icon using fa-spin
+## Animate fa-sort-amount-up icon using fa-spin
 To animate font awesome fa-sort-amount-up icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-sort-amount-up icon, use fa-spin class.
 
 
 
-## Animate Sort Amount Up icon with steps
+## Animate fa-sort-amount-up icon with steps
 While animating the font awesome icon,We can rotate fa-sort-amount-up icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-sort-amount-up icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-sort-amount-up icon with 8 step rotation, use fa-puls
 
 
 
-## Rotate Sort Amount Up Icon using fa-rotate-x
+## Rotate fa-sort-amount-up Icon using fa-rotate-x
 To rotate the font awesome icon fa-sort-amount-up, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Sort Amount Up Icon using fa-flip-*
+## Flip fa-sort-amount-up Icon using fa-flip-*
 To flip fa-sort-amount-up font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-sort-amount-up font awesome icon horizontally and vertically use fa-f
 
 
 
-## Combine Sort Amount Up icon with other font awesome icons
+## Combine fa-sort-amount-up icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

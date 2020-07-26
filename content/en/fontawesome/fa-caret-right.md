@@ -1,9 +1,9 @@
 +++
-title="Caret Right icon in font awesome icons"
-summary="Caret Right icon represented as fa-caret-right in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-caret-right,f0da,Caret Right"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-caret-right icon in font awesome icons"
+summary="fa-caret-right icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-caret-right,f0da,fa-caret-right"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Caret Right icon represented as fa-caret-right in font awesome icons has 1 variant fas i.e.,solid.
+fa-caret-right icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Caret Right</td><td>fa-caret-right</td><td>f0da</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-caret-right</td><td>fa-caret-right</td><td>f0da</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Caret Right icon Usage
 
-To display Caret Right icon add predefined class name i.e.,fa-caret-right (with prefix fa-) to the 'i' tag.
+## fa-caret-right icon Usage
+
+To display fa-caret-right icon add predefined class name i.e.,fa-caret-right (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-caret-right icon. i.e., fas.
 
 
 
-## Change Caret Right icon size
-To increase Caret Right font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-caret-right.
+## Change fa-caret-right icon size
+To increase fa-caret-right font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-caret-right.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Caret Right Icon with Fixed Width 
+## fa-caret-right Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Caret Right Icon Border 
+## fa-caret-right Icon Border 
 
 To add border to fa-caret-right icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-caret-right icon, use fa-border class.
 
 
 
-## Pull Caret Right icon To the left
+## Pull fa-caret-right icon To the left
 
 To pull icon fa-caret-right to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-caret-right fa-pull-left fa-3x'></i>
   ... The text after fa-caret-right Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-caret-right fa-pull-left fa-3x'></i>
   ... The text after fa-caret-right Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-caret-right to the left of the container use fa-pull-left class.
 
 
 
-## Pull Caret Right icon To the right
+## Pull fa-caret-right icon To the right
 To pull icon fa-caret-right to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-caret-right fa-pull-right fa-3x'></i>
   ... The text after fa-caret-right Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-caret-right fa-pull-right fa-3x'></i>
   ... The text after fa-caret-right Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-caret-right to the right of the container use fa-pull-right clas
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Caret Right icon using fa-spin
+## Animate fa-caret-right icon using fa-spin
 To animate font awesome fa-caret-right icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-caret-right icon, use fa-spin class.
 
 
 
-## Animate Caret Right icon with steps
+## Animate fa-caret-right icon with steps
 While animating the font awesome icon,We can rotate fa-caret-right icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-caret-right icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-caret-right icon with 8 step rotation, use fa-pulse i
 
 
 
-## Rotate Caret Right Icon using fa-rotate-x
+## Rotate fa-caret-right Icon using fa-rotate-x
 To rotate the font awesome icon fa-caret-right, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Caret Right Icon using fa-flip-*
+## Flip fa-caret-right Icon using fa-flip-*
 To flip fa-caret-right font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-caret-right font awesome icon horizontally and vertically use fa-flip
 
 
 
-## Combine Caret Right icon with other font awesome icons
+## Combine fa-caret-right icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

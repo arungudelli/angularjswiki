@@ -1,9 +1,9 @@
 +++
-title="Sign Out Alt icon in font awesome icons"
-summary="Sign Out Alt icon represented as fa-sign-out-alt in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-sign-out-alt,f2f5,Sign Out Alt"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-sign-out-alt icon in font awesome icons"
+summary="fa-sign-out-alt icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-sign-out-alt,f2f5,fa-sign-out-alt"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Sign Out Alt icon represented as fa-sign-out-alt in font awesome icons has 1 variant fas i.e.,solid.
+fa-sign-out-alt icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Sign Out Alt</td><td>fa-sign-out-alt</td><td>f2f5</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-sign-out-alt</td><td>fa-sign-out-alt</td><td>f2f5</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Sign Out Alt icon Usage
 
-To display Sign Out Alt icon add predefined class name i.e.,fa-sign-out-alt (with prefix fa-) to the 'i' tag.
+## fa-sign-out-alt icon Usage
+
+To display fa-sign-out-alt icon add predefined class name i.e.,fa-sign-out-alt (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-sign-out-alt icon. i.e., fas.
 
 
 
-## Change Sign Out Alt icon size
-To increase Sign Out Alt font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-sign-out-alt.
+## Change fa-sign-out-alt icon size
+To increase fa-sign-out-alt font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-sign-out-alt.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Sign Out Alt Icon with Fixed Width 
+## fa-sign-out-alt Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Sign Out Alt Icon Border 
+## fa-sign-out-alt Icon Border 
 
 To add border to fa-sign-out-alt icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-sign-out-alt icon, use fa-border class.
 
 
 
-## Pull Sign Out Alt icon To the left
+## Pull fa-sign-out-alt icon To the left
 
 To pull icon fa-sign-out-alt to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-sign-out-alt fa-pull-left fa-3x'></i>
   ... The text after fa-sign-out-alt Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-sign-out-alt fa-pull-left fa-3x'></i>
   ... The text after fa-sign-out-alt Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-sign-out-alt to the left of the container use fa-pull-left class
 
 
 
-## Pull Sign Out Alt icon To the right
+## Pull fa-sign-out-alt icon To the right
 To pull icon fa-sign-out-alt to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-sign-out-alt fa-pull-right fa-3x'></i>
   ... The text after fa-sign-out-alt Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-sign-out-alt fa-pull-right fa-3x'></i>
   ... The text after fa-sign-out-alt Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-sign-out-alt to the right of the container use fa-pull-right cla
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Sign Out Alt icon using fa-spin
+## Animate fa-sign-out-alt icon using fa-spin
 To animate font awesome fa-sign-out-alt icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-sign-out-alt icon, use fa-spin class.
 
 
 
-## Animate Sign Out Alt icon with steps
+## Animate fa-sign-out-alt icon with steps
 While animating the font awesome icon,We can rotate fa-sign-out-alt icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-sign-out-alt icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-sign-out-alt icon with 8 step rotation, use fa-pulse 
 
 
 
-## Rotate Sign Out Alt Icon using fa-rotate-x
+## Rotate fa-sign-out-alt Icon using fa-rotate-x
 To rotate the font awesome icon fa-sign-out-alt, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Sign Out Alt Icon using fa-flip-*
+## Flip fa-sign-out-alt Icon using fa-flip-*
 To flip fa-sign-out-alt font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-sign-out-alt font awesome icon horizontally and vertically use fa-fli
 
 
 
-## Combine Sign Out Alt icon with other font awesome icons
+## Combine fa-sign-out-alt icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

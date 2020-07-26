@@ -1,9 +1,9 @@
 +++
-title="Icicles icon in font awesome icons"
-summary="Icicles icon represented as fa-icicles in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-icicles,f7ad,Icicles"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-icicles icon in font awesome icons"
+summary="fa-icicles icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-icicles,f7ad,fa-icicles"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Icicles icon represented as fa-icicles in font awesome icons has 1 variant fas i.e.,solid.
+fa-icicles icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Icicles</td><td>fa-icicles</td><td>f7ad</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-icicles</td><td>fa-icicles</td><td>f7ad</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Icicles icon Usage
 
-To display Icicles icon add predefined class name i.e.,fa-icicles (with prefix fa-) to the 'i' tag.
+## fa-icicles icon Usage
+
+To display fa-icicles icon add predefined class name i.e.,fa-icicles (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-icicles icon. i.e., fas.
 
 
 
-## Change Icicles icon size
-To increase Icicles font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-icicles.
+## Change fa-icicles icon size
+To increase fa-icicles font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-icicles.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Icicles Icon with Fixed Width 
+## fa-icicles Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Icicles Icon Border 
+## fa-icicles Icon Border 
 
 To add border to fa-icicles icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-icicles icon, use fa-border class.
 
 
 
-## Pull Icicles icon To the left
+## Pull fa-icicles icon To the left
 
 To pull icon fa-icicles to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-icicles fa-pull-left fa-3x'></i>
   ... The text after fa-icicles Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-icicles fa-pull-left fa-3x'></i>
   ... The text after fa-icicles Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-icicles to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Icicles icon To the right
+## Pull fa-icicles icon To the right
 To pull icon fa-icicles to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-icicles fa-pull-right fa-3x'></i>
   ... The text after fa-icicles Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-icicles fa-pull-right fa-3x'></i>
   ... The text after fa-icicles Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-icicles to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Icicles icon using fa-spin
+## Animate fa-icicles icon using fa-spin
 To animate font awesome fa-icicles icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-icicles icon, use fa-spin class.
 
 
 
-## Animate Icicles icon with steps
+## Animate fa-icicles icon with steps
 While animating the font awesome icon,We can rotate fa-icicles icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-icicles icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-icicles icon with 8 step rotation, use fa-pulse icon 
 
 
 
-## Rotate Icicles Icon using fa-rotate-x
+## Rotate fa-icicles Icon using fa-rotate-x
 To rotate the font awesome icon fa-icicles, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Icicles Icon using fa-flip-*
+## Flip fa-icicles Icon using fa-flip-*
 To flip fa-icicles font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-icicles font awesome icon horizontally and vertically use fa-flip-hor
 
 
 
-## Combine Icicles icon with other font awesome icons
+## Combine fa-icicles icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
