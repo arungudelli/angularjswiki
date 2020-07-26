@@ -1,9 +1,9 @@
 +++
-title="Kiss Beam icon in font awesome icons"
-summary="Kiss Beam icon represented as fa-kiss-beam in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-kiss-beam,f597,Kiss Beam"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-kiss-beam icon in font awesome icons"
+summary="fa-kiss-beam icon in font awesome icons has 2 variants regular (far) and solid (fas)"
+keywords=["fa-kiss-beam,f597,fa-kiss-beam"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Kiss Beam icon represented as fa-kiss-beam in font awesome icons has 2 variants regular (far) and solid (fas)
+fa-kiss-beam icon in font awesome icons has 2 variants regular (far) and solid (fas)
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Kiss Beam</td><td>fa-kiss-beam</td><td>f597</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-kiss-beam</td><td>fa-kiss-beam</td><td>f597</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Kiss Beam icon Usage
 
-To display Kiss Beam icon add predefined class name i.e.,fa-kiss-beam (with prefix fa-) to the 'i' tag.
+## fa-kiss-beam icon Usage
+
+To display fa-kiss-beam icon add predefined class name i.e.,fa-kiss-beam (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -45,8 +47,8 @@ And we need to add corresponding category for fa-kiss-beam icon. i.e., fas,far.
 
 
 
-## Change Kiss Beam icon size
-To increase Kiss Beam font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-kiss-beam.
+## Change fa-kiss-beam icon size
+To increase fa-kiss-beam font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-kiss-beam.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -69,7 +71,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Kiss Beam Icon with Fixed Width 
+## fa-kiss-beam Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -89,7 +91,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Kiss Beam Icon Border 
+## fa-kiss-beam Icon Border 
 
 To add border to fa-kiss-beam icon, use fa-border class.
 
@@ -104,20 +106,20 @@ To add border to fa-kiss-beam icon, use fa-border class.
 
 
 
-## Pull Kiss Beam icon To the left
+## Pull fa-kiss-beam icon To the left
 
 To pull icon fa-kiss-beam to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-kiss-beam fa-pull-left fa-3x'></i>
   ... The text after fa-kiss-beam Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-kiss-beam fa-pull-left fa-3x'></i>
   ... The text after fa-kiss-beam Icon will be displayed on the right side of the icons
 </div>
@@ -126,19 +128,19 @@ To pull icon fa-kiss-beam to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Kiss Beam icon To the right
+## Pull fa-kiss-beam icon To the right
 To pull icon fa-kiss-beam to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-kiss-beam fa-pull-right fa-3x'></i>
   ... The text after fa-kiss-beam Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-kiss-beam fa-pull-right fa-3x'></i>
   ... The text after fa-kiss-beam Icon will be displayed on the left side of the icons
 </div>
@@ -147,7 +149,7 @@ To pull icon fa-kiss-beam to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Kiss Beam icon using fa-spin
+## Animate fa-kiss-beam icon using fa-spin
 To animate font awesome fa-kiss-beam icon, use fa-spin class.
 
 ```
@@ -158,7 +160,7 @@ To animate font awesome fa-kiss-beam icon, use fa-spin class.
 
 
 
-## Animate Kiss Beam icon with steps
+## Animate fa-kiss-beam icon with steps
 While animating the font awesome icon,We can rotate fa-kiss-beam icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-kiss-beam icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -174,7 +176,7 @@ To animate font awesome fa-kiss-beam icon with 8 step rotation, use fa-pulse ico
 
 
 
-## Rotate Kiss Beam Icon using fa-rotate-x
+## Rotate fa-kiss-beam Icon using fa-rotate-x
 To rotate the font awesome icon fa-kiss-beam, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -200,7 +202,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Kiss Beam Icon using fa-flip-*
+## Flip fa-kiss-beam Icon using fa-flip-*
 To flip fa-kiss-beam font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -217,7 +219,7 @@ To flip fa-kiss-beam font awesome icon horizontally and vertically use fa-flip-h
 
 
 
-## Combine Kiss Beam icon with other font awesome icons
+## Combine fa-kiss-beam icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

@@ -1,9 +1,9 @@
 +++
-title="Medkit icon in font awesome icons"
-summary="Medkit icon represented as fa-medkit in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-medkit,f0fa,Medkit"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-medkit icon in font awesome icons"
+summary="fa-medkit icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-medkit,f0fa,fa-medkit"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Medkit icon represented as fa-medkit in font awesome icons has 1 variant fas i.e.,solid.
+fa-medkit icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Medkit</td><td>fa-medkit</td><td>f0fa</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-medkit</td><td>fa-medkit</td><td>f0fa</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Medkit icon Usage
 
-To display Medkit icon add predefined class name i.e.,fa-medkit (with prefix fa-) to the 'i' tag.
+## fa-medkit icon Usage
+
+To display fa-medkit icon add predefined class name i.e.,fa-medkit (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-medkit icon. i.e., fas.
 
 
 
-## Change Medkit icon size
-To increase Medkit font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-medkit.
+## Change fa-medkit icon size
+To increase fa-medkit font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-medkit.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Medkit Icon with Fixed Width 
+## fa-medkit Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Medkit Icon Border 
+## fa-medkit Icon Border 
 
 To add border to fa-medkit icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-medkit icon, use fa-border class.
 
 
 
-## Pull Medkit icon To the left
+## Pull fa-medkit icon To the left
 
 To pull icon fa-medkit to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-medkit fa-pull-left fa-3x'></i>
   ... The text after fa-medkit Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-medkit fa-pull-left fa-3x'></i>
   ... The text after fa-medkit Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-medkit to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Medkit icon To the right
+## Pull fa-medkit icon To the right
 To pull icon fa-medkit to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-medkit fa-pull-right fa-3x'></i>
   ... The text after fa-medkit Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-medkit fa-pull-right fa-3x'></i>
   ... The text after fa-medkit Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-medkit to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Medkit icon using fa-spin
+## Animate fa-medkit icon using fa-spin
 To animate font awesome fa-medkit icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-medkit icon, use fa-spin class.
 
 
 
-## Animate Medkit icon with steps
+## Animate fa-medkit icon with steps
 While animating the font awesome icon,We can rotate fa-medkit icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-medkit icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-medkit icon with 8 step rotation, use fa-pulse icon a
 
 
 
-## Rotate Medkit Icon using fa-rotate-x
+## Rotate fa-medkit Icon using fa-rotate-x
 To rotate the font awesome icon fa-medkit, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Medkit Icon using fa-flip-*
+## Flip fa-medkit Icon using fa-flip-*
 To flip fa-medkit font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-medkit font awesome icon horizontally and vertically use fa-flip-hori
 
 
 
-## Combine Medkit icon with other font awesome icons
+## Combine fa-medkit icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

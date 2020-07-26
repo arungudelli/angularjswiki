@@ -1,9 +1,9 @@
 +++
-title="Tiktok icon in font awesome icons"
-summary="Tiktok icon represented as fa-tiktok in font awesome icons is part of brand (fab) icons"
-keywords=["fa-tiktok,f97b,Tiktok"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-tiktok icon in font awesome icons"
+summary="fa-tiktok icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-tiktok,f97b,fa-tiktok"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Tiktok icon represented as fa-tiktok in font awesome icons is part of brand (fab) icons
+fa-tiktok icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Tiktok</td><td>fa-tiktok</td><td>f97b</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-tiktok</td><td>fa-tiktok</td><td>f97b</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Tiktok icon Usage
 
-To display Tiktok icon add predefined class name i.e.,fa-tiktok (with prefix fa-) to the 'i' tag.
+## fa-tiktok icon Usage
+
+To display fa-tiktok icon add predefined class name i.e.,fa-tiktok (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-tiktok icon. i.e., fab.
 
 
 
-## Change Tiktok icon size
-To increase Tiktok font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-tiktok.
+## Change fa-tiktok icon size
+To increase fa-tiktok font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-tiktok.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Tiktok Icon with Fixed Width 
+## fa-tiktok Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Tiktok Icon Border 
+## fa-tiktok Icon Border 
 
 To add border to fa-tiktok icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-tiktok icon, use fa-border class.
 
 
 
-## Pull Tiktok icon To the left
+## Pull fa-tiktok icon To the left
 
 To pull icon fa-tiktok to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-tiktok fa-pull-left fa-3x'></i>
   ... The text after fa-tiktok Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-tiktok fa-pull-left fa-3x'></i>
   ... The text after fa-tiktok Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-tiktok to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Tiktok icon To the right
+## Pull fa-tiktok icon To the right
 To pull icon fa-tiktok to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-tiktok fa-pull-right fa-3x'></i>
   ... The text after fa-tiktok Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-tiktok fa-pull-right fa-3x'></i>
   ... The text after fa-tiktok Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-tiktok to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Tiktok icon using fa-spin
+## Animate fa-tiktok icon using fa-spin
 To animate font awesome fa-tiktok icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-tiktok icon, use fa-spin class.
 
 
 
-## Animate Tiktok icon with steps
+## Animate fa-tiktok icon with steps
 While animating the font awesome icon,We can rotate fa-tiktok icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-tiktok icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-tiktok icon with 8 step rotation, use fa-pulse icon a
 
 
 
-## Rotate Tiktok Icon using fa-rotate-x
+## Rotate fa-tiktok Icon using fa-rotate-x
 To rotate the font awesome icon fa-tiktok, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Tiktok Icon using fa-flip-*
+## Flip fa-tiktok Icon using fa-flip-*
 To flip fa-tiktok font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-tiktok font awesome icon horizontally and vertically use fa-flip-hori
 
 
 
-## Combine Tiktok icon with other font awesome icons
+## Combine fa-tiktok icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

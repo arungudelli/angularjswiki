@@ -1,9 +1,9 @@
 +++
-title="Deviantart icon in font awesome icons"
-summary="Deviantart icon represented as fa-deviantart in font awesome icons is part of brand (fab) icons"
-keywords=["fa-deviantart,f1bd,Deviantart"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-deviantart icon in font awesome icons"
+summary="fa-deviantart icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-deviantart,f1bd,fa-deviantart"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Deviantart icon represented as fa-deviantart in font awesome icons is part of brand (fab) icons
+fa-deviantart icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Deviantart</td><td>fa-deviantart</td><td>f1bd</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-deviantart</td><td>fa-deviantart</td><td>f1bd</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Deviantart icon Usage
 
-To display Deviantart icon add predefined class name i.e.,fa-deviantart (with prefix fa-) to the 'i' tag.
+## fa-deviantart icon Usage
+
+To display fa-deviantart icon add predefined class name i.e.,fa-deviantart (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-deviantart icon. i.e., fab.
 
 
 
-## Change Deviantart icon size
-To increase Deviantart font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-deviantart.
+## Change fa-deviantart icon size
+To increase fa-deviantart font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-deviantart.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Deviantart Icon with Fixed Width 
+## fa-deviantart Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Deviantart Icon Border 
+## fa-deviantart Icon Border 
 
 To add border to fa-deviantart icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-deviantart icon, use fa-border class.
 
 
 
-## Pull Deviantart icon To the left
+## Pull fa-deviantart icon To the left
 
 To pull icon fa-deviantart to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-deviantart fa-pull-left fa-3x'></i>
   ... The text after fa-deviantart Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-deviantart fa-pull-left fa-3x'></i>
   ... The text after fa-deviantart Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-deviantart to the left of the container use fa-pull-left class.\
 
 
 
-## Pull Deviantart icon To the right
+## Pull fa-deviantart icon To the right
 To pull icon fa-deviantart to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-deviantart fa-pull-right fa-3x'></i>
   ... The text after fa-deviantart Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-deviantart fa-pull-right fa-3x'></i>
   ... The text after fa-deviantart Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-deviantart to the right of the container use fa-pull-right class
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Deviantart icon using fa-spin
+## Animate fa-deviantart icon using fa-spin
 To animate font awesome fa-deviantart icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-deviantart icon, use fa-spin class.
 
 
 
-## Animate Deviantart icon with steps
+## Animate fa-deviantart icon with steps
 While animating the font awesome icon,We can rotate fa-deviantart icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-deviantart icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-deviantart icon with 8 step rotation, use fa-pulse ic
 
 
 
-## Rotate Deviantart Icon using fa-rotate-x
+## Rotate fa-deviantart Icon using fa-rotate-x
 To rotate the font awesome icon fa-deviantart, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Deviantart Icon using fa-flip-*
+## Flip fa-deviantart Icon using fa-flip-*
 To flip fa-deviantart font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-deviantart font awesome icon horizontally and vertically use fa-flip-
 
 
 
-## Combine Deviantart icon with other font awesome icons
+## Combine fa-deviantart icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

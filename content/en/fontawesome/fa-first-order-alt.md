@@ -1,9 +1,9 @@
 +++
-title="First Order Alt icon in font awesome icons"
-summary="First Order Alt icon represented as fa-first-order-alt in font awesome icons is part of brand (fab) icons"
-keywords=["fa-first-order-alt,f50a,First Order Alt"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-first-order-alt icon in font awesome icons"
+summary="fa-first-order-alt icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-first-order-alt,f50a,fa-first-order-alt"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-First Order Alt icon represented as fa-first-order-alt in font awesome icons is part of brand (fab) icons
+fa-first-order-alt icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>First Order Alt</td><td>fa-first-order-alt</td><td>f50a</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-first-order-alt</td><td>fa-first-order-alt</td><td>f50a</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## First Order Alt icon Usage
 
-To display First Order Alt icon add predefined class name i.e.,fa-first-order-alt (with prefix fa-) to the 'i' tag.
+## fa-first-order-alt icon Usage
+
+To display fa-first-order-alt icon add predefined class name i.e.,fa-first-order-alt (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-first-order-alt icon. i.e., fab
 
 
 
-## Change First Order Alt icon size
-To increase First Order Alt font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-first-order-alt.
+## Change fa-first-order-alt icon size
+To increase fa-first-order-alt font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-first-order-alt.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## First Order Alt Icon with Fixed Width 
+## fa-first-order-alt Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## First Order Alt Icon Border 
+## fa-first-order-alt Icon Border 
 
 To add border to fa-first-order-alt icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-first-order-alt icon, use fa-border class.
 
 
 
-## Pull First Order Alt icon To the left
+## Pull fa-first-order-alt icon To the left
 
 To pull icon fa-first-order-alt to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-first-order-alt fa-pull-left fa-3x'></i>
   ... The text after fa-first-order-alt Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-first-order-alt fa-pull-left fa-3x'></i>
   ... The text after fa-first-order-alt Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-first-order-alt to the left of the container use fa-pull-left cl
 
 
 
-## Pull First Order Alt icon To the right
+## Pull fa-first-order-alt icon To the right
 To pull icon fa-first-order-alt to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-first-order-alt fa-pull-right fa-3x'></i>
   ... The text after fa-first-order-alt Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-first-order-alt fa-pull-right fa-3x'></i>
   ... The text after fa-first-order-alt Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-first-order-alt to the right of the container use fa-pull-right 
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate First Order Alt icon using fa-spin
+## Animate fa-first-order-alt icon using fa-spin
 To animate font awesome fa-first-order-alt icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-first-order-alt icon, use fa-spin class.
 
 
 
-## Animate First Order Alt icon with steps
+## Animate fa-first-order-alt icon with steps
 While animating the font awesome icon,We can rotate fa-first-order-alt icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-first-order-alt icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-first-order-alt icon with 8 step rotation, use fa-pul
 
 
 
-## Rotate First Order Alt Icon using fa-rotate-x
+## Rotate fa-first-order-alt Icon using fa-rotate-x
 To rotate the font awesome icon fa-first-order-alt, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip First Order Alt Icon using fa-flip-*
+## Flip fa-first-order-alt Icon using fa-flip-*
 To flip fa-first-order-alt font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-first-order-alt font awesome icon horizontally and vertically use fa-
 
 
 
-## Combine First Order Alt icon with other font awesome icons
+## Combine fa-first-order-alt icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

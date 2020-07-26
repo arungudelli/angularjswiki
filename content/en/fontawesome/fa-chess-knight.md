@@ -1,9 +1,9 @@
 +++
-title="Chess Knight icon in font awesome icons"
-summary="Chess Knight icon represented as fa-chess-knight in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-chess-knight,f441,Chess Knight"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-chess-knight icon in font awesome icons"
+summary="fa-chess-knight icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-chess-knight,f441,fa-chess-knight"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Chess Knight icon represented as fa-chess-knight in font awesome icons has 1 variant fas i.e.,solid.
+fa-chess-knight icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Chess Knight</td><td>fa-chess-knight</td><td>f441</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-chess-knight</td><td>fa-chess-knight</td><td>f441</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Chess Knight icon Usage
 
-To display Chess Knight icon add predefined class name i.e.,fa-chess-knight (with prefix fa-) to the 'i' tag.
+## fa-chess-knight icon Usage
+
+To display fa-chess-knight icon add predefined class name i.e.,fa-chess-knight (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-chess-knight icon. i.e., fas.
 
 
 
-## Change Chess Knight icon size
-To increase Chess Knight font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-chess-knight.
+## Change fa-chess-knight icon size
+To increase fa-chess-knight font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-chess-knight.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Chess Knight Icon with Fixed Width 
+## fa-chess-knight Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Chess Knight Icon Border 
+## fa-chess-knight Icon Border 
 
 To add border to fa-chess-knight icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-chess-knight icon, use fa-border class.
 
 
 
-## Pull Chess Knight icon To the left
+## Pull fa-chess-knight icon To the left
 
 To pull icon fa-chess-knight to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-chess-knight fa-pull-left fa-3x'></i>
   ... The text after fa-chess-knight Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-chess-knight fa-pull-left fa-3x'></i>
   ... The text after fa-chess-knight Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-chess-knight to the left of the container use fa-pull-left class
 
 
 
-## Pull Chess Knight icon To the right
+## Pull fa-chess-knight icon To the right
 To pull icon fa-chess-knight to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-chess-knight fa-pull-right fa-3x'></i>
   ... The text after fa-chess-knight Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-chess-knight fa-pull-right fa-3x'></i>
   ... The text after fa-chess-knight Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-chess-knight to the right of the container use fa-pull-right cla
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Chess Knight icon using fa-spin
+## Animate fa-chess-knight icon using fa-spin
 To animate font awesome fa-chess-knight icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-chess-knight icon, use fa-spin class.
 
 
 
-## Animate Chess Knight icon with steps
+## Animate fa-chess-knight icon with steps
 While animating the font awesome icon,We can rotate fa-chess-knight icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-chess-knight icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-chess-knight icon with 8 step rotation, use fa-pulse 
 
 
 
-## Rotate Chess Knight Icon using fa-rotate-x
+## Rotate fa-chess-knight Icon using fa-rotate-x
 To rotate the font awesome icon fa-chess-knight, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Chess Knight Icon using fa-flip-*
+## Flip fa-chess-knight Icon using fa-flip-*
 To flip fa-chess-knight font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-chess-knight font awesome icon horizontally and vertically use fa-fli
 
 
 
-## Combine Chess Knight icon with other font awesome icons
+## Combine fa-chess-knight icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

@@ -1,9 +1,9 @@
 +++
-title="Calendar Minus icon in font awesome icons"
-summary="Calendar Minus icon represented as fa-calendar-minus in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-calendar-minus,f272,Calendar Minus"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-calendar-minus icon in font awesome icons"
+summary="fa-calendar-minus icon in font awesome icons has 2 variants regular (far) and solid (fas)"
+keywords=["fa-calendar-minus,f272,fa-calendar-minus"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Calendar Minus icon represented as fa-calendar-minus in font awesome icons has 2 variants regular (far) and solid (fas)
+fa-calendar-minus icon in font awesome icons has 2 variants regular (far) and solid (fas)
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Calendar Minus</td><td>fa-calendar-minus</td><td>f272</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-calendar-minus</td><td>fa-calendar-minus</td><td>f272</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Calendar Minus icon Usage
 
-To display Calendar Minus icon add predefined class name i.e.,fa-calendar-minus (with prefix fa-) to the 'i' tag.
+## fa-calendar-minus icon Usage
+
+To display fa-calendar-minus icon add predefined class name i.e.,fa-calendar-minus (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -45,8 +47,8 @@ And we need to add corresponding category for fa-calendar-minus icon. i.e., fas,
 
 
 
-## Change Calendar Minus icon size
-To increase Calendar Minus font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-calendar-minus.
+## Change fa-calendar-minus icon size
+To increase fa-calendar-minus font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-calendar-minus.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -69,7 +71,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Calendar Minus Icon with Fixed Width 
+## fa-calendar-minus Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -89,7 +91,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Calendar Minus Icon Border 
+## fa-calendar-minus Icon Border 
 
 To add border to fa-calendar-minus icon, use fa-border class.
 
@@ -104,20 +106,20 @@ To add border to fa-calendar-minus icon, use fa-border class.
 
 
 
-## Pull Calendar Minus icon To the left
+## Pull fa-calendar-minus icon To the left
 
 To pull icon fa-calendar-minus to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-calendar-minus fa-pull-left fa-3x'></i>
   ... The text after fa-calendar-minus Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-calendar-minus fa-pull-left fa-3x'></i>
   ... The text after fa-calendar-minus Icon will be displayed on the right side of the icons
 </div>
@@ -126,19 +128,19 @@ To pull icon fa-calendar-minus to the left of the container use fa-pull-left cla
 
 
 
-## Pull Calendar Minus icon To the right
+## Pull fa-calendar-minus icon To the right
 To pull icon fa-calendar-minus to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-calendar-minus fa-pull-right fa-3x'></i>
   ... The text after fa-calendar-minus Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-calendar-minus fa-pull-right fa-3x'></i>
   ... The text after fa-calendar-minus Icon will be displayed on the left side of the icons
 </div>
@@ -147,7 +149,7 @@ To pull icon fa-calendar-minus to the right of the container use fa-pull-right c
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Calendar Minus icon using fa-spin
+## Animate fa-calendar-minus icon using fa-spin
 To animate font awesome fa-calendar-minus icon, use fa-spin class.
 
 ```
@@ -158,7 +160,7 @@ To animate font awesome fa-calendar-minus icon, use fa-spin class.
 
 
 
-## Animate Calendar Minus icon with steps
+## Animate fa-calendar-minus icon with steps
 While animating the font awesome icon,We can rotate fa-calendar-minus icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-calendar-minus icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -174,7 +176,7 @@ To animate font awesome fa-calendar-minus icon with 8 step rotation, use fa-puls
 
 
 
-## Rotate Calendar Minus Icon using fa-rotate-x
+## Rotate fa-calendar-minus Icon using fa-rotate-x
 To rotate the font awesome icon fa-calendar-minus, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -200,7 +202,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Calendar Minus Icon using fa-flip-*
+## Flip fa-calendar-minus Icon using fa-flip-*
 To flip fa-calendar-minus font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -217,7 +219,7 @@ To flip fa-calendar-minus font awesome icon horizontally and vertically use fa-f
 
 
 
-## Combine Calendar Minus icon with other font awesome icons
+## Combine fa-calendar-minus icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

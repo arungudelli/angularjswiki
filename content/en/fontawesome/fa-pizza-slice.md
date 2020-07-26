@@ -1,9 +1,9 @@
 +++
-title="Pizza Slice icon in font awesome icons"
-summary="Pizza Slice icon represented as fa-pizza-slice in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-pizza-slice,f818,Pizza Slice"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-pizza-slice icon in font awesome icons"
+summary="fa-pizza-slice icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-pizza-slice,f818,fa-pizza-slice"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Pizza Slice icon represented as fa-pizza-slice in font awesome icons has 1 variant fas i.e.,solid.
+fa-pizza-slice icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Pizza Slice</td><td>fa-pizza-slice</td><td>f818</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-pizza-slice</td><td>fa-pizza-slice</td><td>f818</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Pizza Slice icon Usage
 
-To display Pizza Slice icon add predefined class name i.e.,fa-pizza-slice (with prefix fa-) to the 'i' tag.
+## fa-pizza-slice icon Usage
+
+To display fa-pizza-slice icon add predefined class name i.e.,fa-pizza-slice (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-pizza-slice icon. i.e., fas.
 
 
 
-## Change Pizza Slice icon size
-To increase Pizza Slice font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-pizza-slice.
+## Change fa-pizza-slice icon size
+To increase fa-pizza-slice font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-pizza-slice.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Pizza Slice Icon with Fixed Width 
+## fa-pizza-slice Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Pizza Slice Icon Border 
+## fa-pizza-slice Icon Border 
 
 To add border to fa-pizza-slice icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-pizza-slice icon, use fa-border class.
 
 
 
-## Pull Pizza Slice icon To the left
+## Pull fa-pizza-slice icon To the left
 
 To pull icon fa-pizza-slice to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-pizza-slice fa-pull-left fa-3x'></i>
   ... The text after fa-pizza-slice Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-pizza-slice fa-pull-left fa-3x'></i>
   ... The text after fa-pizza-slice Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-pizza-slice to the left of the container use fa-pull-left class.
 
 
 
-## Pull Pizza Slice icon To the right
+## Pull fa-pizza-slice icon To the right
 To pull icon fa-pizza-slice to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-pizza-slice fa-pull-right fa-3x'></i>
   ... The text after fa-pizza-slice Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-pizza-slice fa-pull-right fa-3x'></i>
   ... The text after fa-pizza-slice Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-pizza-slice to the right of the container use fa-pull-right clas
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Pizza Slice icon using fa-spin
+## Animate fa-pizza-slice icon using fa-spin
 To animate font awesome fa-pizza-slice icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-pizza-slice icon, use fa-spin class.
 
 
 
-## Animate Pizza Slice icon with steps
+## Animate fa-pizza-slice icon with steps
 While animating the font awesome icon,We can rotate fa-pizza-slice icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-pizza-slice icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-pizza-slice icon with 8 step rotation, use fa-pulse i
 
 
 
-## Rotate Pizza Slice Icon using fa-rotate-x
+## Rotate fa-pizza-slice Icon using fa-rotate-x
 To rotate the font awesome icon fa-pizza-slice, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Pizza Slice Icon using fa-flip-*
+## Flip fa-pizza-slice Icon using fa-flip-*
 To flip fa-pizza-slice font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-pizza-slice font awesome icon horizontally and vertically use fa-flip
 
 
 
-## Combine Pizza Slice icon with other font awesome icons
+## Combine fa-pizza-slice icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

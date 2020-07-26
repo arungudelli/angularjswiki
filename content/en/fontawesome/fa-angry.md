@@ -1,9 +1,9 @@
 +++
-title="Angry icon in font awesome icons"
-summary="Angry icon represented as fa-angry in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-angry,f556,Angry"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-angry icon in font awesome icons"
+summary="fa-angry icon in font awesome icons has 2 variants regular (far) and solid (fas)"
+keywords=["fa-angry,f556,fa-angry"]
+date="25-07-2020T22:59:19"
+lastmod="25-07-2020T22:59:19"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Angry icon represented as fa-angry in font awesome icons has 2 variants regular (far) and solid (fas)
+fa-angry icon in font awesome icons has 2 variants regular (far) and solid (fas)
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Angry</td><td>fa-angry</td><td>f556</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-angry</td><td>fa-angry</td><td>f556</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Angry icon Usage
 
-To display Angry icon add predefined class name i.e.,fa-angry (with prefix fa-) to the 'i' tag.
+## fa-angry icon Usage
+
+To display fa-angry icon add predefined class name i.e.,fa-angry (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -45,8 +47,8 @@ And we need to add corresponding category for fa-angry icon. i.e., fas,far.
 
 
 
-## Change Angry icon size
-To increase Angry font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-angry.
+## Change fa-angry icon size
+To increase fa-angry font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-angry.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -69,7 +71,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Angry Icon with Fixed Width 
+## fa-angry Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -89,7 +91,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Angry Icon Border 
+## fa-angry Icon Border 
 
 To add border to fa-angry icon, use fa-border class.
 
@@ -104,20 +106,20 @@ To add border to fa-angry icon, use fa-border class.
 
 
 
-## Pull Angry icon To the left
+## Pull fa-angry icon To the left
 
 To pull icon fa-angry to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-angry fa-pull-left fa-3x'></i>
   ... The text after fa-angry Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-angry fa-pull-left fa-3x'></i>
   ... The text after fa-angry Icon will be displayed on the right side of the icons
 </div>
@@ -126,19 +128,19 @@ To pull icon fa-angry to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Angry icon To the right
+## Pull fa-angry icon To the right
 To pull icon fa-angry to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-angry fa-pull-right fa-3x'></i>
   ... The text after fa-angry Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-angry fa-pull-right fa-3x'></i>
   ... The text after fa-angry Icon will be displayed on the left side of the icons
 </div>
@@ -147,7 +149,7 @@ To pull icon fa-angry to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Angry icon using fa-spin
+## Animate fa-angry icon using fa-spin
 To animate font awesome fa-angry icon, use fa-spin class.
 
 ```
@@ -158,7 +160,7 @@ To animate font awesome fa-angry icon, use fa-spin class.
 
 
 
-## Animate Angry icon with steps
+## Animate fa-angry icon with steps
 While animating the font awesome icon,We can rotate fa-angry icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-angry icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -174,7 +176,7 @@ To animate font awesome fa-angry icon with 8 step rotation, use fa-pulse icon al
 
 
 
-## Rotate Angry Icon using fa-rotate-x
+## Rotate fa-angry Icon using fa-rotate-x
 To rotate the font awesome icon fa-angry, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -200,7 +202,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Angry Icon using fa-flip-*
+## Flip fa-angry Icon using fa-flip-*
 To flip fa-angry font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -217,7 +219,7 @@ To flip fa-angry font awesome icon horizontally and vertically use fa-flip-horiz
 
 
 
-## Combine Angry icon with other font awesome icons
+## Combine fa-angry icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

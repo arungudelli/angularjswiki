@@ -1,9 +1,9 @@
 +++
-title="Red River icon in font awesome icons"
-summary="Red River icon represented as fa-red-river in font awesome icons is part of brand (fab) icons"
-keywords=["fa-red-river,f3e3,Red River"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-red-river icon in font awesome icons"
+summary="fa-red-river icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-red-river,f3e3,fa-red-river"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Red River icon represented as fa-red-river in font awesome icons is part of brand (fab) icons
+fa-red-river icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Red River</td><td>fa-red-river</td><td>f3e3</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-red-river</td><td>fa-red-river</td><td>f3e3</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Red River icon Usage
 
-To display Red River icon add predefined class name i.e.,fa-red-river (with prefix fa-) to the 'i' tag.
+## fa-red-river icon Usage
+
+To display fa-red-river icon add predefined class name i.e.,fa-red-river (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-red-river icon. i.e., fab.
 
 
 
-## Change Red River icon size
-To increase Red River font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-red-river.
+## Change fa-red-river icon size
+To increase fa-red-river font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-red-river.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Red River Icon with Fixed Width 
+## fa-red-river Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Red River Icon Border 
+## fa-red-river Icon Border 
 
 To add border to fa-red-river icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-red-river icon, use fa-border class.
 
 
 
-## Pull Red River icon To the left
+## Pull fa-red-river icon To the left
 
 To pull icon fa-red-river to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-red-river fa-pull-left fa-3x'></i>
   ... The text after fa-red-river Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-red-river fa-pull-left fa-3x'></i>
   ... The text after fa-red-river Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-red-river to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Red River icon To the right
+## Pull fa-red-river icon To the right
 To pull icon fa-red-river to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-red-river fa-pull-right fa-3x'></i>
   ... The text after fa-red-river Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-red-river fa-pull-right fa-3x'></i>
   ... The text after fa-red-river Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-red-river to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Red River icon using fa-spin
+## Animate fa-red-river icon using fa-spin
 To animate font awesome fa-red-river icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-red-river icon, use fa-spin class.
 
 
 
-## Animate Red River icon with steps
+## Animate fa-red-river icon with steps
 While animating the font awesome icon,We can rotate fa-red-river icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-red-river icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-red-river icon with 8 step rotation, use fa-pulse ico
 
 
 
-## Rotate Red River Icon using fa-rotate-x
+## Rotate fa-red-river Icon using fa-rotate-x
 To rotate the font awesome icon fa-red-river, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Red River Icon using fa-flip-*
+## Flip fa-red-river Icon using fa-flip-*
 To flip fa-red-river font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-red-river font awesome icon horizontally and vertically use fa-flip-h
 
 
 
-## Combine Red River icon with other font awesome icons
+## Combine fa-red-river icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

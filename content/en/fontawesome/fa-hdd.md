@@ -1,9 +1,9 @@
 +++
-title="Hdd icon in font awesome icons"
-summary="Hdd icon represented as fa-hdd in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-hdd,f0a0,Hdd"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-hdd icon in font awesome icons"
+summary="fa-hdd icon in font awesome icons has 2 variants regular (far) and solid (fas)"
+keywords=["fa-hdd,f0a0,fa-hdd"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Hdd icon represented as fa-hdd in font awesome icons has 2 variants regular (far) and solid (fas)
+fa-hdd icon in font awesome icons has 2 variants regular (far) and solid (fas)
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Hdd</td><td>fa-hdd</td><td>f0a0</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-hdd</td><td>fa-hdd</td><td>f0a0</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Hdd icon Usage
 
-To display Hdd icon add predefined class name i.e.,fa-hdd (with prefix fa-) to the 'i' tag.
+## fa-hdd icon Usage
+
+To display fa-hdd icon add predefined class name i.e.,fa-hdd (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -45,8 +47,8 @@ And we need to add corresponding category for fa-hdd icon. i.e., fas,far.
 
 
 
-## Change Hdd icon size
-To increase Hdd font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-hdd.
+## Change fa-hdd icon size
+To increase fa-hdd font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-hdd.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -69,7 +71,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Hdd Icon with Fixed Width 
+## fa-hdd Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -89,7 +91,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Hdd Icon Border 
+## fa-hdd Icon Border 
 
 To add border to fa-hdd icon, use fa-border class.
 
@@ -104,20 +106,20 @@ To add border to fa-hdd icon, use fa-border class.
 
 
 
-## Pull Hdd icon To the left
+## Pull fa-hdd icon To the left
 
 To pull icon fa-hdd to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-hdd fa-pull-left fa-3x'></i>
   ... The text after fa-hdd Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-hdd fa-pull-left fa-3x'></i>
   ... The text after fa-hdd Icon will be displayed on the right side of the icons
 </div>
@@ -126,19 +128,19 @@ To pull icon fa-hdd to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Hdd icon To the right
+## Pull fa-hdd icon To the right
 To pull icon fa-hdd to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-hdd fa-pull-right fa-3x'></i>
   ... The text after fa-hdd Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-hdd fa-pull-right fa-3x'></i>
   ... The text after fa-hdd Icon will be displayed on the left side of the icons
 </div>
@@ -147,7 +149,7 @@ To pull icon fa-hdd to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Hdd icon using fa-spin
+## Animate fa-hdd icon using fa-spin
 To animate font awesome fa-hdd icon, use fa-spin class.
 
 ```
@@ -158,7 +160,7 @@ To animate font awesome fa-hdd icon, use fa-spin class.
 
 
 
-## Animate Hdd icon with steps
+## Animate fa-hdd icon with steps
 While animating the font awesome icon,We can rotate fa-hdd icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-hdd icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -174,7 +176,7 @@ To animate font awesome fa-hdd icon with 8 step rotation, use fa-pulse icon alon
 
 
 
-## Rotate Hdd Icon using fa-rotate-x
+## Rotate fa-hdd Icon using fa-rotate-x
 To rotate the font awesome icon fa-hdd, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -200,7 +202,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Hdd Icon using fa-flip-*
+## Flip fa-hdd Icon using fa-flip-*
 To flip fa-hdd font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -217,7 +219,7 @@ To flip fa-hdd font awesome icon horizontally and vertically use fa-flip-horizon
 
 
 
-## Combine Hdd icon with other font awesome icons
+## Combine fa-hdd icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

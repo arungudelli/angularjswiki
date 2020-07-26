@@ -1,9 +1,9 @@
 +++
-title="Delicious icon in font awesome icons"
-summary="Delicious icon represented as fa-delicious in font awesome icons is part of brand (fab) icons"
-keywords=["fa-delicious,f1a5,Delicious"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-delicious icon in font awesome icons"
+summary="fa-delicious icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-delicious,f1a5,fa-delicious"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Delicious icon represented as fa-delicious in font awesome icons is part of brand (fab) icons
+fa-delicious icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Delicious</td><td>fa-delicious</td><td>f1a5</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-delicious</td><td>fa-delicious</td><td>f1a5</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Delicious icon Usage
 
-To display Delicious icon add predefined class name i.e.,fa-delicious (with prefix fa-) to the 'i' tag.
+## fa-delicious icon Usage
+
+To display fa-delicious icon add predefined class name i.e.,fa-delicious (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-delicious icon. i.e., fab.
 
 
 
-## Change Delicious icon size
-To increase Delicious font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-delicious.
+## Change fa-delicious icon size
+To increase fa-delicious font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-delicious.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Delicious Icon with Fixed Width 
+## fa-delicious Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Delicious Icon Border 
+## fa-delicious Icon Border 
 
 To add border to fa-delicious icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-delicious icon, use fa-border class.
 
 
 
-## Pull Delicious icon To the left
+## Pull fa-delicious icon To the left
 
 To pull icon fa-delicious to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-delicious fa-pull-left fa-3x'></i>
   ... The text after fa-delicious Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-delicious fa-pull-left fa-3x'></i>
   ... The text after fa-delicious Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-delicious to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Delicious icon To the right
+## Pull fa-delicious icon To the right
 To pull icon fa-delicious to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-delicious fa-pull-right fa-3x'></i>
   ... The text after fa-delicious Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-delicious fa-pull-right fa-3x'></i>
   ... The text after fa-delicious Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-delicious to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Delicious icon using fa-spin
+## Animate fa-delicious icon using fa-spin
 To animate font awesome fa-delicious icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-delicious icon, use fa-spin class.
 
 
 
-## Animate Delicious icon with steps
+## Animate fa-delicious icon with steps
 While animating the font awesome icon,We can rotate fa-delicious icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-delicious icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-delicious icon with 8 step rotation, use fa-pulse ico
 
 
 
-## Rotate Delicious Icon using fa-rotate-x
+## Rotate fa-delicious Icon using fa-rotate-x
 To rotate the font awesome icon fa-delicious, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Delicious Icon using fa-flip-*
+## Flip fa-delicious Icon using fa-flip-*
 To flip fa-delicious font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-delicious font awesome icon horizontally and vertically use fa-flip-h
 
 
 
-## Combine Delicious icon with other font awesome icons
+## Combine fa-delicious icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

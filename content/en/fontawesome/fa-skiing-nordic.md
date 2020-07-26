@@ -1,9 +1,9 @@
 +++
-title="Skiing Nordic icon in font awesome icons"
-summary="Skiing Nordic icon represented as fa-skiing-nordic in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-skiing-nordic,f7ca,Skiing Nordic"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-skiing-nordic icon in font awesome icons"
+summary="fa-skiing-nordic icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-skiing-nordic,f7ca,fa-skiing-nordic"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Skiing Nordic icon represented as fa-skiing-nordic in font awesome icons has 1 variant fas i.e.,solid.
+fa-skiing-nordic icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Skiing Nordic</td><td>fa-skiing-nordic</td><td>f7ca</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-skiing-nordic</td><td>fa-skiing-nordic</td><td>f7ca</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Skiing Nordic icon Usage
 
-To display Skiing Nordic icon add predefined class name i.e.,fa-skiing-nordic (with prefix fa-) to the 'i' tag.
+## fa-skiing-nordic icon Usage
+
+To display fa-skiing-nordic icon add predefined class name i.e.,fa-skiing-nordic (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-skiing-nordic icon. i.e., fas.
 
 
 
-## Change Skiing Nordic icon size
-To increase Skiing Nordic font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-skiing-nordic.
+## Change fa-skiing-nordic icon size
+To increase fa-skiing-nordic font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-skiing-nordic.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Skiing Nordic Icon with Fixed Width 
+## fa-skiing-nordic Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Skiing Nordic Icon Border 
+## fa-skiing-nordic Icon Border 
 
 To add border to fa-skiing-nordic icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-skiing-nordic icon, use fa-border class.
 
 
 
-## Pull Skiing Nordic icon To the left
+## Pull fa-skiing-nordic icon To the left
 
 To pull icon fa-skiing-nordic to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-skiing-nordic fa-pull-left fa-3x'></i>
   ... The text after fa-skiing-nordic Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-skiing-nordic fa-pull-left fa-3x'></i>
   ... The text after fa-skiing-nordic Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-skiing-nordic to the left of the container use fa-pull-left clas
 
 
 
-## Pull Skiing Nordic icon To the right
+## Pull fa-skiing-nordic icon To the right
 To pull icon fa-skiing-nordic to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-skiing-nordic fa-pull-right fa-3x'></i>
   ... The text after fa-skiing-nordic Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-skiing-nordic fa-pull-right fa-3x'></i>
   ... The text after fa-skiing-nordic Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-skiing-nordic to the right of the container use fa-pull-right cl
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Skiing Nordic icon using fa-spin
+## Animate fa-skiing-nordic icon using fa-spin
 To animate font awesome fa-skiing-nordic icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-skiing-nordic icon, use fa-spin class.
 
 
 
-## Animate Skiing Nordic icon with steps
+## Animate fa-skiing-nordic icon with steps
 While animating the font awesome icon,We can rotate fa-skiing-nordic icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-skiing-nordic icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-skiing-nordic icon with 8 step rotation, use fa-pulse
 
 
 
-## Rotate Skiing Nordic Icon using fa-rotate-x
+## Rotate fa-skiing-nordic Icon using fa-rotate-x
 To rotate the font awesome icon fa-skiing-nordic, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Skiing Nordic Icon using fa-flip-*
+## Flip fa-skiing-nordic Icon using fa-flip-*
 To flip fa-skiing-nordic font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-skiing-nordic font awesome icon horizontally and vertically use fa-fl
 
 
 
-## Combine Skiing Nordic icon with other font awesome icons
+## Combine fa-skiing-nordic icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

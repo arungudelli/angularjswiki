@@ -1,9 +1,9 @@
 +++
-title="Fist Raised icon in font awesome icons"
-summary="Fist Raised icon represented as fa-fist-raised in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-fist-raised,f6de,Fist Raised"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-fist-raised icon in font awesome icons"
+summary="fa-fist-raised icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-fist-raised,f6de,fa-fist-raised"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Fist Raised icon represented as fa-fist-raised in font awesome icons has 1 variant fas i.e.,solid.
+fa-fist-raised icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Fist Raised</td><td>fa-fist-raised</td><td>f6de</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-fist-raised</td><td>fa-fist-raised</td><td>f6de</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Fist Raised icon Usage
 
-To display Fist Raised icon add predefined class name i.e.,fa-fist-raised (with prefix fa-) to the 'i' tag.
+## fa-fist-raised icon Usage
+
+To display fa-fist-raised icon add predefined class name i.e.,fa-fist-raised (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-fist-raised icon. i.e., fas.
 
 
 
-## Change Fist Raised icon size
-To increase Fist Raised font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-fist-raised.
+## Change fa-fist-raised icon size
+To increase fa-fist-raised font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-fist-raised.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Fist Raised Icon with Fixed Width 
+## fa-fist-raised Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Fist Raised Icon Border 
+## fa-fist-raised Icon Border 
 
 To add border to fa-fist-raised icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-fist-raised icon, use fa-border class.
 
 
 
-## Pull Fist Raised icon To the left
+## Pull fa-fist-raised icon To the left
 
 To pull icon fa-fist-raised to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-fist-raised fa-pull-left fa-3x'></i>
   ... The text after fa-fist-raised Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-fist-raised fa-pull-left fa-3x'></i>
   ... The text after fa-fist-raised Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-fist-raised to the left of the container use fa-pull-left class.
 
 
 
-## Pull Fist Raised icon To the right
+## Pull fa-fist-raised icon To the right
 To pull icon fa-fist-raised to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-fist-raised fa-pull-right fa-3x'></i>
   ... The text after fa-fist-raised Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-fist-raised fa-pull-right fa-3x'></i>
   ... The text after fa-fist-raised Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-fist-raised to the right of the container use fa-pull-right clas
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Fist Raised icon using fa-spin
+## Animate fa-fist-raised icon using fa-spin
 To animate font awesome fa-fist-raised icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-fist-raised icon, use fa-spin class.
 
 
 
-## Animate Fist Raised icon with steps
+## Animate fa-fist-raised icon with steps
 While animating the font awesome icon,We can rotate fa-fist-raised icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-fist-raised icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-fist-raised icon with 8 step rotation, use fa-pulse i
 
 
 
-## Rotate Fist Raised Icon using fa-rotate-x
+## Rotate fa-fist-raised Icon using fa-rotate-x
 To rotate the font awesome icon fa-fist-raised, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Fist Raised Icon using fa-flip-*
+## Flip fa-fist-raised Icon using fa-flip-*
 To flip fa-fist-raised font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-fist-raised font awesome icon horizontally and vertically use fa-flip
 
 
 
-## Combine Fist Raised icon with other font awesome icons
+## Combine fa-fist-raised icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

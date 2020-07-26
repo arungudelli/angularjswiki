@@ -1,9 +1,9 @@
 +++
-title="User Md icon in font awesome icons"
-summary="User Md icon represented as fa-user-md in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-user-md,f0f0,User Md"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-user-md icon in font awesome icons"
+summary="fa-user-md icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-user-md,f0f0,fa-user-md"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-User Md icon represented as fa-user-md in font awesome icons has 1 variant fas i.e.,solid.
+fa-user-md icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>User Md</td><td>fa-user-md</td><td>f0f0</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-user-md</td><td>fa-user-md</td><td>f0f0</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## User Md icon Usage
 
-To display User Md icon add predefined class name i.e.,fa-user-md (with prefix fa-) to the 'i' tag.
+## fa-user-md icon Usage
+
+To display fa-user-md icon add predefined class name i.e.,fa-user-md (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-user-md icon. i.e., fas.
 
 
 
-## Change User Md icon size
-To increase User Md font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-user-md.
+## Change fa-user-md icon size
+To increase fa-user-md font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-user-md.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## User Md Icon with Fixed Width 
+## fa-user-md Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## User Md Icon Border 
+## fa-user-md Icon Border 
 
 To add border to fa-user-md icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-user-md icon, use fa-border class.
 
 
 
-## Pull User Md icon To the left
+## Pull fa-user-md icon To the left
 
 To pull icon fa-user-md to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-user-md fa-pull-left fa-3x'></i>
   ... The text after fa-user-md Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-user-md fa-pull-left fa-3x'></i>
   ... The text after fa-user-md Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-user-md to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull User Md icon To the right
+## Pull fa-user-md icon To the right
 To pull icon fa-user-md to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-user-md fa-pull-right fa-3x'></i>
   ... The text after fa-user-md Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-user-md fa-pull-right fa-3x'></i>
   ... The text after fa-user-md Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-user-md to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate User Md icon using fa-spin
+## Animate fa-user-md icon using fa-spin
 To animate font awesome fa-user-md icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-user-md icon, use fa-spin class.
 
 
 
-## Animate User Md icon with steps
+## Animate fa-user-md icon with steps
 While animating the font awesome icon,We can rotate fa-user-md icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-user-md icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-user-md icon with 8 step rotation, use fa-pulse icon 
 
 
 
-## Rotate User Md Icon using fa-rotate-x
+## Rotate fa-user-md Icon using fa-rotate-x
 To rotate the font awesome icon fa-user-md, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip User Md Icon using fa-flip-*
+## Flip fa-user-md Icon using fa-flip-*
 To flip fa-user-md font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-user-md font awesome icon horizontally and vertically use fa-flip-hor
 
 
 
-## Combine User Md icon with other font awesome icons
+## Combine fa-user-md icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

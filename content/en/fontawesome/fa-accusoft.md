@@ -1,9 +1,9 @@
 +++
-title="Accusoft icon in font awesome icons"
-summary="Accusoft icon represented as fa-accusoft in font awesome icons is part of brand (fab) icons"
-keywords=["fa-accusoft,f369,Accusoft"]
-date="19-07-2020T22:19:02"
-lastmod="19-07-2020T22:19:02"
+title="fa-accusoft icon in font awesome icons"
+summary="fa-accusoft icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-accusoft,f369,fa-accusoft"]
+date="25-07-2020T22:59:19"
+lastmod="25-07-2020T22:59:19"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Accusoft icon represented as fa-accusoft in font awesome icons is part of brand (fab) icons
+fa-accusoft icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Accusoft</td><td>fa-accusoft</td><td>f369</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-accusoft</td><td>fa-accusoft</td><td>f369</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Accusoft icon Usage
 
-To display Accusoft icon add predefined class name i.e.,fa-accusoft (with prefix fa-) to the 'i' tag.
+## fa-accusoft icon Usage
+
+To display fa-accusoft icon add predefined class name i.e.,fa-accusoft (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-accusoft icon. i.e., fab.
 
 
 
-## Change Accusoft icon size
-To increase Accusoft font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-accusoft.
+## Change fa-accusoft icon size
+To increase fa-accusoft font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-accusoft.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Accusoft Icon with Fixed Width 
+## fa-accusoft Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Accusoft Icon Border 
+## fa-accusoft Icon Border 
 
 To add border to fa-accusoft icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-accusoft icon, use fa-border class.
 
 
 
-## Pull Accusoft icon To the left
+## Pull fa-accusoft icon To the left
 
 To pull icon fa-accusoft to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-accusoft fa-pull-left fa-3x'></i>
   ... The text after fa-accusoft Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-accusoft fa-pull-left fa-3x'></i>
   ... The text after fa-accusoft Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-accusoft to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Accusoft icon To the right
+## Pull fa-accusoft icon To the right
 To pull icon fa-accusoft to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-accusoft fa-pull-right fa-3x'></i>
   ... The text after fa-accusoft Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-accusoft fa-pull-right fa-3x'></i>
   ... The text after fa-accusoft Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-accusoft to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Accusoft icon using fa-spin
+## Animate fa-accusoft icon using fa-spin
 To animate font awesome fa-accusoft icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-accusoft icon, use fa-spin class.
 
 
 
-## Animate Accusoft icon with steps
+## Animate fa-accusoft icon with steps
 While animating the font awesome icon,We can rotate fa-accusoft icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-accusoft icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-accusoft icon with 8 step rotation, use fa-pulse icon
 
 
 
-## Rotate Accusoft Icon using fa-rotate-x
+## Rotate fa-accusoft Icon using fa-rotate-x
 To rotate the font awesome icon fa-accusoft, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Accusoft Icon using fa-flip-*
+## Flip fa-accusoft Icon using fa-flip-*
 To flip fa-accusoft font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-accusoft font awesome icon horizontally and vertically use fa-flip-ho
 
 
 
-## Combine Accusoft icon with other font awesome icons
+## Combine fa-accusoft icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

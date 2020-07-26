@@ -1,9 +1,9 @@
 +++
-title="Square Full icon in font awesome icons"
-summary="Square Full icon represented as fa-square-full in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-square-full,f45c,Square Full"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-square-full icon in font awesome icons"
+summary="fa-square-full icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-square-full,f45c,fa-square-full"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Square Full icon represented as fa-square-full in font awesome icons has 1 variant fas i.e.,solid.
+fa-square-full icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Square Full</td><td>fa-square-full</td><td>f45c</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-square-full</td><td>fa-square-full</td><td>f45c</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Square Full icon Usage
 
-To display Square Full icon add predefined class name i.e.,fa-square-full (with prefix fa-) to the 'i' tag.
+## fa-square-full icon Usage
+
+To display fa-square-full icon add predefined class name i.e.,fa-square-full (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-square-full icon. i.e., fas.
 
 
 
-## Change Square Full icon size
-To increase Square Full font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-square-full.
+## Change fa-square-full icon size
+To increase fa-square-full font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-square-full.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Square Full Icon with Fixed Width 
+## fa-square-full Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Square Full Icon Border 
+## fa-square-full Icon Border 
 
 To add border to fa-square-full icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-square-full icon, use fa-border class.
 
 
 
-## Pull Square Full icon To the left
+## Pull fa-square-full icon To the left
 
 To pull icon fa-square-full to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-square-full fa-pull-left fa-3x'></i>
   ... The text after fa-square-full Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-square-full fa-pull-left fa-3x'></i>
   ... The text after fa-square-full Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-square-full to the left of the container use fa-pull-left class.
 
 
 
-## Pull Square Full icon To the right
+## Pull fa-square-full icon To the right
 To pull icon fa-square-full to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-square-full fa-pull-right fa-3x'></i>
   ... The text after fa-square-full Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-square-full fa-pull-right fa-3x'></i>
   ... The text after fa-square-full Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-square-full to the right of the container use fa-pull-right clas
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Square Full icon using fa-spin
+## Animate fa-square-full icon using fa-spin
 To animate font awesome fa-square-full icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-square-full icon, use fa-spin class.
 
 
 
-## Animate Square Full icon with steps
+## Animate fa-square-full icon with steps
 While animating the font awesome icon,We can rotate fa-square-full icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-square-full icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-square-full icon with 8 step rotation, use fa-pulse i
 
 
 
-## Rotate Square Full Icon using fa-rotate-x
+## Rotate fa-square-full Icon using fa-rotate-x
 To rotate the font awesome icon fa-square-full, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Square Full Icon using fa-flip-*
+## Flip fa-square-full Icon using fa-flip-*
 To flip fa-square-full font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-square-full font awesome icon horizontally and vertically use fa-flip
 
 
 
-## Combine Square Full icon with other font awesome icons
+## Combine fa-square-full icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

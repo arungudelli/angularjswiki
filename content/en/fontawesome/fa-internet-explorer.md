@@ -1,9 +1,9 @@
 +++
-title="Internet Explorer icon in font awesome icons"
-summary="Internet Explorer icon represented as fa-internet-explorer in font awesome icons is part of brand (fab) icons"
-keywords=["fa-internet-explorer,f26b,Internet Explorer"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-internet-explorer icon in font awesome icons"
+summary="fa-internet-explorer icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-internet-explorer,f26b,fa-internet-explorer"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Internet Explorer icon represented as fa-internet-explorer in font awesome icons is part of brand (fab) icons
+fa-internet-explorer icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Internet Explorer</td><td>fa-internet-explorer</td><td>f26b</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-internet-explorer</td><td>fa-internet-explorer</td><td>f26b</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Internet Explorer icon Usage
 
-To display Internet Explorer icon add predefined class name i.e.,fa-internet-explorer (with prefix fa-) to the 'i' tag.
+## fa-internet-explorer icon Usage
+
+To display fa-internet-explorer icon add predefined class name i.e.,fa-internet-explorer (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-internet-explorer icon. i.e., f
 
 
 
-## Change Internet Explorer icon size
-To increase Internet Explorer font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-internet-explorer.
+## Change fa-internet-explorer icon size
+To increase fa-internet-explorer font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-internet-explorer.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Internet Explorer Icon with Fixed Width 
+## fa-internet-explorer Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Internet Explorer Icon Border 
+## fa-internet-explorer Icon Border 
 
 To add border to fa-internet-explorer icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-internet-explorer icon, use fa-border class.
 
 
 
-## Pull Internet Explorer icon To the left
+## Pull fa-internet-explorer icon To the left
 
 To pull icon fa-internet-explorer to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-internet-explorer fa-pull-left fa-3x'></i>
   ... The text after fa-internet-explorer Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-internet-explorer fa-pull-left fa-3x'></i>
   ... The text after fa-internet-explorer Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-internet-explorer to the left of the container use fa-pull-left 
 
 
 
-## Pull Internet Explorer icon To the right
+## Pull fa-internet-explorer icon To the right
 To pull icon fa-internet-explorer to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-internet-explorer fa-pull-right fa-3x'></i>
   ... The text after fa-internet-explorer Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-internet-explorer fa-pull-right fa-3x'></i>
   ... The text after fa-internet-explorer Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-internet-explorer to the right of the container use fa-pull-righ
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Internet Explorer icon using fa-spin
+## Animate fa-internet-explorer icon using fa-spin
 To animate font awesome fa-internet-explorer icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-internet-explorer icon, use fa-spin class.
 
 
 
-## Animate Internet Explorer icon with steps
+## Animate fa-internet-explorer icon with steps
 While animating the font awesome icon,We can rotate fa-internet-explorer icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-internet-explorer icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-internet-explorer icon with 8 step rotation, use fa-p
 
 
 
-## Rotate Internet Explorer Icon using fa-rotate-x
+## Rotate fa-internet-explorer Icon using fa-rotate-x
 To rotate the font awesome icon fa-internet-explorer, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Internet Explorer Icon using fa-flip-*
+## Flip fa-internet-explorer Icon using fa-flip-*
 To flip fa-internet-explorer font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-internet-explorer font awesome icon horizontally and vertically use f
 
 
 
-## Combine Internet Explorer icon with other font awesome icons
+## Combine fa-internet-explorer icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

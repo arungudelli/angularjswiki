@@ -1,9 +1,9 @@
 +++
-title="Creative Commons Share icon in font awesome icons"
-summary="Creative Commons Share icon represented as fa-creative-commons-share in font awesome icons is part of brand (fab) icons"
-keywords=["fa-creative-commons-share,f4f2,Creative Commons Share"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-creative-commons-share icon in font awesome icons"
+summary="fa-creative-commons-share icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-creative-commons-share,f4f2,fa-creative-commons-share"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Creative Commons Share icon represented as fa-creative-commons-share in font awesome icons is part of brand (fab) icons
+fa-creative-commons-share icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Creative Commons Share</td><td>fa-creative-commons-share</td><td>f4f2</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-creative-commons-share</td><td>fa-creative-commons-share</td><td>f4f2</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Creative Commons Share icon Usage
 
-To display Creative Commons Share icon add predefined class name i.e.,fa-creative-commons-share (with prefix fa-) to the 'i' tag.
+## fa-creative-commons-share icon Usage
+
+To display fa-creative-commons-share icon add predefined class name i.e.,fa-creative-commons-share (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-creative-commons-share icon. i.
 
 
 
-## Change Creative Commons Share icon size
-To increase Creative Commons Share font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-creative-commons-share.
+## Change fa-creative-commons-share icon size
+To increase fa-creative-commons-share font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-creative-commons-share.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Creative Commons Share Icon with Fixed Width 
+## fa-creative-commons-share Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Creative Commons Share Icon Border 
+## fa-creative-commons-share Icon Border 
 
 To add border to fa-creative-commons-share icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-creative-commons-share icon, use fa-border class.
 
 
 
-## Pull Creative Commons Share icon To the left
+## Pull fa-creative-commons-share icon To the left
 
 To pull icon fa-creative-commons-share to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-creative-commons-share fa-pull-left fa-3x'></i>
   ... The text after fa-creative-commons-share Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-creative-commons-share fa-pull-left fa-3x'></i>
   ... The text after fa-creative-commons-share Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-creative-commons-share to the left of the container use fa-pull-
 
 
 
-## Pull Creative Commons Share icon To the right
+## Pull fa-creative-commons-share icon To the right
 To pull icon fa-creative-commons-share to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-creative-commons-share fa-pull-right fa-3x'></i>
   ... The text after fa-creative-commons-share Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-creative-commons-share fa-pull-right fa-3x'></i>
   ... The text after fa-creative-commons-share Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-creative-commons-share to the right of the container use fa-pull
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Creative Commons Share icon using fa-spin
+## Animate fa-creative-commons-share icon using fa-spin
 To animate font awesome fa-creative-commons-share icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-creative-commons-share icon, use fa-spin class.
 
 
 
-## Animate Creative Commons Share icon with steps
+## Animate fa-creative-commons-share icon with steps
 While animating the font awesome icon,We can rotate fa-creative-commons-share icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-creative-commons-share icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-creative-commons-share icon with 8 step rotation, use
 
 
 
-## Rotate Creative Commons Share Icon using fa-rotate-x
+## Rotate fa-creative-commons-share Icon using fa-rotate-x
 To rotate the font awesome icon fa-creative-commons-share, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Creative Commons Share Icon using fa-flip-*
+## Flip fa-creative-commons-share Icon using fa-flip-*
 To flip fa-creative-commons-share font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-creative-commons-share font awesome icon horizontally and vertically 
 
 
 
-## Combine Creative Commons Share icon with other font awesome icons
+## Combine fa-creative-commons-share icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

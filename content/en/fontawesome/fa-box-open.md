@@ -1,9 +1,9 @@
 +++
-title="Box Open icon in font awesome icons"
-summary="Box Open icon represented as fa-box-open in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-box-open,f49e,Box Open"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-box-open icon in font awesome icons"
+summary="fa-box-open icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-box-open,f49e,fa-box-open"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Box Open icon represented as fa-box-open in font awesome icons has 1 variant fas i.e.,solid.
+fa-box-open icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Box Open</td><td>fa-box-open</td><td>f49e</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-box-open</td><td>fa-box-open</td><td>f49e</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Box Open icon Usage
 
-To display Box Open icon add predefined class name i.e.,fa-box-open (with prefix fa-) to the 'i' tag.
+## fa-box-open icon Usage
+
+To display fa-box-open icon add predefined class name i.e.,fa-box-open (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-box-open icon. i.e., fas.
 
 
 
-## Change Box Open icon size
-To increase Box Open font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-box-open.
+## Change fa-box-open icon size
+To increase fa-box-open font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-box-open.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Box Open Icon with Fixed Width 
+## fa-box-open Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Box Open Icon Border 
+## fa-box-open Icon Border 
 
 To add border to fa-box-open icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-box-open icon, use fa-border class.
 
 
 
-## Pull Box Open icon To the left
+## Pull fa-box-open icon To the left
 
 To pull icon fa-box-open to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-box-open fa-pull-left fa-3x'></i>
   ... The text after fa-box-open Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-box-open fa-pull-left fa-3x'></i>
   ... The text after fa-box-open Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-box-open to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Box Open icon To the right
+## Pull fa-box-open icon To the right
 To pull icon fa-box-open to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-box-open fa-pull-right fa-3x'></i>
   ... The text after fa-box-open Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-box-open fa-pull-right fa-3x'></i>
   ... The text after fa-box-open Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-box-open to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Box Open icon using fa-spin
+## Animate fa-box-open icon using fa-spin
 To animate font awesome fa-box-open icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-box-open icon, use fa-spin class.
 
 
 
-## Animate Box Open icon with steps
+## Animate fa-box-open icon with steps
 While animating the font awesome icon,We can rotate fa-box-open icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-box-open icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-box-open icon with 8 step rotation, use fa-pulse icon
 
 
 
-## Rotate Box Open Icon using fa-rotate-x
+## Rotate fa-box-open Icon using fa-rotate-x
 To rotate the font awesome icon fa-box-open, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Box Open Icon using fa-flip-*
+## Flip fa-box-open Icon using fa-flip-*
 To flip fa-box-open font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-box-open font awesome icon horizontally and vertically use fa-flip-ho
 
 
 
-## Combine Box Open icon with other font awesome icons
+## Combine fa-box-open icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

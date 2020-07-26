@@ -1,9 +1,9 @@
 +++
-title="Laptop Code icon in font awesome icons"
-summary="Laptop Code icon represented as fa-laptop-code in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-laptop-code,f5fc,Laptop Code"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-laptop-code icon in font awesome icons"
+summary="fa-laptop-code icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-laptop-code,f5fc,fa-laptop-code"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Laptop Code icon represented as fa-laptop-code in font awesome icons has 1 variant fas i.e.,solid.
+fa-laptop-code icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Laptop Code</td><td>fa-laptop-code</td><td>f5fc</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-laptop-code</td><td>fa-laptop-code</td><td>f5fc</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Laptop Code icon Usage
 
-To display Laptop Code icon add predefined class name i.e.,fa-laptop-code (with prefix fa-) to the 'i' tag.
+## fa-laptop-code icon Usage
+
+To display fa-laptop-code icon add predefined class name i.e.,fa-laptop-code (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-laptop-code icon. i.e., fas.
 
 
 
-## Change Laptop Code icon size
-To increase Laptop Code font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-laptop-code.
+## Change fa-laptop-code icon size
+To increase fa-laptop-code font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-laptop-code.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Laptop Code Icon with Fixed Width 
+## fa-laptop-code Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Laptop Code Icon Border 
+## fa-laptop-code Icon Border 
 
 To add border to fa-laptop-code icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-laptop-code icon, use fa-border class.
 
 
 
-## Pull Laptop Code icon To the left
+## Pull fa-laptop-code icon To the left
 
 To pull icon fa-laptop-code to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-laptop-code fa-pull-left fa-3x'></i>
   ... The text after fa-laptop-code Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-laptop-code fa-pull-left fa-3x'></i>
   ... The text after fa-laptop-code Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-laptop-code to the left of the container use fa-pull-left class.
 
 
 
-## Pull Laptop Code icon To the right
+## Pull fa-laptop-code icon To the right
 To pull icon fa-laptop-code to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-laptop-code fa-pull-right fa-3x'></i>
   ... The text after fa-laptop-code Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-laptop-code fa-pull-right fa-3x'></i>
   ... The text after fa-laptop-code Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-laptop-code to the right of the container use fa-pull-right clas
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Laptop Code icon using fa-spin
+## Animate fa-laptop-code icon using fa-spin
 To animate font awesome fa-laptop-code icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-laptop-code icon, use fa-spin class.
 
 
 
-## Animate Laptop Code icon with steps
+## Animate fa-laptop-code icon with steps
 While animating the font awesome icon,We can rotate fa-laptop-code icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-laptop-code icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-laptop-code icon with 8 step rotation, use fa-pulse i
 
 
 
-## Rotate Laptop Code Icon using fa-rotate-x
+## Rotate fa-laptop-code Icon using fa-rotate-x
 To rotate the font awesome icon fa-laptop-code, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Laptop Code Icon using fa-flip-*
+## Flip fa-laptop-code Icon using fa-flip-*
 To flip fa-laptop-code font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-laptop-code font awesome icon horizontally and vertically use fa-flip
 
 
 
-## Combine Laptop Code icon with other font awesome icons
+## Combine fa-laptop-code icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

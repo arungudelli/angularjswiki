@@ -1,9 +1,9 @@
 +++
-title="Meh Rolling Eyes icon in font awesome icons"
-summary="Meh Rolling Eyes icon represented as fa-meh-rolling-eyes in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-meh-rolling-eyes,f5a5,Meh Rolling Eyes"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-meh-rolling-eyes icon in font awesome icons"
+summary="fa-meh-rolling-eyes icon in font awesome icons has 2 variants regular (far) and solid (fas)"
+keywords=["fa-meh-rolling-eyes,f5a5,fa-meh-rolling-eyes"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Meh Rolling Eyes icon represented as fa-meh-rolling-eyes in font awesome icons has 2 variants regular (far) and solid (fas)
+fa-meh-rolling-eyes icon in font awesome icons has 2 variants regular (far) and solid (fas)
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Meh Rolling Eyes</td><td>fa-meh-rolling-eyes</td><td>f5a5</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-meh-rolling-eyes</td><td>fa-meh-rolling-eyes</td><td>f5a5</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Meh Rolling Eyes icon Usage
 
-To display Meh Rolling Eyes icon add predefined class name i.e.,fa-meh-rolling-eyes (with prefix fa-) to the 'i' tag.
+## fa-meh-rolling-eyes icon Usage
+
+To display fa-meh-rolling-eyes icon add predefined class name i.e.,fa-meh-rolling-eyes (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -45,8 +47,8 @@ And we need to add corresponding category for fa-meh-rolling-eyes icon. i.e., fa
 
 
 
-## Change Meh Rolling Eyes icon size
-To increase Meh Rolling Eyes font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-meh-rolling-eyes.
+## Change fa-meh-rolling-eyes icon size
+To increase fa-meh-rolling-eyes font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-meh-rolling-eyes.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -69,7 +71,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Meh Rolling Eyes Icon with Fixed Width 
+## fa-meh-rolling-eyes Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -89,7 +91,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Meh Rolling Eyes Icon Border 
+## fa-meh-rolling-eyes Icon Border 
 
 To add border to fa-meh-rolling-eyes icon, use fa-border class.
 
@@ -104,20 +106,20 @@ To add border to fa-meh-rolling-eyes icon, use fa-border class.
 
 
 
-## Pull Meh Rolling Eyes icon To the left
+## Pull fa-meh-rolling-eyes icon To the left
 
 To pull icon fa-meh-rolling-eyes to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-meh-rolling-eyes fa-pull-left fa-3x'></i>
   ... The text after fa-meh-rolling-eyes Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-meh-rolling-eyes fa-pull-left fa-3x'></i>
   ... The text after fa-meh-rolling-eyes Icon will be displayed on the right side of the icons
 </div>
@@ -126,19 +128,19 @@ To pull icon fa-meh-rolling-eyes to the left of the container use fa-pull-left c
 
 
 
-## Pull Meh Rolling Eyes icon To the right
+## Pull fa-meh-rolling-eyes icon To the right
 To pull icon fa-meh-rolling-eyes to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-meh-rolling-eyes fa-pull-right fa-3x'></i>
   ... The text after fa-meh-rolling-eyes Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-meh-rolling-eyes fa-pull-right fa-3x'></i>
   ... The text after fa-meh-rolling-eyes Icon will be displayed on the left side of the icons
 </div>
@@ -147,7 +149,7 @@ To pull icon fa-meh-rolling-eyes to the right of the container use fa-pull-right
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Meh Rolling Eyes icon using fa-spin
+## Animate fa-meh-rolling-eyes icon using fa-spin
 To animate font awesome fa-meh-rolling-eyes icon, use fa-spin class.
 
 ```
@@ -158,7 +160,7 @@ To animate font awesome fa-meh-rolling-eyes icon, use fa-spin class.
 
 
 
-## Animate Meh Rolling Eyes icon with steps
+## Animate fa-meh-rolling-eyes icon with steps
 While animating the font awesome icon,We can rotate fa-meh-rolling-eyes icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-meh-rolling-eyes icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -174,7 +176,7 @@ To animate font awesome fa-meh-rolling-eyes icon with 8 step rotation, use fa-pu
 
 
 
-## Rotate Meh Rolling Eyes Icon using fa-rotate-x
+## Rotate fa-meh-rolling-eyes Icon using fa-rotate-x
 To rotate the font awesome icon fa-meh-rolling-eyes, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -200,7 +202,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Meh Rolling Eyes Icon using fa-flip-*
+## Flip fa-meh-rolling-eyes Icon using fa-flip-*
 To flip fa-meh-rolling-eyes font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -217,7 +219,7 @@ To flip fa-meh-rolling-eyes font awesome icon horizontally and vertically use fa
 
 
 
-## Combine Meh Rolling Eyes icon with other font awesome icons
+## Combine fa-meh-rolling-eyes icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

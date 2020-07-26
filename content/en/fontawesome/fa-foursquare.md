@@ -1,9 +1,9 @@
 +++
-title="Foursquare icon in font awesome icons"
-summary="Foursquare icon represented as fa-foursquare in font awesome icons is part of brand (fab) icons"
-keywords=["fa-foursquare,f180,Foursquare"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-foursquare icon in font awesome icons"
+summary="fa-foursquare icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-foursquare,f180,fa-foursquare"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Foursquare icon represented as fa-foursquare in font awesome icons is part of brand (fab) icons
+fa-foursquare icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Foursquare</td><td>fa-foursquare</td><td>f180</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-foursquare</td><td>fa-foursquare</td><td>f180</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Foursquare icon Usage
 
-To display Foursquare icon add predefined class name i.e.,fa-foursquare (with prefix fa-) to the 'i' tag.
+## fa-foursquare icon Usage
+
+To display fa-foursquare icon add predefined class name i.e.,fa-foursquare (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-foursquare icon. i.e., fab.
 
 
 
-## Change Foursquare icon size
-To increase Foursquare font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-foursquare.
+## Change fa-foursquare icon size
+To increase fa-foursquare font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-foursquare.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Foursquare Icon with Fixed Width 
+## fa-foursquare Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Foursquare Icon Border 
+## fa-foursquare Icon Border 
 
 To add border to fa-foursquare icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-foursquare icon, use fa-border class.
 
 
 
-## Pull Foursquare icon To the left
+## Pull fa-foursquare icon To the left
 
 To pull icon fa-foursquare to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-foursquare fa-pull-left fa-3x'></i>
   ... The text after fa-foursquare Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-foursquare fa-pull-left fa-3x'></i>
   ... The text after fa-foursquare Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-foursquare to the left of the container use fa-pull-left class.\
 
 
 
-## Pull Foursquare icon To the right
+## Pull fa-foursquare icon To the right
 To pull icon fa-foursquare to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-foursquare fa-pull-right fa-3x'></i>
   ... The text after fa-foursquare Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-foursquare fa-pull-right fa-3x'></i>
   ... The text after fa-foursquare Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-foursquare to the right of the container use fa-pull-right class
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Foursquare icon using fa-spin
+## Animate fa-foursquare icon using fa-spin
 To animate font awesome fa-foursquare icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-foursquare icon, use fa-spin class.
 
 
 
-## Animate Foursquare icon with steps
+## Animate fa-foursquare icon with steps
 While animating the font awesome icon,We can rotate fa-foursquare icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-foursquare icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-foursquare icon with 8 step rotation, use fa-pulse ic
 
 
 
-## Rotate Foursquare Icon using fa-rotate-x
+## Rotate fa-foursquare Icon using fa-rotate-x
 To rotate the font awesome icon fa-foursquare, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Foursquare Icon using fa-flip-*
+## Flip fa-foursquare Icon using fa-flip-*
 To flip fa-foursquare font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-foursquare font awesome icon horizontally and vertically use fa-flip-
 
 
 
-## Combine Foursquare icon with other font awesome icons
+## Combine fa-foursquare icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

@@ -1,9 +1,9 @@
 +++
-title="File Medical icon in font awesome icons"
-summary="File Medical icon represented as fa-file-medical in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-file-medical,f477,File Medical"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-file-medical icon in font awesome icons"
+summary="fa-file-medical icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-file-medical,f477,fa-file-medical"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-File Medical icon represented as fa-file-medical in font awesome icons has 1 variant fas i.e.,solid.
+fa-file-medical icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>File Medical</td><td>fa-file-medical</td><td>f477</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-file-medical</td><td>fa-file-medical</td><td>f477</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## File Medical icon Usage
 
-To display File Medical icon add predefined class name i.e.,fa-file-medical (with prefix fa-) to the 'i' tag.
+## fa-file-medical icon Usage
+
+To display fa-file-medical icon add predefined class name i.e.,fa-file-medical (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-file-medical icon. i.e., fas.
 
 
 
-## Change File Medical icon size
-To increase File Medical font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-file-medical.
+## Change fa-file-medical icon size
+To increase fa-file-medical font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-file-medical.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## File Medical Icon with Fixed Width 
+## fa-file-medical Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## File Medical Icon Border 
+## fa-file-medical Icon Border 
 
 To add border to fa-file-medical icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-file-medical icon, use fa-border class.
 
 
 
-## Pull File Medical icon To the left
+## Pull fa-file-medical icon To the left
 
 To pull icon fa-file-medical to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-file-medical fa-pull-left fa-3x'></i>
   ... The text after fa-file-medical Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-file-medical fa-pull-left fa-3x'></i>
   ... The text after fa-file-medical Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-file-medical to the left of the container use fa-pull-left class
 
 
 
-## Pull File Medical icon To the right
+## Pull fa-file-medical icon To the right
 To pull icon fa-file-medical to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-file-medical fa-pull-right fa-3x'></i>
   ... The text after fa-file-medical Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-file-medical fa-pull-right fa-3x'></i>
   ... The text after fa-file-medical Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-file-medical to the right of the container use fa-pull-right cla
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate File Medical icon using fa-spin
+## Animate fa-file-medical icon using fa-spin
 To animate font awesome fa-file-medical icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-file-medical icon, use fa-spin class.
 
 
 
-## Animate File Medical icon with steps
+## Animate fa-file-medical icon with steps
 While animating the font awesome icon,We can rotate fa-file-medical icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-file-medical icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-file-medical icon with 8 step rotation, use fa-pulse 
 
 
 
-## Rotate File Medical Icon using fa-rotate-x
+## Rotate fa-file-medical Icon using fa-rotate-x
 To rotate the font awesome icon fa-file-medical, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip File Medical Icon using fa-flip-*
+## Flip fa-file-medical Icon using fa-flip-*
 To flip fa-file-medical font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-file-medical font awesome icon horizontally and vertically use fa-fli
 
 
 
-## Combine File Medical icon with other font awesome icons
+## Combine fa-file-medical icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

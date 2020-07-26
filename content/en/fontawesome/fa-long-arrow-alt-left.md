@@ -1,9 +1,9 @@
 +++
-title="Long Arrow Alt Left icon in font awesome icons"
-summary="Long Arrow Alt Left icon represented as fa-long-arrow-alt-left in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-long-arrow-alt-left,f30a,Long Arrow Alt Left"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-long-arrow-alt-left icon in font awesome icons"
+summary="fa-long-arrow-alt-left icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-long-arrow-alt-left,f30a,fa-long-arrow-alt-left"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Long Arrow Alt Left icon represented as fa-long-arrow-alt-left in font awesome icons has 1 variant fas i.e.,solid.
+fa-long-arrow-alt-left icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Long Arrow Alt Left</td><td>fa-long-arrow-alt-left</td><td>f30a</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-long-arrow-alt-left</td><td>fa-long-arrow-alt-left</td><td>f30a</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Long Arrow Alt Left icon Usage
 
-To display Long Arrow Alt Left icon add predefined class name i.e.,fa-long-arrow-alt-left (with prefix fa-) to the 'i' tag.
+## fa-long-arrow-alt-left icon Usage
+
+To display fa-long-arrow-alt-left icon add predefined class name i.e.,fa-long-arrow-alt-left (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-long-arrow-alt-left icon. i.e.,
 
 
 
-## Change Long Arrow Alt Left icon size
-To increase Long Arrow Alt Left font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-long-arrow-alt-left.
+## Change fa-long-arrow-alt-left icon size
+To increase fa-long-arrow-alt-left font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-long-arrow-alt-left.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Long Arrow Alt Left Icon with Fixed Width 
+## fa-long-arrow-alt-left Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Long Arrow Alt Left Icon Border 
+## fa-long-arrow-alt-left Icon Border 
 
 To add border to fa-long-arrow-alt-left icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-long-arrow-alt-left icon, use fa-border class.
 
 
 
-## Pull Long Arrow Alt Left icon To the left
+## Pull fa-long-arrow-alt-left icon To the left
 
 To pull icon fa-long-arrow-alt-left to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-long-arrow-alt-left fa-pull-left fa-3x'></i>
   ... The text after fa-long-arrow-alt-left Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-long-arrow-alt-left fa-pull-left fa-3x'></i>
   ... The text after fa-long-arrow-alt-left Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-long-arrow-alt-left to the left of the container use fa-pull-lef
 
 
 
-## Pull Long Arrow Alt Left icon To the right
+## Pull fa-long-arrow-alt-left icon To the right
 To pull icon fa-long-arrow-alt-left to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-long-arrow-alt-left fa-pull-right fa-3x'></i>
   ... The text after fa-long-arrow-alt-left Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-long-arrow-alt-left fa-pull-right fa-3x'></i>
   ... The text after fa-long-arrow-alt-left Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-long-arrow-alt-left to the right of the container use fa-pull-ri
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Long Arrow Alt Left icon using fa-spin
+## Animate fa-long-arrow-alt-left icon using fa-spin
 To animate font awesome fa-long-arrow-alt-left icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-long-arrow-alt-left icon, use fa-spin class.
 
 
 
-## Animate Long Arrow Alt Left icon with steps
+## Animate fa-long-arrow-alt-left icon with steps
 While animating the font awesome icon,We can rotate fa-long-arrow-alt-left icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-long-arrow-alt-left icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-long-arrow-alt-left icon with 8 step rotation, use fa
 
 
 
-## Rotate Long Arrow Alt Left Icon using fa-rotate-x
+## Rotate fa-long-arrow-alt-left Icon using fa-rotate-x
 To rotate the font awesome icon fa-long-arrow-alt-left, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Long Arrow Alt Left Icon using fa-flip-*
+## Flip fa-long-arrow-alt-left Icon using fa-flip-*
 To flip fa-long-arrow-alt-left font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-long-arrow-alt-left font awesome icon horizontally and vertically use
 
 
 
-## Combine Long Arrow Alt Left icon with other font awesome icons
+## Combine fa-long-arrow-alt-left icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

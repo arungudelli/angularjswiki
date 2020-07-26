@@ -1,9 +1,9 @@
 +++
-title="Speaker Deck icon in font awesome icons"
-summary="Speaker Deck icon represented as fa-speaker-deck in font awesome icons is part of brand (fab) icons"
-keywords=["fa-speaker-deck,f83c,Speaker Deck"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-speaker-deck icon in font awesome icons"
+summary="fa-speaker-deck icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-speaker-deck,f83c,fa-speaker-deck"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Speaker Deck icon represented as fa-speaker-deck in font awesome icons is part of brand (fab) icons
+fa-speaker-deck icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Speaker Deck</td><td>fa-speaker-deck</td><td>f83c</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-speaker-deck</td><td>fa-speaker-deck</td><td>f83c</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Speaker Deck icon Usage
 
-To display Speaker Deck icon add predefined class name i.e.,fa-speaker-deck (with prefix fa-) to the 'i' tag.
+## fa-speaker-deck icon Usage
+
+To display fa-speaker-deck icon add predefined class name i.e.,fa-speaker-deck (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-speaker-deck icon. i.e., fab.
 
 
 
-## Change Speaker Deck icon size
-To increase Speaker Deck font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-speaker-deck.
+## Change fa-speaker-deck icon size
+To increase fa-speaker-deck font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-speaker-deck.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Speaker Deck Icon with Fixed Width 
+## fa-speaker-deck Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Speaker Deck Icon Border 
+## fa-speaker-deck Icon Border 
 
 To add border to fa-speaker-deck icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-speaker-deck icon, use fa-border class.
 
 
 
-## Pull Speaker Deck icon To the left
+## Pull fa-speaker-deck icon To the left
 
 To pull icon fa-speaker-deck to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-speaker-deck fa-pull-left fa-3x'></i>
   ... The text after fa-speaker-deck Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-speaker-deck fa-pull-left fa-3x'></i>
   ... The text after fa-speaker-deck Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-speaker-deck to the left of the container use fa-pull-left class
 
 
 
-## Pull Speaker Deck icon To the right
+## Pull fa-speaker-deck icon To the right
 To pull icon fa-speaker-deck to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-speaker-deck fa-pull-right fa-3x'></i>
   ... The text after fa-speaker-deck Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-speaker-deck fa-pull-right fa-3x'></i>
   ... The text after fa-speaker-deck Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-speaker-deck to the right of the container use fa-pull-right cla
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Speaker Deck icon using fa-spin
+## Animate fa-speaker-deck icon using fa-spin
 To animate font awesome fa-speaker-deck icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-speaker-deck icon, use fa-spin class.
 
 
 
-## Animate Speaker Deck icon with steps
+## Animate fa-speaker-deck icon with steps
 While animating the font awesome icon,We can rotate fa-speaker-deck icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-speaker-deck icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-speaker-deck icon with 8 step rotation, use fa-pulse 
 
 
 
-## Rotate Speaker Deck Icon using fa-rotate-x
+## Rotate fa-speaker-deck Icon using fa-rotate-x
 To rotate the font awesome icon fa-speaker-deck, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Speaker Deck Icon using fa-flip-*
+## Flip fa-speaker-deck Icon using fa-flip-*
 To flip fa-speaker-deck font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-speaker-deck font awesome icon horizontally and vertically use fa-fli
 
 
 
-## Combine Speaker Deck icon with other font awesome icons
+## Combine fa-speaker-deck icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

@@ -1,9 +1,9 @@
 +++
-title="Bicycle icon in font awesome icons"
-summary="Bicycle icon represented as fa-bicycle in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-bicycle,f206,Bicycle"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-bicycle icon in font awesome icons"
+summary="fa-bicycle icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-bicycle,f206,fa-bicycle"]
+date="25-07-2020T22:59:19"
+lastmod="25-07-2020T22:59:19"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Bicycle icon represented as fa-bicycle in font awesome icons has 1 variant fas i.e.,solid.
+fa-bicycle icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Bicycle</td><td>fa-bicycle</td><td>f206</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-bicycle</td><td>fa-bicycle</td><td>f206</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Bicycle icon Usage
 
-To display Bicycle icon add predefined class name i.e.,fa-bicycle (with prefix fa-) to the 'i' tag.
+## fa-bicycle icon Usage
+
+To display fa-bicycle icon add predefined class name i.e.,fa-bicycle (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-bicycle icon. i.e., fas.
 
 
 
-## Change Bicycle icon size
-To increase Bicycle font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-bicycle.
+## Change fa-bicycle icon size
+To increase fa-bicycle font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-bicycle.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Bicycle Icon with Fixed Width 
+## fa-bicycle Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Bicycle Icon Border 
+## fa-bicycle Icon Border 
 
 To add border to fa-bicycle icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-bicycle icon, use fa-border class.
 
 
 
-## Pull Bicycle icon To the left
+## Pull fa-bicycle icon To the left
 
 To pull icon fa-bicycle to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-bicycle fa-pull-left fa-3x'></i>
   ... The text after fa-bicycle Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-bicycle fa-pull-left fa-3x'></i>
   ... The text after fa-bicycle Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-bicycle to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Bicycle icon To the right
+## Pull fa-bicycle icon To the right
 To pull icon fa-bicycle to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-bicycle fa-pull-right fa-3x'></i>
   ... The text after fa-bicycle Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-bicycle fa-pull-right fa-3x'></i>
   ... The text after fa-bicycle Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-bicycle to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Bicycle icon using fa-spin
+## Animate fa-bicycle icon using fa-spin
 To animate font awesome fa-bicycle icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-bicycle icon, use fa-spin class.
 
 
 
-## Animate Bicycle icon with steps
+## Animate fa-bicycle icon with steps
 While animating the font awesome icon,We can rotate fa-bicycle icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-bicycle icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-bicycle icon with 8 step rotation, use fa-pulse icon 
 
 
 
-## Rotate Bicycle Icon using fa-rotate-x
+## Rotate fa-bicycle Icon using fa-rotate-x
 To rotate the font awesome icon fa-bicycle, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Bicycle Icon using fa-flip-*
+## Flip fa-bicycle Icon using fa-flip-*
 To flip fa-bicycle font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-bicycle font awesome icon horizontally and vertically use fa-flip-hor
 
 
 
-## Combine Bicycle icon with other font awesome icons
+## Combine fa-bicycle icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

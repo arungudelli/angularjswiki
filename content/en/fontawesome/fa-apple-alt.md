@@ -1,9 +1,9 @@
 +++
-title="Apple Alt icon in font awesome icons"
-summary="Apple Alt icon represented as fa-apple-alt in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-apple-alt,f5d1,Apple Alt"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-apple-alt icon in font awesome icons"
+summary="fa-apple-alt icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-apple-alt,f5d1,fa-apple-alt"]
+date="25-07-2020T22:59:19"
+lastmod="25-07-2020T22:59:19"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Apple Alt icon represented as fa-apple-alt in font awesome icons has 1 variant fas i.e.,solid.
+fa-apple-alt icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Apple Alt</td><td>fa-apple-alt</td><td>f5d1</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-apple-alt</td><td>fa-apple-alt</td><td>f5d1</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Apple Alt icon Usage
 
-To display Apple Alt icon add predefined class name i.e.,fa-apple-alt (with prefix fa-) to the 'i' tag.
+## fa-apple-alt icon Usage
+
+To display fa-apple-alt icon add predefined class name i.e.,fa-apple-alt (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-apple-alt icon. i.e., fas.
 
 
 
-## Change Apple Alt icon size
-To increase Apple Alt font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-apple-alt.
+## Change fa-apple-alt icon size
+To increase fa-apple-alt font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-apple-alt.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Apple Alt Icon with Fixed Width 
+## fa-apple-alt Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Apple Alt Icon Border 
+## fa-apple-alt Icon Border 
 
 To add border to fa-apple-alt icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-apple-alt icon, use fa-border class.
 
 
 
-## Pull Apple Alt icon To the left
+## Pull fa-apple-alt icon To the left
 
 To pull icon fa-apple-alt to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-apple-alt fa-pull-left fa-3x'></i>
   ... The text after fa-apple-alt Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-apple-alt fa-pull-left fa-3x'></i>
   ... The text after fa-apple-alt Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-apple-alt to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Apple Alt icon To the right
+## Pull fa-apple-alt icon To the right
 To pull icon fa-apple-alt to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-apple-alt fa-pull-right fa-3x'></i>
   ... The text after fa-apple-alt Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-apple-alt fa-pull-right fa-3x'></i>
   ... The text after fa-apple-alt Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-apple-alt to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Apple Alt icon using fa-spin
+## Animate fa-apple-alt icon using fa-spin
 To animate font awesome fa-apple-alt icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-apple-alt icon, use fa-spin class.
 
 
 
-## Animate Apple Alt icon with steps
+## Animate fa-apple-alt icon with steps
 While animating the font awesome icon,We can rotate fa-apple-alt icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-apple-alt icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-apple-alt icon with 8 step rotation, use fa-pulse ico
 
 
 
-## Rotate Apple Alt Icon using fa-rotate-x
+## Rotate fa-apple-alt Icon using fa-rotate-x
 To rotate the font awesome icon fa-apple-alt, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Apple Alt Icon using fa-flip-*
+## Flip fa-apple-alt Icon using fa-flip-*
 To flip fa-apple-alt font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-apple-alt font awesome icon horizontally and vertically use fa-flip-h
 
 
 
-## Combine Apple Alt icon with other font awesome icons
+## Combine fa-apple-alt icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

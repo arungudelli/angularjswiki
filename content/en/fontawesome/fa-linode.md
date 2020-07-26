@@ -1,9 +1,9 @@
 +++
-title="Linode icon in font awesome icons"
-summary="Linode icon represented as fa-linode in font awesome icons is part of brand (fab) icons"
-keywords=["fa-linode,f2b8,Linode"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-linode icon in font awesome icons"
+summary="fa-linode icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-linode,f2b8,fa-linode"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Linode icon represented as fa-linode in font awesome icons is part of brand (fab) icons
+fa-linode icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Linode</td><td>fa-linode</td><td>f2b8</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-linode</td><td>fa-linode</td><td>f2b8</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Linode icon Usage
 
-To display Linode icon add predefined class name i.e.,fa-linode (with prefix fa-) to the 'i' tag.
+## fa-linode icon Usage
+
+To display fa-linode icon add predefined class name i.e.,fa-linode (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-linode icon. i.e., fab.
 
 
 
-## Change Linode icon size
-To increase Linode font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-linode.
+## Change fa-linode icon size
+To increase fa-linode font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-linode.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Linode Icon with Fixed Width 
+## fa-linode Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Linode Icon Border 
+## fa-linode Icon Border 
 
 To add border to fa-linode icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-linode icon, use fa-border class.
 
 
 
-## Pull Linode icon To the left
+## Pull fa-linode icon To the left
 
 To pull icon fa-linode to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-linode fa-pull-left fa-3x'></i>
   ... The text after fa-linode Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-linode fa-pull-left fa-3x'></i>
   ... The text after fa-linode Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-linode to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Linode icon To the right
+## Pull fa-linode icon To the right
 To pull icon fa-linode to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-linode fa-pull-right fa-3x'></i>
   ... The text after fa-linode Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-linode fa-pull-right fa-3x'></i>
   ... The text after fa-linode Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-linode to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Linode icon using fa-spin
+## Animate fa-linode icon using fa-spin
 To animate font awesome fa-linode icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-linode icon, use fa-spin class.
 
 
 
-## Animate Linode icon with steps
+## Animate fa-linode icon with steps
 While animating the font awesome icon,We can rotate fa-linode icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-linode icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-linode icon with 8 step rotation, use fa-pulse icon a
 
 
 
-## Rotate Linode Icon using fa-rotate-x
+## Rotate fa-linode Icon using fa-rotate-x
 To rotate the font awesome icon fa-linode, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Linode Icon using fa-flip-*
+## Flip fa-linode Icon using fa-flip-*
 To flip fa-linode font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-linode font awesome icon horizontally and vertically use fa-flip-hori
 
 
 
-## Combine Linode icon with other font awesome icons
+## Combine fa-linode icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

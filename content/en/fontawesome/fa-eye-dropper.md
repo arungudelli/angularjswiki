@@ -1,9 +1,9 @@
 +++
-title="Eye Dropper icon in font awesome icons"
-summary="Eye Dropper icon represented as fa-eye-dropper in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-eye-dropper,f1fb,Eye Dropper"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-eye-dropper icon in font awesome icons"
+summary="fa-eye-dropper icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-eye-dropper,f1fb,fa-eye-dropper"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Eye Dropper icon represented as fa-eye-dropper in font awesome icons has 1 variant fas i.e.,solid.
+fa-eye-dropper icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Eye Dropper</td><td>fa-eye-dropper</td><td>f1fb</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-eye-dropper</td><td>fa-eye-dropper</td><td>f1fb</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Eye Dropper icon Usage
 
-To display Eye Dropper icon add predefined class name i.e.,fa-eye-dropper (with prefix fa-) to the 'i' tag.
+## fa-eye-dropper icon Usage
+
+To display fa-eye-dropper icon add predefined class name i.e.,fa-eye-dropper (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-eye-dropper icon. i.e., fas.
 
 
 
-## Change Eye Dropper icon size
-To increase Eye Dropper font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-eye-dropper.
+## Change fa-eye-dropper icon size
+To increase fa-eye-dropper font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-eye-dropper.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Eye Dropper Icon with Fixed Width 
+## fa-eye-dropper Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Eye Dropper Icon Border 
+## fa-eye-dropper Icon Border 
 
 To add border to fa-eye-dropper icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-eye-dropper icon, use fa-border class.
 
 
 
-## Pull Eye Dropper icon To the left
+## Pull fa-eye-dropper icon To the left
 
 To pull icon fa-eye-dropper to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-eye-dropper fa-pull-left fa-3x'></i>
   ... The text after fa-eye-dropper Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-eye-dropper fa-pull-left fa-3x'></i>
   ... The text after fa-eye-dropper Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-eye-dropper to the left of the container use fa-pull-left class.
 
 
 
-## Pull Eye Dropper icon To the right
+## Pull fa-eye-dropper icon To the right
 To pull icon fa-eye-dropper to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-eye-dropper fa-pull-right fa-3x'></i>
   ... The text after fa-eye-dropper Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-eye-dropper fa-pull-right fa-3x'></i>
   ... The text after fa-eye-dropper Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-eye-dropper to the right of the container use fa-pull-right clas
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Eye Dropper icon using fa-spin
+## Animate fa-eye-dropper icon using fa-spin
 To animate font awesome fa-eye-dropper icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-eye-dropper icon, use fa-spin class.
 
 
 
-## Animate Eye Dropper icon with steps
+## Animate fa-eye-dropper icon with steps
 While animating the font awesome icon,We can rotate fa-eye-dropper icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-eye-dropper icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-eye-dropper icon with 8 step rotation, use fa-pulse i
 
 
 
-## Rotate Eye Dropper Icon using fa-rotate-x
+## Rotate fa-eye-dropper Icon using fa-rotate-x
 To rotate the font awesome icon fa-eye-dropper, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Eye Dropper Icon using fa-flip-*
+## Flip fa-eye-dropper Icon using fa-flip-*
 To flip fa-eye-dropper font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-eye-dropper font awesome icon horizontally and vertically use fa-flip
 
 
 
-## Combine Eye Dropper icon with other font awesome icons
+## Combine fa-eye-dropper icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

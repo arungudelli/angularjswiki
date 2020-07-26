@@ -1,9 +1,9 @@
 +++
-title="Untappd icon in font awesome icons"
-summary="Untappd icon represented as fa-untappd in font awesome icons is part of brand (fab) icons"
-keywords=["fa-untappd,f405,Untappd"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-untappd icon in font awesome icons"
+summary="fa-untappd icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-untappd,f405,fa-untappd"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Untappd icon represented as fa-untappd in font awesome icons is part of brand (fab) icons
+fa-untappd icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Untappd</td><td>fa-untappd</td><td>f405</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-untappd</td><td>fa-untappd</td><td>f405</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Untappd icon Usage
 
-To display Untappd icon add predefined class name i.e.,fa-untappd (with prefix fa-) to the 'i' tag.
+## fa-untappd icon Usage
+
+To display fa-untappd icon add predefined class name i.e.,fa-untappd (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-untappd icon. i.e., fab.
 
 
 
-## Change Untappd icon size
-To increase Untappd font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-untappd.
+## Change fa-untappd icon size
+To increase fa-untappd font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-untappd.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Untappd Icon with Fixed Width 
+## fa-untappd Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Untappd Icon Border 
+## fa-untappd Icon Border 
 
 To add border to fa-untappd icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-untappd icon, use fa-border class.
 
 
 
-## Pull Untappd icon To the left
+## Pull fa-untappd icon To the left
 
 To pull icon fa-untappd to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-untappd fa-pull-left fa-3x'></i>
   ... The text after fa-untappd Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-untappd fa-pull-left fa-3x'></i>
   ... The text after fa-untappd Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-untappd to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Untappd icon To the right
+## Pull fa-untappd icon To the right
 To pull icon fa-untappd to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-untappd fa-pull-right fa-3x'></i>
   ... The text after fa-untappd Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-untappd fa-pull-right fa-3x'></i>
   ... The text after fa-untappd Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-untappd to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Untappd icon using fa-spin
+## Animate fa-untappd icon using fa-spin
 To animate font awesome fa-untappd icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-untappd icon, use fa-spin class.
 
 
 
-## Animate Untappd icon with steps
+## Animate fa-untappd icon with steps
 While animating the font awesome icon,We can rotate fa-untappd icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-untappd icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-untappd icon with 8 step rotation, use fa-pulse icon 
 
 
 
-## Rotate Untappd Icon using fa-rotate-x
+## Rotate fa-untappd Icon using fa-rotate-x
 To rotate the font awesome icon fa-untappd, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Untappd Icon using fa-flip-*
+## Flip fa-untappd Icon using fa-flip-*
 To flip fa-untappd font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-untappd font awesome icon horizontally and vertically use fa-flip-hor
 
 
 
-## Combine Untappd icon with other font awesome icons
+## Combine fa-untappd icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

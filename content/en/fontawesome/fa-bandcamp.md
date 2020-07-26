@@ -1,9 +1,9 @@
 +++
-title="Bandcamp icon in font awesome icons"
-summary="Bandcamp icon represented as fa-bandcamp in font awesome icons is part of brand (fab) icons"
-keywords=["fa-bandcamp,f2d5,Bandcamp"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-bandcamp icon in font awesome icons"
+summary="fa-bandcamp icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-bandcamp,f2d5,fa-bandcamp"]
+date="25-07-2020T22:59:19"
+lastmod="25-07-2020T22:59:19"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Bandcamp icon represented as fa-bandcamp in font awesome icons is part of brand (fab) icons
+fa-bandcamp icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Bandcamp</td><td>fa-bandcamp</td><td>f2d5</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-bandcamp</td><td>fa-bandcamp</td><td>f2d5</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Bandcamp icon Usage
 
-To display Bandcamp icon add predefined class name i.e.,fa-bandcamp (with prefix fa-) to the 'i' tag.
+## fa-bandcamp icon Usage
+
+To display fa-bandcamp icon add predefined class name i.e.,fa-bandcamp (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-bandcamp icon. i.e., fab.
 
 
 
-## Change Bandcamp icon size
-To increase Bandcamp font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-bandcamp.
+## Change fa-bandcamp icon size
+To increase fa-bandcamp font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-bandcamp.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Bandcamp Icon with Fixed Width 
+## fa-bandcamp Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Bandcamp Icon Border 
+## fa-bandcamp Icon Border 
 
 To add border to fa-bandcamp icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-bandcamp icon, use fa-border class.
 
 
 
-## Pull Bandcamp icon To the left
+## Pull fa-bandcamp icon To the left
 
 To pull icon fa-bandcamp to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-bandcamp fa-pull-left fa-3x'></i>
   ... The text after fa-bandcamp Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-bandcamp fa-pull-left fa-3x'></i>
   ... The text after fa-bandcamp Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-bandcamp to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Bandcamp icon To the right
+## Pull fa-bandcamp icon To the right
 To pull icon fa-bandcamp to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-bandcamp fa-pull-right fa-3x'></i>
   ... The text after fa-bandcamp Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-bandcamp fa-pull-right fa-3x'></i>
   ... The text after fa-bandcamp Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-bandcamp to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Bandcamp icon using fa-spin
+## Animate fa-bandcamp icon using fa-spin
 To animate font awesome fa-bandcamp icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-bandcamp icon, use fa-spin class.
 
 
 
-## Animate Bandcamp icon with steps
+## Animate fa-bandcamp icon with steps
 While animating the font awesome icon,We can rotate fa-bandcamp icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-bandcamp icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-bandcamp icon with 8 step rotation, use fa-pulse icon
 
 
 
-## Rotate Bandcamp Icon using fa-rotate-x
+## Rotate fa-bandcamp Icon using fa-rotate-x
 To rotate the font awesome icon fa-bandcamp, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Bandcamp Icon using fa-flip-*
+## Flip fa-bandcamp Icon using fa-flip-*
 To flip fa-bandcamp font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-bandcamp font awesome icon horizontally and vertically use fa-flip-ho
 
 
 
-## Combine Bandcamp icon with other font awesome icons
+## Combine fa-bandcamp icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

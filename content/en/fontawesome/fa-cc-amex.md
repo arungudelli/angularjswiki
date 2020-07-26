@@ -1,9 +1,9 @@
 +++
-title="Cc Amex icon in font awesome icons"
-summary="Cc Amex icon represented as fa-cc-amex in font awesome icons is part of brand (fab) icons"
-keywords=["fa-cc-amex,f1f3,Cc Amex"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-cc-amex icon in font awesome icons"
+summary="fa-cc-amex icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-cc-amex,f1f3,fa-cc-amex"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Cc Amex icon represented as fa-cc-amex in font awesome icons is part of brand (fab) icons
+fa-cc-amex icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Cc Amex</td><td>fa-cc-amex</td><td>f1f3</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-cc-amex</td><td>fa-cc-amex</td><td>f1f3</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Cc Amex icon Usage
 
-To display Cc Amex icon add predefined class name i.e.,fa-cc-amex (with prefix fa-) to the 'i' tag.
+## fa-cc-amex icon Usage
+
+To display fa-cc-amex icon add predefined class name i.e.,fa-cc-amex (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-cc-amex icon. i.e., fab.
 
 
 
-## Change Cc Amex icon size
-To increase Cc Amex font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-cc-amex.
+## Change fa-cc-amex icon size
+To increase fa-cc-amex font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-cc-amex.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Cc Amex Icon with Fixed Width 
+## fa-cc-amex Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Cc Amex Icon Border 
+## fa-cc-amex Icon Border 
 
 To add border to fa-cc-amex icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-cc-amex icon, use fa-border class.
 
 
 
-## Pull Cc Amex icon To the left
+## Pull fa-cc-amex icon To the left
 
 To pull icon fa-cc-amex to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-cc-amex fa-pull-left fa-3x'></i>
   ... The text after fa-cc-amex Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-cc-amex fa-pull-left fa-3x'></i>
   ... The text after fa-cc-amex Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-cc-amex to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Cc Amex icon To the right
+## Pull fa-cc-amex icon To the right
 To pull icon fa-cc-amex to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-cc-amex fa-pull-right fa-3x'></i>
   ... The text after fa-cc-amex Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-cc-amex fa-pull-right fa-3x'></i>
   ... The text after fa-cc-amex Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-cc-amex to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Cc Amex icon using fa-spin
+## Animate fa-cc-amex icon using fa-spin
 To animate font awesome fa-cc-amex icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-cc-amex icon, use fa-spin class.
 
 
 
-## Animate Cc Amex icon with steps
+## Animate fa-cc-amex icon with steps
 While animating the font awesome icon,We can rotate fa-cc-amex icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-cc-amex icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-cc-amex icon with 8 step rotation, use fa-pulse icon 
 
 
 
-## Rotate Cc Amex Icon using fa-rotate-x
+## Rotate fa-cc-amex Icon using fa-rotate-x
 To rotate the font awesome icon fa-cc-amex, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Cc Amex Icon using fa-flip-*
+## Flip fa-cc-amex Icon using fa-flip-*
 To flip fa-cc-amex font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-cc-amex font awesome icon horizontally and vertically use fa-flip-hor
 
 
 
-## Combine Cc Amex icon with other font awesome icons
+## Combine fa-cc-amex icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

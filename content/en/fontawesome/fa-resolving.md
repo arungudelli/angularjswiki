@@ -1,9 +1,9 @@
 +++
-title="Resolving icon in font awesome icons"
-summary="Resolving icon represented as fa-resolving in font awesome icons is part of brand (fab) icons"
-keywords=["fa-resolving,f3e7,Resolving"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-resolving icon in font awesome icons"
+summary="fa-resolving icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-resolving,f3e7,fa-resolving"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Resolving icon represented as fa-resolving in font awesome icons is part of brand (fab) icons
+fa-resolving icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Resolving</td><td>fa-resolving</td><td>f3e7</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-resolving</td><td>fa-resolving</td><td>f3e7</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Resolving icon Usage
 
-To display Resolving icon add predefined class name i.e.,fa-resolving (with prefix fa-) to the 'i' tag.
+## fa-resolving icon Usage
+
+To display fa-resolving icon add predefined class name i.e.,fa-resolving (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-resolving icon. i.e., fab.
 
 
 
-## Change Resolving icon size
-To increase Resolving font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-resolving.
+## Change fa-resolving icon size
+To increase fa-resolving font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-resolving.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Resolving Icon with Fixed Width 
+## fa-resolving Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Resolving Icon Border 
+## fa-resolving Icon Border 
 
 To add border to fa-resolving icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-resolving icon, use fa-border class.
 
 
 
-## Pull Resolving icon To the left
+## Pull fa-resolving icon To the left
 
 To pull icon fa-resolving to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-resolving fa-pull-left fa-3x'></i>
   ... The text after fa-resolving Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-resolving fa-pull-left fa-3x'></i>
   ... The text after fa-resolving Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-resolving to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Resolving icon To the right
+## Pull fa-resolving icon To the right
 To pull icon fa-resolving to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-resolving fa-pull-right fa-3x'></i>
   ... The text after fa-resolving Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-resolving fa-pull-right fa-3x'></i>
   ... The text after fa-resolving Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-resolving to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Resolving icon using fa-spin
+## Animate fa-resolving icon using fa-spin
 To animate font awesome fa-resolving icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-resolving icon, use fa-spin class.
 
 
 
-## Animate Resolving icon with steps
+## Animate fa-resolving icon with steps
 While animating the font awesome icon,We can rotate fa-resolving icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-resolving icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-resolving icon with 8 step rotation, use fa-pulse ico
 
 
 
-## Rotate Resolving Icon using fa-rotate-x
+## Rotate fa-resolving Icon using fa-rotate-x
 To rotate the font awesome icon fa-resolving, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Resolving Icon using fa-flip-*
+## Flip fa-resolving Icon using fa-flip-*
 To flip fa-resolving font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-resolving font awesome icon horizontally and vertically use fa-flip-h
 
 
 
-## Combine Resolving icon with other font awesome icons
+## Combine fa-resolving icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

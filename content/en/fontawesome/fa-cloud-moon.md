@@ -1,9 +1,9 @@
 +++
-title="Cloud Moon icon in font awesome icons"
-summary="Cloud Moon icon represented as fa-cloud-moon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-cloud-moon,f6c3,Cloud Moon"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-cloud-moon icon in font awesome icons"
+summary="fa-cloud-moon icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-cloud-moon,f6c3,fa-cloud-moon"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Cloud Moon icon represented as fa-cloud-moon in font awesome icons has 1 variant fas i.e.,solid.
+fa-cloud-moon icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Cloud Moon</td><td>fa-cloud-moon</td><td>f6c3</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-cloud-moon</td><td>fa-cloud-moon</td><td>f6c3</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Cloud Moon icon Usage
 
-To display Cloud Moon icon add predefined class name i.e.,fa-cloud-moon (with prefix fa-) to the 'i' tag.
+## fa-cloud-moon icon Usage
+
+To display fa-cloud-moon icon add predefined class name i.e.,fa-cloud-moon (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-cloud-moon icon. i.e., fas.
 
 
 
-## Change Cloud Moon icon size
-To increase Cloud Moon font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-cloud-moon.
+## Change fa-cloud-moon icon size
+To increase fa-cloud-moon font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-cloud-moon.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Cloud Moon Icon with Fixed Width 
+## fa-cloud-moon Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Cloud Moon Icon Border 
+## fa-cloud-moon Icon Border 
 
 To add border to fa-cloud-moon icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-cloud-moon icon, use fa-border class.
 
 
 
-## Pull Cloud Moon icon To the left
+## Pull fa-cloud-moon icon To the left
 
 To pull icon fa-cloud-moon to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-cloud-moon fa-pull-left fa-3x'></i>
   ... The text after fa-cloud-moon Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-cloud-moon fa-pull-left fa-3x'></i>
   ... The text after fa-cloud-moon Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-cloud-moon to the left of the container use fa-pull-left class.\
 
 
 
-## Pull Cloud Moon icon To the right
+## Pull fa-cloud-moon icon To the right
 To pull icon fa-cloud-moon to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-cloud-moon fa-pull-right fa-3x'></i>
   ... The text after fa-cloud-moon Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-cloud-moon fa-pull-right fa-3x'></i>
   ... The text after fa-cloud-moon Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-cloud-moon to the right of the container use fa-pull-right class
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Cloud Moon icon using fa-spin
+## Animate fa-cloud-moon icon using fa-spin
 To animate font awesome fa-cloud-moon icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-cloud-moon icon, use fa-spin class.
 
 
 
-## Animate Cloud Moon icon with steps
+## Animate fa-cloud-moon icon with steps
 While animating the font awesome icon,We can rotate fa-cloud-moon icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-cloud-moon icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-cloud-moon icon with 8 step rotation, use fa-pulse ic
 
 
 
-## Rotate Cloud Moon Icon using fa-rotate-x
+## Rotate fa-cloud-moon Icon using fa-rotate-x
 To rotate the font awesome icon fa-cloud-moon, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Cloud Moon Icon using fa-flip-*
+## Flip fa-cloud-moon Icon using fa-flip-*
 To flip fa-cloud-moon font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-cloud-moon font awesome icon horizontally and vertically use fa-flip-
 
 
 
-## Combine Cloud Moon icon with other font awesome icons
+## Combine fa-cloud-moon icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

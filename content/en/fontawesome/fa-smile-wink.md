@@ -1,9 +1,9 @@
 +++
-title="Smile Wink icon in font awesome icons"
-summary="Smile Wink icon represented as fa-smile-wink in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-smile-wink,f4da,Smile Wink"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-smile-wink icon in font awesome icons"
+summary="fa-smile-wink icon in font awesome icons has 2 variants regular (far) and solid (fas)"
+keywords=["fa-smile-wink,f4da,fa-smile-wink"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Smile Wink icon represented as fa-smile-wink in font awesome icons has 2 variants regular (far) and solid (fas)
+fa-smile-wink icon in font awesome icons has 2 variants regular (far) and solid (fas)
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Smile Wink</td><td>fa-smile-wink</td><td>f4da</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-smile-wink</td><td>fa-smile-wink</td><td>f4da</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Smile Wink icon Usage
 
-To display Smile Wink icon add predefined class name i.e.,fa-smile-wink (with prefix fa-) to the 'i' tag.
+## fa-smile-wink icon Usage
+
+To display fa-smile-wink icon add predefined class name i.e.,fa-smile-wink (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -45,8 +47,8 @@ And we need to add corresponding category for fa-smile-wink icon. i.e., fas,far.
 
 
 
-## Change Smile Wink icon size
-To increase Smile Wink font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-smile-wink.
+## Change fa-smile-wink icon size
+To increase fa-smile-wink font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-smile-wink.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -69,7 +71,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Smile Wink Icon with Fixed Width 
+## fa-smile-wink Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -89,7 +91,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Smile Wink Icon Border 
+## fa-smile-wink Icon Border 
 
 To add border to fa-smile-wink icon, use fa-border class.
 
@@ -104,20 +106,20 @@ To add border to fa-smile-wink icon, use fa-border class.
 
 
 
-## Pull Smile Wink icon To the left
+## Pull fa-smile-wink icon To the left
 
 To pull icon fa-smile-wink to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-smile-wink fa-pull-left fa-3x'></i>
   ... The text after fa-smile-wink Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-smile-wink fa-pull-left fa-3x'></i>
   ... The text after fa-smile-wink Icon will be displayed on the right side of the icons
 </div>
@@ -126,19 +128,19 @@ To pull icon fa-smile-wink to the left of the container use fa-pull-left class.\
 
 
 
-## Pull Smile Wink icon To the right
+## Pull fa-smile-wink icon To the right
 To pull icon fa-smile-wink to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-smile-wink fa-pull-right fa-3x'></i>
   ... The text after fa-smile-wink Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-smile-wink fa-pull-right fa-3x'></i>
   ... The text after fa-smile-wink Icon will be displayed on the left side of the icons
 </div>
@@ -147,7 +149,7 @@ To pull icon fa-smile-wink to the right of the container use fa-pull-right class
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Smile Wink icon using fa-spin
+## Animate fa-smile-wink icon using fa-spin
 To animate font awesome fa-smile-wink icon, use fa-spin class.
 
 ```
@@ -158,7 +160,7 @@ To animate font awesome fa-smile-wink icon, use fa-spin class.
 
 
 
-## Animate Smile Wink icon with steps
+## Animate fa-smile-wink icon with steps
 While animating the font awesome icon,We can rotate fa-smile-wink icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-smile-wink icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -174,7 +176,7 @@ To animate font awesome fa-smile-wink icon with 8 step rotation, use fa-pulse ic
 
 
 
-## Rotate Smile Wink Icon using fa-rotate-x
+## Rotate fa-smile-wink Icon using fa-rotate-x
 To rotate the font awesome icon fa-smile-wink, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -200,7 +202,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Smile Wink Icon using fa-flip-*
+## Flip fa-smile-wink Icon using fa-flip-*
 To flip fa-smile-wink font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -217,7 +219,7 @@ To flip fa-smile-wink font awesome icon horizontally and vertically use fa-flip-
 
 
 
-## Combine Smile Wink icon with other font awesome icons
+## Combine fa-smile-wink icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

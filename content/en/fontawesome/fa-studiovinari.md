@@ -1,9 +1,9 @@
 +++
-title="Studiovinari icon in font awesome icons"
-summary="Studiovinari icon represented as fa-studiovinari in font awesome icons is part of brand (fab) icons"
-keywords=["fa-studiovinari,f3f8,Studiovinari"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-studiovinari icon in font awesome icons"
+summary="fa-studiovinari icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-studiovinari,f3f8,fa-studiovinari"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Studiovinari icon represented as fa-studiovinari in font awesome icons is part of brand (fab) icons
+fa-studiovinari icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Studiovinari</td><td>fa-studiovinari</td><td>f3f8</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-studiovinari</td><td>fa-studiovinari</td><td>f3f8</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Studiovinari icon Usage
 
-To display Studiovinari icon add predefined class name i.e.,fa-studiovinari (with prefix fa-) to the 'i' tag.
+## fa-studiovinari icon Usage
+
+To display fa-studiovinari icon add predefined class name i.e.,fa-studiovinari (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-studiovinari icon. i.e., fab.
 
 
 
-## Change Studiovinari icon size
-To increase Studiovinari font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-studiovinari.
+## Change fa-studiovinari icon size
+To increase fa-studiovinari font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-studiovinari.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Studiovinari Icon with Fixed Width 
+## fa-studiovinari Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Studiovinari Icon Border 
+## fa-studiovinari Icon Border 
 
 To add border to fa-studiovinari icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-studiovinari icon, use fa-border class.
 
 
 
-## Pull Studiovinari icon To the left
+## Pull fa-studiovinari icon To the left
 
 To pull icon fa-studiovinari to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-studiovinari fa-pull-left fa-3x'></i>
   ... The text after fa-studiovinari Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-studiovinari fa-pull-left fa-3x'></i>
   ... The text after fa-studiovinari Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-studiovinari to the left of the container use fa-pull-left class
 
 
 
-## Pull Studiovinari icon To the right
+## Pull fa-studiovinari icon To the right
 To pull icon fa-studiovinari to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-studiovinari fa-pull-right fa-3x'></i>
   ... The text after fa-studiovinari Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-studiovinari fa-pull-right fa-3x'></i>
   ... The text after fa-studiovinari Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-studiovinari to the right of the container use fa-pull-right cla
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Studiovinari icon using fa-spin
+## Animate fa-studiovinari icon using fa-spin
 To animate font awesome fa-studiovinari icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-studiovinari icon, use fa-spin class.
 
 
 
-## Animate Studiovinari icon with steps
+## Animate fa-studiovinari icon with steps
 While animating the font awesome icon,We can rotate fa-studiovinari icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-studiovinari icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-studiovinari icon with 8 step rotation, use fa-pulse 
 
 
 
-## Rotate Studiovinari Icon using fa-rotate-x
+## Rotate fa-studiovinari Icon using fa-rotate-x
 To rotate the font awesome icon fa-studiovinari, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Studiovinari Icon using fa-flip-*
+## Flip fa-studiovinari Icon using fa-flip-*
 To flip fa-studiovinari font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-studiovinari font awesome icon horizontally and vertically use fa-fli
 
 
 
-## Combine Studiovinari icon with other font awesome icons
+## Combine fa-studiovinari icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

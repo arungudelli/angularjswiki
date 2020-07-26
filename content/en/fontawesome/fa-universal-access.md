@@ -1,9 +1,9 @@
 +++
-title="Universal Access icon in font awesome icons"
-summary="Universal Access icon represented as fa-universal-access in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-universal-access,f29a,Universal Access"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-universal-access icon in font awesome icons"
+summary="fa-universal-access icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-universal-access,f29a,fa-universal-access"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Universal Access icon represented as fa-universal-access in font awesome icons has 1 variant fas i.e.,solid.
+fa-universal-access icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Universal Access</td><td>fa-universal-access</td><td>f29a</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-universal-access</td><td>fa-universal-access</td><td>f29a</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Universal Access icon Usage
 
-To display Universal Access icon add predefined class name i.e.,fa-universal-access (with prefix fa-) to the 'i' tag.
+## fa-universal-access icon Usage
+
+To display fa-universal-access icon add predefined class name i.e.,fa-universal-access (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-universal-access icon. i.e., fa
 
 
 
-## Change Universal Access icon size
-To increase Universal Access font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-universal-access.
+## Change fa-universal-access icon size
+To increase fa-universal-access font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-universal-access.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Universal Access Icon with Fixed Width 
+## fa-universal-access Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Universal Access Icon Border 
+## fa-universal-access Icon Border 
 
 To add border to fa-universal-access icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-universal-access icon, use fa-border class.
 
 
 
-## Pull Universal Access icon To the left
+## Pull fa-universal-access icon To the left
 
 To pull icon fa-universal-access to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-universal-access fa-pull-left fa-3x'></i>
   ... The text after fa-universal-access Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-universal-access fa-pull-left fa-3x'></i>
   ... The text after fa-universal-access Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-universal-access to the left of the container use fa-pull-left c
 
 
 
-## Pull Universal Access icon To the right
+## Pull fa-universal-access icon To the right
 To pull icon fa-universal-access to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-universal-access fa-pull-right fa-3x'></i>
   ... The text after fa-universal-access Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-universal-access fa-pull-right fa-3x'></i>
   ... The text after fa-universal-access Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-universal-access to the right of the container use fa-pull-right
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Universal Access icon using fa-spin
+## Animate fa-universal-access icon using fa-spin
 To animate font awesome fa-universal-access icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-universal-access icon, use fa-spin class.
 
 
 
-## Animate Universal Access icon with steps
+## Animate fa-universal-access icon with steps
 While animating the font awesome icon,We can rotate fa-universal-access icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-universal-access icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-universal-access icon with 8 step rotation, use fa-pu
 
 
 
-## Rotate Universal Access Icon using fa-rotate-x
+## Rotate fa-universal-access Icon using fa-rotate-x
 To rotate the font awesome icon fa-universal-access, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Universal Access Icon using fa-flip-*
+## Flip fa-universal-access Icon using fa-flip-*
 To flip fa-universal-access font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-universal-access font awesome icon horizontally and vertically use fa
 
 
 
-## Combine Universal Access icon with other font awesome icons
+## Combine fa-universal-access icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

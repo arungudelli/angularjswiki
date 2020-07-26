@@ -1,9 +1,9 @@
 +++
-title="Ups icon in font awesome icons"
-summary="Ups icon represented as fa-ups in font awesome icons is part of brand (fab) icons"
-keywords=["fa-ups,f7e0,Ups"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-ups icon in font awesome icons"
+summary="fa-ups icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-ups,f7e0,fa-ups"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Ups icon represented as fa-ups in font awesome icons is part of brand (fab) icons
+fa-ups icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Ups</td><td>fa-ups</td><td>f7e0</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-ups</td><td>fa-ups</td><td>f7e0</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Ups icon Usage
 
-To display Ups icon add predefined class name i.e.,fa-ups (with prefix fa-) to the 'i' tag.
+## fa-ups icon Usage
+
+To display fa-ups icon add predefined class name i.e.,fa-ups (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-ups icon. i.e., fab.
 
 
 
-## Change Ups icon size
-To increase Ups font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-ups.
+## Change fa-ups icon size
+To increase fa-ups font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-ups.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Ups Icon with Fixed Width 
+## fa-ups Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Ups Icon Border 
+## fa-ups Icon Border 
 
 To add border to fa-ups icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-ups icon, use fa-border class.
 
 
 
-## Pull Ups icon To the left
+## Pull fa-ups icon To the left
 
 To pull icon fa-ups to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-ups fa-pull-left fa-3x'></i>
   ... The text after fa-ups Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-ups fa-pull-left fa-3x'></i>
   ... The text after fa-ups Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-ups to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Ups icon To the right
+## Pull fa-ups icon To the right
 To pull icon fa-ups to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-ups fa-pull-right fa-3x'></i>
   ... The text after fa-ups Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-ups fa-pull-right fa-3x'></i>
   ... The text after fa-ups Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-ups to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Ups icon using fa-spin
+## Animate fa-ups icon using fa-spin
 To animate font awesome fa-ups icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-ups icon, use fa-spin class.
 
 
 
-## Animate Ups icon with steps
+## Animate fa-ups icon with steps
 While animating the font awesome icon,We can rotate fa-ups icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-ups icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-ups icon with 8 step rotation, use fa-pulse icon alon
 
 
 
-## Rotate Ups Icon using fa-rotate-x
+## Rotate fa-ups Icon using fa-rotate-x
 To rotate the font awesome icon fa-ups, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Ups Icon using fa-flip-*
+## Flip fa-ups Icon using fa-flip-*
 To flip fa-ups font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-ups font awesome icon horizontally and vertically use fa-flip-horizon
 
 
 
-## Combine Ups icon with other font awesome icons
+## Combine fa-ups icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

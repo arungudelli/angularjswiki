@@ -1,9 +1,9 @@
 +++
-title="Eraser icon in font awesome icons"
-summary="Eraser icon represented as fa-eraser in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-eraser,f12d,Eraser"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-eraser icon in font awesome icons"
+summary="fa-eraser icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-eraser,f12d,fa-eraser"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Eraser icon represented as fa-eraser in font awesome icons has 1 variant fas i.e.,solid.
+fa-eraser icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Eraser</td><td>fa-eraser</td><td>f12d</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-eraser</td><td>fa-eraser</td><td>f12d</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Eraser icon Usage
 
-To display Eraser icon add predefined class name i.e.,fa-eraser (with prefix fa-) to the 'i' tag.
+## fa-eraser icon Usage
+
+To display fa-eraser icon add predefined class name i.e.,fa-eraser (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-eraser icon. i.e., fas.
 
 
 
-## Change Eraser icon size
-To increase Eraser font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-eraser.
+## Change fa-eraser icon size
+To increase fa-eraser font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-eraser.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Eraser Icon with Fixed Width 
+## fa-eraser Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Eraser Icon Border 
+## fa-eraser Icon Border 
 
 To add border to fa-eraser icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-eraser icon, use fa-border class.
 
 
 
-## Pull Eraser icon To the left
+## Pull fa-eraser icon To the left
 
 To pull icon fa-eraser to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-eraser fa-pull-left fa-3x'></i>
   ... The text after fa-eraser Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-eraser fa-pull-left fa-3x'></i>
   ... The text after fa-eraser Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-eraser to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Eraser icon To the right
+## Pull fa-eraser icon To the right
 To pull icon fa-eraser to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-eraser fa-pull-right fa-3x'></i>
   ... The text after fa-eraser Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-eraser fa-pull-right fa-3x'></i>
   ... The text after fa-eraser Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-eraser to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Eraser icon using fa-spin
+## Animate fa-eraser icon using fa-spin
 To animate font awesome fa-eraser icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-eraser icon, use fa-spin class.
 
 
 
-## Animate Eraser icon with steps
+## Animate fa-eraser icon with steps
 While animating the font awesome icon,We can rotate fa-eraser icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-eraser icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-eraser icon with 8 step rotation, use fa-pulse icon a
 
 
 
-## Rotate Eraser Icon using fa-rotate-x
+## Rotate fa-eraser Icon using fa-rotate-x
 To rotate the font awesome icon fa-eraser, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Eraser Icon using fa-flip-*
+## Flip fa-eraser Icon using fa-flip-*
 To flip fa-eraser font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-eraser font awesome icon horizontally and vertically use fa-flip-hori
 
 
 
-## Combine Eraser icon with other font awesome icons
+## Combine fa-eraser icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

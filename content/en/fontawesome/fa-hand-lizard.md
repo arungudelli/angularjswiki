@@ -1,9 +1,9 @@
 +++
-title="Hand Lizard icon in font awesome icons"
-summary="Hand Lizard icon represented as fa-hand-lizard in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-hand-lizard,f258,Hand Lizard"]
-date="19-07-2020T22:19:04"
-lastmod="19-07-2020T22:19:04"
+title="fa-hand-lizard icon in font awesome icons"
+summary="fa-hand-lizard icon in font awesome icons has 2 variants regular (far) and solid (fas)"
+keywords=["fa-hand-lizard,f258,fa-hand-lizard"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Hand Lizard icon represented as fa-hand-lizard in font awesome icons has 2 variants regular (far) and solid (fas)
+fa-hand-lizard icon in font awesome icons has 2 variants regular (far) and solid (fas)
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Hand Lizard</td><td>fa-hand-lizard</td><td>f258</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-hand-lizard</td><td>fa-hand-lizard</td><td>f258</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Hand Lizard icon Usage
 
-To display Hand Lizard icon add predefined class name i.e.,fa-hand-lizard (with prefix fa-) to the 'i' tag.
+## fa-hand-lizard icon Usage
+
+To display fa-hand-lizard icon add predefined class name i.e.,fa-hand-lizard (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -45,8 +47,8 @@ And we need to add corresponding category for fa-hand-lizard icon. i.e., fas,far
 
 
 
-## Change Hand Lizard icon size
-To increase Hand Lizard font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-hand-lizard.
+## Change fa-hand-lizard icon size
+To increase fa-hand-lizard font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-hand-lizard.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -69,7 +71,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Hand Lizard Icon with Fixed Width 
+## fa-hand-lizard Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -89,7 +91,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Hand Lizard Icon Border 
+## fa-hand-lizard Icon Border 
 
 To add border to fa-hand-lizard icon, use fa-border class.
 
@@ -104,20 +106,20 @@ To add border to fa-hand-lizard icon, use fa-border class.
 
 
 
-## Pull Hand Lizard icon To the left
+## Pull fa-hand-lizard icon To the left
 
 To pull icon fa-hand-lizard to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-hand-lizard fa-pull-left fa-3x'></i>
   ... The text after fa-hand-lizard Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-hand-lizard fa-pull-left fa-3x'></i>
   ... The text after fa-hand-lizard Icon will be displayed on the right side of the icons
 </div>
@@ -126,19 +128,19 @@ To pull icon fa-hand-lizard to the left of the container use fa-pull-left class.
 
 
 
-## Pull Hand Lizard icon To the right
+## Pull fa-hand-lizard icon To the right
 To pull icon fa-hand-lizard to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-hand-lizard fa-pull-right fa-3x'></i>
   ... The text after fa-hand-lizard Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-hand-lizard fa-pull-right fa-3x'></i>
   ... The text after fa-hand-lizard Icon will be displayed on the left side of the icons
 </div>
@@ -147,7 +149,7 @@ To pull icon fa-hand-lizard to the right of the container use fa-pull-right clas
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Hand Lizard icon using fa-spin
+## Animate fa-hand-lizard icon using fa-spin
 To animate font awesome fa-hand-lizard icon, use fa-spin class.
 
 ```
@@ -158,7 +160,7 @@ To animate font awesome fa-hand-lizard icon, use fa-spin class.
 
 
 
-## Animate Hand Lizard icon with steps
+## Animate fa-hand-lizard icon with steps
 While animating the font awesome icon,We can rotate fa-hand-lizard icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-hand-lizard icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -174,7 +176,7 @@ To animate font awesome fa-hand-lizard icon with 8 step rotation, use fa-pulse i
 
 
 
-## Rotate Hand Lizard Icon using fa-rotate-x
+## Rotate fa-hand-lizard Icon using fa-rotate-x
 To rotate the font awesome icon fa-hand-lizard, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -200,7 +202,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Hand Lizard Icon using fa-flip-*
+## Flip fa-hand-lizard Icon using fa-flip-*
 To flip fa-hand-lizard font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -217,7 +219,7 @@ To flip fa-hand-lizard font awesome icon horizontally and vertically use fa-flip
 
 
 
-## Combine Hand Lizard icon with other font awesome icons
+## Combine fa-hand-lizard icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

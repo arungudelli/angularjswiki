@@ -1,9 +1,9 @@
 +++
-title="Microphone Alt icon in font awesome icons"
-summary="Microphone Alt icon represented as fa-microphone-alt in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-microphone-alt,f3c9,Microphone Alt"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-microphone-alt icon in font awesome icons"
+summary="fa-microphone-alt icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-microphone-alt,f3c9,fa-microphone-alt"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Microphone Alt icon represented as fa-microphone-alt in font awesome icons has 1 variant fas i.e.,solid.
+fa-microphone-alt icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Microphone Alt</td><td>fa-microphone-alt</td><td>f3c9</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-microphone-alt</td><td>fa-microphone-alt</td><td>f3c9</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Microphone Alt icon Usage
 
-To display Microphone Alt icon add predefined class name i.e.,fa-microphone-alt (with prefix fa-) to the 'i' tag.
+## fa-microphone-alt icon Usage
+
+To display fa-microphone-alt icon add predefined class name i.e.,fa-microphone-alt (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-microphone-alt icon. i.e., fas.
 
 
 
-## Change Microphone Alt icon size
-To increase Microphone Alt font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-microphone-alt.
+## Change fa-microphone-alt icon size
+To increase fa-microphone-alt font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-microphone-alt.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Microphone Alt Icon with Fixed Width 
+## fa-microphone-alt Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Microphone Alt Icon Border 
+## fa-microphone-alt Icon Border 
 
 To add border to fa-microphone-alt icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-microphone-alt icon, use fa-border class.
 
 
 
-## Pull Microphone Alt icon To the left
+## Pull fa-microphone-alt icon To the left
 
 To pull icon fa-microphone-alt to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-microphone-alt fa-pull-left fa-3x'></i>
   ... The text after fa-microphone-alt Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-microphone-alt fa-pull-left fa-3x'></i>
   ... The text after fa-microphone-alt Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-microphone-alt to the left of the container use fa-pull-left cla
 
 
 
-## Pull Microphone Alt icon To the right
+## Pull fa-microphone-alt icon To the right
 To pull icon fa-microphone-alt to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-microphone-alt fa-pull-right fa-3x'></i>
   ... The text after fa-microphone-alt Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-microphone-alt fa-pull-right fa-3x'></i>
   ... The text after fa-microphone-alt Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-microphone-alt to the right of the container use fa-pull-right c
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Microphone Alt icon using fa-spin
+## Animate fa-microphone-alt icon using fa-spin
 To animate font awesome fa-microphone-alt icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-microphone-alt icon, use fa-spin class.
 
 
 
-## Animate Microphone Alt icon with steps
+## Animate fa-microphone-alt icon with steps
 While animating the font awesome icon,We can rotate fa-microphone-alt icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-microphone-alt icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-microphone-alt icon with 8 step rotation, use fa-puls
 
 
 
-## Rotate Microphone Alt Icon using fa-rotate-x
+## Rotate fa-microphone-alt Icon using fa-rotate-x
 To rotate the font awesome icon fa-microphone-alt, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Microphone Alt Icon using fa-flip-*
+## Flip fa-microphone-alt Icon using fa-flip-*
 To flip fa-microphone-alt font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-microphone-alt font awesome icon horizontally and vertically use fa-f
 
 
 
-## Combine Microphone Alt icon with other font awesome icons
+## Combine fa-microphone-alt icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

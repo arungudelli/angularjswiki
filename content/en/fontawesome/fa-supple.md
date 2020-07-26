@@ -1,9 +1,9 @@
 +++
-title="Supple icon in font awesome icons"
-summary="Supple icon represented as fa-supple in font awesome icons is part of brand (fab) icons"
-keywords=["fa-supple,f3f9,Supple"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-supple icon in font awesome icons"
+summary="fa-supple icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-supple,f3f9,fa-supple"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Supple icon represented as fa-supple in font awesome icons is part of brand (fab) icons
+fa-supple icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Supple</td><td>fa-supple</td><td>f3f9</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-supple</td><td>fa-supple</td><td>f3f9</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Supple icon Usage
 
-To display Supple icon add predefined class name i.e.,fa-supple (with prefix fa-) to the 'i' tag.
+## fa-supple icon Usage
+
+To display fa-supple icon add predefined class name i.e.,fa-supple (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-supple icon. i.e., fab.
 
 
 
-## Change Supple icon size
-To increase Supple font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-supple.
+## Change fa-supple icon size
+To increase fa-supple font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-supple.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Supple Icon with Fixed Width 
+## fa-supple Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Supple Icon Border 
+## fa-supple Icon Border 
 
 To add border to fa-supple icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-supple icon, use fa-border class.
 
 
 
-## Pull Supple icon To the left
+## Pull fa-supple icon To the left
 
 To pull icon fa-supple to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-supple fa-pull-left fa-3x'></i>
   ... The text after fa-supple Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-supple fa-pull-left fa-3x'></i>
   ... The text after fa-supple Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-supple to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Supple icon To the right
+## Pull fa-supple icon To the right
 To pull icon fa-supple to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-supple fa-pull-right fa-3x'></i>
   ... The text after fa-supple Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-supple fa-pull-right fa-3x'></i>
   ... The text after fa-supple Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-supple to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Supple icon using fa-spin
+## Animate fa-supple icon using fa-spin
 To animate font awesome fa-supple icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-supple icon, use fa-spin class.
 
 
 
-## Animate Supple icon with steps
+## Animate fa-supple icon with steps
 While animating the font awesome icon,We can rotate fa-supple icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-supple icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-supple icon with 8 step rotation, use fa-pulse icon a
 
 
 
-## Rotate Supple Icon using fa-rotate-x
+## Rotate fa-supple Icon using fa-rotate-x
 To rotate the font awesome icon fa-supple, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Supple Icon using fa-flip-*
+## Flip fa-supple Icon using fa-flip-*
 To flip fa-supple font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-supple font awesome icon horizontally and vertically use fa-flip-hori
 
 
 
-## Combine Supple icon with other font awesome icons
+## Combine fa-supple icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

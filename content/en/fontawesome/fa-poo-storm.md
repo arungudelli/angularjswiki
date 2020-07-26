@@ -1,9 +1,9 @@
 +++
-title="Poo Storm icon in font awesome icons"
-summary="Poo Storm icon represented as fa-poo-storm in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-poo-storm,f75a,Poo Storm"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-poo-storm icon in font awesome icons"
+summary="fa-poo-storm icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-poo-storm,f75a,fa-poo-storm"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Poo Storm icon represented as fa-poo-storm in font awesome icons has 1 variant fas i.e.,solid.
+fa-poo-storm icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Poo Storm</td><td>fa-poo-storm</td><td>f75a</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-poo-storm</td><td>fa-poo-storm</td><td>f75a</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Poo Storm icon Usage
 
-To display Poo Storm icon add predefined class name i.e.,fa-poo-storm (with prefix fa-) to the 'i' tag.
+## fa-poo-storm icon Usage
+
+To display fa-poo-storm icon add predefined class name i.e.,fa-poo-storm (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-poo-storm icon. i.e., fas.
 
 
 
-## Change Poo Storm icon size
-To increase Poo Storm font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-poo-storm.
+## Change fa-poo-storm icon size
+To increase fa-poo-storm font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-poo-storm.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Poo Storm Icon with Fixed Width 
+## fa-poo-storm Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Poo Storm Icon Border 
+## fa-poo-storm Icon Border 
 
 To add border to fa-poo-storm icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-poo-storm icon, use fa-border class.
 
 
 
-## Pull Poo Storm icon To the left
+## Pull fa-poo-storm icon To the left
 
 To pull icon fa-poo-storm to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-poo-storm fa-pull-left fa-3x'></i>
   ... The text after fa-poo-storm Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-poo-storm fa-pull-left fa-3x'></i>
   ... The text after fa-poo-storm Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-poo-storm to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Poo Storm icon To the right
+## Pull fa-poo-storm icon To the right
 To pull icon fa-poo-storm to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-poo-storm fa-pull-right fa-3x'></i>
   ... The text after fa-poo-storm Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-poo-storm fa-pull-right fa-3x'></i>
   ... The text after fa-poo-storm Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-poo-storm to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Poo Storm icon using fa-spin
+## Animate fa-poo-storm icon using fa-spin
 To animate font awesome fa-poo-storm icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-poo-storm icon, use fa-spin class.
 
 
 
-## Animate Poo Storm icon with steps
+## Animate fa-poo-storm icon with steps
 While animating the font awesome icon,We can rotate fa-poo-storm icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-poo-storm icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-poo-storm icon with 8 step rotation, use fa-pulse ico
 
 
 
-## Rotate Poo Storm Icon using fa-rotate-x
+## Rotate fa-poo-storm Icon using fa-rotate-x
 To rotate the font awesome icon fa-poo-storm, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Poo Storm Icon using fa-flip-*
+## Flip fa-poo-storm Icon using fa-flip-*
 To flip fa-poo-storm font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-poo-storm font awesome icon horizontally and vertically use fa-flip-h
 
 
 
-## Combine Poo Storm icon with other font awesome icons
+## Combine fa-poo-storm icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

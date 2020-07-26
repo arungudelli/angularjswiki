@@ -1,9 +1,9 @@
 +++
-title="Charging Station icon in font awesome icons"
-summary="Charging Station icon represented as fa-charging-station in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-charging-station,f5e7,Charging Station"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-charging-station icon in font awesome icons"
+summary="fa-charging-station icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-charging-station,f5e7,fa-charging-station"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Charging Station icon represented as fa-charging-station in font awesome icons has 1 variant fas i.e.,solid.
+fa-charging-station icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Charging Station</td><td>fa-charging-station</td><td>f5e7</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-charging-station</td><td>fa-charging-station</td><td>f5e7</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Charging Station icon Usage
 
-To display Charging Station icon add predefined class name i.e.,fa-charging-station (with prefix fa-) to the 'i' tag.
+## fa-charging-station icon Usage
+
+To display fa-charging-station icon add predefined class name i.e.,fa-charging-station (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-charging-station icon. i.e., fa
 
 
 
-## Change Charging Station icon size
-To increase Charging Station font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-charging-station.
+## Change fa-charging-station icon size
+To increase fa-charging-station font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-charging-station.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Charging Station Icon with Fixed Width 
+## fa-charging-station Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Charging Station Icon Border 
+## fa-charging-station Icon Border 
 
 To add border to fa-charging-station icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-charging-station icon, use fa-border class.
 
 
 
-## Pull Charging Station icon To the left
+## Pull fa-charging-station icon To the left
 
 To pull icon fa-charging-station to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-charging-station fa-pull-left fa-3x'></i>
   ... The text after fa-charging-station Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-charging-station fa-pull-left fa-3x'></i>
   ... The text after fa-charging-station Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-charging-station to the left of the container use fa-pull-left c
 
 
 
-## Pull Charging Station icon To the right
+## Pull fa-charging-station icon To the right
 To pull icon fa-charging-station to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-charging-station fa-pull-right fa-3x'></i>
   ... The text after fa-charging-station Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-charging-station fa-pull-right fa-3x'></i>
   ... The text after fa-charging-station Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-charging-station to the right of the container use fa-pull-right
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Charging Station icon using fa-spin
+## Animate fa-charging-station icon using fa-spin
 To animate font awesome fa-charging-station icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-charging-station icon, use fa-spin class.
 
 
 
-## Animate Charging Station icon with steps
+## Animate fa-charging-station icon with steps
 While animating the font awesome icon,We can rotate fa-charging-station icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-charging-station icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-charging-station icon with 8 step rotation, use fa-pu
 
 
 
-## Rotate Charging Station Icon using fa-rotate-x
+## Rotate fa-charging-station Icon using fa-rotate-x
 To rotate the font awesome icon fa-charging-station, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Charging Station Icon using fa-flip-*
+## Flip fa-charging-station Icon using fa-flip-*
 To flip fa-charging-station font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-charging-station font awesome icon horizontally and vertically use fa
 
 
 
-## Combine Charging Station icon with other font awesome icons
+## Combine fa-charging-station icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

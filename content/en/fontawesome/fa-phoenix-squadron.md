@@ -1,9 +1,9 @@
 +++
-title="Phoenix Squadron icon in font awesome icons"
-summary="Phoenix Squadron icon represented as fa-phoenix-squadron in font awesome icons is part of brand (fab) icons"
-keywords=["fa-phoenix-squadron,f511,Phoenix Squadron"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-phoenix-squadron icon in font awesome icons"
+summary="fa-phoenix-squadron icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-phoenix-squadron,f511,fa-phoenix-squadron"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Phoenix Squadron icon represented as fa-phoenix-squadron in font awesome icons is part of brand (fab) icons
+fa-phoenix-squadron icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Phoenix Squadron</td><td>fa-phoenix-squadron</td><td>f511</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-phoenix-squadron</td><td>fa-phoenix-squadron</td><td>f511</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Phoenix Squadron icon Usage
 
-To display Phoenix Squadron icon add predefined class name i.e.,fa-phoenix-squadron (with prefix fa-) to the 'i' tag.
+## fa-phoenix-squadron icon Usage
+
+To display fa-phoenix-squadron icon add predefined class name i.e.,fa-phoenix-squadron (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-phoenix-squadron icon. i.e., fa
 
 
 
-## Change Phoenix Squadron icon size
-To increase Phoenix Squadron font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-phoenix-squadron.
+## Change fa-phoenix-squadron icon size
+To increase fa-phoenix-squadron font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-phoenix-squadron.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Phoenix Squadron Icon with Fixed Width 
+## fa-phoenix-squadron Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Phoenix Squadron Icon Border 
+## fa-phoenix-squadron Icon Border 
 
 To add border to fa-phoenix-squadron icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-phoenix-squadron icon, use fa-border class.
 
 
 
-## Pull Phoenix Squadron icon To the left
+## Pull fa-phoenix-squadron icon To the left
 
 To pull icon fa-phoenix-squadron to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-phoenix-squadron fa-pull-left fa-3x'></i>
   ... The text after fa-phoenix-squadron Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-phoenix-squadron fa-pull-left fa-3x'></i>
   ... The text after fa-phoenix-squadron Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-phoenix-squadron to the left of the container use fa-pull-left c
 
 
 
-## Pull Phoenix Squadron icon To the right
+## Pull fa-phoenix-squadron icon To the right
 To pull icon fa-phoenix-squadron to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-phoenix-squadron fa-pull-right fa-3x'></i>
   ... The text after fa-phoenix-squadron Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-phoenix-squadron fa-pull-right fa-3x'></i>
   ... The text after fa-phoenix-squadron Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-phoenix-squadron to the right of the container use fa-pull-right
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Phoenix Squadron icon using fa-spin
+## Animate fa-phoenix-squadron icon using fa-spin
 To animate font awesome fa-phoenix-squadron icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-phoenix-squadron icon, use fa-spin class.
 
 
 
-## Animate Phoenix Squadron icon with steps
+## Animate fa-phoenix-squadron icon with steps
 While animating the font awesome icon,We can rotate fa-phoenix-squadron icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-phoenix-squadron icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-phoenix-squadron icon with 8 step rotation, use fa-pu
 
 
 
-## Rotate Phoenix Squadron Icon using fa-rotate-x
+## Rotate fa-phoenix-squadron Icon using fa-rotate-x
 To rotate the font awesome icon fa-phoenix-squadron, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Phoenix Squadron Icon using fa-flip-*
+## Flip fa-phoenix-squadron Icon using fa-flip-*
 To flip fa-phoenix-squadron font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-phoenix-squadron font awesome icon horizontally and vertically use fa
 
 
 
-## Combine Phoenix Squadron icon with other font awesome icons
+## Combine fa-phoenix-squadron icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

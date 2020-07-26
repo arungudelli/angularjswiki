@@ -1,9 +1,9 @@
 +++
-title="Cc Paypal icon in font awesome icons"
-summary="Cc Paypal icon represented as fa-cc-paypal in font awesome icons is part of brand (fab) icons"
-keywords=["fa-cc-paypal,f1f4,Cc Paypal"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-cc-paypal icon in font awesome icons"
+summary="fa-cc-paypal icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-cc-paypal,f1f4,fa-cc-paypal"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Cc Paypal icon represented as fa-cc-paypal in font awesome icons is part of brand (fab) icons
+fa-cc-paypal icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Cc Paypal</td><td>fa-cc-paypal</td><td>f1f4</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-cc-paypal</td><td>fa-cc-paypal</td><td>f1f4</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Cc Paypal icon Usage
 
-To display Cc Paypal icon add predefined class name i.e.,fa-cc-paypal (with prefix fa-) to the 'i' tag.
+## fa-cc-paypal icon Usage
+
+To display fa-cc-paypal icon add predefined class name i.e.,fa-cc-paypal (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-cc-paypal icon. i.e., fab.
 
 
 
-## Change Cc Paypal icon size
-To increase Cc Paypal font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-cc-paypal.
+## Change fa-cc-paypal icon size
+To increase fa-cc-paypal font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-cc-paypal.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Cc Paypal Icon with Fixed Width 
+## fa-cc-paypal Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Cc Paypal Icon Border 
+## fa-cc-paypal Icon Border 
 
 To add border to fa-cc-paypal icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-cc-paypal icon, use fa-border class.
 
 
 
-## Pull Cc Paypal icon To the left
+## Pull fa-cc-paypal icon To the left
 
 To pull icon fa-cc-paypal to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-cc-paypal fa-pull-left fa-3x'></i>
   ... The text after fa-cc-paypal Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-cc-paypal fa-pull-left fa-3x'></i>
   ... The text after fa-cc-paypal Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-cc-paypal to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Cc Paypal icon To the right
+## Pull fa-cc-paypal icon To the right
 To pull icon fa-cc-paypal to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-cc-paypal fa-pull-right fa-3x'></i>
   ... The text after fa-cc-paypal Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-cc-paypal fa-pull-right fa-3x'></i>
   ... The text after fa-cc-paypal Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-cc-paypal to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Cc Paypal icon using fa-spin
+## Animate fa-cc-paypal icon using fa-spin
 To animate font awesome fa-cc-paypal icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-cc-paypal icon, use fa-spin class.
 
 
 
-## Animate Cc Paypal icon with steps
+## Animate fa-cc-paypal icon with steps
 While animating the font awesome icon,We can rotate fa-cc-paypal icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-cc-paypal icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-cc-paypal icon with 8 step rotation, use fa-pulse ico
 
 
 
-## Rotate Cc Paypal Icon using fa-rotate-x
+## Rotate fa-cc-paypal Icon using fa-rotate-x
 To rotate the font awesome icon fa-cc-paypal, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Cc Paypal Icon using fa-flip-*
+## Flip fa-cc-paypal Icon using fa-flip-*
 To flip fa-cc-paypal font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-cc-paypal font awesome icon horizontally and vertically use fa-flip-h
 
 
 
-## Combine Cc Paypal icon with other font awesome icons
+## Combine fa-cc-paypal icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

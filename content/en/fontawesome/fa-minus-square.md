@@ -1,9 +1,9 @@
 +++
-title="Minus Square icon in font awesome icons"
-summary="Minus Square icon represented as fa-minus-square in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-minus-square,f146,Minus Square"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-minus-square icon in font awesome icons"
+summary="fa-minus-square icon in font awesome icons has 2 variants regular (far) and solid (fas)"
+keywords=["fa-minus-square,f146,fa-minus-square"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Minus Square icon represented as fa-minus-square in font awesome icons has 2 variants regular (far) and solid (fas)
+fa-minus-square icon in font awesome icons has 2 variants regular (far) and solid (fas)
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Minus Square</td><td>fa-minus-square</td><td>f146</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-minus-square</td><td>fa-minus-square</td><td>f146</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Minus Square icon Usage
 
-To display Minus Square icon add predefined class name i.e.,fa-minus-square (with prefix fa-) to the 'i' tag.
+## fa-minus-square icon Usage
+
+To display fa-minus-square icon add predefined class name i.e.,fa-minus-square (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -45,8 +47,8 @@ And we need to add corresponding category for fa-minus-square icon. i.e., fas,fa
 
 
 
-## Change Minus Square icon size
-To increase Minus Square font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-minus-square.
+## Change fa-minus-square icon size
+To increase fa-minus-square font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-minus-square.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -69,7 +71,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Minus Square Icon with Fixed Width 
+## fa-minus-square Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -89,7 +91,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Minus Square Icon Border 
+## fa-minus-square Icon Border 
 
 To add border to fa-minus-square icon, use fa-border class.
 
@@ -104,20 +106,20 @@ To add border to fa-minus-square icon, use fa-border class.
 
 
 
-## Pull Minus Square icon To the left
+## Pull fa-minus-square icon To the left
 
 To pull icon fa-minus-square to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-minus-square fa-pull-left fa-3x'></i>
   ... The text after fa-minus-square Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-minus-square fa-pull-left fa-3x'></i>
   ... The text after fa-minus-square Icon will be displayed on the right side of the icons
 </div>
@@ -126,19 +128,19 @@ To pull icon fa-minus-square to the left of the container use fa-pull-left class
 
 
 
-## Pull Minus Square icon To the right
+## Pull fa-minus-square icon To the right
 To pull icon fa-minus-square to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-minus-square fa-pull-right fa-3x'></i>
   ... The text after fa-minus-square Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-minus-square fa-pull-right fa-3x'></i>
   ... The text after fa-minus-square Icon will be displayed on the left side of the icons
 </div>
@@ -147,7 +149,7 @@ To pull icon fa-minus-square to the right of the container use fa-pull-right cla
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Minus Square icon using fa-spin
+## Animate fa-minus-square icon using fa-spin
 To animate font awesome fa-minus-square icon, use fa-spin class.
 
 ```
@@ -158,7 +160,7 @@ To animate font awesome fa-minus-square icon, use fa-spin class.
 
 
 
-## Animate Minus Square icon with steps
+## Animate fa-minus-square icon with steps
 While animating the font awesome icon,We can rotate fa-minus-square icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-minus-square icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -174,7 +176,7 @@ To animate font awesome fa-minus-square icon with 8 step rotation, use fa-pulse 
 
 
 
-## Rotate Minus Square Icon using fa-rotate-x
+## Rotate fa-minus-square Icon using fa-rotate-x
 To rotate the font awesome icon fa-minus-square, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -200,7 +202,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Minus Square Icon using fa-flip-*
+## Flip fa-minus-square Icon using fa-flip-*
 To flip fa-minus-square font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -217,7 +219,7 @@ To flip fa-minus-square font awesome icon horizontally and vertically use fa-fli
 
 
 
-## Combine Minus Square icon with other font awesome icons
+## Combine fa-minus-square icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

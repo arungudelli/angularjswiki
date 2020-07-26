@@ -1,9 +1,9 @@
 +++
-title="Comments icon in font awesome icons"
-summary="Comments icon represented as fa-comments in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-comments,f086,Comments"]
-date="19-07-2020T22:19:03"
-lastmod="19-07-2020T22:19:03"
+title="fa-comments icon in font awesome icons"
+summary="fa-comments icon in font awesome icons has 2 variants regular (far) and solid (fas)"
+keywords=["fa-comments,f086,fa-comments"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Comments icon represented as fa-comments in font awesome icons has 2 variants regular (far) and solid (fas)
+fa-comments icon in font awesome icons has 2 variants regular (far) and solid (fas)
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Comments</td><td>fa-comments</td><td>f086</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-comments</td><td>fa-comments</td><td>f086</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Comments icon Usage
 
-To display Comments icon add predefined class name i.e.,fa-comments (with prefix fa-) to the 'i' tag.
+## fa-comments icon Usage
+
+To display fa-comments icon add predefined class name i.e.,fa-comments (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -45,8 +47,8 @@ And we need to add corresponding category for fa-comments icon. i.e., fas,far.
 
 
 
-## Change Comments icon size
-To increase Comments font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-comments.
+## Change fa-comments icon size
+To increase fa-comments font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-comments.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -69,7 +71,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Comments Icon with Fixed Width 
+## fa-comments Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -89,7 +91,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Comments Icon Border 
+## fa-comments Icon Border 
 
 To add border to fa-comments icon, use fa-border class.
 
@@ -104,20 +106,20 @@ To add border to fa-comments icon, use fa-border class.
 
 
 
-## Pull Comments icon To the left
+## Pull fa-comments icon To the left
 
 To pull icon fa-comments to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-comments fa-pull-left fa-3x'></i>
   ... The text after fa-comments Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-comments fa-pull-left fa-3x'></i>
   ... The text after fa-comments Icon will be displayed on the right side of the icons
 </div>
@@ -126,19 +128,19 @@ To pull icon fa-comments to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Comments icon To the right
+## Pull fa-comments icon To the right
 To pull icon fa-comments to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-comments fa-pull-right fa-3x'></i>
   ... The text after fa-comments Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-comments fa-pull-right fa-3x'></i>
   ... The text after fa-comments Icon will be displayed on the left side of the icons
 </div>
@@ -147,7 +149,7 @@ To pull icon fa-comments to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Comments icon using fa-spin
+## Animate fa-comments icon using fa-spin
 To animate font awesome fa-comments icon, use fa-spin class.
 
 ```
@@ -158,7 +160,7 @@ To animate font awesome fa-comments icon, use fa-spin class.
 
 
 
-## Animate Comments icon with steps
+## Animate fa-comments icon with steps
 While animating the font awesome icon,We can rotate fa-comments icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-comments icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -174,7 +176,7 @@ To animate font awesome fa-comments icon with 8 step rotation, use fa-pulse icon
 
 
 
-## Rotate Comments Icon using fa-rotate-x
+## Rotate fa-comments Icon using fa-rotate-x
 To rotate the font awesome icon fa-comments, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -200,7 +202,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Comments Icon using fa-flip-*
+## Flip fa-comments Icon using fa-flip-*
 To flip fa-comments font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -217,7 +219,7 @@ To flip fa-comments font awesome icon horizontally and vertically use fa-flip-ho
 
 
 
-## Combine Comments icon with other font awesome icons
+## Combine fa-comments icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

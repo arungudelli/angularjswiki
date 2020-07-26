@@ -1,9 +1,9 @@
 +++
-title="Yin Yang icon in font awesome icons"
-summary="Yin Yang icon represented as fa-yin-yang in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-yin-yang,f6ad,Yin Yang"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-yin-yang icon in font awesome icons"
+summary="fa-yin-yang icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-yin-yang,f6ad,fa-yin-yang"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Yin Yang icon represented as fa-yin-yang in font awesome icons has 1 variant fas i.e.,solid.
+fa-yin-yang icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Yin Yang</td><td>fa-yin-yang</td><td>f6ad</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-yin-yang</td><td>fa-yin-yang</td><td>f6ad</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Yin Yang icon Usage
 
-To display Yin Yang icon add predefined class name i.e.,fa-yin-yang (with prefix fa-) to the 'i' tag.
+## fa-yin-yang icon Usage
+
+To display fa-yin-yang icon add predefined class name i.e.,fa-yin-yang (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-yin-yang icon. i.e., fas.
 
 
 
-## Change Yin Yang icon size
-To increase Yin Yang font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-yin-yang.
+## Change fa-yin-yang icon size
+To increase fa-yin-yang font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-yin-yang.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Yin Yang Icon with Fixed Width 
+## fa-yin-yang Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Yin Yang Icon Border 
+## fa-yin-yang Icon Border 
 
 To add border to fa-yin-yang icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-yin-yang icon, use fa-border class.
 
 
 
-## Pull Yin Yang icon To the left
+## Pull fa-yin-yang icon To the left
 
 To pull icon fa-yin-yang to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-yin-yang fa-pull-left fa-3x'></i>
   ... The text after fa-yin-yang Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-yin-yang fa-pull-left fa-3x'></i>
   ... The text after fa-yin-yang Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-yin-yang to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Yin Yang icon To the right
+## Pull fa-yin-yang icon To the right
 To pull icon fa-yin-yang to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-yin-yang fa-pull-right fa-3x'></i>
   ... The text after fa-yin-yang Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-yin-yang fa-pull-right fa-3x'></i>
   ... The text after fa-yin-yang Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-yin-yang to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Yin Yang icon using fa-spin
+## Animate fa-yin-yang icon using fa-spin
 To animate font awesome fa-yin-yang icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-yin-yang icon, use fa-spin class.
 
 
 
-## Animate Yin Yang icon with steps
+## Animate fa-yin-yang icon with steps
 While animating the font awesome icon,We can rotate fa-yin-yang icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-yin-yang icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-yin-yang icon with 8 step rotation, use fa-pulse icon
 
 
 
-## Rotate Yin Yang Icon using fa-rotate-x
+## Rotate fa-yin-yang Icon using fa-rotate-x
 To rotate the font awesome icon fa-yin-yang, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Yin Yang Icon using fa-flip-*
+## Flip fa-yin-yang Icon using fa-flip-*
 To flip fa-yin-yang font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-yin-yang font awesome icon horizontally and vertically use fa-flip-ho
 
 
 
-## Combine Yin Yang icon with other font awesome icons
+## Combine fa-yin-yang icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

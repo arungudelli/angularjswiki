@@ -1,9 +1,9 @@
 +++
-title="Y Combinator icon in font awesome icons"
-summary="Y Combinator icon represented as fa-y-combinator in font awesome icons is part of brand (fab) icons"
-keywords=["fa-y-combinator,f23b,Y Combinator"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-y-combinator icon in font awesome icons"
+summary="fa-y-combinator icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-y-combinator,f23b,fa-y-combinator"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Y Combinator icon represented as fa-y-combinator in font awesome icons is part of brand (fab) icons
+fa-y-combinator icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Y Combinator</td><td>fa-y-combinator</td><td>f23b</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-y-combinator</td><td>fa-y-combinator</td><td>f23b</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Y Combinator icon Usage
 
-To display Y Combinator icon add predefined class name i.e.,fa-y-combinator (with prefix fa-) to the 'i' tag.
+## fa-y-combinator icon Usage
+
+To display fa-y-combinator icon add predefined class name i.e.,fa-y-combinator (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-y-combinator icon. i.e., fab.
 
 
 
-## Change Y Combinator icon size
-To increase Y Combinator font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-y-combinator.
+## Change fa-y-combinator icon size
+To increase fa-y-combinator font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-y-combinator.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Y Combinator Icon with Fixed Width 
+## fa-y-combinator Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Y Combinator Icon Border 
+## fa-y-combinator Icon Border 
 
 To add border to fa-y-combinator icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-y-combinator icon, use fa-border class.
 
 
 
-## Pull Y Combinator icon To the left
+## Pull fa-y-combinator icon To the left
 
 To pull icon fa-y-combinator to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-y-combinator fa-pull-left fa-3x'></i>
   ... The text after fa-y-combinator Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-y-combinator fa-pull-left fa-3x'></i>
   ... The text after fa-y-combinator Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-y-combinator to the left of the container use fa-pull-left class
 
 
 
-## Pull Y Combinator icon To the right
+## Pull fa-y-combinator icon To the right
 To pull icon fa-y-combinator to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-y-combinator fa-pull-right fa-3x'></i>
   ... The text after fa-y-combinator Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-y-combinator fa-pull-right fa-3x'></i>
   ... The text after fa-y-combinator Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-y-combinator to the right of the container use fa-pull-right cla
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Y Combinator icon using fa-spin
+## Animate fa-y-combinator icon using fa-spin
 To animate font awesome fa-y-combinator icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-y-combinator icon, use fa-spin class.
 
 
 
-## Animate Y Combinator icon with steps
+## Animate fa-y-combinator icon with steps
 While animating the font awesome icon,We can rotate fa-y-combinator icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-y-combinator icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-y-combinator icon with 8 step rotation, use fa-pulse 
 
 
 
-## Rotate Y Combinator Icon using fa-rotate-x
+## Rotate fa-y-combinator Icon using fa-rotate-x
 To rotate the font awesome icon fa-y-combinator, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Y Combinator Icon using fa-flip-*
+## Flip fa-y-combinator Icon using fa-flip-*
 To flip fa-y-combinator font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-y-combinator font awesome icon horizontally and vertically use fa-fli
 
 
 
-## Combine Y Combinator icon with other font awesome icons
+## Combine fa-y-combinator icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

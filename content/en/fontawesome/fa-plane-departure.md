@@ -1,9 +1,9 @@
 +++
-title="Plane Departure icon in font awesome icons"
-summary="Plane Departure icon represented as fa-plane-departure in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-plane-departure,f5b0,Plane Departure"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-plane-departure icon in font awesome icons"
+summary="fa-plane-departure icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-plane-departure,f5b0,fa-plane-departure"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Plane Departure icon represented as fa-plane-departure in font awesome icons has 1 variant fas i.e.,solid.
+fa-plane-departure icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Plane Departure</td><td>fa-plane-departure</td><td>f5b0</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-plane-departure</td><td>fa-plane-departure</td><td>f5b0</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Plane Departure icon Usage
 
-To display Plane Departure icon add predefined class name i.e.,fa-plane-departure (with prefix fa-) to the 'i' tag.
+## fa-plane-departure icon Usage
+
+To display fa-plane-departure icon add predefined class name i.e.,fa-plane-departure (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-plane-departure icon. i.e., fas
 
 
 
-## Change Plane Departure icon size
-To increase Plane Departure font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-plane-departure.
+## Change fa-plane-departure icon size
+To increase fa-plane-departure font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-plane-departure.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Plane Departure Icon with Fixed Width 
+## fa-plane-departure Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Plane Departure Icon Border 
+## fa-plane-departure Icon Border 
 
 To add border to fa-plane-departure icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-plane-departure icon, use fa-border class.
 
 
 
-## Pull Plane Departure icon To the left
+## Pull fa-plane-departure icon To the left
 
 To pull icon fa-plane-departure to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-plane-departure fa-pull-left fa-3x'></i>
   ... The text after fa-plane-departure Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-plane-departure fa-pull-left fa-3x'></i>
   ... The text after fa-plane-departure Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-plane-departure to the left of the container use fa-pull-left cl
 
 
 
-## Pull Plane Departure icon To the right
+## Pull fa-plane-departure icon To the right
 To pull icon fa-plane-departure to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-plane-departure fa-pull-right fa-3x'></i>
   ... The text after fa-plane-departure Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-plane-departure fa-pull-right fa-3x'></i>
   ... The text after fa-plane-departure Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-plane-departure to the right of the container use fa-pull-right 
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Plane Departure icon using fa-spin
+## Animate fa-plane-departure icon using fa-spin
 To animate font awesome fa-plane-departure icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-plane-departure icon, use fa-spin class.
 
 
 
-## Animate Plane Departure icon with steps
+## Animate fa-plane-departure icon with steps
 While animating the font awesome icon,We can rotate fa-plane-departure icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-plane-departure icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-plane-departure icon with 8 step rotation, use fa-pul
 
 
 
-## Rotate Plane Departure Icon using fa-rotate-x
+## Rotate fa-plane-departure Icon using fa-rotate-x
 To rotate the font awesome icon fa-plane-departure, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Plane Departure Icon using fa-flip-*
+## Flip fa-plane-departure Icon using fa-flip-*
 To flip fa-plane-departure font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-plane-departure font awesome icon horizontally and vertically use fa-
 
 
 
-## Combine Plane Departure icon with other font awesome icons
+## Combine fa-plane-departure icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

@@ -1,9 +1,9 @@
 +++
-title="Paint Roller icon in font awesome icons"
-summary="Paint Roller icon represented as fa-paint-roller in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-paint-roller,f5aa,Paint Roller"]
-date="19-07-2020T22:19:05"
-lastmod="19-07-2020T22:19:05"
+title="fa-paint-roller icon in font awesome icons"
+summary="fa-paint-roller icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-paint-roller,f5aa,fa-paint-roller"]
+date="25-07-2020T22:59:20"
+lastmod="25-07-2020T22:59:20"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Paint Roller icon represented as fa-paint-roller in font awesome icons has 1 variant fas i.e.,solid.
+fa-paint-roller icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Paint Roller</td><td>fa-paint-roller</td><td>f5aa</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-paint-roller</td><td>fa-paint-roller</td><td>f5aa</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Paint Roller icon Usage
 
-To display Paint Roller icon add predefined class name i.e.,fa-paint-roller (with prefix fa-) to the 'i' tag.
+## fa-paint-roller icon Usage
+
+To display fa-paint-roller icon add predefined class name i.e.,fa-paint-roller (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-paint-roller icon. i.e., fas.
 
 
 
-## Change Paint Roller icon size
-To increase Paint Roller font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-paint-roller.
+## Change fa-paint-roller icon size
+To increase fa-paint-roller font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-paint-roller.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Paint Roller Icon with Fixed Width 
+## fa-paint-roller Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Paint Roller Icon Border 
+## fa-paint-roller Icon Border 
 
 To add border to fa-paint-roller icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-paint-roller icon, use fa-border class.
 
 
 
-## Pull Paint Roller icon To the left
+## Pull fa-paint-roller icon To the left
 
 To pull icon fa-paint-roller to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-paint-roller fa-pull-left fa-3x'></i>
   ... The text after fa-paint-roller Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-paint-roller fa-pull-left fa-3x'></i>
   ... The text after fa-paint-roller Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-paint-roller to the left of the container use fa-pull-left class
 
 
 
-## Pull Paint Roller icon To the right
+## Pull fa-paint-roller icon To the right
 To pull icon fa-paint-roller to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-paint-roller fa-pull-right fa-3x'></i>
   ... The text after fa-paint-roller Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-paint-roller fa-pull-right fa-3x'></i>
   ... The text after fa-paint-roller Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-paint-roller to the right of the container use fa-pull-right cla
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Paint Roller icon using fa-spin
+## Animate fa-paint-roller icon using fa-spin
 To animate font awesome fa-paint-roller icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-paint-roller icon, use fa-spin class.
 
 
 
-## Animate Paint Roller icon with steps
+## Animate fa-paint-roller icon with steps
 While animating the font awesome icon,We can rotate fa-paint-roller icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-paint-roller icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-paint-roller icon with 8 step rotation, use fa-pulse 
 
 
 
-## Rotate Paint Roller Icon using fa-rotate-x
+## Rotate fa-paint-roller Icon using fa-rotate-x
 To rotate the font awesome icon fa-paint-roller, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Paint Roller Icon using fa-flip-*
+## Flip fa-paint-roller Icon using fa-flip-*
 To flip fa-paint-roller font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-paint-roller font awesome icon horizontally and vertically use fa-fli
 
 
 
-## Combine Paint Roller icon with other font awesome icons
+## Combine fa-paint-roller icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

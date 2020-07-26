@@ -1,9 +1,9 @@
 +++
-title="User Ninja icon in font awesome icons"
-summary="User Ninja icon represented as fa-user-ninja in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-user-ninja,f504,User Ninja"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-user-ninja icon in font awesome icons"
+summary="fa-user-ninja icon in font awesome icons has 1 variant fas i.e.,solid."
+keywords=["fa-user-ninja,f504,fa-user-ninja"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-User Ninja icon represented as fa-user-ninja in font awesome icons has 1 variant fas i.e.,solid.
+fa-user-ninja icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>User Ninja</td><td>fa-user-ninja</td><td>f504</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-user-ninja</td><td>fa-user-ninja</td><td>f504</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## User Ninja icon Usage
 
-To display User Ninja icon add predefined class name i.e.,fa-user-ninja (with prefix fa-) to the 'i' tag.
+## fa-user-ninja icon Usage
+
+To display fa-user-ninja icon add predefined class name i.e.,fa-user-ninja (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-user-ninja icon. i.e., fas.
 
 
 
-## Change User Ninja icon size
-To increase User Ninja font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-user-ninja.
+## Change fa-user-ninja icon size
+To increase fa-user-ninja font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-user-ninja.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## User Ninja Icon with Fixed Width 
+## fa-user-ninja Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## User Ninja Icon Border 
+## fa-user-ninja Icon Border 
 
 To add border to fa-user-ninja icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-user-ninja icon, use fa-border class.
 
 
 
-## Pull User Ninja icon To the left
+## Pull fa-user-ninja icon To the left
 
 To pull icon fa-user-ninja to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-user-ninja fa-pull-left fa-3x'></i>
   ... The text after fa-user-ninja Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-user-ninja fa-pull-left fa-3x'></i>
   ... The text after fa-user-ninja Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-user-ninja to the left of the container use fa-pull-left class.\
 
 
 
-## Pull User Ninja icon To the right
+## Pull fa-user-ninja icon To the right
 To pull icon fa-user-ninja to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-user-ninja fa-pull-right fa-3x'></i>
   ... The text after fa-user-ninja Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fas fa-user-ninja fa-pull-right fa-3x'></i>
   ... The text after fa-user-ninja Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-user-ninja to the right of the container use fa-pull-right class
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate User Ninja icon using fa-spin
+## Animate fa-user-ninja icon using fa-spin
 To animate font awesome fa-user-ninja icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-user-ninja icon, use fa-spin class.
 
 
 
-## Animate User Ninja icon with steps
+## Animate fa-user-ninja icon with steps
 While animating the font awesome icon,We can rotate fa-user-ninja icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-user-ninja icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-user-ninja icon with 8 step rotation, use fa-pulse ic
 
 
 
-## Rotate User Ninja Icon using fa-rotate-x
+## Rotate fa-user-ninja Icon using fa-rotate-x
 To rotate the font awesome icon fa-user-ninja, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip User Ninja Icon using fa-flip-*
+## Flip fa-user-ninja Icon using fa-flip-*
 To flip fa-user-ninja font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-user-ninja font awesome icon horizontally and vertically use fa-flip-
 
 
 
-## Combine User Ninja icon with other font awesome icons
+## Combine fa-user-ninja icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

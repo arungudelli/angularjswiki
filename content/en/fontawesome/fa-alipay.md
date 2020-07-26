@@ -1,9 +1,9 @@
 +++
-title="Alipay icon in font awesome icons"
-summary="Alipay icon represented as fa-alipay in font awesome icons is part of brand (fab) icons"
-keywords=["fa-alipay,f642,Alipay"]
-date="19-07-2020T22:19:02"
-lastmod="19-07-2020T22:19:02"
+title="fa-alipay icon in font awesome icons"
+summary="fa-alipay icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-alipay,f642,fa-alipay"]
+date="25-07-2020T22:59:19"
+lastmod="25-07-2020T22:59:19"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Alipay icon represented as fa-alipay in font awesome icons is part of brand (fab) icons
+fa-alipay icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Alipay</td><td>fa-alipay</td><td>f642</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-alipay</td><td>fa-alipay</td><td>f642</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Alipay icon Usage
 
-To display Alipay icon add predefined class name i.e.,fa-alipay (with prefix fa-) to the 'i' tag.
+## fa-alipay icon Usage
+
+To display fa-alipay icon add predefined class name i.e.,fa-alipay (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-alipay icon. i.e., fab.
 
 
 
-## Change Alipay icon size
-To increase Alipay font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-alipay.
+## Change fa-alipay icon size
+To increase fa-alipay font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-alipay.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Alipay Icon with Fixed Width 
+## fa-alipay Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Alipay Icon Border 
+## fa-alipay Icon Border 
 
 To add border to fa-alipay icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-alipay icon, use fa-border class.
 
 
 
-## Pull Alipay icon To the left
+## Pull fa-alipay icon To the left
 
 To pull icon fa-alipay to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-alipay fa-pull-left fa-3x'></i>
   ... The text after fa-alipay Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-alipay fa-pull-left fa-3x'></i>
   ... The text after fa-alipay Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-alipay to the left of the container use fa-pull-left class.\n
 
 
 
-## Pull Alipay icon To the right
+## Pull fa-alipay icon To the right
 To pull icon fa-alipay to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-alipay fa-pull-right fa-3x'></i>
   ... The text after fa-alipay Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-alipay fa-pull-right fa-3x'></i>
   ... The text after fa-alipay Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-alipay to the right of the container use fa-pull-right class.
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Alipay icon using fa-spin
+## Animate fa-alipay icon using fa-spin
 To animate font awesome fa-alipay icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-alipay icon, use fa-spin class.
 
 
 
-## Animate Alipay icon with steps
+## Animate fa-alipay icon with steps
 While animating the font awesome icon,We can rotate fa-alipay icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-alipay icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-alipay icon with 8 step rotation, use fa-pulse icon a
 
 
 
-## Rotate Alipay Icon using fa-rotate-x
+## Rotate fa-alipay Icon using fa-rotate-x
 To rotate the font awesome icon fa-alipay, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Alipay Icon using fa-flip-*
+## Flip fa-alipay Icon using fa-flip-*
 To flip fa-alipay font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-alipay font awesome icon horizontally and vertically use fa-flip-hori
 
 
 
-## Combine Alipay icon with other font awesome icons
+## Combine fa-alipay icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.

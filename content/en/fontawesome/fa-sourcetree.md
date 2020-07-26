@@ -1,9 +1,9 @@
 +++
-title="Sourcetree icon in font awesome icons"
-summary="Sourcetree icon represented as fa-sourcetree in font awesome icons is part of brand (fab) icons"
-keywords=["fa-sourcetree,f7d3,Sourcetree"]
-date="19-07-2020T22:19:06"
-lastmod="19-07-2020T22:19:06"
+title="fa-sourcetree icon in font awesome icons"
+summary="fa-sourcetree icon in font awesome icons is part of brand (fab) icons"
+keywords=["fa-sourcetree,f7d3,fa-sourcetree"]
+date="25-07-2020T22:59:21"
+lastmod="25-07-2020T22:59:21"
 type="docs"
 parentdoc="fontawesome"
 featured='font-awesome-icons.png'
@@ -18,15 +18,17 @@ draft=false
 +++
 
 
-Sourcetree icon represented as fa-sourcetree in font awesome icons is part of brand (fab) icons
+fa-sourcetree icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>Sourcetree</td><td>fa-sourcetree</td><td>f7d3</td></tr></tbody></table></div>
+<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-sourcetree</td><td>fa-sourcetree</td><td>f7d3</td></tr></tbody></table></div>
 
 
+{{% toc %}}
 
-## Sourcetree icon Usage
 
-To display Sourcetree icon add predefined class name i.e.,fa-sourcetree (with prefix fa-) to the 'i' tag.
+## fa-sourcetree icon Usage
+
+To display fa-sourcetree icon add predefined class name i.e.,fa-sourcetree (with prefix fa-) to the 'i' tag.
 
 Here 'i' tag represents icon.
 
@@ -43,8 +45,8 @@ And we need to add corresponding category for fa-sourcetree icon. i.e., fab.
 
 
 
-## Change Sourcetree icon size
-To increase Sourcetree font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-sourcetree.
+## Change fa-sourcetree icon size
+To increase fa-sourcetree font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-sourcetree.
 
 Increase in icon size will be relative to their parent container. 
 
@@ -67,7 +69,7 @@ Increase in icon size will be relative to their parent container.
 
 
 
-## Sourcetree Icon with Fixed Width 
+## fa-sourcetree Icon with Fixed Width 
 
 All the font awesome icons does not have same width.
 
@@ -87,7 +89,7 @@ So to display two icons with fixed width and height we can use fa-fw class.
 
 
 
-## Sourcetree Icon Border 
+## fa-sourcetree Icon Border 
 
 To add border to fa-sourcetree icon, use fa-border class.
 
@@ -102,20 +104,20 @@ To add border to fa-sourcetree icon, use fa-border class.
 
 
 
-## Pull Sourcetree icon To the left
+## Pull fa-sourcetree icon To the left
 
 To pull icon fa-sourcetree to the left of the container use fa-pull-left class.\n
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-sourcetree fa-pull-left fa-3x'></i>
   ... The text after fa-sourcetree Icon will be displayed on the right side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-sourcetree fa-pull-left fa-3x'></i>
   ... The text after fa-sourcetree Icon will be displayed on the right side of the icons
 </div>
@@ -124,19 +126,19 @@ To pull icon fa-sourcetree to the left of the container use fa-pull-left class.\
 
 
 
-## Pull Sourcetree icon To the right
+## Pull fa-sourcetree icon To the right
 To pull icon fa-sourcetree to the right of the container use fa-pull-right class.
 
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-sourcetree fa-pull-right fa-3x'></i>
   ... The text after fa-sourcetree Icon will be displayed on the left side of the icons
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 500px;'>
+<div style='width: 200px;'>
 <i class='fab fa-sourcetree fa-pull-right fa-3x'></i>
   ... The text after fa-sourcetree Icon will be displayed on the left side of the icons
 </div>
@@ -145,7 +147,7 @@ To pull icon fa-sourcetree to the right of the container use fa-pull-right class
 These two classes can used to add single quotes or double quotes to the text.
 
 
-## Animate Sourcetree icon using fa-spin
+## Animate fa-sourcetree icon using fa-spin
 To animate font awesome fa-sourcetree icon, use fa-spin class.
 
 ```
@@ -156,7 +158,7 @@ To animate font awesome fa-sourcetree icon, use fa-spin class.
 
 
 
-## Animate Sourcetree icon with steps
+## Animate fa-sourcetree icon with steps
 While animating the font awesome icon,We can rotate fa-sourcetree icon in 8 steps instead of uniform rotation.
 
 To animate font awesome fa-sourcetree icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
@@ -172,7 +174,7 @@ To animate font awesome fa-sourcetree icon with 8 step rotation, use fa-pulse ic
 
 
 
-## Rotate Sourcetree Icon using fa-rotate-x
+## Rotate fa-sourcetree Icon using fa-rotate-x
 To rotate the font awesome icon fa-sourcetree, Use fa-rotate-x class
 
 Where 'x' represents degree of rotation.
@@ -198,7 +200,7 @@ Where 'x' represents degree of rotation.
 
 
 
-## Flip Sourcetree Icon using fa-flip-*
+## Flip fa-sourcetree Icon using fa-flip-*
 To flip fa-sourcetree font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
 
 ```
@@ -215,7 +217,7 @@ To flip fa-sourcetree font awesome icon horizontally and vertically use fa-flip-
 
 
 
-## Combine Sourcetree icon with other font awesome icons
+## Combine fa-sourcetree icon with other font awesome icons
 In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
 
 To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
