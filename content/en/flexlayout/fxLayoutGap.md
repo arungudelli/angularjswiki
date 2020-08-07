@@ -2,7 +2,7 @@
 title = "fxLayoutGap API in Angular flex layout"
 date = 2020-07-31T00:00:00
 lastmod = 2020-07-31T01:00:00
-draft = true  # Is this a draft? true/false 
+draft = false  # Is this a draft? true/false 
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 prev = "flexlayout/fxLayout"
@@ -28,10 +28,6 @@ fxLayoutGap API is one of the static API in Angular flex layout. And in this tut
 1. fxLayoutGap is used to specify gap between flex children items inside flex container.
 2. fxLayoutGap is an optional API.
 3. fxLayoutGap directive should be added to parent container i.e, flex container.
-
-{{% alert note%}}
-fxLayout is case sensitive. So Use "fxLayout" only. "L" Capital.
-{{% /alert %}}
 
 We will create a component called `FxLayoutGapExampleComponent` in our angular project to understand in further.
 
@@ -64,11 +60,19 @@ I have added a 20px gap between flex items inside the flex container.
 </mat-card>
 ```
 
+{{< figure src="/img/flexLayout/fxLayoutGap/fxLayoutGap-example.PNG" title="fxLayoutGap example" alt="fxLayoutGap example">}} 
+
 ## How fxLayoutGap will work?
 
 When we add fxLayoutGap to the parent container, Angular flex layout will add an inline CSS `margin-right` or `margin-bottom` to the children items depending upon the flex layout row or column.
 
-And the this inline CSS will be added to all the children items except last one.
+{{< figure src="/img/flexLayout/fxLayoutGap/fxLayoutGap-CSS.PNG" title="fxLayoutGap CSS" alt="fxLayoutGap CSS">}} 
+
+{{% alert note %}}
+
+The inline CSS will be added to all the children items except last one.
+
+{{% /alert %}}
 
 ## fxLayoutGap with fxLayout row
 
@@ -84,11 +88,15 @@ When we are using fxLayputGap with row layout margin-right inline CSS will be ad
 </mat-card>
 ```
 
+{{< figure src="/img/flexLayout/fxLayoutGap/fxLayoutGap-row-example.PNG" title="fxLayoutGap row example" alt="fxLayoutGap row example">}} 
+
 In the above row layout example, I have added a gap of 30px between flex children items using fxLayoutGap.
+
+{{< figure src="/img/flexLayout/fxLayoutGap/fxLayoutGap-row-CSS.PNG" title="fxLayoutGap row CSS" alt="fxLayoutGap row CSS">}} 
 
 ## fxLayoutGap with fxLayout column
 
-When we fxLayputGap to the column layout margin-bottom inline CSS will be added to the flex children.
+When we use fxLayoutGap to the column layout margin-bottom inline CSS will be added to the flex children.
 
 ```
 <h2> With fxLayoutGap With column fxLayout</h2>
@@ -100,300 +108,114 @@ When we fxLayputGap to the column layout margin-bottom inline CSS will be added 
 </mat-card>
 ```
 
+{{< figure src="/img/flexLayout/fxLayoutGap/fxLayoutGap-column-example.PNG" title="fxLayoutGap column example" alt="fxLayoutGap column example">}} 
+
 In the above column layout example, A gap of 20px will be added between flex children items as I have added fxLayoutGap as 20px.
 
-{{< figure src="/img/flexLayout/fxLayout/fxLayout-row.PNG" title="fxLayout row example" alt="fxLayout row example">}} 
+{{< figure src="/img/flexLayout/fxLayoutGap/fxLayoutGap-column-CSS.PNG" title="fxLayoutGap column CSS" alt="fxLayoutGap column CSS">}} 
 
 
+## fxLayoutGap row wrap
 
+If we are using wrap with fxLayout to wrap the the flex children items inside row or column layout, we should consider fxLayoutGap sizes when adding the flex item sizes for children elements using fxFlex.
 
+Have a look at the below example. We have four flex items and each children has fxFlex of 50%.
 
-
-## fxLayout column
-
-fxLayout column will display flex items children along the vertical axis inside the container.
-
-
-```
-<div fxLayout="column">
-  <div>1. One</div>
-  <div>2. Two</div>
-  <div>3. Three</div>
-  <div>4. Four</div>
-</div>
-```
-
-{{< figure src="/img/flexLayout/fxLayout/fxLayout-column.PNG" title="fxLayout column example" alt="fxLayout column example">}} 
-
-
-## How fxLayout works?
-
-You might be wondering how adding an attribute `fxLayout` will magically change the flow of elements inside the container.
-
-If you have prior experience in CSS flex box you might be knowing, how it will work internally.
-
-When we add `fxLayout` attribute with row value, Angular flex layout internally adds inline css to the flex container, which decides the flow of children.
-
-In the above example fxLayout row attribute adds the below CSS to the flex container.
+Ideally they should align in two columns. But as I gave fxLayoutGap as 30px. All flex items will be aligned in single column. 
 
 ```
-flex-direction: row;
-box-sizing: border-box;
-display: flex;
-```
-
-The above CSS properties will decides the flow of flex items. 
-
-fxLayout row will adds the `flex-direction` property with the value `row`.
-
-Similarly fxLayout column attribute adds the below inline CSS.
-
-```
-flex-direction: column;
-box-sizing: border-box;
-display: flex;
-```
-
-{{< figure src="/img/flexLayout/fxLayout/fxLayout-row-CSS.PNG" title="fxLayout row CSS example" alt="fxLayout row CSS example">}} 
-
-{{< figure src="/img/flexLayout/fxLayout/fxLayout-column-CSS.PNG" title="fxLayout column CSS example" alt="fxLayout column CSS example">}} 
-
-## fxLayout wrap
-
-Even though there is no space along the horizontal axis, Flex items inside the flex container always displayed in single line.
-
-By default wrapping is not enabled. 
-
-```
-<h2>With fxLayout no row wrap</h2>
-
-<mat-card fxLayout="row" fxLayoutGap="30px">
-    <mat-card class="child-1">1. One</mat-card> 
-    <mat-card class="child-2">1. Two</mat-card> 
-    <mat-card class="child-3">1. Three</mat-card>
-    <mat-card class="child-3">1. Four</mat-card>
-    <mat-card class="child-3">1. Five</mat-card>
-    <mat-card class="child-3">1. Six</mat-card>
-</mat-card>
-```
-
-{{< figure src="/img/flexLayout/fxLayout/fxLayout-row-no-wrap.PNG" title="fxLayout row no wrap" alt="fxLayout row no wrap">}} 
-
-## fxLayout row wrap
-
-To wrap flex items in multiple lines add "wrap" parameter in addition to the direction. 
-
-```
-<div fxLayout="row wrap"></div>
-```
-
-I have added fxLayoutGap to give some space between flex items.
-
-```
-<h2>With fxLayout row wrap</h2>
+<h2>fxLayoutGap with wrap</h2>
 
 <mat-card fxLayout="row wrap" fxLayoutGap="30px">
-    <mat-card class="child-1">1. One</mat-card> 
-    <mat-card class="child-2">1. Two</mat-card> 
-    <mat-card class="child-3">1. Three</mat-card>
-    <mat-card class="child-3">1. Four</mat-card>
-    <mat-card class="child-3">1. Five</mat-card>
-    <mat-card class="child-3">1. Six</mat-card>
+    <mat-card class="child-1" fxFlex="50">1. One</mat-card> 
+    <mat-card class="child-2" fxFlex="50">1. Two</mat-card> 
+    <mat-card class="child-3" fxFlex="50">1. Three</mat-card>
+    <mat-card class="child-1" fxFlex="50">1. Four</mat-card>
 </mat-card>
 ```
 
-{{< figure src="/img/flexLayout/fxLayout/fxLayout-row-wrap.PNG" title="fxLayout row wrap" alt="fxLayout row wrap">}} 
+{{< figure src="/img/flexLayout/fxLayoutGap/fxLayoutGap-no-row-wrap.PNG" title="fxLayoutGap no row wrap" alt="fxLayoutGap no row wrap">}} 
 
-
-fxLayout row wrap will add following inline CSS to the fxLayout container.
-
-```
-flex-flow: row wrap;
-box-sizing: border-box;
-display: flex;
-```
-
-## fxLayout column wrap
-
-Similary to wrap flex items in column layout, along the vertical axis we should add "wrap" along with "column" property to the fxLayout.
-
-To understand this I have added fixed height (style="height:200px;") to fxLayout container. 
+So using `calc` function, I am calculating flex item width size by considering fxLayoutGap size so that items will be aligned in two columns.
 
 ```
-<h2>With fxLayout no column wrap</h2>
+<h2>fxLayoutGap with wrap</h2>
 
-<mat-card fxLayout="column" fxLayoutGap="30px" style="height:200px;">
-    <mat-card class="child-1">1. One</mat-card> 
-    <mat-card class="child-2">1. Two</mat-card> 
-    <mat-card class="child-3">1. Three</mat-card>
-    <mat-card class="child-3">1. Four</mat-card>
-    <mat-card class="child-3">1. Five</mat-card>
-    <mat-card class="child-3">1. Six</mat-card>
-</mat-card>
-
-```
-
-{{< figure src="/img/flexLayout/fxLayout/fxLayout-column-no-wrap.PNG" title="fxLayout column no wrap" alt="fxLayout column no wrap">}} 
-
-Now we will add wrap to fxLayout column and see how it will work.
-
-```
-<h2>With fxLayout column wrap</h2>
-
-<mat-card fxLayout="column wrap" fxLayoutGap="30px" style="height:200px;">
-    <mat-card class="child-1">1. One</mat-card> 
-    <mat-card class="child-2">1. Two</mat-card> 
-    <mat-card class="child-3">1. Three</mat-card>
-    <mat-card class="child-3">1. Four</mat-card>
-    <mat-card class="child-3">1. Five</mat-card>
-    <mat-card class="child-3">1. Six</mat-card>
-    <mat-card class="child-3">1. Six</mat-card>
-
-</mat-card>
-
-```
-
-{{< figure src="/img/flexLayout/fxLayout/fxLayout-column-wrap.PNG" title="fxLayout column wrap" alt="fxLayout column wrap">}} 
-
-The following CSS code will be added to the fxLayout container.
-
-```
-height: 200px;
-flex-flow: column wrap;
-box-sizing: border-box;
-display: flex;
-```
-
-## fxLayout inline
-
-If you want use inline-flex CSS display property, instead of the default flex. 
-
-We can add `inline` as secondary parameter along with layout direction property.
-
-```
-<div fxLayout="row inline">
-  <div>1. Child</div> <div>2. Child</div> <div>3. Child</div>
-</div>
-```
-
-So what's the difference between display flex vs display inline flex?
-
-## fxLayout display flex vs inline flex
-
-Display inline flex makes the flex container(parent) display inline not flex items(children).
-
-I have added inline property to the fxLayout and some text after flex container.
-
-```
-<h2>With fxLayout row inline</h2>
-
-<mat-card fxLayout="row inline" fxLayoutGap="30px" style="width: 500px;">
-    <mat-card class="child-1">1. One</mat-card> 
-    <mat-card class="child-2">1. Two</mat-card> 
-    <mat-card class="child-3">1. Three</mat-card>
-    <mat-card class="child-3">1. four</mat-card>
-    <mat-card class="child-3">1. five</mat-card>
-    <mat-card class="child-3">1. six</mat-card>
-
-</mat-card>
-
-Element After flex row
-
-```
-As I gave "width:500px" and no wrap. The elements inside the flex container will not wrap and will be overflowed on top of text because the parent container has display inline flex.
-
-```
-width: 500px;
-flex-direction: row;
-box-sizing: border-box;
-display: inline-flex;
-```
-
-{{< figure src="/img/flexLayout/fxLayout/fxLayout-inline.PNG" title="fxLayout inline" alt="fxLayout inline">}} 
-
-In the default view it's not the case. As flex container takes entire available width, so elements after flex container will be displayed in next line.
-
-```
-<h2>With fxLayout default</h2>
-
-<mat-card fxLayout="row" fxLayoutGap="30px" style="width: 500px;">
-    <mat-card class="child-1">1. One</mat-card> 
-    <mat-card class="child-2">1. Two</mat-card> 
-    <mat-card class="child-3">1. Three</mat-card>
-    <mat-card class="child-3">1. four</mat-card>
-    <mat-card class="child-3">1. five</mat-card>
-    <mat-card class="child-3">1. six</mat-card>
-</mat-card>
-
-Element After flex row
-
-```
-
-{{< figure src="/img/flexLayout/fxLayout/fxLayout-default-flex.PNG" title="fxLayout default flex" alt="fxLayout default flex">}} 
-
-{{% alert note%}}
-when using wrap or inline, we must specify the fxLayout direction i.e, row or column.
-{{% /alert %}}
-
-
-## fxLayout row-reverse
-
-When you add fxLayout with row-reverse value, The display of flex items will start from the opposite direction along the main axis.
-
-```
-<h2>fxLayout Normal</h2>
-
-<mat-card fxLayout="row" fxLayoutGap="30px" style="width: 500px;">
-    <mat-card class="child-1">1. One</mat-card> 
-    <mat-card class="child-2">2. Two</mat-card> 
-    <mat-card class="child-3">3. Three</mat-card>
-</mat-card>
-
-<h2>fxLayout row reverse</h2>
-
-<mat-card fxLayout="row-reverse" fxLayoutGap="30px" style="width: 500px;">
-    <mat-card class="child-1">1. One</mat-card> 
-    <mat-card class="child-2">2. Two</mat-card> 
-    <mat-card class="child-3">3. Three</mat-card>
+<mat-card fxLayout="row wrap" fxLayoutGap="30px">
+    <mat-card class="child-1" fxFlex="calc(50%-30px)">1. One</mat-card> 
+    <mat-card class="child-2" fxFlex="calc(50%-30px)">1. Two</mat-card> 
+    <mat-card class="child-3" fxFlex="calc(50%-30px)">1. Three</mat-card>
+    <mat-card class="child-1" fxFlex="calc(50%-30px)">1. Four</mat-card>
 </mat-card>
 ```
 
-{{< figure src="/img/flexLayout/fxLayout/fxLayout-row-reverse.PNG" title="fxLayout row reverse" alt="fxLayout row reverse">}} 
+{{< figure src="/img/flexLayout/fxLayoutGap/fxLayoutGap-row-wrap.PNG" title="fxLayoutGap row wrap" alt="fxLayoutGap row wrap">}} 
 
-## fxLayout column-reverse
+## fxLayoutGap column wrap
 
-If you use fxLayout column-reverse, the display of flex items will start from botton to top along the vertical axis.
+Similarly for the column layout also `fxLayoutGap` will affect the wrapping of elements, if we won't consider it while giving widths to flex children using `fxFlex`.
 
 ```
-<h2>fxLayout Column Normal</h2>
+<h2>fxLayoutGap column without wrap</h2>
 
-<mat-card fxLayout="column" fxLayoutGap="30px" style="height: 200px;">
-    <mat-card class="child-1">1. One</mat-card> 
-    <mat-card class="child-2">2. Two</mat-card> 
-    <mat-card class="child-3">3. Three</mat-card>
-</mat-card>
+<mat-card fxLayout="column wrap" fxLayoutGap="30px" style="height: 200px;">
+    <mat-card class="child-1" fxFlex="50">1. One</mat-card> 
+    <mat-card class="child-2" fxFlex="50">2. Two</mat-card> 
+    <mat-card class="child-3" fxFlex="50">3. Three</mat-card>
+    <mat-card class="child-4" fxFlex="50">4. Four</mat-card>
 
-<h2>fxLayout column reverse</h2>
-
-<mat-card fxLayout="column-reverse" fxLayoutGap="30px" style="height: 200px;">
-    <mat-card class="child-1">1. One</mat-card> 
-    <mat-card class="child-2">2. Two</mat-card> 
-    <mat-card class="child-3">3. Three</mat-card>
 </mat-card>
 ```
 
-{{< figure src="/img/flexLayout/fxLayout/fxLayout-column-reverse.PNG" title="fxLayout column reverse" alt="fxLayout column reverse">}} 
+{{< figure src="/img/flexLayout/fxLayoutGap/fxLayoutGap-column-no-wrap.PNG" title="fxLayoutGap column no wrap" alt="fxLayoutGap column no wrap">}} 
 
-## Changing fxLayout from row to column and vice versa.
-
-As explained in [Angular flex layout basics](https://www.angularjswiki.com/flexlayout/basics/#angular-flex-layout-responsive-api). We can changed fxLayout value from row to column and column to row using flex layout responsive API.
+With `calc()` function and fxLayoutGap width.
 
 ```
-<mat-card fxLayout="row" fxLayout.xs="column">
-   <mat-card class="child-1">1. Children</mat-card> 
-   <mat-card class="child-2">2. Children</mat-card> 
-   <mat-card class="child-3">3. Children</mat-card>
+<h2>fxLayoutGap column wrap</h2>
+
+<mat-card fxLayout="column wrap" fxLayoutGap="30px" style="height: 200px;">
+    <mat-card class="child-1" fxFlex="calc(50%-30px)">1. One</mat-card> 
+    <mat-card class="child-2" fxFlex="calc(50%-30px)">2. Two</mat-card> 
+    <mat-card class="child-3" fxFlex="calc(50%-30px)">3. Three</mat-card>
+    <mat-card class="child-4" fxFlex="calc(50%-30px)">4. Four</mat-card>
+
+</mat-card>
+```
+{{< figure src="/img/flexLayout/fxLayoutGap/fxLayoutGap-column-wrap.PNG" title="fxLayoutGap column wrap" alt="fxLayoutGap column wrap">}} 
+
+## fxLayoutGap with row-reverse
+
+When we add fxLayoutGap in row reverse layout `margin-left` inline css will be added to the children flex items.
+
+```
+<h2>fxLayoutGap with row-reverse</h2>
+
+<mat-card fxLayout="row-reverse" fxLayoutGap="50px">
+    <mat-card class="child-1">1. Children</mat-card> 
+    <mat-card class="child-2">2. Children</mat-card> 
+    <mat-card class="child-3">3. Children</mat-card>
 </mat-card>
 ```
 
-In the above example the flow of children will be along the main axis, But whenever the width of the screen is extra small they will flow along the vertical axis.
+{{< figure src="/img/flexLayout/fxLayoutGap/fxLayoutGap-row-reverse-example.PNG" title="fxLayoutGap row reverse example" alt="fxLayoutGap row reverse example">}} 
+
+{{< figure src="/img/flexLayout/fxLayoutGap/fxLayoutGap-row-reverse-CSS.PNG" title="fxLayoutGap row reverse CSS" alt="fxLayoutGap row reverse CSS">}} 
+
+## fxLayoutGap with column-reverse
+
+While using fxLayoutGap with column reverse layout `margin-top` inline css will be added to the children flex items.
+
+```
+<h2>fxLayoutGap with column-reverse</h2>
+
+<mat-card fxLayout="column-reverse" fxLayoutGap="50px">
+    <mat-card class="child-1">1. Children</mat-card> 
+    <mat-card class="child-2">2. Children</mat-card> 
+    <mat-card class="child-3">3. Children</mat-card>
+</mat-card>
+```
+
+{{< figure src="/img/flexLayout/fxLayoutGap/fxLayoutGap-column-reverse.PNG" title="fxLayoutGap column reverse" alt="fxLayoutGap column reverse">}} 
+
+{{< figure src="/img/flexLayout/fxLayoutGap/fxLayoutGap-column-reverse-CSS.PNG" title="fxLayoutGap column reverse CSS" alt="fxLayoutGap column reverse CSS">}} 
