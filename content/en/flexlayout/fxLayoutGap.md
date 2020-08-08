@@ -6,6 +6,7 @@ draft = false  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 prev = "flexlayout/fxLayout"
+next = "flexlayout/fxFlexOrder"
 parentdoc="flexlayout"
 featured="fxFlex_api.jpg"
 authors = ["admin"]
@@ -29,7 +30,7 @@ fxLayoutGap API is one of the static API in Angular flex layout. And in this tut
 2. fxLayoutGap is an optional API.
 3. fxLayoutGap directive should be added to parent container i.e, flex container.
 
-We will create a component called `FxLayoutGapExampleComponent` in our angular project to understand in further.
+We will create a component called `FxLayoutGapExampleComponent` in our angular project to understand it further.
 
 ## fxLayoutGap example
 
