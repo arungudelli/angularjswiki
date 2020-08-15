@@ -10,7 +10,7 @@ parentdoc = "pipes"
 next="pipes/jsonpipe"
 featured="angular-custom-pipe.jpg"
 authors = ["admin"]
-summary ="Custom Pipes in Angular are very useful in case if you want to re use some buisness logic across our application.We can create custom pipes in Angular manually or by using ng generate pipe angular cli command."
+summary ="We can create custom pipes in Angular using ng generate pipe angular cli command and or manually.Custom Pipes in Angular are very useful in case if you want to re use some buisness logic across our application."
 keywords=["Angular custom pipe,custom Pipe"]
 
 # Add menu entry to sidebar.
@@ -21,11 +21,13 @@ linktitle = "Custom Pipe"
   weight = 4
 +++
 
+We can create custom pipes in Angular in two ways.
+1. Using `ng generate pipe` angular cli command.
+2. Manually.
+
 Custom Pipes in Angular are very useful in case, if we want to re use some buisness logic across our application.
 
-We can create custom pipes in Angular manually or by `using ng generate pipe` angular cli command.
-
-To create custome pipe manually follow the below steps.
+To create custom pipe manually follow the below steps.
 
 Steps to create custom pipe in Angular
 
