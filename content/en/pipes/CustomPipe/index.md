@@ -22,6 +22,7 @@ linktitle = "Custom Pipe"
 +++
 
 We can create custom pipes in Angular in two ways.
+
 1. Using `ng generate pipe` angular cli command.
 2. Manually.
 
@@ -64,7 +65,7 @@ And in component html file use the custom pipe as shown below.
 
 ## Creating custom pipe in Angular using Angular CLI command.
 
-The above approach requires a lot of manual work. Instead of that we can use angular cli ng generate command to create custom pipes.
+The above approach requires a lot of manual work. Instead of that we can use angular cli `ng generate pipe` command to create custom pipes.
 
 ### ng generate pipe
 
