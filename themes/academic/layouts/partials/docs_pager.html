@@ -7,8 +7,7 @@
 {{ with .Site.GetPage $prev }}
 
 <div class="post-nav-item">
-  <div class="meta-nav">{{ i18n "previous" }}</div>
-  <a href="{{.URL}}" rel="prev">{{.Title}}</a>
+  <div class="meta-nav">{{ i18n "previous" }}: <a href="{{.URL}}" rel="prev">{{.Title}}</a></div>  
 </div>
 
 {{ end }}
@@ -16,8 +15,8 @@
 {{ with .Site.GetPage $next }}
 
 <div class="post-nav-item">
-  <div class="meta-nav">{{ i18n "next" }}</div>
-  <a href="{{.URL}}" rel="next">{{.Title}}</a>
+  <div class="meta-nav">{{ i18n "next" }}:  <a href="{{.URL}}" rel="next">{{.Title}}</a>
+  </div>
 </div>
 
 {{ end }}
