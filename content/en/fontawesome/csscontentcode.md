@@ -55,6 +55,8 @@ To display twitter icon using Pseudo element use the following CSS content code
 
 ```
 
+{{% toc %}}
+
 ## Why to use CSS content Code to display font awesome icons?
 
 The regular approach requires us to change the font awesome icons name for all icon elements like fa-facebook and adding category fab, far and fas class names.
@@ -127,5 +129,42 @@ Now our icons will display in red color.
 }
 ```
 
+## Font awesome css content not working
+
+If you follow the above steps, font awesome css content code should be working fine.
+
+Otherwise you might see an empty square icon.
+
+So to display font awesome icons using their CSS content code 
+
+1. Do not forgot to add font-family 
+2. Add font-weight. 
+
+<div class='table-responsive'>
+<table class='table'>
+<thead>
+<tr><th>Icon type</th><th>font-family</th><th>font-weight</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Solid</td>
+<td>Font Awesome 5 Free</td>
+<td>900</td>
+</tr>
+<tr>
+<td>Regular</td>
+<td>Font Awesome 5 Free</td>
+<td>400</td>
+</tr>
+<tr>
+<td>Brand</td>
+<td>Font Awesome 5 Brands</td>
+<td>400</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+If you are using pro icons you need to add font-family as "Font Awesome 5 Pro" For regular, solid icons.
 
 
