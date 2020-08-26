@@ -122,27 +122,11 @@ For example to display login icon, We might have used below HTML code.
 
 ```
 <li>
-<span class="icons login"></span> Login
+<span class="login"></span> Login
 </li>
 ``` 
-If you have a common icon class to the all existing icons, in this case `icons`. 
 
-Add the below CSS snippet to that class. If you dont have any, then you might need to add it.
-
-
-```
- .icons::before {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-  }
-```
-
-This is to simplify our main icon CSS definition.
-
-Now for the actual icon i.e., login, add the below css properties.
+Now for the login icon, add the below css properties.
 
 ```
 .login::before {
@@ -154,28 +138,9 @@ Now for the actual icon i.e., login, add the below css properties.
 
 I gave content as `\f007` which is unicode value for login icon defined by font awesome icons.
 
-For all 1534 free font awesome icons, unicode values are already defined.
+`font-family` and `font-weight` might be different for each icon depending upon the type of icon you are using like regular, solid and brand icons.
 
-To display font awesome icons using CSS Content code values (as a Pseudo element) follow the below steps
-
-1. Set the font-family to "Font Awesome 5 Free" (For regular,solid icons) or "Font Awesome 5 Pro" (If you buy a pro license) or "Font Awesome 5 Brands" (For brand icons)
-2. Set the font-weight css property as 900 (For Solid), 400 (Regular or Brands), 300 (Light for pro icons)
-3. Set the content css property to the unicode value font awesome icon.
-4. And like explained, add a common CSS name for all icons as explained above.
-
-To display twitter icon using Pseudo element use the following CSS content code
-
-```
-<li>
-<span class="icons twitter"></span> Login
-</li>
-
-.twitter::before {
-    font-family: "Font Awesome 5 Brands"; 
-	font-weight: 400;
-	content: "\f099";
-}
-```
+[Use font awesome Icons as CSS Content Code](https://www.angularjswiki.com/fontawesome/csscontentcode)
 
 ## Complete Font Awesome Icons List
 
