@@ -39,8 +39,6 @@ To use font awesome icons as CSS content code follow the below steps.
 
 For example to display facebook icon using CSS content code use the below code snippet.
 
-To display twitter icon using Pseudo element use the following CSS content code
-
 ```
 <li>
 <span class="font-awesome-icons facebook"></span> Login
@@ -59,7 +57,7 @@ To display twitter icon using Pseudo element use the following CSS content code
 
 ## Why to use CSS content Code to display font awesome icons?
 
-The regular approach requires us to change the font awesome icons name for all icon elements like fa-facebook and adding category fab, far and fas class names.
+The regular approach requires us to change the all icon element names to font awesome icon names like fa-facebook and further adding category fab, far and fas class names.
 
 If your project is new then we can follow that. 
 
@@ -110,7 +108,7 @@ Now our icons will display in red color.
 
 ```
 <li>
-<span class="twitter"></span> twitter
+<span class="font-awesome-icons twitter"></span> twitter
 </li>
 
 .font-awesome-icons::before {
