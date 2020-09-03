@@ -1,11 +1,11 @@
 +++
-title = "Angular Material Progress Bar: Mat-Progress-Bar Example"
-subtitle = "Learn how to create beautiful progress bar using material design"
+title = "Progress Bar in Angular using mat-progress-bar | Material Design"
+subtitle = "Learn how to create beautiful progress bar in Angular using material design"
 type="post"
 summary ="We can create a beautiful Progress bar in Angular using material design component mat-progress-bar."
 keywords=["mat-progress-bar,angular material progress bar,mat-progress-bar example"]
 date="2018-08-20T01:01:05+0000"
-lastmod="2018-11-15T17:02:19+0000"
+lastmod="2020-09-03T17:02:19+0000"
 draft=false
 authors = ["admin"]
 
@@ -24,6 +24,8 @@ authors = ["admin"]
 
 We can create a beautiful Progress bar in Angular using material design component `mat-progress-bar`.
 
+`<mat-progress-bar>` is a horizontal progress bar in Angular, used to inform users about the progress of ongoing tasks like loading a webpage, reading position indicator of a web page or submitting the form data to the server etc. by following material design specifications.
+
 This `mat-progress-bar` is part of angular material module called `MatProgressBarModule`.
 
 In this tutorial we learn how to use angular material progress bar in our daily projects by implementing reading position indicator in a webpage.
@@ -32,11 +34,9 @@ In this tutorial we learn how to use angular material progress bar in our daily 
 
 ## Angular Material Progress Bar
 
-`<mat-progress-bar>` is a horizontal progress bar in Angular, used to inform users about the progress of ongoing tasks like loading a webpage, reading position indicator of a web page or submitting the form data to the server etc. by following material design specifications.
-
 Steps to implement Progress Bar in Angular
 
-### Step 1: Import Angular Material Progress Module 
+### Step 1: Import Angular MatProgressBarModule
 
 To use `mat-progress-bar` we need to import `MatProgressBarModule` from `@angular/material`
 
@@ -60,7 +60,13 @@ The property `value` range is from 0 to 100.
 
 Its basically percentage of Angular material progress bar.
 
-### Step 4: Define progress bar type or mode
+### Step 4: Style Progress bar or Change the color of mat-progress-bar
+
+We can use `color` property of mat-progress-bar to change the color of the progress bar. 
+
+The default color is themes `primary` color. We can change it to `accent` or `warn`.
+
+## mat-progress-bar types or mode
 
 Angular material progress bar mat-progress-bar supports four different types of progress bars.
 
@@ -80,7 +86,7 @@ Progress bar indicator display progress by animating the indicator along fixed v
 
 The indicator behavior is dependent on mode property of `mat-progress-bar`.
 
-#### mat-progress-bar determinate mode
+### mat-progress-bar determinate mode
 
 When we know the process completion time before, we use `determinate` mode. As explained above read position indicator example.
 
@@ -94,7 +100,7 @@ The progress bar indicator increases it's width from 0 to 100% on the track, in 
 
 In Google Chrome mobile browser loading of webpage usually indicated by `determinate` progress bar.
 
-#### mat-progress-bar indeterminate mode
+### mat-progress-bar indeterminate mode
 
 When we don't know how much time it will take to complete the process we will use `indeterminate` mode.
 
@@ -112,7 +118,7 @@ value property is ignored in this `indeterminate` mode.
 
 Google products like adwords uses indeterminate progress bar.
 
-#### mat-progress-bar buffer mode
+### mat-progress-bar buffer mode
 
 Buffer mode is useful when we want to display the progress in steps. 
 
@@ -127,7 +133,7 @@ Each task completion represented by buffer indicator. And the overall progress r
 
 Make sure `bufferValue` is greater than `value`.Otherwise buffer indicator progress hidden by normal progress indicator.
 
-#### mat-progress-bar query mode
+### mat-progress-bar query mode
 
 Query mode is useful when we want to show pre loading of progress.
 
@@ -141,13 +147,7 @@ In query mode mat-progress-bar `value` property is ignored.
 
 See the <a href="https://angular-effyrv.stackblitz.io" target="_blank" rel="noopener">different types of progress modes demo</a> example
 
-### Step 5: Style Progress bar or Change the color of mat-progress-bar
-
-We can use `color` property of mat-progress-bar to change the color of the progress bar. 
-
-The default color is themes `primary` color. We can change it to `accent` or `warn`
-
-## mat-progress-bar real world example
+## mat-progress-bar example
 
 How we can use progress bar in our daily projects?
 
