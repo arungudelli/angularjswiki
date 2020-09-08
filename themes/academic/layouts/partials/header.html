@@ -224,6 +224,43 @@ h3,h4 {
   text-transform: uppercase;
   background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .025) 5px, hsla(0, 0%, 0%, .025) 10px) hsla(203, 11%, 95%, .4);
 }
+
+/*! CSS Used from: Embedded */
+*,::after,::before{box-sizing:border-box;}
+strong{font-weight:bolder;}
+a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects;}
+a:hover{color:#0056b3;text-decoration:underline;}
+img{vertical-align:middle;border-style:none;}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+img{page-break-inside:avoid;}
+}
+a{color:#2962ff;text-decoration:none;transition:color .6s ease;}
+a:focus,a:hover{color:#2962ff;}
+img{height:auto;max-width:100%;display:block;}
+/*! CSS Used from: Embedded */
+[data-ea-publisher].loaded,[data-ea-type].loaded{font-size:14px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;font-weight:normal;font-style:normal;leter-spacing:0px;vertical-align:baseline;line-height:1.3em;}
+[data-ea-publisher].loaded a,[data-ea-type].loaded a{text-decoration:none;}
+[data-ea-publisher].loaded .ea-pixel,[data-ea-type].loaded .ea-pixel{display:none;}
+[data-ea-publisher].loaded .ea-content,[data-ea-type].loaded .ea-content{margin:1em 1em 0.5em 1em;padding:1em;background:rgba(0,0,0,0.03);color:#505050;}
+[data-ea-publisher].loaded .ea-content a:link,[data-ea-type].loaded .ea-content a:link{color:#505050;}
+[data-ea-publisher].loaded .ea-content a:visited,[data-ea-type].loaded .ea-content a:visited{color:#505050;}
+[data-ea-publisher].loaded .ea-content a:hover,[data-ea-type].loaded .ea-content a:hover{color:#373737;}
+[data-ea-publisher].loaded .ea-content a:active,[data-ea-type].loaded .ea-content a:active{color:#373737;}
+[data-ea-publisher].loaded .ea-content a strong,[data-ea-type].loaded .ea-content a strong{color:#088cdb;}
+[data-ea-publisher].loaded .ea-callout a:link,[data-ea-type].loaded .ea-callout a:link{color:#6a6a6a;}
+[data-ea-publisher].loaded .ea-callout a:visited,[data-ea-type].loaded .ea-callout a:visited{color:#6a6a6a;}
+[data-ea-publisher].loaded .ea-callout a:hover,[data-ea-type].loaded .ea-callout a:hover{color:#505050;}
+[data-ea-publisher].loaded .ea-callout a:active,[data-ea-type].loaded .ea-callout a:active{color:#505050;}
+[data-ea-publisher].loaded .ea-callout a,[data-ea-type].loaded .ea-callout a{font-size:0.8em;}
+[data-ea-publisher].loaded .ea-content,[data-ea-type].loaded .ea-content{border:0px;border-radius:3px;box-shadow:0px 2px 3px rgba(0,0,0,0.15);}
+[data-ea-type="image"].loaded{display:inline-block;}
+[data-ea-type="image"].loaded .ea-content{max-width:180px;overflow:auto;text-align:center;}
+[data-ea-type="image"].loaded .ea-content>a>img{width:120px;height:90px;display:inline-block;}
+[data-ea-type="image"].loaded .ea-content>.ea-text{margin-top:1em;font-size:1em;text-align:center;}
+[data-ea-type="image"].loaded .ea-callout{max-width:180px;margin:0em 1em 1em 1em;padding-left:1em;padding-right:1em;font-style:italic;text-align:right;}
+
   </style>  
   {{ $js := .Site.Data.assets.js }}
   {{/* We cannot use SRI with Google Fonts because the CSS is dynamically generated according to the user agent. */}}
