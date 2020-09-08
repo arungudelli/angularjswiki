@@ -233,8 +233,46 @@ if(parentsub){
   });
 }
 
+function my_callback_method(data){
+
+var adtag = document.getElementById("adtag");
+if(adtag == undefined) return;
+
+if(data.campaign_type == "paid"){
+
+adtag.className = "loaded";
+adtag.setAttribute("data-ea-publisher","arungudelli");
+adtag.setAttribute("data-ea-type","image");
+adtag.innerHTML=data.html;
+}else{
+loadcarbonad();
+}
+}
+
+function loadcarbonad(){
+  var d = document.getElementById("adtag");
+  if(d == undefined) return;
+  var t = document.createElement("script");
+  t.type = "application/javascript";
+  t.src="//cdn.carbonads.com/carbon.js?serve=CE7DL2JY&placement=wwwangularjswikicom";
+  t.id = "_carbonads_js";    
+d.append(t);
+}
+
+
+function loadads(){
+var script = document.createElement('script');
+script.src = 'https://server.ethicalads.io/api/v1/decision/?publisher=angularjswikicom&ad_types=image-v1&div_ids=ad_1&format=jsonp&callback=my_callback_method';
+script.addEventListener('error',loadcarbonad);
+document.body.appendChild(script);
+}
+
+loadads();
+
+
+
 </script>
-<script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
+<!-- <script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script> -->
 
 </body>
 </html>
