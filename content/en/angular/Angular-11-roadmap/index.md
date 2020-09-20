@@ -39,7 +39,7 @@ ng update --next
 Just add `--next` flag as Angular 11 version is in pre release state.
 
 I strongly suggest you to update your app to Angular 10 before upgrading to Angular 11.
-[Update to Angular 10](http://https://www.angularjswiki.com/angular/update-angular-cli-version-ng-update-to-latest-6-7-versions/)
+[Update to Angular 10](https://www.angularjswiki.com/angular/update-angular-cli-version-ng-update-to-latest-6-7-versions/)
 
 The command will update the app to Angualr 11 or suggest steps to update it to Angular 11.
 
