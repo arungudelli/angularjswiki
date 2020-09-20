@@ -1,7 +1,7 @@
 +++
-title = "Angular 11 version Release, Roadmap & update to Angular 11"
+title = "Angular 11 Release date, Roadmap & update to Angular 11 version"
 subtitle = "Angular 11 version"
-summary ="This post contains details about Angular 11 version and its roadmap"
+summary ="Angular 11 is in currently in pre release state. As of now there is no official information regarding Angular 11 release date."
 keywords=["Angular 11 release date, ng update angular"]
 date="2020-09-18T01:01:05+0000"
 lastmod="2020-09-18T00:00:00+0000"
