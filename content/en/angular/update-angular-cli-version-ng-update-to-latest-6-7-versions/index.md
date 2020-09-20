@@ -1,10 +1,10 @@
 +++
-title = "How To Update Angular CLI To Latest Version 9 & Angular 10"
+title = "How To Update Angular CLI To Latest Version Angular 10 or version 9"
 subtitle = "Update Angular CLI version"
-summary ="To update Angular CLI to latest version 9 & Angular 10 use ng update @angular/core @angular/cli@latest command."
+summary ="To update Angular CLI to latest version Angular 10 use ng update @angular/core @angular/cli@latest command."
 keywords=["ng update angular cli,update angular cli version to 7,update angular cli version to 6"]
 date="2019-01-22T01:01:05+0000"
-lastmod="2020-06-24T00:00:00+0000"
+lastmod="2020-09-19T00:00:00+0000"
 type="post"
 draft=false
 authors = ["admin"]
@@ -30,6 +30,8 @@ Angular 10.0.0 is finally here. While upgrading to Angular 10 version remember f
 
 On June 25, 2020 Angular version 10.0.0 is released.
 
+The latest Official stable version is [Angular 10.1.2](#angular-version-10-1-2) which is released on 16th September 2020.
+
 Angular 10 version one of the major release after version 9 which was released 4 months
 ago.
 
@@ -50,6 +52,14 @@ ng update @angular/material
 If you are using older versions other than 9. First better to update to Angular 9 as mentioned below.
 
 Steps to upgrade Angular application are same across the operating systems like Windows OS,MacOS and Linux OS or Unix based machines.
+
+{{%alert note%}}
+
+Angular 11 is in pre release state. You can read more about Angular 11
+[Angular 11 Release date, features & update to Angular 11 version](https://www.angularjswiki.com/angular/angular-11-roadmap/)
+
+{{%/alert%}}
+
 
 ## Major breaking changes in Angular 10 version
 
@@ -190,6 +200,40 @@ As there are some breaking changes are coming in Angular 9
 The above commands will run a series of small migrations that will convert the code of your application to be compatible with version 9 as shown below.
 
 {{< figure src="migrating the project to Angular 9.png" title="migrating the project to Angular 9" alt="migrating the project to Angular 9">}} 
+
+## Angular version 10.1.2
+
+After releasing Angular 10 version, Angular team at google releasing small minor versions of Angular which fixes few existing bugs and minor features.
+
+As part of this on 16th September 2020, Angular version 10.1.2 released.
+
+I will be listing down the bug fixes and features of this current release.
+
+### Bug Fixes
+
+1. @angular/compiler: Detecting Pipes in International Components for Unicode(ICUs) in template binder. [#38810](https://github.com/angular/angular/pull/38810)
+2. @angular/core: Clearing the `RefreshTransplantedView` when detached [#38768](https://github.com/angular/angular/pull/38768)
+3. @angular/localize: Making `formatOptions` argument is optional for some lower level APIs used by CLI. [#38787](https://github.com/angular/angular/pull/38787)
+4. @angular/router : This bug fix ensure routes are processed in priority order and only if needed. [#38780](https://github.com/angular/angular/pull/38780)
+5. @angular/upgrade: Add try/catch when downgrading injectables. [#38671](https://github.com/angular/angular/pull/38671)
+
+### Performance Improvements
+
+Improvements in @angular/compiler-cli package
+
+1. A patch related to AOT compilation optimization,emit directive/pipe references that are used 
+2. Optimizing computation of type-check scope information.
+
+The information related to above two improments can be found in below link
+[#38843](https://github.com/angular/angular/pull/38843)
+
+Improvements in @angular/ngcc package
+
+1. Introduce cache for sharing data across entry-points
+2. Reduce maximum worker count
+
+The information related to above two improments can be found in below link
+[#38840](https://github.com/angular/angular/pull/38840)
 
 ## Angular version 9.0.0-rc.10 released 
 
