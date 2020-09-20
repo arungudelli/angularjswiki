@@ -1,5 +1,5 @@
 +++
-title = "Angular 11 Release date, Roadmap & update to Angular 11 version"
+title = "Angular 11 Release date, features & update to Angular 11 version"
 subtitle = "Angular 11 version"
 summary ="Angular 11 is in currently in pre release state. As of now there is no official information regarding Angular 11 release date."
 keywords=["Angular 11 release date, ng update angular"]
