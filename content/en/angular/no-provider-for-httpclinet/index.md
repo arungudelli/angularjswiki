@@ -2,7 +2,7 @@
 title = "How to fix No provider for HttpClient error in Angular"
 subtitle = "Fixing NullInjectorError: No provider for HttpClient! error"
 type="post"
-summary ="To fix NullInjectorError: No provider for HttpClient! follow the below steps 1. Open `app.module.ts` file 2. Import HttpClientModule from @angular/common/http. 3. Add `HttpClientModule` @NgModule imports array."
+summary ="To fix NullInjectorError: No provider for HttpClient! follow the below steps 1. Open `app.module.ts` file 2. Import HttpClientModule from @angular/common/http. 3. Add `HttpClientModule` to the @NgModule imports array."
 keywords=["angular,NullInjectorError: No provider for HttpClient!,httpclientmodule"]
 date="2020-09-19T00:00:05+0000"
 lastmod="2020-09-19T00:00:07+0000"
@@ -23,7 +23,7 @@ To fix NullInjectorError: No provider for HttpClient! error in Angular follow th
 
 1. Open `app.module.ts` file of Angular Application.
 2. Import `HttpClientModule` from `@angular/common/http`.
-3. Add `HttpClientModule` @NgModule imports array. 
+3. Add `HttpClientModule` to the @NgModule imports array. 
 
 HttpClient is Angular's way of communicating with a remote server over HTTP. 
 
@@ -76,6 +76,8 @@ or If you are mocking the data, Then follow the below steps.
 1. Open your `.spec` file. 
 2. import `HttpClientTestingModule`  from '@angular/common/http/testing'
 3. Add `HttpClientTestingModule` to the imports array of TestBed.configureTestingModule`
+
+So your final .spec file should be like this.
 
 ```
 import { TestBed, async } from '@angular/core/testing';
