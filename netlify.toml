@@ -52,4 +52,6 @@ status = 301
 [[redirects]]
 from = "/angular/no-provider-for-clinet/"
 to = "/angular/no-provider-for-client/"
+status = 301
+
   
