@@ -48,4 +48,10 @@ status = 301
 from = "/fr/angular/font-awesome-icons-list-usage-css-content-values/"
 to = "/fr/fontawesome/"
 status = 301
+
+[[redirects]]
+from = "/angular/no-provider-for-clinet/"
+to = "/angular/no-provider-for-client/"
+status = 301
+
   
