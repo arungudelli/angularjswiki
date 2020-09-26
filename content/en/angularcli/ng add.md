@@ -1,6 +1,6 @@
 +++
 title="ng add command in Angular CLI"
-summary=""
+summary="Using `ng add` angular cli command we can add external packages or libraries to our angular project.Add package name or library name followed by `ng add` command."
 keywords=["ng add,Angular CLI,Angular CLI Command"]
 date="25-09-2020T23:34:19"
 lastmod="25-09-2020T23:34:19"
@@ -16,22 +16,35 @@ weight=20
 draft=false
 +++
 
-Adds support for an external library to your project.
+Using `ng add` angular cli command we can add external packages or libraries to our angular project.
+
+Add package name or library name followed by `ng add` command as shown below.
 
 ```
-ng add <collection> [options]
+ng add <package> [options]
 ```
 
 ## What does ng add will do in Angular CLI?
 
-Adds the npm package for a published library to your workspace, and configures the project in the current working directory (or the default project if you are not in a project directory) to use that library, as specified by the library's schematic. For example, adding @angular/pwa configures your project for PWA support:
+`ng add` will use our package manager to download new dependencies and invoke an installation script (implemented as a schematic) which can update our Angular project with configuration changes and adds additional dependencies like polyfills, or scaffold package-specific initialization code.
 
-```
+The default project of `ng command` is the value of defaultProject in our angular.json file.
 
-ng add @angular/pwa
-```
+`ng add` command is built on top of schematics and the npm registry, so any external npm packages or libraries can add their support for `ng add`.
 
-The default project is the value of defaultProject in angular.json.
+`ng add` command introduced as part of Angular 6.0 release.
+
+There are already few existing packages have support for `ng add`.
+
+## ng add packages examples
+
+There are few npm packages already added support for `ng add` command.
+
+1. **ng add @angular/pwa** : we can convert our application into a PWA by adding an app manifest and service worker
+2. **ng add @ng-bootstrap/schematics** : we can ng-bootstrap to our angular application
+3. **ng add @angular/material** : Adds angular material Angular Material and theming and register new starter components into ng generate
+4. **ng add @clr/angular** : Adds VMWare Clarity to our Angular application
+5. **ng add @angular/elements** : Adds the required "document-register-element.js" polyfill and dependencies for Angular Elements.
 
 ## ng add Arguments
 
@@ -46,11 +59,9 @@ The default project is the value of defaultProject in angular.json.
   <tbody>
   
   <tr>
-    <td>collection</td>
+    <td>package</td>
     <td>
-      The package to be added.
-
-      
+      The package name to be added.      
     </td>
   </tr>
   
