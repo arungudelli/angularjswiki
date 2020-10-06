@@ -13,7 +13,7 @@ linktitle="ng deploy"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Invokes the deploy builder for a specified project or for the default project in the workspace.

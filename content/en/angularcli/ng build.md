@@ -13,7 +13,7 @@ linktitle="ng build"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Compiles an Angular app into an output directory named dist/ at the given output path. Must be executed from within a workspace directory.

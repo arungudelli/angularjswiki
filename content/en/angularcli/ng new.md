@@ -13,7 +13,7 @@ linktitle="ng new"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Creates a new workspace and an initial Angular app.

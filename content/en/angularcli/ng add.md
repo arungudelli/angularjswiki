@@ -13,7 +13,7 @@ linktitle="ng add"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Using `ng add` angular cli command we can add external packages or libraries to our angular project.

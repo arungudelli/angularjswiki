@@ -13,7 +13,7 @@ linktitle="ng config"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Retrieves or sets Angular configuration values in the angular.json file for the workspace.

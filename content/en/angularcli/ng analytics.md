@@ -13,7 +13,7 @@ linktitle="ng analytics"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Configures the gathering of Angular CLI usage metrics. See https://angular.io/cli/usage-analytics-gathering.

@@ -13,7 +13,7 @@ linktitle="ng version"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Outputs Angular CLI version.

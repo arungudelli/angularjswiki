@@ -13,7 +13,7 @@ linktitle="ng lint"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Runs linting tools on Angular app code in a given project folder.

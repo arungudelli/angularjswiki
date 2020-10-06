@@ -13,7 +13,7 @@ linktitle="ng xi18n"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Extracts i18n messages from source code.

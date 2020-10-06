@@ -13,7 +13,7 @@ linktitle="ng generate"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Generates and/or modifies files based on a schematic.

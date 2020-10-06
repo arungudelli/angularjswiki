@@ -13,7 +13,7 @@ linktitle="ng update"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Updates your application and its dependencies. See https://update.angular.io/

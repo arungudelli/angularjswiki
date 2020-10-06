@@ -13,7 +13,7 @@ linktitle="ng run"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Runs an Architect target with an optional custom builder configuration defined in your project.

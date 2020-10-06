@@ -13,7 +13,7 @@ linktitle="ng e2e"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Builds and serves an Angular app, then runs end-to-end tests using Protractor.

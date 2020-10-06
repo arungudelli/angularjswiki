@@ -13,7 +13,7 @@ linktitle="list"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Adds support for an external library to your project.

@@ -13,7 +13,7 @@ linktitle="ng help"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Lists available commands and their short descriptions.

@@ -13,7 +13,7 @@ linktitle="ng test"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Runs unit tests in a project.

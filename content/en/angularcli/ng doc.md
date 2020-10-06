@@ -13,7 +13,7 @@ linktitle="ng doc"
 [menu.angularcli]
 parent="angularcli"
 weight=20
-draft=false
+draft=true
 +++
 
 Opens the official Angular documentation (angular.io) in a browser, and searches for a given keyword.

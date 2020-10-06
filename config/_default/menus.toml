@@ -8,10 +8,10 @@
   url = "/angular/"
   weight = 25  
 
-[[main]]
-  name = "Angularl CLI"
-  url = "/angularcli/"
-  weight = 26 
+#[[main]]
+#  name = "Angularl CLI"
+#  url = "/angularcli/"
+#  weight = 26 
 
 [[main]]
   name = "Flex Layout"
