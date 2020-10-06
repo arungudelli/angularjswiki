@@ -153,7 +153,7 @@ RemoveElementFromStringArray("f");
 
 In Angular and typescript we will be working with complex real time time objects and it's pretty much common that some times we might need to remove an element from the object array.
 
-So we will follow the same approach as above we have used for numbers and string to remove the element from object array in Angular or typescript.
+So we will follow the same approach as above we have used for numbers and strings to remove the element from object array in Angular or typescript.
 
 Let's take an example to understand it further.
 
@@ -230,4 +230,4 @@ RemoveElementFromObjectArray(1);
 
 ```
 
-
+As we are using Foreach loop, the above methods will remove all elements from the array which satisfies the given conditions.
