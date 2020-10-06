@@ -3,7 +3,7 @@ title = "How To Remove an element from Array in Angular/Typescript"
 subtitle = "Removing an element from array in angular/Typescript"
 type="post"
 summary ="To remove an element from array in Angular or Typescript we can use javascript's delete operator or Array splice function"
-keywords=["string to number in typescript,string to number angular"]
+keywords=["remove element from array angular,remove element from array typescript"]
 date="2020-10-05T01:01:05+0000"
 lastmod="2020-10-05T04:44:37+0000"
 draft=false
@@ -21,7 +21,7 @@ authors = ["admin"]
 
 +++
 
-To remove an element from array in Angular or Typescript we can use javascript's delete operator or Array splice function.
+To remove an element from an array in Angular or Typescript we can use javascript's delete operator or Array splice function.
 
 {{% toc %}}
 
@@ -43,13 +43,13 @@ console.log(arrayElements);
 // [1, , 3, 4] 
 ```
 
-If you see the above output delete operator removing an element from array at the index 1, instead of element 1.
+If you see the above output delete operator removing an element from array at the position 1, instead of element 1.
 
 That means we need to pass index of the element to the delete operator.
 
 So first we need to find out the index of array element before using delete operator.
 
-We will use simple for loop or foreach to find the index of element and then using delete removes array element.
+We will use simple for loop or foreach to find the index of element and then using delete operator remove the array element.
 
 ```
 
@@ -67,6 +67,8 @@ arrayElements.forEach((element,index)=>{
 ```
 
 But the disadvantage of this method is delete operator sets the array element to undefined.
+
+So it's better to use array slice function.
 
 ## Using Array Splice function
 
@@ -90,7 +92,7 @@ console.log(arrayElements);
 
 If you see the above output, the element 2 is completely removed from the array.
 
-Now we will write a function to remove an element from array.
+Now we will write a function to remove an element from an array.
 
 ```
 var arrayElements = [1,2,3,4,5,6,2];
@@ -114,95 +116,97 @@ RemoveElementFromArray(6);
 console.log(arrayElements);
 //[]
 
-
 ```
 
-To convert string to number in angular or typescript follow the below steps. 
-
-1. Check if a string is number or not using `Number()` function.
-2. If the string is number then convert Number() returns the numeric value or `NaN` (Not a Number).
-
-We will take a sample typescript string and convert it to number.
+Similarly If we have a string array, we can follow the same approach as above to remove the string element from an array.
 
 ```
-var stringToConvert = "759";
-var numberValue = Number(stringToConvert);
-console.log(numberValue);
-//Returns 759
+var stringArray = ["a","b","c","d","e","a","f"];
 
-var stringToConvert = "A123";
-var numberValue = Number(stringToConvert);
-console.log(numberValue);
-//Returns NaN
+console.log(stringArray);
+["a", "b", "c", "d", "e", "a", "f"] 
 
-```
-
-It's better to check if the string is NaN before converting it to a number.
-
-We will use `isNaN()` typescript function to check if a string is `NaN`.
-
-```
-var stringToConvert = "A123";
-
-if(!isNaN(Number(stringToConvert))){
-  var numberValue = Number(stringToConvert);
-} else{
-    console.log('Not a Number');
+function RemoveElementFromStringArray(element: string) {
+    stringArray.forEach((value,index)=>{
+        if(value==element) stringArray.splice(index,1);
+    });
 }
 
+RemoveElementFromStringArray("a");
+RemoveElementFromStringArray("b");
+RemoveElementFromStringArray("c");
+RemoveElementFromStringArray("d");
+RemoveElementFromStringArray("e");
+RemoveElementFromStringArray("f");
+
+[LOG]: ["a", "b", "c", "d", "e", "a", "f"] 
+[LOG]: ["b", "c", "d", "e", "f"] 
+[LOG]: ["c", "d", "e", "f"] 
+[LOG]: ["d", "e", "f"] 
+[LOG]: ["e", "f"] 
+[LOG]: ["f"] 
+[LOG]: [] 
+
 ```
 
-Now we will write a function to convert string to number in our angular project.
+## Remove an element from an object array
+
+In Angular and typescript we will be working with complex real time time objects and it's pretty much common that some times we might need to remove an element from the objects array.
+
+So we will follow the sample approach as above we have used for numbers and string to remove the element from object array in Angular or typescript.
+
+Let's take an example to understand it further.
 
 ```
-function ConvertStringToNumber(input: string) {
-    var numeric = Number(input);
-    return numeric;
+export class RemoveArrayElementExample implements OnInit {
+
+objectArray : Book[];
+
+constructor() { 
+  this.objectArray = [
+        {id:1,name:"Angular"},
+        {id:2,name:"Typescript"},
+        {id:3,name:"Javascript"},
+        {id:4,name:"HTML"},
+        {id:5,name:"Java"},
+        {id:6,name:"dotnet"}
+
+  ];
 }
 
-ConvertStringToNumber('124'); //124
-ConvertStringToNumber('080909'); //80909
-ConvertStringToNumber('A345');//NaN
-ConvertStringToNumber('-1908');//-1908
-ConvertStringToNumber('');//0
-ConvertStringToNumber('   ');//0
-```
+}
 
-Typescript's Number() method returns `0`,if the string is empty or contain whitespces.
-
-To handle this scenario we will first check if the string is empty or not
-
-```
-function ConvertStringToNumber(input: string) { 
-    if (input.trim().length==0) { 
-        return NaN;
-    }
-    return Number(input);
+interface Book{
+  id: number;
+  name : string;
 }
 ```
 
-Now the above method return `NaN` incase if the string is empty or contain white spaces.
-
-Instead of using Number() function we can use unary plus operator to convert string to number.
+We will write a function to remove an element from object array by using the unique id i.e., book id.
 
 ```
-+'1278'; //1278
-+'asfa34'; //NaN
+function RemoveElementFromObjectArray(key: number) {
+    objectArray.forEach((value,index)=>{
+        if(value.id==key) objectArray.splice(index,1);
+    });
+} 
+
+
+RemoveElementFromObjectArray(6);
+RemoveElementFromObjectArray(5);
+RemoveElementFromObjectArray(4);
+RemoveElementFromObjectArray(3);
+RemoveElementFromObjectArray(2);
+RemoveElementFromObjectArray(1);
+
+[LOG]: [{ "id": 1, "name": "Angular" }, { "id": 2, "name": "Typescript" }, { "id": 3, "name": "Javascript" }, { "id": 4, "name": "HTML" }, { "id": 5, "name": "Java" }] 
+[LOG]: [{ "id": 1, "name": "Angular" }, { "id": 2, "name": "Typescript" }, { "id": 3, "name": "Javascript" }, { "id": 4, "name": "HTML" }] 
+[LOG]: [{ "id": 1, "name": "Angular" }, { "id": 2, "name": "Typescript" }, { "id": 3, "name": "Javascript" }] 
+[LOG]: [{ "id": 1, "name": "Angular" }, { "id": 2, "name": "Typescript" }] 
+[LOG]: [{ "id": 1, "name": "Angular" }] 
+[LOG]: [] 
+
+
 ```
 
-If typescript compiler `--stringNullCheck` option is disabled we can assign null values to strings. In that case Number(null) returns `0`.
 
-To handle this case we will add a null check condition for our above ConvertToNumber() method
-
-```
-function ConvertStringToNumber(input: string) { 
-    
-    if (!input) return NaN;
-
-    if (input.trim().length==0) { 
-        return NaN;
-    }
-    return Number(input);
-}
-
-```
