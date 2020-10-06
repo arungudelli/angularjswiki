@@ -2,7 +2,7 @@
 title = "How To Remove an element from Array in Angular/Typescript"
 subtitle = "Removing an element from array in angular/Typescript"
 type="post"
-summary ="To remove an element from array in Angular or Typescript we can use javascript's delete operator or Array splice function"
+summary ="To remove an element from array in Angular or Typescript we can use javascript delete operator or Array splice function"
 keywords=["remove element from array angular,remove element from array typescript"]
 date="2020-10-05T01:01:05+0000"
 lastmod="2020-10-05T04:44:37+0000"
