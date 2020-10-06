@@ -25,7 +25,7 @@ To remove an element from an array in Angular or Typescript we can use javascrip
 
 {{% toc %}}
 
-## Using delete
+## Using delete Operator
 
 Using javascript delete operator we can remove an element from array in Angular or typescript as shown below.
 
@@ -139,21 +139,21 @@ RemoveElementFromStringArray("d");
 RemoveElementFromStringArray("e");
 RemoveElementFromStringArray("f");
 
-[LOG]: ["a", "b", "c", "d", "e", "a", "f"] 
-[LOG]: ["b", "c", "d", "e", "f"] 
-[LOG]: ["c", "d", "e", "f"] 
-[LOG]: ["d", "e", "f"] 
-[LOG]: ["e", "f"] 
-[LOG]: ["f"] 
-[LOG]: [] 
+["a", "b", "c", "d", "e", "a", "f"] 
+["b", "c", "d", "e", "f"] 
+["c", "d", "e", "f"] 
+["d", "e", "f"] 
+["e", "f"] 
+["f"]  
+[] 
 
 ```
 
 ## Remove an element from an object array
 
-In Angular and typescript we will be working with complex real time time objects and it's pretty much common that some times we might need to remove an element from the objects array.
+In Angular and typescript we will be working with complex real time time objects and it's pretty much common that some times we might need to remove an element from the object array.
 
-So we will follow the sample approach as above we have used for numbers and string to remove the element from object array in Angular or typescript.
+So we will follow the same approach as above we have used for numbers and string to remove the element from object array in Angular or typescript.
 
 Let's take an example to understand it further.
 
@@ -182,6 +182,10 @@ interface Book{
 }
 ```
 
+I have created a interface called Book. 
+
+And added an array of books in our Angular component file.
+
 We will write a function to remove an element from object array by using the unique id i.e., book id.
 
 ```
@@ -199,12 +203,29 @@ RemoveElementFromObjectArray(3);
 RemoveElementFromObjectArray(2);
 RemoveElementFromObjectArray(1);
 
-[LOG]: [{ "id": 1, "name": "Angular" }, { "id": 2, "name": "Typescript" }, { "id": 3, "name": "Javascript" }, { "id": 4, "name": "HTML" }, { "id": 5, "name": "Java" }] 
-[LOG]: [{ "id": 1, "name": "Angular" }, { "id": 2, "name": "Typescript" }, { "id": 3, "name": "Javascript" }, { "id": 4, "name": "HTML" }] 
-[LOG]: [{ "id": 1, "name": "Angular" }, { "id": 2, "name": "Typescript" }, { "id": 3, "name": "Javascript" }] 
-[LOG]: [{ "id": 1, "name": "Angular" }, { "id": 2, "name": "Typescript" }] 
+[{ "id": 1, "name": "Angular" }, 
+{ "id": 2, "name": "Typescript" }, 
+{ "id": 3, "name": "Javascript" }, 
+{ "id": 4, "name": "HTML" }, 
+{ "id": 5, "name": "Java" }] 
+
+[LOG]: 
+[{ "id": 1, "name": "Angular" }, 
+{ "id": 2, "name": "Typescript" }, 
+{ "id": 3, "name": "Javascript" },
+ { "id": 4, "name": "HTML" }] 
+
+[LOG]: 
+[{ "id": 1, "name": "Angular" }, 
+{ "id": 2, "name": "Typescript" },
+ { "id": 3, "name": "Javascript" }]
+
+[LOG]: [{ "id": 1, "name": "Angular" }, 
+{ "id": 2, "name": "Typescript" }] 
+
 [LOG]: [{ "id": 1, "name": "Angular" }] 
-[LOG]: [] 
+
+[] 
 
 
 ```
