@@ -1,6 +1,6 @@
 +++
 title="ng add command in Angular CLI"
-summary="Using ng add angular cli command we can add external packages or libraries to our angular project.Add package name or library name followed by `ng add` command."
+summary="Using ng add command in angular cli,  we can add external packages or libraries to our angular project.Add package name or library name followed by `ng add` command."
 keywords=["ng add,Angular CLI,Angular CLI Command"]
 date="25-09-2020T23:34:19"
 lastmod="25-09-2020T23:34:19"
