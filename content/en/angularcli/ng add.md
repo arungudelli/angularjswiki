@@ -46,7 +46,7 @@ There are few npm packages already added support for `ng add` command.
 4. **ng add @clr/angular** : Adds VMWare Clarity to our Angular application
 5. **ng add @angular/elements** : Adds the required "document-register-element.js" polyfill and dependencies for Angular Elements.
 
-## ng add Arguments
+## ng add command Arguments
 
 ng add command will take single argument i.e., package or collection name
 
@@ -71,7 +71,7 @@ ng add command will take single argument i.e., package or collection name
 
 </table></div>
 
-## ng add Options
+## ng add command Options
 
 ng add command accepts 5 different types of options 
 
