@@ -1,6 +1,6 @@
 +++
 title="ng command list in Angular CLI"
-summary="We have around 17 ng commands as part of Angular CLI"
+summary="We have around 17 ng commands in Angular CLI"
 keywords=["ng command list"]
 date="25-09-2020T23:34:19"
 lastmod="25-09-2020T23:34:19"
