@@ -233,6 +233,19 @@ if(parentsub){
   });
 }
 
+
+
+function loadcarbonad(){
+ // return;
+  var d = document.getElementById("adtag");
+  if(d == undefined) return;
+  var t = document.createElement("script");
+  t.type = "application/javascript";
+  t.src="//cdn.carbonads.com/carbon.js?serve=CE7DL2JY&placement=wwwangularjswikicom";
+  t.id = "_carbonads_js";    
+  d.append(t);
+}
+
 function my_callback_method(data){
 
 var adtag = document.getElementById("adtag");
@@ -247,17 +260,6 @@ adtag.innerHTML=data.html;
 }else{
 loadcarbonad();
 }
-}
-
-function loadcarbonad(){
- // return;
-  var d = document.getElementById("adtag");
-  if(d == undefined) return;
-  var t = document.createElement("script");
-  t.type = "application/javascript";
-  t.src="//cdn.carbonads.com/carbon.js?serve=CE7DL2JY&placement=wwwangularjswikicom";
-  t.id = "_carbonads_js";    
-  d.append(t);
 }
 
 
