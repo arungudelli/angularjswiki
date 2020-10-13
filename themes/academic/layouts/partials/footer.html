@@ -233,6 +233,19 @@ if(parentsub){
   });
 }
 
+
+
+function loadcarbonad(){
+ // return;
+  var d = document.getElementById("adtag");
+  if(d == undefined) return;
+  var t = document.createElement("script");
+  t.type = "application/javascript";
+  t.src="//cdn.carbonads.com/carbon.js?serve=CE7DL2JY&placement=wwwangularjswikicom";
+  t.id = "_carbonads_js";    
+  d.append(t);
+}
+
 function my_callback_method(data){
 
 var adtag = document.getElementById("adtag");
@@ -249,17 +262,6 @@ loadcarbonad();
 }
 }
 
-function loadcarbonad(){
-  return;
-  var d = document.getElementById("adtag");
-  if(d == undefined) return;
-  var t = document.createElement("script");
-  t.type = "application/javascript";
-  t.src="//cdn.carbonads.com/carbon.js?serve=CE7DL2JY&placement=wwwangularjswikicom";
-  t.id = "_carbonads_js";    
-d.append(t);
-}
-
 
 function loadads(){
 var script = document.createElement('script');
@@ -268,7 +270,13 @@ script.addEventListener('error',loadcarbonad);
 document.body.appendChild(script);
 }
 
+function isMobile() {
+return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+if (!isMobile()) {
 loadads();
+}
 
 
 
