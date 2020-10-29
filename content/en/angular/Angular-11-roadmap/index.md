@@ -1,10 +1,10 @@
 +++
 title = "Angular 11 Release date, features & update to Angular 11 version"
 subtitle = "Angular 11 version"
-summary ="Angular 11 is in currently in pre release state. As of now there is no official information regarding Angular 11 release date."
+summary ="Angular 11 is in currently in pre release state. As of now there is no official information regarding Angular 11 release date.In this post I will explain the features of Angular 11 version in detail."
 keywords=["Angular 11 release date, ng update angular"]
 date="2020-09-18T01:01:05+0000"
-lastmod="2020-09-18T00:00:00+0000"
+lastmod="2020-10-29T00:00:00+0000"
 type="post"
 draft=false
 authors = ["admin"]
@@ -131,15 +131,15 @@ As part of this release they have fixed few bugs listed below
 
 ### Bug Fixes
 
-1. @angular/bazel: only providing stamping information if the --stamp flag is used (#39392) 
-2. @angular/compiler: do not throw away render3 AST on errors (#39413) (d76beda)
-3. @angular/compiler: treat i18n attributes with no bindings as static attributes (#39408) 
-4. @angular/core: do not error when ngDevMode is undeclared (#39415) (cc32932)
-5. @angular/core: Store ICU state in LView rather than in TView (#39233) (0992b67)
-6. @angular/core: update expected size for cli-hello-world-ivy-i18n integration test (#39402) 
-7. @angular/localize: render placeholder types in extracted XLIFF files (#39398)
-8. @angular/localize: serialize all the message locations to XLIFF (#39411)
-9. @angular/ngcc: capture UMD/CommonJS inner class implementation node correctly (#39346) 
+1. @angular/bazel: Providing stamping information only when if --stamp flag is used [#39392](https://github.com/angular/angular/issues/39392)
+2. @angular/compiler: Stopping render3's parseTemplate throwing away the parsed abstract syntax tree(AST) and returning an empty list of HTML nodes if HTML->R3 translation failed.[#39413](https://github.com/angular/angular/pull/39413)
+3. @angular/compiler: Fixing issue with i18n and ivy while injecting translated attribute[#38231](https://github.com/angular/angular/issues/38231)
+4. @angular/core: stopping errors when ngDevMode is undeclared [#39415](https://github.com/angular/angular/pull/39415)
+5. @angular/core: Storing ICU state in LView not in TView [#39233](https://github.com/angular/angular/pull/39233)
+6. @angular/core: updating the expected size for cli-hello-world-ivy-i18n after changes to i18n[#39402](https://github.com/angular/angular/pull/39402) 
+7. @angular/localize: rendering placeholder types in extracted XLIFF files.[#39398](https://github.com/angular/angular/pull/39398)
+8. @angular/localize: serializing all the message locations to XLIFF [#39411](https://github.com/angular/angular/issues/39411)
+9. @angular/ngcc: capturing UMD/CommonJS inner class implementation node correctly [#39346](https://github.com/angular/angular/pull/39346) 
 
 ## Angular 11.0.0-rc.0 Released.
 
