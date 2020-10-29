@@ -123,6 +123,48 @@ rxjs                            6.6.3
 typescript                      4.0.3
 ```
 
+## Agnular 11.0.0-rc.1 Released
+
+On 28-10-2020 Angular team released their 11.0.0-rc.1 version.
+
+As part of this release they have fixed few bugs listed below
+
+### Bug Fixes
+
+1. @angular/bazel: only providing stamping information if the --stamp flag is used (#39392) 
+2. @angular/compiler: do not throw away render3 AST on errors (#39413) (d76beda)
+3. @angular/compiler: treat i18n attributes with no bindings as static attributes (#39408) 
+4. @angular/core: do not error when ngDevMode is undeclared (#39415) (cc32932)
+5. @angular/core: Store ICU state in LView rather than in TView (#39233) (0992b67)
+6. @angular/core: update expected size for cli-hello-world-ivy-i18n integration test (#39402) 
+7. @angular/localize: render placeholder types in extracted XLIFF files (#39398)
+8. @angular/localize: serialize all the message locations to XLIFF (#39411)
+9. @angular/ngcc: capture UMD/CommonJS inner class implementation node correctly (#39346) 
+
+## Angular 11.0.0-rc.0 Released.
+
+Angular version 11.0.0-rc.0 released.
+
+This is the first RC version of Angular 11 which is released on 21st October 2020.
+
+There are few breaking changes happened as part of this release.
+
+Angular 11 no longer supports typescript 3.9 version. We should upgrade to typescript 4.0 version. 
+
+## Bug Fixes
+
+1. @angular/common: updating the locales using new Common Locale Data Repository(CLDR) data. [#39343](https://github.com/angular/angular/pull/39343)
+2. @angular/compiler: promoting constants in angular templates to Trusted Types [#39211](https://github.com/angular/angular/pull/39211).
+3. @angular/core: Checking whether global ngDevMode defined or not.[#36055](https://github.com/angular/angular/pull/36055)
+4. language-service: A new Ivy Compiler is created every time
+language service receives a new request. This is not required if the
+ts.Program has not changed. [#39231](https://github.com/angular/angular/pull/39231)
+5. ngcc: ensuring "inline exports" are interpreted correctly [#39267](https://github.com/angular/angular/pull/39267)
+6. platform-server: User should explicitly set the baseUrl when they turn on
+useAbsoluteUrl.[#39334](https://github.com/angular/angular/pull/39334)
+7. @angular/router: Correcting the signature for createUrlTree [#39347](https://github.com/angular/angular/pull/39347)
+
+
 ## Angular 11.0.0-next.2 Released
 
 Angular 11.0.0-next.2 Released on 16th September 2020. 
