@@ -45,7 +45,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 preserveTaxonomyNames = true
 
 [outputs]
-  home = [ "HTML", "CSS", "RSS", "JSON"]
+  home = [ "HTML", "CSS", "RSS"]
   section = [ "HTML", "RSS","AMP"]
   page =["HTML","AMP"]
 

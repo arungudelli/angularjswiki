@@ -23,7 +23,6 @@ authors = ["admin"]
 
 To remove an element from an array in Angular or Typescript we can use javascript's delete operator or Array splice function.
 
-{{% toc %}}
 
 ## Using delete Operator
 
