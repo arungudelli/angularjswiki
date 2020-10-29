@@ -1,10 +1,10 @@
 +++
 title = "Angular 11 Release date, features & update to Angular 11 version"
 subtitle = "Angular 11 version"
-summary ="Angular 11 is in currently in pre release state. As of now there is no official information regarding Angular 11 release date."
+summary ="Angular 11 is in currently in pre release state. As of now there is no official information regarding Angular 11 release date.In this post I will explain the features of Angular 11 version in detail."
 keywords=["Angular 11 release date, ng update angular"]
 date="2020-09-18T01:01:05+0000"
-lastmod="2020-09-18T00:00:00+0000"
+lastmod="2020-10-29T00:00:00+0000"
 type="post"
 draft=false
 authors = ["admin"]
@@ -122,6 +122,48 @@ Package                         Version
 rxjs                            6.6.3
 typescript                      4.0.3
 ```
+
+## Agnular 11.0.0-rc.1 Released
+
+On 28-10-2020 Angular team released their 11.0.0-rc.1 version.
+
+As part of this release they have fixed few bugs listed below
+
+### Bug Fixes
+
+1. @angular/bazel: Providing stamping information only when if --stamp flag is used [#39392](https://github.com/angular/angular/issues/39392)
+2. @angular/compiler: Stopping render3's parseTemplate throwing away the parsed abstract syntax tree(AST) and returning an empty list of HTML nodes if HTML->R3 translation failed.[#39413](https://github.com/angular/angular/pull/39413)
+3. @angular/compiler: Fixing issue with i18n and ivy while injecting translated attribute[#38231](https://github.com/angular/angular/issues/38231)
+4. @angular/core: stopping errors when ngDevMode is undeclared [#39415](https://github.com/angular/angular/pull/39415)
+5. @angular/core: Storing ICU state in LView not in TView [#39233](https://github.com/angular/angular/pull/39233)
+6. @angular/core: updating the expected size for cli-hello-world-ivy-i18n after changes to i18n[#39402](https://github.com/angular/angular/pull/39402) 
+7. @angular/localize: rendering placeholder types in extracted XLIFF files.[#39398](https://github.com/angular/angular/pull/39398)
+8. @angular/localize: serializing all the message locations to XLIFF [#39411](https://github.com/angular/angular/issues/39411)
+9. @angular/ngcc: capturing UMD/CommonJS inner class implementation node correctly [#39346](https://github.com/angular/angular/pull/39346) 
+
+## Angular 11.0.0-rc.0 Released.
+
+Angular version 11.0.0-rc.0 released.
+
+This is the first RC version of Angular 11 which is released on 21st October 2020.
+
+There are few breaking changes happened as part of this release.
+
+Angular 11 no longer supports typescript 3.9 version. We should upgrade to typescript 4.0 version. 
+
+## Bug Fixes
+
+1. @angular/common: updating the locales using new Common Locale Data Repository(CLDR) data. [#39343](https://github.com/angular/angular/pull/39343)
+2. @angular/compiler: promoting constants in angular templates to Trusted Types [#39211](https://github.com/angular/angular/pull/39211).
+3. @angular/core: Checking whether global ngDevMode defined or not.[#36055](https://github.com/angular/angular/pull/36055)
+4. language-service: A new Ivy Compiler is created every time
+language service receives a new request. This is not required if the
+ts.Program has not changed. [#39231](https://github.com/angular/angular/pull/39231)
+5. ngcc: ensuring "inline exports" are interpreted correctly [#39267](https://github.com/angular/angular/pull/39267)
+6. platform-server: User should explicitly set the baseUrl when they turn on
+useAbsoluteUrl.[#39334](https://github.com/angular/angular/pull/39334)
+7. @angular/router: Correcting the signature for createUrlTree [#39347](https://github.com/angular/angular/pull/39347)
+
 
 ## Angular 11.0.0-next.2 Released
 
