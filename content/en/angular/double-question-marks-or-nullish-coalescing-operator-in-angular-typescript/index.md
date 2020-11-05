@@ -27,10 +27,55 @@ The syntax of nullish coalescing operator very simple just use double question m
 var dValue = nValue ?? "defaultValue"; 
 ```
 
-You might be thinking that I could be just using OR operator '||' to assign default values. 
+You might be thinking that I will use OR operator '||' to assign default values. 
 
-But there are few problems with OR operator to understand them we will go through an example.
+But there are few problems with OR operator, to understand them we will go through an example.
 
+## Nullish coalescing operator example
+
+In real word cases, we will be getting the data from the server usually in JSON format.
+
+```
+var  book = {
+    Publisher: null,
+    Amount: 400,
+    Version: 0,
+    Title: 'Angular',
+    SubTitle:''
+    IsFreeBook: false
+};
+```
+
+So before displaying the above data, we will check for the null or undefined variable in the book variable using OR operator.
+
+```
+var publisher = book.Publisher || "Angular publisher"; // Angular Publisher
+var amount = book.Amount || 400; // 400
+var version = book.Version || 1; // 1
+var title = book.Title || "Angular"; // Angular
+var subTitle = book.SubTitle || "Angular Book"; // Angular Book
+var isFreeBook = book.IsFreeBook || true; // true
+```
+
+You might be thinking now that the above code is perfectly fine. 
+
+But there are few problems with assigning default values to the variables version, subTitle and isFreeBook.
+
+We have version as '0'. That's pefectly fine having version 0 of the book. But in this case OR operator assigns the value to the '1'
+
+We want to display empty sub title to the book. But || operator parsing it to "Angular Book".
+
+And the most tricky part is with the boolean variables like 'IsFreeBook' by default the book is free.
+
+For example if we want charge amount for the book using Amount variable, we can just send the variable isFreeBook as 'false' from the server. 
+
+In this case the book still displays it as free book.
+
+Because OR operator consider it as 'falsy'.
+
+The OR operator considers 0, '' (empty string) and 'false' values as falsy. 
+
+The nullish coalescing operator solves the above problem.
 
 The nullish coalescing operator is another upcoming ECMAScript feature that goes hand-in-hand with optional chaining, and which our team has been involved with championing in TC39.
 
