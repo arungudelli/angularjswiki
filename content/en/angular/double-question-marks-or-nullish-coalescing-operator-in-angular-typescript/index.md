@@ -98,6 +98,21 @@ var isFreeBook = book.IsFreeBook ?? true; // false
 
 ```
 
+For instance the above code is equivalent to the following statement
+
+```
+var isFreeBook = book.IsFreeBook !== null && book.IsFreeBook !== undefined ? book.IsFreeBook : true;
+```
+
+We will take a simple statement
+
+```
+var dValue = nValue ?? "defaultValue"; 
+
+var dValue = nValue !== null && nValue !== undefined ? nValue : "defaultValue"; 
+
+```
+
 ## Difference between nullish coalescing operator(??) and OR(||) operator
 
 As explained in the above example, the major difference between double question mark operator(||) aka nullish coalescing operator and OR(||) is 
