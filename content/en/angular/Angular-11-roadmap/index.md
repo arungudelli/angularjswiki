@@ -4,7 +4,7 @@ subtitle = "Angular 11 version"
 summary ="Angular 11 is in currently in pre release state. As of now there is no official information regarding Angular 11 release date.In this post I will explain the features of Angular 11 version in detail."
 keywords=["Angular 11 release date, ng update angular"]
 date="2020-09-18T01:01:05+0000"
-lastmod="2020-10-29T00:00:00+0000"
+lastmod="2020-11-10T00:00:00+0000"
 type="post"
 draft=false
 authors = ["admin"]
@@ -26,7 +26,6 @@ Angular 11 is in currently in pre release state. As of now there is no official 
 However our applications can be update to Angular 11 pre release versions.
 
 In this post I will explain the features of Angular 11 version in detail.
-
 
 ## Update to Angular 11 Version
 
@@ -121,7 +120,10 @@ Package                         Version
 @schematics/update              0.1100.0-next.2
 rxjs                            6.6.3
 typescript                      4.0.3
+
 ```
+
+[List of features in Angular 11](https://www.angularjswiki.com/angular/angular-11-features/) 
 
 ## Agnular 11.0.0-rc.1 Released
 
