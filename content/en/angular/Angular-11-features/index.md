@@ -34,14 +34,10 @@ As part of Angular 11 version, Google Added so many new features to existing Ang
 
 1. `@angular/core/testing` deprecated `async` function,In Angular 11 they have added a migration that finds all imports and calls to the `async` function and replaces with `waitForAsync` function.[39212](https://github.com/angular/angular/pull/39212)
 2. In Angular 11, ViewEncapsulation does not have Native value. They are replacing it with  ViewEncapsulation.ShadowDm. (ViewEncapsulation.Native=>ViewEncapsulation.ShadowDm)[38882](https://github.com/angular/angular/pull/38882).
-
-Adds an automated migration that will replace any usages of ViewEncapsulation.Native with ViewEncapsulation.ShadowDom.
-Removes the Native value from ViewEncapsulation and replaces any usages in tests and docs with ShadowDom.
-
-1. add automated migration to replace async with waitForAsync (#39212) (5ce71e0)
-2. add automated migration to replace ViewEncapsulation.Native (#38882) (0e733f3)
-3. add initialNavigation schematic (#36926) (0ec7043)
-4. add Trusted Types workaround for Function constructor (#39209) (5913e5c)
+3. Adding a schematic to update users to the new Angular 11 initialNavigation
+options for RouterModule. This replaces the deprecated/removed true, false, legacy_disabled, and legacy_enabled options with the newer enabledBlocking and enabledNonBlocking options.[36926](https://github.com/angular/angular/pull/36926)
+4. Introducing a Trusted Types policy that is only available in development mode, that allows arbitrary unsafe conversions to Trusted Types to support development features.This fixes a Trusted Types violation that occurs in `createNamedArrayType` during development mode. Instead of passing strings directly to "new
+Function", use the Trusted Types compatible function constructor exposed by the Trusted Types development policy.[39209](https://github.com/angular/angular/pull/39209)
 5. create internal Trusted Types module (#39207) (0875fd2)
 6. depend on type definitions for Trusted Types (#39207) (c4266fb)
 7. remove ViewEncapsulation.Native (#38882) (4a1c12c)
@@ -106,3 +102,5 @@ Removes the Native value from ViewEncapsulation and replaces any usages in tests
 14. common: The case conversion pipes no longer let falsy values through. They now map both null and undefined to null and raise an exception on invalid input (0, false, NaN) just like most "common pipes". If your code required falsy values to pass through, you need to handle them explicitly.
 15. router: While the new parameter types allow a variable of type NavigationExtras to be passed in, they will not allow object literals, as they may only specify known properties. They will also not accept types that do not have properties in common with the ones in the Pick. To fix this error, only specify properties from the NavigationExtras which are actually used in the respective function calls or use a type assertion on the object or variable: as NavigationExtras.
 16. router: This commit changes the default value of relativeLinkResolution from 'legacy' to 'default'. If your application previously used the default by not specifying a value in the ExtraOptions and uses relative links when navigating from children of empty path routes, you will need to update your RouterModule to specifically specify 'legacy' for relativeLinkResolution. See https://angular.io/api/router/ExtraOptions#relativeLinkResolution for more details.
+
+Reference : https://github.com/angular/angular/blob/master/CHANGELOG.md
