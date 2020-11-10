@@ -123,7 +123,7 @@ typescript                      4.0.3
 
 ```
 
-List of features in Angular 11(https://www.angularjswiki.com/angular/angular-11-features/) 
+[List of features in Angular 11](https://www.angularjswiki.com/angular/angular-11-features/) 
 
 ## Agnular 11.0.0-rc.1 Released
 
