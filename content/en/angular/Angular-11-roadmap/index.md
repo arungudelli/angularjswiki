@@ -27,7 +27,6 @@ However our applications can be update to Angular 11 pre release versions.
 
 In this post I will explain the features of Angular 11 version in detail.
 
-
 ## Update to Angular 11 Version
 
 If your application is in Angular 10 and want to update it to Angular 11 you can use following `ng update` command to upgrate to version 11 of Angular.
@@ -121,7 +120,10 @@ Package                         Version
 @schematics/update              0.1100.0-next.2
 rxjs                            6.6.3
 typescript                      4.0.3
+
 ```
+
+List of features in Angular 11(https://www.angularjswiki.com/angular/angular-11-features/) 
 
 ## Agnular 11.0.0-rc.1 Released
 
