@@ -4,7 +4,7 @@ subtitle = "List of new features in Angular 11"
 summary ="List of new features in Angular 11"
 keywords=["Angular 11 features, Angular 11"]
 date="2020-11-10T00:00:05+0000"
-lastmod="2020-11-10T00:01:00+0000"
+lastmod="2020-11-11T00:01:00+0000"
 type="post"
 draft=false
 authors = ["admin"]
@@ -24,6 +24,8 @@ authors = ["admin"]
 In this post I will be listing down new features in Angular 11 version.
 
 Angular 11 release date not yet finalized.
+
+Update: [Angular 11 version is released](https://www.angularjswiki.com/angular/angular-11-released/)
 
 ## Angular 11 features.
 
