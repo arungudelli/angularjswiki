@@ -1,8 +1,8 @@
 +++
-title = "How to create a custom pipe in Angular"
-subtitle="Learn how to create a custom pipe in Angular with examples"
-date = 2020-07-06T00:00:00
-lastmod = 2020-07-06T01:00:00
+title = "How to create custom pipes in Angular with examples"
+subtitle="Learn how to create custom pipes in Angular with examples"
+date = 2020-11-24T00:00:00
+lastmod = 2020-11-24T01:00:00
 draft = false  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
@@ -10,7 +10,7 @@ parentdoc = "pipes"
 next="pipes/jsonpipe"
 featured="angular-custom-pipe.jpg"
 authors = ["admin"]
-summary ="We can create custom pipes in Angular using ng generate pipe angular cli command and or manually.Custom Pipes in Angular are very useful in case if you want to re use some buisness logic across our application."
+summary ="We can create custom pipes in Angular in two ways.1.Using `ng generate pipe` angular cli command.2. Manually."
 keywords=["Angular custom pipe,custom Pipe"]
 
 # Add menu entry to sidebar.
@@ -23,14 +23,16 @@ linktitle = "Custom Pipe"
 
 We can create custom pipes in Angular in two ways.
 
-1. Using `ng generate pipe` angular cli command.
+1. Using **`ng generate pipe`** angular cli command.
 2. Manually.
 
-Custom Pipes in Angular are very useful in case, if we want to re use some buisness logic across our application.
+Custom Pipes are very useful in case, if we want to re use some business logic across our angular application.
+
+{{% toc %}}
+
+## Manually Creating Custom Pipe 
 
 To create custom pipe manually follow the below steps.
-
-Steps to create custom pipe in Angular
 
 1. Define a meaningful and useful name for custom pipe.
 2. Create a file named `custom.pipe.ts` in your project.
@@ -61,15 +63,13 @@ And in component html file use the custom pipe as shown below.
 {{ input | custom }}
 ```
 
-{{% toc %}}
-
 ## Creating custom pipe in Angular using Angular CLI command.
 
-The above approach requires a lot of manual work. Instead of that we can use angular cli `ng generate pipe` command to create custom pipes.
+The above approach requires a lot of manual work. Instead of that we can use angular cli **`ng generate pipe` command to create custom pipes**.
 
-### ng generate pipe
+## ng generate pipe
 
-We can use `ng generate pipe` followed by pipe name command to create custom pipes in angular.
+Use `ng generate pipe` followed by pipe name command to create custom pipes in angular.
 
 ```
 ng generate pipe custom
@@ -105,11 +105,11 @@ Additionally the command will create a spec file to write unit tests and it will
 
 We will go through an example to understand it further.
 
-We will create a custom pipe which converts a number to it's square.
+We will create a custom pipe which converts a number to it's square in our Angular app.
 
 i.e, if we pass a number (2) to the custom pipe,it will multiply number by itself and returns the converted value (4).
 
-We will use ng generate pipe command to create custom pipe.
+As mentioned above, use ng generate pipe command to create custom pipe named square.
 
 ```
 ng generate pipe square 
@@ -149,9 +149,9 @@ we can use our custom pipe in the component template expression as shown below.
 
 ## Passing parameters to the custom pipe
 
-To create a custom pipe which accepts parameter, we should change the transform method of custom pipe.
+To create a custom pipe which accepts parameter, we should change the transform method of the created pipe.
 
-The above custom pipe will return square value of the number. And the transform method has only one parameter i.e., value.
+The above custom square pipe transform method has only one parameter i.e., value.
 
 Instead of that we can pass an exponent parameter, which decides how many times we have to multiply the number.
 
@@ -207,9 +207,9 @@ Why because exponent parameter is required when using power pipe.
 
 Instead of that we can make parameter optional. 
 
-To make a parameter optional in a custom pipe, we have to assign some default value to the parameter.
+To make a parameter optional in the custom pipe, we have to assign some default value to the parameter.
 
-In this case we can assign value of exponent parameter to 1, so that if we are not passing any parameter it will returns the same number. i.e., exponent of 1.
+In this case we can assign value of exponent parameter to 1, so that if we are not passing any parameter, it will returns the same number. i.e., exponent of 1.
 
 ```
 import { Pipe, PipeTransform } from '@angular/core';
@@ -245,7 +245,7 @@ We can pass multiple arguments to angular pipes by separating them with colons a
 {{ inputData | customPipe: 'argument1':'argument2':'argument3'... }}
 ```
 
-To create a custom pipe which accepts multiple parameters we have to change the defination of transform method to support more than one argument.
+To create a custom pipe which accepts multiple parameters we have to change the defination of transform method to support more than one parameter.
 
 We will extend our `power` pipe to add some buffer value after applying exponent.
 
