@@ -51,9 +51,9 @@
 {{$srcsetFor := .Scratch.Get "srcset" }}
 
 <div style="text-align: center">
-
-{{ if eq $srcsetFor "false"}}
-<amp-img src="{{$image_src}}" sizes="{{$sizes}}" width="{{$featured.Width}}" height="{{$featured.Height}}" alt="{{.Get "alt"}}" class="mb4 mx3" layout="responsive"></amp-img>
+hello
+  {{ if eq $srcsetFor "false"}}
+<amp-img src="{{$image_src}}" sizes="(min-width:300px) 300px, 100vw" width="300" height="300" alt="{{.Get "alt"}}" class="mb4 mx3" layout="responsive"></amp-img>
 {{end}}
 {{ if ne $srcsetFor "false"}}
 <amp-img src="{{$image_src}}" srcset="{{$image_src}}" sizes="{{$sizes}}" width="{{$featured.Width}}" height="{{$featured.Height}}" alt="{{.Get "alt"}}" class="mb4 mx3" layout="responsive"></amp-img>
