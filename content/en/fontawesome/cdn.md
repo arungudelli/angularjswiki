@@ -1,11 +1,11 @@
 +++
-title = "Font Awesome Icons CDN"
-subtitle = "Font awesome CDN list"
+title = "Font Awesome CDN"
+subtitle = "Font awesome Icons CDN list"
 type="docs"
-summary ="Font awesome has their own CDN servers. To use Font Awesome CDN we need to create an account in their website"
+summary ="To use Font Awesome CDN we need to create an account in their website."
 keywords=["font awesome icons,font awesome icons CDN"]
 date="2019-07-14T01:01:05+0000"
-lastmod="2020-07-12T00:00:08+0000"
+lastmod="2020-12-01T00:00:08+0000"
 prev="fontawesome"
 next="csscontentcode"
 draft=false
@@ -29,22 +29,71 @@ weight=2
 
 +++
 
-Using CDN is the best way to serve font awesome icons css or js files. Instead of hosting them in our own server.
+Using CDN is the best way to serve font awesome icon css or js files, instead of hosting them from our own servers.
 
-Font awesome has their own CDN servers. To use Font Awesome CDN we need to create an account in their website.
+Steps to use Font Awesome CDN
 
-Then font awesome will provide a link to the javascript file which can directly added in our websites.
+1. Get a unique embed code by entering your email in following this [link](https://fontawesome.com/start).
+2. Then font awesome sends an email with the Font Awesome CDN embed code along with instructions to add icons in our website.
+3. The sample JavaScript font awesome CDN link will be in below format.`https://use.fontawesome.com/a34asdfsd.js`.
+4. Copy the embed code you received via email and place it in your HTML `<head>` tag. 
 
-The sample font awesome kit will be in below format.
+{{< figure src="/img/font-awesome-cdn-embed-code.png" title="font awesome cdn embed code" alt="font awesome cdn embed code">}}
+
+{{< figure src="/img/font-awesome-cdn-register.png" title="font awesome cdn register" alt="font awesome cdn register">}}
+
+
+Here is the sample webpage which uses font awesome CDN.
 
 ```
-<script src="https://kit.fontawesome.com/samplekit.js"
- crossorigin="anonymous"></script>
+<!doctype html>
+<html>
+  <head>
+    ...
+    <!-- font awesome CDN Url -->
+    <script src="https://use.fontawesome.com/your-embed-code.js"></script> 
+    <!-- TODO: Place your own Font Awesome CDN embed code received via email  -->
+    ...
+  </head>
+  <body>
+    ...
+    <i class="fa fa-home"></i>
+    ...
+  </body>
+</html>
 ```
 
-The advantage of creating account in font awesome website is, Font awesome creates new embed codes for each website where we can easily manage our preferences.
+Further we can register in font awesome CDN website to manage our preferences.
 
-We can quickly upgrade to font awesome pro icons without any code changes from our side. 
+## Advantages of using font awesome CDN
+
+1. A faster server from where we can serve font awesome icons.
+2. font awesome CDN servers always up and running.
+3. And the files will be served from nearest CDN server.
+4. We can quickly upgrade to font awesome pro icons without any code changes from our side.
+5. We can create multiple embed codes for different websites.
+6. Font Awesome CDN can load your icons asynchronously further boosting up the Site Performance.
+
+One more big advantage of using font awesome CDN is we can automate our icon's accessibility.
+
+Font Awesome CDN's auto accessibility feature helps the people with sight and hearing impairments.
+
+For example consider the below example
+
+```
+<button type="submit">
+  <i class="fa fa-envelope"></i> Email Us!
+</button>
+```
+In the above example, inside submit button we are using font awesome icon. But for the visually challenged person who uses screen readers to access the website it's not required to expose this icons.
+
+So font awesome CDN will automatically adds the `aria-hidden=true` attribute to the icon.
+
+```
+<button type="submit">
+  <i class="fa fa-envelope" aria-hidden=”true”></i> Email Us!
+</button>
+```
 
 Or we can use free version of font awesome icons by using content delivery networks like cdnjs, maxcdn and jsdelivr etc..
 
