@@ -38,6 +38,11 @@ Steps to use Font Awesome CDN
 3. The sample JavaScript font awesome CDN link will be in below format.`https://use.fontawesome.com/a34asdfsd.js`.
 4. Copy the embed code you received via email and place it in your HTML `<head>` tag. 
 
+{{< figure src="/img/font-awesome-cdn-embed-code.png" title="font awesome cdn embed code" alt="font awesome cdn embed code">}}
+
+{{< figure src="/img/font-awesome-cdn-register.png" title="font awesome cdn register" alt="font awesome cdn register">}}
+
+
 Here is the sample webpage which uses font awesome CDN.
 
 ```
