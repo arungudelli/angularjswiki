@@ -138,6 +138,8 @@ The above code won't update the ngModel property and user.Name will be undefined
 
 Because we are not updating ngModel property with the new changed value.
 
+{{< video src="/img/videos/ngmodelchange-noupdate.mp4" srcwebm="/img/videos/ngmodelchange-noupdate.webm">}} 
+
 ```
 // In Component.ts file
 userNamengmodelchange(value){
@@ -174,6 +176,23 @@ So the default (ngModelChange) function will update the value of ngModel propert
 
 And the second (ngModelChange) will be triggered printing the user name value in the console.
 
+{{< video src="/img/videos/ngmodelchange-example.mp4" srcwebm="/img/videos/ngmodelchange-example.webm">}} 
+
+So to avoid confusion, it's better to follow one single approach.
+
+Either use shorthand notation of ngModelChange i.e., `[(ngModel)]`, or define a new ngModelChange function and update the value in that function.
+
+```
+<input [ngModel]="user.Name"
+       (ngModelChange)="userNamengmodelchange($event)"/>
+
+userNamengmodelchange(value){
+    console.log(value);          //Changed Value
+    console.log(this.user.Name)  //undefined
+    this.user.Name = value; // Update the value here
+}
+```
+
 ## Multiple ngModelChange events.
 
 We can attach multiple `ngModelChange` events to an HTML tag. 
@@ -192,6 +211,8 @@ userNamePrint(){
 }
 
 ```
+
+{{< video src="/img/videos/ngmodelchange-multiple.mp4" srcwebm="/img/videos/ngmodelchange-multiple.webm">}} 
 
 ## change event Example
 
@@ -213,6 +234,8 @@ And (change) function parameter contains classic event properties.
 To get the value of changed value we need to use `e.target.value` property.
 
 And it only triggered only when we move the focus away from the input element i.e., blurred the input.
+
+{{< video src="/img/videos/change-example.mp4" srcwebm="/img/videos/change-example.webm">}} 
 
 Where as (ngModelChange) triggered on each and every input change.
 
@@ -247,6 +270,8 @@ changeUserName(e) {
 The value is updated by change event. As we used [ngModel] on each input change ngModelChange will be called. And the UI is updated with the new value only when focus move away from the element. 
 
 Because ngModel updated in change event.
+
+{{< video src="/img/videos/change-ngmodelchange.mp4" srcwebm="/img/videos/change-ngmodelchange.webm">}} 
 
 ## ngModelChange vs change.
 
