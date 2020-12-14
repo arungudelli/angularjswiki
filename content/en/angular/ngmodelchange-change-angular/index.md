@@ -3,14 +3,14 @@ title = "ngModelChange and change in Angular with examples"
 subtitle = "Understanding differences between (ngModelChange) and (change) in Angular"
 summary ="(ngModelChange) is an Angular event, where as (change) is an HTML DOM event"
 keywords=["ngModelChange, change"]
-date="2020-12-03T00:00:05+0000"
-lastmod="2020-12-03T00:01:00+0000"
+date="2020-12-13T00:00:05+0000"
+lastmod="2020-12-13T00:01:00+0000"
 type="post"
 draft=false
 authors = ["admin"]
 
 [image]
-  caption = "Angular 11 and typescript"
+  caption = "ngModelChange and change"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
@@ -233,7 +233,7 @@ And (change) function parameter contains classic event properties.
 
 To get the value of changed value we need to use `e.target.value` property.
 
-And it only triggered only when we move the focus away from the input element i.e., blurred the input.
+And it will be triggered only when we move the focus away from the input element i.e., blurred the input.
 
 {{< video src="/img/videos/change-example.mp4" srcwebm="/img/videos/change-example.webm">}} 
 
@@ -267,7 +267,7 @@ changeUserName(e) {
 
 ```
 
-The value is updated by change event. As we used [ngModel] on each input change ngModelChange will be called. And the UI is updated with the new value only when focus move away from the element. 
+The value is updated by change event. As we used `[ngModel]`, on each input change ngModelChange will be called. And the UI is updated with the new value only when focus move away from the element. 
 
 Because ngModel updated in change event.
 
