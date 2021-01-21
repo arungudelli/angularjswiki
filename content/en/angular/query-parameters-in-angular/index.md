@@ -142,6 +142,10 @@ There are two main differences between Query parameters and angular route parame
 1. Angular route parameters are available only on one route, where as we can pass query parameters to any route. 
 2. Query parameters are optional. But if you are not passing angular route parameters we will get 404 error.
 
+To access or get query parameters from URL go through the following post.
+
+[Get Query Parameters from URL route](https://www.angularjswiki.com/angular/get-query-parameters-in-angular/)
+
 ## Summary.
 
 1. Using `queryParams` we can pass query parameters to angular route.
