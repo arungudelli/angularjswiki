@@ -233,8 +233,9 @@ smartadserver.com, 3117, RESELLER
 startapp.com, smt, RESELLER
 xad.com, 241, RESELLER, 81cbf0a75a5e0e9a
 districtm.io, 101289, DIRECT, 3fd707be9c4527c3
-aol.com, 57545, RESELLER, e1a5b5b6e3255540
-yahoo.com, 57545, RESELLER, e1a5b5b6e3255540
+aol.com, 57992, RESELLER, e1a5b5b6e3255540
+yahoo.com, 57992, RESELLER, e1a5b5b6e3255540
 sonobi.com, f5d517e1b9, RESELLER, d1a215d9eb5aee9e
 appnexus.com, 12290, RESELLER, f5ab79cb980f11d1
 pubmatic.com, 158355, RESELLER, 5d62403b186f2ace
+
