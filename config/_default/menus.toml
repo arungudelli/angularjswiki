@@ -13,6 +13,11 @@
   url = "/angularcli/"
   weight = 26 
 
+#[[main]]
+#  name = "Routing"
+#  url = "/routing/"
+#  weight = 26 
+
 [[main]]
   name = "Flex Layout"
   url = "/flexlayout/"
