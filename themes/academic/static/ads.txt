@@ -141,7 +141,6 @@ contextweb.com, 558355, RESELLER, 89ff185a4c4e857c
 emxdgt.com, 1284, RESELLER, 1e1d41537f7cad7f
 google.com, pub-9557089510405422, RESELLER, f08c47fec0942fa0
 google.com, pub-3848273848634341, RESELLER, f08c47fec0942fa0
-outbrain.com, 00254374f0c468f3b2732db17fd42cb6e5, RESELLER
 pubmatic.com, 157897, RESELLER, 5d62403b186f2ace
 rhythmone.com, 78519861, RESELLER, a670c89d4a324e47
 synacor.com, 82151, RESELLER, e108f11b2cdf7d5b
@@ -238,4 +237,4 @@ yahoo.com, 57992, RESELLER, e1a5b5b6e3255540
 sonobi.com, f5d517e1b9, RESELLER, d1a215d9eb5aee9e
 appnexus.com, 12290, RESELLER, f5ab79cb980f11d1
 pubmatic.com, 158355, RESELLER, 5d62403b186f2ace
-
+yahoo.com, 57289, RESELLER, e1a5b5b6e3255540
