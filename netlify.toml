@@ -54,9 +54,4 @@ from = "/angular/no-provider-for-clinet/"
 to = "/angular/no-provider-for-client/"
 status = 301
 
-[[redirects]]
-from = "/ads.txt"
-to = "https://adstxt.valueimpression.com/a/angularjswiki.com/ads.txt"
-status = 301
-
   
