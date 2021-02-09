@@ -31,6 +31,8 @@ Pagination is nothing but dividing the large number of records in a tables into 
 
 `mat-paginator` selector is part of Angular material module called `MatPaginator`.
 
+{{%toc%}}
+
 Let's take an example of Employee table as explained in the [previous article](https://www.angularjswiki.com/material/mat-table/).
 
 ## Pagination in mat-table

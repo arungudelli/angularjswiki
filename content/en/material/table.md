@@ -25,4 +25,5 @@ linktitle = "Table"
 In this tutorial we are going to learn how to use Angular Material Table module in Angular with simple and detailed examples.
 
 1. [Creating a Simple table in Angular using mat-table](https://www.angularjswiki.com/material/mat-table/)
+2. [Adding Pagination to the mat-table](https://www.angularjswiki.com/material/mat-table-pagination/)
 
