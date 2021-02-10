@@ -8,6 +8,7 @@ toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
 prev = "table"
+next = "mat-table-pagination"
 featured="mat-table-featured.jpg"
 authors = ["admin"]
 summary ="mat-table selector in Angular used to display data in table format"
