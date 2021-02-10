@@ -110,6 +110,63 @@ That's it Pagination will be visible under the table as shown below.
 
 {{< figure src="/img/material/mat-table-pagination-example.png" title="mat table pagination example" alt="mat table pagination example">}}
 
+## mat-paginator options
+
+Now we will go through different types of options in mat-paginator. 
+
+```
+<mat-paginator #paginator [pageSizeOptions]="[2, 4, 6]" 
+showFirstLastButtons></mat-paginator>
+```
+
+### mat-paginator pageSizeOptions
+
+We can give different page sizes using pageSizeOptions attribute, so that user can select the number records from a drop down. 
+
+`pageSizeOptions` attribute accepts numeric array values.
+
+Instead of giving them inside component html file, we can create a varible in component ts file and assign it to the `pageSizeOptions`.
+
+```
+//In ts file
+
+pageSizes = [2,4,6];
+
+<mat-paginator #paginator [pageSizeOptions]="pageSizes" showFirstLastButtons></mat-paginator>
+
+```
+
+### mat-paginator hidePageSize
+
+If you don't want to give option to select page size or want to hide the page size from the navigator we can make use of `hidePageSize` option.
+
+```
+<mat-paginator #paginator [pageSizeOptions]="pageSizes" showFirstLastButtons hidePageSize></mat-paginator>
+```
+
+{{< figure src="/img/material/mat-paginator-hide-pagesize.png" title="mat paginator hide pagesize" alt="mat paginator hide pagesize">}}
+
+### mat-paginator pageSize
+
+Instead of giving multiple options for page sizes, we can give fixed page size using `pageSize` property.
+
+```
+  <mat-paginator #paginator pageSize=4 showFirstLastButtons></mat-paginator>
+
+```
+{{< figure src="/img/material/mat-paginator-fixed-pagesize.png" title="mat paginator fixed pagesize" alt="mat paginator fixed pagesize">}}
+
+
+### mat-paginator showFirstLastButtons
+
+If we add `showFirstLastButtons` property to `mat-paginator`, first and last page buttons will be visible as in the above examples.
+
+The below code snippet won't add first and last buttons in the paginator.
+
+```
+<mat-paginator #paginator pageSize=4></mat-paginator>
+```
+{{< figure src="/img/material/mat-paginator-show-fast-last-pages.png" title="mat paginator show fast last pages" alt="mat paginator show fast last pages">}}
 
 
 
