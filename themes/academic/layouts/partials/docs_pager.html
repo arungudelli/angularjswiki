@@ -4,14 +4,6 @@
 
 <div class="post-nav">
 
-{{ with .Site.GetPage $prev }}
-
-<div class="post-nav-item">
-  <div class="meta-nav">{{ i18n "previous" }}: <a href="{{.URL}}" rel="prev">{{.Title}}</a></div>  
-</div>
-
-{{ end }}
-
 {{ with .Site.GetPage $next }}
 
 <div class="post-nav-item">
@@ -20,6 +12,16 @@
 </div>
 
 {{ end }}
+
+{{ with .Site.GetPage $prev }}
+
+<div class="post-nav-item">
+  <div class="meta-nav">{{ i18n "previous" }}: <a href="{{.URL}}" rel="prev">{{.Title}}</a></div>  
+</div>
+
+{{ end }}
+
+
 
 
 </div>
