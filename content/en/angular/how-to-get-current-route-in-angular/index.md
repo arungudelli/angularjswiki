@@ -85,3 +85,8 @@ So it's advisable to listen for `NavigationEnd` event of router to get the curre
 
 {{< figure src="NavigationEndEvent.PNG" title="NavigationEndEvent" alt="NavigationEndEvent">}}
 
+Further read:
+
+1. [Query Parameters in Angular with examples](https://www.angularjswiki.com/angular/query-parameters-in-angular/)
+2. [How to Get Query Parameters from URL route in Angular](https://www.angularjswiki.com/angular/get-query-parameters-in-angular/)
+
