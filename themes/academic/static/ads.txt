@@ -257,3 +257,4 @@ admanmedia.com, 771, DIRECT
 pubmatic.com, 158481, RESELLER, 5d62403b186f2ace
 appnexus.com, 8804, RESELLER, f5ab79cb980f11d1
 beachfront.com, 14513, RESELLER, e2541279e8e2ca4d
+yahoo.com, 58754, RESELLER, e1a5b5b6e3255540
