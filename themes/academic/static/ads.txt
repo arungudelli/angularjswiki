@@ -259,3 +259,26 @@ appnexus.com, 8804, RESELLER, f5ab79cb980f11d1
 beachfront.com, 14513, RESELLER, e2541279e8e2ca4d
 yahoo.com, 58754, RESELLER, e1a5b5b6e3255540
 appnexus.com, 9393, DIRECT, f5ab79cb980f11d1
+nobid.io, 22290697843, DIRECT
+google.com, pub-1835489473992347, DIRECT, f08c47fec0942fa0
+google.com, pub-1789253751882305, DIRECT, f08c47fec0942fa0
+appnexus.com, 11429, DIRECT, f5ab79cb980f11d1
+rubiconproject.com, 13702, DIRECT, 0bfd66d529a55807
+indexexchange.com, 185104, DIRECT, 50b1c356f2c5c8fc
+pubmatic.com, 157898, DIRECT, 5d62403b186f2ace
+sovrn.com, 273657, DIRECT, fafdf38b16bf6b2b
+lijit.com, 273657, DIRECT, fafdf38b16bf6b2b
+adtech.com, 10109, DIRECT
+aolcloud.net, 10109, DIRECT
+openx.com, 540650310, DIRECT, 6a698e2ec38604c6
+gumgum.com, 13926, DIRECT, ffdef49475d318a9
+33across.com, 0010b00002Mq2FYAAZ, DIRECT, bbea06d9c4d2853c
+sonobi.com, bc2afab5f7, DIRECT, d1a215d9eb5aee9e
+revcontent.com, 124709, DIRECT
+my6sense.com, 9732, RESELLER
+criteo.com, 7822, RESELLER
+rhythmone.com, 2439829435, RESELLER, a670c89d4a324e47
+emxdgt.com, 326, RESELLER, 1e1d41537f7cad7f
+advangelists.com, 8d3bba7425e7c98c50f52ca1b52d3735, RESELLER, 60d26397ec060f98
+decenterads.com, 933, DIRECT
+onetag.com, 694e68b73971b58, DIRECT
