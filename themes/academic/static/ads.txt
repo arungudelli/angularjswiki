@@ -8,7 +8,7 @@ openx.com, 541147563, RESELLER, 6a698e2ec38604c6
 advertising.com, 28643, RESELLER #VerizonVideo
 aol.com,55609, RESELLER, e1a5b5b6e3255540
 yahoo.com,55609, RESELLER, e1a5b5b6e3255540
-pubmatic.com, 157940, DIRECT, 5d62403b186f2ace
+pubmatic.com, 157940, RESELLER, 5d62403b186f2ace
 appnexus.com, 10273, RESELLER, f5ab79cb980f11d1
 appnexus.com, 11395, RESELLER, f5ab79cb980f11d1
 appnexus.com, 11711, DIRECT, f5ab79cb980f11d1
