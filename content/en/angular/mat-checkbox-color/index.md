@@ -51,7 +51,7 @@ Now all we have to do is adding background-color css to the  `.mat-checkbox-back
 
 ```
 .mat-checkbox-checked.mat-accent .mat-checkbox-background {
-  background-color: red !important;
+  background-color: black !important;
 }
 ```
 
