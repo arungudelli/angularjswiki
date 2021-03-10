@@ -59,7 +59,7 @@ And in older versions of Angular we might need to add `::ng-deep` as well.
 
 ```
 ::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background {
-  background-color: red !important;
+  background-color: black !important;
 }
 ```
 
@@ -69,7 +69,7 @@ Similarly to change the ripple mat-checkbox ripple color, we need to change the 
 
 ```
 ::ng-deep .mat-checkbox-ripple .mat-ripple-element {
-  background-color: yellow !important;
+  background-color: black !important;
 }
 ```
 
@@ -83,13 +83,15 @@ So we need to change the background color of `.mat-checkbox-background` element 
 
 ```
 ::ng-deep .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
-  background-color: red !important;
+  background-color: black !important;
 }
 ```
 
-## Stackblitz demo.
+## Stackblitz demo
 
 Here is the link to stackblitz demo for mat-checkbox color change.
 
+[mat-checkbox-color-demo](https://mat-checkbox-color.stackblitz.io)
 
+{{< figure src="/img/material/mat-checkbox-color-demo.PNG" title="mat-checkbox color demo" alt="mat-checkbox color demo">}}
 
