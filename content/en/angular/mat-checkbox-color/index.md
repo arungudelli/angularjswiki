@@ -51,7 +51,7 @@ Now all we have to do is adding background-color css to the  `.mat-checkbox-back
 
 ```
 .mat-checkbox-checked.mat-accent .mat-checkbox-background {
-  background-color: red !important;
+  background-color: black !important;
 }
 ```
 
@@ -91,7 +91,7 @@ So we need to change the background color of `.mat-checkbox-background` element 
 
 Here is the link to stackblitz demo for mat-checkbox color change.
 
-[mat-checkbox-color-demo](https://mat-checkbox-color.stackblitz.io)
+[mat-checkbox-color-demo](https://stackblitz.com/edit/mat-checkbox-color?file=src%2Fapp%2Fcheckbox-configurable-example.css)
 
 {{< figure src="/img/material/mat-checkbox-color-demo.PNG" title="mat-checkbox color demo" alt="mat-checkbox color demo">}}
 
