@@ -23,7 +23,7 @@ authors = ["admin"]
 
 `mat-checkbox` uses default material theme colors. 
 
-By defualt checkboxes uses the theme's `accent` color, and we can change it to `primary` or `warn` using `color` property.
+By defualt checkboxes uses the [material theme](https://www.angularjswiki.com/angular/could-not-find-angular-material-core-theme/) `accent` color, and we can change it to `primary` or `warn` using `color` property.
 
 And in most of the real world projects we will give our own custom colors to the [mat-checkbox](https://www.angularjswiki.com/angular/checkbox-implementation-in-angular-using-angular-material/) and there is no direct way or property though which we can change the mat-checkbox color.
 
