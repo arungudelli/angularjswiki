@@ -7,7 +7,7 @@ draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "pipes" 
-prev = "pipes/uppercase"
+prev = "pipes/uppercasepipe"
 next = "pipes/example" 
 featured="lowercase.jpg"
 authors = ["admin"]
@@ -19,7 +19,7 @@ keywords=["convert string to lowercase,Angular lowercase pipe"]
 linktitle = "Lower Case Pipe"
 [menu.pipes]
   parent = "Pipes In Angular"
-  weight = 2
+  weight = 4
 +++
 
 **Angular lowercase Pipe** used to convert string or text to lowercase in Angular component templates.

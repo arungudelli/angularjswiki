@@ -18,7 +18,7 @@ keywords=["Angular custom pipe,custom Pipe"]
 linktitle = "Custom Pipe"
 [menu.pipes]
   parent = "Pipes In Angular"
-  weight = 4
+  weight = 5
 +++
 
 We can create custom pipes in Angular in two ways.
