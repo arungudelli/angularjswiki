@@ -58,7 +58,7 @@ export class JsonPipe implements PipeTransform {
 }
 ```
 
-Angular Json Pipe uses javascript's built in `JSON.stringify()` method to object or value to a JSON string
+Angular Json Pipe uses javascript's built in `JSON.stringify()` method to convert object or value to a JSON string
 
 ## Angular Json Pipe example
 
