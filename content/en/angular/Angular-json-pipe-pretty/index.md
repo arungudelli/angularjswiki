@@ -67,6 +67,8 @@ So to format the JSON displayed, use `<pre>` tag in HTML.
 ]
 ```
 
+Link to Stackblitz Demo
+
 [Stackblitz Json Pipe Pretty Demo](https://stackblitz.com/edit/angular-json-pipe?file=src%2Fapp%2Fapp.component.html)
 
 
