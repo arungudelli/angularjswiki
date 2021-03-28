@@ -158,4 +158,10 @@ import { CommonModule } from '@angular/common';
 
 And most of the times we won't be getting the above error as CommonModule will be added as part of Angular project creation itself.
 
+## Beautify the JSON displayed 
+
+Go through the article to beautify the JSON data displayed
+
+[Angular Json Pipe Pretty format](https://www.angularjswiki.com/angular/angular-json-pipe-pretty/)
+
 
