@@ -33,6 +33,8 @@ It's very helpful while debugging the data issues in JSON.
 
 Angular JSON pipe will take this debugging it to next level by displaying JSON data, directly in HTML page.
 
+{{% toc %}}
+
 ## Angular JSON pipe Syntax
 
 The syntax is similar to other pipes in Angular, we need append pipe operator followed by **json** keyword to our object. 
@@ -146,7 +148,14 @@ Here is the stackblitz demo link for Angular Json Pipe
 {{< figure src="/img/pipes/Angular-json-pipe.png" title="Angular Json Pipe" alt="Angular Json Pipe">}}
 
 
+## no pipe found with name 'json' error
 
+Angular json pipe is part of "@angular/common", So if we miss CommonModule in parent component we will get no pipe found with name 'json' error.
 
+```
+import { CommonModule } from '@angular/common';
+```
+
+And most of the times we won't be getting the above error as CommonModule will be added as part of Angular project creation itself.
 
 
