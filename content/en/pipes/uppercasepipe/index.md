@@ -7,7 +7,7 @@ draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "pipes" 
-prev = "pipes/list"
+prev = "pipes/jsonpipe"
 next = "pipes/example" 
 featured="uppercase.jpg"
 authors = ["admin"]
@@ -19,7 +19,7 @@ keywords=["convert string to uppercase,Angular uppercase pipe"]
 linktitle = "Upper Case Pipe"
 [menu.pipes]
   parent = "Pipes In Angular"
-  weight = 2
+  weight = 3
 +++
 
 To convert string or text to uppercase in Angular we can use Angular UpperCasePipe.
