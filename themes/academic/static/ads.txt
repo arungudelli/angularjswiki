@@ -284,6 +284,8 @@ decenterads.com, 933, DIRECT
 onetag.com, 694e68b73971b58, DIRECT
 betweendigital.com, 43894, DIRECT
 admanmedia.com,726,RESELLER
+google.com, pub-3960095709930134, RESELLER, f08c47fec0942fa0
+google.com, pub-8278416939377896, DIRECT, f08c47fec0942fa0
 interdogmedia.com, 719, DIRECT 
 apacdex.com, 719, DIRECT 
 h12ukltd.com, 719, DIRECT
