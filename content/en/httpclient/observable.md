@@ -8,10 +8,10 @@ toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "httpclient"
 prev="httpclient"
-featured="pipes-in-angular.jpg"
+featured="Angular.png"
 authors = ["admin"]
-summary ="Angular provides a built in HttpClient API to communicate with the back-end server for such operations."
-keywords=["Angular HttpClient,"]
+summary ="All methods in Angular `HttpClient` return an RxJS Observable."
+keywords=["Angular HttpClient Observable"]
 
 # Add menu entry to sidebar.
 
