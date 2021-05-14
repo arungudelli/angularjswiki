@@ -38,6 +38,11 @@
   url = "/fontawesome/"
   weight = 40 
 
+#[[main]]
+#  name = "HttpClient"
+#  url = "/httpclient/"
+#  weight = 35
+
 
 
 # Link to a PDF of your resume/CV from the menu.
