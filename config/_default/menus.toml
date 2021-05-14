@@ -38,10 +38,10 @@
   url = "/fontawesome/"
   weight = 40 
 
-#[[main]]
-#  name = "HttpClient"
-#  url = "/httpclient/"
-#  weight = 35
+[[main]]
+  name = "HttpClient"
+  url = "/httpclient/"
+  weight = 35
 
 
 
