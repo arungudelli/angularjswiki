@@ -208,6 +208,33 @@ h3,h4 {
   margin-right: auto;
   margin-left: auto;
 }
+
+p.powered-by a{
+    margin: 10px;
+    padding: 16px;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.185) white;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.185);
+  border-radius: 5px;
+}
+
   </style>  
   {{ $js := .Site.Data.assets.js }}
   {{/* We cannot use SRI with Google Fonts because the CSS is dynamically generated according to the user agent. */}}
@@ -245,10 +272,7 @@ h3,h4 {
   -webkit-font-smoothing: antialiased;
 }
 
-p.powered-by a{
-    margin: 10px;
-    padding: 16px;
-}
+
 
 </style>
 {{end}}
