@@ -246,6 +246,15 @@ advertising.com, 28464, RESELLER
 xandr.com, 12701, DIRECT, f5ab79cb980f11d1
 video.unrulymedia.com, 3736557092, RESELLER
 rhythmone.com, 3736557092, RESELLER, a670c89d4a324e47
+google.com, pub-7079691902491759, DIRECT, f08c47fec0942fa0
+appnexus.com, 12840, DIRECT, f5ab79cb980f11d1
+sovrn.com, 352873, DIRECT, fafdf38b16bf6b2b
+lijit.com, 352873, DIRECT, fafdf38b16bf6b2b
+lijit.com, 352873-eb, DIRECT, fafdf38b16bf6b2b
+rhythmone.com, 3657726366, DIRECT, a670c89d4a324e47
+media.net, 8CULVE5ZL, DIRECT
+yieldmo.com, 2737909449233473695, DIRECT
+sonobi.com, 19b956f44f, DIRECT, d1a215d9eb5aee9e
 interdogmedia.com, 719, DIRECT 
 apacdex.com, 719, DIRECT 
 h12ukltd.com, 719, DIRECT
