@@ -58,5 +58,6 @@ status = 301
 from = "/ads.txt"
 to = "https://adstxt.valueimpression.com/a/angularjswiki.com/ads.txt"
 status = 301
+force = true
 
   
