@@ -11,7 +11,7 @@ prev="httpclient/observable"
 featured="Angular.png"
 authors = ["admin"]
 summary ="HttpClient service in Angular has 9 methods which are used to perform HTTP requests"
-keywords=["Angular HttpClient,"]
+keywords=["Angular HttpClient methods"]
 
 # Add menu entry to sidebar.
 
