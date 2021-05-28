@@ -22,7 +22,7 @@ linktitle = "Observable"
 
 +++
 
-All methods in Angular `HttpClient` return an RxJS Observable.
+All methods in Angular's `HttpClient` return an RxJS Observable.
 
 And the type of Observable can be anything, based upon the requested type.
 
