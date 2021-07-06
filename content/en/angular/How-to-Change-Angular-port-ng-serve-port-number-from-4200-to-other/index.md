@@ -65,8 +65,14 @@ Here are the steps to add default port number in Angular applications.
 
 {{< figure src="/img/blog/angular-port-number-config.png" title="angular port number config" alt="angular port number config">}}
 
+Now if run `ng serve` command, the project automatically uses 3001 port number specified in `angular.json` file.
 
-And one more good thing in latest Angular versions is if the port 4200 is already in use. 
+```
+** Angular Live Development Server is listening on localhost:3001, open your browser on http://localhost:3001/ **
+```
+
+
+And one more good thing in latest Angular versions is if the [port 4200 is already in use](https://www.angularjswiki.com/angular/port-4200-is-already-in-use-use-port-to-specify-a-different-port-error/). 
 
 The Angular CLI automatically asks us to use a different port. as shown below.
 
