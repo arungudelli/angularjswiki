@@ -13,6 +13,12 @@
   url = "/angularcli/"
   weight = 26 
 
+[[main]]
+  name = "interview"
+  url = "/interview/"
+  weight = 30 
+
+
 #[[main]]
 #  name = "Routing"
 #  url = "/routing/"
