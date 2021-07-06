@@ -39,7 +39,7 @@ Everytime we have to pass port number to `ng serve` command using `--port` flag.
 
 ## Adding default port number in project's angular.json file.
 
-In latest version of Angular i.e., Angular 10+ we can configure the default port in project's `angular.json` file.
+In latest versions of Angular i.e., Angular 10+ we can configure the default port in project's `angular.json` file.
 
 Here are the steps to add default port number in Angular applications.
 
@@ -65,7 +65,7 @@ Here are the steps to add default port number in Angular applications.
 
 {{< figure src="/img/blog/angular-port-number-config.png" title="angular port number config" alt="angular port number config">}}
 
-Now if run `ng serve` command, the project automatically uses 3001 port number specified in `angular.json` file.
+Now if we run `ng serve` command, the project automatically uses 3001 port number specified in `angular.json` file.
 
 ```
 ** Angular Live Development Server is listening on localhost:3001, open your browser on http://localhost:3001/ **
