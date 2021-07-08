@@ -33,6 +33,8 @@ In this tutorial we will learn how to use font awesome icons by serving them fro
 
 Using CDN(Content delivery Network) is the best way to serve font awesome icon css or js files, instead of hosting them from our own servers.
 
+{{%toc%}}
+
 ## Steps to use font awesome CDN
 
 1. Open official fontawesome icon website.
@@ -99,8 +101,6 @@ So font awesome CDN will automatically adds the `aria-hidden=true` attribute to 
 </button>
 ```
 
-Or we can use 
-
 ## font awesome 5 CDN. 
 
 Apart from the above font awesome official CDN, we can use free version of font awesome icons by using content delivery networks like cdnjs, maxcdn and jsdelivr.
@@ -108,7 +108,7 @@ Apart from the above font awesome official CDN, we can use free version of font 
 
 ## Font awesome CDN by cdn js 
 
-For the latest font awesome 5 version and above use the below font awesome CDN links by cdnjs.
+For the latest font awesome 5 version and above use the below font awesome CDN CSS file links by cdnjs.
 
 ```
 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
@@ -155,13 +155,47 @@ https://cdnjs.com/libraries/font-awesome
 
 ## Font awesome CDN links by jsdelivr 
 
-Serve font awesome icons CSS using jsdelivr.
+Serve font awesome icons CSS files using below jsdelivr CDN links.
 
 ```
-https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.css
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/all.css
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/all.min.css
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/brands.css
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/brands.min.css
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/fontawesome.css
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/fontawesome.min.css
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/regular.css
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/regular.min.css
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/solid.css
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/solid.min.css
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/svg-with-js.css
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/svg-with-js.min.css
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/v4-shims.css
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/v4-shims.min.css
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.min.css
 
 ```
+For Font awesome CDN javascript files links use below.
+```
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/all.js
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/all.min.js
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/brands.js
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/brands.min.js
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/conflict-detection.js
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/conflict-detection.min.js
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/fontawesome.js
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/fontawesome.min.js
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/regular.js
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/regular.min.js
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/solid.js
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/solid.min.js
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/v4-shims.js
+https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/v4-shims.min.js
+```
 
+Here is the link to latest jsdelivr fontawesome CDN.
+
+```
 https://www.jsdelivr.com/package/gh/FortAwesome/Font-Awesome
 
 ```
