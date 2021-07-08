@@ -2,7 +2,7 @@
 title = "Font Awesome CDN"
 subtitle = "Font awesome Icons CDN list"
 type="docs"
-summary ="To use Font Awesome CDN we need to create an account in their website."
+summary ="In this tutorial we will learn how to use font awesome icons by serving them from font awesome cdn."
 keywords=["font awesome icons,font awesome icons CDN"]
 date="2019-07-14T01:01:05+0000"
 lastmod="2020-12-01T00:00:08+0000"
@@ -29,14 +29,18 @@ weight=2
 
 +++
 
-Using CDN is the best way to serve font awesome icon css or js files, instead of hosting them from our own servers.
+In this tutorial we will learn how to use font awesome icons by serving them from font awesome cdn.
 
-Steps to use Font Awesome CDN
+Using CDN(Content delivery Network) is the best way to serve font awesome icon css or js files, instead of hosting them from our own servers.
 
-1. Get a unique embed code by entering your email in following this [link](https://fontawesome.com/start).
-2. Then font awesome sends an email with the Font Awesome CDN embed code along with instructions to add icons in our website.
-3. The sample JavaScript font awesome CDN link will be in below format.`https://use.fontawesome.com/a34asdfsd.js`.
-4. Copy the embed code you received via email and place it in your HTML `<head>` tag. 
+## Steps to use font awesome CDN
+
+1. Open official fontawesome icon website.
+
+2. Get a unique embed code by entering your email in following this [link](https://fontawesome.com/start).
+3. Then font awesome sends an email with the Font Awesome CDN embed code along with instructions to add icons in our website.
+4. The sample JavaScript font awesome CDN link will be in below format.`https://use.fontawesome.com/a34asdfsd.js`.
+5. Copy the embed code you received via email and place it in your HTML `<head>` tag. 
 
 {{< figure src="/img/font-awesome-cdn-embed-code.png" title="font awesome cdn embed code" alt="font awesome cdn embed code">}}
 
@@ -95,35 +99,71 @@ So font awesome CDN will automatically adds the `aria-hidden=true` attribute to 
 </button>
 ```
 
-Or we can use free version of font awesome icons by using content delivery networks like cdnjs, maxcdn and jsdelivr etc..
+Or we can use 
 
-## Font awesome 5 CDN links 
+## font awesome 5 CDN. 
 
-For the latest font awesome 5 version and above use the below content delivery networks.
+Apart from the above font awesome official CDN, we can use free version of font awesome icons by using content delivery networks like cdnjs, maxcdn and jsdelivr.
 
-Serve font awesome icons CSS using cdnjs (cloudfare).
+
+## Font awesome CDN by cdn js 
+
+For the latest font awesome 5 version and above use the below font awesome CDN links by cdnjs.
 
 ```
-https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/regular.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/regular.min.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/svg-with-js.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/svg-with-js.min.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/v4-shims.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/v4-shims.min.css
 
+```
+
+If you want to use Javascript version of font awesome icons use the below CDN links by cdnjs.
+
+```
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.js
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/brands.js
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/brands.min.js
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/conflict-detection.js
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/conflict-detection.min.js
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/fontawesome.js
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/fontawesome.min.js
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/regular.js
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/regular.min.js
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/solid.js
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/solid.min.js
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/v4-shims.js
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/v4-shims.min.js
+```
+
+For the latest fontawesome CDN versions refer below cdnjs link by cloudflare.
+
+```
 https://cdnjs.com/libraries/font-awesome
 ```
+
+## Font awesome CDN links by jsdelivr 
 
 Serve font awesome icons CSS using jsdelivr.
 
 ```
 https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.css
+
+```
+
 https://www.jsdelivr.com/package/gh/FortAwesome/Font-Awesome
 
-```
-
-If you want to use javascript version of font awesome icons. Use the below CDN links
-
-
-```
-https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js
-
-https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/js/all.js
 ```
 
 ## Font awesome Bootstrap CDN link
