@@ -11,7 +11,7 @@ linktitle="Interview"
 [menu.interview]
 parent="interview"
 weight=20
-draft=true
+draft=false
 +++
 
 Here is the list of **Angular interview questions and answers**, which are likely to be asked during the time of interview. 
@@ -86,14 +86,51 @@ Components are nothing but group of HTML tags or other components which defines 
 
 Every component in Angular will have a selector, template  and an optional styleUrls
 
-## 8.What are decorators?
+## 9. What is a selector?
 
-## 9.What is a template?
+Selector is nothing but HTML tags. Unlink built in selectors like a,p,div we can have our own selectors in Angular like `<login>` etc..
 
-## 10.What are selector,templateUrl and styleUrls inside Component?
+## 10.What is a template?
+
+Template is nothing but group of HTML tags which represents an UI block. 
+We can add a template to component using templateUrl.
+
+## 11. What are the different ways to add a template to a component?
+
+We can use two different ways to add a template to component
+
+1. Using `template` key of `@component` object.(inline template)
+2. Using templateUrl.
+
+```
+@Component({
+selector: 'app-hello-world',
+template: `
+<p>
+hello-world Angular!
+</p>
+`
+})
+```
+
+To add an inline template we have to use backticks (`...`)
+
+But in most of the cases we won't be using inline template, as whenever we create a component using ng create component command, angular cli creates a default template HTML file which will be reffered in component object using `templateUrl`. 
+
+We can define templates two ways, either by using the template key in our
+@Component object or by specifying a templateUrl.
+We could add a template to our @Component by passing the template option:
+Writing Your First Angular Web Application 18
+
+Notice that we’re defining our template string between backticks (` … `). This is
+a new (and fantastic) feature of ES6 that allows us to do multiline strings. Using
+backticks for multiline strings makes it easy to put templates inside your code files
+
+## 11.What are selector,templateUrl and styleUrls inside Component?
+
 
 ## 11.What is the best way to add template to the component?
 
 ## 12.Can we add multiple css files for a component?
 
-
+## 8.What are decorators?
