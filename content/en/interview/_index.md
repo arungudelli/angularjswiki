@@ -11,7 +11,7 @@ linktitle="Interview"
 [menu.interview]
 parent="interview"
 weight=20
-draft=false
+draft=true
 +++
 
 Here is the list of **Angular interview questions and answers**, which are likely to be asked during the time of interview. 
