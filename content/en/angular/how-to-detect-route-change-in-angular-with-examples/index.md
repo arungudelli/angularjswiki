@@ -1,77 +1,107 @@
 +++
 title = "How to detect route change in Angular with examples"
-subtitle = "get current route Url in Angular"
-summary ="Steps to get current route URL in Angular. 1. Import Router,NavigationEnd from angular/router and inject in the constructor. 2. Subscribe to the NavigationEnd event of the router.3. Get the current route Url by accessing NavigationEnd url property."
-keywords=["get current route Angular,current route url angular,angular NavigationEnd"]
-date="2020-07-07T01:01:05+0000"
-lastmod="2020-07-08T00:00:00+0000"
+subtitle = "detect change in url route Angular"
+summary ="Steps to detect route change in Angular. 1. Import Router, Event, NavigationStart, NavigationEnd, NavigationError from '@angular/router'. 2. And inject router in the constructor.3. Subscribe to the NavigationStart, NavigationEnd, NavigationError events of the router. 4. detect the change in URL route by accessing NavigationEnd's url or NavigationStart's url property"
+keywords=["detect route change angular,angular NavigationStart,angular NavigationEnd"]
+date="2021-08-06T01:01:05+0000"
+lastmod="2021-08-06T00:00:00+0000"
 type="post"
-draft=true
+draft=false
 authors = ["admin"]
 
 +++
 
-Steps to detect route change in Angular.
+Steps to detect route change in Angular application Urls.
 
 1. Import Router, Event, NavigationStart, NavigationEnd, NavigationError from '@angular/router'.
 2. And inject router in the constructor.
-2. Subscribe to the NavigationStart, NavigationEnd, NavigationError events of the router.
-3. detect the change in URL route by accessing NavigationEnd's url or NavigationStart's url property.
+3. Subscribe to the NavigationStart, NavigationEnd, NavigationError events of the router.
+4. detect the change in URL route by accessing NavigationEnd's url or NavigationStart's url property.
+
+We can add progress spinner or progress bar whenever a route change detected in Angular applications.
 
 Now we will go through an example to understand it further.
 
 We will take similar example as explained in [How to get current route URL in Angular
 ](https://www.angularjswiki.com/angular/how-to-get-current-route-in-angular/)
 
-I have created an Angular app which contains three routes. About,Service and Dashboard.
+I have created an Angular app which contains three routes. Aboutus,Services and Contactus.
 
 ```
 import { Component } from '@angular/core';
 import { Router, Event, NavigationStart, NavigationEnd, NavigationError} from '@angular/router';
 
 @Component({
-  selector: 'my-app',
+  selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  styleUrls: ['./app.component.sass']
 })
-export class AppComponent  {
-  
-  name = 'Get Current Url Route Demo';
+export class AppComponent {
+  title = 'detect-route-change';
   currentRoute: string;
 
-  constructor(private router: Router){
-    console.log(router.url);
-    
-    router.events.filter(event => event instanceof NavigationEnd)
-          .subscribe(event => 
-           {
-              this.currentRoute = event.url;          
-              console.log(event);
-           });
-    }
+  constructor(private router: Router) {
+    this.currentRoute = "";
+    this.router.events.subscribe((event: Event) => {
+        if (event instanceof NavigationStart) {
+            // Show progress spinner or progress bar
+            console.log('Route change detected');
+        }
+
+        if (event instanceof NavigationEnd) {
+            // Hide progress spinner or progress bar
+            this.currentRoute = event.url;          
+            console.log(event);
+        }
+
+        if (event instanceof NavigationError) {
+             // Hide progress spinner or progress bar
+
+            // Present error to user
+            console.log(event.error);
+        }
+    });
+
 }
-```
-
-I have created a variable called `currentRoute`, to display current router url value in the component HTML file.
-
-In the subscribe event of `NavigationEnd`, I am updating `currentRoute` value.
+}
 
 ```
-<ul>    
+
+Lets go deep into the code, we are subscribing to NavigationStart,NavigationEnd events of router. 
+
+Whenever there is a change in angular router, first it will call NavigationStart method as we have subscribed to it. 
+
+Here we can create a variable which indicates whether we have to show loading indicators such as progress spinner or progress bar.
+
+After navigating to the required route, NavigationEnd event will be called.
+
+Here we can hide the loading indicators.
+
+I have created a variable called `currentRoute`, which indicates the current router url value in the component HTML file.
+
+In the subscribe event of `NavigationEnd`, we can change the `currentRoute` value.
+
+```
+<h1>Detect Route Change Angular</h1>
+For the Tutorial <a href="https://www.angularjswiki.com/angular/how-to-get-current-route-in-angular/">Visit Angular Wiki</a>
+<ul>  
   <li routerLinkActive="active">
-     <a [routerLink]="['/about']">About</a>
+    <a [routerLink]="['/']">Home</a>
+ </li>  
+  <li routerLinkActive="active">
+     <a [routerLink]="['/aboutus']">About Us</a>
   </li>
   <li routerLinkActive="active">
-     <a [routerLink]="['/service']">Service</a>
+     <a [routerLink]="['/services']">Services</a>
   </li>
   <li routerLinkActive="active">
-     <a [routerLink]="['/dashboard']">Dashboard</a>
+     <a [routerLink]="['/contactus']">Contact Us</a>
   </li>
 </ul>
 
   The current Route Is {{currentRoute}}
 
-  <router-outlet></router-outlet>
+<router-outlet></router-outlet>
 
 ```
 
@@ -79,13 +109,6 @@ Here is the demo.
 
 
 {{< video src="get-current-route-demo.mp4" srcwebm="get-current-route-demo.webm">}} 
-
-
-You might get current route by accessing `router.url` as well.
-
-But If you are navigating the routes with Hash location strategy, the `router.url` is always return "/".
-
-So it's advisable to listen for `NavigationEnd` event of router to get the current route url in Angular.
 
 {{< figure src="NavigationEndEvent.PNG" title="NavigationEndEvent" alt="NavigationEndEvent">}}
 
