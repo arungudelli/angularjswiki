@@ -1,7 +1,7 @@
 +++
 title = "How to detect route change in Angular with examples"
 subtitle = "detect change in url route Angular"
-summary ="Steps to detect route change in Angular. 1. Import Router, Event, NavigationStart, NavigationEnd, NavigationError from '@angular/router'. 2. And inject router in the constructor.3. Subscribe to the NavigationStart, NavigationEnd, NavigationError events of the router. 4. detect the change in URL route by accessing NavigationEnd's url or NavigationStart's url property"
+summary ="Steps to detect route change in Angular. 1. Import Router, Event, NavigationStart, NavigationEnd, NavigationError from '@angular/router'. 2. And inject router in the constructor.3. Subscribe to the NavigationStart, NavigationEnd, NavigationError events of the router. 4. Detect the change in URL route in NavigationStart's subscribe method"
 keywords=["detect route change angular,angular NavigationStart,angular NavigationEnd"]
 date="2021-08-06T01:01:05+0000"
 lastmod="2021-08-06T00:00:00+0000"
@@ -16,7 +16,7 @@ Steps to detect route change in Angular application Urls.
 1. Import Router, Event, NavigationStart, NavigationEnd, NavigationError from '@angular/router'.
 2. And inject router in the constructor.
 3. Subscribe to the NavigationStart, NavigationEnd, NavigationError events of the router.
-4. detect the change in URL route by accessing NavigationEnd's url or NavigationStart's url property.
+4. Detect the change in URL route in NavigationStart's subscribe method.
 
 We can add progress spinner or progress bar whenever a route change detected in Angular applications.
 
@@ -67,11 +67,11 @@ export class AppComponent {
 
 ```
 
-Lets go deep into the code, we are subscribing to NavigationStart,NavigationEnd events of router. 
+Lets go deep into the code, we are subscribing to NavigationStart, NavigationEnd events of router. 
 
 Whenever there is a change in angular router, first it will call NavigationStart method as we have subscribed to it. 
 
-Here we can create a variable which indicates whether we have to show loading indicators such as progress spinner or progress bar.
+Here we can create a variable which indicates whether we have to show loading indicators such as [progress spinner](https://www.angularjswiki.com/angular/creating-progress-spinner-in-angular/) or [progress bar](https://www.angularjswiki.com/angular/progress-bar-in-angular-mat-progress-bar-examplematerial-design/).
 
 After navigating to the required route, NavigationEnd event will be called.
 
@@ -108,9 +108,13 @@ For the Tutorial <a href="https://www.angularjswiki.com/angular/how-to-get-curre
 Here is the demo.
 
 
-{{< video src="get-current-route-demo.mp4" srcwebm="get-current-route-demo.webm">}} 
+{{< video src="/img/videos/detect-route-change.mp4" srcwebm="/img/videos/detect-route-change.webm">}} 
 
-{{< figure src="NavigationEndEvent.PNG" title="NavigationEndEvent" alt="NavigationEndEvent">}}
+## Stackblitz Demo
+
+Here is the link to Stackblitz code and Demo
+
+[Code & Demo](https://stackblitz.com/edit/angular-detect-route-change)
 
 Further read:
 
