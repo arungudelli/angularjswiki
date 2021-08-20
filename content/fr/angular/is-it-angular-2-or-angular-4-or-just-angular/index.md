@@ -1,13 +1,4 @@
-+++
-title = "Is It Angular 2 Or Angular 4 Or Just Angular?"
-type="post"
-subtitle = "Angular Version History"
-summary ="Explains the version change history of Angular 2 or angular &amp; why we should call just Angular instead of adding suffix like angular 2 or Angular 4."
-keywords=["angular 2,angular 4,version history of angular 2,angular"]
-date="2018-02-10T01:01:05+0000"
-lastmod="2018-10-15T17:01:18+0000"
-draft=true
-authors = ["admin"]
++++ title = "Is It Angular 2 Or Angular 4 Or Just Angular?" type="post" subtitle = "Angular Version History" summary ="Explains the version change history of Angular 2 or angular & why we should call just Angular instead of adding suffix like angular 2 or Angular 4." keywords=["angular 2,angular 4,version history of angular 2,angular"] date="2018-02-10T01:01:05+0000" lastmod="2018-10-15T17:01:18+0000" draft=true authors = ["admin"]
 
 +++
 
@@ -23,7 +14,7 @@ Google clearly mentioned that, we should start avoiding GitHub/NPM libraries pre
 
 Tweet from Igor Minor one of the key member of Angular Team.
 
-{{< figure src="Its-just-angular.png" title="Its just angular" alt="Its just angular">}} 
+{{< figure src="Its-just-angular.png" title="Its just angular" alt="Its just angular">}}
 
 ## Naming guidelines from Google:
 
