@@ -1,6 +1,6 @@
 Angular Wiki
 
-This hugo grepository hosts the content of the Angular Wiki, published in (https://www.angularjswiki.com/)[https://www.angularjswiki.com/].
+This hugo repository hosts the content of the Angular Wiki, published in https://www.angularjswiki.com/.
 
 Contributions
 
