@@ -1,14 +1,4 @@
-+++
-title = "Dynamically Change NgIf Then,Else Templates At Runtime In Angular"
-subtitle = "ngif vs hidden or display:none"
-type="post"
-summary ="We can take full advantage of ngIfThen,ngIfElse template references in *ngIf directive to change then or else templates dynamically at runtime"
-keywords=["ngif in angular,ngif with else,ngif with then,ngif with then and else"]
-date="2018-08-05T01:01:05+0000"
-lastmod="2018-10-15T16:53:28+0000"
-draft=true
-authors = ["admin"]
-+++
++++ title = "Dynamically Change NgIf Then,Else Templates At Runtime In Angular" subtitle = "ngif vs hidden or display:none" type="post" summary ="We can take full advantage of ngIfThen,ngIfElse template references in *ngIf directive to change then or else templates dynamically at runtime" keywords=["ngif in angular,ngif with else,ngif with then,ngif with then and else"] date="2018-08-05T01:01:05+0000" lastmod="2018-10-15T16:53:28+0000" draft=true authors = ["admin"] +++
 
 We can take full advantage of `ngIfThen`,`ngIfElse` template references in `*ngIf` directive to change `then` or `else` templates dynamically at runtime. Go through the below example to understand it further.
 
@@ -72,7 +62,7 @@ show = {{show}}
 <ng-template #elseTemplate>
   Else Template
 </ng-template>
-```  
+```
 The above template being converted to
 
 ```
