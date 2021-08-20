@@ -1,31 +1,18 @@
-+++
-title = "Angular Material Divider : Mat-Divider Example"
-subtitle = "Learn how to use Angular material divider"
-type="post"
-summary ="Angular Material Divider component mat-divider a simple line divider that groups elements in list and layout by following material design styles."
-keywords=["mat-divider example,mat-divider vertical example,mat-divider inset example"]
-date="2019-01-29T01:01:05+0000"
-lastmod="2019-01-30T04:58:49+0000"
-draft=true
-authors = ["admin"]
++++ title = "Angular Material Divider : Mat-Divider Example" subtitle = "Learn how to use Angular material divider" type="post" summary ="Angular Material Divider component mat-divider a simple line divider that groups elements in list and layout by following material design styles." keywords=["mat-divider example,mat-divider vertical example,mat-divider inset example"] date="2019-01-29T01:01:05+0000" lastmod="2019-01-30T04:58:49+0000" draft=true authors = ["admin"]
 
 
-[image]
-  caption = "Angular Material Divider"
+[image] caption = "Angular Material Divider"
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  # Focal point (optional) # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight focal_point = ""
 
-  # Show image only in page previews?
-  preview_only = false
+  # Show image only in page previews? preview_only = false
 
 +++
 
 Angular Material Divider component _mat-divider_  a simple line divider that groups elements in list and layout by following material design styles.
 
 {{% toc %}}
-  
+
 
 ## Importing mat-divider module
 
@@ -161,25 +148,24 @@ Additionally we can change style of the mat-divider by overriding border-top-st
 ## mat-divider properties
 
 <table>
-	<thead>
-		<tr>
-			<th>mat-divider property</th>
-			<th>description</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>inset</td>
-			<td>to use inset divider set the property value to true.</td>
-		</tr>
-		<tr>
-			<td>vertical</td>
-			<td>to use vertical divider
+    <thead>
+        <tr>
+            <th>mat-divider property</th>
+            <th>description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>inset</td>
+            <td>to use inset divider set the property value to true.</td>
+        </tr>
+        <tr>
+            <td>vertical</td>
+            <td>to use vertical divider
 set the property value to true</td>
-		</tr>
-	</tbody>
+        </tr>
+    </tbody>
 </table>
-
 
 ## mat-divider not showing
 
