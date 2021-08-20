@@ -1,24 +1,11 @@
-+++
-title = "Angular Material Buttons : Mat-Button Example"
-subtitle = "Learn how to create beautiful buttons using material design"
-type="post"
-summary ="Angular Material button module MatButtonModule(mat-button,mat-raised-button,mat-icon-button,mat-fab,mat-mini-fab) enhances the user experience of normal buttons () and anchor () tags by following Material design principles."
-keywords=["buttons,angular material buttons,mat-button,mat-raised-button,mat-icon-button,mat-fab,mat-mini-fab"]
-date="2018-08-23T01:01:05+0000"
-lastmod="2018-10-15T16:49:27+0000"
-draft=true
-authors = ["admin"]
++++ title = "Angular Material Buttons : Mat-Button Example" subtitle = "Learn how to create beautiful buttons using material design" type="post" summary ="Angular Material button module MatButtonModule(mat-button,mat-raised-button,mat-icon-button,mat-fab,mat-mini-fab) enhances the user experience of normal buttons () and anchor () tags by following Material design principles." keywords=["buttons,angular material buttons,mat-button,mat-raised-button,mat-icon-button,mat-fab,mat-mini-fab"] date="2018-08-23T01:01:05+0000" lastmod="2018-10-15T16:49:27+0000" draft=true authors = ["admin"]
 
 
-[image]
-  caption = "Angular Material Checkbox"
+[image] caption = "Angular Material Checkbox"
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  # Focal point (optional) # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight focal_point = ""
 
-  # Show image only in page previews?
-  preview_only = false
+  # Show image only in page previews? preview_only = false
 
 +++
 
@@ -126,11 +113,11 @@ Google express uses all kinds of material buttons in its website.
 <button mat-button>Learn More</button>
 <button mat-button>Got It</button>
 <a mat-button routerLink="https://www.arungudelli.com">mat-button</a>
-```  
+```
 For a shopping website like Google express remoing items from shopping cart is less important action. So it uses mat-button to remove the items from cart.
 
 {{< figure src="mat-button.png" title="mat-button example" alt="mat-button example">}}
-  
+
 ## mat-stroked-button example
 
 mat-stroked-button is an outlined button i.e., button contains border. Generally used more important actions than text buttons.
@@ -141,8 +128,7 @@ mat-stroked-button is an outlined button i.e., button contains border. Generally
 <a mat-stroked-button routerLink="https://www.arungudelli.com">
 mat-stroked-button</a>
 ```
-In Google express home page displays the list of products by department, with add to cart button for every product.
-Add to Cart button uses mat-stroked-button because all the products has same priority, Each add to card button has same importance.And this Add to cart button is not a primary action in the home page.
+In Google express home page displays the list of products by department, with add to cart button for every product. Add to Cart button uses mat-stroked-button because all the products has same priority, Each add to card button has same importance.And this Add to cart button is not a primary action in the home page.
 
 {{< figure src="mat-stroked-button.png" title="mat-stroked-button example" alt="mat-stroked-button example">}}
 
@@ -156,7 +142,7 @@ mat-flat-button is a contained button filled with color.It should be used for pr
 <a mat-flat-button routerLink="https://www.arungudelli.com">
 mat-flat-button</a>
 ```
-  
+
 ## mat-raised-button example
 
 mat-raised-button is a contained button filled with color and has shadow. And has more visibility than flat button. And we can use it in place of mat-flat-button to represent primary action in the web page.
@@ -167,11 +153,11 @@ mat-raised-button is a contained button filled with color and has shadow. And ha
 <a mat-raised-button routerLink="https://www.arungudelli.com">
 mat-raised-button</a>
 ```
-    
+
 If you open the single product page in Google express,Add to cart button is primary action on the page. So it is contained button.mat-raised-button is used in this case.
 
 {{< figure src="mat-raised-button-example.png" title="mat-raised-button example" alt="mat-raised-button example">}}
-    
+
 ## mat-icon-button example
 
 We can use angular material icons as buttons. We need to add mat-icon-button attribute to button and use mat-icon tag to display icon.
@@ -188,11 +174,11 @@ In Google express website uses mat-icon-button to display the shopping cart and 
 ```
 <i class="material-icons">help </i><i class="material-icons">shopping_cart</i>
 ```
-   
+
 ## mat-button with icon and text example
 
 To add the icon to mat-button text, we need to add mat-icon before the text of button as shown below
-      
+
 ```
 <h3>mat-button with icon and text</h3>
 
@@ -201,7 +187,7 @@ To add the icon to mat-button text, we need to add mat-icon before the text of b
 Add to Cart
 </button>
 ```
-      
+
 ## mat-fab example
 
 mat-fab is a regular floating action button. Generally used for most important action in the screen.
@@ -227,13 +213,13 @@ Default size of regular fab button is 56*56
 As of now there is no direct way to implement FAB extended button using Angular Material. There is an open issue about this in <a href="https://github.com/angular/material2/issues/12246" target="_blank" rel="nofollow noopener">github</a>
 
 {{< figure src="mat-fab-buttons.png" title="mat fab buttons" alt="mat fab buttons">}}
-        
+
 New Gmalis Compose button uses extended FAB button.
 
 ## mat-mini-fab example
 
 mat-mini-fab is a floating action button with size less than regular FAB button. Should be used in small screens.
-        
+
 ```
 <button mat-mini-fab>mat-mini-fab</button>
 <a mat-mini-fab routerLink="https://www.arungudelli.com">
@@ -244,40 +230,40 @@ mat-mini-fab size is 40*40.
 ## mat button api
 <div class="table-responsive">
 <table class="table">
-	<thead>
-		<tr>
-			<th>Property</th>
-			<th>Description</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>color </td>
-			<td>Of type ThemePalette</td>
-		</tr>
-		<tr>
-			<td>disabled </td>
-			<td>of type boolean</td>
-		</tr>
-		<tr>
-			<td>disableRipple </td>
-			<td>of type boolean</td>
-		</tr>
-		<tr>
-			<td>isIconButton </td>
-			<td>Readonly, of type boolean</td>
-		</tr>
-		<tr>
-			<td>isRoundButton </td>
-			<td>Readonly, of type boolean</td>
-		</tr>
-		<tr>
-			<td>ripple </td>
-			<td>of type MatRipple</td>
-		</tr>
-	</tbody>
+    <thead>
+        <tr>
+            <th>Property</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>color </td>
+            <td>Of type ThemePalette</td>
+        </tr>
+        <tr>
+            <td>disabled </td>
+            <td>of type boolean</td>
+        </tr>
+        <tr>
+            <td>disableRipple </td>
+            <td>of type boolean</td>
+        </tr>
+        <tr>
+            <td>isIconButton </td>
+            <td>Readonly, of type boolean</td>
+        </tr>
+        <tr>
+            <td>isRoundButton </td>
+            <td>Readonly, of type boolean</td>
+        </tr>
+        <tr>
+            <td>ripple </td>
+            <td>of type MatRipple</td>
+        </tr>
+    </tbody>
 </table>
-</div>     
+</div>
 
 ## mat-button color change and theming
 
@@ -285,7 +271,7 @@ To change the color of mat-button color use <em>color</em> property. We can chan
 
 ```
 <button mat-button color="primary">Primary</button>
-```        
+```
 
 ## mat-button disabled
 
@@ -298,11 +284,11 @@ To disable the mat-button we can use mat-button disabled property.
 ## mat-button disableRipple
 
 To disable the ripple animation of mat-button use disableRipple property.
-        
+
 ```
 <button mat-raised-button color="primary" disableRipple=true>Primary</button>
 ```
-        
+
 ## mat-button isIconButton
 
 mat-button isIconButton property is a readonly attribute which represents whether the button is icon button.
@@ -320,7 +306,7 @@ Using ripple attribute we get the instance of MatRipple.
 We can set the focus of mat-button programmatically using focus method.
 
 In the below example <a href="https://www.angularjswiki.com/angular/checkbox-implementation-in-angular-using-angular-material/" target="_blank" rel="noopener">mat-checkbox</a> change event will dynamically focus the mat-button using focus button.
-        
+
 ```
 <mat-checkbox
 (change)="changeEvent($event)"></mat-checkbox> 
@@ -448,9 +434,9 @@ Focusing
 <br/> 
 <p>On Change event focuses the button</p>
 <button mat-button #submitButton>Basic</button>
-```        
+```
 Here is the example demo for <a href="https://angular-zgafvf.stackblitz.io/" target="_blank" rel="noopener">Angular material buttons</a>
-        
+
 ## mat button not a known element
 
 If you miss importing `MatButtonModule` from `@angular/material` you will get an error saying mat-button is not a know n element.
