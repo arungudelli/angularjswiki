@@ -1,19 +1,10 @@
-+++
-title = "Comment obtenir l'indice de l'élément ngFor en angular"
-subtitle = "obtenir l'index de l'élément ngFor"
-summary ="Etapes pour obtenir l'indice de l'élément ngFor dans Angular 1. Déclarer une variable à l'intérieur de la directive *ngFor en utilisant 'let' ou 'as', par exemple dire 'indexofelement' ou simplement 'i'. 2. Assignez la valeur de la variable à 'index'. 3. Et afficher l'index de l'élément ngFor en utilisant une expression angular."
-keywords=["indice ngFor,obtenir l'index de l'élément ngFor"]
-date="2020-02-13T01:01:05+0000"
-lastmod="2020-02-13T02:45:18+0000"
-type="post"
-draft=false
-authors = ["admin"]
++++ title = "Comment obtenir l'indice de l'élément ngFor en angular" subtitle = "obtenir l'index de l'élément ngFor" summary ="Etapes pour obtenir l'indice de l'élément ngFor dans Angular 1. Déclarer une variable à l'intérieur de la directive *ngFor en utilisant 'let' ou 'as', par exemple dire 'indexofelement' ou simplement 'i'. for instance say indexofelement. 2. Assignez la valeur de la variable à 'index'. 3. Et afficher l'index de l'élément ngFor en utilisant une expression angular." keywords=["indice ngFor,obtenir l'index de l'élément ngFor"] date="2020-02-13T01:01:05+0000" lastmod="2020-02-13T02:45:18+0000" type="post" draft=false authors = ["admin"]
 
 +++
 
 Etapes pour obtenir l'indice de l'élément ngFor dans Angular
 
-1. Déclarer une variable à l'intérieur de la directive *ngFor en utilisant `let` ou `as`, par exemple dire "indexofelement" ou simplement "i".
+1. Déclarer une variable à l'intérieur de la directive *ngFor en utilisant `let` ou `as`, par exemple dire "indexofelement" ou simplement "i". for instance say `indexofelement` or simply `i`.
 2. Assignez la valeur de la variable à `index`.
 3. Et afficher l'index de l'élément ngFor en utilisant une expression angular.
 
@@ -34,7 +25,7 @@ export class NgForGetIndexComponent implements OnInit {
         {id:4,name:"HTML"}
      ];
   }
-  
+
   ngOnInit(): void {
   }
 
