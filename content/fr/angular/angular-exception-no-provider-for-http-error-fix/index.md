@@ -1,23 +1,8 @@
-+++
-title = "Angular EXCEPTION: No Provider For Http! Error Fix"
-subtitle = "Fixing EXCEPTION: No Provider For Http! error"
-type="post"
-summary ="To avoid Angular EXCEPTION: No provider for Http! error we need to import HttpClientModule from @angular/common/http."
-keywords=["angular,exception: no provider for http!,httpclientmodule,httpmodule"]
-date="2018-09-10T01:01:05+0000"
-lastmod="2018-11-04T04:00:07+0000"
-draft=true
-authors = ["admin"]
-[image]
-  caption = "EXCEPTION: No Provider For Http! Error Fix"
++++ title = "Angular EXCEPTION: No Provider For Http! Error Fix" subtitle = "Fixing EXCEPTION: No Provider For Http! error" type="post" summary ="To avoid Angular EXCEPTION: No provider for Http! error we need to import HttpClientModule from @angular/common/http." keywords=\["angular,exception: no provider for http!,httpclientmodule,httpmodule"] date="2018-09-10T01:01:05+0000" lastmod="2018-11-04T04:00:07+0000" draft=true authors = ["admin"\] \[image\] caption = "EXCEPTION: No Provider For Http! Error Fix"
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  # Focal point (optional) # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight focal_point = ""
 
-  # Show image only in page previews?
-  preview_only = false
-+++
+  # Show image only in page previews? preview_only = false +++
 
 To avoid Angular EXCEPTION: No provider for Http! error we need to import `HttpClientModule` from `@angular/common/http`.
 
