@@ -1,19 +1,9 @@
-+++
-title = "History of AngularJs"
-subtitle = "Story behind Angular birth"
-type="post"
-summary ="This artile explains history of angularjs like who invented angularjs, when angularjs started.How it evolved in Google from GetAngular to Angularjs and now angular"
-keywords=["angularjs,getangular,history of angularjs,angular"]
-date="2018-01-30T01:01:05+0000"
-lastmod="2018-10-15T17:02:04+0000"
-draft=true
-authors = ["admin"]
-+++
++++ title = "History of AngularJs" subtitle = "Story behind Angular birth" type="post" summary ="This artile explains history of angularjs like who invented angularjs, when angularjs started.How it evolved in Google from GetAngular to Angularjs and now angular" keywords=["angularjs,getangular,history of angularjs,angular"] date="2018-01-30T01:01:05+0000" lastmod="2018-10-15T17:02:04+0000" draft=true authors = ["admin"] +++
 
 
 When I started learning AngualJs I have couple of questions in my mind like who is the creator AngularJs? When it started? Why its named Angular? etc etc.
 
-Long back I read one quote 
+Long back I read one quote
 
 {{% alert note %}}
 The best things in life are not planned, they simply just happen;
@@ -25,11 +15,11 @@ That's exactly what happened with Angularjs. There is an interesting story behin
 
 It all started in 2008 and 2009, **Misko hevery** (a developer at Google) working on a part time project to simplify web application development. Not for web developers but web designers who have no or little knowledge about web development by extending vocabulary of HTML, so that if we have a static web server you can actually build a simple web application (without worrying about what is happening in the back ground).
 
-{{< figure src="Misko-Hevery.jpg" title="Misko Hevery" alt="Misko Hevery">}} 
+{{< figure src="Misko-Hevery.jpg" title="Misko Hevery" alt="Misko Hevery">}}
 
 {{< figure src="adam-abrons.jpg" title="Adam Abrons" alt="Adam Abrons">}}
 
-**Adam abrons** friend of Misko, who is working with him on this project named it as Angular as its HTML and HTML contains angular brackets. 
+**Adam abrons** friend of Misko, who is working with him on this project named it as Angular as its HTML and HTML contains angular brackets.
 
 So they register is domain called getangular.com (as angular.com is already taken).
 
@@ -45,17 +35,17 @@ At that point of time **Brad Green** manager of **Misko** at Google asked him to
 
 Google has a framework called _Google web tool kit_ (GWT) written in Java to develop their internal tools and projects.
 
-Three developers including _Misko_ wrote 17000 lines of code for 6 months, later it’s became very difficult for them to write code as it’s hard to test. 
+Three developers including _Misko_ wrote 17000 lines of code for 6 months, later it’s became very difficult for them to write code as it’s hard to test.
 
 To add one label in HTML you have write code in java and compile it and transform it to HTML JavaScript to display in web browser.
 
-Then _Misko_ challenged _Brad_ that he can write whole thing in 2 weeks by using his side project Angular. 
+Then _Misko_ challenged _Brad_ that he can write whole thing in 2 weeks by using his side project Angular.
 
 He lost the challenge but completed it in 3 weeks of time. And the lines of code reduced 1500 within 3 weeks with angular (one developer).
 
 Impressed Brad Green asked him to work further on angular. Then he along with **Shyam Seshadri** and **Igor Minor** shipped Google feedback tool with complete AngularJs.
 
-{{< figure src="Brad-Green.jpg" title="Brad Green" alt="Brad Green">}} 
+{{< figure src="Brad-Green.jpg" title="Brad Green" alt="Brad Green">}}
 
 Then they went for review with **Urs hoelzle**,Senior engineering manager at Google(part of Google infrastructure team at that time).
 
@@ -77,7 +67,7 @@ Then they open sourced it and people outside of Google started using it.
 
 Later Google acquired DoubleClick Company. Double Click built on C#,Asp .Net platform.
 
-_Marc Jacobs_ tech lead of DoubleClick Digital Marketing Manager team and his team started writing it from scratch as they don’t have much dotnet developers at that time. 
+_Marc Jacobs_ tech lead of DoubleClick Digital Marketing Manager team and his team started writing it from scratch as they don’t have much dotnet developers at that time.
 
 His team consist of few C# developers and JavaScript developers and they do not have much idea about Google web toolkit (GWT).
 
@@ -87,7 +77,7 @@ They took one of the landing page of Doubleclick and by using same webservices a
 
 Whereas with Google Web Toolkit they worked for two and half weeks and could not complete it and gave up.
 
-Finally, they decided to go with Angular. It’s again the Constructive Disobedience of _Marc Jacobs_. 
+Finally, they decided to go with Angular. It’s again the Constructive Disobedience of _Marc Jacobs_.
 
 Everyone at Google using GWT and this person decided go for AngularJs. Initially they faced few problems but at the end its happy story.
 
@@ -100,7 +90,7 @@ Logo : <a href="https://99designs.com/logo-design/contests/create-logo-google-an
 
 _Misko hevery _decided to go for shield like logo because it’s similar to HTML5 logo, it shields from low levels of browsers and it’s kind of cool super hero thing.
 
-{{< figure src="AngularJS_logo.svg_.png" title="Angular js Logo" alt="Angular js Logo">}} 
+{{< figure src="AngularJS_logo.svg_.png" title="Angular js Logo" alt="Angular js Logo">}}
 
 Brad Green decided to release stable API 1.0 version of AngularJs (backed by Google) so that people can rely on it by August 2010.
 
