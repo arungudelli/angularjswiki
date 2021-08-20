@@ -1,25 +1,10 @@
-+++
-title = "How To Use Font Awesome icons in Angular Applications"
-subtitle = "Learn how to use Font Awesome icons in Angular"
-type="post"
-summary ="Step by step tutotial to use Font Awesome icons in Angular applications"
-keywords=["Font Awesome icons in Angular,Font Awesome"]
-date="2019-06-09T01:01:05+0000"
-lastmod="2019-06-09T13:15:51+0000"
-draft=true
-authors = ["admin"]
++++ title = "How To Use Font Awesome icons in Angular Applications" subtitle = "Learn how to use Font Awesome icons in Angular" type="post" summary ="Step by step tutotial to use Font Awesome icons in Angular applications" keywords=["Font Awesome icons in Angular,Font Awesome"] date="2019-06-09T01:01:05+0000" lastmod="2019-06-09T13:15:51+0000" draft=true authors = ["admin"]
 
-[image]
-  caption = "Font Awesome icons in Angular"
+[image] caption = "Font Awesome icons in Angular"
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  # Focal point (optional) # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight focal_point = ""
 
-  # Show image only in page previews?
-  preview_only = false
-+++
-In this tutorial I will explain how to use Font Awesome icons in Angular applications.
+  # Show image only in page previews? preview_only = false +++ In this tutorial I will explain how to use Font Awesome icons in Angular applications.
 
 First we will learn basic Font Awesome icons rendering in Angular and then we will go through some cool Font Awesome features like animations,layering,transforming etc..
 
@@ -54,8 +39,7 @@ This configuration can be done at global level or per project level
 
 ## Global level configuration
 
-To use Font Awesome icons across all the angular projects add @fortawesome scope to use Font Awesome pro npm package source
-i.e., npm.fontawesome.com
+To use Font Awesome icons across all the angular projects add @fortawesome scope to use Font Awesome pro npm package source i.e., npm.fontawesome.com
 
 ```
 npm config set "@fortawesome:registry" https://npm.fontawesome.com/ && \
@@ -82,19 +66,23 @@ npm install @fortawesome/pro-regular-svg-icons
 npm install @fortawesome/pro-light-svg-icons
 ```
 
+To display font awesome icons in normal HTML pages using their class name, CSS content values and for complete free icon list go through the below article.
+
+[Font Awesome Icons List](https://www.angularjswiki.com/angular/font-awesome-icons-list-usage-css-content-values/)
+
 ## Using Font Awesome icons in Angular applications
 
 We can use Font Awesome icons in Angular applications two ways depending upon our requirements
 
 1. Using Explicitly in Component
-2. Using Icon library 
+2. Using Icon library
 
 Steps to use Font Awesome icons at component level
 
-1. In app.module.ts file import FontAwesomeModule from @fortawesome package as shown below 
+1. In app.module.ts file import FontAwesomeModule from @fortawesome package as shown below
 ```
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
-``` 
+```
 
 2. And then add FontAwesomeModuel in imports array as shown below
 
@@ -115,8 +103,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 ```
 I have created a component called FontAwesomeDemo in my angular application to use Font Awesome icons
 
-Import the required icons from `@fortawesome/free-solid-svg-icons` file as shown below.
-In this example I am importing Film Icon.
+Import the required icons from `@fortawesome/free-solid-svg-icons` file as shown below. In this example I am importing Film Icon.
 
 ```
 import { Component, OnInit } from '@angular/core';
@@ -149,9 +136,9 @@ In the component html render using `fa-icon` selector show below
 
 This approach is good when you are using Font Awesome icons in a single component. But most of the times this is not the case We will be using icons across the applications.
 
-So each time importing icons in individual components is not a good idea. 
+So each time importing icons in individual components is not a good idea.
 
-That's where Icon library very useful. 
+That's where Icon library very useful.
 
 We can import all necessary icons in one place and use them across the application. Go through the below example
 
@@ -219,7 +206,7 @@ If you want to change the icon style we can pass the style to icon attribute as 
 ```
 far means font awesome regular styles.
 
-As the icons are not managed by component file, if you remove the icons from library at app module level the components which are using those icons will break. 
+As the icons are not managed by component file, if you remove the icons from library at app module level the components which are using those icons will break.
 
 If you want to use all available icons, You can add them to library as shown below
 
@@ -230,8 +217,7 @@ import { far } from '@fortawesome/free-regular-svg-icons';
 library.add(fas, far);
 ```
 
-Here I am adding bothe regular and solid styles to the library. 
-Now we can use all free icons within our project.
+Here I am adding bothe regular and solid styles to the library. Now we can use all free icons within our project.
 
 The only disadvantage of this approach is angular project bundle size will increase.
 
@@ -266,7 +252,7 @@ To use brand icons such as twitter,facebook etc use the prefix 'fab'
 <fa-icon [icon]="['fab', 'facebook']"></fa-icon>
 
 ```
- {{< figure src="fontawesome brand icons.png" title="fontawesome brand icons" alt="fontawesome brand icons">}} 
+ {{< figure src="fontawesome brand icons.png" title="fontawesome brand icons" alt="fontawesome brand icons">}}
 
 
 To use the pro only light icons use the prefix 'fal'
@@ -292,12 +278,11 @@ Now we can use bell icon in our component file as shown below
 <fa-icon [icon]="['fas', 'bell']"></fa-icon>
 <fa-icon [icon]="['far', 'bell']"></fa-icon>
 ```
- {{< figure src="Regular vs solid icons.png" title="Regular vs solid icons" alt="Regular vs solid icons">}} 
+ {{< figure src="Regular vs solid icons.png" title="Regular vs solid icons" alt="Regular vs solid icons">}}
 
 ## Changing Font Awesome Icons color and stroke in Angular
 
-To change the Font Awesome Icons color and stroke we can use `style` attribute of `fa-icon` selector
-as shown below
+To change the Font Awesome Icons color and stroke we can use `style` attribute of `fa-icon` selector as shown below
 
 ```
 <fa-icon [icon]="['fas', 'film']" 
@@ -324,7 +309,7 @@ export class AppComponent {
 
 ## Font Awesome icons features
 
-Angular Font Awesome icons comes up with useful features like  
+Angular Font Awesome icons comes up with useful features like
 
 1. Changing icons size
 2. Fixed width icons
@@ -355,7 +340,7 @@ Normally Font Awesome icons inherit the size of parent container. By using size 
   <fa-icon [icon]="['fab', 'angular']" size="10x"></fa-icon>
 </div>
 ```
- {{< figure src="fontawesome icon different sizes.png" title="fontawesome icon different sizes" alt="fontawesome icon different sizes">}} 
+ {{< figure src="fontawesome icon different sizes.png" title="fontawesome icon different sizes" alt="fontawesome icon different sizes">}}
 
 
 ## Fixed width Font Awesome icons in Angular
@@ -395,7 +380,7 @@ I have added background color to Font Awesome icons for visual indication of ico
 }
 ```
 
- {{< figure src="fixed width fontawesome icons.png" title="fixed width fontawesome icons" alt="fixed width fontawesome icons">}} 
+ {{< figure src="fixed width fontawesome icons.png" title="fixed width fontawesome icons" alt="fixed width fontawesome icons">}}
 
 As you can see, the icons rendered with `fixedWidth` are vertically aligned with same width
 
@@ -414,13 +399,13 @@ We can rotate the Font Awesome icons in Angular using rotate property of `<fa-ic
 <fa-icon [icon]="['fas', 'snowboarding']" rotate="270"></fa-icon>
 ```
 
- {{< figure src="Rotating fontawesome icons.png" title="Rotating fontawesome icons" alt="Rotating fontawesome icons">}} 
+ {{< figure src="Rotating fontawesome icons.png" title="Rotating fontawesome icons" alt="Rotating fontawesome icons">}}
 
 ## Mirroring Font Awesome icons in Angular
 
 We can mirror the Font Awesome icons using `flip` property as shown below
 
-Allowed values for `flip` property are 
+Allowed values for `flip` property are
 
 1. horizontal : mirrors icon horizontally
 2. vertical : mirrors icon vertically
@@ -440,7 +425,7 @@ Allowed values for `flip` property are
 
 ```
 
- {{< figure src="Mirroring fontawesome icons.png" title="Mirroring fontawesome icons" alt="Mirroring fontawesome icons">}} 
+ {{< figure src="Mirroring fontawesome icons.png" title="Mirroring fontawesome icons" alt="Mirroring fontawesome icons">}}
 
 
 ## Animating Font Awesome icons in Angular
@@ -466,13 +451,11 @@ And spinner and sync icons are usually used along with animations.
 <fa-icon [icon]="['fas', 'sync']" [spin]="true"></fa-icon>
 <fa-icon [icon]="['fas', 'sync']" [pulse]="true"></fa-icon>
 ```
-{{< video src="/img/fontawesome/fontawesome icons animations.mp4" srcwebm="/img/fontawesome/fontawesome icons animations.webm">}} 
+{{< video src="/img/fontawesome/fontawesome icons animations.mp4" srcwebm="/img/fontawesome/fontawesome icons animations.webm">}}
 
-The real fun is we can bind the `spin` and `pulse` values to angular component variables.
-As shown below
+The real fun is we can bind the `spin` and `pulse` values to angular component variables. As shown below
 
-I have created a variable called `isAnimated` and binding it to the `fa-icon` spin property.
-On clicking the icon Iam toggling the isAnimated value
+I have created a variable called `isAnimated` and binding it to the `fa-icon` spin property. On clicking the icon Iam toggling the isAnimated value
 
 ```
 <fa-icon 
@@ -512,7 +495,7 @@ size="5x"
 ```
 
 
-{{< video src="/img/fontawesome/FontawesomeAnimation.mp4" srcwebm="/img/fontawesome/FontawesomeAnimation.webm">}} 
+{{< video src="/img/fontawesome/FontawesomeAnimation.mp4" srcwebm="/img/fontawesome/FontawesomeAnimation.webm">}}
 
 ## Pulled Font Awesome Icons
 
@@ -528,7 +511,7 @@ You Don’t Have To Be Pushed. The Vision Pulls You
 ```
 The allowed values of `pull` are left,right.
 
- {{< figure src="fontawesome pulled icons.png" title="fontawesome pulled icons" alt="fontawesome pulled icons">}} 
+ {{< figure src="fontawesome pulled icons.png" title="fontawesome pulled icons" alt="fontawesome pulled icons">}}
 
 
 ## Transform Font Awesome icons in Angular
@@ -546,7 +529,7 @@ To scale Font Awesome icons using transform attribute use `shrink-x` or `grow-x`
 <fa-icon [icon]="['fas', 'snowboarding']" transform="grow-5">
 </fa-icon>
 ```
- {{< figure src="scaling fontawesome icons.png" title="scaling fontawesome icons" alt="scaling fontawesome icons">}} 
+ {{< figure src="scaling fontawesome icons.png" title="scaling fontawesome icons" alt="scaling fontawesome icons">}}
 
 
 To position the icons i.e., to move icons up, down, left, or right, use `up-x, down-x, left-x, and right-x` where `x` any numeric value, including decimals.
@@ -559,7 +542,7 @@ To position the icons i.e., to move icons up, down, left, or right, use `up-x, d
 <fa-icon [icon]="['fas', 'snowboarding']" transform="down-5"></fa-icon>
 <fa-icon [icon]="['fas', 'snowboarding']" transform="right-5"></fa-icon>
 ```
- {{< figure src="fontawesome position icons.png" title="fontawesome position icons" alt="fontawesome position icons">}} 
+ {{< figure src="fontawesome position icons.png" title="fontawesome position icons" alt="fontawesome position icons">}}
 
 
 Now we will combine both position and scaling as shown below.
@@ -575,7 +558,7 @@ transform="shrink-10 left-5"></fa-icon>
 <fa-icon [icon]="['fas', 'snowboarding']" 
 transform="shrink-10 right-5"></fa-icon>
 ```
- {{< figure src="positioning fontawesome icons.png" title="positioning fontawesome icons" alt="positioning fontawesome icons">}} 
+ {{< figure src="positioning fontawesome icons.png" title="positioning fontawesome icons" alt="positioning fontawesome icons">}}
 
 
 To rotate the icons using Font Awesome transform property use `rotate-x`. Where `x` is degrees to rotate and negative values also allowed.
@@ -591,13 +574,12 @@ transform="rotate-180"></fa-icon>
 <fa-icon [icon]="['fas', 'snowboarding']" 
 transform="rotate-270"></fa-icon>
 ```
- {{< figure src="fontawesome icons transform rotate.png" title="fontawesome icons transform rotate" alt="fontawesome icons transform rotate">}} 
+ {{< figure src="fontawesome icons transform rotate.png" title="fontawesome icons transform rotate" alt="fontawesome icons transform rotate">}}
 
 
-We can bind `rotate` values to our component variables to create animatation effect. 
-Have a look at the below jumping horse animation.
+We can bind `rotate` values to our component variables to create animatation effect. Have a look at the below jumping horse animation.
 
-{{< video src="/img/fontawesome/Jumping horce animation.mp4" srcwebm="/img/fontawesome/Jumping horce animation.webm">}} 
+{{< video src="/img/fontawesome/Jumping horce animation.mp4" srcwebm="/img/fontawesome/Jumping horce animation.webm">}}
 
 ```
 <fa-icon 
@@ -625,7 +607,7 @@ transform="flip-v"></fa-icon>
 <fa-icon [icon]="['fas', 'snowboarding']" 
 transform="flip-v flip-h"></fa-icon>
 ```
- {{< figure src="transform fontawesome icons flipping.png" title="transform fontawesome icons flipping" alt="transform fontawesome icons flipping">}} 
+ {{< figure src="transform fontawesome icons flipping.png" title="transform fontawesome icons flipping" alt="transform fontawesome icons flipping">}}
 
 
 We can use all of them in one tranform as shown below
@@ -634,7 +616,7 @@ We can use all of them in one tranform as shown below
 <fa-icon [icon]="['fas', 'snowboarding']" 
 transform="flip-h rotate-90 shrink-10 up-5"></fa-icon>
 ```
- {{< figure src="Transform fontawesome icons.png" title="Transform fontawesome icons" alt="Transform fontawesome icons">}} 
+ {{< figure src="Transform fontawesome icons.png" title="Transform fontawesome icons" alt="Transform fontawesome icons">}}
 
 
 ## Combine two icons using Font Awesome mask
@@ -648,12 +630,11 @@ We can combine two icons into one single color icons using mask property for `fa
 [mask]="['fas', 'comment']"></fa-icon>
 ```
 
-mask icon i.e., outer icon acts like background to the actual icon as shown below. 
-transform property will be applied on actual icon.
+mask icon i.e., outer icon acts like background to the actual icon as shown below. transform property will be applied on actual icon.
 
 In the above example headphones and pencil-alt are actual icons. Whereas square and comment icons acts like background.
 
- {{< figure src="masking fontawesome icons.png" title="masking fontawesome icons" alt="masking fontawesome icons">}} 
+ {{< figure src="masking fontawesome icons.png" title="masking fontawesome icons" alt="masking fontawesome icons">}}
 
 
 ## Layering, Text, & Counters Font Awesome icons
@@ -706,7 +687,7 @@ Further we can use `transform` to shrink and position the twitter icon exactly m
     transform="right-1 shrink-5"></fa-icon>
 </fa-layers> 
 ```
- {{< figure src="fontawesome icons layers.png" title="fontawesome icons layers" alt="fontawesome icons layers">}} 
+ {{< figure src="fontawesome icons layers.png" title="fontawesome icons layers" alt="fontawesome icons layers">}}
 
 Now we will see how to combine more than two icons into one icon using Font Awesome layers
 
@@ -725,11 +706,11 @@ Now we will see how to combine more than two icons into one icon using Font Awes
 
 I am placing sun,moon,star on top of rotated play icon (i.e., triangle). I have used transform property to align them properly as shown below
 
- {{< figure src="fontawesome multiple icons.png" title="fontawesome multiple icons" alt="fontawesome multiple icons">}} 
+ {{< figure src="fontawesome multiple icons.png" title="fontawesome multiple icons" alt="fontawesome multiple icons">}}
 
-Placing multiple icons on top of each other has several real world use cases. 
+Placing multiple icons on top of each other has several real world use cases.
 
-For example banning cellphones and camera symbols icons.  
+For example banning cellphones and camera symbols icons.
 
 ```
 <fa-layers>
@@ -745,11 +726,11 @@ For example banning cellphones and camera symbols icons.
   <fa-icon [icon]="['fas', 'ban']" style="color:red"></fa-icon>
 </fa-layers>
 ```
- {{< figure src="fontawesome ban icons.png" title="fontawesome ban icons" alt="fontawesome ban icons">}} 
+ {{< figure src="fontawesome ban icons.png" title="fontawesome ban icons" alt="fontawesome ban icons">}}
 
 
 ## Adding text to Font Awesome icons in Angular
- 
+
 To add text to the icon we can use `fa-layers-text` selector inside `fa-layer` as shown below
 
 Here we are adding date to the calendar icons using `fa-layer-text`.
@@ -761,7 +742,7 @@ Here we are adding date to the calendar icons using `fa-layer-text`.
      transform="shrink-5 down-3"></fa-layers-text>
 </fa-layers>
 ```
- {{< figure src="fontawesome icon layer text.png" title="fontawesome icons layer text" alt="fontawesome icons layer text">}} 
+ {{< figure src="fontawesome icon layer text.png" title="fontawesome icons layer text" alt="fontawesome icons layer text">}}
 
 
 ## Adding counters to Font Awesome icons in Angular
