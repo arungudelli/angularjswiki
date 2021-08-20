@@ -1,23 +1,10 @@
-+++
-title = "Is Node.Js Required For Angular 2 Or Angular?"
-subtitle = "Why Node Js?"
-type="post"
-summary ="Node js Required to develop angular 2 or angular apps. This tutorial explains reasons why node js required to develop angular 2 or angular apps. with the help node js angular apps development will be easy."
-keywords=["angular 2,angular,nodejs,why node js required for angular,angular 4"]
-date="2018-02-11T01:01:05+0000"
-lastmod="2018-10-15T17:00:48+0000"
-draft=true
-authors = ["admin"]
++++ title = "Is Node.Js Required For Angular 2 Or Angular?" subtitle = "Why Node Js?" type="post" summary ="Node js Required to develop angular 2 or angular apps. This tutorial explains reasons why node js required to develop angular 2 or angular apps. with the help node js angular apps development will be easy." keywords=["angular 2,angular,nodejs,why node js required for angular,angular 4"] date="2018-02-11T01:01:05+0000" lastmod="2018-10-15T17:00:48+0000" draft=true authors = ["admin"]
 
-[image]
-  caption = "Node js required to build angular apps"
+[image] caption = "Node js required to build angular apps"
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  # Focal point (optional) # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight focal_point = ""
 
-  # Show image only in page previews?
-  preview_only = false
+  # Show image only in page previews? preview_only = false
 
 +++
 
@@ -25,7 +12,7 @@ Yes. Node.js required for Angular 2 or Angular apps.
 
 We need to install Node.js to develop Angular Apps.
 
-If you are familiar with Angular JS 1.x. All we need to do is to add Angular Js file in script tag.But this not the case for Angular.
+If you are familiar with Angular JS 1.x. If you are familiar with Angular JS 1.x. All we need to do is to add Angular Js file in script tag.But this not the case for Angular.
 
 ## Reasons why we need Node.js for Angular
 
@@ -40,9 +27,9 @@ If you are familiar with Angular JS 1.x. All we need to do is to add Angular Js 
 Use Node and NPM not as production server but as tooling and building Angular apps.
 {{% /alert %}}
 
-{{< figure src="Is-Node-Required-For-Angular.png" title="Node js Required to develop angular apps" alt="Node js Required to develop angular apps">}} 
+{{< figure src="Is-Node-Required-For-Angular.png" title="Node js Required to develop angular apps" alt="Node js Required to develop angular apps">}}
 
-You do not need to use Node anywhere in production server to use front-end JavaScript frameworks like Angular or react etc. We can use any backend webserver technology written in any language (C# ,Java etc.)
+You do not need to use Node anywhere in production server to use front-end JavaScript frameworks like Angular or react etc. We can use any backend webserver technology written in any language (C# ,Java etc.) We can use any backend webserver technology written in any language (C# ,Java etc.)
 
 If you are from Dotnet background, you might think that why I need to install Node as Visual studio comes with Typescript plugin, web server. Technically, it is correct.
 
