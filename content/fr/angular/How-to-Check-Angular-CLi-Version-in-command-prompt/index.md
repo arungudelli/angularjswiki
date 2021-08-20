@@ -1,13 +1,4 @@
-+++
-title = "Comment vérifier la version Angular CLI dans l'invite de commande"
-subtitle = "Vérification de la version Angular CLI"
-summary ="Pour vérifier la version Angular CLI, utilisez la commande ng --version ou ng v."
-keywords=["Angular CLI, verison,Angular CLI version Commande"]
-date="2020-01-14T01:01:05+0000"
-lastmod="2020-01-14T02:45:18+0000"
-type="post"
-draft=false
-authors = ["admin"]
++++ title = "Comment vérifier la version Angular CLI dans l'invite de commande" subtitle = "Vérification de la version Angular CLI" summary ="Pour vérifier la version Angular CLI, utilisez la commande ng --version ou ng v." keywords=["Angular CLI, verison,Angular CLI version Commande"] date="2020-01-14T01:01:05+0000" lastmod="2020-01-14T02:45:18+0000" type="post" draft=false authors = ["admin"]
 
 +++
 
@@ -33,9 +24,9 @@ rxjs                         6.4.0
 ```
 {{< figure src="Angular CLI Version.png" title="Vérification de la version Angular CLI" alt="Vérification de la version Angular CLI">}}
 
-Ou nous pouvons utiliser `npm list -global` pour lister toutes les versions des paquets installés sur notre machine. 
+Ou nous pouvons utiliser `npm list -global` pour lister toutes les versions des paquets installés sur notre machine.
 
-Dans cette liste, nous pouvons vérifier la version Angular CLI. 
+Dans cette liste, nous pouvons vérifier la version Angular CLI.
 
 Pour afficher des listes spécifiques à différents niveaux, utilisez `--depth`.
 
