@@ -32,7 +32,7 @@ And the type of Observable can be anything, based upon the requested type.
 
 Older Angularjs(1.x) framework uses promises to do HTTP requests.
 
-However there few limitations while using promises. 
+However there are few limitations while using promises. 
 
 And Observables are very powerful when compared with promises. 
 

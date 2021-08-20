@@ -3,7 +3,7 @@ title = "HTTP get request example in angular using HttpClient"
 subtitle = "Learn how make http get request in Angular using HttpClient service"
 date = 2021-08-10T00:00:00
 lastmod = 2021-08-10T01:00:00
-draft = true  # Is this a draft? true/false
+draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "httpclient"
@@ -22,44 +22,75 @@ linktitle = "get"
 
 +++
 
-All methods in Angular's `HttpClient` return an RxJS Observable.
+In Angular, to get the data from the server we can make use of `HttpClient.get()` method. 
 
-And the type of Observable can be anything, based upon the requested type.
+**`HttpClient.get()` method is an asynchronous method that performs an HTTP get request in Angular applications and returns an Observable. And that Observable emits the requested data when the response is received from the server.**
+
+Now we will go through an example to understand it further. 
 
 {{%toc%}}
 
-## Why Angular Uses Observable for HttpClient?
+## Http get request in Angular
 
-Older Angularjs(1.x) framework uses promises to do HTTP requests.
+Open your command promt and create a new application using Angular cli ng new command.
 
-However there few limitations while using promises. 
+```
+> ng new http-get-request-angular
+```
 
-And Observables are very powerful when compared with promises. 
+Here is the Output
 
-We can easily write retry mechanism in case of a failed http request.
-And you can't do this with promises at all(or easily). 
+```
+? Do you want to enforce stricter type checking and stricter bundle budgets in the workspace?
+  This setting helps improve maintainability and catch bugs ahead of time.
+  For more information, see https://angular.io/strict Yes
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? SCSS   [ https://sass-lang.com/documentation/syntax#scss
+ ]
+CREATE http-get-request-angular/angular.json (3849 bytes)
+CREATE http-get-request-angular/package.json (1214 bytes)
+CREATE http-get-request-angular/README.md (1030 bytes)
+CREATE http-get-request-angular/tsconfig.json (737 bytes)
+CREATE http-get-request-angular/tslint.json (3185 bytes)
+CREATE http-get-request-angular/.editorconfig (274 bytes)
+CREATE http-get-request-angular/.gitignore (631 bytes)
+CREATE http-get-request-angular/.browserslistrc (703 bytes)
+CREATE http-get-request-angular/karma.conf.js (1029 bytes)
+CREATE http-get-request-angular/tsconfig.app.json (287 bytes)
+CREATE http-get-request-angular/tsconfig.spec.json (333 bytes)
+CREATE http-get-request-angular/src/favicon.ico (948 bytes)
+CREATE http-get-request-angular/src/index.html (307 bytes)
+CREATE http-get-request-angular/src/main.ts (372 bytes)
+CREATE http-get-request-angular/src/polyfills.ts (2826 bytes)
+CREATE http-get-request-angular/src/styles.scss (80 bytes)
+CREATE http-get-request-angular/src/test.ts (753 bytes)
+CREATE http-get-request-angular/src/assets/.gitkeep (0 bytes)
+CREATE http-get-request-angular/src/environments/environment.prod.ts (51 bytes)
+CREATE http-get-request-angular/src/environments/environment.ts (662 bytes)
+CREATE http-get-request-angular/src/app/app-routing.module.ts (245 bytes)
+CREATE http-get-request-angular/src/app/app.module.ts (393 bytes)
+CREATE http-get-request-angular/src/app/app.component.html (25757 bytes)
+CREATE http-get-request-angular/src/app/app.component.spec.ts (1111 bytes)
+CREATE http-get-request-angular/src/app/app.component.ts (229 bytes)
+CREATE http-get-request-angular/src/app/app.component.scss (0 bytes)
+CREATE http-get-request-angular/e2e/protractor.conf.js (904 bytes)
+CREATE http-get-request-angular/e2e/tsconfig.json (274 bytes)
+CREATE http-get-request-angular/e2e/src/app.e2e-spec.ts (675 bytes)
+CREATE http-get-request-angular/e2e/src/app.po.ts (274 bytes)
+√ Packages installed successfully.
+```
 
-And we can't cancel http requests with promises. 
+Now navigate to application directory by using following cd command.
 
-A real world case would be auto complete search where for every keystroke we will call a back-end server to get the results.
+```
+> cd .\http-get-request-angular\
+```
 
-We can trigger 10 Http requests, and most of the time we will be only interested in the very last http request, and if other 9 call are still in pending state, with the use of Observables we can simply cancel all of them.
+Now type `ng serve` your application should be running on `http://localhost:4200/`
 
-And with the help of Observables, with each keystroke we can throttle 300 ms before sending the actual Xhr i.e., http request. 
-
-There are other useful benefits such as 
-
-1. We can make use of all the Rxjs operators.
-2. We can combine multiple http requests as streams
-3. Thinking reactively in your whole app
-
-And the list goes on.. 
-
-All we need to learn is how to make use of different rxjs operators with HttpClient Observable. 
-
-## HttpClient Observable example
-
-Follow the below steps to create an angular application which uses HttpClient Observable
+```
+http-get-request-angular app is running!
+```
 
 As a best practice create a service which makes http request calls with the help of HttpClient module.
 
