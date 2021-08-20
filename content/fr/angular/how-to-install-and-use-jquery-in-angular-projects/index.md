@@ -1,30 +1,17 @@
-+++
-title = "How To Install And Use JQuery In Angular Projects"
-subtitle = "learn how to use jQuery in Angular"
-type="post"
-summary ="Use below commands to install and use jquery in Angular with jquery types npm install --save jquery; npm install --save @types/jquery"
-keywords=["npm install --save jquery,npm install --save @types/jquery,jquery in angular,install jquery in angular should we use jquery in angular"]
-date="2019-02-02T01:01:05+0000"
-lastmod="2019-02-02T04:44:37+0000"
-draft=true
-authors = ["admin"]
++++ title = "How To Install And Use JQuery In Angular Projects" subtitle = "learn how to use jQuery in Angular" type="post" summary ="Use below commands to install and use jquery in Angular with jquery types npm install --save jquery; npm install --save @types/jquery" keywords=["npm install --save jquery,npm install --save @types/jquery,jquery in angular,install jquery in angular should we use jquery in angular"] date="2019-02-02T01:01:05+0000" lastmod="2019-02-02T04:44:37+0000" draft=true authors = ["admin"]
 
-[image]
-  caption = "jQuery in Angular"
+[image] caption = "jQuery in Angular"
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  # Focal point (optional) # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight focal_point = ""
 
-  # Show image only in page previews?
-  preview_only = false
+  # Show image only in page previews? preview_only = false
 
 +++
 
 jQuery plugin in Angular will be very useful while we are doing DOM manipulations.In this tutorial I will be explaining how to install and use jquery in Angular Projects
 
 {{%toc%}}
-  
+
 
 ## Install and Use jquery in Angular
 
@@ -33,7 +20,7 @@ To install jquery in Angular use the following node npm command
 ```
 npm install jquery -- save
 ```
-{{< figure src="Installing-jquery-in-Angular.png" title="Installing jquery in Angular" alt="Installing jquery in Angular">}} 
+{{< figure src="Installing-jquery-in-Angular.png" title="Installing jquery in Angular" alt="Installing jquery in Angular">}}
 
 
 In your [local angular development setup](https://www.angularjswiki.com/angular/angular-2-or-angular-local-development-environment-setup/) you can see jquery folder under node_modules
@@ -103,7 +90,7 @@ ngOnInit() {
    });
 }
 ```
-  
+
 Ideally jquery click function excepts a parameter as function, but i wrote a buggy code `$('#my-button').click(1);` (passing an integer to it).
 
 And typescript compiler does not know the defination of jquery click function and the code will compile and at runtime it will throw an error whenever click the angular buttons.
@@ -125,7 +112,7 @@ npm install --save @types/jquery
 
 After successful installation you will see a folder inside the node_modules/@types with jQuery type defination files.
 
-{{< figure src="jquery-types-installation-in-angular-project.png" title="jquery types installation in angular project" alt="jquery types installation in angular project">}} 
+{{< figure src="jquery-types-installation-in-angular-project.png" title="jquery types installation in angular project" alt="jquery types installation in angular project">}}
 
 If you use jquery @types no need to add jquery.min.js file reference in angular.json file.
 
@@ -143,7 +130,7 @@ And we can also you give your own name for jQuery imports as shown below. In pre
 import * as myjQuery from 'jquery';
 ```
 
-{{< figure src="jquery-types-definations-in-Angular.png" title="jquery types definations in Angular" alt="jquery types definations in Angular">}} 
+{{< figure src="jquery-types-definations-in-Angular.png" title="jquery types definations in Angular" alt="jquery types definations in Angular">}}
 
 And now the same code wont compile at all it will return an error saying.
 
@@ -152,7 +139,7 @@ Argument of type '1' is not assignable to parameter of type 'false | EventHandle
 {{% /alert %}}
 
 
-{{< figure src="jquery-types-definations-example-in-Angular.png" title="jquery types definations example in Angular" alt="jquery types definations example in Angular">}} 
+{{< figure src="jquery-types-definations-example-in-Angular.png" title="jquery types definations example in Angular" alt="jquery types definations example in Angular">}}
 
 See the above defination of click function in visual studio code intellisense.
 
