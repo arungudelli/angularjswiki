@@ -1,28 +1,19 @@
-+++
-title = "Angular Material Progress Bar: Mat-Progress-Bar Example"
-subtitle = "Learn how to create beautiful progress bar using material design"
-type="post"
-summary ="We can create a beatiful Progress bar in Angular using mat-progress-bar which is part of angular material progress bar module called MatProgressBarModule"
-keywords=["mat-progress-bar,angular material progress bar,mat-progress-bar example"]
-date="2018-08-20T01:01:05+0000"
-lastmod="2018-11-15T17:02:19+0000"
-draft=true
-authors = ["admin"]
++++ title = "Angular Material Progress Bar: Mat-Progress-Bar Example" subtitle = "Learn how to create beautiful progress bar using material design" type="post" summary ="We can create a beatiful Progress bar in Angular using mat-progress-bar which is part of angular material progress bar module called MatProgressBarModule" keywords=["mat-progress-bar,angular material progress bar,mat-progress-bar example"] date="2018-08-20T01:01:05+0000" lastmod="2018-11-15T17:02:19+0000" draft=true authors = ["admin"]
 
 
-[image]
-  caption = "Angular Material Checkbox"
+[image] caption = "Angular Material Checkbox"
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  # Focal point (optional) # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight focal_point = ""
 
-  # Show image only in page previews?
-  preview_only = false
+  # Show image only in page previews? preview_only = false
 
 +++
 
 We can create a beatiful Progress bar in Angular using `<mat-progress-bar>` which is part of angular material progress bar module called `MatProgressBarModule`
+
+`<mat-progress-bar>` is a horizontal progress bar in Angular, used to inform users about the progress of ongoing tasks like loading a webpage, reading position indicator of a web page or submitting the form data to the server etc. by following material design specifications.
+
+To use mat-progress-bar we need to import `MatProgressBarModule` from `@angular/material`
 
 In this tutorial we learn how basics of angular material progress bar and then we will create reading position indicator.
 
@@ -30,23 +21,124 @@ In this tutorial we learn how basics of angular material progress bar and then w
 
 ## Angular Material Progress Bar
 
-`<mat-progress-bar>` is a horizontal progress bar in Angular, used to inform users about the progress of ongoing tasks like loading a webpage, reading position indicator of a web page or submitting the form data to the server etc. by following material design specifications.
+Angular Progress Bar with percentage
 
-## mat-progress-bar example
+### Step 1: Import Angular MatProgressBarModule
 
-To use mat-progress-bar we need to import `MatProgressBarModule` from `@angular/material`
+Angular Material progress bar types
 
-<pre>import {MatProgressBarModule} from '@angular/material'</pre>
+```
+import {MatProgressBarModule} from '@angular/material'
+```
+
+### Step 2: Use mat-progress-bar selector in component html
 
 After importing angular material progress bar module. We can use `<mat-progress-bar>` selector in component html file.
 
-`<mat-progress-bar value=40></mat-progress-bar>`
-  
-## Angular Progress Bar with percentage
+```
+<mat-progress-bar value=40></mat-progress-bar>
+```
 
-mat-progress-bar `value` property represents the progress of an on going process. The property `value` range is from 0 to 100. Its basically percentage of Angular material progress bar.
+### Step 3: Give percentage to Progress bar
 
 Now go through the below reading position indicator example to understand mat-progress-bar further.
+
+The property `value` range is from 0 to 100.
+
+Its basically percentage of Angular material progress bar.
+
+### mat-progress-bar change color
+
+We can use `color` property of mat-progress-bar to change the color of the progress bar.
+
+The default color is themes `primary` color. We can change it to `accent` or `warn`
+
+## mat-progress-bar types or mode
+
+Angular material progress bar mat-progress-bar supports four different types of progress bars.
+
+  1. Determinate mode
+  2. Indeterminate mode
+  3. Buffer mode
+  4. Query mode
+
+`mode` property used to decide type of progress bar. Default mode is `determinate` mode. As explained above.
+
+A progress bar contains two elements
+
+  1. track
+  2. indicator
+
+progress bar indicator display progress by animating the indicator along fixed visible track usually width of webpage.
+
+The indicator behavior is dependent on mode property of `mat-progress-bar`.
+
+### mat-progress-bar determinate mode
+
+When we know the process completion time before, we use _determinate_ mode. As explained above read position indicator example.
+
+The progress bar indicator increases it's width from 0 to 100% on the track, in sync with the process progress.
+
+```
+<mat-progress-bar mode="determinate" value=50></mat-progress-bar>
+```
+
+`value` property indicates the progress of the process.
+
+In Google Chrome mobile browser loading of webpage usually indicated by `determinate` progress bar.
+
+### mat-progress-bar indeterminate mode
+
+When we don't know how much time it will take to complete the process we will use `indeterminate` mode.
+
+Sometimes the user is asked to wait from some time, while something finishes like submitting the form data to server or doing some background work.
+
+In that cases,It’s not required to indicate how much time it will take to complete.
+
+```
+<mat-progress-bar mode="indeterminate" *ngIf="IsWait"></mat-progress-bar>
+```
+
+We can use `*ngIf` to display the mat-progress-bar. Ones `ngIf` condition becoms false. Progress bar will be removed.
+
+value property is ignored in this `indeterminate` mode.
+
+Google products like adwords uses indeterminate progress bar.
+
+### mat-progress-bar buffer mode
+
+query mode is useful when we want to show pre loading of progress.
+
+For example we have a process that is divided into four sub tasks.
+
+Each task completion represented by buffer indicator. And the overall progress represented by normal progress bar indicator along the track.
+
+```
+<mat-progress-bar mode="buffer" value=25 bufferValue=50></mat-progress-bar>
+```
+`bufferValue` property indicates buffer indicator progress.
+
+Make sure `bufferValue` is greater than `value`.Otherwise buffer indicator progress hidden by normal progress indicator.
+
+### mat-progress-bar query mode
+
+buffer mode is useful when we want to display the progress in steps.
+
+Once the process loading starts mode should be changed to determinate or indeterminate mode to show the progress of the action.
+
+In query mode mat-progress-bar `value` property is ignored.
+
+```
+<mat-progress-bar mode="query"></mat-progress-bar>
+```
+
+See the <a href="https://angular-effyrv.stackblitz.io" target="_blank" rel="noopener">different types of progress modes demo</a> example
+
+## mat-progress-bar example
+
+How we can use progress bar in our daily projects?
+
+To understand this we will develop a reading position indicator using mat-progress-bar
 
 ## Reading position indicator in Angular using mat-progress-bar
 
@@ -82,7 +174,9 @@ ngOnInit() {
 
 `progressValue` property binds to `value` property of `mat-progress-bar` selector. `rangArray` used to generate dummy content.
 
-And `@HostListener` decorator used to track window scroll event. As the `value` property is between 0 to 100. All we need to do is calculate scroll percentage and assign it to `progressValue`
+And `@HostListener` decorator used to track window scroll event.
+
+As the `value` property is between 0 to 100. All we need to do is calculate scroll percentage and assign it to `progressValue`
 
 ```
 <mat-progress-bar [value]="progresValue" *ngIf="progresValue > 0">
@@ -108,86 +202,6 @@ To fix the progress bar on top of the web page. I have added the above css to `.
 
 See the <a href="https://angular-twjwtd.stackblitz.io" target="_blank" rel="noopener">read position indicator demo</a>.
 
-## Angular Material progress bar types
-
-Angular material progress bar mat-progress-bar supports four different types of progress bars.
-
-  1. Determinate mode
-  2. Indeterminate mode
-  3. Buffer mode
-  4. Query mode
-
-`mode` property used to decide type of progress bar. Default mode is `determinate` mode. As explained above.
-
-A progress bar contains two elements
-
-  1. track
-  2. indicator
-
-progress bar indicator display progress by animating the indicator along fixed visible track usually width of webpage. The indicator behavior is dependent on mode property of `mat-progress-bar`.
-
-## mat-progress-bar determinate mode
-
-When we know the process completion time before, we use _determinate_ mode. As explained above read position indicator example.
-
-The progress bar indicator increases it's width from 0 to 100% on the track, in sync with the process progress.
-
-```
-<mat-progress-bar mode="determinate" value=50></mat-progress-bar>
-```
-
-`value` property indicates the progress of the process.
-
-In Google Chrome mobile browser loading of webpage usually indicated by `determinate` progress bar.
-
-## mat-progress-bar indeterminate mode
-
-When we don't know how much time it will take to complete the process we will use `indeterminate` mode.
-
-Sometimes the user is asked to wait from some time, while something finishes like submitting the form data to server or doing some background work.
-
-In that cases,It’s not required to indicate how much time it will take to complete.
-
-```
-<mat-progress-bar mode="indeterminate" *ngIf="IsWait"></mat-progress-bar>
-```
-
-We can use `*ngIf` to display the mat-progress-bar. Ones `ngIf` condition becoms false. Progress bar will be removed.
-
-value property is ignored in this `indeterminate` mode.
-
-Google products like adwords uses indeterminate progress bar.
-
-## mat-progress-bar buffer mode
-
-buffer mode is useful when we want to display the progress in steps. For example we have a process that is divided into four sub tasks.
-
-Each task completion represented by buffer indicator. And the overall progress represented by normal progress bar indicator along the track.
-
-```
-<mat-progress-bar mode="buffer" value=25 bufferValue=50></mat-progress-bar>
-```
-`bufferValue` property indicates buffer indicator progress.
-
-Make sure `bufferValue` is greater than `value`.Otherwise buffer indicator progress hidden by normal progress indicator.
-
-## mat-progress-bar query mode
-
-query mode is useful when we want to show pre loading of progress.
-
-Once the process loading starts mode should be changed to determinate or indeterminate mode to show the progress of the action.
-
-In query mode mat-progress-bar `value` property is ignored.
-
-```
-<mat-progress-bar mode="query"></mat-progress-bar>
-```
-
-See the <a href="https://angular-effyrv.stackblitz.io" target="_blank" rel="noopener">different types of progress modes demo</a> example
-
-## mat-progress-bar change color
-
-We can use `color` property of mat-progress-bar to change the color of the progress bar. The default color is themes `primary` color. We can change it to `accent` or `warn`
 
 ## mat-progress-bar is not a known element
 
@@ -201,33 +215,33 @@ We will summarise all the mat-progress-bar properties in one place.
 
 <div class="table-responsive">
 <table class="table">
-	<thead>
-		<tr>
-			<th>MatProgressBar property</th>
-			<th>Description</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>value</td>
-			<td>Indicates the progress bar value. Range is 0 to 100. Default value is 0</td>
-		</tr>
-		<tr>
-			<td>mode</td>
-			<td>mode values are determinate,indeterminate,buffer, query. Default mode is determinate.</td>
-		</tr>
-		<tr>
-			<td>bufferValue</td>
-			<td>bufferValue indicates value of buffer indicator of buffered progress value</td>
-		</tr>
-		<tr>
-			<td>color</td>
-			<td>ThemePalette of the theme. defaults to primary.</td>
-		</tr>
-		<tr>
-			<td>progressbarId</td>
-			<td>ID of the material progress bar.</td>
-		</tr>
-	</tbody>
+    <thead>
+        <tr>
+            <th>MatProgressBar property</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>value</td>
+            <td>Indicates the progress bar value. Range is 0 to 100. Default value is 0</td>
+        </tr>
+        <tr>
+            <td>mode</td>
+            <td>mode values are determinate,indeterminate,buffer, query. Default mode is determinate.</td>
+        </tr>
+        <tr>
+            <td>bufferValue</td>
+            <td>bufferValue indicates value of buffer indicator of buffered progress value</td>
+        </tr>
+        <tr>
+            <td>color</td>
+            <td>ThemePalette of the theme. defaults to primary.</td>
+        </tr>
+        <tr>
+            <td>progressbarId</td>
+            <td>ID of the material progress bar.</td>
+        </tr>
+    </tbody>
 </table>
 </div>
