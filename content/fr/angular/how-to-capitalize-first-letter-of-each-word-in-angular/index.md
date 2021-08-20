@@ -1,24 +1,11 @@
-+++
-title = "Angular TitleCase Pipe:Capitalize First Letter Of Each Word In Angular"
-subtitle = "Angular Title Case Pipe"
-type="post"
-summary ="To capitalize first letter of each word in Angular use Angular&#039;s TitleCasePipe.We have to pass input to the titlecase pipe."
-keywords=["capitalize first letter of each word in angular,angular titlecase pipe"]
-date="2019-02-09T01:01:05+0000"
-lastmod="2019-07-22T18:10:05+0000"
-draft=true
-authors = ["admin"]
++++ title = "Angular TitleCase Pipe:Capitalize First Letter Of Each Word In Angular" subtitle = "Angular Title Case Pipe" type="post" summary ="To capitalize first letter of each word in Angular use Angular's TitleCasePipe.We have to pass input to the titlecase pipe." keywords=["capitalize first letter of each word in angular,angular titlecase pipe"] date="2019-02-09T01:01:05+0000" lastmod="2019-07-22T18:10:05+0000" draft=true authors = ["admin"]
 
 
-[image]
-  caption = "Angular TitleCase Pipe"
+[image] caption = "Angular TitleCase Pipe"
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  # Focal point (optional) # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight focal_point = ""
 
-  # Show image only in page previews?
-  preview_only = false
+  # Show image only in page previews? preview_only = false
 
 +++
 
