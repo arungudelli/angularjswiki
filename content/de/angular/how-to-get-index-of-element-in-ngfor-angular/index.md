@@ -1,13 +1,4 @@
-+++
-title = "Wie erhält man den Index des ngFor-Elements in Angular"
-subtitle = "liefert den Index des ngFor-Elements"
-summary ="Schritte, um den Index des ngFor-Elements in Angular zu erhalten 1.Deklarieren Sie eine Variable innerhalb der ngFor-Direktive mit den Schlüsselwörtern let oder as. Sagen Sie zum Beispiel indexofelement oder einfach i.2. Weisen Sie den Variablenwert index zu. 3. Und zeigen Sie den Index des ngFor-Elements an, indem Sie den angular Schablonenausdruck verwenden."
-keywords=["ngFor index,liefert den Index des ngFor-Elements"]
-date="2020-02-13T01:01:05+0000"
-lastmod="2020-02-13T02:45:18+0000"
-type="post"
-draft=false
-authors = ["admin"]
++++ title = "Wie erhält man den Index des ngFor-Elements in Angular" subtitle = "liefert den Index des ngFor-Elements" summary ="Schritte, um den Index des ngFor-Elements in Angular zu erhalten 1.Deklarieren Sie eine Variable innerhalb der ngFor-Direktive mit den Schlüsselwörtern let oder as. Sagen Sie zum Beispiel indexofelement oder einfach i.2. Declare a variable inside *ngFor directive using let or as keyword. for instance say indexofelement. 2. Weisen Sie den Variablenwert index zu. 3. Und zeigen Sie den Index des ngFor-Elements an, indem Sie den angular Schablonenausdruck verwenden." keywords=["ngFor index,liefert den Index des ngFor-Elements"] date="2020-02-13T01:01:05+0000" lastmod="2020-02-13T02:45:18+0000" type="post" draft=false authors = ["admin"]
 
 +++
 
@@ -16,7 +7,6 @@ Schritte, um den Index des ngFor-Elements in Angular zu erhalten
 1. Deklarieren Sie eine Variable innerhalb der *ngFor-Direktive mit den Schlüsselwörtern `let` oder `as`. Sagen Sie zum Beispiel "indexofelement" oder einfach "i".
 2. Weisen Sie den Variablenwert index zu.
 3. Und zeigen Sie den Index des ngFor-Elements an, indem Sie den angular Schablonenausdruck verwenden.
-
 
 Wir werden ein Beispiel durchgehen, um es weiter zu verstehen.
 
@@ -35,7 +25,7 @@ export class NgForGetIndexComponent implements OnInit {
         {id:4,name:"HTML"}
      ];
   }
-  
+
   ngOnInit(): void {
   }
 
