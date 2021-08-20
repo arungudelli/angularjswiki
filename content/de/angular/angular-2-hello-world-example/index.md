@@ -1,24 +1,9 @@
-+++
-title = "Angular Or Angular 7 Hello World Example"
-subtitle = "Hello world Angular"
-type="post"
-summary ="I will explain how to create an Angular 7 app with a simple “Hello World” example. This hello world example work in Angular 4,Angular 5,Angular 6,Angular7."
-keywords=["angular,angular hello world tutorial,angular 4,angular 5,angular 6,angular 7"]
-date="2018-02-13T01:01:05+0000"
-lastmod="2019-01-30T05:38:07+0000"
-draft=true
-authors = ["admin"]
-[image]
-  caption = "Hello world Angular"
++++ title = "Angular Or Angular 7 Hello World Example" subtitle = "Hello world Angular" type="post" summary ="I will explain how to create an Angular 7 app with a simple “Hello World” example. This hello world example work in Angular 4,Angular 5,Angular 6,Angular7." keywords=\["angular,angular hello world tutorial,angular 4,angular 5,angular 6,angular 7"] date="2018-02-13T01:01:05+0000" lastmod="2019-01-30T05:38:07+0000" draft=true authors = ["admin"\] \[image\] caption = "Hello world Angular"
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  # Focal point (optional) # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight focal_point = ""
 
-  # Show image only in page previews?
-  preview_only = false
-+++
- 
+  # Show image only in page previews? preview_only = false +++
+
 I will explain how to create an Angular 7 app with a simple “Hello World” example. This hello world example work in Angular 4,Angular 5,Angular 6,Angular7.
 
 Let us start with Angular Hello World example to know the basics of Angular 7.
@@ -57,7 +42,7 @@ If you are using latest version of Angular CLI by default it uses Angular 7 (i.e
 
 After successful completion, you should see following message.
 
-{{< figure src="hello-world-angular-created.png" title="hello-world-angular-created" alt="hello-world-angular-created">}} 
+{{< figure src="hello-world-angular-created.png" title="hello-world-angular-created" alt="hello-world-angular-created">}}
 
 
 Project "hello-world-angular" successfully created.
@@ -66,7 +51,7 @@ Now navigate to the created ‘hello-world-angular’ directory.
 
 Use your favourite editor (my choice would be visual studio code) open the created folder. The directory structure will be something like below.
 
-{{< figure src="Angular-Directory-structure.png" title="Angular Directory structure" alt="Angular Directory structure">}} 
+{{< figure src="Angular-Directory-structure.png" title="Angular Directory structure" alt="Angular Directory structure">}}
 
 This structure may vary depending upon the version of Angular CLI version (this article uses latest version of Angular CLI so it would be Angular 4).
 
@@ -101,7 +86,7 @@ ng serve
 
 Then browse http://localhost:4200 it will show App Works as shown below.
 
-{{< figure src="Angular-CLI-Sample-Example-1.png" title="Angular CLI Sample Example" alt="Angular CLI Sample Example">}} 
+{{< figure src="Angular-CLI-Sample-Example-1.png" title="Angular CLI Sample Example" alt="Angular CLI Sample Example">}}
 
 ## Creating a Component in Angular 7
 
@@ -117,8 +102,8 @@ It will create four files as shown below
   * src/app/hello-world/hello-world.component.html
   * src/app/hello-world/hello-world.component.spec.ts
   * src/app/hello-world/hello-world.component.ts.
-  
-{{< figure src="hello-world-component.png" title="Angular Hello World Component" alt="Angular Hello World Component">}} 
+
+{{< figure src="hello-world-component.png" title="Angular Hello World Component" alt="Angular Hello World Component">}}
 
 
 Open “hello-world.component.ts” file in editor.
@@ -224,7 +209,7 @@ Now open \hello-world-angular\src\app\app.component.html file and add the create
 
 Now refresh the browser
 
-{{< figure src="hello-world-angular-example.png" title="Hello world angular example" alt="Hello world angular example">}} 
+{{< figure src="hello-world-angular-example.png" title="Hello world angular example" alt="Hello world angular example">}}
 
 
 ## Adding Data to the Component in Angular 7
@@ -285,6 +270,6 @@ As the template bind to component(hello-world component) whenever compiler encou
 
 Now refresh the browser
 
-{{< figure src="hello-world-angular-example-with-data.png" title="hello world angular example with data" alt="hello world angular example with data">}} 
+{{< figure src="hello-world-angular-example-with-data.png" title="hello world angular example with data" alt="hello world angular example with data">}}
 
 I hope you understood the basics of Angular 7. If you have any doubts or suggestions feel free to comment.
