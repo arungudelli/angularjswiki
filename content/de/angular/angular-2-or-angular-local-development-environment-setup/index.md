@@ -1,29 +1,14 @@
-+++
-title = "Angular 7 Or Angular Local Development Environment Setup"
-subtitle = "Local Angular Development Setup"
-type="post"
-summary ="Explains Angular local development environment set up with Angular CLI. This is same for Angular 4 as well. Angular learning will be easy if we setup local development environment."
-keywords=["angular 7,angular 4,angular 2 local environment setup"]
-date="2018-02-12T01:01:05+0000"
-lastmod="2018-10-15T17:00:23+0000"
-draft=true
-authors = ["admin"]
-[image]
-  caption = "Angular 7 Local Environment Setup"
++++ title = "Angular 7 Or Angular Local Development Environment Setup" subtitle = "Local Angular Development Setup" type="post" summary ="Explains Angular local development environment set up with Angular CLI. This is same for Angular 4 as well. Angular learning will be easy if we setup local development environment." keywords=\["angular 7,angular 4,angular 2 local environment setup"] date="2018-02-12T01:01:05+0000" lastmod="2018-10-15T17:00:23+0000" draft=true authors = ["admin"\] \[image\] caption = "Angular 7 Local Environment Setup"
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  # Focal point (optional) # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight focal_point = ""
 
-  # Show image only in page previews?
-  preview_only = false
-+++
+  # Show image only in page previews? preview_only = false +++
 
 The best way to learn Angular 7 (or Angular) is to setup our own local development environment. In this tutorial, I will explain how to setup local development environment for Angular.
 
 Before reading this article, I would recommend to read following article if you have any confusion regarding Angular 2 and Angular 4 or any other versions.
 
-[Is it Angular 2 or Angular?](https://www.angularjswiki.com/angular/is-it-angular-2-or-just-angular/) 
+[Is it Angular 2 or Angular?](https://www.angularjswiki.com/angular/is-it-angular-2-or-just-angular/)
 
 {{%toc%}}
 
@@ -56,7 +41,7 @@ I would recommend you to use Google Chrome to develop Angular Apps.
 
 ## Install Code Editor:
 
-There are so many free code editors available such as notepad++,sublime etc. But my favourite editor is Visual Studio Code.
+There are so many free code editors available such as notepad++,sublime etc. But my favourite editor is Visual Studio Code. But my favourite editor is Visual Studio Code.
 
 ## Install IIS on Windows:
 
@@ -77,7 +62,7 @@ npm install -g @angular/cli
 ```
 
 After successful installation type ng-v it should return version of ng as shown below.
- 
+
 Now we are ready to create our first Angular Application.
 
 ## Creating first Angular Application
@@ -104,7 +89,7 @@ ng serve
 
 Now navigate to http://localhost:4200 you should get appworks in browser.
 
-{{< figure src="Angular-CLI-Version.png" title="Angular CLI version" alt="Angular CLI version">}} 
+{{< figure src="Angular-CLI-Version.png" title="Angular CLI version" alt="Angular CLI version">}}
 
 ## Change the port number in Angular CLI:
 
