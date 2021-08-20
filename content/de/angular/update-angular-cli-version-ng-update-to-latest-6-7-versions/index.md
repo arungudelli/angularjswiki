@@ -1,33 +1,21 @@
-+++
-title = "Wie man Angular-CLI auf die neueste Version 9 & Angular 10 aktualisiert"
-subtitle = "Angular-CLI-Version aktualisieren"
-summary ="Um Angular-CLI auf die neueste Version 9 & Angular 10 zu aktualisieren, verwenden Sie den Befehl ng update @angular/core @angular/cli@latest"
-keywords=["ng update angular cli,angular 10,angular 9"]
-date="2019-01-22T01:01:05+0000"
-lastmod="2019-02-09T18:45:18+0000"
-type="post"
-draft=true
-authors = ["admin"]
++++ title = "Wie man Angular-CLI auf die neueste Version 9 & Angular 10 aktualisiert" subtitle = "Angular-CLI-Version aktualisieren" summary ="Um Angular-CLI auf die neueste Version 9 & Angular 10 zu aktualisieren, verwenden Sie den Befehl ng update @angular/core @angular/cli@latest" keywords=["ng update angular cli,angular 10,angular 9"] date="2019-01-22T01:01:05+0000" lastmod="2019-02-09T18:45:18+0000" type="post" draft=true authors = ["admin"]
 
-[image]
-  caption = "Update Angular CLI version in Angular"
+[image] caption = "Update Angular CLI version in Angular"
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  # Focal point (optional) # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight focal_point = ""
 
-  # Show image only in page previews?
-  preview_only = false
+  # Show image only in page previews? preview_only = false
 
 +++
 
-Der Angular 10.0.0 ist endlich da. 
-
-Während des Upgrades auf die Version Angular 10 sollten Sie einige Dinge beachten, bevor Sie den Befehl "ng update" ausführen.
+Your project has been updated to Angular version 9! For more info, please see: https://v9.angular.io/guide/updating-to-version-9
 
 1. Es ist immer ratsam, Ihre Anwendung auf die nächste Hauptversion zu aktualisieren.
 2. Das heißt, wenn Sie die Versionen Angular 7 oder Angular 8 oder Angular 6,5, 4 usw. verwenden, versuchen Sie nicht, direkt auf Angular 10 zu aktualisieren.
 3. Aktualisieren Sie zuerst Ihre Angular-Anwendung auf Angular 9 und verwenden Sie dann den Befehl ng update.
+4. Then use `ng update` command.
+
+Während des Upgrades auf die Version Angular 10 sollten Sie einige Dinge beachten, bevor Sie den Befehl "ng update" ausführen.
 
 Angular Version 10.0.0 veröffentlicht am 25. Juni 2020 .
 
@@ -49,29 +37,33 @@ ng update @angular/material
 
 Wenn Sie andere ältere Versionen als 9 verwenden. Zuerst besser auf Angular 9 aktualisieren, wie unten erwähnt.
 
+Steps to upgrade Angular application are same across the operating systems like Windows OS,MacOS and Linux OS or Unix based machines.
+
+{{%alert note%}}
+
+Angular 11 is in pre release state. You can read more about Angular 11 [Angular 11 Release date, features & update to Angular 11 version](https://www.angularjswiki.com/angular/angular-11-roadmap/)
+
+{{%/alert%}}
+
+
 ## Wesentliche Änderungen in der Version Angular 10
 
 1. Angular 10 unterstützt nur Typescript 3.9. Wir müssen Typescript auf Version 3.9 aktualisieren. Die Typescript-Versionen 3.6, 3.7 und 3.8 werden nicht mehr unterstützt.
-2. In früheren Versionen des Angular-Eingabefeldes der Typennummer löst zweimal `valueChanges` aus.Das erste Mal nach der Eingabe in das Eingabefeld, das zweite Mal, wenn das Feld den Fokus verliert.
+2. In früheren Versionen des Angular-Eingabefeldes der Typennummer löst zweimal `valueChanges` aus.Das erste Mal nach der Eingabe in das Eingabefeld, das zweite Mal, wenn das Feld den Fokus verliert. First time after typing in the input field and second time when the input field loses the focus. (<a href="https://github.com/angular/angular/pull/36087" target="_blank">PR 36087</a>)
 3. Die Validatoren `minLength` und `maxLength` überprüfen nun, ob ein Wert die Eigenschaft numerische Länge hat, und erst dann erfolgt die Validierung.
 4. In Angular 10,Die Warnungen über unbekannte Elemente werden jetzt als Fehler statt als Warnungen protokolliert (console.warn zu console.error)
 5. In früheren Versionen von Angular, wenn Sie `Null` für `UrlMatchResult` zurückgeben, erhalten wir den Fehler "Type null is not assignable to type UrlMatchResult". Dieser Fehler ist jetzt behoben.
 6. In der Version Angular 10 werden "transplanted views" nur an der "insertion location" in Ivy aktualisiert.
-7. Wenn Sie versuchen, "formatDate" oder "DatePipe" mit den Formatcodes "B" oder "b" ("at night", "in the morning" usw.) zu verwenden, funktioniert dies nicht für das Gebietsschema "en" (und "sublocales") zwischen 21:00 und 06:00 Uhr. 
-Statt "nachts" erhalten Sie "AM/PM".
-In den älteren Versionen war der Code nicht in der Lage, einen Zeitraum zu bewältigen, der über Mitternacht hinausging. Dies ist behoben.
-8. Wenn eine Angular-Route mindestens zwei Resolver hat, und wenn ein Resolver auf leer auflöst, Die Navigation wird abgebrochen, Da es das Verhalten für einen einzelnen Resolver ist und wenn alle Resolver beschließen, sich zu leeren,
-Der Router wirft keine Fehler. Früher hat er nicht abgefangene Fehler ausgegeben. 
+7. If you try to use `formatDate` or [DatePipe](https://www.angularjswiki.com/angular/angular-date-pipe-formatting-date-times-in-angular-with-examples/) with the "B" or "b" format codes ("at night", "in the morning", etc.), This does not work for locale "en" (and sublocales) between 21:00 and 06:00. Statt "nachts" erhalten Sie "AM/PM". In den älteren Versionen war der Code nicht in der Lage, einen Zeitraum zu bewältigen, der über Mitternacht hinausging. This is fixed as part of (<a href="https://github.com/angular/angular/pull/36611" target="_blank">PR 36611</a>)
+8. Wenn eine Angular-Route mindestens zwei Resolver hat, und wenn ein Resolver auf leer auflöst, Die Navigation wird abgebrochen, Da es das Verhalten für einen einzelnen Resolver ist und wenn alle Resolver beschließen, sich zu leeren, Der Router wirft keine Fehler. Früher hat er nicht abgefangene Fehler ausgegeben.
 
 Neue Angular 10-Projekte verwenden den Dateinamen .browserslistrc anstelle von browserslist. Und ng update migriert sie automatisch, wenn Sie von älteren Versionen aktualisieren.
 
-Angular 10 empfiehlt die Verwendung einer tsconfig.base.json, um verschiedene Typisierungskontexte zu organisieren. 
- (shared, unit tests, end to end tests, application, etc).ng update wird Ihr Projekt automatisch migrieren.
+Angular 10 empfiehlt die Verwendung einer tsconfig.base.json, um verschiedene Typisierungskontexte zu organisieren. (shared, unit tests, end to end tests, application, etc).ng update wird Ihr Projekt automatisch migrieren.
 
 {{< figure src="Angular 10 update.png" title="Angular 10 update" alt="Angular 10 update">}}
 
-Ich habe eine Beispielanwendung auf Version 10 aktualisiert.
-(Es ist in Angular 9) 
+Nachdem Sie Angular-Cli auf Version 8 und höher aktualisiert haben, verwenden Sie den folgenden Befehl, um Angular-Cli auf Version 9 zu aktualisieren.
 
 Die Aktualisierung auf Angular 10 ist ziemlich einfach. Sie können das Protokoll der Versionsaktualisierung unten sehen.
 
@@ -98,7 +90,7 @@ Fetching dependency metadata from registry...
     Updating package.json with dependency @angular/router @ "10.0.0" (was "9.0.0")...
 UPDATE package.json (1595 bytes)
 √ Packages installed successfully.
-** Executing migrations of package '@angular/cli' **
+Executing migrations of package '@angular/cli' **
 
 > Replace deprecated 'styleext' and 'spec' Angular schematic options.
   Migration completed.
@@ -149,7 +141,7 @@ UPDATE package.json (1594 bytes)
 √ Packages installed successfully.
   Migration completed.
 
-** Executing migrations of package '@angular/core' **
+Executing migrations of package '@angular/core' **
 
 > Missing @Injectable and incomplete provider definition migration.
   As of Angular 9, enforcement of @Injectable decorators for DI is a bit stricter and incomplete provider definitions behave differently.
@@ -170,40 +162,70 @@ UPDATE package.json (1594 bytes)
 
 Um die Angular-CLI auf die neueste Version 9 zu aktualisieren, führen Sie die folgenden Schritte aus.
 
-Aktualisieren Sie zunächst die lokale Angular-Cli auf Version 8.3.17 oder 8.x, indem Sie den Befehl unten verwenden.
+1. Aktualisieren Sie zunächst die lokale Angular-Cli auf Version 8.3.17 oder 8.x, indem Sie den Befehl unten verwenden.
 
-```
-  npm install --no-save @angular/cli@^8.3.15
+    ```
+      npm install --no-save @angular/cli@^8.3.15
+    ```
+2. Um die Angular-Version auf 9.0.0-rc.10 zu aktualisieren, verwenden Sie den folgenden Befehl
 
-```
-Nachdem Sie Angular-Cli auf Version 8 und höher aktualisiert haben, verwenden Sie den folgenden Befehl, um Angular-Cli auf Version 9 zu aktualisieren.
+    ```
+      ng update @angular/cli @angular/core --next
+    ```
 
-```
-  ng update @angular/cli @angular/core --next
-```
+{{< figure src="updating angular cli to version 9.png" title="updating angular cli to version 9" alt="updating angular cli to version 9">}}
 
-{{< figure src="updating angular cli to version 9.png" title="updating angular cli to version 9" alt="updating angular cli to version 9">}} 
 
-Da Angular 9 in der RC-Periode liegt, ist die Flagge --next erforderlich, wenn der Befehl ng update verwendet wird. 
-Dieses Flag wird nicht mehr benötigt, sobald die endgültige Version von Angular 9 veröffentlicht wird.
+Da Angular 9 in der RC-Periode liegt, ist die Flagge --next erforderlich, wenn der Befehl ng update verwendet wird. Dieses Flag wird nicht mehr benötigt, sobald die endgültige Version von Angular 9 veröffentlicht wird.
 
 Since there are some groundbreaking changes, Angular 9
 
-Mit den obigen Befehlen wird eine Reihe kleiner Migrationen durchgeführt, die den Code Ihrer Anwendung wie unten gezeigt so konvertieren, dass er mit Version 9 kompatibel ist.
+Am 22. Januar 2020 wird Angular Version 9.0.0.-rc.10 veröffentlicht.
 
-{{< figure src="migrating the project to Angular 9.png" title="migrating the project to Angular 9" alt="migrating the project to Angular 9">}} 
+{{< figure src="migrating the project to Angular 9.png" title="migrating the project to Angular 9" alt="migrating the project to Angular 9">}}
 
 ## Angular Version 9.0.0-rc.10 veröffentlicht
 
-Am 22. Januar 2020 wird Angular Version 9.0.0.-rc.10 veröffentlicht.
+Sie können folgende Meldung in der Eingabeaufforderung sehen.
 
-Um die Angular-Version auf 9.0.0-rc.10 zu aktualisieren, verwenden Sie den folgenden Befehl
+Der Angular 10.0.0 ist endlich da.
+
+Am 7. Februar 2020 wurde die Version Angular 9 veröffentlicht.
+
+### Bug Fixes
+
+1. @angular/compiler: Detecting Pipes in International Components for Unicode(ICUs) in template binder. [#38810](https://github.com/angular/angular/pull/38810)
+2. @angular/core: Clearing the `RefreshTransplantedView` when detached [#38768](https://github.com/angular/angular/pull/38768)
+3. @angular/localize: Making `formatOptions` argument is optional for some lower level APIs used by CLI. [#38787](https://github.com/angular/angular/pull/38787)
+4. @angular/router : This bug fix ensure routes are processed in priority order and only if needed. [#38780](https://github.com/angular/angular/pull/38780)
+5. @angular/upgrade: Add try/catch when downgrading injectables. [#38671](https://github.com/angular/angular/pull/38671)
+
+### Performance Improvements
+
+Um auf die Angular 9-Version zu aktualisieren, verwenden Sie den unten stehenden Befehl.
+
+1. A patch related to AOT compilation optimization,emit directive/pipe references that are used
+2. Optimizing computation of type-check scope information.
+
+ng update @Angular/cli @Angular/Kern
+
+Wenn alles in Ordnung ist, können Sie folgende Meldung in der Konsole sehen.
+
+1. Introduce cache for sharing data across entry-points
+2. Reduce maximum worker count
+
+Angular 9 Endgültige Version wird veröffentlicht.
+
+## Angular 9 Freigegeben
+
+Verwenden Sie also nicht -next flag.
+
+Wenn Sie ältere Versionen von Angular wie 5 oder 6 oder 7 verwenden.
 
 ```
 ng update --next
 ```
-Sie können folgende Meldung in der Eingabeaufforderung sehen.
-
+Sie müssen einige zusätzliche Schritte befolgen, wie unten gezeigt.
 
 ```
 + @angular/cli@9.0.0-rc.10
@@ -215,49 +237,54 @@ Found 35 dependencies.
     We analyzed your package.json, there are some packages to update:
 
 Name                               Version                  Command to update
---------------------------------------------------------------------------------
-@angular/cdk               8.2.3 -> 9.0.0-rc.8      ng update @angular/cdk --next
+-------------------------------------------------------------------------------- @angular/cdk               8.2.3 -> 9.0.0-rc.8      ng update @angular/cdk --next
 @angular/cli               9.0.0-rc.0 -> 9.0.0-rc.10 ng update @angular/cli --next
 @angular/core              9.0.0-rc.0 -> 9.0.0-rc.10 ng update @angular/core --next
 @angular/material          8.2.3 -> 9.0.0-rc.8      ng update @angular/material --next
 ```
 
-{{< figure src="angular-cli-version-9-0-0-rc10.png" title="angular-cli-version-9-0-0-rc10" alt="angular-cli-version-9-0-0-rc10">}} 
+{{< figure src="angular-cli-version-9-0-0-rc10.png" title="angular-cli-version-9-0-0-rc10" alt="angular-cli-version-9-0-0-rc10">}}
 
-## Angular 9 Freigegeben
+Um die Angular-CLI-Version global in Ihrem System zu aktualisieren, verwenden Sie die folgenden Befehle
 
-Am 7. Februar 2020 wurde die Version Angular 9 veröffentlicht.
+Zuerst müssen Sie die vorhandenen Angular-Cli-Pakete deinstallieren, gefolgt vom Befehl `npm cache verify`, um die Cache-bezogenen Probleme zu löschen.
 
-Um auf die Angular 9-Version zu aktualisieren, verwenden Sie den unten stehenden Befehl.
-
-ng update @Angular/cli @Angular/Kern
-
-Wenn alles in Ordnung ist, können Sie folgende Meldung in der Konsole sehen.
+Und dann installieren Sie die Angular-CLI-Version erneut unter Verwendung von `npm install -g @angular/cli@latest`.
 
 ```
-Your project has been updated to Angular version 9!
-For more info, please see: https://v9.angular.io/guide/updating-to-version-9
+ng update @angular/cli @angular/core --next
 ```
-
-Angular 9 Endgültige Version wird veröffentlicht. 
-
-Verwenden Sie also nicht -next flag.
-
-Wenn Sie ältere Versionen von Angular wie 5 oder 6 oder 7 verwenden. 
-
-Sie müssen einige zusätzliche Schritte befolgen, wie unten gezeigt.
 
 ## Überprüfung der Angular-CLI-Version
 
-Um die Angular-CLI-Version zu überprüfen, verwenden Sie den nachstehenden Befehl
+Wenn Sie MACOS oder linuxOS verwenden, müssen Sie möglicherweise das Präfix sudo vor npm hinzufügen.
+
+Nach der globalen Aktualisierung von Angular-CLI erhalten Sie diese Warnung möglicherweise, wenn die Angular-Cli-Version Ihres lokalen Projekts kleiner als die globale Angular-Cli-Version ist.
 
 ```
-ng -Version
+Angular-CLI-Version lokal aktualisieren
 ```
+
+Da lokale Pakete eine höhere Priorität als globale Pakete haben, erhalten Sie die Warnung "Your global Angular CLI version is greater than your local version.The local Angular CLI version is used".
+
+```
+Ich habe eine Beispielanwendung auf Version 10 aktualisiert. (Es ist in Angular 9)
+For more info, please see: https://v9.angular.io/guide/updating-to-version-9
+```
+
+As the final version angular 9 is released. It is not required to use --next flag.
+
+If you are using older versions of Angular like 5 or 6 or 7. You need to follow some additional steps as shown below.
 
 ## Angular-CLI-Version global aktualisieren
 
-Um die Angular-CLI-Version global in Ihrem System zu aktualisieren, verwenden Sie die folgenden Befehle
+Navigieren Sie zu Ihrem lokalen Angular-Projektordner und führen Sie die folgenden Befehle aus.
+
+`ng -Version`
+
+## Meistens müssen Sie also auch Ihre lokale Angular-CLI-Version aktualisieren
+
+Sie müssen neben den oben genannten Befehlen nur wenige zusätzliche Prüfungen durchführen.
 
 ```
 npm uninstall -g angular-cli
@@ -265,32 +292,31 @@ npm cache clean or npm cache verify (if npm &gt; 5)
 npm install -g @angular/cli@latest
 ```
 
-Zuerst müssen Sie die vorhandenen Angular-Cli-Pakete deinstallieren, gefolgt vom Befehl `npm cache verify`, um die Cache-bezogenen Probleme zu löschen.
+Zuerst müssen Sie die "angular-cli.json"-Datei in einer älteren Angular-CLI-Version in die neueste "angular.json"-Datei konvertieren, die in Version 6 verwendet wird.
 
-Und dann installieren Sie die Angular-CLI-Version erneut unter Verwendung von `npm install -g @angular/cli@latest`.
+Um die Datei "Angular-cli.json" zu konvertieren, verwenden Sie den folgenden Befehl
 
-Wenn Sie MACOS oder linuxOS verwenden, müssen Sie möglicherweise das Präfix sudo vor npm hinzufügen.
+If you are using MAC or linux systems you might need to add the prefix sudo before npm
 
 ```
 sudo npm uninstall -g angular-cli
 sudo npm cache clean or sudo npm cache verify (if npm > 5)
 sudo npm install -g @angular/cli@latest
-
 ```
 
 ## Your global Angular CLI version is greater than your local version.The local Angular CLI version is used
 
-Nach der globalen Aktualisierung von Angular-CLI erhalten Sie diese Warnung möglicherweise, wenn die Angular-Cli-Version Ihres lokalen Projekts kleiner als die globale Angular-Cli-Version ist.
+Um die Angular-CLI-Version in Ihren lokalen Projekten zu aktualisieren, verwenden Sie die folgenden Befehle.
 
-Da lokale Pakete eine höhere Priorität als globale Pakete haben, erhalten Sie die Warnung "Your global Angular CLI version is greater than your local version.The local Angular CLI version is used".
+As local packages have more priority than global packages you will get _Your global Angular CLI version is greater than your local version.The local Angular CLI version is used_ warning.
 
-Meistens müssen Sie also auch Ihre lokale Angular-CLI-Version aktualisieren
+Um die Angular-CLI-Version zu überprüfen, verwenden Sie den nachstehenden Befehl
 
-## Angular-CLI-Version lokal aktualisieren
+## Aktualisieren der Angular-CLI-Version auf 6
 
-Um die Angular-CLI-Version in Ihren lokalen Projekten zu aktualisieren, verwenden Sie die folgenden Befehle. 
+Wenn Sie von älteren Versionen von Angular-CLI wie 1.x auf die neueste Angular-Version 6 migrieren.
 
-Navigieren Sie zu Ihrem lokalen Angular-Projektordner und führen Sie die folgenden Befehle aus.
+Navigate to your local Angular project folder and execute the below commands.
 
 ```
 rm -rf node_modules
@@ -299,12 +325,69 @@ npm install --save-dev @angular/cli@latest
 npm install
 ```
 
-## Aktualisieren der Angular-CLI-Version auf 6
+## Update Angular CLI version to 6
 
-Wenn Sie von älteren Versionen von Angular-CLI wie 1.x auf die neueste Angular-Version 6 migrieren. 
+If you are migrating from older versions of Angular CLI like 1.x to latest Angular version 6.
 
-Sie müssen neben den oben genannten Befehlen nur wenige zusätzliche Prüfungen durchführen.
+You need to do few additional checks apart from the above commands.
 
-Zuerst müssen Sie die "angular-cli.json"-Datei in einer älteren Angular-CLI-Version in die neueste "angular.json"-Datei konvertieren, die in Version 6 verwendet wird.
+First you need to convert "angular-cli.json" file in older Angular CLI version to the latest "angular.json" file used in version 6.
 
-Um die Datei "Angular-cli.json" zu konvertieren, verwenden Sie den folgenden Befehl
+To convert "angular-cli.json" file, use the following command
+
+```
+ng update @angular/cli --from=1.7.4 --migrate-only
+```
+
+To convert _angular-cli.json_ file pass the current version to ng update by using from flag and additionally use _--migrate-only._ The migrate only  flag makes sure that it will do only a migration but does not update the Angular CLI.
+
+And if you RxJs you need to update it as well use the below command
+
+`ng update rxjs`
+
+It will update the RxJs version to 6. To support older RxJs imports the above command automatically installs the _rxjs-compat_ package. If you get any error try manual installation.
+
+```
+npm i rxjs-compat
+npm i @angular-devkit/build-angular
+```
+
+And Angular CLI version 6 no longer uses _intl_ in _polyfills.ts. _You can remove the below lines from polyfills.ts
+
+```
+import 'intl';
+import 'intl/locale-data/jsonp/en';
+```
+
+And additionally you need to update the @angular core modules as well
+
+`ng update @angular/core`
+
+## Update Angular CLI version to 7
+
+Once you upgraded to Angular CLI version 6. Its very easy to update it to the current latest Angular CLI version 7.
+
+To update Angular CLI version to 7. Just run the following commands
+
+`ng update @angular/cli @angular/core`
+
+The above command updates Angular cli as well as angular core packages.
+
+In addition to that you can refactor the TypeScript code so that it does not depend on _rxjs-compat_ modules(as explained above).
+
+To refactor TypeScript code run following command
+
+```
+npm install -g rxjs-tslint 
+rxjs-5-to-6-migrate -p src/tsconfig.app.json
+```
+
+Once all of your dependencies have updated to latest RxJS 6, remove rxjs-compat package as it increases bundle size.
+
+`npm uninstall rxjs-compat`
+
+## ng update @angular/cli not working
+
+If you follow the above steps carefully mostly Angular cli version will be updated without any problems. And do not forgot to add @latest suffix.
+
+`ng update @angular/cli@latest`
