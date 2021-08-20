@@ -1,24 +1,11 @@
-+++
-title = "Angular Date Pipe & formatting dates in Angular with examples"
-subtitle = "Learn how to format dates in Angular using Angular date Pipe"
-type="post"
-summary ="Angular date pipe used to format dates in angular according to the given date formats,timezone and country locale information."
-keywords=["angular datepipe,formatting dates in Angular"]
-date="2019-06-19T01:01:05+0000"
-lastmod="2019-06-19T18:10:05+0000"
-draft=true
-authors = ["admin"]
++++ title = "Angular Date Pipe & formatting dates in Angular with examples" subtitle = "Learn how to format dates in Angular using Angular date Pipe" type="post" summary ="Angular date pipe used to format dates in angular according to the given date formats,timezone and country locale information." keywords=["angular datepipe,formatting dates in Angular"] date="2019-06-19T01:01:05+0000" lastmod="2019-06-19T18:10:05+0000" draft=true authors = ["admin"]
 
 
-[image]
-  caption = "Angular Date Pipe"
+[image] caption = "Angular Date Pipe"
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  # Focal point (optional) # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight focal_point = ""
 
-  # Show image only in page previews?
-  preview_only = false
+  # Show image only in page previews? preview_only = false
 
 +++
 
@@ -43,26 +30,26 @@ Angular date pipe accpets three parameters
 
 <div class="table-responsive">
 <table class="table">
-	<thead>
-		<tr>
-			<th>Parameter</th>
-			<th>Description</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>format</td>
-			<td>We can pass predefined angular date formats or our custom date format as a parameter. The default value is 'mediumDate' (Optional parameter)</td>
-		</tr>
-		<tr>
-			<td>timezone</td>
-			<td>The default timezone is local system timezone of the user's machine. To change the timezone we can pass timezone offset ('0530') or standard UTC/GMT (IST) or continental US timezone abbreviation and it is an optional parameter</td>
-		</tr>
-		<tr>
-			<td>locale</td>
-			<td>represents locale format rules to use. Default value is our project locale (en_US) if set or undefined.Optional parameter</td>
-		</tr>
-	</tbody>
+    <thead>
+        <tr>
+            <th>Parameter</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>format</td>
+            <td>We can pass predefined angular date formats or our custom date format as a parameter. The default value is 'mediumDate' (Optional parameter)</td>
+        </tr>
+        <tr>
+            <td>timezone</td>
+            <td>The default timezone is local system timezone of the user's machine. To change the timezone we can pass timezone offset ('0530') or standard UTC/GMT (IST) or continental US timezone abbreviation and it is an optional parameter</td>
+        </tr>
+        <tr>
+            <td>locale</td>
+            <td>represents locale format rules to use. Default value is our project locale (en_US) if set or undefined.Optional parameter</td>
+        </tr>
+    </tbody>
 </table>
 </div>
 
@@ -88,9 +75,9 @@ export class DatepipeComponent implements OnInit {
   todayISOString : string = new Date().toISOString();
 
   constructor() { 
-    
+
   }
-  
+
   ngOnInit() {
   }
 
@@ -126,7 +113,7 @@ datepipe:Jun 15, 2019
 
 ```
 
-All types of datetime values displays the date in **'MMM d, y'** format which is default Angular date format 'mediumDate'    
+All types of datetime values displays the date in **'MMM d, y'** format which is default Angular date format 'mediumDate'
 
 To change the datetime format in angular we have to pass date time format parameter to the angular pipe as shown below
 
@@ -142,75 +129,75 @@ The format 'short' is one of the predefined date formats in angular which conver
 
 <div class="table-responsive">
 <table class="table">
-	<thead>
-		<tr>
-			<th>Date Format</th>
-			<th>Angular datepipe code</th>
+    <thead>
+        <tr>
+            <th>Date Format</th>
+            <th>Angular datepipe code</th>
       <th>Result</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>M/d/yy, h:mm a</td>
-			<td>{{todayDate | date:'short'}}</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>M/d/yy, h:mm a</td>
+            <td>{{todayDate | date:'short'}}</td>
       <td>6/15/19, 10:54 PM</td>
-		</tr>
-		<tr>
-			<td>MMM d, y, h:mm:ss a</td>
-			<td>{{todayDate | date:'medium'}}</td>
+        </tr>
+        <tr>
+            <td>MMM d, y, h:mm:ss a</td>
+            <td>{{todayDate | date:'medium'}}</td>
       <td>Jun 15, 2019, 10:54:25 PM</td>
-		</tr>
-		<tr>
-			<td>MMMM d, y, h:mm:ss a z</td>
-			<td>{{todayDate | date:'long'}}</td>
+        </tr>
+        <tr>
+            <td>MMMM d, y, h:mm:ss a z</td>
+            <td>{{todayDate | date:'long'}}</td>
       <td>June 15, 2019 at 10:54:25 PM GMT+5</td>
-		</tr>
+        </tr>
     <tr>
-			<td>EEEE, MMMM d, y, h:mm:ss a zzzz</td>
-			<td>{{todayDate | date:'full'}}</td>
+            <td>EEEE, MMMM d, y, h:mm:ss a zzzz</td>
+            <td>{{todayDate | date:'full'}}</td>
       <td>Saturday, June 15, 2019 at 10:54:25 PM GMT+05:30</td>
-		</tr>
-    		<tr>
-			<td>M/d/yy</td>
-			<td>{{todayDate | date:'shortDate'}}</td>
+        </tr>
+            <tr>
+            <td>M/d/yy</td>
+            <td>{{todayDate | date:'shortDate'}}</td>
       <td>6/15/19</td>
-		</tr>
-    		<tr>
-			<td>MMM d, y</td>
-			<td>{{todayDate | date:'mediumDate'}}</td>
+        </tr>
+            <tr>
+            <td>MMM d, y</td>
+            <td>{{todayDate | date:'mediumDate'}}</td>
       <td>Jun 15, 2019</td>
-		</tr>
-    		<tr>
-			<td>MMMM d, y</td>
-			<td>{{todayDate | date:'longDate'}}</td>
+        </tr>
+            <tr>
+            <td>MMMM d, y</td>
+            <td>{{todayDate | date:'longDate'}}</td>
       <td>June 15, 2019</td>
-		</tr>
+        </tr>
     <tr>
-			<td>EEEE, MMMM d, y</td>
-			<td>{{todayDate | date:'fullDate'}}</td>
+            <td>EEEE, MMMM d, y</td>
+            <td>{{todayDate | date:'fullDate'}}</td>
       <td>Saturday, June 15, 2019</td>
-		</tr>
+        </tr>
     <tr>
-			<td>h:mm a</td>
-			<td>{{todayDate | date:'shortTime'}}</td>
+            <td>h:mm a</td>
+            <td>{{todayDate | date:'shortTime'}}</td>
       <td>10:54 PM</td>
-		</tr>
+        </tr>
     <tr>
-			<td>h:mm:ss a</td>
-			<td>{{todayDate | date:'mediumTime'}}</td>
+            <td>h:mm:ss a</td>
+            <td>{{todayDate | date:'mediumTime'}}</td>
       <td>10:54:25 PM</td>
-		</tr>
+        </tr>
     <tr>
-			<td>h:mm:ss a z</td>
-			<td>{{todayDate | date:'longTime'}}</td>
+            <td>h:mm:ss a z</td>
+            <td>{{todayDate | date:'longTime'}}</td>
       <td>10:54:25 PM GMT+5</td>
-		</tr>
+        </tr>
     <tr>
-			<td>h:mm:ss a zzzz</td>
-			<td>{{todayDate | date:'fullTime'}}</td>
+            <td>h:mm:ss a zzzz</td>
+            <td>{{todayDate | date:'fullTime'}}</td>
       <td>10:54:25 PM GMT+05:30</td>
-		</tr>
-	</tbody>
+        </tr>
+    </tbody>
 </table>
 </div>
 
@@ -221,7 +208,7 @@ We have to pass first parameter "format" as quoted string with the predefined da
 1. short
 2. medium
 3. long
-4. full 
+4. full
 5. shortDate
 6. mediumDate
 7. longDate
@@ -282,7 +269,7 @@ To add the country locale information refer [Angular currency pipe](https://www.
 
 ## Creating Custom Date Pipe in Angular
 
-The default date format in Angular is 'mediumDate'. 
+The default date format in Angular is 'mediumDate'.
 
 What if we want to change it and replace it with our own custom format like 'EEEE d MMMM y h:mm a'
 
@@ -302,11 +289,11 @@ Wednesday 19 June 2019 8:33 PM
 To create a custom date pipe follow the below steps
 
 Create a file named `custom.datepipe.ts` add the below code.
-   
+
    ```
    import { Pipe, PipeTransform } from '@angular/core';
    import { DatePipe } from '@angular/common';
-   
+
    @Pipe({
      name: 'customDate'
    })
@@ -316,9 +303,9 @@ Create a file named `custom.datepipe.ts` add the below code.
        return super.transform(value, "EEEE d MMMM y h:mm a");
      }
    }
-   ``` 
+   ```
 And import `CustomDatePipe` in app.module.ts and add it in declaration array of AppModule.
-   
+
    ```
    import {CustomDatePipe} from './custom.datepipe';
    @NgModule({
@@ -326,14 +313,14 @@ And import `CustomDatePipe` in app.module.ts and add it in declaration array of 
     CustomDatePipe
    ]);
    ```
-   
+
 Now we can use our custom date pipe in component file as shown below
-   
+
    ```
    {{todayDate | customDate}}
    Result:
    Thursday 20 June 2019 4:15 AM
-   ```   
+   ```
 ## Defining Custom date formats in Angular
 
 In addition to the above date time formats,we can define our own custom datetime formats using the below symbols.
