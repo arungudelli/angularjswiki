@@ -1,19 +1,10 @@
-+++
-title = "Prüfen Sie die Angular CLI Version in der Eingabeaufforderung"
-subtitle = "Angular CLI Versionsprüfung"
-summary ="Um die Angular CLI Version zu überprüfen, benutzen Sie die Befehle ng --version oder ng v oder npm list -global - depth 0."
-keywords=["Angulare CLI-Version,Angular CLI Version Befehl"]
-date="2020-01-14T01:01:05+0000"
-lastmod="2020-01-14T02:45:18+0000"
-type="post"
-draft=false
-authors = ["admin"]
++++ title = "Prüfen Sie die Angular CLI Version in der Eingabeaufforderung" subtitle = "Angular CLI Versionsprüfung" summary ="Um die Angular CLI Version zu überprüfen, benutzen Sie die Befehle ng --version oder ng v oder npm list -global - depth 0." keywords=["Angulare CLI-Version,Angular CLI Version Befehl"] date="2020-01-14T01:01:05+0000" lastmod="2020-01-14T02:45:18+0000" type="post" draft=false authors = ["admin"]
 
 +++
 
 Um die Angular CLI Version zu überprüfen, benutzen Sie die Befehle `ng --version` oder `ng v` oder `npm list -global - depth` 0.
 
-Der Befehl ng --version gibt die Details der Version von "Angular CLI" zurück, die installiert ist und zusätzlich zu dieser Version von "Angular"-Entwicklungspaketen wie "@angular-devkit/architect,rxjs" usw... wie unten gezeigt.
+Der Befehl ng --version gibt die Details der Version von "Angular CLI" zurück, die installiert ist und zusätzlich zu dieser Version von "Angular"-Entwicklungspaketen wie "@angular-devkit/architect,rxjs" usw... wie unten gezeigt. as shown below.
 
 ```
 Angular CLI: 8.1.1
@@ -24,6 +15,7 @@ Angular:
 
 Package                      Version
 ------------------------------------------------------
+
 @angular-devkit/architect    0.801.1
 @angular-devkit/core         8.1.1
 @angular-devkit/schematics   8.1.1
