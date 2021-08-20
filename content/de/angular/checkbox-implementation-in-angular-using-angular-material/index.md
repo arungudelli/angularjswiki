@@ -1,24 +1,11 @@
-+++
-title = "Checkbox Implementation In Angular Using Mat-Checkbox(Material Component)"
-subtitle = "Learn how to build checkboxes using material design"
-type="post"
-summary ="mat-checkbox selector is an angular material checkbox component, it works like input type=checkbox sugar coated with Material design styling and animations.mat-checkbox part of Angular Material module called MatCheckboxModule."
-keywords=["angular,angular material design,angular checkbox,angular material checkbox,mat-checkbox"]
-date="2018-02-15T01:01:05+0000"
-lastmod="2019-06-25T06:00:24+0530"
-draft=true
-authors = ["admin"]
++++ title = "Checkbox Implementation In Angular Using Mat-Checkbox(Material Component)" subtitle = "Learn how to build checkboxes using material design" type="post" summary ="mat-checkbox selector is an angular material checkbox component, it works like input type=checkbox sugar coated with Material design styling and animations.mat-checkbox part of Angular Material module called MatCheckboxModule." keywords=["angular,angular material design,angular checkbox,angular material checkbox,mat-checkbox"] date="2018-02-15T01:01:05+0000" lastmod="2019-06-25T06:00:24+0530" draft=true authors = ["admin"]
 
 
-[image]
-  caption = "Angular Material Checkbox"
+[image] caption = "Angular Material Checkbox"
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  # Focal point (optional) # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight focal_point = ""
 
-  # Show image only in page previews?
-  preview_only = false
+  # Show image only in page previews? preview_only = false
 
 +++
 
@@ -37,62 +24,62 @@ To use `<mat-checkbox>` we have to import `MatCheckboxModule` from `@angular/Mat
 ## Properties of mat-checkbox
 <div class="table-responsive">
 <table class="table">
-	<thead>
-		<tr>
-			<th>Angular Material Checkbox Property</th>
-			<th>Description </th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Checked : boolean</td>
-			<td>Indicates whether checkbox is checked</td>
-		</tr>
-		<tr>
-			<td>Unchecked : Boolean</td>
-			<td>Indicates whether checkbox is unchecked</td>
-		</tr>
-		<tr>
-			<td>Indeterminate : Boolean</td>
-			<td>Indicates whether checkbox is indeterminate or we can call it as mixed state</td>
-		</tr>
-		<tr>
-			<td>Disabled</td>
-			<td>Indicated whether checkbox is disabled</td>
-		</tr>
-		<tr>
-			<td>Id</td>
-			<td>A unique id to represent checkbox elements if nothing is supplied then auto generated</td>
-		</tr>
-		<tr>
-			<td>labelPosition : before or after</td>
-			<td>Indicates whether label should appear before or after the checkbox</td>
-		</tr>
-		<tr>
-			<td>Required : Boolean</td>
-			<td>Indicates whether the checkbox is required inside a form</td>
-		</tr>
-		<tr>
-			<td>Value:string</td>
-			<td>Indicates the value of checkbox element</td>
-		</tr>
-		<tr>
-			<td>Color:ThemePalatte (primary or accent or warn)</td>
-			<td>Indicates theme color palette of checkbox element</td>
-		</tr>
-		<tr>
-			<td>disableRipple : Boolean</td>
-			<td>Indicates whether ripple animation disabled on checkbox element</td>
-		</tr>
-		<tr>
-			<td>areaLabel : string</td>
-			<td>Will be attached ‘area-label’ attribute of checkbox element</td>
-		</tr>
-		<tr>
-			<td>ariaLabelledby : string or null</td>
-			<td>Will be attached ‘area-labelledby’ attribute of checkbox element</td>
-		</tr>
-	</tbody>
+    <thead>
+        <tr>
+            <th>Angular Material Checkbox Property</th>
+            <th>Description </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Checked : boolean</td>
+            <td>Indicates whether checkbox is checked</td>
+        </tr>
+        <tr>
+            <td>Unchecked : Boolean</td>
+            <td>Indicates whether checkbox is unchecked</td>
+        </tr>
+        <tr>
+            <td>Indeterminate : Boolean</td>
+            <td>Indicates whether checkbox is indeterminate or we can call it as mixed state</td>
+        </tr>
+        <tr>
+            <td>Disabled</td>
+            <td>Indicated whether checkbox is disabled</td>
+        </tr>
+        <tr>
+            <td>Id</td>
+            <td>A unique id to represent checkbox elements if nothing is supplied then auto generated</td>
+        </tr>
+        <tr>
+            <td>labelPosition : before or after</td>
+            <td>Indicates whether label should appear before or after the checkbox</td>
+        </tr>
+        <tr>
+            <td>Required : Boolean</td>
+            <td>Indicates whether the checkbox is required inside a form</td>
+        </tr>
+        <tr>
+            <td>Value:string</td>
+            <td>Indicates the value of checkbox element</td>
+        </tr>
+        <tr>
+            <td>Color:ThemePalatte (primary or accent or warn)</td>
+            <td>Indicates theme color palette of checkbox element</td>
+        </tr>
+        <tr>
+            <td>disableRipple : Boolean</td>
+            <td>Indicates whether ripple animation disabled on checkbox element</td>
+        </tr>
+        <tr>
+            <td>areaLabel : string</td>
+            <td>Will be attached ‘area-label’ attribute of checkbox element</td>
+        </tr>
+        <tr>
+            <td>ariaLabelledby : string or null</td>
+            <td>Will be attached ‘area-labelledby’ attribute of checkbox element</td>
+        </tr>
+    </tbody>
 </table>
 </div>
 
@@ -117,7 +104,7 @@ Using checked property value of `<mat-checkbox>` we can control the state of che
 <mat-checkbox checked="true">Angular Checkbox Checked</mat-checkbox>
 <mat-checkbox checked="false">Angular Checkbox UnChecked</mat-checkbox>
 ```
-  
+
 ## mat-checkbox UnChecked state
 
 Provides exact opposite functionality of `checked` property. If its true in `<mat-checkbox>` then checkbox is unchecked and vice versa
@@ -131,22 +118,22 @@ Provides exact opposite functionality of `checked` property. If its true in `<ma
 
 ## mat-checkbox Indeterminate state
 
-`<mat-checkbox>` supports Indeterminate state. Indicates whether checkbox is indeterminate or we can call it as mixed state.The value can be set through Indeterminate property of `<mat-checkbox>` value can be true or false  
+`<mat-checkbox>` supports Indeterminate state. Indicates whether checkbox is indeterminate or we can call it as mixed state.The value can be set through Indeterminate property of `<mat-checkbox>` value can be true or false
 
 For example say there is one parent checkbox under which we have four children checkboxes, if all children checkbozes are checked then parent checkbox should be checked and if all checkboxes are unchecked then it should be unchecked if any one of them is unchecked then parent checkbox should indicate mixed state.that is Indeterminate state.
-  
+
 And it is only for visual representation. You can't make a checkbox indeterminate through HTML there is no attribute.
 
 ```
 var checkbox = document.getElementById(“indeterminate-checkbox”);
 checkbox.indeterminate = true;
 ```
-  
+
 But in Angular we can set indeterminate state through <code>Indeterminate</code> property.
-  
+
 ```
 <mat-checkbox indeterminate=“true”>Checkbox Indeterminate</mat-checkbox>
-```  
+```
 Any click action on `<mat-checkbox>` will remove the indeterminate state.
 
 And if the checkbox contain both <code>indeterminate</code> and <code>checked</code> properties true. Then it will displayed as <code>indeterminate</code> state.
@@ -156,33 +143,33 @@ And if the checkbox contain both <code>indeterminate</code> and <code>checked</c
 </mat-checkbox>
 //Checkbox displayed as indeterminate state.
 ```
-  
+
 ## mat-checkbox Disabled State
-  
+
 Using <code>disabled</code> propery of <code>&lt;mat-checkbox&gt;</code> we can disable angular material checkbox.
-  
+
 ```
 <mat-checkbox disabled>Checkbox Disabled</mat-checkbox>
-```  
+```
 ## mat-checkbox color and Theming
-  
+
 The color of Angular Checkbox can be changed by color property of `<mat-checkbox>`. By default value is "accent" and can be change to primary or warn according to Material design theming guidelines.
-  
+
 And We can disable ripple animation using Angular Material Checkbox property <code>disableRipple</code>
-  
+
 ```
 <mat-checkbox disableRipple=true>Checkbox Ripple Disabled</mat-checkbox>
-```  
-## mat-checkbox Example  
+```
+## mat-checkbox Example
 
 Now we will go though the simple example to understand the properties of Angular Material Checkbox.
-  
+
 First setup <a href="http://www.angularjswiki.com/tutorials/angular/angular-2-or-angular-local-development-environment-setup/" target="_blank" rel="noopener">Angular in your local development environment</a> and install Angular Material module as explained in <a href="http://www.angularjswiki.com/tutorials/angular/angular-material-2-tutorial-with-examples/" target="_blank" rel="noopener">Angular Material Tutorial</a> previous article.
-  
+
 Add a new material module by following command
-  
+
 `ng generate module material`
-  
+
 And import <code>MatCheckboxModule</code> from @angular/Material as shown below.Add below line in generated material.module.ts file.
 
 `import { MatCheckboxModule } from '@angular/Material'`
@@ -287,7 +274,7 @@ And add following code in generated `angular-material-checkbox.component.html` f
 </mat-card-content>
 </mat-card>
 ```
-  
+
 Now we will use the component,add following code in `app.component.html` file
 
 
@@ -297,7 +284,7 @@ Now we will use the component,add following code in `app.component.html` file
 </h1>
 <app-angular-material-checkbox></app-angular-material-checkbox>
 ```
-  
+
 And I assigned title variable to Angular Material Checkbox in `app.component.ts` file.
 
 Now type <code>ng serve</code> and browse <code>http://localhost:4200</code> in browser to see the demo.
@@ -424,12 +411,12 @@ To set mat-checkbox checked by default we use `checked` attribute or [ngModel] a
 
 ```
 <mat-checkbox [(ngModel)]="IsChecked">
-	<label>Checked by default using ngModel</label>
+    <label>Checked by default using ngModel</label>
 </mat-checkbox>
 
 
 <mat-checkbox [checked]="IsChecked">
-	<label>Checked by default using checked attribute</label>
+    <label>Checked by default using checked attribute</label>
 </mat-checkbox>
 ```
 
