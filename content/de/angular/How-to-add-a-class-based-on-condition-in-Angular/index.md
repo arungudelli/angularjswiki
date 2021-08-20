@@ -1,13 +1,4 @@
-+++
-title = "How to add conditional class in Angular using ngClass"
-subtitle = "add a class dynamically using ngClass"
-summary ="To add a conditional class in Angular we can pass an object to `ngClass` where key is the class name and value is condition i.e., true or false"
-keywords=["conditional class angular,add class dynamically in Angular,ngClass angular"]
-date="2019-10-17T01:01:05+0000"
-lastmod="2019-10-17T02:45:18+0000"
-type="post"
-draft=true
-authors = ["admin"]
++++ title = "How to add conditional class in Angular using ngClass" subtitle = "add a class dynamically using ngClass" summary ="To add a conditional class in Angular we can pass an object to `ngClass` where key is the class name and value is condition i.e., true or false" keywords=["conditional class angular,add class dynamically in Angular,ngClass angular"] date="2019-10-17T01:01:05+0000" lastmod="2019-10-17T02:45:18+0000" type="post" draft=true authors = ["admin"]
 
 +++
 
@@ -18,7 +9,7 @@ To add a conditional class in Angular we can pass an object to `ngClass` where k
 ```
 And in the above code, class name will be added only when the condition is true.
 
-We can add a single class or multiple classes dynamically based upon the conditions. 
+We can add a single class or multiple classes dynamically based upon the conditions.
 
 We will go through few examples to understand it further.
 
@@ -75,7 +66,7 @@ If the the `priority` is less than 10 will add `message` class, if it's between 
 
 ## Add a class based on multiple conditions
 
-And in case of `warn` class we need to add it based upon multiple conditions. We can pass conditional expression as an object key as shown. 
+And in case of `warn` class we need to add it based upon multiple conditions. We can pass conditional expression as an object key as shown.
 
 ```
 <div [ngClass]="{'warn': info.priority > 10 && info.priority < 20}">
@@ -163,7 +154,7 @@ And in component ts file actual logic will be performed
 
 ```
 getClass(priority){
-  
+
    return {'message': priority < 10,
                  'warn': priority > 10 && priority < 20, 
                  'error fa fa-exclamation-triangle': priority > 30}
