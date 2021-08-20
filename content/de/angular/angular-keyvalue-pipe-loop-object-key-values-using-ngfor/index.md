@@ -1,23 +1,8 @@
-+++
-title = "Loop Object Key Values In Angular Using *NgFor & Angular Keyvalue Pipe"
-subtitle = "Angular keyvalue pipe"
-type="post"
-summary ="KeyValue pipe released in Angular 6.1 to loop through objects,Maps and arrays.Now by passing KeyValue pipe to *ngFor we can loop through objects key values"
-keywords=["angular keyvalue pipe,angular 6.1,loop object key values using *ngfor,ngfor,angular *ngfor"]
-date="2018-08-15T01:01:05+0000"
-lastmod="2019-01-30T04:58:49+0000"
-draft=true
-authors = ["admin"]
-[image]
-  caption = "Angular keyValue pipe"
++++ title = "Loop Object Key Values In Angular Using *NgFor & Angular Keyvalue Pipe" subtitle = "Angular keyvalue pipe" type="post" summary ="KeyValue pipe released in Angular 6.1 to loop through objects,Maps and arrays.Now by passing KeyValue pipe to *ngFor we can loop through objects key values" keywords=\["angular keyvalue pipe,angular 6.1,loop object key values using *ngfor,ngfor,angular *ngfor"] date="2018-08-15T01:01:05+0000" lastmod="2019-01-30T04:58:49+0000" draft=true authors = ["admin"\] \[image\] caption = "Angular keyValue pipe"
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  # Focal point (optional) # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight focal_point = ""
 
-  # Show image only in page previews?
-  preview_only = false
-+++
+  # Show image only in page previews? preview_only = false +++
 
 `KeyValue` pipe released in Angular 6.1 to loop through objects,Maps and arrays.Now by passing `KeyValue` pipe to *ngFor we can loop through objects key values & maps.
 
@@ -52,9 +37,9 @@ export class KeyvaluepipeComponent implements OnInit {
 
  object: {[key:number]:string} = 
  {2:'Angular keyvalue Pipe', 1:'Angular ngFor'};
- 
+
  map=new Map([[2, 'Angular keyvalue Pipe'], [1, 'Angular ngFor']]);
- 
+
  array= ["Angular keyvalue Pipe","Angular ngFor"]
 
  constructor() { }
@@ -63,22 +48,22 @@ export class KeyvaluepipeComponent implements OnInit {
 
 }
 ```
-  
+
 ## Loop Object key Values using *ngFor & keyvalue pipe
-  
+
 And in our template file we will loop the object keys and value using *ngFor and keyvalue pipe
-  
+
 ```
  <p>Loop Through Object using KeyValue Pipe and *ngFor</p>
-  
+
   <div *ngFor="let item of object | keyvalue">
     {{item | json }}
     Object Key:{{item.key}} and Object Value:{{item.value}}
   </div>
-```  
-    
+```
+
 And the out will be
-    
+
 ```
 Loop Through Object using KeyValue Pipe
 
@@ -88,7 +73,7 @@ Object Key:1 and Object Value:Angular ngFor
 { "key": "2", "value": "Angular keyvalue Pipe" } 
 Object Key:2 and Object Value:Angular keyvalue Pipe
 ```
-    
+
 The converted output array will be ordered by keys(Unicode point value) that is why `Angular ngFor` displayed ahead of `Angular keyvalue Pipe`
 
 ## Angular KeyValue Pipe Default sorting
@@ -99,13 +84,13 @@ As mentioned above keyvalue pipe sorts the converted array based upon unicode po
 2. If the keys are strings they are sorted by alphabetical order.
 3. If the keys are mixed i.e., one key is string and other key is number then both are converted to    strings, first sorted by numbers in ascending order and then sorted by strings in alphabetical      order.
 4. If the key is `undefined` or `null` they are displayed at last.
-    
-Angular KeyValue pipe uses `defaultComparator` function to sort the key value array. But if the key is complex,we can pass our own custom compare function to sort the array. 
+
+Angular KeyValue pipe uses `defaultComparator` function to sort the key value array. But if the key is complex,we can pass our own custom compare function to sort the array.
 
 Go through the below example
-    
+
 ## Passing custom compare function to angular KeyValue Pipe for sorting
-      
+
 If the object key is a complex type, the `defaultComparator` may not serve our purpose. We need to write our own comparator.
 
 ```
@@ -128,13 +113,13 @@ export class Product{
    }
 }
 ```
-   
+
 I created two classes Product and ProductModel. We will use these both classes to create a complex object type
 
 ```
 products=newMap<Product,ProductModel>();
 constructor() {
- 
+
  var key=new Product(900,"Angular Video");
  var product=new ProductModel(key,"Video");
  this.products.set(key,product);
@@ -213,7 +198,7 @@ Product description: Angular Video 
 Product Model :Video
 ```
 You will get an error saying `Cannot find name 'KeyValue'`
-  
+
 In the `productComparator` method we are passing KeyValue type parameter. So we need to add interface of `KeyValue` in our code
 
 ```
@@ -228,15 +213,15 @@ And looping simple Map key and values is very similar ,same syntax we need pass�
 
 ```
 <p>Loop Through Maps using KeyValue Pipe</p><br>
- 
+
  <div *ngFor="let item of map | keyvalue">
   {{item| json }} <br/>
   Map Key: {{item.key}} and Map Value:{{item.value}}
- 
+
 </div>
-```    
+```
 See the below output
-    
+
 ```
 Loop Through Maps using KeyValue Pipe
 
@@ -246,9 +231,9 @@ Map Key: 1 and Map Value:Angular ngFor
 { "key": "2", "value": "Angular keyvalue Pipe" } 
 Map Key: 2 and Map Value:Angular keyvalue Pipe
 
-``` 
+```
 
-As the `key` is of type number, Key 1 is displayed first then Key 2. means they are sorted by numbers ascending order.
+As the `key` is of type number, Key 1 is displayed first then Key 2. means they are sorted by numbers ascending order. means they are sorted by numbers ascending order.
 
 ## Loop Arrays using *ngFor & Angular keyvalue pipe
 
@@ -273,10 +258,10 @@ Array key: 0 and Array Value:Angular keyvalue Pipe
 { "key": "1", "value": "Angular ngFor" } 
 Array key: 1 and Array Value:Angular ngFor
 ```
-   
+
 ## The pipe 'keyvalue' could not be found error
 
-As the keyvalue pipe introduced in Angular 6.1 release. If you try to use `keyvalue` pipe in older versions of Angular you will get `The pipe 'keyvalue' could not be found` error. 
+As the keyvalue pipe introduced in Angular 6.1 release. If you try to use `keyvalue` pipe in older versions of Angular you will get `The pipe 'keyvalue' could not be found` error.
 
 You need to update `@angular/core` by runnin below angular cli ng command
 
