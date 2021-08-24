@@ -1,0 +1,3 @@
+files:
+  - source: /content/en/angular/**/*.md
+    translation: /content/%two_letters_code%/angular/**/%original_file_name%
