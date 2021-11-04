@@ -1,5 +1,5 @@
 +++
-title = "Angular 13 vesrion released by Google"
+title = "Angular 13 version released by Google"
 subtitle = "Angular v13 version released"
 summary ="On 03-11-2021 ie.,Google has released Angular 13 version."
 keywords=["Angular 13 release date, ng update angular, Angular version 13, Angular v13"]
