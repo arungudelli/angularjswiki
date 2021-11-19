@@ -25,7 +25,7 @@ As with any other modern software development instrument, security is the number
 
 Angular- a front-end component-based framework- undoubtedly helps mitigate a range of security threats without the need for additional lines of code. 
 
-However, even with its magnificent protective shield coupled with Long-term Support (LTS) from [Google](http://localhost:1313/angular/angular-13-release/), applications built on Angular are still prone to attacks. 
+However, even with its magnificent protective shield coupled with Long-term Support (LTS) from [Google](https://www.angularjswiki.com/angular/angular-13-release/), applications built on Angular are still prone to attacks. 
 
 Identifying vulnerabilities is the first step in threat actors’ playbooks. 
 
