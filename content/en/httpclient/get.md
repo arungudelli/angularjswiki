@@ -22,7 +22,7 @@ linktitle = "get"
 
 +++
 
-In Angular, to get the data from the server we can make use of `HttpClient.get()` method. 
+To get the data from the server we can make use of Angular `HttpClient.get()` request method. 
 
 **`HttpClient.get()` method is an asynchronous method that performs an HTTP get request in Angular applications and returns an Observable. And that Observable emits the requested data when the response is received from the server.**
 
@@ -92,9 +92,90 @@ Now type `ng serve` your application should be running on `http://localhost:4200
 http-get-request-angular app is running!
 ```
 
-As a best practice create a service which makes http request calls with the help of HttpClient module.
+As mentioned in [HttpClinet Observable](https://www.angularjswiki.com/httpclient/observable/), For our Angular HttpClient get request example, we will use a third party API `https://reqres.in/api/users?page=1` which returns a list of users in JSON object format. 
 
-### Creating a Service which return  Observable
+To setup server communication we need to add `HttpClientModule` in `app.module.ts` file as explained in [HttpClient Introduction](https://www.angularjswiki.com/httpclient/)
+
+```
+// app.module.ts file of http-get-request-angular app.
+
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
+
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule  //IMPORTANT: Add it after BrowserModule only
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
+
+Now we can make use of HttpClient service anywhere in our Angular applications. 
+
+## Creating re-usable Injectable Http Service
+
+We will create a new service which handles all Httpclient communication operations like requesting the data, post-processing the data, error handling,and retry logic.
+
+The advantage of creating such service is we can inject it wherever we want(like any component) in our Angular application.
+
+As any application meant to evolve such injectable services helps us to build scalable solutions.
+
+```
+>ng generate service user
+
+CREATE src/app/user.service.spec.ts (347 bytes)
+CREATE src/app/user.service.ts (133 bytes)
+```
+
+And inject HttpClient in `user.service.ts` file.
+
+```
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class UserService {
+  constructor(private http: HttpClient) {}
+}
+```
+As `HttpClient` service uses observables for http requests,we should import the RxJS observable in our http service.
+
+As the setup is ready we will make use of `HttpClient.get()` to display the list of users from the API. 
+
+## HttpClient.get() example 
+
+Angular's `HttpClient.get()` method takes arguments.
+
+1. API Endpoint Url
+2. Options
+
+Options parameter object used to configure various Http request options like request headers,parameters and response type etc. 
+
+```
+options: {
+    headers?: HttpHeaders | {[header: string]: string | string[]},
+    observe?: 'body' | 'events' | 'response',
+    params?: HttpParams|{[param: string]: string | number | boolean | ReadonlyArray<string | number | boolean>},
+    reportProgress?: boolean,
+    responseType?: 'arraybuffer'|'blob'|'json'|'text',
+    withCredentials?: boolean,
+}
+```
 
 We will create a UserService and inject HttpClient.
 
