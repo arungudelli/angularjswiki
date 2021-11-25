@@ -45,7 +45,7 @@ It has so many features such as
 3. We can easily mock the HTTP backend server using `@angular/common/http/testing` library for unit testing purpose.
 4. Intercepting Http Request and Responses.
 
-## Steps to Use HttpClinet in Angular
+## Steps to Use HttpClient in Angular
 
 To use HttpClient in Angular applications follow the below steps.
 
