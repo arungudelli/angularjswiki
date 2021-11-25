@@ -122,7 +122,7 @@ import { HttpClientModule } from '@angular/common/http';
 export class AppModule { }
 ```
 
-Now we can make use of HttpClient service anywhere in our Angular applications. 
+We can inject HttpClient service anywhere in our Angular applications. 
 
 ## Creating re-usable Injectable Http Service
 
@@ -139,7 +139,7 @@ CREATE src/app/user.service.spec.ts (347 bytes)
 CREATE src/app/user.service.ts (133 bytes)
 ```
 
-And inject HttpClient in `user.service.ts` file.
+And inject `HttpClient` in `user.service.ts` file.
 
 ```
 import { Injectable } from '@angular/core';
@@ -155,9 +155,11 @@ export class UserService {
 ```
 As `HttpClient` service uses observables for http requests,we should import the RxJS observable in our http service.
 
-As the setup is ready we will make use of `HttpClient.get()` to display the list of users from the API. 
-
 ## HttpClient.get() example 
+
+Now we will make use of `HttpClient.get()` to get the list of users from the API. 
+
+### HttpClient get method syntax
 
 Angular's `HttpClient.get()` method takes arguments.
 
@@ -165,6 +167,8 @@ Angular's `HttpClient.get()` method takes arguments.
 2. Options
 
 Options parameter object used to configure various Http request options like request headers,parameters and response type etc. 
+
+And this parameter is optional.
 
 ```
 options: {
@@ -176,6 +180,91 @@ options: {
     withCredentials?: boolean,
 }
 ```
+
+The observe and responseType properties are important while making the httpclient get request in Angular.
+
+The `responseType` option indicates the format of the data returns from the http request.
+
+Default responseType of HttpClient.get() method is "json".
+
+Every http response contains http response headers and body. 
+
+With the use of `observe` option we can specify whether we want to access complete http response object or actual body.
+
+Most of the times we requires only body i.e., actual data.
+
+Additionally if we want more details about processing of http requests we can request data in the form of HTTP event. 
+
+Default `observe` response of HttpClient.get() method is "body". 
+
+That's all needed in most of the real world examples. 
+
+We will see more details about this `observe` option in other article.
+
+### Calling the data end point URL
+
+Now we will create a method in our `UserService.ts` file, which requests the data from the HTTP end point URL.
+
+```
+//Http Client get method
+public getUsers(): Observable<any> {
+    const url = 'https://reqres.in/api/users?page=1';
+    return this.http.get<any>(url);
+}
+```
+
+We are not passing options object as it's optional.
+
+Next we will inject our Http service i.e., UserService in our Angular component and then we will subscribe to the observable.
+
+### Displaying the data in the component
+
+We will create a user component which displayes the list of users returned from the above rest api end point.
+
+Then we will inject Http service in component.ts file to call the observable function. 
+
+In ngOnInit() method I am subscribing to the `getUsers()` method of UserService.
+
+We have a array variable called `users` in our user component, which is used to display the users in component html file.
+
+In subscribe() method, I am assigning the data returned from the observable to `users` array.
+
+```
+export class UserComponent implements OnInit {
+
+  users = new Array<any>();
+
+  constructor(public userService: UserService) { }
+
+  ngOnInit(): void {
+    this.userService.getUsers().subscribe(response => {
+        this.users = response.data;
+    });
+  }
+
+}
+```
+Finally In user component HTML file, display the user names using *ngFor.
+
+```
+<li *ngFor="let user of users">
+  <span>{{user.first_name}} {{user.last_name}}</span>
+</li>
+```
+
+
+And HttpClient can request typed response object so that we can use the returned data more conveniently. 
+
+## Requesting a Typed Response 
+
+
+
+
+The responseType option specifies the format in which to return data.
+
+
+
+And 
 
 We will create a UserService and inject HttpClient.
 
