@@ -32,7 +32,7 @@ Now we will go through an example to understand it further.
 
 ## Http get request in Angular
 
-Open your command promt and create a new application using Angular cli ng new command.
+Open your command prompt and create a new application using Angular cli ng new command.
 
 ```
 > ng new http-get-request-angular
@@ -92,7 +92,7 @@ Now type `ng serve` your application should be running on `http://localhost:4200
 http-get-request-angular app is running!
 ```
 
-As mentioned in [HttpClinet Observable](https://www.angularjswiki.com/httpclient/observable/), For our Angular HttpClient get request example, we will use a third party API `https://reqres.in/api/users?page=1` which returns a list of users in JSON object format. 
+As mentioned in [HttpClient Observable](https://www.angularjswiki.com/httpclient/observable/), For our Angular HttpClient get request example, we will use a third party API `https://reqres.in/api/users?page=1` which returns a list of users in JSON object format. 
 
 To setup server communication we need to add `HttpClientModule` in `app.module.ts` file as explained in [HttpClient Introduction](https://www.angularjswiki.com/httpclient/)
 
@@ -126,7 +126,7 @@ We can inject HttpClient service anywhere in our Angular applications.
 
 ## Creating re-usable Injectable Http Service
 
-We will create a new service which handles all Httpclient communication operations like requesting the data, post-processing the data, error handling,and retry logic.
+We will create a new service which handles all HttpClient communication operations like requesting the data, post-processing the data, error handling,and retry logic.
 
 The advantage of creating such service is we can inject it wherever we want(like any component) in our Angular application.
 
@@ -181,7 +181,7 @@ options: {
 }
 ```
 
-The observe and responseType properties are important while making the httpclient get request in Angular.
+The observe and responseType properties are important while making the HttpClient get request in Angular.
 
 The `responseType` option indicates the format of the data returns from the http request.
 
@@ -219,13 +219,13 @@ Next we will inject our Http service i.e., UserService in our Angular component 
 
 ### Displaying the data in the component
 
-We will create a user component which displayes the list of users returned from the above rest api end point.
+We will create a user component to display the list of users returned from the above rest api end point.
 
 Then we will inject Http service in component.ts file to call the observable function. 
 
-In ngOnInit() method I am subscribing to the `getUsers()` method of UserService.
+In ngOnInit() method, I am subscribing to the `getUsers()` method of UserService.
 
-We have a array variable called `users` in our user component, which is used to display the users in component html file.
+We have an array variable called `users` in our user component, which is used to display the `users` in component html file.
 
 In subscribe() method, I am assigning the data returned from the observable to `users` array.
 
@@ -244,7 +244,7 @@ export class UserComponent implements OnInit {
 
 }
 ```
-Finally In user component HTML file, display the user names using *ngFor.
+Finally In user component HTML file, display the user names using `*ngFor`.
 
 ```
 <li *ngFor="let user of users">
@@ -252,27 +252,75 @@ Finally In user component HTML file, display the user names using *ngFor.
 </li>
 ```
 
-
 And HttpClient can request typed response object so that we can use the returned data more conveniently. 
 
-## Requesting a Typed Response 
+## Http get Request with strongly Typed Response 
+
+The API end point returns below JSON data.
+
+```
+{
+   "page":1,
+   "per_page":1,
+   "total":12,
+   "total_pages":12,
+   "data":[
+      {
+         "id":1,
+         "email":"george.bluth@reqres.in",
+         "first_name":"George",
+         "last_name":"Bluth",
+         "avatar":"https://reqres.in/img/faces/1-image.jpg"
+      }
+   ],
+   "support":{
+      "url":"https://reqres.in/#support-heading",
+      "text":"To keep ReqRes free, contributions towards server costs are appreciated!"
+   }
+}
+```
+
+The JSON data contains list of users and additional information like page, per_page, total etc.
+
+We will create two interfaces with the properties mentioned in the above JSON data.
 
 
+```
+> ng generate interface model/user
+CREATE src/app/model/user.ts (26 bytes)
 
+> ng generate interface model/userinformation
+CREATE src/app/model/userinformation.ts (26 bytes)
 
-The responseType option specifies the format in which to return data.
+```
+user, userinformation interfaces.
 
+```
+export interface User {
+    avatar: string;
+    email: string;
+    first_name: string;
+    id: Number;
+    last_name: string;
+}
 
+export interface UserInformation {
+    page: Number;
+    per_page: Number;
+    support: any;
+    total: Number;
+    total_pages: Number;
+    data: User[];
+}
+```
 
-And 
-
-We will create a UserService and inject HttpClient.
+Now replace `getUsers()` observable return type from `any` to `UserInformation`.
 
 ```
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { UserInformation } from './user';
 import { Observable } from 'rxjs';
+import { UserInformation } from './model/userinformation';
 
 @Injectable({
   providedIn: 'root'
@@ -286,74 +334,35 @@ export class UserService {
     return this.http.get<UserInformation>(url);
   }
 }
-```
-And I am using a third party REST API which returns list of users in Json format. 
-
-`getUsers()` returns an observable of type `UserInformation`.
-
-```
-export class User {
-  public avatar: string;
-  email: string;
-  first_name: string;
-  id: Number;
-  last_name: string;
-}
-
-export class UserInformation {
-  page: Number;
-  per_page: Number;
-  support: any;
-  total: Number;
-  total_pages: Number;
-  data: User[];
-}
 
 ```
 
-### Subscribing to Observable
-
-An Observable function called only when someone subscribes to it. 
-
-And to subscribe we should call `subscribe()` method of the observable instance and additionally we should pass an observer object to read the data from the observable.
-
-In the component.ts file, I am subscribing to `getUsers()` observable method.
-
-And using response object, I am populating `users` property which is used to display the data in UI i.e., component html file.
+In user component.ts file, change the `users` variable to `UserInformation` type as shown below.
 
 ```
-export class UserComponent {
-  userInformation = new UserInformation();
-  users = new Array<User>();
+export class UserComponent implements OnInit {
 
-  constructor(userService: UserService) {
-    userService.getUsers().subscribe(response => {
-      this.userInformation.page = response.page;
-      this.userInformation.per_page = response.per_page;
-      this.userInformation.support = response.support;
-      this.userInformation.total = response.total;
-      this.userInformation.total_pages = response.total_pages;
-      this.userInformation.data = response.data.map(item => {
-        var user = new User();
-        user.avatar = item.avatar;
-        user.email = item.email;
-        user.first_name = item.first_name;
-        user.last_name = item.last_name;
-        user.id = item.id;
-        return user;
-      });
-      this.users = this.userInformation.data;
+
+  userInfo : UserInformation;
+
+  constructor(public userService: UserService) { 
+    this.userInfo = {} as UserInformation;
+  }
+
+  ngOnInit(): void {
+    this.userService.getUsers().subscribe(response => {
+        this.userInfo = response;
     });
   }
+
 }
 ```
-### Display the data
 
-In component HTML file, display the user names using `*ngFor`.
+And list of users will be in `data` property of `userInfo`. 
 
 ```
-<li *ngFor="let user of users">
-  <span>{{user.first_name}} {{user.last_name}}</span>
+<li *ngFor="let user of userInfo.data">
+    <span>{{user.first_name}} {{user.last_name}}</span>
 </li>
 ```
 
