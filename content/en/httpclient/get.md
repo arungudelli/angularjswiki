@@ -336,8 +336,9 @@ export class UserService {
 }
 
 ```
+When we pass an interface as a type parameter to the `HttpClient.get()` method, It uses the RxJS map operator to convert the response data to required interface (in this case `UserInformation`). 
 
-In user component.ts file, change the `users` variable to `UserInformation` type as shown below.
+In user component ts file, change the `users` variable to `UserInformation` type as shown below.
 
 ```
 export class UserComponent implements OnInit {
