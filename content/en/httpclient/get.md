@@ -1,9 +1,9 @@
 +++
-title = "HTTP get request example in angular using HttpClient"
+title = "HTTP get request example in Angular using HttpClient"
 subtitle = "Learn how make http get request in Angular using HttpClient service"
-date = 2021-08-10T00:00:00
-lastmod = 2021-08-10T01:00:00
-draft = true  # Is this a draft? true/false
+date = 2021-11-28T00:00:00
+lastmod = 2021-11-29T00:00:00
+draft = false  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "httpclient"
