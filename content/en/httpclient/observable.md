@@ -8,6 +8,7 @@ toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "httpclient"
 prev="httpclient"
+next="get"
 featured="Angular.png"
 authors = ["admin"]
 summary ="All methods in Angular `HttpClient` return an RxJS Observable."
@@ -18,7 +19,7 @@ keywords=["Angular HttpClient Observable"]
 linktitle = "Observable"
 [menu.httpclient]
   parent = "HttpClient"
-  weight = 1
+  weight = 3
 
 +++
 

@@ -7,22 +7,22 @@ draft = true  # Is this a draft? true/false
 toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "httpclient"
-prev="httpclient"
+prev="observable"
 featured="Angular.png"
 authors = ["admin"]
-summary ="All methods in Angular `HttpClient` return an RxJS Observable."
-keywords=["Angular HttpClient Observable"]
+summary ="To make http get request in Angular, we can make use of `HttpClient.get()` request method."
+keywords=["Angular HttpClient get method","http get request angular"]
 
 # Add menu entry to sidebar.
 
 linktitle = "get"
 [menu.httpclient]
   parent = "HttpClient"
-  weight = 1
+  weight = 4
 
 +++
 
-To get the data from the server we can make use of Angular `HttpClient.get()` request method. 
+To make http get request in Angular, we can make use of `HttpClient.get()` request method. 
 
 **`HttpClient.get()` method is an asynchronous method that performs an HTTP get request in Angular applications and returns an Observable. And that Observable emits the requested data when the response is received from the server.**
 
@@ -352,14 +352,34 @@ export class UserComponent implements OnInit {
 
   ngOnInit(): void {
     this.userService.getUsers().subscribe(response => {
-        this.userInfo = response;
+
+      this.userInfo.page = response?.page;
+      this.userInfo.per_page = response?.per_page;
+      this.userInfo.total = response?.total;
+      this.userInfo.total_pages = response?.total_pages;
+      this.userInfo.data = response?.data?.map(item => {
+        var user = {} as User;
+        user.avatar = item?.avatar;
+        user.email = item?.email;
+        user.first_name = item?.first_name;
+        user.last_name = item?.last_name;
+        user.id = item?.id;
+        return user;
+      });
+
     });
   }
 
 }
 ```
 
-And list of users will be in `data` property of `userInfo`. 
+In subscribe method, assign the response object properties to `userInfo` variable of type `UserInformation`.
+
+And list of users will be in `data` property of response. 
+
+To assign list of users property, I am using rxjs map operator.
+
+Now we can display the user list in component html file using `userInfo.data` property.
 
 ```
 <li *ngFor="let user of userInfo.data">
@@ -367,14 +387,78 @@ And list of users will be in `data` property of `userInfo`.
 </li>
 ```
 
-## Stackblitz Demo
+One thing we need to remember is specifying the response type does not guarantee that the server API returns the same interface or object we defined. 
 
-Here is the link to stackblitz demo for HttpClient Observable.
+It is the server responsibility to return the correct JSON object.
 
-[HttpClient Observable](https://stackblitz.com/edit/httpclientobservable?file=src%2Fapp%2Fuser.component.ts)
+When we add the response type to the observable function, we are informing the typescript compiler that it should treat the response as of the given type. That's it. 
 
-{{< figure src="/img/httpclient/HttpClient-Observable.png" title="HttpClient Observable example" alt="HttpClient Observable Example">}}
+And it's a build or compile time check only. 
 
+For example in the above example the API returns an additional property called `support`, but I have not declared it in our userinformation interface. 
+
+So when we try to assign that property the compiler throws the error.
+
+```
+ngOnInit(): void {
+    this.userService.getUsers().subscribe(response => {
+        //this.userInfo.support = response.support;
+    });
+  }
+```
+
+But at runtime, the response object will contain the property `support`.
+
+```
+console.log(response);
+
+data: (6) [{…}, {…}, {…}, {…}, {…}, {…}]
+page: 1
+per_page: 6
+support: {url: 'https://reqres.in/#support-heading', text: 'To keep ReqRes free, contributions towards server costs are appreciated!'}
+total: 12
+total_pages: 2
+```
+
+But we cannot access `response.support` property as typescript compiler throws error.
+
+Imagine our server implementation changed and returning the user information in the following format. 
+
+The data from `https://fakestoreapi.com/users?limit=2`
+
+```
+[{"address":{"geolocation":{"lat":"-37.3159","long":"81.1496"},"city":"kilcoole","street":"new road","number":7682,"zipcode":"12926-3874"},"id":1,"email":"john@gmail.com","username":"johnd","password":"m38rmF$","name":{"firstname":"john","lastname":"doe"},"phone":"1-570-236-7033","__v":0},{"address":{"geolocation":{"lat":"-37.3159","long":"81.1496"},"city":"kilcoole","street":"Lovers Ln","number":7267,"zipcode":"12926-3874"},"id":2,"email":"morrison@gmail.com","username":"mor_2314","password":"83r5^_","name":{"firstname":"david","lastname":"morrison"},"phone":"1-570-236-7033","__v":0}]
+```
+
+There is no way we can map that information to our interface. 
+
+In that case the response object properties will be undefined.
+
+That's the reason in the above subscribe method while assigning properties we are doing null check.
+
+```
+response?.page 
+response?.data?.map()
+
+```
+
+But at runtime the response object will have new data returned from the other API, but we cannot access as Typescript compiler restrict us. 
+
+If you are sure about the data returned from API, you can directly assign the response object to the variable in the component ts file.
+
+```
+this.userService.getUsers().subscribe((response:UserInformation) => {
+  this.userInfo = response;      
+});
+```
+
+## Github code & StackBlitz Demo
+
+Here is the links for StackBlitz demo & Github code.
+
+Demo : [Http get request Angular](https://stackblitz.com/edit/http-get-request-angular-example?file=src%2Fapp%2Fuser.component.ts)
+
+Code : [https://github.com/arungudelli/http-get-request-angular](https://github.com/arungudelli/http-get-request-angular)
 
 
 

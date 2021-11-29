@@ -18,7 +18,7 @@ keywords=["Angular HttpClient methods"]
 linktitle = "Methods"
 [menu.httpclient]
   parent = "HttpClient"
-  weight = 3
+  weight = 2
 
 +++
 
