@@ -8,6 +8,7 @@ toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "httpclient"
 prev="observable"
+next="get-params"
 featured="Angular.png"
 authors = ["admin"]
 summary ="To make http get request in Angular, we can make use of `HttpClient.get()` request method."
