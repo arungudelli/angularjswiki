@@ -22,7 +22,7 @@ linktitle = "get"
 
 +++
 
-To do http get request with parameters in Angular, we can make use of options argument in `HttpClient.get()`method.
+To do http get request with parameters in Angular, we can make use of params options argument in `HttpClient.get()` method.
 
 As explained in previous Angular HTTP get request tutorial, `Http.get()` method takes two arguments 
 
