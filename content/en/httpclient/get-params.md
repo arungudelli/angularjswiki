@@ -203,7 +203,7 @@ public getUsersMultipleParams(): Observable<UserInformation> {
 
 Here is the links for StackBlitz demo & Github code.
 
-Demo : [Http get request Angular](https://stackblitz.com/edit/http-get-request-params-angular-example?file=src%2Fapp%2Fuser.service.ts)
+Demo : [Http get request with parameters Angular](https://stackblitz.com/edit/http-get-request-params-angular-example?file=src%2Fapp%2Fuser.service.ts)
 
 
 
