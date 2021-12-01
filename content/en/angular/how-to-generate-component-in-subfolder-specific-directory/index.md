@@ -2,15 +2,13 @@
 title = "How to generate component in subdirectory or specific folder in Angular using ng generate"
 subtitle = "ng generate component in subdirectory"
 type="post"
-summary ="Two ways to get query parameters from URL in Angular 1. Using queryParams 2. Using queryParamMap"
-keywords=["query parameters,queryParamMap,queryParams"]
-date="2021-01-20T00:00:06+0000"
-lastmod="2021-01-20T00:01:49+0000"
+summary ="steps to generate component in a specific folder in Angular. 1. Open terminal at Angular project root directory. 2. Pass the relative path which contains folder name to the `ng generate component` command"
+lastmod="2021-12-01T00:00:00+0000"
 draft=true
 authors = ["admin"]
 
 [image]
-  caption = "ng-template"
+  caption = "ng-generate"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
@@ -45,11 +43,13 @@ import { ProductlistComponent } from './product/productlist/productlist.componen
 
 ```
 
+{{< figure src="/img/blog/component-in-subdirectory-angular.png" title="component in subdirectory angular" alt="component-in-subdirectory-angular">}}
+
 If you see the source code structure, `ng generate component` will create two directories `product` and `productlist`. 
 
 Inside product component we may have other components like productview etc. 
 
-If you don't want to create child directories for each and every child components of products, we should use `--flat` option.
+If you don't want to create sub directories for each and every child components of products, we should use `--flat` option.
 
 Let's create component without creating sub-folder for child components. 
 
@@ -62,7 +62,7 @@ CREATE src/app/product/productlist.component.scss (0 bytes)
 UPDATE src/app/app.module.ts (669 bytes)
 ```
 
-Let's create an other component in the same directory i.e., product, which displays the product overview information.
+Let's create an other component in the same directory i.e., product overview, which displays the product information.
 
 ```
 ng generate component product/productoverview --flat
@@ -74,5 +74,7 @@ UPDATE src/app/app.module.ts (780 bytes)
 ```
 
 We have created two components in the same directory. 
+
+{{< figure src="/img/blog/multiple-components-in-same-directory.png" title="multiple-components-in-same-directory" alt="multiple-components-in-same-directory">}}
 
 In this way we can organize similar components in the same directory without creating folders for each component.
