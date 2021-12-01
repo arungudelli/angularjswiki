@@ -4,7 +4,7 @@ subtitle = "ng generate component in subdirectory"
 type="post"
 summary ="steps to generate component in a specific folder in Angular. 1. Open terminal at Angular project root directory. 2. Pass the relative path which contains folder name to the `ng generate component` command"
 lastmod="2021-12-01T00:00:00+0000"
-draft=true
+draft=false
 authors = ["admin"]
 
 [image]
@@ -47,7 +47,7 @@ import { ProductlistComponent } from './product/productlist/productlist.componen
 
 If you see the source code structure, `ng generate component` will create two directories `product` and `productlist`. 
 
-Inside product component we may have other components like productview etc. 
+Inside product component we may have other components like product view etc. 
 
 If you don't want to create sub directories for each and every child components of products, we should use `--flat` option.
 
