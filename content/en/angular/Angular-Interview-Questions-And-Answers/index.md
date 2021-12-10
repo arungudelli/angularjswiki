@@ -5,7 +5,7 @@ subtitle = "A guide to crack the Angular interview"
 keywords=["Angular Interview Questions"]
 date="2021-12-10T00:00:00"
 lastmod="2021-12-10T00:00:00"
-draft=true
+draft=false
 authors = ["admin"]
 type="post"
 +++
@@ -29,6 +29,8 @@ So As of 2021, Most of the developers will have less than 6 years of experience 
 This is a big advantage to clear the Angular interview, because the resources available to learn Angular framework are same for all developers across the world.
 
 People who are working on other languages such as JavaScript, Java/C#, python etc may face some unexpected questions during the time of interview, because interviewers may have tons of experience in building applications using the mentioned languages. 
+
+{{%toc%}}
 
 ## 1. What is Angular Framework?
 
