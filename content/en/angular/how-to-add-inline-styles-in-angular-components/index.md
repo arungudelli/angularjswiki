@@ -3,8 +3,8 @@ title = "How To Add Inline Styles in Angular Components"
 subtitle = "Adding inline styles to components in Angular"
 type="post"
 summary ="To create the component with inline styles in Angular, pass `--inline-style` flag to ng generate component command."
-lastmod="2021-12-11T00:00:00+0000"
-date="2021-12-11T00:00:00+0000"
+lastmod="2021-12-10T00:00:00+0000"
+date="2021-12-10T00:00:00+0000"
 draft=false
 authors = ["admin"]
 
