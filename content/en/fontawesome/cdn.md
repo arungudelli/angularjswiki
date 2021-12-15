@@ -1,11 +1,11 @@
 +++
-title = "Font Awesome CDN"
+title = "How to use Font Awesome CDN"
 subtitle = "Font awesome Icons CDN list"
 type="docs"
 summary ="In this tutorial we will learn how to use font awesome icons by serving them from font awesome cdn."
 keywords=["font awesome icons,font awesome icons CDN"]
 date="2019-07-14T01:01:05+0000"
-lastmod="2020-12-01T00:00:08+0000"
+lastmod="2021-12-14T00:00:08+0000"
 prev="fontawesome"
 next="csscontentcode"
 draft=false
