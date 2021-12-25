@@ -2,14 +2,14 @@
 title = "mat-table filter example: Search & Filter mat-table in Angular"
 date = 2021-02-07T00:00:00
 lastmod = 2021-02-07T01:00:00
-draft = "true"  # Is this a draft? true/false
+draft = "false"  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
 prev = "mat-table"
 featured="mat-table-featured.jpg"
 authors = ["admin"]
-summary ="mat-table selector in Angular used to display data in table format"
+summary ="In this tutorial we will learn how to filter a mat-table in Angular."
 keywords=["mat-table,Angular Material Table"]
 
 
@@ -17,7 +17,7 @@ keywords=["mat-table,Angular Material Table"]
 linktitle = "mat-table filter"
 [menu.material]
   parent = "Tutorial"
-  weight = 3
+  weight = 4
 +++
 
 In this tutorial we will learn how to **filter a mat-table in Angular**.
@@ -119,7 +119,7 @@ The above row will be converted to the following string.
 
 And when we pass filter input to the data source, the data source checks whether the search string contains in the above concatenated string row or not. 
 
-If it's not the row will be removed from the resulting rows. 
+If it's not, the row will be removed from the resulting rows. 
 
 That's why in the above `applyFilter()` function, I have converted the input string to lowerCase.
 
@@ -175,4 +175,146 @@ We can add complex conditions like filter by gender and position etc.
 And with the single input text box, we cannot filter by multiple columns so we need to provide drop down box to each and every column
 
 ## mat-table filter by multiple columns
+
+First we need to understand our table data structure, before adding filters to the mat-table. 
+
+For example we can add filter on gender, employee position and department etc. 
+
+Such columns are fixed inside a table, mostly we would like to filter table by these columns only. 
+
+Adding filter based on employee name does not make sense. For those kind of fields we need to have search input text box as explained above. 
+
+So the ideal table should have free text search bar and additional filters based on the type of data. 
+
+We will add three filters to mat-table using department,jobtitle and gender drop down list.
+
+```
+export interface EmpFilter {
+    name:string;
+    options:string[];
+    defaultValue:string;
+}
+
+genders: string[]=['All','Male','Female'];
+jobtitles: string[]=['All','Support Analyst','Project Manager','Senior officer','Software Engineer'];
+departments: string[]=['All','Support','Human Resources','Marketing','Engineering'];
+empFilters: EmpFilter[]=[];
+
+ngOnInit(): void {
+
+    this.empFilters.push({name:'gender',options:this.genders,defaultValue:this.defaultValue});
+    this.empFilters.push({name:'jobtitle',options:this.jobtitles,defaultValue:this.defaultValue});
+    this.empFilters.push({name:'department',options:this.departments,defaultValue:this.defaultValue});
+    
+}
+```
+
+Make sure the filter name property matches with the column property of the Employee table. 
+
+This will be helpful while filtering the table. 
+
+For example we have a filter named `gender` and it should match with the employee interface `gender` property name. 
+
+```
+export interface Employee {
+  id : number,	
+  firstname:string,	
+  lastname:string,	
+  email:string,
+  gender:string, //	this.empFilters.push({name:'gender'..);
+  jobtitle:string,
+  department:string
+}
+```
+
+Now using `*ngFor` display the filters in the component html file, above the mat-table.
+
+```
+<mat-form-field appearance="fill" *ngFor="let empfilter of empFilters">
+    <mat-label>{{empfilter.name}}</mat-label>
+    <mat-select [(value)]="empfilter.defaultValue" (selectionChange)="applyEmpFilter($event,empfilter)">
+      <mat-option *ngFor="let op of empfilter.options" [value]="op">
+        {{op}}
+      </mat-option>
+    </mat-select>
+</mat-form-field>
+```
+
+On Selection change I am calling `applyEmpFilter` function. 
+
+```
+
+filterDictionary= new Map<string,string>();
+
+applyEmpFilter(ob:MatSelectChange,empfilter:EmpFilter) {
+
+    this.filterDictionary.set(empfilter.name,ob.value);
+    var jsonString = JSON.stringify(Array.from(this.filterDictionary.entries()));
+    this.dataSourceFilters.filter = jsonString;
+  
+}
+```
+
+`MatTableDataSource` filter accepts only strings. 
+
+So to pass multiple columns filters, I have created a typescript `Map` (filterDictionary) which accepts key value pair of column values. 
+
+For example if we select `gender` as male in the dropdown, we will set the Map with the values ("gender","Male").
+
+As it's a dictionary every time the gender value will be updated based on drop down values. 
+
+As we have three filters in our mat-table, the dictionary contains at most three values. 
+
+After that we will convert the Map to JSON string and assign it to `MatTableDataSource` filter.
+
+Next the most important thing is **creating the mat-table filterPredicate**. 
+
+
+```
+this.dataSourceFilters.filterPredicate = function (record,filter) {
+      
+      var map = new Map(JSON.parse(filter));
+      let isMatch = false;
+
+      for(let [key,value] of map){
+        isMatch = (value=="All") || (record[key as keyof Employee] == value); 
+        if(!isMatch) return false;
+      }
+
+      return isMatch;
+}
+```
+
+In the mat-table filterPredicate function, we will convert the filter string back to the Map variable.
+
+Now for each filter value i.e, for each Map key value, we will check whether the value will be equal to the corresponding employee property value. 
+
+```
+(record[key as keyof Employee] == value)
+```
+
+That's the reason, we should create filter name same as employee property name.
+
+For example we have selected "gender" as "Male", Our Map contains key as "gender" and value as "Male".
+
+And the mat-table record row i.e, employee record we should check the gender property.
+
+```
+record["gender"] or record.gender
+```
+But we cannot use `record[key]` directly, Instead we have to use `record[key as keyof Employee]`.
+
+We have three filters in our mat-table. 
+
+1. department
+2. jobtitle
+3. gender
+
+Each filter will be cross verified against the employee record property and if all values are matched then we should add that record in mat-table. 
+
+If one of the property is not equal we should remove it from the resulting table records (return false).
+
+Additionally I have added one extra condition to check default value "All".
+
+
 
