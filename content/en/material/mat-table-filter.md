@@ -6,7 +6,7 @@ draft = "false"  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
-prev = "mat-table"
+prev = "mat-table-pagination"
 featured="mat-table-featured.jpg"
 authors = ["admin"]
 summary ="In this tutorial we will learn how to filter a mat-table in Angular."
@@ -238,6 +238,17 @@ Now using `*ngFor` display the filters in the component html file, above the mat
       </mat-option>
     </mat-select>
 </mat-form-field>
+
+<table mat-table [dataSource]="dataSourceFilters" class="mat-elevation-z8">
+    <ng-container [matColumnDef]="column" *ngFor="let column of displayedColumns">
+        <th mat-header-cell *matHeaderCellDef> {{column}} </th>
+        <td mat-cell *matCellDef="let emp"> {{emp[column]}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let emprow; columns: displayedColumns;"></tr>
+
+</table>
 ```
 
 On Selection change I am calling `applyEmpFilter` function. 
@@ -315,6 +326,12 @@ Each filter will be cross verified against the employee record property and if a
 If one of the property is not equal we should remove it from the resulting table records (return false).
 
 Additionally I have added one extra condition to check default value "All".
+
+## mat-table filter StackBlitz Demo and GitHub code links
+
+Here is the demo for mat-table filter [https://angular-mat-table-filter-example.stackblitz.io](https://angular-mat-table-filter-example.stackblitz.io)
+
+Github Code : [https://github.com/arungudelli/mat-table-filter](https://github.com/arungudelli/mat-table-filter)
 
 
 
