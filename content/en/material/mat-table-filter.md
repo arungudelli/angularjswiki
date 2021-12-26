@@ -131,9 +131,13 @@ The `trim()` removes white space from  the both sides of the search input.
 
 This is the default behavior of built-in filter functionality in mat-table data source. 
 
+{{< figure src="/img/material/mat-table-filter.png" title="mat-table filter" alt="mat-table filter">}}
+
+
 To override this behavior we have to pass custom function to the `filterPredicate`.
 
 `mat-table` filterPredicate is used to filter `mat-table` by particular columns.
+
 
 ## mat-table filter by particular column
 
@@ -170,9 +174,12 @@ ngOnInit(): void {
 }
 ```
 
+{{< figure src="/img/material/mat-table-filterPredicate.png" title="mat-table filterPredicate" alt="mat-table filterPredicate">}}
+
 We can add complex conditions like filter by gender and position etc. 
 
-And with the single input text box, we cannot filter by multiple columns so we need to provide drop down box to each and every column
+And with the single input text box, we cannot filter by multiple columns so we need to provide drop down box to each and every column.
+
 
 ## mat-table filter by multiple columns
 
@@ -250,6 +257,9 @@ Now using `*ngFor` display the filters in the component html file, above the mat
 
 </table>
 ```
+
+{{< figure src="/img/material/mat-table-filter-multiple-columns.png" title="mat-table filter multiple columns" alt="mat-table filter multiple columns">}}
+
 
 On Selection change I am calling `applyEmpFilter` function. 
 
