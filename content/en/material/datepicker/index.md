@@ -18,7 +18,7 @@ keywords=["matdatepicker,Angular Material datepicker"]
 linktitle = "Datepicker"
 [menu.material]
   parent = "Tutorial"
-  weight = 4
+  weight = 2
 +++
 
 To implement date picker in Angular we can use angular material datepicker module called `MatDatepickerModule`.
