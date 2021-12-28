@@ -22,8 +22,9 @@
       {{ .Content }}
     </div>
 
+
     <!-- {{ partial "share_svg.html" .}} -->
-    {{ partial "subscription.html" }}
+    {{ partial "subscription.html" . }}
     {{ partial "tags.html" . }}
 
     {{ if ne .Type "page" }}

@@ -1,5 +1,25 @@
-{{ $ := .root }}
+{{ $root := . }}
+{{$filePath := replace .File.Path "\\" "/"}}
+<style>
+    .elv-callout{
+        background-color: black;
+    font-size: 16px;
+    color: white;
+    font-family: monospace;
+    padding: 5px;
+    }
 
+    .elv-callout a {
+        color:white;
+        font-style: italic;
+        text-decoration: underline;
+    }
+</style>
+<div class="elv-callout">
+<p><a href="https://github.com/arungudelli/angularjswiki" target="_blank">⭐Please star Angular Wiki on GitHub! ↗</a> </p>
+<p>❤️ This is an easy way to support our project. ❤️</p>
+<p>Something is wrong or improve this page <a href="https://github.com/arungudelli/angularjswiki/tree/master/content/{{.Site.Language.Lang}}/{{$filePath}}" target="_blank">✍ Submit Pull Request</a></p>
+</div>
 
 <div class="a-sub">
     <div class="a-header">&#x261d; &#x270d; Angular Wiki &#x270d;&#x261d;</div>
