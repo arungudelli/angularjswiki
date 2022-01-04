@@ -26,4 +26,7 @@ In this tutorial we are going to learn how to use Angular Material Table module 
 
 1. [Creating a Simple table in Angular using mat-table](https://www.angularjswiki.com/material/mat-table/)
 2. [Adding Pagination to the mat-table](https://www.angularjswiki.com/material/mat-table-pagination/)
+3. [mat-table filter example: Search & Filter mat-table in Angular](https://www.angularjswiki.com/material/mat-table-filter/)
+4. [Working with mat-table filterPredicate in Angular](https://www.angularjswiki.com/material/mat-table-filterpredicate/)
+
 
