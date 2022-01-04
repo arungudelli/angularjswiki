@@ -339,7 +339,7 @@ Additionally I have added one extra condition to check default value "All".
 
 ## mat-table filter StackBlitz Demo and GitHub code links
 
-Here is the demo for mat-table filter [https://angular-mat-table-filter-example.stackblitz.io](https://angular-mat-table-filter-example.stackblitz.io)
+Here is the demo for mat-table filter [https://angular-mat-table-filter-example.stackblitz.io](https://stackblitz.com/edit/angular-mat-table-filter-example)
 
 Github Code : [https://github.com/arungudelli/mat-table-filter](https://github.com/arungudelli/mat-table-filter)
 
