@@ -113,9 +113,14 @@ The above row will be converted to the following string.
 
 
 ```
-"1JohannahKiffinjkiffin0@google.plFAdministrativeAssistant I" - Concatenate 
-"1johannahkiffinjkiffin0@google.plfadministrativeassistant i" - and lowerCase.
+"1◬Johannah◬Kiffin◬jkiffin0@google.pl◬F◬Administrative◬Assistant I" - Concatenate 
+"1◬johannah◬kiffin◬jkiffin0@google.pl◬f◬administrative◬assistant i" - and lowerCase.
 ```
+
+Wonder why there is a special character(◬) in between column values?
+
+Go through this [article](https://www.angularjswiki.com/material/mat-table-filterpredicate/#what-is-mat-table-filterpredicate) to understand it.
+
 
 And when we pass filter input to the data source, the data source checks whether the search string contains in the above concatenated string row or not. 
 
@@ -128,6 +133,7 @@ this.dataSource.filter = filterValue.trim().toLowerCase();
 ```
 
 The `trim()` removes white space from  the both sides of the search input.
+
 
 This is the default behavior of built-in filter functionality in mat-table data source. 
 
@@ -339,7 +345,7 @@ Additionally I have added one extra condition to check default value "All".
 
 ## mat-table filter StackBlitz Demo and GitHub code links
 
-Here is the demo for mat-table filter [https://angular-mat-table-filter-example.stackblitz.io](https://angular-mat-table-filter-example.stackblitz.io)
+Here is the demo for mat-table filter [https://angular-mat-table-filter-example.stackblitz.io](https://stackblitz.com/edit/angular-mat-table-filter-example)
 
 Github Code : [https://github.com/arungudelli/mat-table-filter](https://github.com/arungudelli/mat-table-filter)
 
