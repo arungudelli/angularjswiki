@@ -76,7 +76,7 @@ email = ""
 #[[social]]
 #  icon = "github"
 #  icon_pack = "fab"
-#  link = "https://github.com/gudelliarun"
+#  link = "https://github.com/arungudelli"
 
 #[[social]]
 #  icon = "linkedin"
