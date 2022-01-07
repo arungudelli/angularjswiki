@@ -296,7 +296,7 @@ And after that we have to assign it to the mat-table data source sort property.
 
 ## mat-table sort StackBlitz Demo and GitHub code links
 
-Here is the demo for mat-table filter [https://angular-mat-table-sort-example.stackblitz.io](https://stackblitz.com/edit/angular-mat-table-sort-example)
+Here is the demo for mat-table sort [https://angular-mat-table-sort-example.stackblitz.io](https://stackblitz.com/edit/angular-mat-table-sort-example)
 
 Github Code : [https://github.com/arungudelli/mat-table-sort](https://github.com/arungudelli/mat-table-sort)
 
