@@ -9,8 +9,8 @@ parentdoc = "material"
 prev = "mat-table-filter"
 featured="mat-table-featured.jpg"
 authors = ["admin"]
-summary ="In this tutorial we will learn how to filter a mat-table in Angular."
-keywords=["mat-table,Angular Material Table"]
+summary ="In this tutorial we will learn how to sort a mat-table in Angular."
+keywords=["mat-table sort,Angular Material Table"]
 
 
 # Add menu entry to sidebar.
