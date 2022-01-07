@@ -34,6 +34,8 @@ As it's an individual component, we can use it to sort simple tables as well.
 
 Let's go through an example to understand it further.
 
+{{%toc%}}
+
 ## mat-table sort example 
 
 Let's take an example of employee table which uses `MatTableDataSource` to display the data in table.
@@ -128,11 +130,171 @@ ngAfterViewInit() {
 }
 ```
 
+## How Mat-table sort works?
+
+`MatTableDataSource` sorts the data by matching the column name(matColumnDef) with the table record property name. 
+
+```
+displayedColumns: string[] = ['id', 'firstname', 'lastname', 'email','gender','jobtitle','department'];
+
+export interface Employee {
+  id : number,	
+  firstname:string,	
+  lastname:string,	
+  email:string,
+  gender:string,	
+  jobtitle:string,
+  department:string
+}
+```
+
+The property name should match with the matColumnDef, otherwise the table column will not sort. 
+
+If you want to override this behavior you can use `sortingDataAccessor` of mat-table data source. 
+
+An employee project will have an id and name, and we can assign a project to the employee.  
+
+```
+export interface Project{
+  name:string,
+  id:number
+}
+
+export interface Employee {
+  id : number,	
+  firstname:string,	
+  lastname:string,	
+  email:string,
+  gender:string,	
+  jobtitle:string,
+  department:string,
+  project: Project
+}
+
+```
+
+But in the mat-table we want to display only project name. So we have to access `emp.project.name` property.
+
+I have changed the mat-table displayed columns to show the project name as shown below.
+
+```
+  displayedColumnsWithObject: string[] = ['id', 'firstname', 'lastname', 'email','gender','jobtitle','department','project.name'];
+
+```
+
+And in the component html file displaying project name based on the `matColumnDef` as shown below. 
+
+```
+<table mat-table [dataSource]="dataSourceWithObjectColumn" class="mat-elevation-z8" matSort #empTbSortWithObject="matSort">
+    <ng-container [matColumnDef]="column" *ngFor="let column of displayedColumnsWithObject">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> {{column}} </th>
+        
+        <ng-container *ngIf="column=='project.name'">
+          <td mat-cell *matCellDef="let emp"> {{emp.project.name}} </td>
+        </ng-container>
+        
+        <ng-container *ngIf="column!='project.name'">
+          <td mat-cell *matCellDef="let emp"> {{emp[column]}} </td>
+        </ng-container>
+        
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumnsWithObject"></tr>
+    <tr mat-row *matRowDef="let emprow; columns: displayedColumnsWithObject;"></tr>
+
+</table>
+```
+
+And also added unique template reference variable(empTbSortWithObject) to matSort directive. 
+
+And also changed mat-table data source which has project details.
+
+```
+@ViewChild('empTbSortWithObject') empTbSortWithObject = new MatSort();
+
+ngAfterViewInit() {
+    this.dataSource.sort = this.empTbSort;
+    this.dataSourceWithObjectColumn.sort = this.empTbSortWithObject;
+}
+```
+
+But the sorting based on project name will not work as we have to use a child property name i.e., project.name for sorting. 
+
+To achieve this we can pass a custom function to Mat-table data source's `sortingDataAccessor` function.
+
+## Working with sortingDataAccessor in mat-table data source.
+
+The sortingDataAccessor function takes two arguments mat-table record and column name and returns string. 
+
+```
+ngAfterViewInit() {
+    
+    this.dataSource.sort = this.empTbSort;
+    this.dataSourceWithObjectColumn.sort = this.empTbSortWithObject;
+    
+    this.dataSourceWithObjectColumn.sortingDataAccessor = (row:Employee,columnName:string) : string => {
+    
+      console.log(row,columnName);
+      if(columnName=="project.name") return row.project.name;
+      var columnValue = row[columnName as keyof Employee] as string;
+      return columnValue;
+    
+    }
+  }
+
+```
+
+Let's deep dive into the above sortingDataAccessor function. 
+
+The function checks if the columnName is "project.name", if it's true then returns `row.project.name`. 
+
+Otherwise it directly access the employee name properties with index notation and returns the column values.
 
 
+## mat-table sort states. 
+
+By default mat-table columns will have three states. 
+
+1. ascending 
+2. descending 
+3. clear 
+
+When we click on column header either it will sort the column in ascending order or descending order. 
+
+On third click it will clear the sorting and the table will be in the initial state. 
 
 
-## mat-table filter StackBlitz Demo and GitHub code links
+## mat-table disable clear sorting. 
+
+Sometimes the third state(clear) will be confusing as users will assume either the column will be in ascending or descending order. 
+
+To disable this behavior we have to set `disableClear` property of matSort to true.
+
+```
+this.empTbSort.disableClear = true;
+```
+
+And after that we have to assign it to the mat-table data source sort property. 
+
+```
+ ngAfterViewInit() {
+    
+    this.empTbSort.disableClear = true;
+    this.dataSource.sort = this.empTbSort;
+
+    this.empTbSortWithObject.disableClear = true;
+    this.dataSourceWithObjectColumn.sort = this.empTbSortWithObject;
+    this.dataSourceWithObjectColumn.sortingDataAccessor = (row:Employee,columnName:string) : string => {
+      console.log(row,columnName);
+      if(columnName=="project.name") return row.project.name;
+      var columnValue = row[columnName as keyof Employee] as string;
+      return columnValue;
+    }
+  }
+```
+
+
+## mat-table sort StackBlitz Demo and GitHub code links
 
 Here is the demo for mat-table filter [https://angular-mat-table-filter-example.stackblitz.io](https://stackblitz.com/edit/angular-mat-table-filter-example)
 
