@@ -46,7 +46,7 @@ Steps to add sorting to the mat-table.
 
 To add sorting to the material table we have to import `MatSortModule` from Angular material. 
 
-Add it in common material module.
+Add it in [common material module](https://www.angularjswiki.com/material/#adding-a-custom-angular-material-module).
 
 ```
 import {MatSortModule} from '@angular/material/sort';
@@ -116,7 +116,7 @@ The above code adds sorting to particular columns i.e., two columns id and gende
 
 As we have added template reference variable to the MatSort directive. 
 
-Now to refer it in the component ts file using `@ViewChild` 
+Now refer it in the component ts file using `@ViewChild` 
 
 ```
 @ViewChild('empTbSort') empTbSort = new MatSort();
@@ -248,12 +248,12 @@ Let's deep dive into the above sortingDataAccessor function.
 
 The function checks if the columnName is "project.name", if it's true then returns `row.project.name`. 
 
-Otherwise it directly access the employee name properties with index notation and returns the column values.
+Otherwise it will directly access the employee name properties with the index notation and returns column values.
 
 
 ## mat-table sort states. 
 
-By default mat-table columns will have three states. 
+By default mat-table sort columns will have three states. 
 
 1. ascending 
 2. descending 
@@ -266,7 +266,7 @@ On third click it will clear the sorting and the table will be in the initial st
 
 ## mat-table disable clear sorting. 
 
-Sometimes the third state(clear) will be confusing as users will assume either the column will be in ascending or descending order. 
+Sometimes the third state(clear) will be confusing, as users will assume either the column will be in ascending or descending order. 
 
 To disable this behavior we have to set `disableClear` property of matSort to true.
 
