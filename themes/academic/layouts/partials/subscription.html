@@ -1,20 +1,7 @@
 {{ $root := . }}
 {{$filePath := replace .File.Path "\\" "/"}}
-{{with .File.Path}}
-<script src="https://giscus.app/client.js"
-        data-repo="arungudelli/angularjswiki"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkxNzgxMjk2MDQ="
-        data-category="Announcements"
-        data-category-id="DIC_kwDOCp4KxM4CAonL"
-        data-mapping="pathname"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-theme="light"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>  
-{{end}}
+
+{{with not .File.Path}}
 <style>
     .elv-callout{
         background-color: black;
@@ -30,38 +17,130 @@
         text-decoration: underline;
     }
 </style>
+
 <div class="elv-callout">
 <p><a href="https://github.com/arungudelli/angularjswiki" target="_blank">⭐Please star Angular Wiki on GitHub! ↗</a> </p>
 <p>❤️ This is an easy way to support our project. ❤️</p>
-<p>Something is wrong or improve this page <a href="https://github.com/arungudelli/angularjswiki/tree/master/content/{{.Site.Language.Lang}}/{{$filePath}}" target="_blank">✍ Submit Pull Request</a></p>
 </div>
+{{end}}
 
-<div class="a-sub">
-    <div class="a-header">&#x261d; &#x270d; Angular Wiki &#x270d;&#x261d;</div>
-    
-    <div class="a-form">
+
+ 
+<style>
+
+:root {
+  --start-color: #0575E6;
+  --end-color: #021B79;
+  --p-color: #929DA6;
+  --button-background: #0575E6;
+  --input-background: #e4eff8;
+  --radius-50: 50px;
+  --padding-15: 15px;
+}
+.wrapper {
+  padding-top: 5px;  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .content {
+  background: #fff;
+  width: 100%;
+  max-width: 500px;
+  min-width: 200px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.wrapper .content header h1 {
+  font-size: 230%;
+  margin-top: 0;
+}
+.wrapper .content section {
+    color: inherit;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.wrapper .content footer {
+  padding: var(--padding-15);
+}
+.wrapper .content input {
+  border: unset;
+  background-color: var(--input-background);
+  padding: 10px;
+  font-size: 13px;
+  border-radius: var(--radius-50);
+  width: 250px;
+}
+.wrapper .content button {
+    background-color: #2962ff;
+    color: #fff;
+    border: unset;
+    width: 120px;
+    border-radius: 50px;
+    padding: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.wrapper .content  a {
+        color:black;
+        font-style: italic;
+        text-decoration: underline;
+    }
+
+
+
+.wrapper .content input:focus, .wrapper .content button:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 720px) {
+  .wrapper .content {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    padding: var(--padding-15);
+  }
+  .wrapper .content input {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+}
+</style>
+{{with .File.Path}}
+
+<section class="wrapper">
+    <div class="content">
+      
+      <section>Liked this post? Subscribe</section>
         <form action="https://angularjswiki.us18.list-manage.com/subscribe/post?u=e192476b173f610e0808e2561&amp;id=236d3dbb17" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
-            <div class="a-child">
-                Get a short & sweet Angular tutorials delivered to your inbox every couple of days.
-                No spam ever. Unsubscribe any time.</div>    
-            <label for="mce-EMAIL">Email Address</label>
-                <input id="mce-EMAIL" class="a-required" name="EMAIL" type="email" value="" />
-                
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input tabindex="-1" name="b_e192476b173f610e0808e2561_236d3dbb17" type="text" value="" /></div>
-                <div class="clear">
-                        <button type="submit" class="btn a-btn a-required">
-                                <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                                        <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z"/>
-                                                        
-                                                      </svg>
-                                </span> {{ i18n "send_angular_tutorial" | default "Send Angular Tutorial" }}
-                        </button>
-                    
-                    <!-- <input id="mc-embedded-subscribe" class="button" name="subscribe" type="submit" value="Subscribe" /></div> -->
-                </div>
-                </form>
-    </div>
-</div>      
 
+        <input id="mce-EMAIL" type="email" placeholder="Enter your email" name="EMAIL">
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input tabindex="-1" name="b_e192476b173f610e0808e2561_236d3dbb17" type="text" value="" /></div>
+
+        <button type="submit">Let's go</button>
+        </form>
+      <section><a href="https://github.com/arungudelli/angularjswiki" target="_blank">⭐Please star Angular Wiki on GitHub! ↗</a> </section>
+    </div>
+</section>
+{{end}}
+
+{{with .File.Path}}
+<script src="https://giscus.app/client.js"
+        data-repo="arungudelli/angularjswiki"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkxNzgxMjk2MDQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOCp4KxM4CAonL"
+        data-mapping="pathname"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>  
+{{end}}
