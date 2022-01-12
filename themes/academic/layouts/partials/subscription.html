@@ -99,6 +99,11 @@
   outline: none;
 }
 
+.wrapper .content .link{
+  padding:10px;
+}
+
+
 @media screen and (max-width: 720px) {
   .wrapper .content {
     margin-right: 20px !important;
@@ -113,9 +118,12 @@
 </style>
 {{with .File.Path}}
 
+
+
 <section class="wrapper">
     <div class="content">
-      
+      <section class="link"><a href="https://github.com/arungudelli/angularjswiki" target="_blank">⭐Please star Angular Wiki on GitHub! ↗</a> </section>
+
       <section>Liked this post? Subscribe</section>
         <form action="https://angularjswiki.us18.list-manage.com/subscribe/post?u=e192476b173f610e0808e2561&amp;id=236d3dbb17" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
 
@@ -124,7 +132,6 @@
 
         <button type="submit">Let's go</button>
         </form>
-      <section><a href="https://github.com/arungudelli/angularjswiki" target="_blank">⭐Please star Angular Wiki on GitHub! ↗</a> </section>
     </div>
 </section>
 {{end}}
