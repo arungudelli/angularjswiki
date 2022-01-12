@@ -37,16 +37,15 @@
   --radius-50: 50px;
   --padding-15: 15px;
 }
-.wrapper {
+.wrappers {
   padding-top: 5px;  
   width: 100%;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.wrapper .content {
+.wrappers .content {
   background: #fff;
   width: 100%;
   max-width: 500px;
@@ -55,19 +54,19 @@
   text-align: center;
 }
 
-.wrapper .content header h1 {
+.wrappers .content header h1 {
   font-size: 230%;
   margin-top: 0;
 }
-.wrapper .content section {
+.wrappers .content section {
     color: inherit;
     font-size: 15px;
     padding-bottom: 5px;
 }
-.wrapper .content footer {
+.wrappers .content footer {
   padding: var(--padding-15);
 }
-.wrapper .content input {
+.wrappers .content input {
   border: unset;
   background-color: var(--input-background);
   padding: 10px;
@@ -75,7 +74,7 @@
   border-radius: var(--radius-50);
   width: 250px;
 }
-.wrapper .content button {
+.wrappers .content button {
     background-color: #2962ff;
     color: #fff;
     border: unset;
@@ -87,7 +86,7 @@
 }
 
 
-.wrapper .content  a {
+.wrappers .content  a {
         color:black;
         font-style: italic;
         text-decoration: underline;
@@ -95,22 +94,22 @@
 
 
 
-.wrapper .content input:focus, .wrapper .content button:focus {
+.wrappers .content input:focus, .wrappers .content button:focus {
   outline: none;
 }
 
-.wrapper .content .link{
+.wrappers .content .link{
   padding:10px;
 }
 
 
 @media screen and (max-width: 720px) {
-  .wrapper .content {
+  .wrappers .content {
     margin-right: 20px !important;
     margin-left: 20px !important;
     padding: var(--padding-15);
   }
-  .wrapper .content input {
+  .wrappers .content input {
     width: 200px;
     margin-bottom: 10px;
   }
@@ -120,7 +119,7 @@
 
 
 
-<!-- <section class="wrapper">
+<section class="wrappers">
     <div class="content">
       <section class="link"><a href="https://github.com/arungudelli/angularjswiki" target="_blank">⭐Please star Angular Wiki on GitHub! ↗</a> </section>
 
@@ -133,7 +132,7 @@
         <button type="submit">Let's go</button>
         </form>
     </div>
-</section> -->
+</section>
 {{end}}
 
 {{with .File.Path}}
