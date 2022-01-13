@@ -7,6 +7,7 @@ toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
 prev = "mat-table-pagination"
+next = "mat-table-filterPredicate"
 featured="mat-table-featured.jpg"
 authors = ["admin"]
 summary ="In this tutorial we will learn how to filter a mat-table in Angular."
