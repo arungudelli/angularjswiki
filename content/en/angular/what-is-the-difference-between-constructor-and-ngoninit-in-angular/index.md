@@ -2,8 +2,8 @@
 title = "NgOnInit & Constructor Differences In Angular With Examples"
 subtitle = "Understanding differences between ngOnInit & Constructor"
 type="post"
-summary ="We can create a beatiful Progress bar in Angular using mat-progress-bar which is part of angular material progress bar module called MatProgressBarModule"
-keywords=["mat-progress-bar,angular material progress bar,mat-progress-bar example"]
+summary ="ngOnInit and constructor methods in Angular might be confusing to you,if you are new to Angular.In this tutorial, we will cover the differences between ngOnInit & constructor"
+keywords=["ngOnInit, constructor,ngOnInit vs constructor"]
 date="2018-08-01T01:01:05+0000"
 lastmod="2019-01-30T05:38:07+0000"
 draft=false
