@@ -19,7 +19,7 @@ authors = ["admin"]
   preview_only = false
 +++
 
-Pluralization is very tricky. Converting singluar words to plural is often difficult Even in english where most plural words end with an (s).
+Pluralization is very tricky. Converting singular words to plural is often difficult Even in english where most plural words end with an (s).
 
 For example to display number of comments or likes in facebook we can add an (s) to the end of comment or like words as shown below.
 
@@ -27,7 +27,7 @@ For example to display number of comments or likes in facebook we can add an (s)
 0 comment(s)
 10 comments(s)
 ```
-And some websites follow the above approach to display plural words. So it's upto the user to add (s) when reading it.
+And some websites follow the above approach to display plural words. So it's up to the user to add (s) when reading it.
 
 But what we can do in case of words like "foot" or "inch" or "quiz"?
 
