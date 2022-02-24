@@ -3,10 +3,10 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-[[main]]
-  name = "Angular"
-  url = "/angular/"
-  weight = 25  
+#[[main]]
+#  name = "Angular"
+#  url = "/angular/"
+#  weight = 25  
 
 [[main]]
   name = "Angularl CLI"
@@ -48,6 +48,11 @@
   name = "HttpClient"
   url = "/httpclient/"
   weight = 35
+
+[[main]]
+  name = "Angular Jobs"
+  url = "https://jobs.angularjswiki.com/browse-jobs/"
+  weight = 45
 
 
 

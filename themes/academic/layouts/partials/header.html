@@ -245,6 +245,10 @@ p a{
   margin-bottom: 2px;
 }
 
+#navbar-main div.container{
+  max-width: 100% !important;
+}
+
   </style>  
   {{ $js := .Site.Data.assets.js }}
   {{/* We cannot use SRI with Google Fonts because the CSS is dynamically generated according to the user agent. */}}
@@ -281,6 +285,8 @@ p a{
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
+
+
 
 
 
