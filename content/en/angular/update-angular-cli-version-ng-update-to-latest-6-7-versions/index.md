@@ -1,5 +1,5 @@
 +++
-title = "How To Update Angular CLI To Latest Version Angular 10 or version 9"
+title = "How To Update Angular CLI To Latest Version"
 subtitle = "Update Angular CLI version"
 summary ="To update Angular CLI to latest version Angular 10 use ng update @angular/core @angular/cli@latest command."
 keywords=["ng update angular cli,update angular cli version to 7,update angular cli version to 6"]
@@ -20,6 +20,61 @@ authors = ["admin"]
   preview_only = false
 
 +++
+
+Updating Angular CLI to the latest version is pretty much simple if you are using Angular 10 version above. 
+
+The Angular latest Official stable version is Angular v13.2.5, which is released on 2nd March 2022. 
+
+## Angular CLI version check
+
+Before updating check the Angular version installed in your system by using `ng --version` command.
+
+To update Angular CLI to a new version, It's better to update both the global Angular CLI installed in your machine as well as your project's local Angular CLI.
+
+## Update Angular CLI version Globally
+
+Steps To update Angular CLI version globally in your system.
+
+1. First uninstall the existing Angular cli packages.
+2. Then run `npm cache verify` command to clear the node packages cache.
+3. Then install latest Angular CLI version using `npm install -g @angular/cli@latest` command.
+
+```
+npm uninstall -g angular-cli
+npm cache clean or npm cache verify (if npm &gt; 5)
+npm install -g @angular/cli@latest
+```
+
+If you are using MAC or linux systems you might need to add the prefix sudo before npm
+
+```
+sudo npm uninstall -g angular-cli
+sudo npm cache clean or sudo npm cache verify (if npm > 5)
+sudo npm install -g @angular/cli@latest
+```
+
+## Your global Angular CLI version is greater than your local version.The local Angular CLI version is used
+
+After updating Angular CLI globally you might get this warning if your local project's angular cli version less than the global angular cli version.
+
+As local packages have more priority than global packages you will get _Your global Angular CLI version is greater than your local version.The local Angular CLI version is used_ warning.
+
+So mostly you need to update your local Angular CLI version as well
+
+## Update Angular CLI version Locally
+
+To update Angular CLI version in your local projects use the following commands. 
+
+Navigate to your local Angular project folder and execute the below commands.
+
+```
+rm -rf node_modules
+npm uninstall --save-dev angular-cli
+npm install --save-dev @angular/cli@latest
+npm install
+```
+
+
 
 Angular 10.0.0 is finally here. While upgrading to Angular 10 version remember few things before running `ng update` command.
 
@@ -296,54 +351,6 @@ As the final version angular 9 is released. It is not required to use --next fla
 
 If you are using older versions of Angular like 5 or 6 or 7. You need to follow some additional steps as shown below.
 
-## Angular CLI version check
-
-To check the Angular CLI version use to below command
-
-`ng -version`
-
-## Update Angular CLI version Globally
-
-To update Angular CLI version globally in your system use the below commands
-
-```
-npm uninstall -g angular-cli
-npm cache clean or npm cache verify (if npm &gt; 5)
-npm install -g @angular/cli@latest
-```
-
-First you need to uninstall the existing angular cli packages followed by _npm cache verify_ command to clear the cache related problems.
-
-And the install the Angular CLI version again by using _npm install -g @angular/cli@latest_
-
-If you are using MAC or linux systems you might need to add the prefix sudo before npm
-
-```
-sudo npm uninstall -g angular-cli
-sudo npm cache clean or sudo npm cache verify (if npm > 5)
-sudo npm install -g @angular/cli@latest
-```
-
-## Your global Angular CLI version is greater than your local version.The local Angular CLI version is used
-
-After updating Angular CLI globally you might get this warning if your local project's angular cli version less than the global angular cli version.
-
-As local packages have more priority than global packages you will get _Your global Angular CLI version is greater than your local version.The local Angular CLI version is used_ warning.
-
-So mostly you need to update your local Angular CLI version as well
-
-## Update Angular CLI version Locally
-
-To update Angular CLI version in your local projects use the following commands. 
-
-Navigate to your local Angular project folder and execute the below commands.
-
-```
-rm -rf node_modules
-npm uninstall --save-dev angular-cli
-npm install --save-dev @angular/cli@latest
-npm install
-```
 
 ## Update Angular CLI version to 6
 
