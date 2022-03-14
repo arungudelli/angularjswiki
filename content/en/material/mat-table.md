@@ -285,6 +285,13 @@ The above code can be replaced with single *ngFor statement.
 </ng-container>
 ```
 
+## mat-table example StackBlitz Demo
+
+Here is the demo for mat-table example[https://stackblitz.com/edit/simple-angular-mat-table-example](https://stackblitz.com/edit/simple-angular-mat-table-example)
+
+
+
+
 
 
 
