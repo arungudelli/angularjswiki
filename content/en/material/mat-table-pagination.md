@@ -64,6 +64,11 @@ And use `@ViewChild` decorator to access template reference variable inside the 
 
 ```
 
+You might get **Property 'paginator' has no initializer and is not definitely assigned in the constructor.** error If you are using latest versions of Angular. 
+
+Go through the article to remove this ['paginator' has no initializer](https://www.angularjswiki.com/angular/property-has-no-initializer-and-is-not-definitely-assigned-in-the-constructor/) error.
+
+
 ### Step 2: Use MatTableDataSource for mat-table data
 
 In the previous example we have used a simple Employee array to bind the data to the `mat-table` element.
@@ -169,5 +174,8 @@ The below code snippet won't add first and last buttons in the paginator.
 ```
 {{< figure src="/img/material/mat-paginator-show-fast-last-pages.png" title="mat paginator show fast last pages" alt="mat paginator show fast last pages">}}
 
+## mat-table pagination example StackBlitz Demo
+
+Here is the demo for mat-table pagination example[https://stackblitz.com/edit/angular-mat-table-pagination-example](https://stackblitz.com/edit/angular-mat-table-pagination-example)
 
 
