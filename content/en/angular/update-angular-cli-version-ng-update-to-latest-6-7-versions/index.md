@@ -1,7 +1,7 @@
 +++
 title = "How To Update Angular CLI To Latest Version"
 subtitle = "Update Angular CLI version"
-summary ="To update Angular CLI to latest version Angular 10 use ng update @angular/core @angular/cli@latest command."
+summary ="To update Angular CLI to latest version Angular, use ng update @angular/core @angular/cli@latest command."
 keywords=["ng update angular cli,update angular cli version to 7,update angular cli version to 6"]
 date="2019-01-22T01:01:05+0000"
 lastmod="2022-03-13T00:00:00+0000"
