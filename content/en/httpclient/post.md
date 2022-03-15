@@ -150,25 +150,142 @@ options: {
 }
 ```
 
-The observe and responseType properties are important while making the HttpClient get request in Angular.
+### HttpClient.post() Url
 
-The `responseType` option indicates the format of the data returns from the http request.
+The `https://reqres.in/api/users` post api, expects name and job as body and after successful submission it will return the data along with id and created date. 
 
-Default responseType of HttpClient.get() method is "json".
+```
+//Body
 
-Every http response contains http response headers and body. 
+{
+    "name": "morpheus",
+    "job": "leader"
+}
 
-With the use of `observe` option we can specify whether we want to access complete http response object or actual body.
+//Response 
 
-Most of the times we requires only body i.e., actual data.
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "666",
+    "createdAt": "2022-03-15T10:01:19.233Z"
+}
 
-Additionally if we want more details about processing of http requests we can request data in the form of HTTP event. 
+```
 
-Default `observe` response of HttpClient.get() method is "body". 
+We will use Reactive Forms to collect the data from the Angular component. 
 
-That's all needed in most of the real world examples. 
+Reactive Forms comes up with so many built-in functionalities(like validation) which makes our job simple.
 
-We will see more details about this `observe` option in other article.
+### Adding Reactive Form
+
+We will use FormGroup element to bind the data in the component file. 
+
+In the user component file I have added a FormGroup element which contains name and job as shown below.
+
+```
+ addUserForm = new FormGroup({
+    name: new FormControl('', [Validators.required]),
+    job: new FormControl('', [Validators.required]),
+  });
+```
+
+And user component html, we will add the `mat-form-field` inputs to collect the data. 
+
+```
+<h1>Angular Http POST request example</h1>
+<mat-card>
+  <h2>Enter name and job</h2>
+  <form [formGroup]="addUserForm" (ngSubmit)="saveUser()">
+    <mat-form-field>
+      <input matInput placeholder="Name" formControlName="name" />
+    </mat-form-field>
+    <br />
+    <mat-form-field>
+      <input matInput placeholder="Job" formControlName="job" />
+    </mat-form-field>
+    <br />
+    <button [disabled]="!addUserForm.valid" mat-raised-button type="submit">
+      Add User
+    </button>
+  </form>
+</mat-card>
+<mat-card>
+  <h2>List of Users</h2>
+  <ng-container *ngFor="let user of users">
+    {{ user.name }} - {{ user.job }}<br />
+  </ng-container>
+</mat-card>
+```
+
+Now the UI is ready. 
+
+### Making HTTP POST Request 
+
+We will create a post method in Http Service i.e., in `UserService.ts` file.
+
+```
+export class UserService {
+  constructor(private http: HttpClient) {}
+
+  public saveUser(user: User): Observable<any> {
+    const url = 'https://reqres.in/api/users';
+    return this.http.post<any>(url, user);
+  }
+}
+```
+
+On form submit we will call the `saveUser` method in user service, which makes HTTP post requests and returns the observable of user data. 
+
+```
+user: User;
+
+saveUser() {
+    this.user = this.addUserForm.value;
+    this.userService.saveUser(this.user).subscribe((response: any) => {
+      console.log(response);
+    });
+}
+```
+
+In the user component ts file, we will log the response from the server.
+
+```
+{
+createdAt: "2022-03-15T10:56:03.144Z"
+id: "389"
+job: "developer"
+name: "Arunkumar"
+}
+```
+
+### Displaying the submitted data
+
+Further we can display the newly added users in the UI by creating a new list of users variable.
+
+```
+user: User;
+users: User[] = [];
+
+saveUser() {
+    this.user = this.addUserForm.value;
+    this.userService.saveUser(this.user).subscribe((response: any) => {
+      console.log(response);
+
+      this.users.push({ name: response.name, job: response.job });
+    });
+}
+```
+
+And display the users using `*ngFor`.
+
+```
+<h2>List of Users</h2>
+  <ng-container *ngFor="let user of users">
+    {{ user.name }} - {{ user.job }}<br />
+</ng-container>
+```
+
 
 ### Calling the data end point URL
 
