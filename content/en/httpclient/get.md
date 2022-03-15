@@ -162,7 +162,7 @@ Now we will make use of `HttpClient.get()` to get the list of users from the API
 
 ### HttpClient get method syntax
 
-Angular's `HttpClient.get()` method takes arguments.
+Angular's `HttpClient.get()` method takes two arguments.
 
 1. API Endpoint Url
 2. Options
