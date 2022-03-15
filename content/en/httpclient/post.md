@@ -11,15 +11,15 @@ prev="observable"
 next="get-params"
 featured="Angular.png"
 authors = ["admin"]
-summary ="To make http get request in Angular, we can make use of `HttpClient.get()` request method."
-keywords=["Angular HttpClient get method","http get request angular"]
+summary ="Using `HttpClient.post()` method in Angular we can send data to the server from our Angular applications."
+keywords=["Angular HttpClient post method","http post request angular"]
 
 # Add menu entry to sidebar.
 
-linktitle = "get"
+linktitle = "post"
 [menu.httpclient]
   parent = "HttpClient"
-  weight = 4
+  weight = 5
 
 +++
 
@@ -235,8 +235,9 @@ export class UserService {
 }
 ```
 
-On form submit we will call the `saveUser` method in user service, which makes HTTP post requests and returns the observable of user data. 
+On form submit we will call the `saveUser` method in user service, which makes HTTP post request and returns the observable of user data of type `any`. 
 
+In the component ts file, we will subscribe to the data returned from the server.
 ```
 user: User;
 
@@ -248,7 +249,7 @@ saveUser() {
 }
 ```
 
-In the user component ts file, we will log the response from the server.
+To see the returned data, we will log the response using `console.log`.
 
 ```
 {
@@ -286,265 +287,63 @@ And display the users using `*ngFor`.
 </ng-container>
 ```
 
+## Angular Http POST request with strongly typed response
 
-### Calling the data end point URL
+The above example uses Observable of `any` to handle all types of data returned from Http Post method. 
 
-Now we will create a method in our `UserService.ts` file, which requests the data from the HTTP end point URL.
+The data returned from the server will have two additional properties like `id` and `createdAt`. 
+
+Using `HttpClient.post()` method in Angular we can request strongly typed response from the server. 
+
+
+We will create an interface which matches with the given returned type.
 
 ```
-//Http Client get method
-public getUsers(): Observable<any> {
-    const url = 'https://reqres.in/api/users?page=1';
-    return this.http.get<any>(url);
+export interface UserInfo {
+  name: string;
+  job: string;
+  id: string;
+  createdAt: string;
 }
 ```
 
-We are not passing options object as it's optional.
-
-Next we will inject our Http service i.e., UserService in our Angular component and then we will subscribe to the observable.
-
-### Displaying the data in the component
-
-We will create a user component to display the list of users returned from the above rest api end point.
-
-Then we will inject Http service in component.ts file to call the observable function. 
-
-In ngOnInit() method, I am subscribing to the `getUsers()` method of UserService.
-
-We have an array variable called `users` in our user component, which is used to display the `users` in component html file.
-
-In subscribe() method, I am assigning the data returned from the observable to `users` array.
+Now we will create an HTTP Post request method with strongly typed response in user service.
 
 ```
-export class UserComponent implements OnInit {
-
-  users = new Array<any>();
-
-  constructor(public userService: UserService) { }
-
-  ngOnInit(): void {
-    this.userService.getUsers().subscribe(response => {
-        this.users = response.data;
-    });
-  }
-
-}
-```
-Finally In user component HTML file, display the user names using `*ngFor`.
-
-```
-<li *ngFor="let user of users">
-  <span>{{user.first_name}} {{user.last_name}}</span>
-</li>
-```
-
-And HttpClient can request typed response object so that we can use the returned data more conveniently. 
-
-## Http get Request with strongly Typed Response 
-
-The API end point returns below JSON data.
-
-```
-{
-   "page":1,
-   "per_page":1,
-   "total":12,
-   "total_pages":12,
-   "data":[
-      {
-         "id":1,
-         "email":"george.bluth@reqres.in",
-         "first_name":"George",
-         "last_name":"Bluth",
-         "avatar":"https://reqres.in/img/faces/1-image.jpg"
-      }
-   ],
-   "support":{
-      "url":"https://reqres.in/#support-heading",
-      "text":"To keep ReqRes free, contributions towards server costs are appreciated!"
-   }
+public saveUserTyped(user: User): Observable<UserInfo> {
+    const url = 'https://reqres.in/api/users';
+    return this.http.post<UserInfo>(url, user);
 }
 ```
 
-The JSON data contains list of users and additional information like page, per_page, total etc.
-
-We will create two interfaces with the properties mentioned in the above JSON data.
-
+And in the component ts file, we will subscribe to typed data and display in the UI.
 
 ```
-> ng generate interface model/user
-CREATE src/app/model/user.ts (26 bytes)
+saveUserTyped() {
+    this.user = this.addUserForm.value;
+    this.userService
+      .saveUserTyped(this.user)
+      .subscribe((response: UserInfo) => {
+        console.log(response);
 
-> ng generate interface model/userinformation
-CREATE src/app/model/userinformation.ts (26 bytes)
-
-```
-user, userinformation interfaces.
-
-```
-export interface User {
-    avatar: string;
-    email: string;
-    first_name: string;
-    id: Number;
-    last_name: string;
-}
-
-export interface UserInformation {
-    page: Number;
-    per_page: Number;
-    support: any;
-    total: Number;
-    total_pages: Number;
-    data: User[];
-}
-```
-
-Now replace `getUsers()` observable return type from `any` to `UserInformation`.
-
-```
-import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
-import { UserInformation } from './model/userinformation';
-
-@Injectable({
-  providedIn: 'root'
-})
-export class UserService {
-  constructor(private http: HttpClient) {}
-
-  public getUsers(): Observable<UserInformation> {
-    const url = 'https://reqres.in/api/users?page=1';
-
-    return this.http.get<UserInformation>(url);
-  }
-}
-
-```
-When we pass an interface as a type parameter to the `HttpClient.get()` method, It uses the RxJS map operator to convert the response data to required interface (in this case `UserInformation`). 
-
-In user component ts file, change the `users` variable to `UserInformation` type as shown below.
-
-```
-export class UserComponent implements OnInit {
-
-
-  userInfo : UserInformation;
-
-  constructor(public userService: UserService) { 
-    this.userInfo = {} as UserInformation;
-  }
-
-  ngOnInit(): void {
-    this.userService.getUsers().subscribe(response => {
-
-      this.userInfo.page = response?.page;
-      this.userInfo.per_page = response?.per_page;
-      this.userInfo.total = response?.total;
-      this.userInfo.total_pages = response?.total_pages;
-      this.userInfo.data = response?.data?.map(item => {
-        var user = {} as User;
-        user.avatar = item?.avatar;
-        user.email = item?.email;
-        user.first_name = item?.first_name;
-        user.last_name = item?.last_name;
-        user.id = item?.id;
-        return user;
+        this.users.push({ name: response.name, job: response.job });
+        this.usersTyped.push({
+          name: response.name,
+          job: response.job,
+          id: response.id,
+          createdAt: response.createdAt,
+        });
       });
-
-    });
-  }
-
-}
-```
-
-In subscribe method, assign the response object properties to `userInfo` variable of type `UserInformation`.
-
-And list of users will be in `data` property of response. 
-
-To assign list of users property, I am using rxjs map operator.
-
-Now we can display the user list in component html file using `userInfo.data` property.
-
-```
-<li *ngFor="let user of userInfo.data">
-    <span>{{user.first_name}} {{user.last_name}}</span>
-</li>
-```
-
-One thing we need to remember is specifying the response type does not guarantee that the server API returns the same interface or object we defined. 
-
-It is the server responsibility to return the correct JSON object.
-
-When we add the response type to the observable function, we are informing the typescript compiler that it should treat the response as of the given type. That's it. 
-
-And it's a build or compile time check only. 
-
-For example in the above example the API returns an additional property called `support`, but I have not declared it in our userinformation interface. 
-
-So when we try to assign that property the compiler throws the error.
-
-```
-ngOnInit(): void {
-    this.userService.getUsers().subscribe(response => {
-        //this.userInfo.support = response.support;
-    });
   }
 ```
 
-But at runtime, the response object will contain the property `support`.
+## Http post request Angular StackBlitz Demo
 
-```
-console.log(response);
+Here is the link for StackBlitz demo
 
-data: (6) [{…}, {…}, {…}, {…}, {…}, {…}]
-page: 1
-per_page: 6
-support: {url: 'https://reqres.in/#support-heading', text: 'To keep ReqRes free, contributions towards server costs are appreciated!'}
-total: 12
-total_pages: 2
-```
+Demo : [Http post request Angular](https://stackblitz.com/edit/angular-http-post-request-example)
 
-But we cannot access `response.support` property as typescript compiler throws error.
 
-Imagine our server implementation changed and returning the user information in the following format. 
-
-The data from `https://fakestoreapi.com/users?limit=2`
-
-```
-[{"address":{"geolocation":{"lat":"-37.3159","long":"81.1496"},"city":"kilcoole","street":"new road","number":7682,"zipcode":"12926-3874"},"id":1,"email":"john@gmail.com","username":"johnd","password":"m38rmF$","name":{"firstname":"john","lastname":"doe"},"phone":"1-570-236-7033","__v":0},{"address":{"geolocation":{"lat":"-37.3159","long":"81.1496"},"city":"kilcoole","street":"Lovers Ln","number":7267,"zipcode":"12926-3874"},"id":2,"email":"morrison@gmail.com","username":"mor_2314","password":"83r5^_","name":{"firstname":"david","lastname":"morrison"},"phone":"1-570-236-7033","__v":0}]
-```
-
-There is no way we can map that information to our interface. 
-
-In that case the response object properties will be undefined.
-
-That's the reason in the above subscribe method while assigning properties we are doing null check.
-
-```
-response?.page 
-response?.data?.map()
-
-```
-
-But at runtime the response object will have new data returned from the other API, but we cannot access as Typescript compiler restrict us. 
-
-If you are sure about the data returned from API, you can directly assign the response object to the variable in the component ts file.
-
-```
-this.userService.getUsers().subscribe((response:UserInformation) => {
-  this.userInfo = response;      
-});
-```
-
-## Github code & StackBlitz Demo
-
-Here is the links for StackBlitz demo & Github code.
-
-Demo : [Http get request Angular](https://stackblitz.com/edit/http-post-request-angular-example?file=src%2Fapp%2Fuser.component.ts)
-
-Code : [https://github.com/arungudelli/http-post-request-angular](https://github.com/arungudelli/http-post-request-angular)
 
 
 
