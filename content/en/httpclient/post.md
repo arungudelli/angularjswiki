@@ -1,6 +1,6 @@
 +++
-title = "HTTP get request example in Angular using HttpClient"
-subtitle = "Learn how make http get request in Angular using HttpClient service"
+title = "HTTP post request example in Angular using HttpClient"
+subtitle = "Learn how make http post request in Angular using HttpClient service"
 date = 2021-11-28T00:00:00
 lastmod = 2021-11-29T00:00:00
 draft = false  # Is this a draft? true/false
@@ -23,20 +23,26 @@ linktitle = "get"
 
 +++
 
-To make http get request in Angular, we can make use of `HttpClient.get()` request method. 
+Using `HttpClient.post()` method in Angular we can send data to the server from our Angular applications. 
 
-**`HttpClient.get()` method is an asynchronous method that performs an HTTP get request in Angular applications and returns an Observable. And that Observable emits the requested data when the response is received from the server.**
-
-Now we will go through an example to understand it further. 
+Generally while submitting a form, we will use Http POST request to send the data to the server. 
 
 {{%toc%}}
 
-## Http get request in Angular
+## HttpClient.post()
+
+`HttpClient.post()` method is an asynchronous method that performs an HTTP post request in Angular applications and returns an Observable. 
+
+`HttpClient.post()` has a type parameter similar to the `HttpClient.get()` request, through which we can specify the expected type of the data from the server.
+
+Now we will go through an example to understand it further. 
+
+## Http get post in Angular
 
 Open your command prompt and create a new application using Angular cli ng new command.
 
 ```
-> ng new http-get-request-angular
+> ng new http-get-post-angular
 ```
 
 Here is the Output
@@ -48,101 +54,63 @@ Here is the Output
 ? Would you like to add Angular routing? Yes
 ? Which stylesheet format would you like to use? SCSS   [ https://sass-lang.com/documentation/syntax#scss
  ]
-CREATE http-get-request-angular/angular.json (3849 bytes)
-CREATE http-get-request-angular/package.json (1214 bytes)
-CREATE http-get-request-angular/README.md (1030 bytes)
-CREATE http-get-request-angular/tsconfig.json (737 bytes)
-CREATE http-get-request-angular/tslint.json (3185 bytes)
-CREATE http-get-request-angular/.editorconfig (274 bytes)
-CREATE http-get-request-angular/.gitignore (631 bytes)
-CREATE http-get-request-angular/.browserslistrc (703 bytes)
-CREATE http-get-request-angular/karma.conf.js (1029 bytes)
-CREATE http-get-request-angular/tsconfig.app.json (287 bytes)
-CREATE http-get-request-angular/tsconfig.spec.json (333 bytes)
-CREATE http-get-request-angular/src/favicon.ico (948 bytes)
-CREATE http-get-request-angular/src/index.html (307 bytes)
-CREATE http-get-request-angular/src/main.ts (372 bytes)
-CREATE http-get-request-angular/src/polyfills.ts (2826 bytes)
-CREATE http-get-request-angular/src/styles.scss (80 bytes)
-CREATE http-get-request-angular/src/test.ts (753 bytes)
-CREATE http-get-request-angular/src/assets/.gitkeep (0 bytes)
-CREATE http-get-request-angular/src/environments/environment.prod.ts (51 bytes)
-CREATE http-get-request-angular/src/environments/environment.ts (662 bytes)
-CREATE http-get-request-angular/src/app/app-routing.module.ts (245 bytes)
-CREATE http-get-request-angular/src/app/app.module.ts (393 bytes)
-CREATE http-get-request-angular/src/app/app.component.html (25757 bytes)
-CREATE http-get-request-angular/src/app/app.component.spec.ts (1111 bytes)
-CREATE http-get-request-angular/src/app/app.component.ts (229 bytes)
-CREATE http-get-request-angular/src/app/app.component.scss (0 bytes)
-CREATE http-get-request-angular/e2e/protractor.conf.js (904 bytes)
-CREATE http-get-request-angular/e2e/tsconfig.json (274 bytes)
-CREATE http-get-request-angular/e2e/src/app.e2e-spec.ts (675 bytes)
-CREATE http-get-request-angular/e2e/src/app.po.ts (274 bytes)
+CREATE http-post-request-angular/angular.json (3849 bytes)
+CREATE http-post-request-angular/package.json (1214 bytes)
+CREATE http-post-request-angular/README.md (1030 bytes)
+CREATE http-post-request-angular/tsconfig.json (737 bytes)
+CREATE http-post-request-angular/tslint.json (3185 bytes)
+CREATE http-post-request-angular/.editorconfig (274 bytes)
+CREATE http-post-request-angular/.gitignore (631 bytes)
+CREATE http-post-request-angular/.browserslistrc (703 bytes)
+CREATE http-post-request-angular/karma.conf.js (1029 bytes)
+CREATE http-post-request-angular/tsconfig.app.json (287 bytes)
+CREATE http-post-request-angular/tsconfig.spec.json (333 bytes)
+CREATE http-post-request-angular/src/favicon.ico (948 bytes)
+CREATE http-post-request-angular/src/index.html (307 bytes)
+CREATE http-post-request-angular/src/main.ts (372 bytes)
+CREATE http-post-request-angular/src/polyfills.ts (2826 bytes)
+CREATE http-post-request-angular/src/styles.scss (80 bytes)
+CREATE http-post-request-angular/src/test.ts (753 bytes)
+CREATE http-post-request-angular/src/assets/.gitkeep (0 bytes)
+CREATE http-post-request-angular/src/environments/environment.prod.ts (51 bytes)
+CREATE http-post-request-angular/src/environments/environment.ts (662 bytes)
+CREATE http-post-request-angular/src/app/app-routing.module.ts (245 bytes)
+CREATE http-post-request-angular/src/app/app.module.ts (393 bytes)
+CREATE http-post-request-angular/src/app/app.component.html (25757 bytes)
+CREATE http-post-request-angular/src/app/app.component.spec.ts (1111 bytes)
+CREATE http-post-request-angular/src/app/app.component.ts (229 bytes)
+CREATE http-post-request-angular/src/app/app.component.scss (0 bytes)
+CREATE http-post-request-angular/e2e/protractor.conf.js (904 bytes)
+CREATE http-post-request-angular/e2e/tsconfig.json (274 bytes)
+CREATE http-post-request-angular/e2e/src/app.e2e-spec.ts (675 bytes)
+CREATE http-post-request-angular/e2e/src/app.po.ts (274 bytes)
 √ Packages installed successfully.
 ```
 
 Now navigate to application directory by using following cd command.
 
 ```
-> cd .\http-get-request-angular\
+> cd .\http-post-request-angular\
 ```
 
 Now type `ng serve` your application should be running on `http://localhost:4200/`
 
 ```
-http-get-request-angular app is running!
+http-post-request-angular app is running!
 ```
 
-As mentioned in [HttpClient Observable](https://www.angularjswiki.com/httpclient/observable/), For our Angular HttpClient get request example, we will use a third party API `https://reqres.in/api/users?page=1` which returns a list of users in JSON object format. 
+We will use a third party POST request API `https://reqres.in/api/users` which creates a new user. 
 
-To setup server communication we need to add `HttpClientModule` in `app.module.ts` file as explained in [HttpClient Introduction](https://www.angularjswiki.com/httpclient/)
+Before making the Http Post request in Angular make sure you have added
 
-```
-// app.module.ts file of http-get-request-angular app.
+1. HttpClientModule in app.module.ts file
+2. Reusable Injectable Http Service 
 
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HttpClientModule } from '@angular/common/http';
-
-
-@NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule  //IMPORTANT: Add it after BrowserModule only
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }
-```
-
-We can inject HttpClient service anywhere in our Angular applications. 
-
-## Creating re-usable Injectable Http Service
-
-We will create a new service which handles all HttpClient communication operations like requesting the data, post-processing the data, error handling,and retry logic.
-
-The advantage of creating such service is we can inject it wherever we want(like any component) in our Angular application.
-
-As any application meant to evolve such injectable services helps us to build scalable solutions.
+If you are new, refer [HttpClient get example](https://www.angularjswiki.com/httpclient/get/) tutorial.  
 
 ```
->ng generate service user
+//UserService.ts
 
-CREATE src/app/user.service.spec.ts (347 bytes)
-CREATE src/app/user.service.ts (133 bytes)
-```
-
-And inject `HttpClient` in `user.service.ts` file.
-
-```
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -154,17 +122,17 @@ export class UserService {
   constructor(private http: HttpClient) {}
 }
 ```
-As `HttpClient` service uses observables for http requests,we should import the RxJS observable in our http service.
 
-## HttpClient.get() example 
+## HttpClient.post() example 
 
-Now we will make use of `HttpClient.get()` to get the list of users from the API. 
+Now we will make use of `HttpClient.post()` to method to create a User. 
 
-### HttpClient get method syntax
+### HttpClient post method syntax
 
-Angular's `HttpClient.get()` method takes two arguments.
+Angular's `HttpClient.post()` method takes three arguments.
 
 1. API Endpoint Url
+2. body - the data to submit
 2. Options
 
 Options parameter object used to configure various Http request options like request headers,parameters and response type etc. 
@@ -457,9 +425,9 @@ this.userService.getUsers().subscribe((response:UserInformation) => {
 
 Here is the links for StackBlitz demo & Github code.
 
-Demo : [Http get request Angular](https://stackblitz.com/edit/http-get-request-angular-example?file=src%2Fapp%2Fuser.component.ts)
+Demo : [Http get request Angular](https://stackblitz.com/edit/http-post-request-angular-example?file=src%2Fapp%2Fuser.component.ts)
 
-Code : [https://github.com/arungudelli/http-get-request-angular](https://github.com/arungudelli/http-get-request-angular)
+Code : [https://github.com/arungudelli/http-post-request-angular](https://github.com/arungudelli/http-post-request-angular)
 
 
 
