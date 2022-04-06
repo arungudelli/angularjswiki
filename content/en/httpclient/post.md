@@ -11,7 +11,7 @@ prev="observable"
 next="get-params"
 featured="Angular.png"
 authors = ["admin"]
-summary ="Using `HttpClient.post()` method in Angular we can send data to the server from our Angular applications."
+summary ="We can make Angular Http Post Request using HttpClient.post() method."
 keywords=["Angular HttpClient post method","http post request angular"]
 
 # Add menu entry to sidebar.
@@ -23,7 +23,7 @@ linktitle = "post"
 
 +++
 
-Using `HttpClient.post()` method in Angular we can send data to the server from our Angular applications. 
+We can make Angular Http Post Request using `HttpClient.post()` method. 
 
 Generally while submitting a form, we will use Http POST request to send the data to the server. 
 

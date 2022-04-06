@@ -4,8 +4,8 @@ subtitle = "Converting Enum to list or object array in Typescript/Angular"
 type="post"
 summary ="To convert string to number in angular or typescript follow the below steps 1.Check if a string is number or not using Number() function.2.If the string is number then convert Number() returns the numeric value or `NaN` (Not a Number)"
 keywords=["string to number in typescript,string to number angular"]
-date="2019-12-29T01:01:05+0000"
-lastmod="2019-12-29T04:44:37+0000"
+date="2022-03-16T00:00:00+0000"
+lastmod="2022-03-16T00:00:00+0001"
 draft=true
 authors = ["admin"]
 
