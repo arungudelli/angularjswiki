@@ -37,12 +37,12 @@ Generally while submitting a form, we will use Http POST request to send the dat
 
 Now we will go through an example to understand it further. 
 
-## Http get post in Angular
+## Http post request in Angular
 
 Open your command prompt and create a new application using Angular cli ng new command.
 
 ```
-> ng new http-get-post-angular
+> ng new http-post-request-angular
 ```
 
 Here is the Output
