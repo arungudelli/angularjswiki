@@ -30,7 +30,7 @@ CDN(Content delivery Network)を使用することは、font awesome アイコ�
 
 {{%toc%}}
 
-##font awesome CDN を利用するための手順
+## font awesome CDN を利用するための手順
 
 1.font awesome アイコン公式サイトを開きます。
 
@@ -66,7 +66,7 @@ CDN(Content delivery Network)を使用することは、font awesome アイコ�
 
 また、font awesome CDNのサイトに登録することで、好みの設定を管理することができます。
 
-##font awesome CDNを利用するメリット
+## font awesome CDNを利用するメリット
 
 1.より高速なサーバーから、font awesome アイコンを提供することができます。
 2. font awesome CDNサーバーは常に稼動しています。
@@ -96,7 +96,7 @@ Font Awesome CDN の自動アクセシビリティ機能は、視覚や聴覚に
 </button>
 ```
 
-##font awesome 5 CDN. 
+## font awesome 5 CDN. 
 
 上記のfont awesome 公式 CDN とは別に、cdnjs, maxcdn, jsdelivr などのコンテンツ配信ネットワークを利用することで、無料版のfont awesome アイコンを利用することができます。
 
