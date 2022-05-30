@@ -1,8 +1,8 @@
 +++
-title    ="Comment utiliser Font Awesome CDN"
-subtitle ="Liste des icônes de Font awesome CDN"
-summary  ="Dans ce tutoriel, nous allons apprendre à utiliser les icônes de font awesome en les servant depuis font awesome cdn"
-keywords =["font awesome icônes,font awesome icônes CDN "]
+title    ="Cara menggunakan CDN Font Awesome"
+subtitle ="Daftar CDN Font awesome Icons"
+summary  ="Dalam tutorial ini kita akan belajar bagaimana menggunakan font awesome icons dengan menayangkannya dari font awesome cdn."
+keywords =["font awesome icons,font awesome icons CDN"]
 type="docs"
 date="2019-07-14T01:01:05+0000"
 lastmod="2021-12-14T00:00:08+0000"
@@ -24,27 +24,27 @@ preview_only = false
 
 +++
 
-Dans ce tutoriel, nous allons apprendre à utiliser les icônes de font awesome en les servant à partir de font awesome cdn.
+Dalam tutorial ini kita akan belajar bagaimana menggunakan ikon font awesome dengan menyajikannya dari font awesome cdn.
 
-L'utilisation du CDN (Content delivery Network) est la meilleure façon de servir les fichiers css ou js de l'icône font awesome, au lieu de les héberger sur nos propres serveurs.
+Menggunakan CDN (Content delivery Network) adalah cara terbaik untuk menyajikan file css atau js ikon font awesome, alih-alih menghostingnya dari server kita sendiri.
 
 {{%toc%}}
 
-## Étapes pour utiliser font awesome CDN
+## Langkah-langkah untuk menggunakan font awesome CDN
 
-1. Ouvrez le site officiel de l'icône font awesome.
+1. Buka situs web resmi font awesome icon.
 
-2. Obtenez un code d'intégration unique en saisissant votre adresse électronique en suivant ce [lien] (https://fontawesome.com/start).
-3. Ensuite, font awesome envoie un e-mail avec le code d'intégration de Font Awesome CDN et des instructions pour ajouter des icônes sur notre site Web.
-4. L'exemple de lien JavaScript font awesome CDN sera dans le format ci-dessous.`https://use.fontawesome.com/a34asdfsd.js`.
-5. Copiez le code d'intégration que vous avez reçu par e-mail et placez-le dans votre balise HTML `<head>` tag 
+2. Dapatkan kode embed unik dengan memasukkan email Anda dengan mengikuti [link] ini(https://fontawesome.com/start).
+3. Kemudian font awesome akan mengirimkan email berisi kode embed CDN Font Awesome beserta instruksi untuk menambahkan ikon di website kita.
+4. Contoh JavaScript font awesome CDN link akan berada dalam format di bawah ini.`https://use.fontawesome.com/a34asdfsd.js`.
+5. Salin kode embed yang Anda terima melalui email dan letakkan di tag HTML Anda `<head>` tag 
 
 {{< figure src="/img/font-awesome-cdn-embed-code.png" title="font awesome cdn embed code" alt="font awesome cdn embed code">}}
 
 {{< figure src="/img/font-awesome-cdn-register.png" title="font awesome cdn register" alt="font awesome cdn register">}}
 
 
-Voici un exemple de page web qui utilise le CDN font awesome.
+Berikut adalah contoh halaman web yang menggunakan font awesome CDN.
 
 ```
 <!doctype html>
@@ -64,31 +64,31 @@ Voici un exemple de page web qui utilise le CDN font awesome.
 </html>
 ```
 
-Nous pouvons également nous inscrire sur le site font awesome CDN pour gérer nos préférences.
+Selanjutnya kita dapat mendaftar di situs web font awesome CDN untuk mengelola preferensi kita.
 
-## Avantages de l'utilisation de font awesome CDN
+## Keuntungan menggunakan font awesome CDN
 
-1. Un serveur plus rapide à partir duquel nous pouvons servir les icônes de font awesome.
-2. font awesome Des serveurs CDN toujours opérationnels.
-3. Et les fichiers seront servis à partir du serveur CDN le plus proche.
-4. Nous pouvons rapidement passer à font awesome pro icons sans aucune modification du code de notre côté.
-5. Nous pouvons créer plusieurs codes d'intégration pour différents sites Web.
-6. Le CDN de Font Awesome peut charger vos icônes de manière asynchrone, ce qui améliore les performances du site.
+1. Server yang lebih cepat di mana kita dapat melayani font awesome ikon.
+2. font awesome Server CDN selalu aktif dan berjalan.
+3. Dan file-file akan disajikan dari server CDN terdekat.
+4. Kita dapat dengan cepat meng-upgrade ke font awesome pro icons tanpa perubahan kode dari pihak kami.
+5. Kami dapat membuat beberapa kode embed untuk situs web yang berbeda.
+6. Font Awesome CDN dapat memuat ikon Anda secara asinkron sehingga meningkatkan performa situs.
 
-Un autre grand avantage de l'utilisation de font awesome CDN est que nous pouvons automatiser l'accessibilité de nos icônes.
+Satu lagi keuntungan besar menggunakan font awesome CDN adalah kita dapat mengotomatisasi aksesibilitas ikon kita.
 
-La fonction d'accessibilité automatique de Font Awesome CDN aide les personnes souffrant de déficiences visuelles et auditives.
+Fitur aksesibilitas otomatis Font Awesome CDN membantu orang-orang dengan gangguan penglihatan dan pendengaran.
 
-Par exemple, considérez l'exemple ci-dessous
+Sebagai contoh perhatikan contoh di bawah ini
 
 ```
 <button type="submit">
   <i class="fa fa-envelope"></i> Email Us!
 </button>
 ```
-Dans l'exemple ci-dessus, à l'intérieur du bouton d'envoi, nous utilisons l'icône font awesome. Mais pour les personnes malvoyantes qui utilisent des lecteurs d'écran pour accéder au site Web, il n'est pas nécessaire d'exposer cette icône.
+Pada contoh di atas, di dalam tombol submit kita menggunakan ikon font awesome. Tetapi untuk orang dengan gangguan penglihatan yang menggunakan pembaca layar untuk mengakses situs web, tidak perlu menampilkan ikon ini.
 
-Ainsi, le CDN font awesome ajoutera automatiquement l'attribut `aria-hidden=true` à l'icône.
+Jadi font awesome CDN akan secara otomatis menambahkan atribut `aria-hidden=true` ke ikon.
 
 ```
 <button type="submit">
@@ -98,12 +98,12 @@ Ainsi, le CDN font awesome ajoutera automatiquement l'attribut `aria-hidden=true
 
 ## font awesome 5 CDN 
 
-Outre le CDN officiel font awesome ci-dessus, nous pouvons utiliser la version gratuite des icônes font awesome en utilisant des réseaux de diffusion de contenu comme cdnjs, maxcdn et jsdelivr.
+Selain dari font awesome CDN resmi di atas, kita dapat menggunakan versi gratis dari ikon font awesome dengan menggunakan jaringan pengiriman konten seperti cdnjs, maxcdn dan jsdelivr.
 
 
-## Font awesome CDN par cdn js 
+## Font CDN yang mengagumkan oleh cdn js 
 
-Pour la dernière version font awesome 5 et plus, utilisez les liens ci-dessous font awesome CDN fichier CSS par cdnjs.
+Untuk versi font awesome 5 terbaru dan di atasnya gunakan tautan file CSS font awesome CDN oleh cdnjs di bawah ini.
 
 ```
 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
@@ -123,7 +123,7 @@ https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/v4-shims.min.css
 
 ```
 
-Si vous voulez utiliser la version Javascript des icônes font awesome, utilisez les liens CDN ci-dessous de cdnjs.
+Jika Anda ingin menggunakan ikon font awesome versi Javascript, gunakan tautan CDN di bawah ini oleh cdnjs.
 
 ```
 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.js
@@ -142,15 +142,15 @@ https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/v4-shims.js
 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/v4-shims.min.js
 ```
 
-Pour les dernières versions CDN de fontawesome, reportez-vous au lien CDN de cloudflare ci-dessous.
+Untuk versi CDN fontawesome terbaru, lihat tautan cdnjs di bawah ini oleh cloudflare.
 
 ```
 https://cdnjs.com/libraries/font-awesome
 ```
 
-## Liens CDN de Font awesome par jsdelivr 
+## Tautan CDN font awesome oleh jsdelivr 
 
-Servez les fichiers CSS des icônes font awesome en utilisant les liens CDN de jsdelivr ci-dessous.
+Sajikan file CSS ikon font awesome menggunakan tautan CDN jsdelivr di bawah ini.
 
 ```
 https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/all.css
@@ -170,7 +170,7 @@ https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/v4-shims.min.css
 https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.min.css
 
 ```
-Pour les liens CDN des fichiers javascript de Font awesome, utilisez les liens ci-dessous.
+Untuk tautan file javascript CDN Font awesome menggunakan tautan di bawah ini.
 ```
 https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/all.js
 https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/all.min.js
@@ -188,16 +188,16 @@ https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/v4-shims.js
 https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/v4-shims.min.js
 ```
 
-Voici le lien vers le dernier jsdelivr fontawesome CDN.
+Berikut ini adalah tautan ke CDN fontawesome jsdelivr terbaru.
 
 ```
 https://www.jsdelivr.com/package/gh/FortAwesome/Font-Awesome
 
 ```
 
-## Lien CDN Font awesome Bootstrap
+## Tautan CDN Bootstrap Font awesome
 
-Pour les versions antérieures comme font awesome 4.7 nous pouvons utiliser les liens CDN de bootstrap
+Untuk versi sebelumnya seperti font awesome 4.7 kita bisa menggunakan link cdn bootstap
 
 ```
 https://www.bootstrapcdn.com/fontawesome/

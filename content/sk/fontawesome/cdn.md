@@ -1,8 +1,8 @@
 +++
-title    ="Comment utiliser Font Awesome CDN"
-subtitle ="Liste des icônes de Font awesome CDN"
-summary  ="Dans ce tutoriel, nous allons apprendre à utiliser les icônes de font awesome en les servant depuis font awesome cdn"
-keywords =["font awesome icônes,font awesome icônes CDN "]
+title    ="Ako používať Font Awesome CDN"
+subtitle ="Zoznam ikon CDN Font awesome"
+summary  ="V tomto návode sa naučíme, ako používať ikony font awesome ich servírovaním z font awesome cdn."
+keywords =["font awesome ikony,font awesome ikony CDN"]
 type="docs"
 date="2019-07-14T01:01:05+0000"
 lastmod="2021-12-14T00:00:08+0000"
@@ -24,27 +24,27 @@ preview_only = false
 
 +++
 
-Dans ce tutoriel, nous allons apprendre à utiliser les icônes de font awesome en les servant à partir de font awesome cdn.
+V tomto návode sa naučíme používať ikony font awesome tak, že ich budeme servírovať zo stránky font awesome cdn.
 
-L'utilisation du CDN (Content delivery Network) est la meilleure façon de servir les fichiers css ou js de l'icône font awesome, au lieu de les héberger sur nos propres serveurs.
+Použitie siete CDN (Content delivery Network) je najlepší spôsob, ako servírovať font awesome súbory css alebo js ikon, namiesto ich hostovania z vlastných serverov.
 
 {{%toc%}}
 
-## Étapes pour utiliser font awesome CDN
+## Kroky na používanie font awesome CDN
 
-1. Ouvrez le site officiel de l'icône font awesome.
+1. Otvorte oficiálnu webovú lokalitu ikony font awesome.
 
-2. Obtenez un code d'intégration unique en saisissant votre adresse électronique en suivant ce [lien] (https://fontawesome.com/start).
-3. Ensuite, font awesome envoie un e-mail avec le code d'intégration de Font Awesome CDN et des instructions pour ajouter des icônes sur notre site Web.
-4. L'exemple de lien JavaScript font awesome CDN sera dans le format ci-dessous.`https://use.fontawesome.com/a34asdfsd.js`.
-5. Copiez le code d'intégration que vous avez reçu par e-mail et placez-le dans votre balise HTML `<head>` tag 
+2. Získajte jedinečný kód na vloženie zadaním svojho e-mailu podľa tohto [odkazu] (https://fontawesome.com/start).
+3. Potom vám font awesome pošle e-mail s kódom na vloženie Font Awesome CDN spolu s pokynmi na pridanie ikon na našu webovú stránku.
+4. Ukážka odkazu JavaScript font awesome CDN bude v nižšie uvedenom formáte.`https://use.fontawesome.com/a34asdfsd.js`.
+5. Skopírujte kód na vloženie, ktorý ste dostali e-mailom, a umiestnite ho do svojho HTML `<head>` tagu 
 
 {{< figure src="/img/font-awesome-cdn-embed-code.png" title="font awesome cdn embed code" alt="font awesome cdn embed code">}}
 
 {{< figure src="/img/font-awesome-cdn-register.png" title="font awesome cdn register" alt="font awesome cdn register">}}
 
 
-Voici un exemple de page web qui utilise le CDN font awesome.
+Tu je ukážka webovej stránky, ktorá používa font awesome CDN.
 
 ```
 <!doctype html>
@@ -64,31 +64,31 @@ Voici un exemple de page web qui utilise le CDN font awesome.
 </html>
 ```
 
-Nous pouvons également nous inscrire sur le site font awesome CDN pour gérer nos préférences.
+Ďalej sa môžeme zaregistrovať na webovej lokalite font awesome CDN a spravovať svoje preferencie.
 
-## Avantages de l'utilisation de font awesome CDN
+## Výhody používania font awesome CDN
 
-1. Un serveur plus rapide à partir duquel nous pouvons servir les icônes de font awesome.
-2. font awesome Des serveurs CDN toujours opérationnels.
-3. Et les fichiers seront servis à partir du serveur CDN le plus proche.
-4. Nous pouvons rapidement passer à font awesome pro icons sans aucune modification du code de notre côté.
-5. Nous pouvons créer plusieurs codes d'intégration pour différents sites Web.
-6. Le CDN de Font Awesome peut charger vos icônes de manière asynchrone, ce qui améliore les performances du site.
+1. Rýchlejší server, z ktorého môžeme servírovať ikony font awesome.
+2. font awesome Servery CDN sú vždy v prevádzke.
+3. A súbory sa budú servírovať z najbližšieho servera CDN.
+4. Na ikony font awesome pro môžeme rýchlo prejsť bez akýchkoľvek zmien kódu z našej strany.
+5. Môžeme vytvoriť viacero vkladacích kódov pre rôzne webové stránky.
+6. Font Awesome CDN dokáže načítať vaše ikony asynchrónne, čím sa ešte viac zvýši výkon webu.
 
-Un autre grand avantage de l'utilisation de font awesome CDN est que nous pouvons automatiser l'accessibilité de nos icônes.
+Jednou z ďalších veľkých výhod používania font awesome CDN je, že môžeme automatizovať dostupnosť našich ikon.
 
-La fonction d'accessibilité automatique de Font Awesome CDN aide les personnes souffrant de déficiences visuelles et auditives.
+Funkcia automatickej prístupnosti siete Font Awesome CDN pomáha ľuďom so zrakovým a sluchovým postihnutím.
 
-Par exemple, considérez l'exemple ci-dessous
+Zoberme si napríklad nasledujúci príklad
 
 ```
 <button type="submit">
   <i class="fa fa-envelope"></i> Email Us!
 </button>
 ```
-Dans l'exemple ci-dessus, à l'intérieur du bouton d'envoi, nous utilisons l'icône font awesome. Mais pour les personnes malvoyantes qui utilisent des lecteurs d'écran pour accéder au site Web, il n'est pas nécessaire d'exposer cette icône.
+Vo vyššie uvedenom príklade používame vo vnútri tlačidla odoslať ikonu font awesome. Ale pre zrakovo postihnutú osobu, ktorá na prístup na webovú stránku používa čítačky obrazovky, nie je potrebné túto ikonu zobrazovať.
 
-Ainsi, le CDN font awesome ajoutera automatiquement l'attribut `aria-hidden=true` à l'icône.
+Takže font awesome CDN automaticky pridá k ikone atribút `aria-hidden=true`.
 
 ```
 <button type="submit">
@@ -98,12 +98,12 @@ Ainsi, le CDN font awesome ajoutera automatiquement l'attribut `aria-hidden=true
 
 ## font awesome 5 CDN 
 
-Outre le CDN officiel font awesome ci-dessus, nous pouvons utiliser la version gratuite des icônes font awesome en utilisant des réseaux de diffusion de contenu comme cdnjs, maxcdn et jsdelivr.
+Okrem vyššie uvedenej oficiálnej CDN font awesome môžeme použiť bezplatnú verziu ikon font awesome pomocou sietí na doručovanie obsahu, ako sú cdnjs, maxcdn a jsdelivr.
 
 
-## Font awesome CDN par cdn js 
+## Font awesome CDN podľa cdn js 
 
-Pour la dernière version font awesome 5 et plus, utilisez les liens ci-dessous font awesome CDN fichier CSS par cdnjs.
+Pre najnovšiu verziu font awesome 5 a vyššiu použite nižšie uvedené odkazy na font awesome CDN CSS súbor podľa cdnjs.
 
 ```
 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
@@ -123,7 +123,7 @@ https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/v4-shims.min.css
 
 ```
 
-Si vous voulez utiliser la version Javascript des icônes font awesome, utilisez les liens CDN ci-dessous de cdnjs.
+Ak chcete používať Javascriptovú verziu ikon font awesome, použite nižšie uvedené odkazy CDN podľa cdnjs.
 
 ```
 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.js
@@ -142,15 +142,15 @@ https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/v4-shims.js
 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/v4-shims.min.js
 ```
 
-Pour les dernières versions CDN de fontawesome, reportez-vous au lien CDN de cloudflare ci-dessous.
+Najnovšie verzie fontawesome CDN nájdete na nižšie uvedenom odkaze cdnjs od cloudflare.
 
 ```
 https://cdnjs.com/libraries/font-awesome
 ```
 
-## Liens CDN de Font awesome par jsdelivr 
+## Font awesome CDN odkazy jsdelivr 
 
-Servez les fichiers CSS des icônes font awesome en utilisant les liens CDN de jsdelivr ci-dessous.
+Podávajte font awesome ikony CSS súbory pomocou nižšie uvedených jsdelivr CDN odkazov.
 
 ```
 https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/all.css
@@ -170,7 +170,7 @@ https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/css/v4-shims.min.css
 https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.min.css
 
 ```
-Pour les liens CDN des fichiers javascript de Font awesome, utilisez les liens ci-dessous.
+Pre Font awesome CDN javascriptové súbory použite nižšie uvedené odkazy.
 ```
 https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/all.js
 https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/all.min.js
@@ -188,16 +188,16 @@ https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/v4-shims.js
 https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.3/js/v4-shims.min.js
 ```
 
-Voici le lien vers le dernier jsdelivr fontawesome CDN.
+Tu je odkaz na najnovšie jsdelivr fontawesome CDN.
 
 ```
 https://www.jsdelivr.com/package/gh/FortAwesome/Font-Awesome
 
 ```
 
-## Lien CDN Font awesome Bootstrap
+## Font awesome Bootstrap CDN odkaz
 
-Pour les versions antérieures comme font awesome 4.7 nous pouvons utiliser les liens CDN de bootstrap
+Pre staršie verzie, ako je font awesome 4.7, môžeme použiť bootstap cdn odkazy
 
 ```
 https://www.bootstrapcdn.com/fontawesome/
