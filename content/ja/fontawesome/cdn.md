@@ -2,7 +2,7 @@
 title    ="Font Awesome CDNの使い方"
 subtitle ="Font awesome Icons CDNリスト"
 summary  ="このチュートリアルでは、font awesome アイコンをfont awesome cdn から提供して使用する方法を学びます。"
-keywords =["font awesome アイコン,font awesome アイコンCDN"]。
+keywords =["font awesome アイコン,font awesome アイコンCDN"]
 type="docs"
 date="2019-07-14T01:01:05+0000"
 lastmod="2021-12-14T00:00:08+0000"

@@ -1,5 +1,5 @@
 +++
-title    ="Kaip naudoti "Font Awesome CDN"
+title    ="Kaip naudoti Font Awesome CDN"
 subtitle ="Font awesome piktogramų CDN sąrašas"
 summary  ="Šioje pamokoje sužinosime, kaip naudoti font awesome piktogramas, pateikiant jas iš font awesome cdn."
 keywords =["font awesome piktogramos,font awesome piktogramos CDN"]
