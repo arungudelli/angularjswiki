@@ -3,22 +3,22 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-[[main]]
-  name = "Angular"
-  url = "/angular/"
-  weight = 25  
+#[[main]]
+#  name = "Angular"
+#  url = "/angular/"
+#  weight = 25  
 [[main]]
  name = "Angularl CLI"
  url = "/angularcli/"
  weight = 26 
-[[main]]
-  name = "interview"
-  url = "/interview/"
-  weight = 30 
-[[main]]
-  name = "Routing"
-  url = "/routing/"
-  weight = 26 
+#[[main]]
+#  name = "interview"
+#  url = "/interview/"
+#  weight = 30 
+#[[main]]
+#  name = "Routing"
+#  url = "/routing/"
+#  weight = 26 
 [[main]]
  name = "Flex Layout"
  url = "/flexlayout/"
