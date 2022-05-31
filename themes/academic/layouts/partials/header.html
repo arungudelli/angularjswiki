@@ -402,7 +402,12 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css
     }
     </script>  
 
-    <script type="text/javascript" src="//services.vlitag.com/adv1/?q=65b0a98eff9b98977181a9a628448e46" defer="" async=""></script><script> var vitag = vitag || {};</script>
+    <script type=text/javascript src="//services.vlitag.com/adv1/?q=65b0a98eff9b98977181a9a628448e46" defer async></script>
+    <script>
+        var vitag=vitag||{};
+        vitag.smartBannerConfig = vitag.smartBannerConfig || {};
+        vitag.smartBannerConfig.disablePosition = 'top';
+    </script>
 
 </head>
 <body id="top" data-spy="scroll" data-target="{{ if or .IsHome .Params.widgets }}#navbar-main{{ else }}#TableOfContents{{ end }}" data-offset="71" {{ if not ($scr.Get "light") }}class="dark"{{ end }}>
