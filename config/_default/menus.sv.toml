@@ -1,0 +1,80 @@
+## Navigation Links
+##   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+##     desired widget in your `content/home/` folder.
+##   The weight parameter defines the order that the links will appear in.
+#
+##[[main]]
+##  name = "Angular"
+##  url = "/angular/"
+##  weight = 25  
+#
+#[[main]]
+#  name = "Angularl CLI"
+#  url = "/angularcli/"
+#  weight = 26 
+#
+##[[main]]
+##  name = "interview"
+##  url = "/interview/"
+##  weight = 30 
+#
+#
+##[[main]]
+##  name = "Routing"
+##  url = "/routing/"
+##  weight = 26 
+#
+#[[main]]
+#  name = "Flex Layout"
+#  url = "/flexlayout/"
+#  weight = 25  
+#
+#[[main]]
+#  name = "Material Design"
+#  url = "/material/"
+#  weight = 30 
+#
+#[[main]]
+#  name = "Pipes"
+#  url = "/pipes/"
+#  weight = 30 
+#
+#[[main]]
+#  name = "FontAwesome"
+#  url = "/fontawesome/"
+#  weight = 40 
+#
+#[[main]]
+#  name = "HttpClient"
+#  url = "/httpclient/"
+#  weight = 35
+#
+#[[main]]
+#  name = "Angular Jobs"
+#  url = "https://jobs.angularjswiki.com/browse-jobs/"
+#  weight = 45
+
+[[main]]
+name = "Home"
+url = "https://www.angularjswiki.com/"
+weight = 30 
+
+[[main]]
+name = "FontAwesome"
+url = "/fontawesome/"
+weight = 40 
+
+[[main]]
+name = "Angular Jobs"
+url = "https://jobs.angularjswiki.com/browse-jobs/"
+weight = 45
+
+
+
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# [[main]]
+#    name = "CV"
+#    url = "files/cv.pdf"
+#    weight = 70

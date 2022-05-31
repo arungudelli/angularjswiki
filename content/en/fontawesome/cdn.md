@@ -1,9 +1,9 @@
 +++
-title = "How to use Font Awesome CDN"
-subtitle = "Font awesome Icons CDN list"
+title    ="How to use Font Awesome CDN"
+subtitle ="Font awesome Icons CDN list"
+summary  ="In this tutorial we will learn how to use font awesome icons by serving them from font awesome cdn."
+keywords =["font awesome icons,font awesome icons CDN"]
 type="docs"
-summary ="In this tutorial we will learn how to use font awesome icons by serving them from font awesome cdn."
-keywords=["font awesome icons,font awesome icons CDN"]
 date="2019-07-14T01:01:05+0000"
 lastmod="2021-12-14T00:00:08+0000"
 prev="fontawesome"
@@ -18,14 +18,9 @@ linktitle="CDN"
 parent="fontawesome"
 weight=2
 [image]
-  caption = "font awesome icons"
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
-
-  # Show image only in page previews?
-  preview_only = false
+caption = "font awesome icons"
+focal_point = ""
+preview_only = false
 
 +++
 
@@ -37,7 +32,7 @@ Using CDN(Content delivery Network) is the best way to serve font awesome icon c
 
 ## Steps to use font awesome CDN
 
-1. Open official fontawesome icon website.
+1. Open official font awesome icon website.
 
 2. Get a unique embed code by entering your email in following this [link](https://fontawesome.com/start).
 3. Then font awesome sends an email with the Font Awesome CDN embed code along with instructions to add icons in our website.

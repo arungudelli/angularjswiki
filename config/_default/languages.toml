@@ -4,33 +4,232 @@
 
 # Configure the English version of the site.
 [en]
-  languageCode = "en-us"
-  contentDir = "content/en"
+languageCode = "en-us"
+contentDir = "content/en"
+
+
+
+[bg]
+languageCode="bg"
+contentDir="content/bg"
+[[bg.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+
+
+[cs]
+languageCode="cs"
+contentDir="content/cs"
+[[cs.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[da]
+languageCode="da"
+contentDir="content/da"
+[[da.menu.main]]
+name="Home"
+url="#"
+weight=100
+#
+[de]
+languageCode="de"
+contentDir="content/de"
+[[de.menu.main]]
+name="Home"
+url="#"
+weight=100
+#
+[el]
+languageCode="el"
+contentDir="content/el"
+[[el.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[es]
+languageCode="es"
+contentDir="content/es"
+[[es.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[et]
+languageCode="et"
+contentDir="content/et"
+[[et.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[fi]
+languageCode="fi"
+contentDir="content/fi"
+[[fi.menu.main]]
+name="Home"
+url="#"
+weight=100
 
 [fr]
-languageCode = "fr"
-contentDir = "content/fr"
- [[fr.menu.main]]
- name = "Home"
-  url = "#"
-  weight = 10
+languageCode="fr"
+contentDir="content/fr"
+[[fr.menu.main]]
+name="Home"
+url="#"
+weight=100
 
-[de]
-languageCode = "de"
-contentDir = "content/de"
- [[de.menu.main]]
- name = "Home"
-  url = "#"
-  weight = 10
+[hu]
+languageCode="hu"
+contentDir="content/hu"
+[[hu.menu.main]]
+name="Home"
+url="#"
+weight=100
 
-# Uncomment the lines below to configure your website in a second language.
-#[zh]
-#  languageCode = "zh-Hans"
-#  contentDir = "content/zh"
-#  title = "Chinese website title..."
-#  [zh.params]
-#    description = "Site description in Chinese..."
-#  [[zh.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
+[id]
+languageCode="id"
+contentDir="content/id"
+[[id.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[it]
+languageCode="it"
+contentDir="content/it"
+[[it.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[ja]
+languageCode="ja"
+contentDir="content/ja"
+[[ja.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[lt]
+languageCode="lt"
+contentDir="content/lt"
+[[lt.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[lv]
+languageCode="lv"
+contentDir="content/lv"
+[[lv.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[nl]
+languageCode="nl"
+contentDir="content/nl"
+[[nl.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[pl]
+languageCode="pl"
+contentDir="content/pl"
+[[pl.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[pt-pt]
+languageCode="pt-pt"
+contentDir="content/pt-pt"
+[[pt-pt.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[pt-br]
+languageCode="pt-br"
+contentDir="content/pt-br"
+[[pt-br.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[ro]
+languageCode="ro"
+contentDir="content/ro"
+[[ro.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[ru]
+languageCode="ru"
+contentDir="content/ru"
+[[ru.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[sk]
+languageCode="sk"
+contentDir="content/sk"
+[[sk.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[sl]
+languageCode="sl"
+contentDir="content/sl"
+[[sl.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[sv]
+languageCode="sv"
+contentDir="content/sv"
+[[sv.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[tr]
+languageCode="tr"
+contentDir="content/tr"
+[[tr.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+[zh]
+languageCode="zh"
+contentDir="content/zh"
+[[zh.menu.main]]
+name="Home"
+url="#"
+weight=100
+
+
+
+## Uncomment the lines below to configure your website in a second language.
+###[zh]
+###  languageCode = "zh-Hans"
+###  contentDir = "content/zh"
+##  title = "Chinese website title..."
+##  [zh.params]
+##    description = "Site description in Chinese..."
+##  [[zh.menu.main]]
+##    name = "Wo"
+##    url = "#about"
+##    weight = 1
+#
