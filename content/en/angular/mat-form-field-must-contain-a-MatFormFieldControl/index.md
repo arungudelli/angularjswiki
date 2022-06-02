@@ -1,5 +1,5 @@
 +++
-title   = "`mat-form-field` must contain a `MatFormFieldControl`"
+title   = "mat-form-field must contain a MatFormFieldControl error fix in Angular"
 subtitle= "Fixing `mat-form-field` must contain a `MatFormFieldControl` error"
 summary = "If your `mat-form-field` contains an `<input>` or `<textarea>` element, make sure you've added the `matInput` directive to it and have imported `MatInputModule` other wise you will get `mat-form-field must contain a MatFormFieldControl` error in your application."
 keywords=["mat-form-field must contain a MatFormFieldControl"]
