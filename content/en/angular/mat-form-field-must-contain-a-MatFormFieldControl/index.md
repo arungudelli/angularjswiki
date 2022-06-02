@@ -1,9 +1,9 @@
 +++
-title = "`mat-form-field` must contain a `MatFormFieldControl`"
-subtitle = "Fixing `mat-form-field` must contain a `MatFormFieldControl` error"
-type="post"
-summary ="If your `mat-form-field` contains an `<input>` or `<textarea>` element, make sure you've added the `matInput` directive to it and have imported `MatInputModule` other wise you will get `mat-form-field must contain a MatFormFieldControl` error in your application."
+title   = "`mat-form-field` must contain a `MatFormFieldControl`"
+subtitle= "Fixing `mat-form-field` must contain a `MatFormFieldControl` error"
+summary = "If your `mat-form-field` contains an `<input>` or `<textarea>` element, make sure you've added the `matInput` directive to it and have imported `MatInputModule` other wise you will get `mat-form-field must contain a MatFormFieldControl` error in your application."
 keywords=["mat-form-field must contain a MatFormFieldControl"]
+type="post"
 date="2022-06-01T01:01:05+0000"
 lastmod="2022-06-01T04:00:07+0000"
 draft=false
