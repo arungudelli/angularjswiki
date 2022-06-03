@@ -41,7 +41,9 @@ If you are using Angular material You have to update it as well using `ng update
 ng update @angular/material
 ```
 
-The **Angular latest Official stable version is Angular v13.2.5**, which is released on 2nd March 2022. 
+The **Angular latest Official stable version is Angular v14** which is released on 2nd June 2022.
+
+~~The **Angular latest Official stable version is Angular v13.2.5**, which is released on 2nd March 2022.~~ 
 
 Remember below important things, before updating your Angular applications.
 

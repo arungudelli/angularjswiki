@@ -1,10 +1,10 @@
 +++
-title = "Angular 14 version release"
+title = "Angular 14 version released"
 subtitle = "Angular v14 release"
 summary ="Angular team at Google planning to release Angular v14 in coming June. i.e., June 2022."
 keywords=["Angular 14 release date, ng update angular, Angular version 14, Angular v14"]
 date="2022-05-18T00:00:00+0000"
-lastmod="2022-05-18T00:00:00+0000"
+lastmod="2022-06-02T00:00:00+0000"
 type="post"
 draft=false
 authors = ["admin"]
@@ -21,14 +21,18 @@ authors = ["admin"]
 
 +++
 
-Angular 14 version is coming.
+On 02-06-2022 ,Google has released Angular v14. 
+
+~~Angular 14 version is coming~~.
 
 Angular 14 is the next major update after, Angular v13 released in November 2021.
 
 
 ## Angular 14 version release date
 
-Angular team at Google planning to release Angular v14 in coming June. i.e., June 2022.
+**Angular v14 released on 02-06-2022**
+
+~~Angular team at Google planning to release Angular v14 in coming June. i.e., June 2022~~.
 
 The release candidate 1, i.e., Angular v14.0.0-rc.1 released on 18th May 2022.
 
@@ -130,7 +134,50 @@ This issue is mostly about building the required infrastructure, but we should i
 
 ## Update to Angular 14 
 
-Angular 14 version is not released yet. 
+To update to latest Angular v14 use `npm install -g @angular/cli@latest` command.
+
+```
+>npm install -g @angular/cli@latest
+
+added 13 packages, changed 206 packages, and audited 220 packages in 42s
+
+25 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+```
+
+And check the installed Angular version using `ng v`
+
+
+```
+>ng v
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 14.0.0
+Node: 16.13.1
+Package Manager: npm 8.1.2
+OS: win32 x64
+
+Angular:
+...
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.1400.0 (cli-only)
+@angular-devkit/core         14.0.0 (cli-only)
+@angular-devkit/schematics   14.0.0 (cli-only)
+@schematics/angular          14.0.0 (cli-only)
+```
+
+~~Angular 14 version is not released yet.~~ 
 
 But we can try out Angular v14.0.0-rc.1 by using below command.
 
