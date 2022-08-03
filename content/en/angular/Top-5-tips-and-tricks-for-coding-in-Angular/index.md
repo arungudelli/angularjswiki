@@ -1,12 +1,12 @@
 +++
 title = "Top 5 Tips and Tricks for Coding in Angular"
-subtitle = "Using Short Circuiting Assignment Operators in Angular"
+subtitle = ""
 type="post"
 summary ="In this article, you will learn tricks you can use for projects involving coding in Angular."
 keywords=[""]
 date="2022-08-01T00:00:00+0000"
 lastmod="2022-08-01T00:00:00+0000"
-draft=true
+draft=false
 authors = ["admin"]
 
 [image]
@@ -38,6 +38,8 @@ In this article, you will learn tricks you can use for projects involving coding
 These tips may also come in handy when dealing with other development frameworks.
 
 Sit back, read on and learn more.
+
+{{%toc%}}
 
 ## 5 Tricks to Improve Your Coding in Angular Skills
 
