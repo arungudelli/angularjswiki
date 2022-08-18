@@ -3,15 +3,19 @@ title = "How to detect @input value changes in Angular Child Component?"
 subtitle = "detect @input value changes in Angular Child Component"
 summary =""
 keywords=["detect @input value changes in Angular"]
-date="2022-08-18T01:01:05+0000"
-lastmod="2022-08-18T00:00:00+0000"
+date="2022-08-17T01:01:05+0000"
+lastmod="2022-08-17T00:00:00+0000"
 type="post"
 draft=false
 authors = ["admin"]
 
 +++
 
-In this tutorial we **learn how to detect @input value changes in Angular Child component** with simple examples. 
+In this tutorial we **learn how to detect @input value changes in Angular Child component** with simple examples.
+
+{{%toc%}}
+
+## Using `@input` property
 
 Most of the real world Angular applications will contain parent and child component relations. 
 
@@ -35,6 +39,8 @@ There are two ways we can detect `@input` value change in Angular
 
 1. Using `ngOnChanges()` method
 2. Using TypeScript Setter and Getter Properties on `@input()`
+
+
 
 Let's go through an example to understand further.
 
@@ -110,7 +116,7 @@ But the changes to the `@input` major and minor versions does not change the `de
 
 We have to call `getDescription()` method whenever there is a change in `@input` values. 
 
-## Using `ngOnChanges()` method 
+## Detect `@input` value changes using `ngOnChanges()` method 
 
 `ngOnChanges()` method called when there is a change in input values in the component. 
 
@@ -267,4 +273,224 @@ And display them in the UI
   <ul>
     <li *ngFor="let change of changeLog">{{ change }}</li>
   </ul>
+```
+
+## Detect `@input` value changes using TypeScript `set` and `get` Properties on `@input()`
+
+Instead of `OnChanges()` method and `SimpleChanges` object, we can use TypeScript's `setter` and `getter` on an `@input` property to detect input value changes.
+
+Let's rewrite the above code using `set` and `get` properties.
+
+```
+private _minor: Number;
+  
+@Input()
+set minor(value: Number) {
+    this._minor = value;
+    console.log(value);
+}
+get minor(): Number {
+    return this._minor;
+}
+
+private _major: Number;
+
+@Input()
+set major(value: Number) {
+  this._major = value;
+  console.log(value);
+}
+get major(): Number {
+  return this._major;
+}
+```
+
+And to detect input value changes use Typescript `setter` property.
+
+This is the simplest way.
+
+```
+set major(value: Number) {
+    this._major = value;
+    this.description = this.getDescription();
+
+    // Do your work
+    console.log(value);
+}
+
+set minor(value: Number) {
+    this._minor = value;
+    this.description = this.getDescription();
+    console.log(value);
+}
+```
+
+And if you have more complex functionality like tracking input values changes use `ngOnChanges()` as explained above.
+
+## Detecting Changes in arrays and objects `@input` values
+
+If you are passing objects and arrays via `@input` property, change detection will not happen if you change the data in the parent component. 
+
+The object data will be changed, just that detection will not happen.
+
+I have added an `appVersion` object in the parent component.
+
+And changing the `appVersion` properties, whenever we click the buttons in the parent component. 
+
+```
+  appVersion: AppVersion = { major: this.major, minor: this.minor };
+
+  newMinor() {
+    this.minor++;
+    this.appVersion.minor = this.minor;
+
+  }
+
+  newMajor() {
+    this.major++;
+    this.minor = 0;
+    
+    this.appVersion.minor = this.minor;
+    this.appVersion.major = this.major;
+  }
+```
+And passing the object to the child component via `@input`. 
+
+```
+// In parent component
+<div class="child">
+    <h3>Using ngOnChanges</h3>
+    <app-child
+      [major]="major"
+      [minor]="minor"
+      [appVersion]="appVersion"
+    ></app-child>
+  </div>
+```
+
+And in the child component displaying the object 
+
+```
+// In child.component.ts file
+@Input() appVersion: AppVersion;
+
+// In child.component.html file
+<p>Version Object is : {{ appVersion | json }}</p>
+
+```
+
+On initial load `ngOnChanges()` displays all `@input` values.
+
+```
+{
+    "major": {
+        "currentValue": 1,
+        "firstChange": true,
+        "previousValue": undefined
+    },
+    "minor": {
+        "currentValue": 23,
+        "firstChange": true,
+        "previousValue": undefined
+
+    },
+    "appVersion": {
+        "currentValue": {
+            "major": 1,
+            "minor": 23
+        },
+        "firstChange": true,
+        "previousValue": undefined
+    }
+}
+```
+
+When we change the `appVersion` object properties, `minor` and `major` inputs in parent component `ngOnChanges()` won't display the changes related to the `appVersion` object. 
+
+```
+{
+    "major": {
+        "previousValue": 1,
+        "currentValue": 2,
+        "firstChange": false
+    },
+    "minor": {
+        "previousValue": 23,
+        "currentValue": 0,
+        "firstChange": false
+    }
+}
+```
+
+The reason is Objects and Arrays are passed by reference. And when object properties are changed inside the component, reference won't change. 
+
+And `ngOnChanges()` hook will only fire when the reference changes. 
+
+And in the UI latest `appVersion` data is displayed.
+
+To avoid this we need to change reference of the object by cloning it, instead of changing only properties.
+
+```
+
+  newMinor() {
+    this.minor++;
+
+    //The below code wont trigger ngOnChanges
+    // this.appVersion.minor = this.minor;
+
+    this.appVersion = { ...this.appVersion, minor: this.minor };
+  }
+
+  newMajor() {
+    this.major++;
+    this.minor = 0;
+
+    //The below code wont trigger ngOnChanges
+    // this.appVersion.minor = this.minor;
+    // this.appVersion.major = this.major;
+
+    this.appVersion = {
+      ...this.appVersion,
+      minor: this.minor,
+      major: this.major,
+    };
+  }
+``` 
+
+I am using spread operator `...` to clone the object.
+
+```
+this.appVersion = {
+      ...this.appVersion,
+      minor: this.minor,
+      major: this.major,
+};
+```
+
+Now in the `ngOnChanges()` method we can see the changes related the `appVersion` object.
+
+```
+{
+    "major": {
+        "previousValue": 1,
+        "currentValue": 2,
+        "firstChange": false
+    },
+    "minor": {
+        "previousValue": 23,
+        "currentValue": 0,
+        "firstChange": false
+    },
+    "appVersion": {
+        "previousValue": {
+            "major": 1,
+            "minor": 23
+        },
+        "currentValue": {
+            "major": 2,
+            "minor": 0
+        },
+        "firstChange": false
+    }
+}
 ```
