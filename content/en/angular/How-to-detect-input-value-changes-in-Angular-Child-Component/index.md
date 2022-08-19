@@ -130,7 +130,7 @@ ngOnChanges(changes: SimpleChanges) {
 
 `ngOnChanges()` method will have a parameter of type `SimpleChanges`, which tracks the all changes happened in the component. 
 
-We have to import `SimpleChanges` from `@angular/core`.
+We have to import `SimpleChanges` object from `@angular/core`.
 
 ``
 import {
@@ -277,7 +277,7 @@ And display them in the UI
 
 ## Detect `@input` value changes using TypeScript `set` and `get` Properties on `@input()`
 
-Instead of `OnChanges()` method and `SimpleChanges` object, we can use TypeScript's `setter` and `getter` on an `@input` property to detect input value changes.
+Instead of `ngOnChanges()` method and `SimpleChanges` object, we can use TypeScript's `setter` and `getter` on `@input` property to detect input value changes.
 
 Let's rewrite the above code using `set` and `get` properties.
 
@@ -426,13 +426,11 @@ The reason is Objects and Arrays are passed by reference. And when object proper
 
 And `ngOnChanges()` hook will only fire when the reference changes. 
 
-And in the UI latest `appVersion` data is displayed.
-
 To avoid this we need to change reference of the object by cloning it, instead of changing only properties.
 
 ```
 
-  newMinor() {
+  inputChangeMinor() {
     this.minor++;
 
     //The below code wont trigger ngOnChanges
@@ -441,7 +439,7 @@ To avoid this we need to change reference of the object by cloning it, instead o
     this.appVersion = { ...this.appVersion, minor: this.minor };
   }
 
-  newMajor() {
+  inputChangeMajor() {
     this.major++;
     this.minor = 0;
 
@@ -494,3 +492,18 @@ Now in the `ngOnChanges()` method we can see the changes related the `appVersion
     }
 }
 ```
+
+## Best way to detect `@input` changes in Angular
+
+If your component contains multiple inputs then it's better to use `ngOnChanges()` method.
+
+Because we will get all input changes at a time inside `ngOnChanges()` method and in addition to that we can compare current and previous values of `@input` values with the help of `SimpleChanges` object.
+
+And if you are interested in detecting only single input change and don't care about current and previous values then it's better to use `@input` property `setters` and `getters`.
+
+
+## Stackblitz Demo 
+
+Here is the link for Stackblitz Demo
+
+[How to Detect @input value changes in Angular](https://stackblitz.com/edit/how-detect-input-value-changes-in-angular)
