@@ -114,6 +114,9 @@ I have created a `description` variable which displays the version information i
 
 But the changes to the `@input` major and minor versions does not change the `description` variable.
 
+{{< video src="/img/videos/detect-input-changes/input_value_changes_not_detected.mp4" srcwebm="/img/videos/detect-input-changes/input_value_changes_not_detected.webm">}} 
+
+
 We have to call `getDescription()` method whenever there is a change in `@input` values. 
 
 ## Detect `@input` value changes using `ngOnChanges()` method 
@@ -172,6 +175,8 @@ export class ChildComponent implements OnInit {
   
 }
 ```
+
+{{< video src="/img/videos/detect-input-changes/detecting_input_value_changes.mp4" srcwebm="/img/videos/detect-input-changes/detecting_input_value_changes.webm">}} 
 
 Now in the real world case, we may call an API service inside the `ngOnChanges()`.
 
@@ -275,6 +280,8 @@ And display them in the UI
   </ul>
 ```
 
+{{< video src="/img/videos/detect-input-changes/tracking_input_value_changes.mp4" srcwebm="/img/videos/detect-input-changes/tracking_input_value_changes.webm">}} 
+
 ## Detect `@input` value changes using TypeScript `set` and `get` Properties on `@input()`
 
 Instead of `ngOnChanges()` method and `SimpleChanges` object, we can use TypeScript's `setter` and `getter` on `@input` property to detect input value changes.
@@ -325,6 +332,8 @@ set minor(value: Number) {
 }
 ```
 
+{{< video src="/img/videos/detect-input-changes/input_changes_using_ts_get_set.mp4" srcwebm="/img/videos/detect-input-changes/input_changes_using_ts_get_set.webm">}} 
+
 And if you have more complex functionality like tracking input values changes use `ngOnChanges()` as explained above.
 
 ## Detecting Changes in arrays and objects `@input` values
@@ -340,13 +349,13 @@ And changing the `appVersion` properties, whenever we click the buttons in the p
 ```
   appVersion: AppVersion = { major: this.major, minor: this.minor };
 
-  newMinor() {
+  inputChangeMinor() {
     this.minor++;
     this.appVersion.minor = this.minor;
 
   }
 
-  newMajor() {
+  inputChangeMajor() {
     this.major++;
     this.minor = 0;
     
@@ -422,6 +431,8 @@ When we change the `appVersion` object properties, `minor` and `major` inputs in
 }
 ```
 
+{{< video src="/img/videos/detect-input-changes/object_input_changes_not_detected.mp4" srcwebm="/img/videos/detect-input-changes/object_input_changes_not_detected.webm">}} 
+
 The reason is Objects and Arrays are passed by reference. And when object properties are changed inside the component, reference won't change. 
 
 And `ngOnChanges()` hook will only fire when the reference changes. 
@@ -492,6 +503,8 @@ Now in the `ngOnChanges()` method we can see the changes related the `appVersion
     }
 }
 ```
+
+{{< video src="/img/videos/detect-input-changes/detect_object_input_changes_in_ngOnChanges.mp4" srcwebm="/img/videos/detect-input-changes/detect_object_input_changes_in_ngOnChanges.webm">}} 
 
 ## Best way to detect `@input` changes in Angular
 
