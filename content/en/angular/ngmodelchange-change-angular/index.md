@@ -1,10 +1,10 @@
 +++
-title = "ngModelChange and change in Angular with examples"
-subtitle = "Understanding differences between (ngModelChange) and (change) in Angular"
-summary ="(ngModelChange) is an Angular event, where as (change) is an HTML DOM event"
+title = "ngModelChange and change events in Angular with examples"
+subtitle = "Understanding differences between (ngModelChange) and (change) events in Angular"
+summary ="ngModelChange is an Angular event, where as change is an HTML DOM event"
 keywords=["ngModelChange, change"]
 date="2020-12-13T00:00:05+0000"
-lastmod="2020-12-13T00:01:00+0000"
+lastmod="2022-08-19T00:01:00+0000"
 type="post"
 draft=false
 authors = ["admin"]
@@ -21,19 +21,19 @@ authors = ["admin"]
 
 +++
 
-In Angular, We will use `ngModel` for two way data binding.
-
-Whenever a change happens in `ngModel`, Angular will trigger `ngModelChange` event.
-
-**ngModelChange** is the @output property of `ngModel` directive. and it's specific to Angular framework.
+**ngModelChange** is the `@output` property of `ngModel` directive. and it's specific to Angular framework.
 
 Where as **(change)** event is classic HTML DOM event, independent of Angular framework triggered when a change happened in input element.
 
-In this tutorial we will understand the differences between (ngModelChange) and (change) events by going through few examples.
+In this tutorial we will understand the differences between `(ngModelChange)` and `(change)` events by going through few examples.
 
 {{%toc%}}
 
-## ngModelChange example
+## Understand `ngModelChange` event using simple example
+
+In Angular, We will use `ngModel` for two way data binding.
+
+Whenever a change happens in `ngModel`, Angular will trigger `ngModelChange` event.
 
 We will create a component in our Angular project called `NgModelChange`.
 
@@ -193,7 +193,7 @@ userNamengmodelchange(value){
 }
 ```
 
-## Multiple ngModelChange events.
+## Multiple `ngModelChange` events.
 
 We can attach multiple `ngModelChange` events to an HTML tag. 
 
@@ -214,9 +214,9 @@ userNamePrint(){
 
 {{< video src="/img/videos/ngmodelchange-multiple.mp4" srcwebm="/img/videos/ngmodelchange-multiple.webm">}} 
 
-## change event Example
+## Understand `change` event using simple Example
 
-(change) event is triggered when an input form field **value changed by user**.
+`(change)` event is triggered when an input form field **value changed by user**.
 
 ```
 User Name: <input (change)="changeUserName($event)"/>
@@ -273,11 +273,11 @@ Because ngModel updated in change event.
 
 {{< video src="/img/videos/change-ngmodelchange.mp4" srcwebm="/img/videos/change-ngmodelchange.webm">}} 
 
-## ngModelChange vs change.
+## Summary of differences between `ngModelChange` vs `change`.
 
-Actually it's wrong to compare ngModelChange event with classic HTML change event.
+Actually it's **wrong to compare `ngModelChange` event with classic HTML `change` event**.
 
-ngModelChange is something specific to Angular, which is used to track the changes happened to `ngModel` property.
+`ngModelChange` is something specific to Angular, which is used to track the changes happened to `ngModel` property.
 
 <div class="table-responsive">
 <table class="table">
@@ -305,7 +305,7 @@ ngModelChange is something specific to Angular, which is used to track the chang
     </tr>
     <tr>
        <td>ngModelChange triggered when a change happened to ngModel irrespective of focus of the element.</td>
-       <td>change event triggers when the user changes the input.(depenedent on focus of the element)</td>
+       <td>change event triggers when the user changes the input.(depends on focus of the element)</td>
     </tr>
 </tbody>
  </table>   
