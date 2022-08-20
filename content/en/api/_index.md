@@ -1,18 +1,19 @@
 +++
-title="ng command list in Angular CLI"
+title="Angular Apis"
 summary="We have around 17 ng commands in Angular CLI"
 keywords=["ng command list"]
 date="25-09-2020T23:34:19"
 lastmod="25-09-2020T23:34:19"
 type="docs"
-parentdoc="angularcli"
+parentdoc="api"
 featured='ng-command.PNG'
-next="ng add"
-linktitle="list"
-[menu.core]
-parent="core"
-weight=20
+next=""
+linktitle="Packages"
 draft=true
+[menu.api]
+parent="api"
+weight=20
+
 +++
 
 We have around 17 ng commands in Angular CLI listed below
