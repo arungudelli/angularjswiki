@@ -1,14 +1,14 @@
 +++
-title = "Adding pagination to the mat-table using mat-paginator in Angular Material"
-date = 2021-02-07T00:00:00
-lastmod = 2021-02-07T01:00:00
+title = "mat-table server side pagination in Angular Material"
+date = 2022-08-25T00:00:00
+lastmod = 2022-08-25T01:00:00
 
-draft = false  # Is this a draft? true/false
+draft = "true"  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
-prev = "mat-table"
-next = "mat-table-serverside-pagination"
+prev = "mat-table-pagination"
+next = "mat-table-filter"
 featured="mat-table-featured.jpg"
 authors = ["admin"]
 summary ="mat-table selector in Angular used to display data in table format"
@@ -16,11 +16,23 @@ keywords=["mat-table,Angular Material Table"]
 
 
 # Add menu entry to sidebar.
-linktitle = "mat-table pagination"
+linktitle = "mat-table server side pagination"
 [menu.material]
   parent = "Tutorial"
-  weight = 3
+  weight = 4
 +++
+
+
+
+In previous article we learn about client side pagination in Angular material using `mat-paginator`.
+
+In client side pagination, we will get all records from the server at a time and apply pagination using `mat-paginator` component in Angular material.
+
+But If we huge data i.e., more number of records it's not a good idea to load all the records from the server and apply the client side pagination. 
+
+It might lead to serious performance impacts on the client side.
+
+In that case we will apply server side pagination
 
 It's very difficult to see the entire table data, when we have large number of records in the table.
 

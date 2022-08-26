@@ -18,7 +18,7 @@ keywords=["mat-table filterPredicate,Angular Material Table"]
 linktitle = "mat-table filterPredicate"
 [menu.material]
   parent = "Tutorial"
-  weight = 4
+  weight = 5
 +++
 
 In this tutorial we will learn how to use **mat-table filterPredicate in Angular**.
