@@ -1,18 +1,18 @@
 +++
-title="ng command list in Angular CLI"
+title="Rx Js"
 summary="We have around 17 ng commands in Angular CLI"
 keywords=["ng command list"]
 date="25-09-2020T23:34:19"
 lastmod="25-09-2020T23:34:19"
 type="docs"
-parentdoc="angularcli"
-featured='ng-command.PNG'
-next="ng add"
-linktitle="list"
-[menu.angularcli]
-parent="angularcli"
+parentdoc="rxjs"
+featured='rxjs-logo.PNG'
+draft=false
+linktitle="Introduction"
+[menu.rxjs]
+parent="rxjs"
 weight=20
-draft=true
+
 +++
 
 We have around 17 ng commands in Angular CLI listed below
