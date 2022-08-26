@@ -294,6 +294,25 @@ if (!isMobile()) {
 
 </script> -->
 <!-- <script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script> -->
-<div class="banner-bottom"><div class="adsbyvli" style="width:728px; height:90px" data-ad-slot="vi_1069340192"></div> <script>(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("vi_1069340192") })</script></div>
+<div id="banner-bottom">
+  <a class="drip-close" id="close-ad-bottom">
+    <svg width="12px" height="12px" viewBox="630 19 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <polygon id="x" stroke="none" fill="#A8ACB9" fill-rule="evenodd" points="641.376687 30.1740899 636.49366 24.436669 641.095466 19 639.510399 19 635.701126 23.6038176 631.866288 19 630.281221 19 634.883028 24.436669 630 30.1740899 631.585067 30.1740899 635.701126 25.2463857 639.791621 30.1740899"></polygon>
+    </svg>
+  </a>
+  <div class="adsbyvli" style="width:728px; height:90px" data-ad-slot="vi_1069340192"></div> <script>(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("vi_1069340192") })</script>
+</div>
+<script>
+
+var bannerbottom = document.getElementById("banner-bottom");
+var bannerCloseButton = document.getElementById("close-ad-bottom");
+if(bannerCloseButton){
+  bannerCloseButton.addEventListener("click",function(){
+    console.log('Clicked');
+    bannerbottom.className+=" botton-ad-hide";
+  });
+}
+
+</script>
 </body>
 </html>
