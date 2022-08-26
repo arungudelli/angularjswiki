@@ -7,7 +7,7 @@ lastmod="25-09-2020T23:34:19"
 type="docs"
 parentdoc="rxjs"
 featured='rxjs-logo.PNG'
-draft=false
+draft=true
 linktitle="Introduction"
 [menu.rxjs]
 parent="rxjs"
