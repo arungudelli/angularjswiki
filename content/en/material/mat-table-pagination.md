@@ -131,7 +131,7 @@ We can give different page sizes using pageSizeOptions attribute, so that user c
 
 `pageSizeOptions` attribute accepts numeric array values.
 
-Instead of giving them inside component html file, we can create a varible in component ts file and assign it to the `pageSizeOptions`.
+Instead of giving them inside component html file, we can create a variable in component ts file and assign it to the `pageSizeOptions`.
 
 ```
 //In ts file
