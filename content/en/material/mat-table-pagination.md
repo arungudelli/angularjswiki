@@ -131,7 +131,7 @@ We can give different page sizes using pageSizeOptions attribute, so that user c
 
 `pageSizeOptions` attribute accepts numeric array values.
 
-Instead of giving them inside component html file, we can create a varible in component ts file and assign it to the `pageSizeOptions`.
+Instead of giving them inside component html file, we can create a variable in component ts file and assign it to the `pageSizeOptions`.
 
 ```
 //In ts file
@@ -179,3 +179,4 @@ The below code snippet won't add first and last buttons in the paginator.
 Here is the demo for mat-table pagination example[https://stackblitz.com/edit/angular-mat-table-pagination-example](https://stackblitz.com/edit/angular-mat-table-pagination-example)
 
 
+Go to the next article to learn how to implement server side pagination using `mat-paginator`.

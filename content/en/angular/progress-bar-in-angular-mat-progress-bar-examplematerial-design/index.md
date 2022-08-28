@@ -1,11 +1,11 @@
 +++
-title = "Progress Bar in Angular using mat-progress-bar | Material Design"
+title = "Progress Bar in Angular using Material component mat-progress-bar"
 subtitle = "Learn how to create beautiful progress bar in Angular using material design"
 type="post"
-summary ="We can create a beautiful Progress bar in Angular using material design component mat-progress-bar."
+summary ="We can create a beautiful Progress bar in Angular, using material design component mat-progress-bar."
 keywords=["mat-progress-bar,angular material progress bar,mat-progress-bar example"]
 date="2018-08-20T01:01:05+0000"
-lastmod="2020-09-03T17:02:19+0000"
+lastmod="2022-08-27T00:00:00+0000"
 draft=false
 authors = ["admin"]
 
@@ -22,9 +22,7 @@ authors = ["admin"]
 
 +++
 
-We can create a beautiful Progress bar in Angular using material design component `mat-progress-bar`.
-
-`<mat-progress-bar>` is a horizontal progress bar in Angular, used to inform users about the progress of ongoing tasks like loading a webpage, reading position indicator of a web page or submitting the form data to the server etc. by following material design specifications.
+We can create a beautiful **Progress bar in Angular using material design component `mat-progress-bar`**.
 
 This `mat-progress-bar` is part of angular material module called `MatProgressBarModule`.
 
@@ -32,7 +30,15 @@ In this tutorial we learn how to use angular material progress bar in our daily 
 
 {{% toc %}}
 
-## Angular Material Progress Bar
+## Use of Angular Material Progress Bar 
+
+`<mat-progress-bar>` is a horizontal progress bar in Angular.
+
+We can use progress bar to inform users about the progress of ongoing tasks like
+
+1. Loading a webpage
+2. Reading position indicator
+3. Submitting the form data to the server
 
 Steps to implement Progress Bar in Angular
 
@@ -116,7 +122,7 @@ We can use `*ngIf` to display the mat-progress-bar. Ones `ngIf` condition become
 
 value property is ignored in this `indeterminate` mode.
 
-Google products like adwords uses indeterminate progress bar.
+Google products like ad words uses indeterminate progress bar.
 
 ### mat-progress-bar buffer mode
 
@@ -145,7 +151,12 @@ In query mode mat-progress-bar `value` property is ignored.
 <mat-progress-bar mode="query"></mat-progress-bar>
 ```
 
-See the <a href="https://angular-effyrv.stackblitz.io" target="_blank" rel="noopener">different types of progress modes demo</a> example
+## mat-progress-bar StackBlitz Demo
+
+Have a look at the mat-progress-bar demo with different types of modes.
+
+[https://stackblitz.com/edit/angular-mat-progress-bar-modes](https://stackblitz.com/edit/angular-mat-progress-bar-modes)
+
 
 ## mat-progress-bar example
 
@@ -153,7 +164,7 @@ How we can use progress bar in our daily projects?
 
 To understand this we will develop a reading position indicator using mat-progress-bar
 
-## Reading position indicator in Angular using mat-progress-bar
+## Reading position indicator using mat-progress-bar
 
 We will implement reading position indicator,based upon scroll position of webpage.
 
@@ -214,7 +225,13 @@ Angular Progress Bar
 
 To fix the progress bar on top of the web page. I have added the above css to `.mat-progress-bar` class.
 
-See the <a href="https://angular-twjwtd.stackblitz.io" target="_blank" rel="noopener">read position indicator demo</a>.
+
+## mat-progress-bar reading position indicator StackBlitz Demo
+
+Here is the demo for reading position indicator using mat-progress-bar
+
+[https://stackblitz.com/edit/angular-mat-progress-bar-reading-position-indicator]
+(https://stackblitz.com/edit/angular-mat-progress-bar-reading-position-indicator)
 
 
 ## mat-progress-bar is not a known element
@@ -225,7 +242,7 @@ It is better to import all material module in once place as explained in <a href
 
 ## mat-progress-bar properties
 
-We will summarise all the mat-progress-bar properties in one place.
+Here is the summary of all the `mat-progress-bar` properties in one place.
 
 <div class="table-responsive">
 <table class="table">

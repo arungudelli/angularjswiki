@@ -1,9 +1,9 @@
 +++
-title = "mat-table server side pagination in Angular Material"
+title = "Server Side Pagination in Angular mat-table using mat-paginator"
 date = 2022-08-25T00:00:00
 lastmod = 2022-08-25T01:00:00
 
-draft = "true"  # Is this a draft? true/false
+draft = "false"  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
@@ -11,8 +11,8 @@ prev = "mat-table-pagination"
 next = "mat-table-filter"
 featured="mat-table-featured.jpg"
 authors = ["admin"]
-summary ="mat-table selector in Angular used to display data in table format"
-keywords=["mat-table,Angular Material Table"]
+summary ="Learn how to implement server side pagination in Angular mat-table"
+keywords=["mat-table,Angular Material Table,mat-paginator"]
 
 
 # Add menu entry to sidebar.
@@ -22,172 +22,284 @@ linktitle = "mat-table server side pagination"
   weight = 4
 +++
 
+In previous article we learnt about adding client side pagination in Angular `mat-table` using `mat-paginator`.
 
+In client side pagination, we will get all records from the server at a time and apply pagination using `mat-paginator` component.
 
-In previous article we learn about client side pagination in Angular material using `mat-paginator`.
+But If we huge data i.e., more number of records it's not a good idea to apply the client side pagination. 
 
-In client side pagination, we will get all records from the server at a time and apply pagination using `mat-paginator` component in Angular material.
+It might lead to serious performance impacts.
 
-But If we huge data i.e., more number of records it's not a good idea to load all the records from the server and apply the client side pagination. 
-
-It might lead to serious performance impacts on the client side.
-
-In that case we will apply server side pagination
-
-It's very difficult to see the entire table data, when we have large number of records in the table.
-
-In such cases we use a simple navigation method called `Pagination`.
-
-Pagination is nothing but dividing the large number of records in a tables into smaller parts or pages.
-
-**To add pagination to the Angular material table i.e., `mat-table` we can use `mat-paginator` component.**
-
-`mat-paginator` selector is part of Angular material module called `MatPaginator`.
+In that case we will **implement server side pagination in Angular mat-table**.
 
 {{%toc%}}
 
-Let's take an example of Employee table as explained in the [previous article](https://www.angularjswiki.com/material/mat-table/).
+## What is Server Side Pagination in Angular?
 
-## Pagination in mat-table
+Let's say we have to display 1000 records in `mat-table` Angular component.
 
-Here are the steps to add pagination to the mat-table.
+In client side pagination, we will get all 1000 records from the server and bind it to the `mat-table` data source and further using `mat-paginator` component we will add pagination.
 
-### Step 1 : Import MatPaginator in component ts file
+Getting 1000 records from the server using `HttpClient.get()` might be slow.
 
-First we need to add the reference to the MatPaginator module in our table component ts file.
+The server has to read all records from the database and return it to the client in JSON format. 
+
+The JSON data size will be more. 
+
+May be 1000 records is not a big deal, imagine loading around 1,00,000 records? 
+
+Clearly there will be a performance impact.
+
+In `mat-table` pagination by default we will see only first page records, we can define the page size and accordingly number of pages will increase.
+
+By clicking next page or page number we will see the remaining records. 
+
+So at any given point of time we will see only fixed number of records in the table. i.e., [`pageSize`](https://www.angularjswiki.com/material/mat-table-pagination/#mat-paginator-pagesize).
+
+Let's say our page size is "10". 
+
+Instead of getting 1000 records, we will get only first 10 records from the server on initial load and display them in the UI. 
+
+And if we click on second page, we will again call server to get next 10 records. 
+
+So each time when we click the next page or page number we will go to server get corresponding page records.
+
+This is called Server Side Pagination. 
+
+And **server API should accept page size and page number parameters**. 
+
+This is the minimum requirement to implement server side pagination in Angular. 
+
+Data from the server should have following data format. 
 
 ```
-import { MatPaginator } from '@angular/material/paginator';
+Server API : "/api/users?currentPage=1&pageSize=6"
+
+// returns
+{
+  data: [{},{}]
+  currentPage: 1
+  pageSize: 6
+  totalPages: 2
+  totalRecords: 12
+}
 ```
 
-Add the `mat-paginator` selector in component html file under the `mat-table` element.
+The `data` attribute contains the records to display in the `mat-table`.
+
+`currentPage` is nothing but page number. 
+
+Remaining attributes `pageSize`, `totalPages` and `totalRecords` are self explanatory. 
+
+It's not necessary that your JSON data should be in above format, but those attributes are necessary and will be helpful while displaying the table records. 
+
+And it's widely accepted format for server side pagination. 
+
+## Steps to Implementing Server Side Pagination in Angular.
+
+### Step 1 : Add `mat-paginator` to the `mat-table`
+
+First we will add pagination to the material table using `mat-paginator`, as explained in previous articles.
 
 ```
-<table mat-table [dataSource]="EmpData"></table>
-<mat-paginator #paginator [pageSizeOptions]="[2, 4, 6]" 
-showFirstLastButtons></mat-paginator>
-```
-I have added template reference variable ('#paginator') to the `mat-paginator` element. 
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+  <ng-container [matColumnDef]="column" *ngFor="let column of displayedColumns">
+    <th mat-header-cell *matHeaderCellDef>{{ column }}</th>
+    <td mat-cell *matCellDef="let emp">{{ emp[column] }}</td>
+  </ng-container>
 
-And use `@ViewChild` decorator to access template reference variable inside the component.
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let emprow; columns: displayedColumns"></tr>
+</table>
+
+<mat-paginator
+  #paginator
+  [pageSizeOptions]="pageSizes"
+  showFirstLastButtons></mat-paginator>
+```
+In component.ts file
 
 ```
+dataSource = new MatTableDataSource<Employee>();
+
 @ViewChild('paginator') paginator: MatPaginator;
 
+pageSizes = [3, 5, 7];
 ```
 
-You might get **Property 'paginator' has no initializer and is not definitely assigned in the constructor.** error If you are using latest versions of Angular. 
-
-Go through the article to remove this ['paginator' has no initializer](https://www.angularjswiki.com/angular/property-has-no-initializer-and-is-not-definitely-assigned-in-the-constructor/) error.
-
-
-### Step 2: Use MatTableDataSource for mat-table data
-
-In the previous example we have used a simple Employee array to bind the data to the `mat-table` element.
-
-Instead of that we can use `MatTableDataSource` class which has built in support for filtering, sorting (using MatSort), and pagination (using MatPaginator).
+In this example we will show the list of employees in the `mat-table`.
 
 ```
-EmpData : Employee[] =[{
-    "Id": 1,
-    "FirstName": "Johannah",
-    "LastName": "Kiffin",
-    "Email": "jkiffin0@google.pl",
-    "Gender": "F",
-    "JobTitle": "Administrative Assistant I"
-  },{},{}];
-
-dataSource: MatTableDataSource<Employee>;
-
-ngAfterViewInit() {
-    this.dataSource = new MatTableDataSource(this.EmpData);
+export interface Employee {
+  id: number;
+  first_name: string;
+  last_name: string;
+  email: string;
+  avatar: string;
 }
+```
 
-In component HTML file 
+### Step 2: Add `length` attribute to the `mat-paginator`
 
-<table mat-table [dataSource]="dataSource"></table>
+`mat-paginator` has an attribute called `length`, which represents the total number of records in the material table or length of data to be displayed.
+
+I have created a variable called `totalData` and bind it to the `length` attribute.
+
+```
+<mat-paginator
+  #paginator
+  [length]="totalData"
+  [pageSizeOptions]="pageSizes"
+  showFirstLastButtons
+></mat-paginator>
 
 ```
 
-### Step 3: Assign Paginator property of MatTableDataSource
+### Step 3: Create Server API which supports page number & page size parameter
 
-`MatTableDataSource` has a built in property called `paginator`.
+As explained above Our serer API should accept page number and page length parameters in order to implement server side pagination. 
 
-We have to assign this property to the `MatPagintor` instance created in Step 1.
+I am using a third party API `https://reqres.in`, which returns list of employee details and also accepts two parameters called `page` and `per_page`.
+
+```
+https://reqres.in/api/users?page=1&per_page=5
+```
+
+Here `page` is nothing but page number and `per_page` represents page size.
+
+### Step 4: Create a Service
+
+Now we will create a service called `EmployeeService` with the method called `getEmployees()`. 
+
+Inside this method, using [`HttpClient.get()`](https://www.angularjswiki.com/httpclient/get/) method we will call the API.
+
+```
+export class EmployeeService {
+  
+  constructor(private http: HttpClient) {}
+
+  public getEmployees(
+    pageNumber: Number,
+    pageSize: Number
+  ): Observable<EmployeeTable> {
+  
+    const url = `https://reqres.in/api/users?page=${pageNumber}&per_page=${pageSize}`;
+
+    return this.http.get<EmployeeTable>(url);
+  }
+}
+```
+
+In the above code I have used `EmployeeTable` object instead of `Employee`, this is because our server API returns the data in following format.
+
+```
+export interface EmployeeTable {
+  data: Employee[];
+  page: number;
+  per_page: number;
+  total: number;
+  total_pages: number;
+}
+```
+
+Inject this service in our component.ts file.
+
+
+```
+  constructor(public empService: EmployeeService) {}
+
+  getTableData$(pageNumber: Number, pageSize: Number) {
+    return this.empService.getEmployees(pageNumber, pageSize);
+  }
+
+```
+
+I have added a local method in the component.ts file which calls the `getEmployees()` observable in the `EmployeeService`.
+
+### Step 5: Subscribe to `mat-paginator` page event
+
+`mat-paginator` contains a property called `page` which is an `EventEmitter` of type `PageEvent`.
+
+And will be triggered when the paginator changes the page size or page index (i.e., page number).
+
+In `ngAfterViewInit()` method, I am subscribing to `this.paginator.page` event.
 
 ```
 ngAfterViewInit() {
-    this.dataSource = new MatTableDataSource(this.EmpData);
+    
     this.dataSource.paginator = this.paginator;
-}
-```
-{{< figure src="/img/material/mat-paginator.png" title="mat-paginator" alt="mat paginator">}}
 
-
-That's it Pagination will be visible under the table as shown below.
-
-{{< figure src="/img/material/mat-table-pagination-example.png" title="mat table pagination example" alt="mat table pagination example">}}
-
-## mat-paginator options
-
-Now we will go through different types of options in mat-paginator. 
-
-```
-<mat-paginator #paginator [pageSizeOptions]="[2, 4, 6]" 
-showFirstLastButtons></mat-paginator>
-```
-
-### mat-paginator pageSizeOptions
-
-We can give different page sizes using pageSizeOptions attribute, so that user can select the number records from a drop down. 
-
-`pageSizeOptions` attribute accepts numeric array values.
-
-Instead of giving them inside component html file, we can create a varible in component ts file and assign it to the `pageSizeOptions`.
-
-```
-//In ts file
-
-pageSizes = [2,4,6];
-
-<mat-paginator #paginator [pageSizeOptions]="pageSizes" showFirstLastButtons></mat-paginator>
-
+    this.paginator.page
+      .pipe(
+        startWith({}),
+        switchMap(() => {
+          return this.getTableData$(
+            this.paginator.pageIndex + 1,
+            this.paginator.pageSize
+          ).pipe(catchError(() => observableOf(null)));
+        }),
+        map((empData) => {
+          if (empData == null) return [];
+          this.totalData = empData.total;
+          return empData.data;
+        })
+      )
+      .subscribe((empData) => {
+        this.EmpData = empData;
+        this.dataSource = new MatTableDataSource(this.EmpData);
+      });
+  }
 ```
 
-### mat-paginator hidePageSize
+I am using series of Rxjs Operators like `startWith` and `switchMap` and `map` along with PageEvent of paginator. 
 
-If you don't want to give option to select page size or want to hide the page size from the navigator we can make use of `hidePageSize` option.
+In the `switchMap` operator I am returning `getTableData$` observable with page number and page size parameters. 
 
-```
-<mat-paginator #paginator [pageSizeOptions]="pageSizes" showFirstLastButtons hidePageSize></mat-paginator>
-```
+`mat-paginator` contains `pageIndex` and `pageSize` attributes which represents page number and page size of `mat-table`.
 
-{{< figure src="/img/material/mat-paginator-hide-pagesize.png" title="mat paginator hide pagesize" alt="mat paginator hide pagesize">}}
+As `pageIndex` start with zero, I am adding `+1` to the page index. 
 
-### mat-paginator pageSize
+In the `map` operator I am assigning total number of records to the `totalData` variable and returning employee records from the `data` attribute of `EmployeeTable`.
 
-Instead of giving multiple options for page sizes, we can give fixed page size using `pageSize` property.
+Finally in the subscribe method, assigning the employee data to `mat-table` data source.
 
-```
-  <mat-paginator #paginator pageSize=4 showFirstLastButtons></mat-paginator>
+Whenever there is a change in `mat-paginator`, i.e., when we click on previous/next page links or when we change the page size the above page event called and the table data will be updated accordingly.
 
-```
-{{< figure src="/img/material/mat-paginator-fixed-pagesize.png" title="mat paginator fixed pagesize" alt="mat paginator fixed pagesize">}}
+## Adding progress bar to the mat-paginator. 
 
+As we are calling the server API on each `mat-paginator` change event, it's better to add progress bar to the `mat-table`. 
 
-### mat-paginator showFirstLastButtons
+If the server call takes too much time then there will be an indication to the user that the data being loaded.
 
-If we add `showFirstLastButtons` property to `mat-paginator`, first and last page buttons will be visible as in the above examples.
-
-The below code snippet won't add first and last buttons in the paginator.
+I am using [`mat-progress-bar`](https://www.angularjswiki.com/angular/progress-bar-in-angular-mat-progress-bar-examplematerial-design/) to represent the loading of table records.
 
 ```
-<mat-paginator #paginator pageSize=4></mat-paginator>
+<h2>mat-table server side pagination</h2>
+
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+  <ng-container [matColumnDef]="column" *ngFor="let column of displayedColumns">
+    <th mat-header-cell *matHeaderCellDef>{{ column }}</th>
+    <td mat-cell *matCellDef="let emp">{{ emp[column] }}</td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let emprow; columns: displayedColumns"></tr>
+</table>
+<mat-progress-bar mode="indeterminate" *ngIf="isLoading"></mat-progress-bar>
+<mat-paginator
+  #paginator
+  [length]="totalData"
+  [pageSizeOptions]="pageSizes"
+  showFirstLastButtons
+></mat-paginator>
 ```
-{{< figure src="/img/material/mat-paginator-show-fast-last-pages.png" title="mat paginator show fast last pages" alt="mat paginator show fast last pages">}}
 
-## mat-table pagination example StackBlitz Demo
+And using `isLoading` variable showing the progress bar on top of `mat-paginator`.
 
-Here is the demo for mat-table pagination example[https://stackblitz.com/edit/angular-mat-table-pagination-example](https://stackblitz.com/edit/angular-mat-table-pagination-example)
+
+
+## mat-table server side pagination example StackBlitz Demo
+
+Here is the demo for mat-table pagination example[https://stackblitz.com/edit/angular-mat-table-server-side-pagination-example](https://stackblitz.com/edit/angular-mat-table-server-side-pagination-example)
 
 
