@@ -23,8 +23,11 @@ authors = ["admin"]
 
 `NgOptimizedImage` is introduced in Angular 14.2.0 version currently in developer preview mode.
 
+{{%toc%}}
+
 ## Steps to improve image loading speed using NgOptimizedImage directive
 
+Follow the below steps to increase image loading speed in Angular applications.
 
 ### Step 1: Import `NgOptimizedImage` directive in AppModule
 
@@ -48,7 +51,7 @@ import { NgOptimizedImage } from '@angular/common';
 export class AppModule { }
 
 ```
-If you don't want to add in NgModule, we can directly import this directive in components as it's marked as Standalone.
+If you don't want to add it in `NgModule`, we can directly import this directive in components as it's marked as Standalone.
 
 ```
 @Component({
@@ -130,7 +133,15 @@ Instead of that pass relative Url of the image.
 
 ```
 
-### Step 5: Serve Responsive images using `rawSrcset`.
+### Step 5: `preconnect` image Url
+
+`NgOptimizedImage` warns if we don't add `preconnect` tag for the image urls in the header of the page.
+
+```
+  <link rel="preconnect" href="https://ik.imagekit.io">
+```
+
+### Step 6: Serve Responsive images using `rawSrcset`.
 
 To serve responsive images, save images at different sizes, and pass them to image `srcset` so that browser will choose the right image size. 
 
@@ -269,13 +280,19 @@ I have created an Angular app which load images using native image `src` url.
 </ng-container>
 ```
 
-And compared both app performance with `lightSpeed`.
+Deployed both applications on vercel.
+
+And compared both applications performance with `lightSpeed`.
 
 With native image load.
+
+[https://angular-native-image-tag.vercel.app/](https://angular-native-image-tag.vercel.app/)
 
 {{< figure src="/img/blog/angular-native-image-loading.png" title="Angular Native image load" alt="Angular Json Pipe Pretty">}}
 
 With `NgOptimizedImage` directive.
+
+[https://angular-ngoptimizedimage-example.vercel.app/](https://angular-ngoptimizedimage-example.vercel.app/)
 
 {{< figure src="/img/blog/angular-NgOptimizedImage.png" title="angular NgOptimizedImage load" alt="Angular Json Pipe Pretty">}}
 
@@ -325,6 +342,11 @@ The `NgOptimizedImage` directive generates following `img` tag in the final HTML
  
 >
 ```
+
+`srcset` urls will be automatically added by the directive and image loader CDN. 
+
+Just pass `rawsrcset` attribute.
+
 As we marked the first image as `priority`, the directive sets the `fetchpriority` of the image to "high" and `loading="eager"` so that the browser knows that it should download the image with a high priority.
 
 For remaining images `loading` will be `lazy` and  `fetchpriority` is `auto`. 
@@ -340,6 +362,37 @@ For remaining images `loading` will be `lazy` and  `fetchpriority` is `auto`.
   src="https://ik.imagekit.io/arungudelli/tr:q-auto/2-4000x3000_ag.jpg" 
   srcset="-----">
 ```
+
+## NgOptimizedImage StackBlitz Demo
+
+StackBlitz `NgOptimizedImage` demo
+
+[https://stackblitz.com/edit/angular-ngoptimizedimage-example](https://stackblitz.com/edit/angular-ngoptimizedimage-example)
+
+
+StackBlitz native image tag demo
+
+[https://stackblitz.com/edit/angular-native-image-load-performance](https://stackblitz.com/edit/angular-native-image-load-performance)
+
+## Github Source code 
+
+`NgOptimizedImage` example Demo Code
+
+[https://github.com/arungudelli/angular-NgOptimizedImage-example](https://github.com/arungudelli/angular-NgOptimizedImage-example)
+
+Native image tag demo Code
+
+[https://github.com/arungudelli/angular-native-image-tag](https://github.com/arungudelli/angular-native-image-tag)
+
+## Vercel Demo links
+
+Used for lightSpeed testing
+
+[https://angular-ngoptimizedimage-example.vercel.app/](https://angular-ngoptimizedimage-example.vercel.app/)
+
+[https://angular-native-image-tag.vercel.app/](https://angular-native-image-tag.vercel.app/)
+
+
 
 
 
