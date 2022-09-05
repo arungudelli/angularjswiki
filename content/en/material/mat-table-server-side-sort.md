@@ -14,7 +14,7 @@ keywords=["mat-table sort,Angular Material Table"]
 
 
 # Add menu entry to sidebar.
-linktitle = "mat-table sort"
+linktitle = "mat-table server side sort"
 [menu.material]
   parent = "Tutorial"
   weight = 4
