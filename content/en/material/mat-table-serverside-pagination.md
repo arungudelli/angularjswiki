@@ -3,7 +3,7 @@ title = "Server Side Pagination in Angular mat-table using mat-paginator"
 date = 2022-08-25T00:00:00
 lastmod = 2022-08-25T01:00:00
 
-draft = "false"  # Is this a draft? true/false
+draft = "true"  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
