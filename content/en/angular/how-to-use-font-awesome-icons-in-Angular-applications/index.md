@@ -313,7 +313,7 @@ So it is better to add the necessary icons to the library instead of adding all 
 `FaIconLibrary` class is added in  `@fortawesome/angular-fontawesome` 0.5.0 version.
 
 ```
-node_modules/@fortawesome/angular-fontawesome/angular-fontawesome"' has no exported member 'FaIconLibrary'
+node_modules/@fortawesome/angular-fontawesome/angular-fontawesome has no exported member 'FaIconLibrary'
 ```
 
 If you get the above error that means you are using older version of angular fontawesome icons.
