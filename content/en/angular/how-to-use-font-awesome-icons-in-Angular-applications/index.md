@@ -310,6 +310,32 @@ The only disadvantage of this approach is the project bundle size will increase.
 
 So it is better to add the necessary icons to the library instead of adding all icons.
 
+`FaIconLibrary` class is added in  `@fortawesome/angular-fontawesome` 0.5.0 version.
+
+```
+node_modules/@fortawesome/angular-fontawesome/angular-fontawesome"' has no exported member 'FaIconLibrary'
+```
+
+If you get the above error that means you are using older version of angular fontawesome icons.
+
+Then use the legacy icon library from `@fortawesome/fontawesome-svg-core` package.
+
+```
+import { library as legacyLibrary } from '@fortawesome/fontawesome-svg-core';
+
+export class AppModule {
+constructor() {
+    //legacy old library way
+    
+    legacyLibrary.add(faFilm, faFish, farBell, fasBell);
+    
+    //legacyLibrary.add(fas,far,fab);
+  }
+}  
+```
+
+It's deprecated now, so better update your `@fortawesome/angular-fontawesome` package, to use latest `FaIconLibrary` class.
+
 ## Available icon styles in Font Awesome
 
 There are four different types of icon styles available in Font Awesome
@@ -859,7 +885,7 @@ This feature very useful while showing notification counters or email counters.
 
 <fa-layers size="5x">
     <fa-icon [icon]="['fas', 'bell']"></fa-icon>
-    <fa-layers-counter content=""></fa-layers-counter>
+    <fa-layers-counter content="8"></fa-layers-counter>
 </fa-layers>
 ```
 
