@@ -506,6 +506,23 @@ Often in our projects we might need to rotate,flip or mirror an icon depending u
 
 Font Awesome angular comes up with handy utilities to help us in such scenarios.
 
+## Adding border to the font awesome icons in Angular.
+
+Using `[border]` property of `fa-icon` selector, we can add border to the font awesome icons.
+
+```
+<fa-icon [icon]="['fas', 'film']" [border]="true"></fa-icon>
+```
+
+## Apply styles to the Angular font awesome icons
+
+We can use `[styles]` parameter of `fa-icon` selector to apply our own styles.
+
+```
+<fa-icon [icon]="['fas', 'film']" [styles]="{'stroke': 'red', 'color': 'red'}"></fa-icon>
+
+```
+
 ## Rotating Font Awesome icons in Angular
 
 We can rotate the Font Awesome icons in Angular using rotate property of `<fa-icon>`
@@ -890,6 +907,31 @@ This feature very useful while showing notification counters or email counters.
 ```
 
  {{< figure src="fontawesome icons layer counter.png" title="fontawesome icons layer counter" alt="fontawesome icons layer counter">}} 
+
+## Adding custom classes to the Angular font awesome icons.
+
+To add our own custom classes to the font awesome icons use `[classes]` array property of `fa-icon` selector.
+
+
+```
+<fa-icon [icon]="['fas', 'film']" [classes]="['custom-icon']"></fa-icon>
+
+```
+
+## Stacking Angular font awesome icons.
+
+We can stack font awesome icons using `<fa-stack>` tag.
+
+```
+<fa-stack>
+    <fa-icon icon="circle" stackItemSize="2x"></fa-icon>
+    <fa-icon icon="flag" [inverse]="true" stackItemSize="1x"></fa-icon>
+</fa-stack>
+```
+
+Every `<fa-icon>` inside an `<fa-stack>` element should have `stackItemSize` input parameter, otherwise the icon will not render.
+
+
 
 ## Angular font awesome icons StackBlitz Demo
 
