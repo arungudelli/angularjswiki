@@ -2,11 +2,11 @@
 title = "How To Use Font Awesome icons in Angular Applications"
 subtitle = "Learn how to use Font Awesome icons in Angular"
 type="post"
-summary ="Step by step tutotial to use Font Awesome icons in Angular applications"
+summary ="Step by step tutorial to use Font Awesome icons in Angular applications"
 keywords=["Font Awesome icons in Angular,Font Awesome"]
 date="2019-06-09T01:01:05+0000"
-lastmod="2019-06-09T13:15:51+0000"
-draft=false
+lastmod="2022-09-06T00:00:00+0000"
+draft= false
 authors = ["admin"]
 
 [image]
@@ -19,29 +19,45 @@ authors = ["admin"]
   # Show image only in page previews?
   preview_only = false
 +++
-In this tutorial I will explain how to use Font Awesome icons in Angular applications.
 
-First we will learn basic Font Awesome icons rendering in Angular and then we will go through some cool Font Awesome features like animations,layering,transforming etc..
+In this tutorial I will explain how to use Font Awesome icons in Angular applications using `@fortawesome/angular-fontawesome` package.
+
+**Angular Font Awesome icons package i.e, `@fortawesome/angular-fontawesome` is an official Angular component for Font Awesome 5+ icons.**
+
+First we will learn basic Font Awesome icons rendering in Angular and then we will go through some cool Font Awesome icons features like animations,layering,transforming etc..
 
 {{% toc %}}
 
-## Installing free version Font Awesome icons in Angular
+## Installing Font Awesome icons in Angular applications
 
-To install Font Awesome icons in Angular applications use the below npm or yarn commands
+There are three ways we can add font awesome icons in our applications.
+
+1. Using `npm install`
+2. Using `yarn add`
+3. using `ng add`
 
 ```
+// npm install
 npm install @fortawesome/fontawesome-svg-core
 npm install @fortawesome/free-brands-svg-icons
 npm install @fortawesome/free-regular-svg-icons
 npm install @fortawesome/free-solid-svg-icons
 npm install @fortawesome/angular-fontawesome
 
+//yarn addd
 yarn add @fortawesome/fontawesome-svg-core
 yarn add @fortawesome/free-brands-svg-icons
 yarn add @fortawesome/free-regular-svg-icons
 yarn add @fortawesome/free-solid-svg-icons
 yarn add @fortawesome/angular-fontawesome
+
+//ng add
+ng add @fortawesome/angular-fontawesome
 ```
+
+The above commands install free font awesome icons in your application.
+
+If you have pro version follow the below steps.
 
 ## Installing pro version Font Awesome icons in Angular
 
@@ -54,26 +70,26 @@ This configuration can be done at global level or per project level
 
 ## Global level configuration
 
-To use Font Awesome icons across all the angular projects add @fortawesome scope to use Font Awesome pro npm package source
-i.e., npm.fontawesome.com
+To use Font Awesome icons across all the angular projects add `@fortawesome` scope to use Font Awesome pro `npm` package source
+i.e., `npm.fontawesome.com`
 
 ```
 npm config set "@fortawesome:registry" https://npm.fontawesome.com/ && \
-  npm config set "//npm.fontawesome.com/:_authToken" TOKEN
+npm config set "//npm.fontawesome.com/:_authToken" TOKEN
 ```
 
-TOKEN will be given when you buy a professional license.
+TOKEN will be given by font awesome icons team, when you buy a professional license.
 
 ## Project level configuration
 
-To use Font Awesome icons in a single project create a .npmrc file at project root level and set the below configuration
+To use Font Awesome icons in a single project create a `.npmrc` file at project root level and set the below configuration
 
 ```
 @fortawesome:registry=https://npm.fontawesome.com/
 //npm.fontawesome.com/:_authToken=TOKEN
 ```
 
-After the configurations install the pro Font Awesome icons by using below npm commands
+After the configurations, install the pro Font Awesome icons by using below `npm` commands.
 
 ```
 npm install --save-dev @fortawesome/fontawesome-pro
@@ -82,10 +98,6 @@ npm install @fortawesome/pro-regular-svg-icons
 npm install @fortawesome/pro-light-svg-icons
 ```
 
-To display font awesome icons in normal HTML pages using their class name, CSS content values and for complete free icon list go through the below article.
-
-[Font Awesome Icons List](https://www.angularjswiki.com/angular/font-awesome-icons-list-usage-css-content-values/)
-
 ## Using Font Awesome icons in Angular applications
 
 We can use Font Awesome icons in Angular applications two ways depending upon our requirements
@@ -93,14 +105,16 @@ We can use Font Awesome icons in Angular applications two ways depending upon ou
 1. Using Explicitly in Component
 2. Using Icon library 
 
-Steps to use Font Awesome icons at component level
+## Steps to use Font Awesome icons at component level
 
-1. In app.module.ts file import FontAwesomeModule from @fortawesome package as shown below 
+### Step 1: Import `FontAwesomeModule` in `AppModule`
+
+In `app.module.ts` file import `FontAwesomeModule` from `@fortawesome/angular-fontawesome` package as shown below 
+
 ```
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 ``` 
-
-2. And then add FontAwesomeModuel in imports array as shown below
+And then add `FontAwesomeModule` in `imports` array as shown below.
 
 ```
 @NgModule({
@@ -117,9 +131,13 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
   bootstrap: [AppComponent]
 })
 ```
-I have created a component called FontAwesomeDemo in my angular application to use Font Awesome icons
+
+### Step 2: Import font awesome icons in angular component directly
+
+I have created a component called `FontAwesomeDemo` in my angular application to use Font Awesome icons.
 
 Import the required icons from `@fortawesome/free-solid-svg-icons` file as shown below.
+
 In this example I am importing Film Icon.
 
 ```
@@ -141,9 +159,9 @@ export class FontawesomeDemoComponent implements OnInit {
 
 }
 ```
-I have created a variable called coffeeIcon and assign it to the faCoffee imported from free svg icons package.
+I have created a variable called `filmIcon` and assign it to the `faFilm` imported from free svg icons package.
 
-In the component html render using `fa-icon` selector show below
+In the component html render film icon using `fa-icon` selector show below.
 
 ```
 <fa-icon [icon]="filmIcon"></fa-icon>
@@ -151,52 +169,91 @@ In the component html render using `fa-icon` selector show below
 
  {{< figure src="fontawesome film icon.png" title="fontawesome film icon" alt="fontawesome film icon">}}
 
-This approach is good when you are using Font Awesome icons in a single component. But most of the times this is not the case We will be using icons across the applications.
+This approach is good when you are using Font Awesome icons in a single component.
+
+But most of the times it's is not the case, we will be using icons across the applications.
 
 So each time importing icons in individual components is not a good idea. 
 
-That's where Icon library very useful. 
+That's where the Font Awesome Icon library very useful. 
 
-We can import all necessary icons in one place and use them across the application. Go through the below example
+We can import all necessary icons in one place and use them across the application. Go through the below example.
 
-## Using Font Awesome Icon library
+## What is Font Awesome icon library?
 
-To use Font Awesome icons across the application follow the below steps.
+Using font awesome icon library we will register icons only once in the `AppModule's` constructor using `FaIconLibrary.addIcons()` or `FaIconLibrary.addIconPacks()` methods. 
 
-1. In app.module.ts file Import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
-2. Next add FontAwesomeModule to imports array as shown above.
-3. To use the icon library  Import { library } from '@fortawesome/fontawesome-svg-core'
-4. Import required icons for example { faFilm } from '@fortawesome/free-solid-svg-icons'
-5. And finally Add them the library with library.add(faFilm)
-6. Ideally we will be using more than one icon, so to add multiple icons just pass them to library.add method as comma separated values.
+The icons added to the library will be available across the Angular application.
+
+And to display the icon we use it's name.
+
+So no need to import icons and assign them to a variable in individual component as explained above.
+
+Simply pass the icon name to the `fa-icon` selector.
 
 ```
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { AppComponent } from './app.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faFilm } from '@fortawesome/free-solid-svg-icons';
+<fa-icon icon="film"></fa-icon>
+```
 
+
+## Steps to use Angular Font Awesome icon Icon library
+
+To display Font Awesome icons using icon library follow the below steps.
+
+### Step 1 : Import `FontAwesomeModule`
+
+The step is same as above. 
+
+Import `FontAwesomeModule` from `@fortawesome/angular-fontawesome` and add them in `imports` array of `AppModule` 
+
+```
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    FontAwesomeModule
-  ],
-  providers: [],
+  declarations: [AppComponent],
+  imports: [BrowserModule, FontAwesomeModule],
   bootstrap: [AppComponent]
 })
+
+``` 
+### Step 2: Import `FaIconLibrary`
+
+In the `AppModule` import `FaIconLibrary` from `@fortawesome/angular-fontawesome`.
+
+```
+import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome'.
+
+```
+
+### Step 3: Inject `FaIconLibrary` in `AppModule` constructor.
+
+`FaIconLibrary` is an Injectable class with `addIcons()` and `addIconPacks()` methods.
+```
 export class AppModule {
-  constructor() {
-    library.add(faFilm);
+  constructor(library: FaIconLibrary) {
+  
   }
 }
 ```
 
-To add the multiple icons to Font Awesome library use the following code snippet.
+### Step 4: Import required font awesome icons.
+
+Next Import necessary icons from `@fortawesome/free-solid-svg-icons`. (for instance `faFilm`) 
+
+And Add them to the icon library using `library.addIcons()` method.
+
+```
+import { faFilm } from '@fortawesome/free-solid-svg-icons';
+export class AppModule {
+  constructor(library: FaIconLibrary) {
+    library.addIcons(faFilm);
+  }
+}
+```
+
+## Import multiple font awesome icons
+
+Ideally we will be using more than one icon, `addIcons()` method accepts multiple icons as parameters.
+
+To add the multiple icons to Font Awesome icon library use the following code snippet.
 
 ```
 import { faFilm } from '@fortawesome/free-solid-svg-icons';
@@ -204,42 +261,80 @@ import { faFish } from '@fortawesome/free-solid-svg-icons';
 
 //Adding to the library
 
-library.add(faFilm,faFish);
-
+constructor(library: FaIconLibrary) {
+    library.addIcons(faFilm,faFish);
+}
 ```
 
 After setting up library icons now we can use icons directly in our component file using their name as shown below
 
 ```
 <fa-icon icon="film"></fa-icon>
+<fa-icon icon="fish"></fa-icon>
 ```
 
 The default icon style in Font Awesome is 'fas' i.e., font awesome solid style.
 
-If you want to change the icon style we can pass the style to icon attribute as shown below. (You need to import corresponding icon style)
+If you want to change the icon style we can pass `[prefix, iconName]` array to the icon attribute as shown below. 
+(You need to import corresponding icon style)
 
 ```
 <fa-icon [icon]="['far', 'film']"></fa-icon>
 ```
-far means font awesome regular styles.
 
-As the icons are not managed by component file, if you remove the icons from library at app module level the components which are using those icons will break. 
+`far` means font awesome regular styles.
 
-If you want to use all available icons, You can add them to library as shown below
+As the icons are not managed by the component file, if you remove the icons from library in `AppModule` file, the components which are using those icons will break. 
+
+## Import all font awesome icons
+
+If you want to use all available icons, add all icon styles to font awesome icon library using `addIconPacks()` method.
 
 ```
-import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
-library.add(fas, far);
+
+export class AppModule {
+  constructor(library: FaIconLibrary) {
+    library.addIconPacks(fas, far);
+  }
+}
+
 ```
 
-Here I am adding bothe regular and solid styles to the library. 
-Now we can use all free icons within our project.
+Here I am adding both regular and solid styles to the library. 
 
-The only disadvantage of this approach is angular project bundle size will increase.
+Now we can use all free icons in our project.
 
-So it is better to add necessary icons to the library instead of adding all icons.
+The only disadvantage of this approach is the project bundle size will increase.
+
+So it is better to add the necessary icons to the library instead of adding all icons.
+
+`FaIconLibrary` class is added in  `@fortawesome/angular-fontawesome` 0.5.0 version.
+
+```
+node_modules/@fortawesome/angular-fontawesome/angular-fontawesome has no exported member 'FaIconLibrary'
+```
+
+If you get the above error that means you are using older version of angular fontawesome icons.
+
+Then use the legacy icon library from `@fortawesome/fontawesome-svg-core` package.
+
+```
+import { library as legacyLibrary } from '@fortawesome/fontawesome-svg-core';
+
+export class AppModule {
+constructor() {
+    //legacy old library way
+    
+    legacyLibrary.add(faFilm, faFish, farBell, fasBell);
+    
+    //legacyLibrary.add(fas,far,fab);
+  }
+}  
+```
+
+It's deprecated now, so better update your `@fortawesome/angular-fontawesome` package, to use latest `FaIconLibrary` class.
 
 ## Available icon styles in Font Awesome
 
@@ -310,17 +405,17 @@ as shown below
 
 ## Changing default icon style in Font Awesome Angular
 
-To change the default icon style in Font Awesome we have to inject `FaIconService` and change the `defaultPrefix` property as shown below
+To change the default icon style in Font Awesome we have to inject `FaConfig ` and change the `defaultPrefix` property as shown below
 
 The default icon style in Font Awesome is `fas`
 
 ```
-import { FaIconService } from '@fortawesome/angular-fontawesome';
+import { FaConfig  } from '@fortawesome/angular-fontawesome';
 
 export class AppComponent {
 
-  constructor(private faIconService: FaIconService) {
-      this.faIconService.defaultPrefix = 'far';
+  constructor(private faConfig: FaConfig ) {
+      this.faConfig.defaultPrefix = 'far';
   }
 
 }
@@ -343,7 +438,9 @@ Angular Font Awesome icons comes up with useful features like
 
 We can change the size of Font Awesome icons in Angular using `size` property of `fa-icon` selector.
 
-Normally Font Awesome icons inherit the size of parent container. By using size property we can relatively increase or decrease the size of icons with respect to the inherited `font-size`.
+Normally Font Awesome icons inherit the size of parent container. 
+
+By using size property we can relatively increase or decrease the size of icons with respect to the inherited `font-size`.
 
 ```
 <div style="font-size:15px;color:red">
@@ -364,13 +461,15 @@ Normally Font Awesome icons inherit the size of parent container. By using size 
 
 ## Fixed width Font Awesome icons in Angular
 
-Font Awesome icons contains more than 1500+ free icons and 3500+ pro icons. But all the icons are not of same size.
+Font Awesome icons contains more than 1500+ free icons and 3500+ pro icons. 
+
+But all the icons are not of same size.
 
 To force the icons to render in a fixed size we can use `fixedWidth` property of `<fa-icon>`
 
-This fixedWidth property is very useful when we want vertically align a series of icons in a list or navigation menu.
+This `fixedWidth` property is very useful when we want vertically align a series of icons in a list or navigation menu.
 
-To understand it further I have added android,apple brand icons which are of different width and rendered them normally and with fixedWidth.
+To understand it further I have added android, apple brand icons which are of different width and rendered them normally and with `fixedWidth`.
 
 I have added background color to Font Awesome icons for visual indication of icons width.
 
@@ -406,6 +505,23 @@ As you can see, the icons rendered with `fixedWidth` are vertically aligned with
 Often in our projects we might need to rotate,flip or mirror an icon depending upon the project design.
 
 Font Awesome angular comes up with handy utilities to help us in such scenarios.
+
+## Adding border to the font awesome icons in Angular.
+
+Using `[border]` property of `fa-icon` selector, we can add border to the font awesome icons.
+
+```
+<fa-icon [icon]="['fas', 'film']" [border]="true"></fa-icon>
+```
+
+## Apply styles to the Angular font awesome icons
+
+We can use `[styles]` parameter of `fa-icon` selector to apply our own styles.
+
+```
+<fa-icon [icon]="['fas', 'film']" [styles]="{'stroke': 'red', 'color': 'red'}"></fa-icon>
+
+```
 
 ## Rotating Font Awesome icons in Angular
 
@@ -476,7 +592,7 @@ The real fun is we can bind the `spin` and `pulse` values to angular component v
 As shown below
 
 I have created a variable called `isAnimated` and binding it to the `fa-icon` spin property.
-On clicking the icon Iam toggling the isAnimated value
+On clicking the icon Iam toggling the `isAnimated` value.
 
 ```
 <fa-icon 
@@ -598,7 +714,8 @@ transform="rotate-270"></fa-icon>
  {{< figure src="fontawesome icons transform rotate.png" title="fontawesome icons transform rotate" alt="fontawesome icons transform rotate">}} 
 
 
-We can bind `rotate` values to our component variables to create animatation effect. 
+We can bind `rotate` values to our component variables to create animation effect.
+
 Have a look at the below jumping horse animation.
 
 {{< video src="/img/fontawesome/Jumping horce animation.mp4" srcwebm="/img/fontawesome/Jumping horce animation.webm">}} 
@@ -632,7 +749,7 @@ transform="flip-v flip-h"></fa-icon>
  {{< figure src="transform fontawesome icons flipping.png" title="transform fontawesome icons flipping" alt="transform fontawesome icons flipping">}} 
 
 
-We can use all of them in one tranform as shown below
+We can use all of them in one transform as shown below
 
 ```
 <fa-icon [icon]="['fas', 'snowboarding']" 
@@ -643,7 +760,7 @@ transform="flip-h rotate-90 shrink-10 up-5"></fa-icon>
 
 ## Combine two icons using Font Awesome mask
 
-We can combine two icons into one single color icons using mask property for `fa-icon` as shown below
+We can combine two icons into one single color icons using `mask` property for `fa-icon` as shown below
 
 ```
 <fa-icon [icon]="['fas', 'headphones']" transform="shrink-6" 
@@ -653,9 +770,12 @@ We can combine two icons into one single color icons using mask property for `fa
 ```
 
 mask icon i.e., outer icon acts like background to the actual icon as shown below. 
+
 transform property will be applied on actual icon.
 
-In the above example headphones and pencil-alt are actual icons. Whereas square and comment icons acts like background.
+In the above example headphones and pencil-alt are actual icons. 
+
+Whereas square and comment icons acts like background.
 
  {{< figure src="masking fontawesome icons.png" title="masking fontawesome icons" alt="masking fontawesome icons">}} 
 
@@ -782,8 +902,39 @@ This feature very useful while showing notification counters or email counters.
 
 <fa-layers size="5x">
     <fa-icon [icon]="['fas', 'bell']"></fa-icon>
-    <fa-layers-counter content=""></fa-layers-counter>
+    <fa-layers-counter content="8"></fa-layers-counter>
 </fa-layers>
 ```
 
  {{< figure src="fontawesome icons layer counter.png" title="fontawesome icons layer counter" alt="fontawesome icons layer counter">}} 
+
+## Adding custom classes to the Angular font awesome icons.
+
+To add our own custom classes to the font awesome icons use `[classes]` array property of `fa-icon` selector.
+
+
+```
+<fa-icon [icon]="['fas', 'film']" [classes]="['custom-icon']"></fa-icon>
+
+```
+
+## Stacking Angular font awesome icons.
+
+We can stack font awesome icons using `<fa-stack>` tag.
+
+```
+<fa-stack>
+    <fa-icon icon="circle" stackItemSize="2x"></fa-icon>
+    <fa-icon icon="flag" [inverse]="true" stackItemSize="1x"></fa-icon>
+</fa-stack>
+```
+
+Every `<fa-icon>` inside an `<fa-stack>` element should have `stackItemSize` input parameter, otherwise the icon will not render.
+
+
+
+## Angular font awesome icons StackBlitz Demo
+
+Here is link for StackBlitz Demo
+
+[https://stackblitz.com/edit/use-font-awesome-icons-in-angular-applications](https://stackblitz.com/edit/use-font-awesome-icons-in-angular-applications)
