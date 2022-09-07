@@ -864,3 +864,9 @@ This feature very useful while showing notification counters or email counters.
 ```
 
  {{< figure src="fontawesome icons layer counter.png" title="fontawesome icons layer counter" alt="fontawesome icons layer counter">}} 
+
+## Angular font awesome icons StackBlitz Demo
+
+Here is link for StackBlitz Demo
+
+[https://stackblitz.com/edit/use-font-awesome-icons-in-angular-applications](https://stackblitz.com/edit/use-font-awesome-icons-in-angular-applications)
