@@ -1,5 +1,5 @@
 +++
-title = "Checkbox Implementation In Angular Using Mat-Checkbox(Material Component)"
+title = "mat-checkbox : Angular material checkbox component Usage, Example"
 subtitle = "Learn how to build checkboxes using material design"
 type="post"
 summary ="mat-checkbox selector is an angular material checkbox component, it works like input type=checkbox sugar coated with Material design styling and animations.mat-checkbox part of Angular Material module called MatCheckboxModule."
@@ -22,19 +22,28 @@ authors = ["admin"]
 
 +++
 
-`<mat-checkbox>` selector is an angular material checkbox component, it works like `<input type=”checkbox”>` & sugar coated with Material design styling and animations.`<mat-checkbox>` part of Angular Material module called `MatCheckboxModule`.
+`<mat-checkbox>` selector is an angular material checkbox component.
+
+It works like `<input type="checkbox">` & sugar coated with Material design styling and animations.
 
 The simple usage of `<mat-checkbox>` is as follows
 
-`<mat-checkbox>Checkbox example</mat-checkbox>`
+```
+<mat-checkbox>Checkbox example</mat-checkbox>
+```
+
+`<mat-checkbox>` part of Angular Material module called `MatCheckboxModule`.
 
 To use `<mat-checkbox>` we have to import `MatCheckboxModule` from `@angular/Material` module.
 
-`import {MatCheckboxModule} from '@angular/material'</pre>`
+```
+import {MatCheckboxModule} from '@angular/material'</pre>
+```
 
 {{% toc %}}
 
 ## Properties of mat-checkbox
+
 <div class="table-responsive">
 <table class="table">
 	<thead>
@@ -98,7 +107,9 @@ To use `<mat-checkbox>` we have to import `MatCheckboxModule` from `@angular/Mat
 
 ## mat-checkbox Label
 
-Content of the `<mat-checkbox>` element acts as label for checkbox in angular material. Label position can be before or after the checkbox.
+Content of the `<mat-checkbox>` element acts as label for checkbox in angular material. 
+
+Label position can be before or after the checkbox.
 
 We can control the label position using `labelPosition` property of `<mat-checkbox>`.
 
@@ -183,11 +194,15 @@ Add a new material module by following command
   
 `ng generate module material`
   
-And import <code>MatCheckboxModule</code> from @angular/Material as shown below.Add below line in generated material.module.ts file.
+And import <code>MatCheckboxModule</code> from @angular/Material as shown below.
 
-`import { MatCheckboxModule } from '@angular/Material'`
+Add below line in generated `material.module.ts` file.
 
-And additionally i have added <code>MatToolbarModule</code>,<code>MatCardModule</code>,<code>MatListModule</code> for design purpose.
+```
+import { MatCheckboxModule } from '@angular/Material'
+```
+
+And additionally I have added `MatToolbarModule`,`MatCardModule`,`MatListModule` for design purpose.
 
 ```
 import { NgModule } from '@angular/core';
@@ -358,7 +373,7 @@ Now we will use this model,Add the following code in `angular-material-checkbox.
 
 <mat-card-content>
 <h2class="example-h2">Result</h2>
-<sectionclass="example-section">
+<section class="example-section">
 
 <mat-checkbox class="example-margin"
 (change)="OnChange($event)"
@@ -454,11 +469,11 @@ Which will be triggered when the checkbox checked state changes. It will emmit t
 
 MatCheckboxChange class has two properties, `source` and `checked`.
 
-`source` is nothing but source of the mat-checkbox from which event triggered.
+`source` is nothing but source of the `mat-checkbox` from which the event triggered.
 
-`checked` tells whether `mat-checkbox` is checked i.e.,true or unchecked i.e., false.
+`checked` tells whether `checkbox` is checked i.e.,`true` or unchecked i.e., `false`.
 
-See the event emmitted by mat-checkbox in console.log();
+See the event emitted by `mat-checkbox` in `console.log()`;
 
 {{< figure src="MatCheckboxChange-Class.png" title="MatCheckboxChange Class" alt="MatCheckboxChange Class">}}
 
@@ -466,7 +481,9 @@ One thing you need to understand checkbox on change event fires only by user int
 
 In the above demo, result section checkbox value is driven by  other checkboxes in checkbox configuration section. In that case change event wont fire as we are changing the value dynamically without user interaction.
 
-So we need to check or uncheck the checkbox in result section to fire the change event by clicking on it. You can check this behaviour in demo.
+So we need to check or uncheck the checkbox in result section to fire the change event by clicking on it.
+
+ You can check this behavior in demo.
 
 ## mat-checkbox Indeterminate Change event
 
