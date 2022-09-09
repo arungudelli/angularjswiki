@@ -2,10 +2,10 @@
 title = "How to Use font awesome icons as CSS content code"
 subtitle = "Font awesome icons as CSS content code"
 type="docs"
-summary ='To use font awesome icons as CSS content code follow the below steps 1. Add a unique CSS class name to the icon element you want to use.2. Set the font-family to "Font Awesome 5 Free" (For regular,solid icons) or "Font Awesome 5 Pro" (If you buy a pro license) or "Font Awesome 5 Brands" (For brand icons) 3. Set the font-weight css property as 900 (For Solid), 400 (Regular or Brands), 300 (Light for pro icons). 4. Set the content css property to the unicode value font awesome icon. 5. And if required,add a common CSS class name for all icon elements, for example "font-awesome-icons" (This is to add your own CSS to the icons).'
+summary ='To use font awesome icons as CSS content code add font style using custom css properties in font awesome 6.And manually add the font-style and font-weight css properties in font awesome 5'
 keywords=["font awesome icons,font awesome icons Css Content Code"]
 date="2020-08-25T01:01:05+0000"
-lastmod="2020-08-25T00:00:08+0000"
+lastmod="2022-09-09T00:00:08+0000"
 prev="cdn"
 next="6"
 draft=false
@@ -29,8 +29,17 @@ weight=2
 
 +++
 
-To use font awesome icons as CSS content code follow the below steps.
+CSS has an awesome feature called `Pseudo-elements`.
 
+Using `Pseudo-elements` we can add content to the web page with just CSS.
+
+Font awesome uses `::before` pseudo-element to add icons to the page using their CSS content codes. 
+
+{{% toc %}}
+
+## Display font awesome icons using CSS Content Code & `::before` pseudo-element
+
+To use font awesome icons as CSS content code follow the below steps.
 
 ## Step 1: Load the font awesome CSS file.
 
@@ -163,6 +172,55 @@ See the below list.
 
 </div>
 
+The above CSS custom properties adds the `font-family` and `font-weight` properties to the icon.
+
+```
+/* Brand icon*/
+.twitter::before {
+  content: '\f099';
+  font-family: "Font Awesome 6 brands"; 
+	font-weight: 400;
+}
+
+/* Regular Icon */
+.user::before {
+  content: '\f007';
+  font-family: "Font Awesome 6 free"; 
+	font-weight: 400;
+}
+
+/* Solid Icon */
+.cloud::before {
+  content: '\f0c2';
+  font-family: "Font Awesome 6 free"; 
+	font-weight: 900;
+}
+```
+
+<div class='table-responsive'>
+<table class='table'>
+<thead><tr><th>CSS custom property</th><th>font-family</th><th>font-weight</th></tr></thead>
+<tbody>
+<tr><td>--fa-font-brands</td><td>Font Awesome 6 brands</td><td>400</td></tr>
+<tr><td>--fa-font-solid</td><td>Font Awesome 6 free</td><td>900</td></tr>
+<tr><td>--fa-font-regular</td><td>Font Awesome 6 free</td><td>400</td></tr>
+</tbody>
+</table>
+</div>
+
+And if you are using font awesome 5 version icons, use the following `font-family` and `font-weight` css styles.
+
+<div class='table-responsive'>
+<table class='table'>
+<thead><tr><th>Icon Style</th><th>font-family</th><th>font-weight</th></tr></thead>
+<tbody>
+<tr><td>brands</td><td>Font Awesome 5 brands</td><td>400</td></tr>
+<tr><td>solid</td><td>Font Awesome 5 free</td><td>900</td></tr>
+<tr><td>regular</td><td>Font Awesome 5 free</td><td>400</td></tr>
+</tbody>
+</table>
+</div>
+
 ## Step 5: Add common styles to the icons
 
 The above code displays the icons in default style. 
@@ -215,58 +273,35 @@ Then add necessary styles, I am changing the color of icons to the `red` colour.
 
 </div>
 
-We can use font awesome predefined CSS custom properties for that.
 
-1. Add a unique CSS class name to the icon element you want to use.
-2. Set the font-family to "Font Awesome 5 Free" (For regular,solid icons) or "Font Awesome 5 Pro" (If you buy a pro license) or "Font Awesome 5 Brands" (For brand icons)
-3. Set the font-weight css property as 900 (For Solid), 400 (Regular or Brands), 300 (Light for pro icons).
-4. Set the content css property to the unicode value font awesome icon.
-5. And if required,add a common CSS class name for all icon elements, for example "font-awesome-icons" (This is to add your own CSS to the icons).
+## Why to use font awesome CSS content Code & `::before` ?
 
-For example to display facebook icon using CSS content code use the below code snippet.
+The general practice is to display font awesome icons using their css class names & icon style class.
 
-```
-<li>
-<span class="font-awesome-icons facebook"></span> Login
-</li>
+If you are starting a new project then it's fine. 
 
+When font awesome icons project started people are using already other existing icons.
 
-.facebook::before {
-    font-family: "Font Awesome 5 Brands"; 
-	font-weight: 400;
-	content: "\f09a";
-}
-
-```
-
-{{% toc %}}
-
-## Why to use CSS content Code to display font awesome icons?
-
-The regular approach requires us to change the all icon element names to font awesome icon names like fa-facebook and further adding category fab, far and fas class names.
-
-If your project is new then we can follow that. 
-
-But if it is an existing project, it is very difficult to change the icon class name.
-
-In this case we can display the font awesome icons using their CSS content values.
-
-We can use the CSS Pseudo-elements elements features `::before` or `::after` to display them.
-
-For example to display twitter icon, We might have used below HTML code.
+Think about an existing project where icons are displayed using other class names.
 
 ```
 <li>
 <span class="twitter"></span> twitter
 </li>
 
-``` 
+```
 
-So we can add the font awesome icon CSS properties to the existing twitter icon
+The class name is different than font awesome icon i.e., `fa-twitter`.
+
+Changing all icon class names in a project is difficult. 
+
+So font awesome used `::before` pseudo-element to display icons using CSS content codes.
+
+This way we can simple change the CSS styles for the icon elements no changes required HTML pages.
 
 ```
 .twitter::before {
-    font-family: "Font Awesome 5 Brands"; 
+  font-family: "Font Awesome 5 Brands"; 
 	font-weight: 400;
 	content: "\f099";
 }
@@ -274,81 +309,51 @@ So we can add the font awesome icon CSS properties to the existing twitter icon
 
 I gave content as `\f099` which is unicode value for twitter icon defined by font awesome icons.
 
-For all [1598 free font awesome icons](https://www.angularjswiki.com/fontawesome/), unicode values are already defined.
-
-And further to add our own CSS to the icons we can add a common class to icons say "font-awesome-icons".
-
-I have added `color:red` to the icons and few other CSS properties.
-
-```
- .font-awesome-icons::before {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    color:red;
-    -webkit-font-smoothing: antialiased;
-  }
-```
-Now our icons will display in red color.
-
-```
-<li>
-<span class="font-awesome-icons twitter"></span> twitter
-</li>
-
-.font-awesome-icons::before {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    color:red;
-    -webkit-font-smoothing: antialiased;
-}
-
-.twitter::before {
-    font-family: "Font Awesome 5 Brands"; 
-	font-weight: 400;
-	content: "\f099";
-}
-```
-
 ## Font awesome css content not working
 
 If you follow the above steps, font awesome css content code should be working fine.
 
 Otherwise you might see an empty square icon.
 
-So to display font awesome icons using their CSS content code 
+Remember two things while display font awesome icons using their CSS content code 
 
-1. Do not forgot to add font-family 
-2. Add font-weight. 
+1. Add correct CSS content code 
+2. Do not forgot to add `font-family` & `font-weight`. 
 
-<div class='table-responsive'>
-<table class='table'>
-<thead>
-<tr><th>Icon type</th><th>font-family</th><th>font-weight</th></tr>
-</thead>
-<tbody>
-<tr>
-<td>Solid</td>
-<td>Font Awesome 5 Free</td>
-<td>900</td>
-</tr>
-<tr>
-<td>Regular</td>
-<td>Font Awesome 5 Free</td>
-<td>400</td>
-</tr>
-<tr>
-<td>Brand</td>
-<td>Font Awesome 5 Brands</td>
-<td>400</td>
-</tr>
-</tbody>
-</table>
-</div>
+As explained above if you are using font awesome 6 version icons use `custom properties`.
 
-If you are using pro icons you need to add font-family as "Font Awesome 5 Pro" For regular, solid icons.
+And for the font awesome 5 version icons and `font-family` & `font-weight`.
+
+```
+/* Brand icon*/
+.twitter::before {
+  content: '\f099';
+  font-family: "Font Awesome 5 brands"; 
+    font-weight: 400;
+}
+
+/* Regular Icon */
+.user::before {
+  content: '\f007';
+  font-family: "Font Awesome 5 free"; 
+    font-weight: 400;
+}
+
+/* Solid Icon */
+.cloud::before {
+  content: '\f0c2';
+  font-family: "Font Awesome 5 free"; 
+    font-weight: 900;
+}
+
+```
+
+If you are using pro icons you need to add `font-family` as "Font Awesome 5 Pro".
+
+## font awesome CSS content code StackBlitz Demo
+
+Here is the StackBlitz demo for font awesome CSS content code.
+
+[https://stackblitz.com/edit/use-font-awesome-icons-as-css-content-code](https://stackblitz.com/edit/use-font-awesome-icons-as-css-content-code)
 
 
