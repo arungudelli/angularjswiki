@@ -1,187 +1,285 @@
+
 +++
-title="fa-utensils icon in font awesome icons"
-summary="fa-utensils icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-utensils,f2e7,fa-utensils"]
-date="25-07-2020T22:59:21"
-lastmod="25-07-2020T22:59:21"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-utensil-spoon"
-next="fa-vaadin"
-linktitle="fa-utensils"
+title='Utensils font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Utensils font awesome icon CSS class is fa-utensils & CSS Content Code is  \f2e7'
+keywords =['Utensils, \f2e7,fa-utensils']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-users'
+next = 'fa-v'
+linktitle = 'fa-utensils_1'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'true'
++++ 
+
+**`Utensils` font awesome icon css class name is `fa-utensils` and CSS Content Code is ` \f2e7`**.
+ 
+
+`Utensils` font awesome icon is part of solid icons. 
 
 
-fa-utensils icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-utensils</td><td>fa-utensils</td><td>f2e7</td></tr></tbody></table></div>
+{{%toc%}}
+## `Utensils` font awesome icon usage
+We can display `Utensils` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Utensils` font awesome icon CSS class name
+
+To display `Utensils` font awesome icon, add predefined class name i.e.,`fa-utensils` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Utensils` icon.
 
 
-## fa-utensils icon Usage
-
-To display fa-utensils icon add predefined class name i.e.,fa-utensils (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-utensils icon. i.e., fas.
-
+`Utensils` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-utensils'></i>
 
 ```
 
-<i class='fas fa-utensils'>fa-utensils</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-utensils'></i>
+
+</div>
+
+
+## `Utensils` font awesome icon CSS Content Code 
+
+We can display `Utensils` font awesome icon using it's CSS Content Code ` \f2e7` 
+
+Use the following HTML code 
+
+```
+<li><span class='Utensils fontawesomeicon'></span>Utensils</li>
 ```
 
-<i class='fas fa-utensils'>fa-utensils</i>
-
-
-
-
-## Change fa-utensils icon size
-To increase fa-utensils font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-utensils.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Utensils::before {
+   font: var(--fa-font-solid);
+    content: ' \f2e7';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Utensils::before {
+   font: var(--fa-font-solid);
+    content: ' \f2e7';
+ }</style>
+
+<li><span class='Utensils fontawesomeicon'></span>Utensils</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Utensils` font awesome icon SVG 
+
+Use the following icon SVG to display `Utensils` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 0C400 0 288 32 288 176V288c0 35.3 28.7 64 64 64h32V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352 240 32c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7V480c0 17.7 14.3 32 32 32s32-14.3 32-32V255.6c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16V150.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8V16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 0C400 0 288 32 288 176V288c0 35.3 28.7 64 64 64h32V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352 240 32c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7V480c0 17.7 14.3 32 32 32s32-14.3 32-32V255.6c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16V150.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8V16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z"/></svg>
+ Utensils displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 0C400 0 288 32 288 176V288c0 35.3 28.7 64 64 64h32V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352 240 32c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7V480c0 17.7 14.3 32 32 32s32-14.3 32-32V255.6c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16V150.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8V16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z"/></svg>
+ Utensils displayed using SVG</p>
+</div>
+
+## Change `Utensils` font awesome icon size
+To increase `Utensils` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f2e7.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-utensils fa-lg'>fa-lg</i><br/>
+<i class='fas fa-utensils fa-2x'>fa-2x</i><br/>
+<i class='fas fa-utensils fa-3x'>fa-3x</i><br/>
+<i class='fas fa-utensils fa-4x'>fa-4x</i><br/>
+<i class='fas fa-utensils fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-utensils fa-lg'>fa-lg</i><br/>
 <i class='fas fa-utensils fa-2x'>fa-2x</i><br/>
 <i class='fas fa-utensils fa-3x'>fa-3x</i><br/>
 <i class='fas fa-utensils fa-4x'>fa-4x</i><br/>
 <i class='fas fa-utensils fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-utensils fa-lg'>fa-lg</i><br/>
-<i class='fas fa-utensils fa-2x'>fa-2x</i><br/>
-<i class='fas fa-utensils fa-3x'>fa-3x</i><br/>
-<i class='fas fa-utensils fa-4x'>fa-4x</i><br/>
-<i class='fas fa-utensils fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-utensils Icon with Fixed Width 
-
+## `Utensils` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-utensils icon and fa-home may not have same height and width.
+For example `Utensils` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-utensils fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-utensils fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-utensils fa-fw fa-3x'></i>Fixed Width<i class='fas fa-utensils fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-utensils fa-fw fa-3x'></i>Fixed Width<i class='fas fa-utensils fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-utensils fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-utensils fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-utensils Icon Border 
+</div>
 
-To add border to fa-utensils icon, use fa-border class.
-
-
-```
-<i class='fas fa-utensils fa-border fa-3x'></i>
-
+## `Utensils` font awesome icon Border
+To add border to `Utensils` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-utensils fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-utensils icon To the left
-
-To pull icon fa-utensils to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-utensils fa-border fa-3x'></i>
+</div>
+
+## Pull `Utensils` font awesome icon To the left
+To pull `Utensils` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-utensils fa-pull-left fa-3x'></i>
+  ... The text after Utensils Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-utensils fa-pull-left fa-3x'></i>
-  ... The text after fa-utensils Icon will be displayed on the right side of the icons
+  ... The text after Utensils Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Utensils` font awesome icon To the left
+To pull `Utensils` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-utensils fa-pull-left fa-3x'></i>
-  ... The text after fa-utensils Icon will be displayed on the right side of the icons
+<i class='fas fa-utensils fa-pull-right fa-3x'></i>
+  ... The text after Utensils Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-utensils icon To the right
-To pull icon fa-utensils to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-utensils fa-pull-right fa-3x'></i>
-  ... The text after fa-utensils Icon will be displayed on the left side of the icons
+  ... The text after Utensils Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-utensils fa-pull-right fa-3x'></i>
-  ... The text after fa-utensils Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-utensils icon using fa-spin
-To animate font awesome fa-utensils icon, use fa-spin class.
-
+## Animate `Utensils` font awesome icon
+To animate `Utensils` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-utensils fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-utensils fa-spin fa-3x'></i>
+</div>
 
+## Animate `Utensils` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Utensils` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-utensils icon with steps
-While animating the font awesome icon,We can rotate fa-utensils icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-utensils icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-utensils fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-utensils fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-utensils fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-utensils fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-utensils Icon using fa-rotate-x
-To rotate the font awesome icon fa-utensils, Use fa-rotate-x class
+## Rotate `Utensils` font awesome icon
+ To rotate `Utensils` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-utensils fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-utensils fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-utensils fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-utensils fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-utensils fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-utensils fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-utensils Icon using fa-flip-*
-To flip fa-utensils font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Utensils` font awesome icon
+ To flip `Utensils` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-utensils fa-3x'>F</i> Normal <br>
 <i class='fas fa-utensils fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-utensils fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-utensils fa-3x'>F</i> Normal <br>
 <i class='fas fa-utensils fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-utensils fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Utensils` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-utensils icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Utensils` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-utensils on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-utensils fa-stack-1x'></i>
+    </span>
+      Utensils on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-utensils fa-stack-1x fa-inverse'></i>
+    </span>
+      Utensils on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-utensils fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Utensils on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-utensils fa-stack-1x'></i>
     </span>
-      fa-utensils on fa-square<br>
+      Utensils on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-utensils fa-stack-1x fa-inverse'></i>
     </span>
-      fa-utensils on fa-circle<br>
+      Utensils on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-utensils fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-utensils on fa-ban
+      Utensils on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-utensils fa-stack-1x'></i>
-    </span>
-      fa-utensils on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-utensils fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-utensils on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-utensils fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-utensils on fa-ban
 </div>
-
-
-
-
-
 

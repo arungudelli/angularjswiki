@@ -1,187 +1,285 @@
+
 +++
-title="fa-paint-roller icon in font awesome icons"
-summary="fa-paint-roller icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-paint-roller,f5aa,fa-paint-roller"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-paint-brush"
-next="fa-palette"
-linktitle="fa-paint-roller"
+title='Paint-Roller font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Paint-Roller font awesome icon CSS class is fa-paint-roller & CSS Content Code is  \f5aa'
+keywords =['Paint-Roller, \f5aa,fa-paint-roller']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-pager'
+next = 'fa-paintbrush'
+linktitle = 'fa-paint-roller_1'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'true'
++++ 
+
+**`Paint-Roller` font awesome icon css class name is `fa-paint-roller` and CSS Content Code is ` \f5aa`**.
+ 
+
+`Paint-Roller` font awesome icon is part of solid icons. 
 
 
-fa-paint-roller icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-paint-roller</td><td>fa-paint-roller</td><td>f5aa</td></tr></tbody></table></div>
+{{%toc%}}
+## `Paint-Roller` font awesome icon usage
+We can display `Paint-Roller` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Paint-Roller` font awesome icon CSS class name
+
+To display `Paint-Roller` font awesome icon, add predefined class name i.e.,`fa-paint-roller` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Paint-Roller` icon.
 
 
-## fa-paint-roller icon Usage
-
-To display fa-paint-roller icon add predefined class name i.e.,fa-paint-roller (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-paint-roller icon. i.e., fas.
-
+`Paint-Roller` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-paint-roller'></i>
 
 ```
 
-<i class='fas fa-paint-roller'>fa-paint-roller</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-paint-roller'></i>
+
+</div>
+
+
+## `Paint-Roller` font awesome icon CSS Content Code 
+
+We can display `Paint-Roller` font awesome icon using it's CSS Content Code ` \f5aa` 
+
+Use the following HTML code 
+
+```
+<li><span class='Paint-Roller fontawesomeicon'></span>Paint-Roller</li>
 ```
 
-<i class='fas fa-paint-roller'>fa-paint-roller</i>
-
-
-
-
-## Change fa-paint-roller icon size
-To increase fa-paint-roller font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-paint-roller.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Paint-Roller::before {
+   font: var(--fa-font-solid);
+    content: ' \f5aa';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Paint-Roller::before {
+   font: var(--fa-font-solid);
+    content: ' \f5aa';
+ }</style>
+
+<li><span class='Paint-Roller fontawesomeicon'></span>Paint-Roller</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Paint-Roller` font awesome icon SVG 
+
+Use the following icon SVG to display `Paint-Roller` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 64C0 28.7 28.7 0 64 0H352c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zM160 352c0-17.7 14.3-32 32-32V304c0-44.2 35.8-80 80-80H416c17.7 0 32-14.3 32-32V160 69.5c37.3 13.2 64 48.7 64 90.5v32c0 53-43 96-96 96H272c-8.8 0-16 7.2-16 16v16c17.7 0 32 14.3 32 32V480c0 17.7-14.3 32-32 32H192c-17.7 0-32-14.3-32-32V352z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 64C0 28.7 28.7 0 64 0H352c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zM160 352c0-17.7 14.3-32 32-32V304c0-44.2 35.8-80 80-80H416c17.7 0 32-14.3 32-32V160 69.5c37.3 13.2 64 48.7 64 90.5v32c0 53-43 96-96 96H272c-8.8 0-16 7.2-16 16v16c17.7 0 32 14.3 32 32V480c0 17.7-14.3 32-32 32H192c-17.7 0-32-14.3-32-32V352z"/></svg>
+ Paint-Roller displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 64C0 28.7 28.7 0 64 0H352c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zM160 352c0-17.7 14.3-32 32-32V304c0-44.2 35.8-80 80-80H416c17.7 0 32-14.3 32-32V160 69.5c37.3 13.2 64 48.7 64 90.5v32c0 53-43 96-96 96H272c-8.8 0-16 7.2-16 16v16c17.7 0 32 14.3 32 32V480c0 17.7-14.3 32-32 32H192c-17.7 0-32-14.3-32-32V352z"/></svg>
+ Paint-Roller displayed using SVG</p>
+</div>
+
+## Change `Paint-Roller` font awesome icon size
+To increase `Paint-Roller` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f5aa.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-paint-roller fa-lg'>fa-lg</i><br/>
+<i class='fas fa-paint-roller fa-2x'>fa-2x</i><br/>
+<i class='fas fa-paint-roller fa-3x'>fa-3x</i><br/>
+<i class='fas fa-paint-roller fa-4x'>fa-4x</i><br/>
+<i class='fas fa-paint-roller fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-paint-roller fa-lg'>fa-lg</i><br/>
 <i class='fas fa-paint-roller fa-2x'>fa-2x</i><br/>
 <i class='fas fa-paint-roller fa-3x'>fa-3x</i><br/>
 <i class='fas fa-paint-roller fa-4x'>fa-4x</i><br/>
 <i class='fas fa-paint-roller fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-paint-roller fa-lg'>fa-lg</i><br/>
-<i class='fas fa-paint-roller fa-2x'>fa-2x</i><br/>
-<i class='fas fa-paint-roller fa-3x'>fa-3x</i><br/>
-<i class='fas fa-paint-roller fa-4x'>fa-4x</i><br/>
-<i class='fas fa-paint-roller fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-paint-roller Icon with Fixed Width 
-
+## `Paint-Roller` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-paint-roller icon and fa-home may not have same height and width.
+For example `Paint-Roller` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-paint-roller fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-paint-roller fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-paint-roller fa-fw fa-3x'></i>Fixed Width<i class='fas fa-paint-roller fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-paint-roller fa-fw fa-3x'></i>Fixed Width<i class='fas fa-paint-roller fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-paint-roller fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-paint-roller fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-paint-roller Icon Border 
+</div>
 
-To add border to fa-paint-roller icon, use fa-border class.
-
-
-```
-<i class='fas fa-paint-roller fa-border fa-3x'></i>
-
+## `Paint-Roller` font awesome icon Border
+To add border to `Paint-Roller` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-paint-roller fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-paint-roller icon To the left
-
-To pull icon fa-paint-roller to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-paint-roller fa-border fa-3x'></i>
+</div>
+
+## Pull `Paint-Roller` font awesome icon To the left
+To pull `Paint-Roller` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-paint-roller fa-pull-left fa-3x'></i>
+  ... The text after Paint-Roller Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-paint-roller fa-pull-left fa-3x'></i>
-  ... The text after fa-paint-roller Icon will be displayed on the right side of the icons
+  ... The text after Paint-Roller Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Paint-Roller` font awesome icon To the left
+To pull `Paint-Roller` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-paint-roller fa-pull-left fa-3x'></i>
-  ... The text after fa-paint-roller Icon will be displayed on the right side of the icons
+<i class='fas fa-paint-roller fa-pull-right fa-3x'></i>
+  ... The text after Paint-Roller Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-paint-roller icon To the right
-To pull icon fa-paint-roller to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-paint-roller fa-pull-right fa-3x'></i>
-  ... The text after fa-paint-roller Icon will be displayed on the left side of the icons
+  ... The text after Paint-Roller Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-paint-roller fa-pull-right fa-3x'></i>
-  ... The text after fa-paint-roller Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-paint-roller icon using fa-spin
-To animate font awesome fa-paint-roller icon, use fa-spin class.
-
+## Animate `Paint-Roller` font awesome icon
+To animate `Paint-Roller` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-paint-roller fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-paint-roller fa-spin fa-3x'></i>
+</div>
 
+## Animate `Paint-Roller` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Paint-Roller` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-paint-roller icon with steps
-While animating the font awesome icon,We can rotate fa-paint-roller icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-paint-roller icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-paint-roller fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-paint-roller fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-paint-roller fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-paint-roller fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-paint-roller Icon using fa-rotate-x
-To rotate the font awesome icon fa-paint-roller, Use fa-rotate-x class
+## Rotate `Paint-Roller` font awesome icon
+ To rotate `Paint-Roller` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-paint-roller fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-paint-roller fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-paint-roller fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-paint-roller fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-paint-roller fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-paint-roller fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-paint-roller Icon using fa-flip-*
-To flip fa-paint-roller font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Paint-Roller` font awesome icon
+ To flip `Paint-Roller` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-paint-roller fa-3x'>F</i> Normal <br>
 <i class='fas fa-paint-roller fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-paint-roller fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-paint-roller fa-3x'>F</i> Normal <br>
 <i class='fas fa-paint-roller fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-paint-roller fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Paint-Roller` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-paint-roller icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Paint-Roller` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-paint-roller on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-paint-roller fa-stack-1x'></i>
+    </span>
+      Paint-Roller on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-paint-roller fa-stack-1x fa-inverse'></i>
+    </span>
+      Paint-Roller on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-paint-roller fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Paint-Roller on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-paint-roller fa-stack-1x'></i>
     </span>
-      fa-paint-roller on fa-square<br>
+      Paint-Roller on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-paint-roller fa-stack-1x fa-inverse'></i>
     </span>
-      fa-paint-roller on fa-circle<br>
+      Paint-Roller on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-paint-roller fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-paint-roller on fa-ban
+      Paint-Roller on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-paint-roller fa-stack-1x'></i>
-    </span>
-      fa-paint-roller on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-paint-roller fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-paint-roller on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-paint-roller fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-paint-roller on fa-ban
 </div>
-
-
-
-
-
 

@@ -1,187 +1,285 @@
+
 +++
-title="fa-uikit icon in font awesome icons"
-summary="fa-uikit icon in font awesome icons is part of brand (fab) icons"
-keywords=["fa-uikit,f403,fa-uikit"]
-date="25-07-2020T22:59:21"
-lastmod="25-07-2020T22:59:21"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-ubuntu"
-next="fa-umbraco"
-linktitle="fa-uikit"
+title='Uikit font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Uikit font awesome icon CSS class is fa-uikit & CSS Content Code is  \f403'
+keywords =['Uikit, \f403,fa-uikit']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-ubuntu'
+next = 'fa-umbraco'
+linktitle = 'fa-uikit_1'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'true'
++++ 
+
+**`Uikit` font awesome icon css class name is `fa-uikit` and CSS Content Code is ` \f403`**.
+ 
+
+`Uikit` font awesome icon is part of brands icons. 
 
 
-fa-uikit icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-uikit</td><td>fa-uikit</td><td>f403</td></tr></tbody></table></div>
+{{%toc%}}
+## `Uikit` font awesome icon usage
+We can display `Uikit` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Uikit` font awesome icon CSS class name
+
+To display `Uikit` font awesome icon, add predefined class name i.e.,`fa-uikit` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Uikit` icon.
 
 
-## fa-uikit icon Usage
-
-To display fa-uikit icon add predefined class name i.e.,fa-uikit (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-uikit icon. i.e., fab.
-
+`Uikit` icon has 1 icon style i.e.,brands. 
+ We need to append icon style class `fab`.
+```
+<i class='fab fa-uikit'></i>
 
 ```
 
-<i class='fab fa-uikit'>fa-uikit</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-uikit'></i>
+
+</div>
+
+
+## `Uikit` font awesome icon CSS Content Code 
+
+We can display `Uikit` font awesome icon using it's CSS Content Code ` \f403` 
+
+Use the following HTML code 
+
+```
+<li><span class='Uikit fontawesomeicon'></span>Uikit</li>
 ```
 
-<i class='fab fa-uikit'>fa-uikit</i>
-
-
-
-
-## Change fa-uikit icon size
-To increase fa-uikit font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-uikit.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Uikit::before {
+   font: var(--fa-font-brands);
+    content: ' \f403';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Uikit::before {
+   font: var(--fa-font-brands);
+    content: ' \f403';
+ }</style>
+
+<li><span class='Uikit fontawesomeicon'></span>Uikit</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Uikit` font awesome icon SVG 
+
+Use the following icon SVG to display `Uikit` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M443.9 128v256L218 512 0 384V169.7l87.6 45.1v117l133.5 75.5 135.8-75.5v-151l-101.1-57.6 87.6-53.1L443.9 128zM308.6 49.1L223.8 0l-88.6 54.8 86 47.3 87.4-53z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M443.9 128v256L218 512 0 384V169.7l87.6 45.1v117l133.5 75.5 135.8-75.5v-151l-101.1-57.6 87.6-53.1L443.9 128zM308.6 49.1L223.8 0l-88.6 54.8 86 47.3 87.4-53z"/></svg>
+ Uikit displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M443.9 128v256L218 512 0 384V169.7l87.6 45.1v117l133.5 75.5 135.8-75.5v-151l-101.1-57.6 87.6-53.1L443.9 128zM308.6 49.1L223.8 0l-88.6 54.8 86 47.3 87.4-53z"/></svg>
+ Uikit displayed using SVG</p>
+</div>
+
+## Change `Uikit` font awesome icon size
+To increase `Uikit` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f403.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fab fa-uikit fa-lg'>fa-lg</i><br/>
+<i class='fab fa-uikit fa-2x'>fa-2x</i><br/>
+<i class='fab fa-uikit fa-3x'>fa-3x</i><br/>
+<i class='fab fa-uikit fa-4x'>fa-4x</i><br/>
+<i class='fab fa-uikit fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fab fa-uikit fa-lg'>fa-lg</i><br/>
 <i class='fab fa-uikit fa-2x'>fa-2x</i><br/>
 <i class='fab fa-uikit fa-3x'>fa-3x</i><br/>
 <i class='fab fa-uikit fa-4x'>fa-4x</i><br/>
 <i class='fab fa-uikit fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fab fa-uikit fa-lg'>fa-lg</i><br/>
-<i class='fab fa-uikit fa-2x'>fa-2x</i><br/>
-<i class='fab fa-uikit fa-3x'>fa-3x</i><br/>
-<i class='fab fa-uikit fa-4x'>fa-4x</i><br/>
-<i class='fab fa-uikit fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-uikit Icon with Fixed Width 
-
+## `Uikit` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-uikit icon and fa-home may not have same height and width.
+For example `Uikit` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fab fa-uikit fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-uikit fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fab fa-uikit fa-fw fa-3x'></i>Fixed Width<i class='fab fa-uikit fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fab fa-uikit fa-fw fa-3x'></i>Fixed Width<i class='fab fa-uikit fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fab fa-uikit fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-uikit fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-uikit Icon Border 
+</div>
 
-To add border to fa-uikit icon, use fa-border class.
-
-
-```
-<i class='fab fa-uikit fa-border fa-3x'></i>
-
+## `Uikit` font awesome icon Border
+To add border to `Uikit` font awesome icon, use `fa-border` class.
 ```
 <i class='fab fa-uikit fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-uikit icon To the left
-
-To pull icon fa-uikit to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-uikit fa-border fa-3x'></i>
+</div>
+
+## Pull `Uikit` font awesome icon To the left
+To pull `Uikit` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fab fa-uikit fa-pull-left fa-3x'></i>
+  ... The text after Uikit Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-uikit fa-pull-left fa-3x'></i>
-  ... The text after fa-uikit Icon will be displayed on the right side of the icons
+  ... The text after Uikit Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Uikit` font awesome icon To the left
+To pull `Uikit` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fab fa-uikit fa-pull-left fa-3x'></i>
-  ... The text after fa-uikit Icon will be displayed on the right side of the icons
+<i class='fab fa-uikit fa-pull-right fa-3x'></i>
+  ... The text after Uikit Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-uikit icon To the right
-To pull icon fa-uikit to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-uikit fa-pull-right fa-3x'></i>
-  ... The text after fa-uikit Icon will be displayed on the left side of the icons
+  ... The text after Uikit Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fab fa-uikit fa-pull-right fa-3x'></i>
-  ... The text after fa-uikit Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-uikit icon using fa-spin
-To animate font awesome fa-uikit icon, use fa-spin class.
-
+## Animate `Uikit` font awesome icon
+To animate `Uikit` font awesome icon, use `fa-spin` class.
 ```
 <i class='fab fa-uikit fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fab fa-uikit fa-spin fa-3x'></i>
+</div>
 
+## Animate `Uikit` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Uikit` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-uikit icon with steps
-While animating the font awesome icon,We can rotate fa-uikit icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-uikit icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fab fa-uikit fa-pulse fa-spin fa-3x'></i>
-
+<i class='fab fa-uikit fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fab fa-uikit fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fab fa-uikit fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-uikit Icon using fa-rotate-x
-To rotate the font awesome icon fa-uikit, Use fa-rotate-x class
+## Rotate `Uikit` font awesome icon
+ To rotate `Uikit` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fab fa-uikit fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-uikit fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fab fa-uikit fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-uikit fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fab fa-uikit fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fab fa-uikit fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-uikit Icon using fa-flip-*
-To flip fa-uikit font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Uikit` font awesome icon
+ To flip `Uikit` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fab fa-uikit fa-3x'>F</i> Normal <br>
 <i class='fab fa-uikit fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-uikit fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fab fa-uikit fa-3x'>F</i> Normal <br>
 <i class='fab fa-uikit fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-uikit fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Uikit` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-uikit icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Uikit` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-uikit on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fab fa-uikit fa-stack-1x'></i>
+    </span>
+      Uikit on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fab fa-uikit fa-stack-1x fa-inverse'></i>
+    </span>
+      Uikit on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fab fa-uikit fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Uikit on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fab fa-uikit fa-stack-1x'></i>
     </span>
-      fa-uikit on fa-square<br>
+      Uikit on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fab fa-uikit fa-stack-1x fa-inverse'></i>
     </span>
-      fa-uikit on fa-circle<br>
+      Uikit on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fab fa-uikit fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-uikit on fa-ban
+      Uikit on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fab fa-uikit fa-stack-1x'></i>
-    </span>
-      fa-uikit on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fab fa-uikit fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-uikit on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fab fa-uikit fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-uikit on fa-ban
 </div>
-
-
-
-
-
 

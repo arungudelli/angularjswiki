@@ -1,187 +1,285 @@
+
 +++
-title="fa-wpforms icon in font awesome icons"
-summary="fa-wpforms icon in font awesome icons is part of brand (fab) icons"
-keywords=["fa-wpforms,f298,fa-wpforms"]
-date="25-07-2020T22:59:21"
-lastmod="25-07-2020T22:59:21"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-wpexplorer"
-next="fa-wpressr"
-linktitle="fa-wpforms"
+title='Wpforms font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Wpforms font awesome icon CSS class is fa-wpforms & CSS Content Code is  \f298'
+keywords =['Wpforms, \f298,fa-wpforms']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-wpexplorer'
+next = 'fa-wpressr'
+linktitle = 'fa-wpforms_1'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'true'
++++ 
+
+**`Wpforms` font awesome icon css class name is `fa-wpforms` and CSS Content Code is ` \f298`**.
+ 
+
+`Wpforms` font awesome icon is part of brands icons. 
 
 
-fa-wpforms icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-wpforms</td><td>fa-wpforms</td><td>f298</td></tr></tbody></table></div>
+{{%toc%}}
+## `Wpforms` font awesome icon usage
+We can display `Wpforms` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Wpforms` font awesome icon CSS class name
+
+To display `Wpforms` font awesome icon, add predefined class name i.e.,`fa-wpforms` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Wpforms` icon.
 
 
-## fa-wpforms icon Usage
-
-To display fa-wpforms icon add predefined class name i.e.,fa-wpforms (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-wpforms icon. i.e., fab.
-
+`Wpforms` icon has 1 icon style i.e.,brands. 
+ We need to append icon style class `fab`.
+```
+<i class='fab fa-wpforms'></i>
 
 ```
 
-<i class='fab fa-wpforms'>fa-wpforms</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-wpforms'></i>
+
+</div>
+
+
+## `Wpforms` font awesome icon CSS Content Code 
+
+We can display `Wpforms` font awesome icon using it's CSS Content Code ` \f298` 
+
+Use the following HTML code 
+
+```
+<li><span class='Wpforms fontawesomeicon'></span>Wpforms</li>
 ```
 
-<i class='fab fa-wpforms'>fa-wpforms</i>
-
-
-
-
-## Change fa-wpforms icon size
-To increase fa-wpforms font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-wpforms.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Wpforms::before {
+   font: var(--fa-font-brands);
+    content: ' \f298';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Wpforms::before {
+   font: var(--fa-font-brands);
+    content: ' \f298';
+ }</style>
+
+<li><span class='Wpforms fontawesomeicon'></span>Wpforms</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Wpforms` font awesome icon SVG 
+
+Use the following icon SVG to display `Wpforms` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M448 75.2v361.7c0 24.3-19 43.2-43.2 43.2H43.2C19.3 480 0 461.4 0 436.8V75.2C0 51.1 18.8 32 43.2 32h361.7c24 0 43.1 18.8 43.1 43.2zm-37.3 361.6V75.2c0-3-2.6-5.8-5.8-5.8h-9.3L285.3 144 224 94.1 162.8 144 52.5 69.3h-9.3c-3.2 0-5.8 2.8-5.8 5.8v361.7c0 3 2.6 5.8 5.8 5.8h361.7c3.2.1 5.8-2.7 5.8-5.8zM150.2 186v37H76.7v-37h73.5zm0 74.4v37.3H76.7v-37.3h73.5zm11.1-147.3l54-43.7H96.8l64.5 43.7zm210 72.9v37h-196v-37h196zm0 74.4v37.3h-196v-37.3h196zm-84.6-147.3l64.5-43.7H232.8l53.9 43.7zM371.3 335v37.3h-99.4V335h99.4z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M448 75.2v361.7c0 24.3-19 43.2-43.2 43.2H43.2C19.3 480 0 461.4 0 436.8V75.2C0 51.1 18.8 32 43.2 32h361.7c24 0 43.1 18.8 43.1 43.2zm-37.3 361.6V75.2c0-3-2.6-5.8-5.8-5.8h-9.3L285.3 144 224 94.1 162.8 144 52.5 69.3h-9.3c-3.2 0-5.8 2.8-5.8 5.8v361.7c0 3 2.6 5.8 5.8 5.8h361.7c3.2.1 5.8-2.7 5.8-5.8zM150.2 186v37H76.7v-37h73.5zm0 74.4v37.3H76.7v-37.3h73.5zm11.1-147.3l54-43.7H96.8l64.5 43.7zm210 72.9v37h-196v-37h196zm0 74.4v37.3h-196v-37.3h196zm-84.6-147.3l64.5-43.7H232.8l53.9 43.7zM371.3 335v37.3h-99.4V335h99.4z"/></svg>
+ Wpforms displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M448 75.2v361.7c0 24.3-19 43.2-43.2 43.2H43.2C19.3 480 0 461.4 0 436.8V75.2C0 51.1 18.8 32 43.2 32h361.7c24 0 43.1 18.8 43.1 43.2zm-37.3 361.6V75.2c0-3-2.6-5.8-5.8-5.8h-9.3L285.3 144 224 94.1 162.8 144 52.5 69.3h-9.3c-3.2 0-5.8 2.8-5.8 5.8v361.7c0 3 2.6 5.8 5.8 5.8h361.7c3.2.1 5.8-2.7 5.8-5.8zM150.2 186v37H76.7v-37h73.5zm0 74.4v37.3H76.7v-37.3h73.5zm11.1-147.3l54-43.7H96.8l64.5 43.7zm210 72.9v37h-196v-37h196zm0 74.4v37.3h-196v-37.3h196zm-84.6-147.3l64.5-43.7H232.8l53.9 43.7zM371.3 335v37.3h-99.4V335h99.4z"/></svg>
+ Wpforms displayed using SVG</p>
+</div>
+
+## Change `Wpforms` font awesome icon size
+To increase `Wpforms` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f298.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fab fa-wpforms fa-lg'>fa-lg</i><br/>
+<i class='fab fa-wpforms fa-2x'>fa-2x</i><br/>
+<i class='fab fa-wpforms fa-3x'>fa-3x</i><br/>
+<i class='fab fa-wpforms fa-4x'>fa-4x</i><br/>
+<i class='fab fa-wpforms fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fab fa-wpforms fa-lg'>fa-lg</i><br/>
 <i class='fab fa-wpforms fa-2x'>fa-2x</i><br/>
 <i class='fab fa-wpforms fa-3x'>fa-3x</i><br/>
 <i class='fab fa-wpforms fa-4x'>fa-4x</i><br/>
 <i class='fab fa-wpforms fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fab fa-wpforms fa-lg'>fa-lg</i><br/>
-<i class='fab fa-wpforms fa-2x'>fa-2x</i><br/>
-<i class='fab fa-wpforms fa-3x'>fa-3x</i><br/>
-<i class='fab fa-wpforms fa-4x'>fa-4x</i><br/>
-<i class='fab fa-wpforms fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-wpforms Icon with Fixed Width 
-
+## `Wpforms` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-wpforms icon and fa-home may not have same height and width.
+For example `Wpforms` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fab fa-wpforms fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-wpforms fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fab fa-wpforms fa-fw fa-3x'></i>Fixed Width<i class='fab fa-wpforms fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fab fa-wpforms fa-fw fa-3x'></i>Fixed Width<i class='fab fa-wpforms fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fab fa-wpforms fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-wpforms fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-wpforms Icon Border 
+</div>
 
-To add border to fa-wpforms icon, use fa-border class.
-
-
-```
-<i class='fab fa-wpforms fa-border fa-3x'></i>
-
+## `Wpforms` font awesome icon Border
+To add border to `Wpforms` font awesome icon, use `fa-border` class.
 ```
 <i class='fab fa-wpforms fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-wpforms icon To the left
-
-To pull icon fa-wpforms to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-wpforms fa-border fa-3x'></i>
+</div>
+
+## Pull `Wpforms` font awesome icon To the left
+To pull `Wpforms` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fab fa-wpforms fa-pull-left fa-3x'></i>
+  ... The text after Wpforms Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-wpforms fa-pull-left fa-3x'></i>
-  ... The text after fa-wpforms Icon will be displayed on the right side of the icons
+  ... The text after Wpforms Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Wpforms` font awesome icon To the left
+To pull `Wpforms` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fab fa-wpforms fa-pull-left fa-3x'></i>
-  ... The text after fa-wpforms Icon will be displayed on the right side of the icons
+<i class='fab fa-wpforms fa-pull-right fa-3x'></i>
+  ... The text after Wpforms Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-wpforms icon To the right
-To pull icon fa-wpforms to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-wpforms fa-pull-right fa-3x'></i>
-  ... The text after fa-wpforms Icon will be displayed on the left side of the icons
+  ... The text after Wpforms Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fab fa-wpforms fa-pull-right fa-3x'></i>
-  ... The text after fa-wpforms Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-wpforms icon using fa-spin
-To animate font awesome fa-wpforms icon, use fa-spin class.
-
+## Animate `Wpforms` font awesome icon
+To animate `Wpforms` font awesome icon, use `fa-spin` class.
 ```
 <i class='fab fa-wpforms fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fab fa-wpforms fa-spin fa-3x'></i>
+</div>
 
+## Animate `Wpforms` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Wpforms` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-wpforms icon with steps
-While animating the font awesome icon,We can rotate fa-wpforms icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-wpforms icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fab fa-wpforms fa-pulse fa-spin fa-3x'></i>
-
+<i class='fab fa-wpforms fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fab fa-wpforms fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fab fa-wpforms fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-wpforms Icon using fa-rotate-x
-To rotate the font awesome icon fa-wpforms, Use fa-rotate-x class
+## Rotate `Wpforms` font awesome icon
+ To rotate `Wpforms` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fab fa-wpforms fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-wpforms fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fab fa-wpforms fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-wpforms fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fab fa-wpforms fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fab fa-wpforms fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-wpforms Icon using fa-flip-*
-To flip fa-wpforms font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Wpforms` font awesome icon
+ To flip `Wpforms` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fab fa-wpforms fa-3x'>F</i> Normal <br>
 <i class='fab fa-wpforms fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-wpforms fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fab fa-wpforms fa-3x'>F</i> Normal <br>
 <i class='fab fa-wpforms fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-wpforms fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Wpforms` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-wpforms icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Wpforms` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-wpforms on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fab fa-wpforms fa-stack-1x'></i>
+    </span>
+      Wpforms on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fab fa-wpforms fa-stack-1x fa-inverse'></i>
+    </span>
+      Wpforms on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fab fa-wpforms fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Wpforms on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fab fa-wpforms fa-stack-1x'></i>
     </span>
-      fa-wpforms on fa-square<br>
+      Wpforms on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fab fa-wpforms fa-stack-1x fa-inverse'></i>
     </span>
-      fa-wpforms on fa-circle<br>
+      Wpforms on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fab fa-wpforms fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-wpforms on fa-ban
+      Wpforms on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fab fa-wpforms fa-stack-1x'></i>
-    </span>
-      fa-wpforms on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fab fa-wpforms fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-wpforms on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fab fa-wpforms fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-wpforms on fa-ban
 </div>
-
-
-
-
-
 

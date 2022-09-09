@@ -1,187 +1,285 @@
+
 +++
-title="fa-ruler icon in font awesome icons"
-summary="fa-ruler icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-ruler,f545,fa-ruler"]
-date="25-07-2020T22:59:21"
-lastmod="25-07-2020T22:59:21"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-ruble-sign"
-next="fa-ruler-combined"
-linktitle="fa-ruler"
+title='Ruler font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Ruler font awesome icon CSS class is fa-ruler & CSS Content Code is  \f545'
+keywords =['Ruler, \f545,fa-ruler']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-ruler-vertical'
+next = 'fa-rupee-sign'
+linktitle = 'fa-ruler_1'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'true'
++++ 
+
+**`Ruler` font awesome icon css class name is `fa-ruler` and CSS Content Code is ` \f545`**.
+ 
+
+`Ruler` font awesome icon is part of solid icons. 
 
 
-fa-ruler icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-ruler</td><td>fa-ruler</td><td>f545</td></tr></tbody></table></div>
+{{%toc%}}
+## `Ruler` font awesome icon usage
+We can display `Ruler` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Ruler` font awesome icon CSS class name
+
+To display `Ruler` font awesome icon, add predefined class name i.e.,`fa-ruler` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Ruler` icon.
 
 
-## fa-ruler icon Usage
-
-To display fa-ruler icon add predefined class name i.e.,fa-ruler (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-ruler icon. i.e., fas.
-
+`Ruler` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-ruler'></i>
 
 ```
 
-<i class='fas fa-ruler'>fa-ruler</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-ruler'></i>
+
+</div>
+
+
+## `Ruler` font awesome icon CSS Content Code 
+
+We can display `Ruler` font awesome icon using it's CSS Content Code ` \f545` 
+
+Use the following HTML code 
+
+```
+<li><span class='Ruler fontawesomeicon'></span>Ruler</li>
 ```
 
-<i class='fas fa-ruler'>fa-ruler</i>
-
-
-
-
-## Change fa-ruler icon size
-To increase fa-ruler font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-ruler.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Ruler::before {
+   font: var(--fa-font-solid);
+    content: ' \f545';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Ruler::before {
+   font: var(--fa-font-solid);
+    content: ' \f545';
+ }</style>
+
+<li><span class='Ruler fontawesomeicon'></span>Ruler</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Ruler` font awesome icon SVG 
+
+Use the following icon SVG to display `Ruler` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M177.9 494.1c-18.7 18.7-49.1 18.7-67.9 0L17.9 401.9c-18.7-18.7-18.7-49.1 0-67.9l50.7-50.7 48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48 41.4-41.4 48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48 41.4-41.4 48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48 41.4-41.4 48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48 50.7-50.7c18.7-18.7 49.1-18.7 67.9 0l92.1 92.1c18.7 18.7 18.7 49.1 0 67.9L177.9 494.1z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M177.9 494.1c-18.7 18.7-49.1 18.7-67.9 0L17.9 401.9c-18.7-18.7-18.7-49.1 0-67.9l50.7-50.7 48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48 41.4-41.4 48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48 41.4-41.4 48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48 41.4-41.4 48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48 50.7-50.7c18.7-18.7 49.1-18.7 67.9 0l92.1 92.1c18.7 18.7 18.7 49.1 0 67.9L177.9 494.1z"/></svg>
+ Ruler displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M177.9 494.1c-18.7 18.7-49.1 18.7-67.9 0L17.9 401.9c-18.7-18.7-18.7-49.1 0-67.9l50.7-50.7 48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48 41.4-41.4 48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48 41.4-41.4 48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48 41.4-41.4 48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48 50.7-50.7c18.7-18.7 49.1-18.7 67.9 0l92.1 92.1c18.7 18.7 18.7 49.1 0 67.9L177.9 494.1z"/></svg>
+ Ruler displayed using SVG</p>
+</div>
+
+## Change `Ruler` font awesome icon size
+To increase `Ruler` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f545.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-ruler fa-lg'>fa-lg</i><br/>
+<i class='fas fa-ruler fa-2x'>fa-2x</i><br/>
+<i class='fas fa-ruler fa-3x'>fa-3x</i><br/>
+<i class='fas fa-ruler fa-4x'>fa-4x</i><br/>
+<i class='fas fa-ruler fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-ruler fa-lg'>fa-lg</i><br/>
 <i class='fas fa-ruler fa-2x'>fa-2x</i><br/>
 <i class='fas fa-ruler fa-3x'>fa-3x</i><br/>
 <i class='fas fa-ruler fa-4x'>fa-4x</i><br/>
 <i class='fas fa-ruler fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-ruler fa-lg'>fa-lg</i><br/>
-<i class='fas fa-ruler fa-2x'>fa-2x</i><br/>
-<i class='fas fa-ruler fa-3x'>fa-3x</i><br/>
-<i class='fas fa-ruler fa-4x'>fa-4x</i><br/>
-<i class='fas fa-ruler fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-ruler Icon with Fixed Width 
-
+## `Ruler` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-ruler icon and fa-home may not have same height and width.
+For example `Ruler` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-ruler fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-ruler fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-ruler fa-fw fa-3x'></i>Fixed Width<i class='fas fa-ruler fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-ruler fa-fw fa-3x'></i>Fixed Width<i class='fas fa-ruler fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-ruler fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-ruler fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-ruler Icon Border 
+</div>
 
-To add border to fa-ruler icon, use fa-border class.
-
-
-```
-<i class='fas fa-ruler fa-border fa-3x'></i>
-
+## `Ruler` font awesome icon Border
+To add border to `Ruler` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-ruler fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-ruler icon To the left
-
-To pull icon fa-ruler to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-ruler fa-border fa-3x'></i>
+</div>
+
+## Pull `Ruler` font awesome icon To the left
+To pull `Ruler` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-ruler fa-pull-left fa-3x'></i>
+  ... The text after Ruler Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-ruler fa-pull-left fa-3x'></i>
-  ... The text after fa-ruler Icon will be displayed on the right side of the icons
+  ... The text after Ruler Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Ruler` font awesome icon To the left
+To pull `Ruler` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-ruler fa-pull-left fa-3x'></i>
-  ... The text after fa-ruler Icon will be displayed on the right side of the icons
+<i class='fas fa-ruler fa-pull-right fa-3x'></i>
+  ... The text after Ruler Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-ruler icon To the right
-To pull icon fa-ruler to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-ruler fa-pull-right fa-3x'></i>
-  ... The text after fa-ruler Icon will be displayed on the left side of the icons
+  ... The text after Ruler Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-ruler fa-pull-right fa-3x'></i>
-  ... The text after fa-ruler Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-ruler icon using fa-spin
-To animate font awesome fa-ruler icon, use fa-spin class.
-
+## Animate `Ruler` font awesome icon
+To animate `Ruler` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-ruler fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-ruler fa-spin fa-3x'></i>
+</div>
 
+## Animate `Ruler` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Ruler` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-ruler icon with steps
-While animating the font awesome icon,We can rotate fa-ruler icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-ruler icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-ruler fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-ruler fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-ruler fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-ruler fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-ruler Icon using fa-rotate-x
-To rotate the font awesome icon fa-ruler, Use fa-rotate-x class
+## Rotate `Ruler` font awesome icon
+ To rotate `Ruler` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-ruler fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-ruler fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-ruler fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-ruler fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-ruler fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-ruler fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-ruler Icon using fa-flip-*
-To flip fa-ruler font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Ruler` font awesome icon
+ To flip `Ruler` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-ruler fa-3x'>F</i> Normal <br>
 <i class='fas fa-ruler fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-ruler fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-ruler fa-3x'>F</i> Normal <br>
 <i class='fas fa-ruler fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-ruler fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Ruler` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-ruler icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Ruler` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-ruler on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-ruler fa-stack-1x'></i>
+    </span>
+      Ruler on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-ruler fa-stack-1x fa-inverse'></i>
+    </span>
+      Ruler on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-ruler fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Ruler on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-ruler fa-stack-1x'></i>
     </span>
-      fa-ruler on fa-square<br>
+      Ruler on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-ruler fa-stack-1x fa-inverse'></i>
     </span>
-      fa-ruler on fa-circle<br>
+      Ruler on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-ruler fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-ruler on fa-ban
+      Ruler on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-ruler fa-stack-1x'></i>
-    </span>
-      fa-ruler on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-ruler fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-ruler on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-ruler fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-ruler on fa-ban
 </div>
-
-
-
-
-
 

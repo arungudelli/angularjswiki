@@ -1,187 +1,285 @@
+
 +++
-title="fa-wordpress icon in font awesome icons"
-summary="fa-wordpress icon in font awesome icons is part of brand (fab) icons"
-keywords=["fa-wordpress,f19a,fa-wordpress"]
-date="25-07-2020T22:59:21"
-lastmod="25-07-2020T22:59:21"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-won-sign"
-next="fa-wordpress-simple"
-linktitle="fa-wordpress"
+title='Wordpress font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Wordpress font awesome icon CSS class is fa-wordpress & CSS Content Code is  \f19a'
+keywords =['Wordpress, \f19a,fa-wordpress']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-wordpress-simple'
+next = 'fa-wpbeginner'
+linktitle = 'fa-wordpress_1'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'true'
++++ 
+
+**`Wordpress` font awesome icon css class name is `fa-wordpress` and CSS Content Code is ` \f19a`**.
+ 
+
+`Wordpress` font awesome icon is part of brands icons. 
 
 
-fa-wordpress icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-wordpress</td><td>fa-wordpress</td><td>f19a</td></tr></tbody></table></div>
+{{%toc%}}
+## `Wordpress` font awesome icon usage
+We can display `Wordpress` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Wordpress` font awesome icon CSS class name
+
+To display `Wordpress` font awesome icon, add predefined class name i.e.,`fa-wordpress` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Wordpress` icon.
 
 
-## fa-wordpress icon Usage
-
-To display fa-wordpress icon add predefined class name i.e.,fa-wordpress (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-wordpress icon. i.e., fab.
-
+`Wordpress` icon has 1 icon style i.e.,brands. 
+ We need to append icon style class `fab`.
+```
+<i class='fab fa-wordpress'></i>
 
 ```
 
-<i class='fab fa-wordpress'>fa-wordpress</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-wordpress'></i>
+
+</div>
+
+
+## `Wordpress` font awesome icon CSS Content Code 
+
+We can display `Wordpress` font awesome icon using it's CSS Content Code ` \f19a` 
+
+Use the following HTML code 
+
+```
+<li><span class='Wordpress fontawesomeicon'></span>Wordpress</li>
 ```
 
-<i class='fab fa-wordpress'>fa-wordpress</i>
-
-
-
-
-## Change fa-wordpress icon size
-To increase fa-wordpress font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-wordpress.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Wordpress::before {
+   font: var(--fa-font-brands);
+    content: ' \f19a';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Wordpress::before {
+   font: var(--fa-font-brands);
+    content: ' \f19a';
+ }</style>
+
+<li><span class='Wordpress fontawesomeicon'></span>Wordpress</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Wordpress` font awesome icon SVG 
+
+Use the following icon SVG to display `Wordpress` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M61.7 169.4l101.5 278C92.2 413 43.3 340.2 43.3 256c0-30.9 6.6-60.1 18.4-86.6zm337.9 75.9c0-26.3-9.4-44.5-17.5-58.7-10.8-17.5-20.9-32.4-20.9-49.9 0-19.6 14.8-37.8 35.7-37.8.9 0 1.8.1 2.8.2-37.9-34.7-88.3-55.9-143.7-55.9-74.3 0-139.7 38.1-177.8 95.9 5 .2 9.7.3 13.7.3 22.2 0 56.7-2.7 56.7-2.7 11.5-.7 12.8 16.2 1.4 17.5 0 0-11.5 1.3-24.3 2l77.5 230.4L249.8 247l-33.1-90.8c-11.5-.7-22.3-2-22.3-2-11.5-.7-10.1-18.2 1.3-17.5 0 0 35.1 2.7 56 2.7 22.2 0 56.7-2.7 56.7-2.7 11.5-.7 12.8 16.2 1.4 17.5 0 0-11.5 1.3-24.3 2l76.9 228.7 21.2-70.9c9-29.4 16-50.5 16-68.7zm-139.9 29.3l-63.8 185.5c19.1 5.6 39.2 8.7 60.1 8.7 24.8 0 48.5-4.3 70.6-12.1-.6-.9-1.1-1.9-1.5-2.9l-65.4-179.2zm183-120.7c.9 6.8 1.4 14 1.4 21.9 0 21.6-4 45.8-16.2 76.2l-65 187.9C426.2 403 468.7 334.5 468.7 256c0-37-9.4-71.8-26-102.1zM504 256c0 136.8-111.3 248-248 248C119.2 504 8 392.7 8 256 8 119.2 119.2 8 256 8c136.7 0 248 111.2 248 248zm-11.4 0c0-130.5-106.2-236.6-236.6-236.6C125.5 19.4 19.4 125.5 19.4 256S125.6 492.6 256 492.6c130.5 0 236.6-106.1 236.6-236.6z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M61.7 169.4l101.5 278C92.2 413 43.3 340.2 43.3 256c0-30.9 6.6-60.1 18.4-86.6zm337.9 75.9c0-26.3-9.4-44.5-17.5-58.7-10.8-17.5-20.9-32.4-20.9-49.9 0-19.6 14.8-37.8 35.7-37.8.9 0 1.8.1 2.8.2-37.9-34.7-88.3-55.9-143.7-55.9-74.3 0-139.7 38.1-177.8 95.9 5 .2 9.7.3 13.7.3 22.2 0 56.7-2.7 56.7-2.7 11.5-.7 12.8 16.2 1.4 17.5 0 0-11.5 1.3-24.3 2l77.5 230.4L249.8 247l-33.1-90.8c-11.5-.7-22.3-2-22.3-2-11.5-.7-10.1-18.2 1.3-17.5 0 0 35.1 2.7 56 2.7 22.2 0 56.7-2.7 56.7-2.7 11.5-.7 12.8 16.2 1.4 17.5 0 0-11.5 1.3-24.3 2l76.9 228.7 21.2-70.9c9-29.4 16-50.5 16-68.7zm-139.9 29.3l-63.8 185.5c19.1 5.6 39.2 8.7 60.1 8.7 24.8 0 48.5-4.3 70.6-12.1-.6-.9-1.1-1.9-1.5-2.9l-65.4-179.2zm183-120.7c.9 6.8 1.4 14 1.4 21.9 0 21.6-4 45.8-16.2 76.2l-65 187.9C426.2 403 468.7 334.5 468.7 256c0-37-9.4-71.8-26-102.1zM504 256c0 136.8-111.3 248-248 248C119.2 504 8 392.7 8 256 8 119.2 119.2 8 256 8c136.7 0 248 111.2 248 248zm-11.4 0c0-130.5-106.2-236.6-236.6-236.6C125.5 19.4 19.4 125.5 19.4 256S125.6 492.6 256 492.6c130.5 0 236.6-106.1 236.6-236.6z"/></svg>
+ Wordpress displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M61.7 169.4l101.5 278C92.2 413 43.3 340.2 43.3 256c0-30.9 6.6-60.1 18.4-86.6zm337.9 75.9c0-26.3-9.4-44.5-17.5-58.7-10.8-17.5-20.9-32.4-20.9-49.9 0-19.6 14.8-37.8 35.7-37.8.9 0 1.8.1 2.8.2-37.9-34.7-88.3-55.9-143.7-55.9-74.3 0-139.7 38.1-177.8 95.9 5 .2 9.7.3 13.7.3 22.2 0 56.7-2.7 56.7-2.7 11.5-.7 12.8 16.2 1.4 17.5 0 0-11.5 1.3-24.3 2l77.5 230.4L249.8 247l-33.1-90.8c-11.5-.7-22.3-2-22.3-2-11.5-.7-10.1-18.2 1.3-17.5 0 0 35.1 2.7 56 2.7 22.2 0 56.7-2.7 56.7-2.7 11.5-.7 12.8 16.2 1.4 17.5 0 0-11.5 1.3-24.3 2l76.9 228.7 21.2-70.9c9-29.4 16-50.5 16-68.7zm-139.9 29.3l-63.8 185.5c19.1 5.6 39.2 8.7 60.1 8.7 24.8 0 48.5-4.3 70.6-12.1-.6-.9-1.1-1.9-1.5-2.9l-65.4-179.2zm183-120.7c.9 6.8 1.4 14 1.4 21.9 0 21.6-4 45.8-16.2 76.2l-65 187.9C426.2 403 468.7 334.5 468.7 256c0-37-9.4-71.8-26-102.1zM504 256c0 136.8-111.3 248-248 248C119.2 504 8 392.7 8 256 8 119.2 119.2 8 256 8c136.7 0 248 111.2 248 248zm-11.4 0c0-130.5-106.2-236.6-236.6-236.6C125.5 19.4 19.4 125.5 19.4 256S125.6 492.6 256 492.6c130.5 0 236.6-106.1 236.6-236.6z"/></svg>
+ Wordpress displayed using SVG</p>
+</div>
+
+## Change `Wordpress` font awesome icon size
+To increase `Wordpress` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f19a.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fab fa-wordpress fa-lg'>fa-lg</i><br/>
+<i class='fab fa-wordpress fa-2x'>fa-2x</i><br/>
+<i class='fab fa-wordpress fa-3x'>fa-3x</i><br/>
+<i class='fab fa-wordpress fa-4x'>fa-4x</i><br/>
+<i class='fab fa-wordpress fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fab fa-wordpress fa-lg'>fa-lg</i><br/>
 <i class='fab fa-wordpress fa-2x'>fa-2x</i><br/>
 <i class='fab fa-wordpress fa-3x'>fa-3x</i><br/>
 <i class='fab fa-wordpress fa-4x'>fa-4x</i><br/>
 <i class='fab fa-wordpress fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fab fa-wordpress fa-lg'>fa-lg</i><br/>
-<i class='fab fa-wordpress fa-2x'>fa-2x</i><br/>
-<i class='fab fa-wordpress fa-3x'>fa-3x</i><br/>
-<i class='fab fa-wordpress fa-4x'>fa-4x</i><br/>
-<i class='fab fa-wordpress fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-wordpress Icon with Fixed Width 
-
+## `Wordpress` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-wordpress icon and fa-home may not have same height and width.
+For example `Wordpress` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fab fa-wordpress fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-wordpress fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fab fa-wordpress fa-fw fa-3x'></i>Fixed Width<i class='fab fa-wordpress fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fab fa-wordpress fa-fw fa-3x'></i>Fixed Width<i class='fab fa-wordpress fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fab fa-wordpress fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-wordpress fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-wordpress Icon Border 
+</div>
 
-To add border to fa-wordpress icon, use fa-border class.
-
-
-```
-<i class='fab fa-wordpress fa-border fa-3x'></i>
-
+## `Wordpress` font awesome icon Border
+To add border to `Wordpress` font awesome icon, use `fa-border` class.
 ```
 <i class='fab fa-wordpress fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-wordpress icon To the left
-
-To pull icon fa-wordpress to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-wordpress fa-border fa-3x'></i>
+</div>
+
+## Pull `Wordpress` font awesome icon To the left
+To pull `Wordpress` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fab fa-wordpress fa-pull-left fa-3x'></i>
+  ... The text after Wordpress Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-wordpress fa-pull-left fa-3x'></i>
-  ... The text after fa-wordpress Icon will be displayed on the right side of the icons
+  ... The text after Wordpress Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Wordpress` font awesome icon To the left
+To pull `Wordpress` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fab fa-wordpress fa-pull-left fa-3x'></i>
-  ... The text after fa-wordpress Icon will be displayed on the right side of the icons
+<i class='fab fa-wordpress fa-pull-right fa-3x'></i>
+  ... The text after Wordpress Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-wordpress icon To the right
-To pull icon fa-wordpress to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-wordpress fa-pull-right fa-3x'></i>
-  ... The text after fa-wordpress Icon will be displayed on the left side of the icons
+  ... The text after Wordpress Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fab fa-wordpress fa-pull-right fa-3x'></i>
-  ... The text after fa-wordpress Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-wordpress icon using fa-spin
-To animate font awesome fa-wordpress icon, use fa-spin class.
-
+## Animate `Wordpress` font awesome icon
+To animate `Wordpress` font awesome icon, use `fa-spin` class.
 ```
 <i class='fab fa-wordpress fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fab fa-wordpress fa-spin fa-3x'></i>
+</div>
 
+## Animate `Wordpress` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Wordpress` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-wordpress icon with steps
-While animating the font awesome icon,We can rotate fa-wordpress icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-wordpress icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fab fa-wordpress fa-pulse fa-spin fa-3x'></i>
-
+<i class='fab fa-wordpress fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fab fa-wordpress fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fab fa-wordpress fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-wordpress Icon using fa-rotate-x
-To rotate the font awesome icon fa-wordpress, Use fa-rotate-x class
+## Rotate `Wordpress` font awesome icon
+ To rotate `Wordpress` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fab fa-wordpress fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-wordpress fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fab fa-wordpress fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-wordpress fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fab fa-wordpress fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fab fa-wordpress fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-wordpress Icon using fa-flip-*
-To flip fa-wordpress font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Wordpress` font awesome icon
+ To flip `Wordpress` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fab fa-wordpress fa-3x'>F</i> Normal <br>
 <i class='fab fa-wordpress fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-wordpress fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fab fa-wordpress fa-3x'>F</i> Normal <br>
 <i class='fab fa-wordpress fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-wordpress fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Wordpress` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-wordpress icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Wordpress` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-wordpress on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fab fa-wordpress fa-stack-1x'></i>
+    </span>
+      Wordpress on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fab fa-wordpress fa-stack-1x fa-inverse'></i>
+    </span>
+      Wordpress on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fab fa-wordpress fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Wordpress on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fab fa-wordpress fa-stack-1x'></i>
     </span>
-      fa-wordpress on fa-square<br>
+      Wordpress on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fab fa-wordpress fa-stack-1x fa-inverse'></i>
     </span>
-      fa-wordpress on fa-circle<br>
+      Wordpress on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fab fa-wordpress fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-wordpress on fa-ban
+      Wordpress on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fab fa-wordpress fa-stack-1x'></i>
-    </span>
-      fa-wordpress on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fab fa-wordpress fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-wordpress on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fab fa-wordpress fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-wordpress on fa-ban
 </div>
-
-
-
-
-
 

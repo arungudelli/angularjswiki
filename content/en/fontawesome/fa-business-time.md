@@ -1,187 +1,285 @@
+
 +++
-title="fa-business-time icon in font awesome icons"
-summary="fa-business-time icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-business-time,f64a,fa-business-time"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-bus-alt"
-next="fa-buy-n-large"
-linktitle="fa-business-time"
+title='Business-Time font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Business-Time font awesome icon CSS class is fa-business-time & CSS Content Code is  \f64a'
+keywords =['Business-Time, \f64a,fa-business-time']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-bus'
+next = 'fa-c'
+linktitle = 'fa-business-time_1'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'true'
++++ 
+
+**`Business-Time` font awesome icon css class name is `fa-business-time` and CSS Content Code is ` \f64a`**.
+ 
+
+`Business-Time` font awesome icon is part of solid icons. 
 
 
-fa-business-time icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-business-time</td><td>fa-business-time</td><td>f64a</td></tr></tbody></table></div>
+{{%toc%}}
+## `Business-Time` font awesome icon usage
+We can display `Business-Time` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Business-Time` font awesome icon CSS class name
+
+To display `Business-Time` font awesome icon, add predefined class name i.e.,`fa-business-time` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Business-Time` icon.
 
 
-## fa-business-time icon Usage
-
-To display fa-business-time icon add predefined class name i.e.,fa-business-time (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-business-time icon. i.e., fas.
-
+`Business-Time` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-business-time'></i>
 
 ```
 
-<i class='fas fa-business-time'>fa-business-time</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-business-time'></i>
+
+</div>
+
+
+## `Business-Time` font awesome icon CSS Content Code 
+
+We can display `Business-Time` font awesome icon using it's CSS Content Code ` \f64a` 
+
+Use the following HTML code 
+
+```
+<li><span class='Business-Time fontawesomeicon'></span>Business-Time</li>
 ```
 
-<i class='fas fa-business-time'>fa-business-time</i>
-
-
-
-
-## Change fa-business-time icon size
-To increase fa-business-time font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-business-time.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Business-Time::before {
+   font: var(--fa-font-solid);
+    content: ' \f64a';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Business-Time::before {
+   font: var(--fa-font-solid);
+    content: ' \f64a';
+ }</style>
+
+<li><span class='Business-Time fontawesomeicon'></span>Business-Time</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Business-Time` font awesome icon SVG 
+
+Use the following icon SVG to display `Business-Time` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 352h8.2c32.3-39.1 81.1-64 135.8-64c5.4 0 10.7 .2 16 .7V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM320 352H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H360.2C335.1 449.6 320 410.5 320 368c0-5.4 .2-10.7 .7-16l-.7 0zm320 16c0-79.5-64.5-144-144-144s-144 64.5-144 144s64.5 144 144 144s144-64.5 144-144zM496 288c8.8 0 16 7.2 16 16v48h32c8.8 0 16 7.2 16 16s-7.2 16-16 16H496c-8.8 0-16-7.2-16-16V304c0-8.8 7.2-16 16-16z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 352h8.2c32.3-39.1 81.1-64 135.8-64c5.4 0 10.7 .2 16 .7V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM320 352H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H360.2C335.1 449.6 320 410.5 320 368c0-5.4 .2-10.7 .7-16l-.7 0zm320 16c0-79.5-64.5-144-144-144s-144 64.5-144 144s64.5 144 144 144s144-64.5 144-144zM496 288c8.8 0 16 7.2 16 16v48h32c8.8 0 16 7.2 16 16s-7.2 16-16 16H496c-8.8 0-16-7.2-16-16V304c0-8.8 7.2-16 16-16z"/></svg>
+ Business-Time displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 352h8.2c32.3-39.1 81.1-64 135.8-64c5.4 0 10.7 .2 16 .7V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM320 352H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H360.2C335.1 449.6 320 410.5 320 368c0-5.4 .2-10.7 .7-16l-.7 0zm320 16c0-79.5-64.5-144-144-144s-144 64.5-144 144s64.5 144 144 144s144-64.5 144-144zM496 288c8.8 0 16 7.2 16 16v48h32c8.8 0 16 7.2 16 16s-7.2 16-16 16H496c-8.8 0-16-7.2-16-16V304c0-8.8 7.2-16 16-16z"/></svg>
+ Business-Time displayed using SVG</p>
+</div>
+
+## Change `Business-Time` font awesome icon size
+To increase `Business-Time` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f64a.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-business-time fa-lg'>fa-lg</i><br/>
+<i class='fas fa-business-time fa-2x'>fa-2x</i><br/>
+<i class='fas fa-business-time fa-3x'>fa-3x</i><br/>
+<i class='fas fa-business-time fa-4x'>fa-4x</i><br/>
+<i class='fas fa-business-time fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-business-time fa-lg'>fa-lg</i><br/>
 <i class='fas fa-business-time fa-2x'>fa-2x</i><br/>
 <i class='fas fa-business-time fa-3x'>fa-3x</i><br/>
 <i class='fas fa-business-time fa-4x'>fa-4x</i><br/>
 <i class='fas fa-business-time fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-business-time fa-lg'>fa-lg</i><br/>
-<i class='fas fa-business-time fa-2x'>fa-2x</i><br/>
-<i class='fas fa-business-time fa-3x'>fa-3x</i><br/>
-<i class='fas fa-business-time fa-4x'>fa-4x</i><br/>
-<i class='fas fa-business-time fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-business-time Icon with Fixed Width 
-
+## `Business-Time` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-business-time icon and fa-home may not have same height and width.
+For example `Business-Time` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-business-time fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-business-time fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-business-time fa-fw fa-3x'></i>Fixed Width<i class='fas fa-business-time fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-business-time fa-fw fa-3x'></i>Fixed Width<i class='fas fa-business-time fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-business-time fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-business-time fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-business-time Icon Border 
+</div>
 
-To add border to fa-business-time icon, use fa-border class.
-
-
-```
-<i class='fas fa-business-time fa-border fa-3x'></i>
-
+## `Business-Time` font awesome icon Border
+To add border to `Business-Time` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-business-time fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-business-time icon To the left
-
-To pull icon fa-business-time to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-business-time fa-border fa-3x'></i>
+</div>
+
+## Pull `Business-Time` font awesome icon To the left
+To pull `Business-Time` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-business-time fa-pull-left fa-3x'></i>
+  ... The text after Business-Time Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-business-time fa-pull-left fa-3x'></i>
-  ... The text after fa-business-time Icon will be displayed on the right side of the icons
+  ... The text after Business-Time Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Business-Time` font awesome icon To the left
+To pull `Business-Time` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-business-time fa-pull-left fa-3x'></i>
-  ... The text after fa-business-time Icon will be displayed on the right side of the icons
+<i class='fas fa-business-time fa-pull-right fa-3x'></i>
+  ... The text after Business-Time Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-business-time icon To the right
-To pull icon fa-business-time to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-business-time fa-pull-right fa-3x'></i>
-  ... The text after fa-business-time Icon will be displayed on the left side of the icons
+  ... The text after Business-Time Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-business-time fa-pull-right fa-3x'></i>
-  ... The text after fa-business-time Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-business-time icon using fa-spin
-To animate font awesome fa-business-time icon, use fa-spin class.
-
+## Animate `Business-Time` font awesome icon
+To animate `Business-Time` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-business-time fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-business-time fa-spin fa-3x'></i>
+</div>
 
+## Animate `Business-Time` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Business-Time` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-business-time icon with steps
-While animating the font awesome icon,We can rotate fa-business-time icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-business-time icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-business-time fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-business-time fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-business-time fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-business-time fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-business-time Icon using fa-rotate-x
-To rotate the font awesome icon fa-business-time, Use fa-rotate-x class
+## Rotate `Business-Time` font awesome icon
+ To rotate `Business-Time` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-business-time fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-business-time fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-business-time fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-business-time fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-business-time fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-business-time fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-business-time Icon using fa-flip-*
-To flip fa-business-time font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Business-Time` font awesome icon
+ To flip `Business-Time` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-business-time fa-3x'>F</i> Normal <br>
 <i class='fas fa-business-time fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-business-time fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-business-time fa-3x'>F</i> Normal <br>
 <i class='fas fa-business-time fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-business-time fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Business-Time` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-business-time icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Business-Time` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-business-time on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-business-time fa-stack-1x'></i>
+    </span>
+      Business-Time on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-business-time fa-stack-1x fa-inverse'></i>
+    </span>
+      Business-Time on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-business-time fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Business-Time on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-business-time fa-stack-1x'></i>
     </span>
-      fa-business-time on fa-square<br>
+      Business-Time on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-business-time fa-stack-1x fa-inverse'></i>
     </span>
-      fa-business-time on fa-circle<br>
+      Business-Time on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-business-time fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-business-time on fa-ban
+      Business-Time on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-business-time fa-stack-1x'></i>
-    </span>
-      fa-business-time on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-business-time fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-business-time on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-business-time fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-business-time on fa-ban
 </div>
-
-
-
-
-
 

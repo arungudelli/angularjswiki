@@ -1,187 +1,285 @@
+
 +++
-title="fa-palette icon in font awesome icons"
-summary="fa-palette icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-palette,f53f,fa-palette"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-paint-roller"
-next="fa-palfed"
-linktitle="fa-palette"
+title='Palette font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Palette font awesome icon CSS class is fa-palette & CSS Content Code is  \f53f'
+keywords =['Palette, \f53f,fa-palette']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-paintbrush'
+next = 'fa-pallet'
+linktitle = 'fa-palette_1'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'true'
++++ 
+
+**`Palette` font awesome icon css class name is `fa-palette` and CSS Content Code is ` \f53f`**.
+ 
+
+`Palette` font awesome icon is part of solid icons. 
 
 
-fa-palette icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-palette</td><td>fa-palette</td><td>f53f</td></tr></tbody></table></div>
+{{%toc%}}
+## `Palette` font awesome icon usage
+We can display `Palette` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Palette` font awesome icon CSS class name
+
+To display `Palette` font awesome icon, add predefined class name i.e.,`fa-palette` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Palette` icon.
 
 
-## fa-palette icon Usage
-
-To display fa-palette icon add predefined class name i.e.,fa-palette (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-palette icon. i.e., fas.
-
+`Palette` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-palette'></i>
 
 ```
 
-<i class='fas fa-palette'>fa-palette</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-palette'></i>
+
+</div>
+
+
+## `Palette` font awesome icon CSS Content Code 
+
+We can display `Palette` font awesome icon using it's CSS Content Code ` \f53f` 
+
+Use the following HTML code 
+
+```
+<li><span class='Palette fontawesomeicon'></span>Palette</li>
 ```
 
-<i class='fas fa-palette'>fa-palette</i>
-
-
-
-
-## Change fa-palette icon size
-To increase fa-palette font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-palette.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Palette::before {
+   font: var(--fa-font-solid);
+    content: ' \f53f';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Palette::before {
+   font: var(--fa-font-solid);
+    content: ' \f53f';
+ }</style>
+
+<li><span class='Palette fontawesomeicon'></span>Palette</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Palette` font awesome icon SVG 
+
+Use the following icon SVG to display `Palette` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M512 256c0 .9 0 1.8 0 2.7c-.4 36.5-33.6 61.3-70.1 61.3H344c-26.5 0-48 21.5-48 48c0 3.4 .4 6.7 1 9.9c2.1 10.2 6.5 20 10.8 29.9c6.1 13.8 12.1 27.5 12.1 42c0 31.8-21.6 60.7-53.4 62c-3.5 .1-7 .2-10.6 .2C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256zM128 288c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32zm0-96c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32zM288 96c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32zm96 96c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M512 256c0 .9 0 1.8 0 2.7c-.4 36.5-33.6 61.3-70.1 61.3H344c-26.5 0-48 21.5-48 48c0 3.4 .4 6.7 1 9.9c2.1 10.2 6.5 20 10.8 29.9c6.1 13.8 12.1 27.5 12.1 42c0 31.8-21.6 60.7-53.4 62c-3.5 .1-7 .2-10.6 .2C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256zM128 288c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32zm0-96c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32zM288 96c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32zm96 96c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32z"/></svg>
+ Palette displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M512 256c0 .9 0 1.8 0 2.7c-.4 36.5-33.6 61.3-70.1 61.3H344c-26.5 0-48 21.5-48 48c0 3.4 .4 6.7 1 9.9c2.1 10.2 6.5 20 10.8 29.9c6.1 13.8 12.1 27.5 12.1 42c0 31.8-21.6 60.7-53.4 62c-3.5 .1-7 .2-10.6 .2C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256zM128 288c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32zm0-96c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32zM288 96c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32zm96 96c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32z"/></svg>
+ Palette displayed using SVG</p>
+</div>
+
+## Change `Palette` font awesome icon size
+To increase `Palette` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f53f.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-palette fa-lg'>fa-lg</i><br/>
+<i class='fas fa-palette fa-2x'>fa-2x</i><br/>
+<i class='fas fa-palette fa-3x'>fa-3x</i><br/>
+<i class='fas fa-palette fa-4x'>fa-4x</i><br/>
+<i class='fas fa-palette fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-palette fa-lg'>fa-lg</i><br/>
 <i class='fas fa-palette fa-2x'>fa-2x</i><br/>
 <i class='fas fa-palette fa-3x'>fa-3x</i><br/>
 <i class='fas fa-palette fa-4x'>fa-4x</i><br/>
 <i class='fas fa-palette fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-palette fa-lg'>fa-lg</i><br/>
-<i class='fas fa-palette fa-2x'>fa-2x</i><br/>
-<i class='fas fa-palette fa-3x'>fa-3x</i><br/>
-<i class='fas fa-palette fa-4x'>fa-4x</i><br/>
-<i class='fas fa-palette fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-palette Icon with Fixed Width 
-
+## `Palette` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-palette icon and fa-home may not have same height and width.
+For example `Palette` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-palette fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-palette fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-palette fa-fw fa-3x'></i>Fixed Width<i class='fas fa-palette fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-palette fa-fw fa-3x'></i>Fixed Width<i class='fas fa-palette fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-palette fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-palette fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-palette Icon Border 
+</div>
 
-To add border to fa-palette icon, use fa-border class.
-
-
-```
-<i class='fas fa-palette fa-border fa-3x'></i>
-
+## `Palette` font awesome icon Border
+To add border to `Palette` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-palette fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-palette icon To the left
-
-To pull icon fa-palette to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-palette fa-border fa-3x'></i>
+</div>
+
+## Pull `Palette` font awesome icon To the left
+To pull `Palette` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-palette fa-pull-left fa-3x'></i>
+  ... The text after Palette Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-palette fa-pull-left fa-3x'></i>
-  ... The text after fa-palette Icon will be displayed on the right side of the icons
+  ... The text after Palette Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Palette` font awesome icon To the left
+To pull `Palette` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-palette fa-pull-left fa-3x'></i>
-  ... The text after fa-palette Icon will be displayed on the right side of the icons
+<i class='fas fa-palette fa-pull-right fa-3x'></i>
+  ... The text after Palette Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-palette icon To the right
-To pull icon fa-palette to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-palette fa-pull-right fa-3x'></i>
-  ... The text after fa-palette Icon will be displayed on the left side of the icons
+  ... The text after Palette Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-palette fa-pull-right fa-3x'></i>
-  ... The text after fa-palette Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-palette icon using fa-spin
-To animate font awesome fa-palette icon, use fa-spin class.
-
+## Animate `Palette` font awesome icon
+To animate `Palette` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-palette fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-palette fa-spin fa-3x'></i>
+</div>
 
+## Animate `Palette` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Palette` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-palette icon with steps
-While animating the font awesome icon,We can rotate fa-palette icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-palette icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-palette fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-palette fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-palette fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-palette fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-palette Icon using fa-rotate-x
-To rotate the font awesome icon fa-palette, Use fa-rotate-x class
+## Rotate `Palette` font awesome icon
+ To rotate `Palette` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-palette fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-palette fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-palette fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-palette fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-palette fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-palette fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-palette Icon using fa-flip-*
-To flip fa-palette font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Palette` font awesome icon
+ To flip `Palette` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-palette fa-3x'>F</i> Normal <br>
 <i class='fas fa-palette fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-palette fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-palette fa-3x'>F</i> Normal <br>
 <i class='fas fa-palette fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-palette fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Palette` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-palette icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Palette` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-palette on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-palette fa-stack-1x'></i>
+    </span>
+      Palette on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-palette fa-stack-1x fa-inverse'></i>
+    </span>
+      Palette on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-palette fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Palette on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-palette fa-stack-1x'></i>
     </span>
-      fa-palette on fa-square<br>
+      Palette on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-palette fa-stack-1x fa-inverse'></i>
     </span>
-      fa-palette on fa-circle<br>
+      Palette on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-palette fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-palette on fa-ban
+      Palette on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-palette fa-stack-1x'></i>
-    </span>
-      fa-palette on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-palette fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-palette on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-palette fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-palette on fa-ban
 </div>
-
-
-
-
-
 

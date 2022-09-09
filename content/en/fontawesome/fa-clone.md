@@ -1,189 +1,287 @@
+
 +++
-title="fa-clone icon in font awesome icons"
-summary="fa-clone icon in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-clone,f24d,fa-clone"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-clock"
-next="fa-closed-captioning"
-linktitle="fa-clone"
+title='Clone font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Clone font awesome icon CSS class is fa-clone & CSS Content Code is  \f24d'
+keywords =['Clone, \f24d,fa-clone']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-clock'
+next = 'fa-closed-captioning'
+linktitle = 'fa-clone_1'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'true'
++++ 
+
+**`Clone` font awesome icon css class name is `fa-clone` and CSS Content Code is ` \f24d`**.
+
+`Clone` font awesome icon has 2 style types i.e.,  regular(far), solid(fas) 
 
 
-fa-clone icon in font awesome icons has 2 variants regular (far) and solid (fas)
+{{%toc%}}
+## `Clone` font awesome icon usage
+We can display `Clone` font awesome icon using 3 different ways depending upon our requirement.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-clone</td><td>fa-clone</td><td>f24d</td></tr></tbody></table></div>
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Clone` font awesome icon CSS class name
+
+To display `Clone` font awesome icon, add predefined class name i.e.,`fa-clone` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Clone` icon.
 
 
-## fa-clone icon Usage
+ `Clone` font awesome icon has 2 icon styles.
+ To Display regular icon use `far` class. 
+ To Display solid icon use `fas` class. 
 
-To display fa-clone icon add predefined class name i.e.,fa-clone (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-clone icon. i.e., fas,far.
-
+```
+<i class='far fa-clone'></i>
+<i class='fas fa-clone'></i>
 
 ```
 
-<i class='fas fa-clone'>fa-clone</i>
-<i class='far fa-clone'>fa-clone</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='far fa-clone'></i>
+<i class='fas fa-clone'></i>
+
+</div>
+
+
+## `Clone` font awesome icon CSS Content Code 
+
+We can display `Clone` font awesome icon using it's CSS Content Code ` \f24d` 
+
+Use the following HTML code 
+
+```
+<li><span class='Clone fontawesomeicon'></span>Clone</li>
 ```
 
-<i class='fas fa-clone'>fa-clone</i>
-<i class='far fa-clone'>fa-clone</i>
-
-
-
-
-## Change fa-clone icon size
-To increase fa-clone font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-clone.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Clone::before {
+   font: var(--fa-font-solid);
+    content: ' \f24d';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Clone::before {
+   font: var(--fa-font-solid);
+    content: ' \f24d';
+ }</style>
+
+<li><span class='Clone fontawesomeicon'></span>Clone</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Clone` font awesome icon SVG 
+
+Use the following icon SVG to display `Clone` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H224c-53 0-96-43-96-96V160H64c-35.3 0-64 28.7-64 64V448zm224-96H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H224c-53 0-96-43-96-96V160H64c-35.3 0-64 28.7-64 64V448zm224-96H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64z"/></svg>
+ Clone displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H224c-53 0-96-43-96-96V160H64c-35.3 0-64 28.7-64 64V448zm224-96H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64z"/></svg>
+ Clone displayed using SVG</p>
+</div>
+
+## Change `Clone` font awesome icon size
+To increase `Clone` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f24d.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-clone fa-lg'>fa-lg</i><br/>
+<i class='fas fa-clone fa-2x'>fa-2x</i><br/>
+<i class='fas fa-clone fa-3x'>fa-3x</i><br/>
+<i class='fas fa-clone fa-4x'>fa-4x</i><br/>
+<i class='fas fa-clone fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-clone fa-lg'>fa-lg</i><br/>
 <i class='fas fa-clone fa-2x'>fa-2x</i><br/>
 <i class='fas fa-clone fa-3x'>fa-3x</i><br/>
 <i class='fas fa-clone fa-4x'>fa-4x</i><br/>
 <i class='fas fa-clone fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-clone fa-lg'>fa-lg</i><br/>
-<i class='fas fa-clone fa-2x'>fa-2x</i><br/>
-<i class='fas fa-clone fa-3x'>fa-3x</i><br/>
-<i class='fas fa-clone fa-4x'>fa-4x</i><br/>
-<i class='fas fa-clone fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-clone Icon with Fixed Width 
-
+## `Clone` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-clone icon and fa-home may not have same height and width.
+For example `Clone` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-clone fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-clone fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-clone fa-fw fa-3x'></i>Fixed Width<i class='fas fa-clone fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-clone fa-fw fa-3x'></i>Fixed Width<i class='fas fa-clone fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-clone fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-clone fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-clone Icon Border 
+</div>
 
-To add border to fa-clone icon, use fa-border class.
-
-
-```
-<i class='fas fa-clone fa-border fa-3x'></i>
-
+## `Clone` font awesome icon Border
+To add border to `Clone` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-clone fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-clone icon To the left
-
-To pull icon fa-clone to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-clone fa-border fa-3x'></i>
+</div>
+
+## Pull `Clone` font awesome icon To the left
+To pull `Clone` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-clone fa-pull-left fa-3x'></i>
+  ... The text after Clone Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-clone fa-pull-left fa-3x'></i>
-  ... The text after fa-clone Icon will be displayed on the right side of the icons
+  ... The text after Clone Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Clone` font awesome icon To the left
+To pull `Clone` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-clone fa-pull-left fa-3x'></i>
-  ... The text after fa-clone Icon will be displayed on the right side of the icons
+<i class='fas fa-clone fa-pull-right fa-3x'></i>
+  ... The text after Clone Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-clone icon To the right
-To pull icon fa-clone to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-clone fa-pull-right fa-3x'></i>
-  ... The text after fa-clone Icon will be displayed on the left side of the icons
+  ... The text after Clone Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-clone fa-pull-right fa-3x'></i>
-  ... The text after fa-clone Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-clone icon using fa-spin
-To animate font awesome fa-clone icon, use fa-spin class.
-
+## Animate `Clone` font awesome icon
+To animate `Clone` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-clone fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-clone fa-spin fa-3x'></i>
+</div>
 
+## Animate `Clone` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Clone` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-clone icon with steps
-While animating the font awesome icon,We can rotate fa-clone icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-clone icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-clone fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-clone fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-clone fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-clone fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-clone Icon using fa-rotate-x
-To rotate the font awesome icon fa-clone, Use fa-rotate-x class
+## Rotate `Clone` font awesome icon
+ To rotate `Clone` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-clone fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-clone fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -192,86 +290,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-clone fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-clone fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-clone fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-clone fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-clone Icon using fa-flip-*
-To flip fa-clone font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Clone` font awesome icon
+ To flip `Clone` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-clone fa-3x'>F</i> Normal <br>
 <i class='fas fa-clone fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-clone fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-clone fa-3x'>F</i> Normal <br>
 <i class='fas fa-clone fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-clone fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Clone` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-clone icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Clone` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-clone on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-clone fa-stack-1x'></i>
+    </span>
+      Clone on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-clone fa-stack-1x fa-inverse'></i>
+    </span>
+      Clone on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-clone fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Clone on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-clone fa-stack-1x'></i>
     </span>
-      fa-clone on fa-square<br>
+      Clone on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-clone fa-stack-1x fa-inverse'></i>
     </span>
-      fa-clone on fa-circle<br>
+      Clone on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-clone fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-clone on fa-ban
+      Clone on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-clone fa-stack-1x'></i>
-    </span>
-      fa-clone on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-clone fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-clone on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-clone fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-clone on fa-ban
 </div>
-
-
-
-
-
 

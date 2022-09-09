@@ -1,187 +1,285 @@
+
 +++
-title="fa-ankh icon in font awesome icons"
-summary="fa-ankh icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-ankh,f644,fa-ankh"]
-date="25-07-2020T22:59:19"
-lastmod="25-07-2020T22:59:19"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-angular"
-next="fa-app-store"
-linktitle="fa-ankh"
+title='Ankh font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Ankh font awesome icon CSS class is fa-ankh & CSS Content Code is  \f644'
+keywords =['Ankh, \f644,fa-ankh']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-angles-up'
+next = 'fa-apple-whole'
+linktitle = 'fa-ankh_1'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'true'
++++ 
+
+**`Ankh` font awesome icon css class name is `fa-ankh` and CSS Content Code is ` \f644`**.
+ 
+
+`Ankh` font awesome icon is part of solid icons. 
 
 
-fa-ankh icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-ankh</td><td>fa-ankh</td><td>f644</td></tr></tbody></table></div>
+{{%toc%}}
+## `Ankh` font awesome icon usage
+We can display `Ankh` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Ankh` font awesome icon CSS class name
+
+To display `Ankh` font awesome icon, add predefined class name i.e.,`fa-ankh` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Ankh` icon.
 
 
-## fa-ankh icon Usage
-
-To display fa-ankh icon add predefined class name i.e.,fa-ankh (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-ankh icon. i.e., fas.
-
+`Ankh` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-ankh'></i>
 
 ```
 
-<i class='fas fa-ankh'>fa-ankh</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-ankh'></i>
+
+</div>
+
+
+## `Ankh` font awesome icon CSS Content Code 
+
+We can display `Ankh` font awesome icon using it's CSS Content Code ` \f644` 
+
+Use the following HTML code 
+
+```
+<li><span class='Ankh fontawesomeicon'></span>Ankh</li>
 ```
 
-<i class='fas fa-ankh'>fa-ankh</i>
-
-
-
-
-## Change fa-ankh icon size
-To increase fa-ankh font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-ankh.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Ankh::before {
+   font: var(--fa-font-solid);
+    content: ' \f644';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Ankh::before {
+   font: var(--fa-font-solid);
+    content: ' \f644';
+ }</style>
+
+<li><span class='Ankh fontawesomeicon'></span>Ankh</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Ankh` font awesome icon SVG 
+
+Use the following icon SVG to display `Ankh` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M96 128c0-35.3 28.7-64 64-64s64 28.7 64 64c0 41.6-20.7 76.6-46.6 104.1c-5.9 6.2-11.8 11.8-17.4 16.7c-5.6-4.9-11.5-10.5-17.4-16.7C116.7 204.6 96 169.6 96 128zM160 0C89.3 0 32 57.3 32 128c0 52.4 21.5 95.5 46.8 128H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h96V480c0 17.7 14.3 32 32 32s32-14.3 32-32V320h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H241.2c25.4-32.5 46.8-75.6 46.8-128C288 57.3 230.7 0 160 0z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M96 128c0-35.3 28.7-64 64-64s64 28.7 64 64c0 41.6-20.7 76.6-46.6 104.1c-5.9 6.2-11.8 11.8-17.4 16.7c-5.6-4.9-11.5-10.5-17.4-16.7C116.7 204.6 96 169.6 96 128zM160 0C89.3 0 32 57.3 32 128c0 52.4 21.5 95.5 46.8 128H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h96V480c0 17.7 14.3 32 32 32s32-14.3 32-32V320h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H241.2c25.4-32.5 46.8-75.6 46.8-128C288 57.3 230.7 0 160 0z"/></svg>
+ Ankh displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M96 128c0-35.3 28.7-64 64-64s64 28.7 64 64c0 41.6-20.7 76.6-46.6 104.1c-5.9 6.2-11.8 11.8-17.4 16.7c-5.6-4.9-11.5-10.5-17.4-16.7C116.7 204.6 96 169.6 96 128zM160 0C89.3 0 32 57.3 32 128c0 52.4 21.5 95.5 46.8 128H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h96V480c0 17.7 14.3 32 32 32s32-14.3 32-32V320h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H241.2c25.4-32.5 46.8-75.6 46.8-128C288 57.3 230.7 0 160 0z"/></svg>
+ Ankh displayed using SVG</p>
+</div>
+
+## Change `Ankh` font awesome icon size
+To increase `Ankh` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f644.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-ankh fa-lg'>fa-lg</i><br/>
+<i class='fas fa-ankh fa-2x'>fa-2x</i><br/>
+<i class='fas fa-ankh fa-3x'>fa-3x</i><br/>
+<i class='fas fa-ankh fa-4x'>fa-4x</i><br/>
+<i class='fas fa-ankh fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-ankh fa-lg'>fa-lg</i><br/>
 <i class='fas fa-ankh fa-2x'>fa-2x</i><br/>
 <i class='fas fa-ankh fa-3x'>fa-3x</i><br/>
 <i class='fas fa-ankh fa-4x'>fa-4x</i><br/>
 <i class='fas fa-ankh fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-ankh fa-lg'>fa-lg</i><br/>
-<i class='fas fa-ankh fa-2x'>fa-2x</i><br/>
-<i class='fas fa-ankh fa-3x'>fa-3x</i><br/>
-<i class='fas fa-ankh fa-4x'>fa-4x</i><br/>
-<i class='fas fa-ankh fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-ankh Icon with Fixed Width 
-
+## `Ankh` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-ankh icon and fa-home may not have same height and width.
+For example `Ankh` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-ankh fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-ankh fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-ankh fa-fw fa-3x'></i>Fixed Width<i class='fas fa-ankh fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-ankh fa-fw fa-3x'></i>Fixed Width<i class='fas fa-ankh fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-ankh fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-ankh fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-ankh Icon Border 
+</div>
 
-To add border to fa-ankh icon, use fa-border class.
-
-
-```
-<i class='fas fa-ankh fa-border fa-3x'></i>
-
+## `Ankh` font awesome icon Border
+To add border to `Ankh` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-ankh fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-ankh icon To the left
-
-To pull icon fa-ankh to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-ankh fa-border fa-3x'></i>
+</div>
+
+## Pull `Ankh` font awesome icon To the left
+To pull `Ankh` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-ankh fa-pull-left fa-3x'></i>
+  ... The text after Ankh Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-ankh fa-pull-left fa-3x'></i>
-  ... The text after fa-ankh Icon will be displayed on the right side of the icons
+  ... The text after Ankh Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Ankh` font awesome icon To the left
+To pull `Ankh` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-ankh fa-pull-left fa-3x'></i>
-  ... The text after fa-ankh Icon will be displayed on the right side of the icons
+<i class='fas fa-ankh fa-pull-right fa-3x'></i>
+  ... The text after Ankh Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-ankh icon To the right
-To pull icon fa-ankh to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-ankh fa-pull-right fa-3x'></i>
-  ... The text after fa-ankh Icon will be displayed on the left side of the icons
+  ... The text after Ankh Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-ankh fa-pull-right fa-3x'></i>
-  ... The text after fa-ankh Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-ankh icon using fa-spin
-To animate font awesome fa-ankh icon, use fa-spin class.
-
+## Animate `Ankh` font awesome icon
+To animate `Ankh` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-ankh fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-ankh fa-spin fa-3x'></i>
+</div>
 
+## Animate `Ankh` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Ankh` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-ankh icon with steps
-While animating the font awesome icon,We can rotate fa-ankh icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-ankh icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-ankh fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-ankh fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-ankh fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-ankh fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-ankh Icon using fa-rotate-x
-To rotate the font awesome icon fa-ankh, Use fa-rotate-x class
+## Rotate `Ankh` font awesome icon
+ To rotate `Ankh` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-ankh fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-ankh fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-ankh fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-ankh fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-ankh fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-ankh fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-ankh Icon using fa-flip-*
-To flip fa-ankh font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Ankh` font awesome icon
+ To flip `Ankh` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-ankh fa-3x'>F</i> Normal <br>
 <i class='fas fa-ankh fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-ankh fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-ankh fa-3x'>F</i> Normal <br>
 <i class='fas fa-ankh fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-ankh fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Ankh` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-ankh icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Ankh` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-ankh on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-ankh fa-stack-1x'></i>
+    </span>
+      Ankh on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-ankh fa-stack-1x fa-inverse'></i>
+    </span>
+      Ankh on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-ankh fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Ankh on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-ankh fa-stack-1x'></i>
     </span>
-      fa-ankh on fa-square<br>
+      Ankh on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-ankh fa-stack-1x fa-inverse'></i>
     </span>
-      fa-ankh on fa-circle<br>
+      Ankh on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-ankh fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-ankh on fa-ban
+      Ankh on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-ankh fa-stack-1x'></i>
-    </span>
-      fa-ankh on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-ankh fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-ankh on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-ankh fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-ankh on fa-ban
 </div>
-
-
-
-
-
 

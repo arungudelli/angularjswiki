@@ -1,187 +1,285 @@
+
 +++
-title="fa-network-wired icon in font awesome icons"
-summary="fa-network-wired icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-network-wired,f6ff,fa-network-wired"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-neos"
-next="fa-neuter"
-linktitle="fa-network-wired"
+title='Network-Wired font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Network-Wired font awesome icon CSS class is fa-network-wired & CSS Content Code is  \f6ff'
+keywords =['Network-Wired, \f6ff,fa-network-wired']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-naira-sign'
+next = 'fa-neuter'
+linktitle = 'fa-network-wired_1'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'true'
++++ 
+
+**`Network-Wired` font awesome icon css class name is `fa-network-wired` and CSS Content Code is ` \f6ff`**.
+ 
+
+`Network-Wired` font awesome icon is part of solid icons. 
 
 
-fa-network-wired icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-network-wired</td><td>fa-network-wired</td><td>f6ff</td></tr></tbody></table></div>
+{{%toc%}}
+## `Network-Wired` font awesome icon usage
+We can display `Network-Wired` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Network-Wired` font awesome icon CSS class name
+
+To display `Network-Wired` font awesome icon, add predefined class name i.e.,`fa-network-wired` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Network-Wired` icon.
 
 
-## fa-network-wired icon Usage
-
-To display fa-network-wired icon add predefined class name i.e.,fa-network-wired (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-network-wired icon. i.e., fas.
-
+`Network-Wired` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-network-wired'></i>
 
 ```
 
-<i class='fas fa-network-wired'>fa-network-wired</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-network-wired'></i>
+
+</div>
+
+
+## `Network-Wired` font awesome icon CSS Content Code 
+
+We can display `Network-Wired` font awesome icon using it's CSS Content Code ` \f6ff` 
+
+Use the following HTML code 
+
+```
+<li><span class='Network-Wired fontawesomeicon'></span>Network-Wired</li>
 ```
 
-<i class='fas fa-network-wired'>fa-network-wired</i>
-
-
-
-
-## Change fa-network-wired icon size
-To increase fa-network-wired font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-network-wired.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Network-Wired::before {
+   font: var(--fa-font-solid);
+    content: ' \f6ff';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Network-Wired::before {
+   font: var(--fa-font-solid);
+    content: ' \f6ff';
+ }</style>
+
+<li><span class='Network-Wired fontawesomeicon'></span>Network-Wired</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Network-Wired` font awesome icon SVG 
+
+Use the following icon SVG to display `Network-Wired` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M256 64H384v64H256V64zM240 0c-26.5 0-48 21.5-48 48v96c0 26.5 21.5 48 48 48h48v32H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h96v32H80c-26.5 0-48 21.5-48 48v96c0 26.5 21.5 48 48 48H240c26.5 0 48-21.5 48-48V368c0-26.5-21.5-48-48-48H192V288H448v32H400c-26.5 0-48 21.5-48 48v96c0 26.5 21.5 48 48 48H560c26.5 0 48-21.5 48-48V368c0-26.5-21.5-48-48-48H512V288h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H352V192h48c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H240zM96 448V384H224v64H96zm320-64H544v64H416V384z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M256 64H384v64H256V64zM240 0c-26.5 0-48 21.5-48 48v96c0 26.5 21.5 48 48 48h48v32H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h96v32H80c-26.5 0-48 21.5-48 48v96c0 26.5 21.5 48 48 48H240c26.5 0 48-21.5 48-48V368c0-26.5-21.5-48-48-48H192V288H448v32H400c-26.5 0-48 21.5-48 48v96c0 26.5 21.5 48 48 48H560c26.5 0 48-21.5 48-48V368c0-26.5-21.5-48-48-48H512V288h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H352V192h48c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H240zM96 448V384H224v64H96zm320-64H544v64H416V384z"/></svg>
+ Network-Wired displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M256 64H384v64H256V64zM240 0c-26.5 0-48 21.5-48 48v96c0 26.5 21.5 48 48 48h48v32H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h96v32H80c-26.5 0-48 21.5-48 48v96c0 26.5 21.5 48 48 48H240c26.5 0 48-21.5 48-48V368c0-26.5-21.5-48-48-48H192V288H448v32H400c-26.5 0-48 21.5-48 48v96c0 26.5 21.5 48 48 48H560c26.5 0 48-21.5 48-48V368c0-26.5-21.5-48-48-48H512V288h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H352V192h48c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H240zM96 448V384H224v64H96zm320-64H544v64H416V384z"/></svg>
+ Network-Wired displayed using SVG</p>
+</div>
+
+## Change `Network-Wired` font awesome icon size
+To increase `Network-Wired` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f6ff.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-network-wired fa-lg'>fa-lg</i><br/>
+<i class='fas fa-network-wired fa-2x'>fa-2x</i><br/>
+<i class='fas fa-network-wired fa-3x'>fa-3x</i><br/>
+<i class='fas fa-network-wired fa-4x'>fa-4x</i><br/>
+<i class='fas fa-network-wired fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-network-wired fa-lg'>fa-lg</i><br/>
 <i class='fas fa-network-wired fa-2x'>fa-2x</i><br/>
 <i class='fas fa-network-wired fa-3x'>fa-3x</i><br/>
 <i class='fas fa-network-wired fa-4x'>fa-4x</i><br/>
 <i class='fas fa-network-wired fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-network-wired fa-lg'>fa-lg</i><br/>
-<i class='fas fa-network-wired fa-2x'>fa-2x</i><br/>
-<i class='fas fa-network-wired fa-3x'>fa-3x</i><br/>
-<i class='fas fa-network-wired fa-4x'>fa-4x</i><br/>
-<i class='fas fa-network-wired fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-network-wired Icon with Fixed Width 
-
+## `Network-Wired` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-network-wired icon and fa-home may not have same height and width.
+For example `Network-Wired` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-network-wired fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-network-wired fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-network-wired fa-fw fa-3x'></i>Fixed Width<i class='fas fa-network-wired fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-network-wired fa-fw fa-3x'></i>Fixed Width<i class='fas fa-network-wired fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-network-wired fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-network-wired fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-network-wired Icon Border 
+</div>
 
-To add border to fa-network-wired icon, use fa-border class.
-
-
-```
-<i class='fas fa-network-wired fa-border fa-3x'></i>
-
+## `Network-Wired` font awesome icon Border
+To add border to `Network-Wired` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-network-wired fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-network-wired icon To the left
-
-To pull icon fa-network-wired to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-network-wired fa-border fa-3x'></i>
+</div>
+
+## Pull `Network-Wired` font awesome icon To the left
+To pull `Network-Wired` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-network-wired fa-pull-left fa-3x'></i>
+  ... The text after Network-Wired Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-network-wired fa-pull-left fa-3x'></i>
-  ... The text after fa-network-wired Icon will be displayed on the right side of the icons
+  ... The text after Network-Wired Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Network-Wired` font awesome icon To the left
+To pull `Network-Wired` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-network-wired fa-pull-left fa-3x'></i>
-  ... The text after fa-network-wired Icon will be displayed on the right side of the icons
+<i class='fas fa-network-wired fa-pull-right fa-3x'></i>
+  ... The text after Network-Wired Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-network-wired icon To the right
-To pull icon fa-network-wired to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-network-wired fa-pull-right fa-3x'></i>
-  ... The text after fa-network-wired Icon will be displayed on the left side of the icons
+  ... The text after Network-Wired Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-network-wired fa-pull-right fa-3x'></i>
-  ... The text after fa-network-wired Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-network-wired icon using fa-spin
-To animate font awesome fa-network-wired icon, use fa-spin class.
-
+## Animate `Network-Wired` font awesome icon
+To animate `Network-Wired` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-network-wired fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-network-wired fa-spin fa-3x'></i>
+</div>
 
+## Animate `Network-Wired` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Network-Wired` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-network-wired icon with steps
-While animating the font awesome icon,We can rotate fa-network-wired icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-network-wired icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-network-wired fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-network-wired fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-network-wired fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-network-wired fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-network-wired Icon using fa-rotate-x
-To rotate the font awesome icon fa-network-wired, Use fa-rotate-x class
+## Rotate `Network-Wired` font awesome icon
+ To rotate `Network-Wired` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-network-wired fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-network-wired fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-network-wired fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-network-wired fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-network-wired fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-network-wired fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-network-wired Icon using fa-flip-*
-To flip fa-network-wired font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Network-Wired` font awesome icon
+ To flip `Network-Wired` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-network-wired fa-3x'>F</i> Normal <br>
 <i class='fas fa-network-wired fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-network-wired fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-network-wired fa-3x'>F</i> Normal <br>
 <i class='fas fa-network-wired fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-network-wired fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Network-Wired` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-network-wired icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Network-Wired` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-network-wired on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-network-wired fa-stack-1x'></i>
+    </span>
+      Network-Wired on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-network-wired fa-stack-1x fa-inverse'></i>
+    </span>
+      Network-Wired on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-network-wired fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Network-Wired on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-network-wired fa-stack-1x'></i>
     </span>
-      fa-network-wired on fa-square<br>
+      Network-Wired on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-network-wired fa-stack-1x fa-inverse'></i>
     </span>
-      fa-network-wired on fa-circle<br>
+      Network-Wired on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-network-wired fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-network-wired on fa-ban
+      Network-Wired on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-network-wired fa-stack-1x'></i>
-    </span>
-      fa-network-wired on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-network-wired fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-network-wired on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-network-wired fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-network-wired on fa-ban
 </div>
-
-
-
-
-
 

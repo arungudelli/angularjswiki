@@ -1,187 +1,285 @@
+
 +++
-title="fa-hanukiah icon in font awesome icons"
-summary="fa-hanukiah icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-hanukiah,f6e6,fa-hanukiah"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-handshake-slash"
-next="fa-hard-hat"
-linktitle="fa-hanukiah"
+title='Hanukiah font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Hanukiah font awesome icon CSS class is fa-hanukiah & CSS Content Code is  \f6e6'
+keywords =['Hanukiah, \f6e6,fa-hanukiah']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-handshake'
+next = 'fa-hard-drive'
+linktitle = 'fa-hanukiah_1'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'true'
++++ 
+
+**`Hanukiah` font awesome icon css class name is `fa-hanukiah` and CSS Content Code is ` \f6e6`**.
+ 
+
+`Hanukiah` font awesome icon is part of solid icons. 
 
 
-fa-hanukiah icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-hanukiah</td><td>fa-hanukiah</td><td>f6e6</td></tr></tbody></table></div>
+{{%toc%}}
+## `Hanukiah` font awesome icon usage
+We can display `Hanukiah` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Hanukiah` font awesome icon CSS class name
+
+To display `Hanukiah` font awesome icon, add predefined class name i.e.,`fa-hanukiah` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Hanukiah` icon.
 
 
-## fa-hanukiah icon Usage
-
-To display fa-hanukiah icon add predefined class name i.e.,fa-hanukiah (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-hanukiah icon. i.e., fas.
-
+`Hanukiah` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-hanukiah'></i>
 
 ```
 
-<i class='fas fa-hanukiah'>fa-hanukiah</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-hanukiah'></i>
+
+</div>
+
+
+## `Hanukiah` font awesome icon CSS Content Code 
+
+We can display `Hanukiah` font awesome icon using it's CSS Content Code ` \f6e6` 
+
+Use the following HTML code 
+
+```
+<li><span class='Hanukiah fontawesomeicon'></span>Hanukiah</li>
 ```
 
-<i class='fas fa-hanukiah'>fa-hanukiah</i>
-
-
-
-
-## Change fa-hanukiah icon size
-To increase fa-hanukiah font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-hanukiah.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Hanukiah::before {
+   font: var(--fa-font-solid);
+    content: ' \f6e6';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Hanukiah::before {
+   font: var(--fa-font-solid);
+    content: ' \f6e6';
+ }</style>
+
+<li><span class='Hanukiah fontawesomeicon'></span>Hanukiah</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Hanukiah` font awesome icon SVG 
+
+Use the following icon SVG to display `Hanukiah` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M314.2 3.3C309.1 12.1 296 36.6 296 56c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7C324.6 1.2 322.4 0 320 0s-4.6 1.2-5.8 3.3zm-288 48C21.1 60.1 8 84.6 8 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7C36.6 49.2 34.4 48 32 48s-4.6 1.2-5.8 3.3zM88 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C101.1 60.1 88 84.6 88 104zm82.2-52.7C165.1 60.1 152 84.6 152 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3zM216 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C229.1 60.1 216 84.6 216 104zM394.2 51.3C389.1 60.1 376 84.6 376 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3zM440 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C453.1 60.1 440 84.6 440 104zm82.2-52.7C517.1 60.1 504 84.6 504 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3zM584 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C597.1 60.1 584 84.6 584 104zM112 160c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zm64 0c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zm64 0c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zm160 0c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zm64 0c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zm64 0c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zM352 144c0-17.7-14.3-32-32-32s-32 14.3-32 32V320H96c-17.7 0-32-14.3-32-32V192c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 53 43 96 96 96H288v64H160c-17.7 0-32 14.3-32 32s14.3 32 32 32H320 480c17.7 0 32-14.3 32-32s-14.3-32-32-32H352V384H544c53 0 96-43 96-96V192c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7-14.3 32-32 32H352V144z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M314.2 3.3C309.1 12.1 296 36.6 296 56c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7C324.6 1.2 322.4 0 320 0s-4.6 1.2-5.8 3.3zm-288 48C21.1 60.1 8 84.6 8 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7C36.6 49.2 34.4 48 32 48s-4.6 1.2-5.8 3.3zM88 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C101.1 60.1 88 84.6 88 104zm82.2-52.7C165.1 60.1 152 84.6 152 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3zM216 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C229.1 60.1 216 84.6 216 104zM394.2 51.3C389.1 60.1 376 84.6 376 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3zM440 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C453.1 60.1 440 84.6 440 104zm82.2-52.7C517.1 60.1 504 84.6 504 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3zM584 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C597.1 60.1 584 84.6 584 104zM112 160c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zm64 0c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zm64 0c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zm160 0c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zm64 0c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zm64 0c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zM352 144c0-17.7-14.3-32-32-32s-32 14.3-32 32V320H96c-17.7 0-32-14.3-32-32V192c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 53 43 96 96 96H288v64H160c-17.7 0-32 14.3-32 32s14.3 32 32 32H320 480c17.7 0 32-14.3 32-32s-14.3-32-32-32H352V384H544c53 0 96-43 96-96V192c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7-14.3 32-32 32H352V144z"/></svg>
+ Hanukiah displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M314.2 3.3C309.1 12.1 296 36.6 296 56c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7C324.6 1.2 322.4 0 320 0s-4.6 1.2-5.8 3.3zm-288 48C21.1 60.1 8 84.6 8 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7C36.6 49.2 34.4 48 32 48s-4.6 1.2-5.8 3.3zM88 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C101.1 60.1 88 84.6 88 104zm82.2-52.7C165.1 60.1 152 84.6 152 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3zM216 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C229.1 60.1 216 84.6 216 104zM394.2 51.3C389.1 60.1 376 84.6 376 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3zM440 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C453.1 60.1 440 84.6 440 104zm82.2-52.7C517.1 60.1 504 84.6 504 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3zM584 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C597.1 60.1 584 84.6 584 104zM112 160c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zm64 0c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zm64 0c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zm160 0c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zm64 0c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zm64 0c-8.8 0-16 7.2-16 16v96 16h32V272 176c0-8.8-7.2-16-16-16zM352 144c0-17.7-14.3-32-32-32s-32 14.3-32 32V320H96c-17.7 0-32-14.3-32-32V192c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 53 43 96 96 96H288v64H160c-17.7 0-32 14.3-32 32s14.3 32 32 32H320 480c17.7 0 32-14.3 32-32s-14.3-32-32-32H352V384H544c53 0 96-43 96-96V192c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7-14.3 32-32 32H352V144z"/></svg>
+ Hanukiah displayed using SVG</p>
+</div>
+
+## Change `Hanukiah` font awesome icon size
+To increase `Hanukiah` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f6e6.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-hanukiah fa-lg'>fa-lg</i><br/>
+<i class='fas fa-hanukiah fa-2x'>fa-2x</i><br/>
+<i class='fas fa-hanukiah fa-3x'>fa-3x</i><br/>
+<i class='fas fa-hanukiah fa-4x'>fa-4x</i><br/>
+<i class='fas fa-hanukiah fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-hanukiah fa-lg'>fa-lg</i><br/>
 <i class='fas fa-hanukiah fa-2x'>fa-2x</i><br/>
 <i class='fas fa-hanukiah fa-3x'>fa-3x</i><br/>
 <i class='fas fa-hanukiah fa-4x'>fa-4x</i><br/>
 <i class='fas fa-hanukiah fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-hanukiah fa-lg'>fa-lg</i><br/>
-<i class='fas fa-hanukiah fa-2x'>fa-2x</i><br/>
-<i class='fas fa-hanukiah fa-3x'>fa-3x</i><br/>
-<i class='fas fa-hanukiah fa-4x'>fa-4x</i><br/>
-<i class='fas fa-hanukiah fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-hanukiah Icon with Fixed Width 
-
+## `Hanukiah` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-hanukiah icon and fa-home may not have same height and width.
+For example `Hanukiah` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-hanukiah fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-hanukiah fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-hanukiah fa-fw fa-3x'></i>Fixed Width<i class='fas fa-hanukiah fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-hanukiah fa-fw fa-3x'></i>Fixed Width<i class='fas fa-hanukiah fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-hanukiah fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-hanukiah fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-hanukiah Icon Border 
+</div>
 
-To add border to fa-hanukiah icon, use fa-border class.
-
-
-```
-<i class='fas fa-hanukiah fa-border fa-3x'></i>
-
+## `Hanukiah` font awesome icon Border
+To add border to `Hanukiah` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-hanukiah fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-hanukiah icon To the left
-
-To pull icon fa-hanukiah to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-hanukiah fa-border fa-3x'></i>
+</div>
+
+## Pull `Hanukiah` font awesome icon To the left
+To pull `Hanukiah` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-hanukiah fa-pull-left fa-3x'></i>
+  ... The text after Hanukiah Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-hanukiah fa-pull-left fa-3x'></i>
-  ... The text after fa-hanukiah Icon will be displayed on the right side of the icons
+  ... The text after Hanukiah Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Hanukiah` font awesome icon To the left
+To pull `Hanukiah` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-hanukiah fa-pull-left fa-3x'></i>
-  ... The text after fa-hanukiah Icon will be displayed on the right side of the icons
+<i class='fas fa-hanukiah fa-pull-right fa-3x'></i>
+  ... The text after Hanukiah Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-hanukiah icon To the right
-To pull icon fa-hanukiah to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-hanukiah fa-pull-right fa-3x'></i>
-  ... The text after fa-hanukiah Icon will be displayed on the left side of the icons
+  ... The text after Hanukiah Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-hanukiah fa-pull-right fa-3x'></i>
-  ... The text after fa-hanukiah Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-hanukiah icon using fa-spin
-To animate font awesome fa-hanukiah icon, use fa-spin class.
-
+## Animate `Hanukiah` font awesome icon
+To animate `Hanukiah` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-hanukiah fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-hanukiah fa-spin fa-3x'></i>
+</div>
 
+## Animate `Hanukiah` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Hanukiah` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-hanukiah icon with steps
-While animating the font awesome icon,We can rotate fa-hanukiah icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-hanukiah icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-hanukiah fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-hanukiah fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-hanukiah fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-hanukiah fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-hanukiah Icon using fa-rotate-x
-To rotate the font awesome icon fa-hanukiah, Use fa-rotate-x class
+## Rotate `Hanukiah` font awesome icon
+ To rotate `Hanukiah` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-hanukiah fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-hanukiah fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-hanukiah fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-hanukiah fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-hanukiah fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-hanukiah fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-hanukiah Icon using fa-flip-*
-To flip fa-hanukiah font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Hanukiah` font awesome icon
+ To flip `Hanukiah` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-hanukiah fa-3x'>F</i> Normal <br>
 <i class='fas fa-hanukiah fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-hanukiah fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-hanukiah fa-3x'>F</i> Normal <br>
 <i class='fas fa-hanukiah fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-hanukiah fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Hanukiah` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-hanukiah icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Hanukiah` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-hanukiah on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-hanukiah fa-stack-1x'></i>
+    </span>
+      Hanukiah on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-hanukiah fa-stack-1x fa-inverse'></i>
+    </span>
+      Hanukiah on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-hanukiah fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Hanukiah on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-hanukiah fa-stack-1x'></i>
     </span>
-      fa-hanukiah on fa-square<br>
+      Hanukiah on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-hanukiah fa-stack-1x fa-inverse'></i>
     </span>
-      fa-hanukiah on fa-circle<br>
+      Hanukiah on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-hanukiah fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-hanukiah on fa-ban
+      Hanukiah on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-hanukiah fa-stack-1x'></i>
-    </span>
-      fa-hanukiah on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-hanukiah fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-hanukiah on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-hanukiah fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-hanukiah on fa-ban
 </div>
-
-
-
-
-
 

@@ -1,187 +1,285 @@
+
 +++
-title="fa-battery-full icon in font awesome icons"
-summary="fa-battery-full icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-battery-full,f240,fa-battery-full"]
-date="25-07-2020T22:59:19"
-lastmod="25-07-2020T22:59:19"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-battery-empty"
-next="fa-battery-half"
-linktitle="fa-battery-full"
+title='Battery-Full font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Battery-Full font awesome icon CSS class is fa-battery-full & CSS Content Code is  \f240'
+keywords =['Battery-Full, \f240,fa-battery-full']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-battery-empty'
+next = 'fa-battery-half'
+linktitle = 'fa-battery-full_1'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'true'
++++ 
+
+**`Battery-Full` font awesome icon css class name is `fa-battery-full` and CSS Content Code is ` \f240`**.
+ 
+
+`Battery-Full` font awesome icon is part of solid icons. 
 
 
-fa-battery-full icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-battery-full</td><td>fa-battery-full</td><td>f240</td></tr></tbody></table></div>
+{{%toc%}}
+## `Battery-Full` font awesome icon usage
+We can display `Battery-Full` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Battery-Full` font awesome icon CSS class name
+
+To display `Battery-Full` font awesome icon, add predefined class name i.e.,`fa-battery-full` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Battery-Full` icon.
 
 
-## fa-battery-full icon Usage
-
-To display fa-battery-full icon add predefined class name i.e.,fa-battery-full (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-battery-full icon. i.e., fas.
-
+`Battery-Full` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-battery-full'></i>
 
 ```
 
-<i class='fas fa-battery-full'>fa-battery-full</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-battery-full'></i>
+
+</div>
+
+
+## `Battery-Full` font awesome icon CSS Content Code 
+
+We can display `Battery-Full` font awesome icon using it's CSS Content Code ` \f240` 
+
+Use the following HTML code 
+
+```
+<li><span class='Battery-Full fontawesomeicon'></span>Battery-Full</li>
 ```
 
-<i class='fas fa-battery-full'>fa-battery-full</i>
-
-
-
-
-## Change fa-battery-full icon size
-To increase fa-battery-full font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-battery-full.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Battery-Full::before {
+   font: var(--fa-font-solid);
+    content: ' \f240';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Battery-Full::before {
+   font: var(--fa-font-solid);
+    content: ' \f240';
+ }</style>
+
+<li><span class='Battery-Full fontawesomeicon'></span>Battery-Full</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Battery-Full` font awesome icon SVG 
+
+Use the following icon SVG to display `Battery-Full` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 176c0-44.2 35.8-80 80-80H464c44.2 0 80 35.8 80 80v16c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32v16c0 44.2-35.8 80-80 80H80c-44.2 0-80-35.8-80-80V176zm80-16c-8.8 0-16 7.2-16 16V336c0 8.8 7.2 16 16 16H464c8.8 0 16-7.2 16-16V176c0-8.8-7.2-16-16-16H80zm368 32V320H96V192H448z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 176c0-44.2 35.8-80 80-80H464c44.2 0 80 35.8 80 80v16c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32v16c0 44.2-35.8 80-80 80H80c-44.2 0-80-35.8-80-80V176zm80-16c-8.8 0-16 7.2-16 16V336c0 8.8 7.2 16 16 16H464c8.8 0 16-7.2 16-16V176c0-8.8-7.2-16-16-16H80zm368 32V320H96V192H448z"/></svg>
+ Battery-Full displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 176c0-44.2 35.8-80 80-80H464c44.2 0 80 35.8 80 80v16c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32v16c0 44.2-35.8 80-80 80H80c-44.2 0-80-35.8-80-80V176zm80-16c-8.8 0-16 7.2-16 16V336c0 8.8 7.2 16 16 16H464c8.8 0 16-7.2 16-16V176c0-8.8-7.2-16-16-16H80zm368 32V320H96V192H448z"/></svg>
+ Battery-Full displayed using SVG</p>
+</div>
+
+## Change `Battery-Full` font awesome icon size
+To increase `Battery-Full` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f240.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-battery-full fa-lg'>fa-lg</i><br/>
+<i class='fas fa-battery-full fa-2x'>fa-2x</i><br/>
+<i class='fas fa-battery-full fa-3x'>fa-3x</i><br/>
+<i class='fas fa-battery-full fa-4x'>fa-4x</i><br/>
+<i class='fas fa-battery-full fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-battery-full fa-lg'>fa-lg</i><br/>
 <i class='fas fa-battery-full fa-2x'>fa-2x</i><br/>
 <i class='fas fa-battery-full fa-3x'>fa-3x</i><br/>
 <i class='fas fa-battery-full fa-4x'>fa-4x</i><br/>
 <i class='fas fa-battery-full fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-battery-full fa-lg'>fa-lg</i><br/>
-<i class='fas fa-battery-full fa-2x'>fa-2x</i><br/>
-<i class='fas fa-battery-full fa-3x'>fa-3x</i><br/>
-<i class='fas fa-battery-full fa-4x'>fa-4x</i><br/>
-<i class='fas fa-battery-full fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-battery-full Icon with Fixed Width 
-
+## `Battery-Full` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-battery-full icon and fa-home may not have same height and width.
+For example `Battery-Full` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-battery-full fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-battery-full fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-battery-full fa-fw fa-3x'></i>Fixed Width<i class='fas fa-battery-full fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-battery-full fa-fw fa-3x'></i>Fixed Width<i class='fas fa-battery-full fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-battery-full fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-battery-full fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-battery-full Icon Border 
+</div>
 
-To add border to fa-battery-full icon, use fa-border class.
-
-
-```
-<i class='fas fa-battery-full fa-border fa-3x'></i>
-
+## `Battery-Full` font awesome icon Border
+To add border to `Battery-Full` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-battery-full fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-battery-full icon To the left
-
-To pull icon fa-battery-full to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-battery-full fa-border fa-3x'></i>
+</div>
+
+## Pull `Battery-Full` font awesome icon To the left
+To pull `Battery-Full` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-battery-full fa-pull-left fa-3x'></i>
+  ... The text after Battery-Full Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-battery-full fa-pull-left fa-3x'></i>
-  ... The text after fa-battery-full Icon will be displayed on the right side of the icons
+  ... The text after Battery-Full Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Battery-Full` font awesome icon To the left
+To pull `Battery-Full` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-battery-full fa-pull-left fa-3x'></i>
-  ... The text after fa-battery-full Icon will be displayed on the right side of the icons
+<i class='fas fa-battery-full fa-pull-right fa-3x'></i>
+  ... The text after Battery-Full Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-battery-full icon To the right
-To pull icon fa-battery-full to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-battery-full fa-pull-right fa-3x'></i>
-  ... The text after fa-battery-full Icon will be displayed on the left side of the icons
+  ... The text after Battery-Full Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-battery-full fa-pull-right fa-3x'></i>
-  ... The text after fa-battery-full Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-battery-full icon using fa-spin
-To animate font awesome fa-battery-full icon, use fa-spin class.
-
+## Animate `Battery-Full` font awesome icon
+To animate `Battery-Full` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-battery-full fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-battery-full fa-spin fa-3x'></i>
+</div>
 
+## Animate `Battery-Full` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Battery-Full` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-battery-full icon with steps
-While animating the font awesome icon,We can rotate fa-battery-full icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-battery-full icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-battery-full fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-battery-full fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-battery-full fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-battery-full fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-battery-full Icon using fa-rotate-x
-To rotate the font awesome icon fa-battery-full, Use fa-rotate-x class
+## Rotate `Battery-Full` font awesome icon
+ To rotate `Battery-Full` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-battery-full fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-battery-full fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-battery-full fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-battery-full fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-battery-full fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-battery-full fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-battery-full Icon using fa-flip-*
-To flip fa-battery-full font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Battery-Full` font awesome icon
+ To flip `Battery-Full` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-battery-full fa-3x'>F</i> Normal <br>
 <i class='fas fa-battery-full fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-battery-full fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-battery-full fa-3x'>F</i> Normal <br>
 <i class='fas fa-battery-full fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-battery-full fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Battery-Full` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-battery-full icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Battery-Full` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-battery-full on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-battery-full fa-stack-1x'></i>
+    </span>
+      Battery-Full on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-battery-full fa-stack-1x fa-inverse'></i>
+    </span>
+      Battery-Full on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-battery-full fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Battery-Full on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-battery-full fa-stack-1x'></i>
     </span>
-      fa-battery-full on fa-square<br>
+      Battery-Full on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-battery-full fa-stack-1x fa-inverse'></i>
     </span>
-      fa-battery-full on fa-circle<br>
+      Battery-Full on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-battery-full fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-battery-full on fa-ban
+      Battery-Full on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-battery-full fa-stack-1x'></i>
-    </span>
-      fa-battery-full on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-battery-full fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-battery-full on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-battery-full fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-battery-full on fa-ban
 </div>
-
-
-
-
-
 

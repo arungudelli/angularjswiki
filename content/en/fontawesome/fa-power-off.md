@@ -1,187 +1,285 @@
+
 +++
-title="fa-power-off icon in font awesome icons"
-summary="fa-power-off icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-power-off,f011,fa-power-off"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-pound-sign"
-next="fa-pray"
-linktitle="fa-power-off"
+title='Power-Off font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Power-Off font awesome icon CSS class is fa-power-off & CSS Content Code is  \f011'
+keywords =['Power-Off, \f011,fa-power-off']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-poop'
+next = 'fa-prescription-bottle-medical'
+linktitle = 'fa-power-off_1'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'true'
++++ 
+
+**`Power-Off` font awesome icon css class name is `fa-power-off` and CSS Content Code is ` \f011`**.
+ 
+
+`Power-Off` font awesome icon is part of solid icons. 
 
 
-fa-power-off icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-power-off</td><td>fa-power-off</td><td>f011</td></tr></tbody></table></div>
+{{%toc%}}
+## `Power-Off` font awesome icon usage
+We can display `Power-Off` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Power-Off` font awesome icon CSS class name
+
+To display `Power-Off` font awesome icon, add predefined class name i.e.,`fa-power-off` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Power-Off` icon.
 
 
-## fa-power-off icon Usage
-
-To display fa-power-off icon add predefined class name i.e.,fa-power-off (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-power-off icon. i.e., fas.
-
+`Power-Off` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-power-off'></i>
 
 ```
 
-<i class='fas fa-power-off'>fa-power-off</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-power-off'></i>
+
+</div>
+
+
+## `Power-Off` font awesome icon CSS Content Code 
+
+We can display `Power-Off` font awesome icon using it's CSS Content Code ` \f011` 
+
+Use the following HTML code 
+
+```
+<li><span class='Power-Off fontawesomeicon'></span>Power-Off</li>
 ```
 
-<i class='fas fa-power-off'>fa-power-off</i>
-
-
-
-
-## Change fa-power-off icon size
-To increase fa-power-off font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-power-off.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Power-Off::before {
+   font: var(--fa-font-solid);
+    content: ' \f011';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Power-Off::before {
+   font: var(--fa-font-solid);
+    content: ' \f011';
+ }</style>
+
+<li><span class='Power-Off fontawesomeicon'></span>Power-Off</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Power-Off` font awesome icon SVG 
+
+Use the following icon SVG to display `Power-Off` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V256c0 17.7 14.3 32 32 32s32-14.3 32-32V32zM143.5 120.6c13.6-11.3 15.4-31.5 4.1-45.1s-31.5-15.4-45.1-4.1C49.7 115.4 16 181.8 16 256c0 132.5 107.5 240 240 240s240-107.5 240-240c0-74.2-33.8-140.6-86.6-184.6c-13.6-11.3-33.8-9.4-45.1 4.1s-9.4 33.8 4.1 45.1c38.9 32.3 63.5 81 63.5 135.4c0 97.2-78.8 176-176 176s-176-78.8-176-176c0-54.4 24.7-103.1 63.5-135.4z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V256c0 17.7 14.3 32 32 32s32-14.3 32-32V32zM143.5 120.6c13.6-11.3 15.4-31.5 4.1-45.1s-31.5-15.4-45.1-4.1C49.7 115.4 16 181.8 16 256c0 132.5 107.5 240 240 240s240-107.5 240-240c0-74.2-33.8-140.6-86.6-184.6c-13.6-11.3-33.8-9.4-45.1 4.1s-9.4 33.8 4.1 45.1c38.9 32.3 63.5 81 63.5 135.4c0 97.2-78.8 176-176 176s-176-78.8-176-176c0-54.4 24.7-103.1 63.5-135.4z"/></svg>
+ Power-Off displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V256c0 17.7 14.3 32 32 32s32-14.3 32-32V32zM143.5 120.6c13.6-11.3 15.4-31.5 4.1-45.1s-31.5-15.4-45.1-4.1C49.7 115.4 16 181.8 16 256c0 132.5 107.5 240 240 240s240-107.5 240-240c0-74.2-33.8-140.6-86.6-184.6c-13.6-11.3-33.8-9.4-45.1 4.1s-9.4 33.8 4.1 45.1c38.9 32.3 63.5 81 63.5 135.4c0 97.2-78.8 176-176 176s-176-78.8-176-176c0-54.4 24.7-103.1 63.5-135.4z"/></svg>
+ Power-Off displayed using SVG</p>
+</div>
+
+## Change `Power-Off` font awesome icon size
+To increase `Power-Off` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f011.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-power-off fa-lg'>fa-lg</i><br/>
+<i class='fas fa-power-off fa-2x'>fa-2x</i><br/>
+<i class='fas fa-power-off fa-3x'>fa-3x</i><br/>
+<i class='fas fa-power-off fa-4x'>fa-4x</i><br/>
+<i class='fas fa-power-off fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-power-off fa-lg'>fa-lg</i><br/>
 <i class='fas fa-power-off fa-2x'>fa-2x</i><br/>
 <i class='fas fa-power-off fa-3x'>fa-3x</i><br/>
 <i class='fas fa-power-off fa-4x'>fa-4x</i><br/>
 <i class='fas fa-power-off fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-power-off fa-lg'>fa-lg</i><br/>
-<i class='fas fa-power-off fa-2x'>fa-2x</i><br/>
-<i class='fas fa-power-off fa-3x'>fa-3x</i><br/>
-<i class='fas fa-power-off fa-4x'>fa-4x</i><br/>
-<i class='fas fa-power-off fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-power-off Icon with Fixed Width 
-
+## `Power-Off` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-power-off icon and fa-home may not have same height and width.
+For example `Power-Off` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-power-off fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-power-off fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-power-off fa-fw fa-3x'></i>Fixed Width<i class='fas fa-power-off fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-power-off fa-fw fa-3x'></i>Fixed Width<i class='fas fa-power-off fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-power-off fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-power-off fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-power-off Icon Border 
+</div>
 
-To add border to fa-power-off icon, use fa-border class.
-
-
-```
-<i class='fas fa-power-off fa-border fa-3x'></i>
-
+## `Power-Off` font awesome icon Border
+To add border to `Power-Off` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-power-off fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-power-off icon To the left
-
-To pull icon fa-power-off to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-power-off fa-border fa-3x'></i>
+</div>
+
+## Pull `Power-Off` font awesome icon To the left
+To pull `Power-Off` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-power-off fa-pull-left fa-3x'></i>
+  ... The text after Power-Off Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-power-off fa-pull-left fa-3x'></i>
-  ... The text after fa-power-off Icon will be displayed on the right side of the icons
+  ... The text after Power-Off Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Power-Off` font awesome icon To the left
+To pull `Power-Off` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-power-off fa-pull-left fa-3x'></i>
-  ... The text after fa-power-off Icon will be displayed on the right side of the icons
+<i class='fas fa-power-off fa-pull-right fa-3x'></i>
+  ... The text after Power-Off Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-power-off icon To the right
-To pull icon fa-power-off to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-power-off fa-pull-right fa-3x'></i>
-  ... The text after fa-power-off Icon will be displayed on the left side of the icons
+  ... The text after Power-Off Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-power-off fa-pull-right fa-3x'></i>
-  ... The text after fa-power-off Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-power-off icon using fa-spin
-To animate font awesome fa-power-off icon, use fa-spin class.
-
+## Animate `Power-Off` font awesome icon
+To animate `Power-Off` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-power-off fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-power-off fa-spin fa-3x'></i>
+</div>
 
+## Animate `Power-Off` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Power-Off` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-power-off icon with steps
-While animating the font awesome icon,We can rotate fa-power-off icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-power-off icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-power-off fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-power-off fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-power-off fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-power-off fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-power-off Icon using fa-rotate-x
-To rotate the font awesome icon fa-power-off, Use fa-rotate-x class
+## Rotate `Power-Off` font awesome icon
+ To rotate `Power-Off` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-power-off fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-power-off fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-power-off fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-power-off fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-power-off fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-power-off fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-power-off Icon using fa-flip-*
-To flip fa-power-off font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Power-Off` font awesome icon
+ To flip `Power-Off` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-power-off fa-3x'>F</i> Normal <br>
 <i class='fas fa-power-off fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-power-off fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-power-off fa-3x'>F</i> Normal <br>
 <i class='fas fa-power-off fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-power-off fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Power-Off` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-power-off icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Power-Off` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-power-off on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-power-off fa-stack-1x'></i>
+    </span>
+      Power-Off on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-power-off fa-stack-1x fa-inverse'></i>
+    </span>
+      Power-Off on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-power-off fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Power-Off on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-power-off fa-stack-1x'></i>
     </span>
-      fa-power-off on fa-square<br>
+      Power-Off on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-power-off fa-stack-1x fa-inverse'></i>
     </span>
-      fa-power-off on fa-circle<br>
+      Power-Off on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-power-off fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-power-off on fa-ban
+      Power-Off on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-power-off fa-stack-1x'></i>
-    </span>
-      fa-power-off on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-power-off fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-power-off on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-power-off fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-power-off on fa-ban
 </div>
-
-
-
-
-
 

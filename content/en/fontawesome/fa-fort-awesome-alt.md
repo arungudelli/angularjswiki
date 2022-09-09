@@ -1,187 +1,285 @@
+
 +++
-title="fa-fort-awesome-alt icon in font awesome icons"
-summary="fa-fort-awesome-alt icon in font awesome icons is part of brand (fab) icons"
-keywords=["fa-fort-awesome-alt,f3a3,fa-fort-awesome-alt"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-fort-awesome"
-next="fa-forumbee"
-linktitle="fa-fort-awesome-alt"
+title='Fort-Awesome-Alt font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Fort-Awesome-Alt font awesome icon CSS class is fa-fort-awesome-alt & CSS Content Code is  \f3a3'
+keywords =['Fort-Awesome-Alt, \f3a3,fa-fort-awesome-alt']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-fonticons'
+next = 'fa-fort-awesome'
+linktitle = 'fa-fort-awesome-alt_1'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'true'
++++ 
+
+**`Fort-Awesome-Alt` font awesome icon css class name is `fa-fort-awesome-alt` and CSS Content Code is ` \f3a3`**.
+ 
+
+`Fort-Awesome-Alt` font awesome icon is part of brands icons. 
 
 
-fa-fort-awesome-alt icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-fort-awesome-alt</td><td>fa-fort-awesome-alt</td><td>f3a3</td></tr></tbody></table></div>
+{{%toc%}}
+## `Fort-Awesome-Alt` font awesome icon usage
+We can display `Fort-Awesome-Alt` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Fort-Awesome-Alt` font awesome icon CSS class name
+
+To display `Fort-Awesome-Alt` font awesome icon, add predefined class name i.e.,`fa-fort-awesome-alt` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Fort-Awesome-Alt` icon.
 
 
-## fa-fort-awesome-alt icon Usage
-
-To display fa-fort-awesome-alt icon add predefined class name i.e.,fa-fort-awesome-alt (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-fort-awesome-alt icon. i.e., fab.
-
+`Fort-Awesome-Alt` icon has 1 icon style i.e.,brands. 
+ We need to append icon style class `fab`.
+```
+<i class='fab fa-fort-awesome-alt'></i>
 
 ```
 
-<i class='fab fa-fort-awesome-alt'>fa-fort-awesome-alt</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-fort-awesome-alt'></i>
+
+</div>
+
+
+## `Fort-Awesome-Alt` font awesome icon CSS Content Code 
+
+We can display `Fort-Awesome-Alt` font awesome icon using it's CSS Content Code ` \f3a3` 
+
+Use the following HTML code 
+
+```
+<li><span class='Fort-Awesome-Alt fontawesomeicon'></span>Fort-Awesome-Alt</li>
 ```
 
-<i class='fab fa-fort-awesome-alt'>fa-fort-awesome-alt</i>
-
-
-
-
-## Change fa-fort-awesome-alt icon size
-To increase fa-fort-awesome-alt font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-fort-awesome-alt.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Fort-Awesome-Alt::before {
+   font: var(--fa-font-brands);
+    content: ' \f3a3';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Fort-Awesome-Alt::before {
+   font: var(--fa-font-brands);
+    content: ' \f3a3';
+ }</style>
+
+<li><span class='Fort-Awesome-Alt fontawesomeicon'></span>Fort-Awesome-Alt</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Fort-Awesome-Alt` font awesome icon SVG 
+
+Use the following icon SVG to display `Fort-Awesome-Alt` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M208 237.4h-22.2c-2.1 0-3.7 1.6-3.7 3.7v51.7c0 2.1 1.6 3.7 3.7 3.7H208c2.1 0 3.7-1.6 3.7-3.7v-51.7c0-2.1-1.6-3.7-3.7-3.7zm118.2 0H304c-2.1 0-3.7 1.6-3.7 3.7v51.7c0 2.1 1.6 3.7 3.7 3.7h22.2c2.1 0 3.7-1.6 3.7-3.7v-51.7c-.1-2.1-1.7-3.7-3.7-3.7zm132-125.1c-2.3-3.2-4.6-6.4-7.1-9.5-9.8-12.5-20.8-24-32.8-34.4-4.5-3.9-9.1-7.6-13.9-11.2-1.6-1.2-3.2-2.3-4.8-3.5C372 34.1 340.3 20 306 13c-16.2-3.3-32.9-5-50-5s-33.9 1.7-50 5c-34.3 7.1-66 21.2-93.3 40.8-1.6 1.1-3.2 2.3-4.8 3.5-4.8 3.6-9.4 7.3-13.9 11.2-3 2.6-5.9 5.3-8.8 8s-5.7 5.5-8.4 8.4c-5.5 5.7-10.7 11.8-15.6 18-2.4 3.1-4.8 6.3-7.1 9.5C25.2 153 8.3 202.5 8.3 256c0 2 .1 4 .1 6 .1.7.1 1.3.1 2 .1 1.3.1 2.7.2 4 0 .8.1 1.5.1 2.3 0 1.3.1 2.5.2 3.7.1.8.1 1.6.2 2.4.1 1.1.2 2.3.3 3.5 0 .8.1 1.6.2 2.4.1 1.2.3 2.4.4 3.6.1.8.2 1.5.3 2.3.1 1.3.3 2.6.5 3.9.1.6.2 1.3.3 1.9l.9 5.7c.1.6.2 1.1.3 1.7.3 1.3.5 2.7.8 4 .2.8.3 1.6.5 2.4.2 1 .5 2.1.7 3.2.2.9.4 1.7.6 2.6.2 1 .4 2 .7 3 .2.9.5 1.8.7 2.7.3 1 .5 1.9.8 2.9.3.9.5 1.8.8 2.7.2.9.5 1.9.8 2.8s.5 1.8.8 2.7c.3 1 .6 1.9.9 2.8.6 1.6 1.1 3.3 1.7 4.9.4 1 .7 1.9 1 2.8.3 1 .7 2 1.1 3 .3.8.6 1.5.9 2.3l1.2 3c.3.7.6 1.5.9 2.2.4 1 .9 2 1.3 3l.9 2.1c.5 1 .9 2 1.4 3 .3.7.6 1.3.9 2 .5 1 1 2.1 1.5 3.1.2.6.5 1.1.8 1.7.6 1.1 1.1 2.2 1.7 3.3.1.2.2.3.3.5 2.2 4.1 4.4 8.2 6.8 12.2.2.4.5.8.7 1.2.7 1.1 1.3 2.2 2 3.3.3.5.6.9.9 1.4.6 1.1 1.3 2.1 2 3.2.3.5.6.9.9 1.4.7 1.1 1.4 2.1 2.1 3.2.2.4.5.8.8 1.2.7 1.1 1.5 2.2 2.3 3.3.2.2.3.5.5.7 37.5 51.7 94.4 88.5 160 99.4.9.1 1.7.3 2.6.4 1 .2 2.1.4 3.1.5s1.9.3 2.8.4c1 .2 2 .3 3 .4.9.1 1.9.2 2.9.3s1.9.2 2.9.3 2.1.2 3.1.3c.9.1 1.8.1 2.7.2 1.1.1 2.3.1 3.4.2.8 0 1.7.1 2.5.1 1.3 0 2.6.1 3.9.1.7.1 1.4.1 2.1.1 2 .1 4 .1 6 .1s4-.1 6-.1c.7 0 1.4-.1 2.1-.1 1.3 0 2.6 0 3.9-.1.8 0 1.7-.1 2.5-.1 1.1-.1 2.3-.1 3.4-.2.9 0 1.8-.1 2.7-.2 1-.1 2.1-.2 3.1-.3s1.9-.2 2.9-.3c.9-.1 1.9-.2 2.9-.3s2-.3 3-.4 1.9-.3 2.8-.4c1-.2 2.1-.3 3.1-.5.9-.1 1.7-.3 2.6-.4 65.6-11 122.5-47.7 160.1-102.4.2-.2.3-.5.5-.7.8-1.1 1.5-2.2 2.3-3.3.2-.4.5-.8.8-1.2.7-1.1 1.4-2.1 2.1-3.2.3-.5.6-.9.9-1.4.6-1.1 1.3-2.1 2-3.2.3-.5.6-.9.9-1.4.7-1.1 1.3-2.2 2-3.3.2-.4.5-.8.7-1.2 2.4-4 4.6-8.1 6.8-12.2.1-.2.2-.3.3-.5.6-1.1 1.1-2.2 1.7-3.3.2-.6.5-1.1.8-1.7.5-1 1-2.1 1.5-3.1.3-.7.6-1.3.9-2 .5-1 1-2 1.4-3l.9-2.1c.5-1 .9-2 1.3-3 .3-.7.6-1.5.9-2.2l1.2-3c.3-.8.6-1.5.9-2.3.4-1 .7-2 1.1-3s.7-1.9 1-2.8c.6-1.6 1.2-3.3 1.7-4.9.3-1 .6-1.9.9-2.8s.5-1.8.8-2.7c.2-.9.5-1.9.8-2.8s.6-1.8.8-2.7c.3-1 .5-1.9.8-2.9.2-.9.5-1.8.7-2.7.2-1 .5-2 .7-3 .2-.9.4-1.7.6-2.6.2-1 .5-2.1.7-3.2.2-.8.3-1.6.5-2.4.3-1.3.6-2.7.8-4 .1-.6.2-1.1.3-1.7l.9-5.7c.1-.6.2-1.3.3-1.9.1-1.3.3-2.6.5-3.9.1-.8.2-1.5.3-2.3.1-1.2.3-2.4.4-3.6 0-.8.1-1.6.2-2.4.1-1.1.2-2.3.3-3.5.1-.8.1-1.6.2-2.4.1 1.7.1.5.2-.7 0-.8.1-1.5.1-2.3.1-1.3.2-2.7.2-4 .1-.7.1-1.3.1-2 .1-2 .1-4 .1-6 0-53.5-16.9-103-45.8-143.7zM448 371.5c-9.4 15.5-20.6 29.9-33.6 42.9-20.6 20.6-44.5 36.7-71.2 48-13.9 5.8-28.2 10.3-42.9 13.2v-75.8c0-58.6-88.6-58.6-88.6 0v75.8c-14.7-2.9-29-7.3-42.9-13.2-26.7-11.3-50.6-27.4-71.2-48-13-13-24.2-27.4-33.6-42.9v-71.3c0-2.1 1.6-3.7 3.7-3.7h22.1c2.1 0 3.7 1.6 3.7 3.7V326h29.6V182c0-2.1 1.6-3.7 3.7-3.7h22.1c2.1 0 3.7 1.6 3.7 3.7v25.9h29.5V182c0-2.1 1.6-3.7 3.7-3.7H208c2.1 0 3.7 1.6 3.7 3.7v25.9h29.5V182c0-4.8 6.5-3.7 9.5-3.7V88.1c-4.4-2-7.4-6.7-7.4-11.5 0-16.8 25.4-16.8 25.4 0 0 4.8-3 9.4-7.4 11.5V92c6.3-1.4 12.7-2.3 19.2-2.3 9.4 0 18.4 3.5 26.3 3.5 7.2 0 15.2-3.5 19.4-3.5 2.1 0 3.7 1.6 3.7 3.7v48.4c0 5.6-18.7 6.5-22.4 6.5-8.6 0-16.6-3.5-25.4-3.5-7 0-14.1 1.2-20.8 2.8v30.7c3 0 9.5-1.1 9.5 3.7v25.9h29.5V182c0-2.1 1.6-3.7 3.7-3.7h22.2c2.1 0 3.7 1.6 3.7 3.7v25.9h29.5V182c0-2.1 1.6-3.7 3.7-3.7h22.1c2.1 0 3.7 1.6 3.7 3.7v144h29.5v-25.8c0-2.1 1.6-3.7 3.7-3.7h22.2c2.1 0 3.7 1.6 3.7 3.7z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M208 237.4h-22.2c-2.1 0-3.7 1.6-3.7 3.7v51.7c0 2.1 1.6 3.7 3.7 3.7H208c2.1 0 3.7-1.6 3.7-3.7v-51.7c0-2.1-1.6-3.7-3.7-3.7zm118.2 0H304c-2.1 0-3.7 1.6-3.7 3.7v51.7c0 2.1 1.6 3.7 3.7 3.7h22.2c2.1 0 3.7-1.6 3.7-3.7v-51.7c-.1-2.1-1.7-3.7-3.7-3.7zm132-125.1c-2.3-3.2-4.6-6.4-7.1-9.5-9.8-12.5-20.8-24-32.8-34.4-4.5-3.9-9.1-7.6-13.9-11.2-1.6-1.2-3.2-2.3-4.8-3.5C372 34.1 340.3 20 306 13c-16.2-3.3-32.9-5-50-5s-33.9 1.7-50 5c-34.3 7.1-66 21.2-93.3 40.8-1.6 1.1-3.2 2.3-4.8 3.5-4.8 3.6-9.4 7.3-13.9 11.2-3 2.6-5.9 5.3-8.8 8s-5.7 5.5-8.4 8.4c-5.5 5.7-10.7 11.8-15.6 18-2.4 3.1-4.8 6.3-7.1 9.5C25.2 153 8.3 202.5 8.3 256c0 2 .1 4 .1 6 .1.7.1 1.3.1 2 .1 1.3.1 2.7.2 4 0 .8.1 1.5.1 2.3 0 1.3.1 2.5.2 3.7.1.8.1 1.6.2 2.4.1 1.1.2 2.3.3 3.5 0 .8.1 1.6.2 2.4.1 1.2.3 2.4.4 3.6.1.8.2 1.5.3 2.3.1 1.3.3 2.6.5 3.9.1.6.2 1.3.3 1.9l.9 5.7c.1.6.2 1.1.3 1.7.3 1.3.5 2.7.8 4 .2.8.3 1.6.5 2.4.2 1 .5 2.1.7 3.2.2.9.4 1.7.6 2.6.2 1 .4 2 .7 3 .2.9.5 1.8.7 2.7.3 1 .5 1.9.8 2.9.3.9.5 1.8.8 2.7.2.9.5 1.9.8 2.8s.5 1.8.8 2.7c.3 1 .6 1.9.9 2.8.6 1.6 1.1 3.3 1.7 4.9.4 1 .7 1.9 1 2.8.3 1 .7 2 1.1 3 .3.8.6 1.5.9 2.3l1.2 3c.3.7.6 1.5.9 2.2.4 1 .9 2 1.3 3l.9 2.1c.5 1 .9 2 1.4 3 .3.7.6 1.3.9 2 .5 1 1 2.1 1.5 3.1.2.6.5 1.1.8 1.7.6 1.1 1.1 2.2 1.7 3.3.1.2.2.3.3.5 2.2 4.1 4.4 8.2 6.8 12.2.2.4.5.8.7 1.2.7 1.1 1.3 2.2 2 3.3.3.5.6.9.9 1.4.6 1.1 1.3 2.1 2 3.2.3.5.6.9.9 1.4.7 1.1 1.4 2.1 2.1 3.2.2.4.5.8.8 1.2.7 1.1 1.5 2.2 2.3 3.3.2.2.3.5.5.7 37.5 51.7 94.4 88.5 160 99.4.9.1 1.7.3 2.6.4 1 .2 2.1.4 3.1.5s1.9.3 2.8.4c1 .2 2 .3 3 .4.9.1 1.9.2 2.9.3s1.9.2 2.9.3 2.1.2 3.1.3c.9.1 1.8.1 2.7.2 1.1.1 2.3.1 3.4.2.8 0 1.7.1 2.5.1 1.3 0 2.6.1 3.9.1.7.1 1.4.1 2.1.1 2 .1 4 .1 6 .1s4-.1 6-.1c.7 0 1.4-.1 2.1-.1 1.3 0 2.6 0 3.9-.1.8 0 1.7-.1 2.5-.1 1.1-.1 2.3-.1 3.4-.2.9 0 1.8-.1 2.7-.2 1-.1 2.1-.2 3.1-.3s1.9-.2 2.9-.3c.9-.1 1.9-.2 2.9-.3s2-.3 3-.4 1.9-.3 2.8-.4c1-.2 2.1-.3 3.1-.5.9-.1 1.7-.3 2.6-.4 65.6-11 122.5-47.7 160.1-102.4.2-.2.3-.5.5-.7.8-1.1 1.5-2.2 2.3-3.3.2-.4.5-.8.8-1.2.7-1.1 1.4-2.1 2.1-3.2.3-.5.6-.9.9-1.4.6-1.1 1.3-2.1 2-3.2.3-.5.6-.9.9-1.4.7-1.1 1.3-2.2 2-3.3.2-.4.5-.8.7-1.2 2.4-4 4.6-8.1 6.8-12.2.1-.2.2-.3.3-.5.6-1.1 1.1-2.2 1.7-3.3.2-.6.5-1.1.8-1.7.5-1 1-2.1 1.5-3.1.3-.7.6-1.3.9-2 .5-1 1-2 1.4-3l.9-2.1c.5-1 .9-2 1.3-3 .3-.7.6-1.5.9-2.2l1.2-3c.3-.8.6-1.5.9-2.3.4-1 .7-2 1.1-3s.7-1.9 1-2.8c.6-1.6 1.2-3.3 1.7-4.9.3-1 .6-1.9.9-2.8s.5-1.8.8-2.7c.2-.9.5-1.9.8-2.8s.6-1.8.8-2.7c.3-1 .5-1.9.8-2.9.2-.9.5-1.8.7-2.7.2-1 .5-2 .7-3 .2-.9.4-1.7.6-2.6.2-1 .5-2.1.7-3.2.2-.8.3-1.6.5-2.4.3-1.3.6-2.7.8-4 .1-.6.2-1.1.3-1.7l.9-5.7c.1-.6.2-1.3.3-1.9.1-1.3.3-2.6.5-3.9.1-.8.2-1.5.3-2.3.1-1.2.3-2.4.4-3.6 0-.8.1-1.6.2-2.4.1-1.1.2-2.3.3-3.5.1-.8.1-1.6.2-2.4.1 1.7.1.5.2-.7 0-.8.1-1.5.1-2.3.1-1.3.2-2.7.2-4 .1-.7.1-1.3.1-2 .1-2 .1-4 .1-6 0-53.5-16.9-103-45.8-143.7zM448 371.5c-9.4 15.5-20.6 29.9-33.6 42.9-20.6 20.6-44.5 36.7-71.2 48-13.9 5.8-28.2 10.3-42.9 13.2v-75.8c0-58.6-88.6-58.6-88.6 0v75.8c-14.7-2.9-29-7.3-42.9-13.2-26.7-11.3-50.6-27.4-71.2-48-13-13-24.2-27.4-33.6-42.9v-71.3c0-2.1 1.6-3.7 3.7-3.7h22.1c2.1 0 3.7 1.6 3.7 3.7V326h29.6V182c0-2.1 1.6-3.7 3.7-3.7h22.1c2.1 0 3.7 1.6 3.7 3.7v25.9h29.5V182c0-2.1 1.6-3.7 3.7-3.7H208c2.1 0 3.7 1.6 3.7 3.7v25.9h29.5V182c0-4.8 6.5-3.7 9.5-3.7V88.1c-4.4-2-7.4-6.7-7.4-11.5 0-16.8 25.4-16.8 25.4 0 0 4.8-3 9.4-7.4 11.5V92c6.3-1.4 12.7-2.3 19.2-2.3 9.4 0 18.4 3.5 26.3 3.5 7.2 0 15.2-3.5 19.4-3.5 2.1 0 3.7 1.6 3.7 3.7v48.4c0 5.6-18.7 6.5-22.4 6.5-8.6 0-16.6-3.5-25.4-3.5-7 0-14.1 1.2-20.8 2.8v30.7c3 0 9.5-1.1 9.5 3.7v25.9h29.5V182c0-2.1 1.6-3.7 3.7-3.7h22.2c2.1 0 3.7 1.6 3.7 3.7v25.9h29.5V182c0-2.1 1.6-3.7 3.7-3.7h22.1c2.1 0 3.7 1.6 3.7 3.7v144h29.5v-25.8c0-2.1 1.6-3.7 3.7-3.7h22.2c2.1 0 3.7 1.6 3.7 3.7z"/></svg>
+ Fort-Awesome-Alt displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M208 237.4h-22.2c-2.1 0-3.7 1.6-3.7 3.7v51.7c0 2.1 1.6 3.7 3.7 3.7H208c2.1 0 3.7-1.6 3.7-3.7v-51.7c0-2.1-1.6-3.7-3.7-3.7zm118.2 0H304c-2.1 0-3.7 1.6-3.7 3.7v51.7c0 2.1 1.6 3.7 3.7 3.7h22.2c2.1 0 3.7-1.6 3.7-3.7v-51.7c-.1-2.1-1.7-3.7-3.7-3.7zm132-125.1c-2.3-3.2-4.6-6.4-7.1-9.5-9.8-12.5-20.8-24-32.8-34.4-4.5-3.9-9.1-7.6-13.9-11.2-1.6-1.2-3.2-2.3-4.8-3.5C372 34.1 340.3 20 306 13c-16.2-3.3-32.9-5-50-5s-33.9 1.7-50 5c-34.3 7.1-66 21.2-93.3 40.8-1.6 1.1-3.2 2.3-4.8 3.5-4.8 3.6-9.4 7.3-13.9 11.2-3 2.6-5.9 5.3-8.8 8s-5.7 5.5-8.4 8.4c-5.5 5.7-10.7 11.8-15.6 18-2.4 3.1-4.8 6.3-7.1 9.5C25.2 153 8.3 202.5 8.3 256c0 2 .1 4 .1 6 .1.7.1 1.3.1 2 .1 1.3.1 2.7.2 4 0 .8.1 1.5.1 2.3 0 1.3.1 2.5.2 3.7.1.8.1 1.6.2 2.4.1 1.1.2 2.3.3 3.5 0 .8.1 1.6.2 2.4.1 1.2.3 2.4.4 3.6.1.8.2 1.5.3 2.3.1 1.3.3 2.6.5 3.9.1.6.2 1.3.3 1.9l.9 5.7c.1.6.2 1.1.3 1.7.3 1.3.5 2.7.8 4 .2.8.3 1.6.5 2.4.2 1 .5 2.1.7 3.2.2.9.4 1.7.6 2.6.2 1 .4 2 .7 3 .2.9.5 1.8.7 2.7.3 1 .5 1.9.8 2.9.3.9.5 1.8.8 2.7.2.9.5 1.9.8 2.8s.5 1.8.8 2.7c.3 1 .6 1.9.9 2.8.6 1.6 1.1 3.3 1.7 4.9.4 1 .7 1.9 1 2.8.3 1 .7 2 1.1 3 .3.8.6 1.5.9 2.3l1.2 3c.3.7.6 1.5.9 2.2.4 1 .9 2 1.3 3l.9 2.1c.5 1 .9 2 1.4 3 .3.7.6 1.3.9 2 .5 1 1 2.1 1.5 3.1.2.6.5 1.1.8 1.7.6 1.1 1.1 2.2 1.7 3.3.1.2.2.3.3.5 2.2 4.1 4.4 8.2 6.8 12.2.2.4.5.8.7 1.2.7 1.1 1.3 2.2 2 3.3.3.5.6.9.9 1.4.6 1.1 1.3 2.1 2 3.2.3.5.6.9.9 1.4.7 1.1 1.4 2.1 2.1 3.2.2.4.5.8.8 1.2.7 1.1 1.5 2.2 2.3 3.3.2.2.3.5.5.7 37.5 51.7 94.4 88.5 160 99.4.9.1 1.7.3 2.6.4 1 .2 2.1.4 3.1.5s1.9.3 2.8.4c1 .2 2 .3 3 .4.9.1 1.9.2 2.9.3s1.9.2 2.9.3 2.1.2 3.1.3c.9.1 1.8.1 2.7.2 1.1.1 2.3.1 3.4.2.8 0 1.7.1 2.5.1 1.3 0 2.6.1 3.9.1.7.1 1.4.1 2.1.1 2 .1 4 .1 6 .1s4-.1 6-.1c.7 0 1.4-.1 2.1-.1 1.3 0 2.6 0 3.9-.1.8 0 1.7-.1 2.5-.1 1.1-.1 2.3-.1 3.4-.2.9 0 1.8-.1 2.7-.2 1-.1 2.1-.2 3.1-.3s1.9-.2 2.9-.3c.9-.1 1.9-.2 2.9-.3s2-.3 3-.4 1.9-.3 2.8-.4c1-.2 2.1-.3 3.1-.5.9-.1 1.7-.3 2.6-.4 65.6-11 122.5-47.7 160.1-102.4.2-.2.3-.5.5-.7.8-1.1 1.5-2.2 2.3-3.3.2-.4.5-.8.8-1.2.7-1.1 1.4-2.1 2.1-3.2.3-.5.6-.9.9-1.4.6-1.1 1.3-2.1 2-3.2.3-.5.6-.9.9-1.4.7-1.1 1.3-2.2 2-3.3.2-.4.5-.8.7-1.2 2.4-4 4.6-8.1 6.8-12.2.1-.2.2-.3.3-.5.6-1.1 1.1-2.2 1.7-3.3.2-.6.5-1.1.8-1.7.5-1 1-2.1 1.5-3.1.3-.7.6-1.3.9-2 .5-1 1-2 1.4-3l.9-2.1c.5-1 .9-2 1.3-3 .3-.7.6-1.5.9-2.2l1.2-3c.3-.8.6-1.5.9-2.3.4-1 .7-2 1.1-3s.7-1.9 1-2.8c.6-1.6 1.2-3.3 1.7-4.9.3-1 .6-1.9.9-2.8s.5-1.8.8-2.7c.2-.9.5-1.9.8-2.8s.6-1.8.8-2.7c.3-1 .5-1.9.8-2.9.2-.9.5-1.8.7-2.7.2-1 .5-2 .7-3 .2-.9.4-1.7.6-2.6.2-1 .5-2.1.7-3.2.2-.8.3-1.6.5-2.4.3-1.3.6-2.7.8-4 .1-.6.2-1.1.3-1.7l.9-5.7c.1-.6.2-1.3.3-1.9.1-1.3.3-2.6.5-3.9.1-.8.2-1.5.3-2.3.1-1.2.3-2.4.4-3.6 0-.8.1-1.6.2-2.4.1-1.1.2-2.3.3-3.5.1-.8.1-1.6.2-2.4.1 1.7.1.5.2-.7 0-.8.1-1.5.1-2.3.1-1.3.2-2.7.2-4 .1-.7.1-1.3.1-2 .1-2 .1-4 .1-6 0-53.5-16.9-103-45.8-143.7zM448 371.5c-9.4 15.5-20.6 29.9-33.6 42.9-20.6 20.6-44.5 36.7-71.2 48-13.9 5.8-28.2 10.3-42.9 13.2v-75.8c0-58.6-88.6-58.6-88.6 0v75.8c-14.7-2.9-29-7.3-42.9-13.2-26.7-11.3-50.6-27.4-71.2-48-13-13-24.2-27.4-33.6-42.9v-71.3c0-2.1 1.6-3.7 3.7-3.7h22.1c2.1 0 3.7 1.6 3.7 3.7V326h29.6V182c0-2.1 1.6-3.7 3.7-3.7h22.1c2.1 0 3.7 1.6 3.7 3.7v25.9h29.5V182c0-2.1 1.6-3.7 3.7-3.7H208c2.1 0 3.7 1.6 3.7 3.7v25.9h29.5V182c0-4.8 6.5-3.7 9.5-3.7V88.1c-4.4-2-7.4-6.7-7.4-11.5 0-16.8 25.4-16.8 25.4 0 0 4.8-3 9.4-7.4 11.5V92c6.3-1.4 12.7-2.3 19.2-2.3 9.4 0 18.4 3.5 26.3 3.5 7.2 0 15.2-3.5 19.4-3.5 2.1 0 3.7 1.6 3.7 3.7v48.4c0 5.6-18.7 6.5-22.4 6.5-8.6 0-16.6-3.5-25.4-3.5-7 0-14.1 1.2-20.8 2.8v30.7c3 0 9.5-1.1 9.5 3.7v25.9h29.5V182c0-2.1 1.6-3.7 3.7-3.7h22.2c2.1 0 3.7 1.6 3.7 3.7v25.9h29.5V182c0-2.1 1.6-3.7 3.7-3.7h22.1c2.1 0 3.7 1.6 3.7 3.7v144h29.5v-25.8c0-2.1 1.6-3.7 3.7-3.7h22.2c2.1 0 3.7 1.6 3.7 3.7z"/></svg>
+ Fort-Awesome-Alt displayed using SVG</p>
+</div>
+
+## Change `Fort-Awesome-Alt` font awesome icon size
+To increase `Fort-Awesome-Alt` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f3a3.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fab fa-fort-awesome-alt fa-lg'>fa-lg</i><br/>
+<i class='fab fa-fort-awesome-alt fa-2x'>fa-2x</i><br/>
+<i class='fab fa-fort-awesome-alt fa-3x'>fa-3x</i><br/>
+<i class='fab fa-fort-awesome-alt fa-4x'>fa-4x</i><br/>
+<i class='fab fa-fort-awesome-alt fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fab fa-fort-awesome-alt fa-lg'>fa-lg</i><br/>
 <i class='fab fa-fort-awesome-alt fa-2x'>fa-2x</i><br/>
 <i class='fab fa-fort-awesome-alt fa-3x'>fa-3x</i><br/>
 <i class='fab fa-fort-awesome-alt fa-4x'>fa-4x</i><br/>
 <i class='fab fa-fort-awesome-alt fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fab fa-fort-awesome-alt fa-lg'>fa-lg</i><br/>
-<i class='fab fa-fort-awesome-alt fa-2x'>fa-2x</i><br/>
-<i class='fab fa-fort-awesome-alt fa-3x'>fa-3x</i><br/>
-<i class='fab fa-fort-awesome-alt fa-4x'>fa-4x</i><br/>
-<i class='fab fa-fort-awesome-alt fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-fort-awesome-alt Icon with Fixed Width 
-
+## `Fort-Awesome-Alt` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-fort-awesome-alt icon and fa-home may not have same height and width.
+For example `Fort-Awesome-Alt` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fab fa-fort-awesome-alt fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-fort-awesome-alt fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fab fa-fort-awesome-alt fa-fw fa-3x'></i>Fixed Width<i class='fab fa-fort-awesome-alt fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fab fa-fort-awesome-alt fa-fw fa-3x'></i>Fixed Width<i class='fab fa-fort-awesome-alt fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fab fa-fort-awesome-alt fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-fort-awesome-alt fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-fort-awesome-alt Icon Border 
+</div>
 
-To add border to fa-fort-awesome-alt icon, use fa-border class.
-
-
-```
-<i class='fab fa-fort-awesome-alt fa-border fa-3x'></i>
-
+## `Fort-Awesome-Alt` font awesome icon Border
+To add border to `Fort-Awesome-Alt` font awesome icon, use `fa-border` class.
 ```
 <i class='fab fa-fort-awesome-alt fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-fort-awesome-alt icon To the left
-
-To pull icon fa-fort-awesome-alt to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-fort-awesome-alt fa-border fa-3x'></i>
+</div>
+
+## Pull `Fort-Awesome-Alt` font awesome icon To the left
+To pull `Fort-Awesome-Alt` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fab fa-fort-awesome-alt fa-pull-left fa-3x'></i>
+  ... The text after Fort-Awesome-Alt Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-fort-awesome-alt fa-pull-left fa-3x'></i>
-  ... The text after fa-fort-awesome-alt Icon will be displayed on the right side of the icons
+  ... The text after Fort-Awesome-Alt Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Fort-Awesome-Alt` font awesome icon To the left
+To pull `Fort-Awesome-Alt` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fab fa-fort-awesome-alt fa-pull-left fa-3x'></i>
-  ... The text after fa-fort-awesome-alt Icon will be displayed on the right side of the icons
+<i class='fab fa-fort-awesome-alt fa-pull-right fa-3x'></i>
+  ... The text after Fort-Awesome-Alt Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-fort-awesome-alt icon To the right
-To pull icon fa-fort-awesome-alt to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-fort-awesome-alt fa-pull-right fa-3x'></i>
-  ... The text after fa-fort-awesome-alt Icon will be displayed on the left side of the icons
+  ... The text after Fort-Awesome-Alt Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fab fa-fort-awesome-alt fa-pull-right fa-3x'></i>
-  ... The text after fa-fort-awesome-alt Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-fort-awesome-alt icon using fa-spin
-To animate font awesome fa-fort-awesome-alt icon, use fa-spin class.
-
+## Animate `Fort-Awesome-Alt` font awesome icon
+To animate `Fort-Awesome-Alt` font awesome icon, use `fa-spin` class.
 ```
 <i class='fab fa-fort-awesome-alt fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fab fa-fort-awesome-alt fa-spin fa-3x'></i>
+</div>
 
+## Animate `Fort-Awesome-Alt` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Fort-Awesome-Alt` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-fort-awesome-alt icon with steps
-While animating the font awesome icon,We can rotate fa-fort-awesome-alt icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-fort-awesome-alt icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fab fa-fort-awesome-alt fa-pulse fa-spin fa-3x'></i>
-
+<i class='fab fa-fort-awesome-alt fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fab fa-fort-awesome-alt fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fab fa-fort-awesome-alt fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-fort-awesome-alt Icon using fa-rotate-x
-To rotate the font awesome icon fa-fort-awesome-alt, Use fa-rotate-x class
+## Rotate `Fort-Awesome-Alt` font awesome icon
+ To rotate `Fort-Awesome-Alt` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fab fa-fort-awesome-alt fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-fort-awesome-alt fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fab fa-fort-awesome-alt fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-fort-awesome-alt fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fab fa-fort-awesome-alt fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fab fa-fort-awesome-alt fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-fort-awesome-alt Icon using fa-flip-*
-To flip fa-fort-awesome-alt font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Fort-Awesome-Alt` font awesome icon
+ To flip `Fort-Awesome-Alt` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fab fa-fort-awesome-alt fa-3x'>F</i> Normal <br>
 <i class='fab fa-fort-awesome-alt fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-fort-awesome-alt fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fab fa-fort-awesome-alt fa-3x'>F</i> Normal <br>
 <i class='fab fa-fort-awesome-alt fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-fort-awesome-alt fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Fort-Awesome-Alt` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-fort-awesome-alt icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Fort-Awesome-Alt` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-fort-awesome-alt on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fab fa-fort-awesome-alt fa-stack-1x'></i>
+    </span>
+      Fort-Awesome-Alt on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fab fa-fort-awesome-alt fa-stack-1x fa-inverse'></i>
+    </span>
+      Fort-Awesome-Alt on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fab fa-fort-awesome-alt fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Fort-Awesome-Alt on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fab fa-fort-awesome-alt fa-stack-1x'></i>
     </span>
-      fa-fort-awesome-alt on fa-square<br>
+      Fort-Awesome-Alt on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fab fa-fort-awesome-alt fa-stack-1x fa-inverse'></i>
     </span>
-      fa-fort-awesome-alt on fa-circle<br>
+      Fort-Awesome-Alt on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fab fa-fort-awesome-alt fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-fort-awesome-alt on fa-ban
+      Fort-Awesome-Alt on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fab fa-fort-awesome-alt fa-stack-1x'></i>
-    </span>
-      fa-fort-awesome-alt on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fab fa-fort-awesome-alt fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-fort-awesome-alt on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fab fa-fort-awesome-alt fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-fort-awesome-alt on fa-ban
 </div>
-
-
-
-
-
 

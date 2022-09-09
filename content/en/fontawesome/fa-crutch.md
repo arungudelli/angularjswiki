@@ -1,187 +1,285 @@
+
 +++
-title="fa-crutch icon in font awesome icons"
-summary="fa-crutch icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-crutch,f7f7,fa-crutch"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-crown"
-next="fa-css3"
-linktitle="fa-crutch"
+title='Crutch font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Crutch font awesome icon CSS class is fa-crutch & CSS Content Code is  \f7f7'
+keywords =['Crutch, \f7f7,fa-crutch']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-crown'
+next = 'fa-cruzeiro-sign'
+linktitle = 'fa-crutch_1'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'true'
++++ 
+
+**`Crutch` font awesome icon css class name is `fa-crutch` and CSS Content Code is ` \f7f7`**.
+ 
+
+`Crutch` font awesome icon is part of solid icons. 
 
 
-fa-crutch icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-crutch</td><td>fa-crutch</td><td>f7f7</td></tr></tbody></table></div>
+{{%toc%}}
+## `Crutch` font awesome icon usage
+We can display `Crutch` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Crutch` font awesome icon CSS class name
+
+To display `Crutch` font awesome icon, add predefined class name i.e.,`fa-crutch` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Crutch` icon.
 
 
-## fa-crutch icon Usage
-
-To display fa-crutch icon add predefined class name i.e.,fa-crutch (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-crutch icon. i.e., fas.
-
+`Crutch` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-crutch'></i>
 
 ```
 
-<i class='fas fa-crutch'>fa-crutch</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-crutch'></i>
+
+</div>
+
+
+## `Crutch` font awesome icon CSS Content Code 
+
+We can display `Crutch` font awesome icon using it's CSS Content Code ` \f7f7` 
+
+Use the following HTML code 
+
+```
+<li><span class='Crutch fontawesomeicon'></span>Crutch</li>
 ```
 
-<i class='fas fa-crutch'>fa-crutch</i>
-
-
-
-
-## Change fa-crutch icon size
-To increase fa-crutch font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-crutch.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Crutch::before {
+   font: var(--fa-font-solid);
+    content: ' \f7f7';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Crutch::before {
+   font: var(--fa-font-solid);
+    content: ' \f7f7';
+ }</style>
+
+<li><span class='Crutch fontawesomeicon'></span>Crutch</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Crutch` font awesome icon SVG 
+
+Use the following icon SVG to display `Crutch` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M297.4 9.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0zm-96 144l-34.8 34.8c-12.9 12.9-21.9 29.2-25.8 47.1L116.8 342.9c-1.3 5.9-4.3 11.4-8.6 15.7L9.4 457.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l98.8-98.8c4.3-4.3 9.7-7.3 15.7-8.6l107.6-23.9c17.8-4 34.1-12.9 47.1-25.8l34.7-34.7c0 0 .1-.1 .1-.1s.1-.1 .1-.1l74.6-74.6-45.3-45.3L336 242.7 269.3 176l52.1-52.1L276.1 78.6l-74.7 74.7zM224 221.3L290.7 288l-12.2 12.2c-4.3 4.3-9.7 7.3-15.7 8.6l-76.7 17 17-76.7c1.3-5.9 4.3-11.4 8.6-15.7L224 221.3z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M297.4 9.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0zm-96 144l-34.8 34.8c-12.9 12.9-21.9 29.2-25.8 47.1L116.8 342.9c-1.3 5.9-4.3 11.4-8.6 15.7L9.4 457.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l98.8-98.8c4.3-4.3 9.7-7.3 15.7-8.6l107.6-23.9c17.8-4 34.1-12.9 47.1-25.8l34.7-34.7c0 0 .1-.1 .1-.1s.1-.1 .1-.1l74.6-74.6-45.3-45.3L336 242.7 269.3 176l52.1-52.1L276.1 78.6l-74.7 74.7zM224 221.3L290.7 288l-12.2 12.2c-4.3 4.3-9.7 7.3-15.7 8.6l-76.7 17 17-76.7c1.3-5.9 4.3-11.4 8.6-15.7L224 221.3z"/></svg>
+ Crutch displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M297.4 9.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0zm-96 144l-34.8 34.8c-12.9 12.9-21.9 29.2-25.8 47.1L116.8 342.9c-1.3 5.9-4.3 11.4-8.6 15.7L9.4 457.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l98.8-98.8c4.3-4.3 9.7-7.3 15.7-8.6l107.6-23.9c17.8-4 34.1-12.9 47.1-25.8l34.7-34.7c0 0 .1-.1 .1-.1s.1-.1 .1-.1l74.6-74.6-45.3-45.3L336 242.7 269.3 176l52.1-52.1L276.1 78.6l-74.7 74.7zM224 221.3L290.7 288l-12.2 12.2c-4.3 4.3-9.7 7.3-15.7 8.6l-76.7 17 17-76.7c1.3-5.9 4.3-11.4 8.6-15.7L224 221.3z"/></svg>
+ Crutch displayed using SVG</p>
+</div>
+
+## Change `Crutch` font awesome icon size
+To increase `Crutch` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f7f7.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-crutch fa-lg'>fa-lg</i><br/>
+<i class='fas fa-crutch fa-2x'>fa-2x</i><br/>
+<i class='fas fa-crutch fa-3x'>fa-3x</i><br/>
+<i class='fas fa-crutch fa-4x'>fa-4x</i><br/>
+<i class='fas fa-crutch fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-crutch fa-lg'>fa-lg</i><br/>
 <i class='fas fa-crutch fa-2x'>fa-2x</i><br/>
 <i class='fas fa-crutch fa-3x'>fa-3x</i><br/>
 <i class='fas fa-crutch fa-4x'>fa-4x</i><br/>
 <i class='fas fa-crutch fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-crutch fa-lg'>fa-lg</i><br/>
-<i class='fas fa-crutch fa-2x'>fa-2x</i><br/>
-<i class='fas fa-crutch fa-3x'>fa-3x</i><br/>
-<i class='fas fa-crutch fa-4x'>fa-4x</i><br/>
-<i class='fas fa-crutch fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-crutch Icon with Fixed Width 
-
+## `Crutch` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-crutch icon and fa-home may not have same height and width.
+For example `Crutch` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-crutch fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-crutch fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-crutch fa-fw fa-3x'></i>Fixed Width<i class='fas fa-crutch fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-crutch fa-fw fa-3x'></i>Fixed Width<i class='fas fa-crutch fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-crutch fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-crutch fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-crutch Icon Border 
+</div>
 
-To add border to fa-crutch icon, use fa-border class.
-
-
-```
-<i class='fas fa-crutch fa-border fa-3x'></i>
-
+## `Crutch` font awesome icon Border
+To add border to `Crutch` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-crutch fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-crutch icon To the left
-
-To pull icon fa-crutch to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-crutch fa-border fa-3x'></i>
+</div>
+
+## Pull `Crutch` font awesome icon To the left
+To pull `Crutch` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-crutch fa-pull-left fa-3x'></i>
+  ... The text after Crutch Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-crutch fa-pull-left fa-3x'></i>
-  ... The text after fa-crutch Icon will be displayed on the right side of the icons
+  ... The text after Crutch Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Crutch` font awesome icon To the left
+To pull `Crutch` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-crutch fa-pull-left fa-3x'></i>
-  ... The text after fa-crutch Icon will be displayed on the right side of the icons
+<i class='fas fa-crutch fa-pull-right fa-3x'></i>
+  ... The text after Crutch Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-crutch icon To the right
-To pull icon fa-crutch to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-crutch fa-pull-right fa-3x'></i>
-  ... The text after fa-crutch Icon will be displayed on the left side of the icons
+  ... The text after Crutch Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-crutch fa-pull-right fa-3x'></i>
-  ... The text after fa-crutch Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-crutch icon using fa-spin
-To animate font awesome fa-crutch icon, use fa-spin class.
-
+## Animate `Crutch` font awesome icon
+To animate `Crutch` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-crutch fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-crutch fa-spin fa-3x'></i>
+</div>
 
+## Animate `Crutch` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Crutch` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-crutch icon with steps
-While animating the font awesome icon,We can rotate fa-crutch icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-crutch icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-crutch fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-crutch fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-crutch fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-crutch fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-crutch Icon using fa-rotate-x
-To rotate the font awesome icon fa-crutch, Use fa-rotate-x class
+## Rotate `Crutch` font awesome icon
+ To rotate `Crutch` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-crutch fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-crutch fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-crutch fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-crutch fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-crutch fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-crutch fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-crutch Icon using fa-flip-*
-To flip fa-crutch font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Crutch` font awesome icon
+ To flip `Crutch` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-crutch fa-3x'>F</i> Normal <br>
 <i class='fas fa-crutch fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-crutch fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-crutch fa-3x'>F</i> Normal <br>
 <i class='fas fa-crutch fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-crutch fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Crutch` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-crutch icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Crutch` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-crutch on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-crutch fa-stack-1x'></i>
+    </span>
+      Crutch on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-crutch fa-stack-1x fa-inverse'></i>
+    </span>
+      Crutch on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-crutch fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Crutch on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-crutch fa-stack-1x'></i>
     </span>
-      fa-crutch on fa-square<br>
+      Crutch on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-crutch fa-stack-1x fa-inverse'></i>
     </span>
-      fa-crutch on fa-circle<br>
+      Crutch on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-crutch fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-crutch on fa-ban
+      Crutch on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-crutch fa-stack-1x'></i>
-    </span>
-      fa-crutch on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-crutch fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-crutch on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-crutch fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-crutch on fa-ban
 </div>
-
-
-
-
-
 
