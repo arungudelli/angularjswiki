@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-weixin'
 next = 'fa-whmcs'
-linktitle = 'fa-whatsapp_1'
+linktitle = 'fa-whatsapp'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Whatsapp` font awesome icon css class name is `fa-whatsapp` and CSS Content Code is ` \f232`**.

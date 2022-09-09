@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-sass'
 next = 'fa-screenpal'
-linktitle = 'fa-schlix_1'
+linktitle = 'fa-schlix'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Schlix` font awesome icon css class name is `fa-schlix` and CSS Content Code is ` \f3ea`**.

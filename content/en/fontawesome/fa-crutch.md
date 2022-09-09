@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-crown'
 next = 'fa-cruzeiro-sign'
-linktitle = 'fa-crutch_1'
+linktitle = 'fa-crutch'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Crutch` font awesome icon css class name is `fa-crutch` and CSS Content Code is ` \f7f7`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-meetup'
 next = 'fa-mendeley'
-linktitle = 'fa-megaport_1'
+linktitle = 'fa-megaport'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Megaport` font awesome icon css class name is `fa-megaport` and CSS Content Code is ` \f5a3`**.

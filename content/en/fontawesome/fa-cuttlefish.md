@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-css3'
 next = 'fa-d-and-d-beyond'
-linktitle = 'fa-cuttlefish_1'
+linktitle = 'fa-cuttlefish'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Cuttlefish` font awesome icon css class name is `fa-cuttlefish` and CSS Content Code is ` \f38c`**.

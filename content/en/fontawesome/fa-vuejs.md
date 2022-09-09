@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-vnv'
 next = 'fa-watchman-monitoring'
-linktitle = 'fa-vuejs_1'
+linktitle = 'fa-vuejs'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Vuejs` font awesome icon css class name is `fa-vuejs` and CSS Content Code is ` \f41f`**.

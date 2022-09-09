@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-grip-lines'
 next = 'fa-grip'
-linktitle = 'fa-grip-vertical_1'
+linktitle = 'fa-grip-vertical'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Grip-Vertical` font awesome icon css class name is `fa-grip-vertical` and CSS Content Code is ` \f58e`**.

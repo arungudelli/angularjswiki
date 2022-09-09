@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-dong-sign'
 next = 'fa-door-open'
-linktitle = 'fa-door-closed_1'
+linktitle = 'fa-door-closed'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Door-Closed` font awesome icon css class name is `fa-door-closed` and CSS Content Code is ` \f52a`**.

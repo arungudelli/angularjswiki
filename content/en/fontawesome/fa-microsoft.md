@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-microblog'
 next = 'fa-mix'
-linktitle = 'fa-microsoft_1'
+linktitle = 'fa-microsoft'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Microsoft` font awesome icon css class name is `fa-microsoft` and CSS Content Code is ` \f3ca`**.

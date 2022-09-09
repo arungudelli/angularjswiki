@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-uikit'
 next = 'fa-uncharted'
-linktitle = 'fa-umbraco_1'
+linktitle = 'fa-umbraco'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Umbraco` font awesome icon css class name is `fa-umbraco` and CSS Content Code is ` \f8e8`**.

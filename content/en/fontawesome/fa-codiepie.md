@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-codepen'
 next = 'fa-confluence'
-linktitle = 'fa-codiepie_1'
+linktitle = 'fa-codiepie'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Codiepie` font awesome icon css class name is `fa-codiepie` and CSS Content Code is ` \f284`**.

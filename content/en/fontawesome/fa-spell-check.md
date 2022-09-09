@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-spaghetti-monster-flying'
 next = 'fa-spider'
-linktitle = 'fa-spell-check_1'
+linktitle = 'fa-spell-check'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Spell-Check` font awesome icon css class name is `fa-spell-check` and CSS Content Code is ` \f891`**.

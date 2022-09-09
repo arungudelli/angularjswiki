@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-cubes-stacked'
 next = 'fa-d'
-linktitle = 'fa-cubes_1'
+linktitle = 'fa-cubes'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Cubes` font awesome icon css class name is `fa-cubes` and CSS Content Code is ` \f1b3`**.

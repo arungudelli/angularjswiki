@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-money-check-dollar'
 next = 'fa-monument'
-linktitle = 'fa-money-check_1'
+linktitle = 'fa-money-check'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Money-Check` font awesome icon css class name is `fa-money-check` and CSS Content Code is ` \f53c`**.

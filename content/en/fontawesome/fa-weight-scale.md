@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-weight-hanging'
 next = 'fa-wheat-awn-circle-exclamation'
-linktitle = 'fa-weight-scale_1'
+linktitle = 'fa-weight-scale'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Weight-Scale` font awesome icon css class name is `fa-weight-scale` and CSS Content Code is ` \f496`**.

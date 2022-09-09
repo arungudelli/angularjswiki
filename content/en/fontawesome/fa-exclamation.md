@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-euro-sign'
 next = 'fa-expand'
-linktitle = 'fa-exclamation_1'
+linktitle = 'fa-exclamation'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Exclamation` font awesome icon css class name is `fa-exclamation` and CSS Content Code is ` \21`**.

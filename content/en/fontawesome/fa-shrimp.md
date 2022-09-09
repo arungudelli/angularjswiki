@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-shower'
 next = 'fa-shuffle'
-linktitle = 'fa-shrimp_1'
+linktitle = 'fa-shrimp'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Shrimp` font awesome icon css class name is `fa-shrimp` and CSS Content Code is ` \e448`**.

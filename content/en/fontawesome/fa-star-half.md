@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-star-half-stroke'
 next = 'fa-star-of-david'
-linktitle = 'fa-star-half_1'
+linktitle = 'fa-star-half'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Star-Half` font awesome icon css class name is `fa-star-half` and CSS Content Code is ` \f089`**.

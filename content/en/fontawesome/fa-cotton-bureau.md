@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-contao'
 next = 'fa-cpanel'
-linktitle = 'fa-cotton-bureau_1'
+linktitle = 'fa-cotton-bureau'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Cotton-Bureau` font awesome icon css class name is `fa-cotton-bureau` and CSS Content Code is ` \f89e`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-gears'
 next = 'fa-genderless'
-linktitle = 'fa-gem_1'
+linktitle = 'fa-gem'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Gem` font awesome icon css class name is `fa-gem` and CSS Content Code is ` \f3a5`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-mizuni'
 next = 'fa-monero'
-linktitle = 'fa-modx_1'
+linktitle = 'fa-modx'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Modx` font awesome icon css class name is `fa-modx` and CSS Content Code is ` \f285`**.

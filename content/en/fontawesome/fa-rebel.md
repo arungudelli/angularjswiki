@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-readme'
 next = 'fa-red-river'
-linktitle = 'fa-rebel_1'
+linktitle = 'fa-rebel'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Rebel` font awesome icon css class name is `fa-rebel` and CSS Content Code is ` \f1d0`**.

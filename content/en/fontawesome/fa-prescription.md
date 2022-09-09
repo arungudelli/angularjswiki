@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-prescription-bottle'
 next = 'fa-print'
-linktitle = 'fa-prescription_1'
+linktitle = 'fa-prescription'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Prescription` font awesome icon css class name is `fa-prescription` and CSS Content Code is ` \f5b1`**.

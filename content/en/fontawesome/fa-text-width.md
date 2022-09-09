@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-text-slash'
 next = 'fa-thermometer'
-linktitle = 'fa-text-width_1'
+linktitle = 'fa-text-width'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Text-Width` font awesome icon css class name is `fa-text-width` and CSS Content Code is ` \f035`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-deviantart'
 next = 'fa-diaspora'
-linktitle = 'fa-dhl_1'
+linktitle = 'fa-dhl'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Dhl` font awesome icon css class name is `fa-dhl` and CSS Content Code is ` \f790`**.

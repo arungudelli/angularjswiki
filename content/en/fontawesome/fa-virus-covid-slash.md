@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-vihara'
 next = 'fa-virus-covid'
-linktitle = 'fa-virus-covid-slash_1'
+linktitle = 'fa-virus-covid-slash'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Virus-Covid-Slash` font awesome icon css class name is `fa-virus-covid-slash` and CSS Content Code is ` \e4a9`**.

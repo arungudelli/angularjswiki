@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-khanda'
 next = 'fa-kit-medical'
-linktitle = 'fa-kip-sign_1'
+linktitle = 'fa-kip-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Kip-Sign` font awesome icon css class name is `fa-kip-sign` and CSS Content Code is ` \e1c4`**.

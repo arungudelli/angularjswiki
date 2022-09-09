@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-temperature-full'
 next = 'fa-temperature-high'
-linktitle = 'fa-temperature-half_1'
+linktitle = 'fa-temperature-half'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Temperature-Half` font awesome icon css class name is `fa-temperature-half` and CSS Content Code is ` \f2c9`**.

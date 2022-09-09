@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-square-poll-horizontal'
 next = 'fa-square-root-variable'
-linktitle = 'fa-square-poll-vertical_1'
+linktitle = 'fa-square-poll-vertical'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Square-Poll-Vertical` font awesome icon css class name is `fa-square-poll-vertical` and CSS Content Code is ` \f681`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-up-long'
 next = 'fa-up-right-from-square'
-linktitle = 'fa-up-right-and-down-left-from-center_1'
+linktitle = 'fa-up-right-and-down-left-from-center'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Up-Right-And-Down-Left-From-Center` font awesome icon css class name is `fa-up-right-and-down-left-from-center` and CSS Content Code is ` \f424`**.

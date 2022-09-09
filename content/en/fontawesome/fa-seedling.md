@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-section'
 next = 'fa-server'
-linktitle = 'fa-seedling_1'
+linktitle = 'fa-seedling'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Seedling` font awesome icon css class name is `fa-seedling` and CSS Content Code is ` \f4d8`**.

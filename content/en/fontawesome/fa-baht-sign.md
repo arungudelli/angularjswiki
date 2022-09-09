@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bahai'
 next = 'fa-ban-smoking'
-linktitle = 'fa-baht-sign_1'
+linktitle = 'fa-baht-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Baht-Sign` font awesome icon css class name is `fa-baht-sign` and CSS Content Code is ` \e0ac`**.

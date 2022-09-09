@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-grav'
 next = 'fa-grunt'
-linktitle = 'fa-gripfire_1'
+linktitle = 'fa-gripfire'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Gripfire` font awesome icon css class name is `fa-gripfire` and CSS Content Code is ` \f3ac`**.

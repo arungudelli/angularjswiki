@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bug-slash'
 next = 'fa-bugs'
-linktitle = 'fa-bug_1'
+linktitle = 'fa-bug'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bug` font awesome icon css class name is `fa-bug` and CSS Content Code is ` \f188`**.

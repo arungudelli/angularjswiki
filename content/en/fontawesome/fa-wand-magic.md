@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-wand-magic-sparkles'
 next = 'fa-wand-sparkles'
-linktitle = 'fa-wand-magic_1'
+linktitle = 'fa-wand-magic'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Wand-Magic` font awesome icon css class name is `fa-wand-magic` and CSS Content Code is ` \f0d0`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-book-journal-whills'
 next = 'fa-book-open-reader'
-linktitle = 'fa-book-medical_1'
+linktitle = 'fa-book-medical'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Book-Medical` font awesome icon css class name is `fa-book-medical` and CSS Content Code is ` \f7e6`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-closed-captioning'
 next = 'fa-cloud-arrow-up'
-linktitle = 'fa-cloud-arrow-down_1'
+linktitle = 'fa-cloud-arrow-down'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Cloud-Arrow-Down` font awesome icon css class name is `fa-cloud-arrow-down` and CSS Content Code is ` \f0ed`**.

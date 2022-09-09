@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-road-barrier'
 next = 'fa-road-circle-check'
-linktitle = 'fa-road-bridge_1'
+linktitle = 'fa-road-bridge'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Road-Bridge` font awesome icon css class name is `fa-road-bridge` and CSS Content Code is ` \e563`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-chess-bishop'
 next = 'fa-chess-king'
-linktitle = 'fa-chess-board_1'
+linktitle = 'fa-chess-board'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Chess-Board` font awesome icon css class name is `fa-chess-board` and CSS Content Code is ` \f43c`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bowl-food'
 next = 'fa-bowling-ball'
-linktitle = 'fa-bowl-rice_1'
+linktitle = 'fa-bowl-rice'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bowl-Rice` font awesome icon css class name is `fa-bowl-rice` and CSS Content Code is ` \e2eb`**.

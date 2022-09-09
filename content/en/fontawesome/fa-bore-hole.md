@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-border-top-left'
 next = 'fa-bottle-droplet'
-linktitle = 'fa-bore-hole_1'
+linktitle = 'fa-bore-hole'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bore-Hole` font awesome icon css class name is `fa-bore-hole` and CSS Content Code is ` \e4c3`**.

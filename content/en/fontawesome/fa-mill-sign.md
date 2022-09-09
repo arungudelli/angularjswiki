@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-microscope'
 next = 'fa-minimize'
-linktitle = 'fa-mill-sign_1'
+linktitle = 'fa-mill-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Mill-Sign` font awesome icon css class name is `fa-mill-sign` and CSS Content Code is ` \e1ed`**.

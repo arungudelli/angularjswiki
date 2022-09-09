@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bullhorn'
 next = 'fa-burger'
-linktitle = 'fa-bullseye_1'
+linktitle = 'fa-bullseye'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bullseye` font awesome icon css class name is `fa-bullseye` and CSS Content Code is ` \f140`**.

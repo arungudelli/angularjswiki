@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-flickr'
 next = 'fa-fly'
-linktitle = 'fa-flipboard_1'
+linktitle = 'fa-flipboard'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Flipboard` font awesome icon css class name is `fa-flipboard` and CSS Content Code is ` \f44d`**.

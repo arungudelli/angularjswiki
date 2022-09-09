@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-uber'
 next = 'fa-uikit'
-linktitle = 'fa-ubuntu_1'
+linktitle = 'fa-ubuntu'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Ubuntu` font awesome icon css class name is `fa-ubuntu` and CSS Content Code is ` \f7df`**.

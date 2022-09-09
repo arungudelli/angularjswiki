@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-viadeo'
 next = 'fa-vimeo-v'
-linktitle = 'fa-viber_1'
+linktitle = 'fa-viber'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Viber` font awesome icon css class name is `fa-viber` and CSS Content Code is ` \f409`**.

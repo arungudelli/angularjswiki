@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-reply'
 next = 'fa-restroom'
-linktitle = 'fa-republican_1'
+linktitle = 'fa-republican'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Republican` font awesome icon css class name is `fa-republican` and CSS Content Code is ` \f75e`**.

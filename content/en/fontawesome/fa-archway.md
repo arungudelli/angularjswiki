@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-apple-whole'
 next = 'fa-arrow-down-1-9'
-linktitle = 'fa-archway_1'
+linktitle = 'fa-archway'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Archway` font awesome icon css class name is `fa-archway` and CSS Content Code is ` \f557`**.

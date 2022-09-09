@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-asymmetrik'
 next = 'fa-audible'
-linktitle = 'fa-atlassian_1'
+linktitle = 'fa-atlassian'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Atlassian` font awesome icon css class name is `fa-atlassian` and CSS Content Code is ` \f77b`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-reddit'
 next = 'fa-renren'
-linktitle = 'fa-redhat_1'
+linktitle = 'fa-redhat'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Redhat` font awesome icon css class name is `fa-redhat` and CSS Content Code is ` \f7bc`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-audible'
 next = 'fa-avianex'
-linktitle = 'fa-autoprefixer_1'
+linktitle = 'fa-autoprefixer'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Autoprefixer` font awesome icon css class name is `fa-autoprefixer` and CSS Content Code is ` \f41c`**.

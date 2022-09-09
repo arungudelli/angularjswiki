@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-toggle-off'
 next = 'fa-toilet-paper-slash'
-linktitle = 'fa-toggle-on_1'
+linktitle = 'fa-toggle-on'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Toggle-On` font awesome icon css class name is `fa-toggle-on` and CSS Content Code is ` \f205`**.

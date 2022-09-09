@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-wordpress-simple'
 next = 'fa-wpbeginner'
-linktitle = 'fa-wordpress_1'
+linktitle = 'fa-wordpress'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Wordpress` font awesome icon css class name is `fa-wordpress` and CSS Content Code is ` \f19a`**.

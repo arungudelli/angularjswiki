@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-d'
 next = 'fa-delete-left'
-linktitle = 'fa-database_1'
+linktitle = 'fa-database'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Database` font awesome icon css class name is `fa-database` and CSS Content Code is ` \f1c0`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-otter'
 next = 'fa-p'
-linktitle = 'fa-outdent_1'
+linktitle = 'fa-outdent'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Outdent` font awesome icon css class name is `fa-outdent` and CSS Content Code is ` \f03b`**.

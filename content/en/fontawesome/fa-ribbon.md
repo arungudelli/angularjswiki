@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-retweet'
 next = 'fa-right-from-bracket'
-linktitle = 'fa-ribbon_1'
+linktitle = 'fa-ribbon'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Ribbon` font awesome icon css class name is `fa-ribbon` and CSS Content Code is ` \f4d6`**.

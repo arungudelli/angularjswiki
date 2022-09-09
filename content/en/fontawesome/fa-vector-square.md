@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-vault'
 next = 'fa-venus-double'
-linktitle = 'fa-vector-square_1'
+linktitle = 'fa-vector-square'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Vector-Square` font awesome icon css class name is `fa-vector-square` and CSS Content Code is ` \f5cb`**.

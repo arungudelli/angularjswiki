@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-square-xing'
 next = 'fa-squarespace'
-linktitle = 'fa-square-youtube_1'
+linktitle = 'fa-square-youtube'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Square-Youtube` font awesome icon css class name is `fa-square-youtube` and CSS Content Code is ` \f431`**.

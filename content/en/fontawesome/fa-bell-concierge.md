@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-beer-mug-empty'
 next = 'fa-bell-slash'
-linktitle = 'fa-bell-concierge_1'
+linktitle = 'fa-bell-concierge'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bell-Concierge` font awesome icon css class name is `fa-bell-concierge` and CSS Content Code is ` \f562`**.

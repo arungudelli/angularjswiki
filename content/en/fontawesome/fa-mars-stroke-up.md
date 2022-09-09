@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-mars-stroke-right'
 next = 'fa-mars-stroke'
-linktitle = 'fa-mars-stroke-up_1'
+linktitle = 'fa-mars-stroke-up'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Mars-Stroke-Up` font awesome icon css class name is `fa-mars-stroke-up` and CSS Content Code is ` \f22a`**.

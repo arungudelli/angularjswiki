@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-star-of-david'
 next = 'fa-star'
-linktitle = 'fa-star-of-life_1'
+linktitle = 'fa-star-of-life'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Star-Of-Life` font awesome icon css class name is `fa-star-of-life` and CSS Content Code is ` \f621`**.

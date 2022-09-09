@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-person-circle-check'
 next = 'fa-person-circle-minus'
-linktitle = 'fa-person-circle-exclamation_1'
+linktitle = 'fa-person-circle-exclamation'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Person-Circle-Exclamation` font awesome icon css class name is `fa-person-circle-exclamation` and CSS Content Code is ` \e53f`**.

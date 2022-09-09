@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-restroom'
 next = 'fa-ribbon'
-linktitle = 'fa-retweet_1'
+linktitle = 'fa-retweet'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Retweet` font awesome icon css class name is `fa-retweet` and CSS Content Code is ` \f079`**.

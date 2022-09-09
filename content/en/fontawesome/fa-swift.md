@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-suse'
 next = 'fa-symfony'
-linktitle = 'fa-swift_1'
+linktitle = 'fa-swift'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Swift` font awesome icon css class name is `fa-swift` and CSS Content Code is ` \f8e1`**.

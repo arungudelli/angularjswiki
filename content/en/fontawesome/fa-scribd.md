@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-screenpal'
 next = 'fa-searchengin'
-linktitle = 'fa-scribd_1'
+linktitle = 'fa-scribd'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Scribd` font awesome icon css class name is `fa-scribd` and CSS Content Code is ` \f28a`**.

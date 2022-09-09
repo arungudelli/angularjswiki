@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-smoking'
 next = 'fa-snowman'
-linktitle = 'fa-snowflake_1'
+linktitle = 'fa-snowflake'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Snowflake` font awesome icon css class name is `fa-snowflake` and CSS Content Code is ` \f2dc`**.

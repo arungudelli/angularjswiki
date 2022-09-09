@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-space-awesome'
 next = 'fa-speaker-deck'
-linktitle = 'fa-speakap_1'
+linktitle = 'fa-speakap'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Speakap` font awesome icon css class name is `fa-speakap` and CSS Content Code is ` \f3f3`**.

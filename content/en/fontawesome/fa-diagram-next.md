@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-dharmachakra'
 next = 'fa-diagram-predecessor'
-linktitle = 'fa-diagram-next_1'
+linktitle = 'fa-diagram-next'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Diagram-Next` font awesome icon css class name is `fa-diagram-next` and CSS Content Code is ` \e476`**.

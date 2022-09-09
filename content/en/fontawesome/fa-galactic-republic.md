@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-fulcrum'
 next = 'fa-galactic-senate'
-linktitle = 'fa-galactic-republic_1'
+linktitle = 'fa-galactic-republic'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Galactic-Republic` font awesome icon css class name is `fa-galactic-republic` and CSS Content Code is ` \f50c`**.

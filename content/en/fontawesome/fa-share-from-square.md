@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-shapes'
 next = 'fa-share-nodes'
-linktitle = 'fa-share-from-square_1'
+linktitle = 'fa-share-from-square'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Share-From-Square` font awesome icon css class name is `fa-share-from-square` and CSS Content Code is ` \f14d`**.

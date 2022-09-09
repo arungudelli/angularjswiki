@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hat-cowboy'
 next = 'fa-head-side-cough-slash'
-linktitle = 'fa-hat-wizard_1'
+linktitle = 'fa-hat-wizard'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Hat-Wizard` font awesome icon css class name is `fa-hat-wizard` and CSS Content Code is ` \f6e8`**.

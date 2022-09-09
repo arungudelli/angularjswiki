@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-code-merge'
 next = 'fa-code'
-linktitle = 'fa-code-pull-request_1'
+linktitle = 'fa-code-pull-request'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Code-Pull-Request` font awesome icon css class name is `fa-code-pull-request` and CSS Content Code is ` \e13c`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-pied-piper-hat'
 next = 'fa-pied-piper'
-linktitle = 'fa-pied-piper-pp_1'
+linktitle = 'fa-pied-piper-pp'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Pied-Piper-Pp` font awesome icon css class name is `fa-pied-piper-pp` and CSS Content Code is ` \f1a7`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-teamspeak'
 next = 'fa-tencent-weibo'
-linktitle = 'fa-telegram_1'
+linktitle = 'fa-telegram'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Telegram` font awesome icon css class name is `fa-telegram` and CSS Content Code is ` \f2c6`**.

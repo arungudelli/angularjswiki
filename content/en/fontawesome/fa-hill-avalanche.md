@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-highlighter'
 next = 'fa-hill-rockslide'
-linktitle = 'fa-hill-avalanche_1'
+linktitle = 'fa-hill-avalanche'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Hill-Avalanche` font awesome icon css class name is `fa-hill-avalanche` and CSS Content Code is ` \e507`**.

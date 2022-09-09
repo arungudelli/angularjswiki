@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bug'
 next = 'fa-building-circle-arrow-right'
-linktitle = 'fa-bugs_1'
+linktitle = 'fa-bugs'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bugs` font awesome icon css class name is `fa-bugs` and CSS Content Code is ` \e4d0`**.

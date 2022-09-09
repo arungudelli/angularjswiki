@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-arrows-up-to-line'
 next = 'fa-at'
-linktitle = 'fa-asterisk_1'
+linktitle = 'fa-asterisk'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Asterisk` font awesome icon css class name is `fa-asterisk` and CSS Content Code is ` \2a`**.

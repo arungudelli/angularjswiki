@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-tablets'
 next = 'fa-tag'
-linktitle = 'fa-tachograph-digital_1'
+linktitle = 'fa-tachograph-digital'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Tachograph-Digital` font awesome icon css class name is `fa-tachograph-digital` and CSS Content Code is ` \f566`**.

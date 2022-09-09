@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hands-clapping'
 next = 'fa-hands-holding-circle'
-linktitle = 'fa-hands-holding-child_1'
+linktitle = 'fa-hands-holding-child'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Hands-Holding-Child` font awesome icon css class name is `fa-hands-holding-child` and CSS Content Code is ` \e4fa`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-gitlab'
 next = 'fa-glide-g'
-linktitle = 'fa-gitter_1'
+linktitle = 'fa-gitter'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Gitter` font awesome icon css class name is `fa-gitter` and CSS Content Code is ` \f426`**.

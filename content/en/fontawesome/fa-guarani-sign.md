@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-group-arrows-rotate'
 next = 'fa-guitar'
-linktitle = 'fa-guarani-sign_1'
+linktitle = 'fa-guarani-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Guarani-Sign` font awesome icon css class name is `fa-guarani-sign` and CSS Content Code is ` \e19a`**.

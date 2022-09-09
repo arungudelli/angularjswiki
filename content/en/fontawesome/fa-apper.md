@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-app-store'
 next = 'fa-apple-pay'
-linktitle = 'fa-apper_1'
+linktitle = 'fa-apper'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Apper` font awesome icon css class name is `fa-apper` and CSS Content Code is ` \f371`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-reply-all'
 next = 'fa-republican'
-linktitle = 'fa-reply_1'
+linktitle = 'fa-reply'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Reply` font awesome icon css class name is `fa-reply` and CSS Content Code is ` \f3e5`**.

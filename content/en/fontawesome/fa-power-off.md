@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-poop'
 next = 'fa-prescription-bottle-medical'
-linktitle = 'fa-power-off_1'
+linktitle = 'fa-power-off'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Power-Off` font awesome icon css class name is `fa-power-off` and CSS Content Code is ` \f011`**.

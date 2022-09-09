@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-children'
 next = 'fa-circle-arrow-down'
-linktitle = 'fa-church_1'
+linktitle = 'fa-church'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Church` font awesome icon css class name is `fa-church` and CSS Content Code is ` \f51d`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-dribbble'
 next = 'fa-drupal'
-linktitle = 'fa-dropbox_1'
+linktitle = 'fa-dropbox'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Dropbox` font awesome icon css class name is `fa-dropbox` and CSS Content Code is ` \f16b`**.

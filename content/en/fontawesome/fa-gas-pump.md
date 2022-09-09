@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-gamepad'
 next = 'fa-gauge-high'
-linktitle = 'fa-gas-pump_1'
+linktitle = 'fa-gas-pump'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Gas-Pump` font awesome icon css class name is `fa-gas-pump` and CSS Content Code is ` \f52f`**.

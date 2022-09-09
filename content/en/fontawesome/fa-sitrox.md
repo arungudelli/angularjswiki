@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-sith'
 next = 'fa-sketch'
-linktitle = 'fa-sitrox_1'
+linktitle = 'fa-sitrox'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Sitrox` font awesome icon css class name is `fa-sitrox` and CSS Content Code is ` \e44a`**.

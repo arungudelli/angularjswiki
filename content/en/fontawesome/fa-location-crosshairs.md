@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-location-arrow'
 next = 'fa-location-dot'
-linktitle = 'fa-location-crosshairs_1'
+linktitle = 'fa-location-crosshairs'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Location-Crosshairs` font awesome icon css class name is `fa-location-crosshairs` and CSS Content Code is ` \f601`**.

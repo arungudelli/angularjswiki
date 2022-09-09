@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-code-compare'
 next = 'fa-code-merge'
-linktitle = 'fa-code-fork_1'
+linktitle = 'fa-code-fork'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Code-Fork` font awesome icon css class name is `fa-code-fork` and CSS Content Code is ` \e13b`**.

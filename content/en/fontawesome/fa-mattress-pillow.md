@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-masks-theater'
 next = 'fa-maximize'
-linktitle = 'fa-mattress-pillow_1'
+linktitle = 'fa-mattress-pillow'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Mattress-Pillow` font awesome icon css class name is `fa-mattress-pillow` and CSS Content Code is ` \e525`**.

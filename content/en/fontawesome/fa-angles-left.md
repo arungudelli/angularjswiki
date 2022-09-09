@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-angles-down'
 next = 'fa-angles-right'
-linktitle = 'fa-angles-left_1'
+linktitle = 'fa-angles-left'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Angles-Left` font awesome icon css class name is `fa-angles-left` and CSS Content Code is ` \f100`**.

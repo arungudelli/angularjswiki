@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-file-code'
 next = 'fa-file-csv'
-linktitle = 'fa-file-contract_1'
+linktitle = 'fa-file-contract'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`File-Contract` font awesome icon css class name is `fa-file-contract` and CSS Content Code is ` \f56c`**.

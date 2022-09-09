@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-square-github'
 next = 'fa-square-google-plus'
-linktitle = 'fa-square-gitlab_1'
+linktitle = 'fa-square-gitlab'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Square-Gitlab` font awesome icon css class name is `fa-square-gitlab` and CSS Content Code is ` \e5ae`**.

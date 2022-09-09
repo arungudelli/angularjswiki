@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-microsoft'
 next = 'fa-mixcloud'
-linktitle = 'fa-mix_1'
+linktitle = 'fa-mix'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Mix` font awesome icon css class name is `fa-mix` and CSS Content Code is ` \f3cb`**.

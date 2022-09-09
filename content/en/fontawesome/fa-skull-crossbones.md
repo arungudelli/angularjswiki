@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-sitemap'
 next = 'fa-skull'
-linktitle = 'fa-skull-crossbones_1'
+linktitle = 'fa-skull-crossbones'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Skull-Crossbones` font awesome icon css class name is `fa-skull-crossbones` and CSS Content Code is ` \f714`**.

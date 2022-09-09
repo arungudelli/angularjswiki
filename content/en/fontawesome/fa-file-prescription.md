@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-file-powerpoint'
 next = 'fa-file-shield'
-linktitle = 'fa-file-prescription_1'
+linktitle = 'fa-file-prescription'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`File-Prescription` font awesome icon css class name is `fa-file-prescription` and CSS Content Code is ` \f572`**.

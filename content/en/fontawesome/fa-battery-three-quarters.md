@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-battery-quarter'
 next = 'fa-bed-pulse'
-linktitle = 'fa-battery-three-quarters_1'
+linktitle = 'fa-battery-three-quarters'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Battery-Three-Quarters` font awesome icon css class name is `fa-battery-three-quarters` and CSS Content Code is ` \f241`**.

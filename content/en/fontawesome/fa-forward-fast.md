@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-football'
 next = 'fa-forward-step'
-linktitle = 'fa-forward-fast_1'
+linktitle = 'fa-forward-fast'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Forward-Fast` font awesome icon css class name is `fa-forward-fast` and CSS Content Code is ` \f050`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-chromecast'
 next = 'fa-cloudscale'
-linktitle = 'fa-cloudflare_1'
+linktitle = 'fa-cloudflare'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Cloudflare` font awesome icon css class name is `fa-cloudflare` and CSS Content Code is ` \e07d`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hands'
 next = 'fa-handshake-simple-slash'
-linktitle = 'fa-handshake-angle_1'
+linktitle = 'fa-handshake-angle'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Handshake-Angle` font awesome icon css class name is `fa-handshake-angle` and CSS Content Code is ` \f4c4`**.

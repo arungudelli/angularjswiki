@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-headphones'
 next = 'fa-heart-circle-bolt'
-linktitle = 'fa-headset_1'
+linktitle = 'fa-headset'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Headset` font awesome icon css class name is `fa-headset` and CSS Content Code is ` \f590`**.

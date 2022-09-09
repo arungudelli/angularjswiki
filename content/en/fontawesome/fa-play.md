@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-plate-wheat'
 next = 'fa-plug-circle-bolt'
-linktitle = 'fa-play_1'
+linktitle = 'fa-play'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Play` font awesome icon css class name is `fa-play` and CSS Content Code is ` \f04b`**.

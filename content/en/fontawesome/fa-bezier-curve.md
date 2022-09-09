@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bell'
 next = 'fa-bicycle'
-linktitle = 'fa-bezier-curve_1'
+linktitle = 'fa-bezier-curve'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bezier-Curve` font awesome icon css class name is `fa-bezier-curve` and CSS Content Code is ` \f55b`**.

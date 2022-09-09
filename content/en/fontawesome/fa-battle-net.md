@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bandcamp'
 next = 'fa-behance'
-linktitle = 'fa-battle-net_1'
+linktitle = 'fa-battle-net'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Battle-Net` font awesome icon css class name is `fa-battle-net` and CSS Content Code is ` \f835`**.

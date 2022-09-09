@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-creative-commons'
 next = 'fa-css3-alt'
-linktitle = 'fa-critical-role_1'
+linktitle = 'fa-critical-role'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Critical-Role` font awesome icon css class name is `fa-critical-role` and CSS Content Code is ` \f6c9`**.

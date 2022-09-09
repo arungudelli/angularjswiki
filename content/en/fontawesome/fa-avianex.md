@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-autoprefixer'
 next = 'fa-aviato'
-linktitle = 'fa-avianex_1'
+linktitle = 'fa-avianex'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Avianex` font awesome icon css class name is `fa-avianex` and CSS Content Code is ` \f374`**.

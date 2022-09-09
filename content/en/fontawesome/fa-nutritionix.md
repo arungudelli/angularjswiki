@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-ns8'
 next = 'fa-octopus-deploy'
-linktitle = 'fa-nutritionix_1'
+linktitle = 'fa-nutritionix'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Nutritionix` font awesome icon css class name is `fa-nutritionix` and CSS Content Code is ` \f3d6`**.

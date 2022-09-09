@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-sterling-sign'
 next = 'fa-stop'
-linktitle = 'fa-stethoscope_1'
+linktitle = 'fa-stethoscope'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Stethoscope` font awesome icon css class name is `fa-stethoscope` and CSS Content Code is ` \f0f1`**.

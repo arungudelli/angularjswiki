@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bowling-ball'
 next = 'fa-box-open'
-linktitle = 'fa-box-archive_1'
+linktitle = 'fa-box-archive'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Box-Archive` font awesome icon css class name is `fa-box-archive` and CSS Content Code is ` \f187`**.

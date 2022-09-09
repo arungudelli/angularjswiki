@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-phabricator'
 next = 'fa-phoenix-squadron'
-linktitle = 'fa-phoenix-framework_1'
+linktitle = 'fa-phoenix-framework'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Phoenix-Framework` font awesome icon css class name is `fa-phoenix-framework` and CSS Content Code is ` \f3dc`**.

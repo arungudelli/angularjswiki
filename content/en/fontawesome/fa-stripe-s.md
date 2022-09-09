@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-strava'
 next = 'fa-stripe'
-linktitle = 'fa-stripe-s_1'
+linktitle = 'fa-stripe-s'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Stripe-S` font awesome icon css class name is `fa-stripe-s` and CSS Content Code is ` \f42a`**.

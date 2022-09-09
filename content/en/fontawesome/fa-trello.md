@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-trade-federation'
 next = 'fa-tumblr'
-linktitle = 'fa-trello_1'
+linktitle = 'fa-trello'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Trello` font awesome icon css class name is `fa-trello` and CSS Content Code is ` \f181`**.

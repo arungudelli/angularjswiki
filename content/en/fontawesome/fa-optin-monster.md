@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-opera'
 next = 'fa-orcid'
-linktitle = 'fa-optin-monster_1'
+linktitle = 'fa-optin-monster'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Optin-Monster` font awesome icon css class name is `fa-optin-monster` and CSS Content Code is ` \f23c`**.

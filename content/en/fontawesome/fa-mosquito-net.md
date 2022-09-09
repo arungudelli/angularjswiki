@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-mosque'
 next = 'fa-mosquito'
-linktitle = 'fa-mosquito-net_1'
+linktitle = 'fa-mosquito-net'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Mosquito-Net` font awesome icon css class name is `fa-mosquito-net` and CSS Content Code is ` \e52c`**.

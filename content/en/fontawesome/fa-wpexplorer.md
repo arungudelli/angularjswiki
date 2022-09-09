@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-wpbeginner'
 next = 'fa-wpforms'
-linktitle = 'fa-wpexplorer_1'
+linktitle = 'fa-wpexplorer'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Wpexplorer` font awesome icon css class name is `fa-wpexplorer` and CSS Content Code is ` \f2de`**.

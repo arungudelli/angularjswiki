@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hotel'
 next = 'fa-hourglass-half'
-linktitle = 'fa-hourglass-end_1'
+linktitle = 'fa-hourglass-end'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Hourglass-End` font awesome icon css class name is `fa-hourglass-end` and CSS Content Code is ` \f253`**.

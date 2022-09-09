@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-trash-can-arrow-up'
 next = 'fa-trash'
-linktitle = 'fa-trash-can_1'
+linktitle = 'fa-trash-can'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Trash-Can` font awesome icon css class name is `fa-trash-can` and CSS Content Code is ` \f2ed`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-comments'
 next = 'fa-compass-drafting'
-linktitle = 'fa-compact-disc_1'
+linktitle = 'fa-compact-disc'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Compact-Disc` font awesome icon css class name is `fa-compact-disc` and CSS Content Code is ` \f51f`**.

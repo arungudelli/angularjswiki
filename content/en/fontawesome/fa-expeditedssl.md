@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-evernote'
 next = 'fa-facebook-f'
-linktitle = 'fa-expeditedssl_1'
+linktitle = 'fa-expeditedssl'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Expeditedssl` font awesome icon css class name is `fa-expeditedssl` and CSS Content Code is ` \f23e`**.

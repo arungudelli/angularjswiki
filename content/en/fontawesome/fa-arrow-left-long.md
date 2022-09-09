@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-arrow-down'
 next = 'fa-arrow-left'
-linktitle = 'fa-arrow-left-long_1'
+linktitle = 'fa-arrow-left-long'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Arrow-Left-Long` font awesome icon css class name is `fa-arrow-left-long` and CSS Content Code is ` \f177`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-freebsd'
 next = 'fa-galactic-republic'
-linktitle = 'fa-fulcrum_1'
+linktitle = 'fa-fulcrum'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Fulcrum` font awesome icon css class name is `fa-fulcrum` and CSS Content Code is ` \f50b`**.

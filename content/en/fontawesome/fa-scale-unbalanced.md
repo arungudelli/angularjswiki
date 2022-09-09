@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-scale-unbalanced-flip'
 next = 'fa-school-circle-check'
-linktitle = 'fa-scale-unbalanced_1'
+linktitle = 'fa-scale-unbalanced'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Scale-Unbalanced` font awesome icon css class name is `fa-scale-unbalanced` and CSS Content Code is ` \f515`**.

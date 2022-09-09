@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-page4'
 next = 'fa-palfed'
-linktitle = 'fa-pagelines_1'
+linktitle = 'fa-pagelines'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Pagelines` font awesome icon css class name is `fa-pagelines` and CSS Content Code is ` \f18c`**.

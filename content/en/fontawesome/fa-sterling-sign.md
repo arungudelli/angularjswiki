@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-star'
 next = 'fa-stethoscope'
-linktitle = 'fa-sterling-sign_1'
+linktitle = 'fa-sterling-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Sterling-Sign` font awesome icon css class name is `fa-sterling-sign` and CSS Content Code is ` \f154`**.

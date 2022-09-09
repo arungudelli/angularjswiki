@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-google'
 next = 'fa-grav'
-linktitle = 'fa-gratipay_1'
+linktitle = 'fa-gratipay'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Gratipay` font awesome icon css class name is `fa-gratipay` and CSS Content Code is ` \f184`**.

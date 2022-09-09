@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-lightbulb'
 next = 'fa-link-slash'
-linktitle = 'fa-lines-leaning_1'
+linktitle = 'fa-lines-leaning'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Lines-Leaning` font awesome icon css class name is `fa-lines-leaning` and CSS Content Code is ` \e51e`**.

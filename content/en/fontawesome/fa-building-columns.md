@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-building-circle-xmark'
 next = 'fa-building-flag'
-linktitle = 'fa-building-columns_1'
+linktitle = 'fa-building-columns'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Building-Columns` font awesome icon css class name is `fa-building-columns` and CSS Content Code is ` \f19c`**.

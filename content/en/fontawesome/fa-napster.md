@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-monero'
 next = 'fa-neos'
-linktitle = 'fa-napster_1'
+linktitle = 'fa-napster'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Napster` font awesome icon css class name is `fa-napster` and CSS Content Code is ` \f3d2`**.

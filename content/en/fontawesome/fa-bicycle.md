@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bezier-curve'
 next = 'fa-binoculars'
-linktitle = 'fa-bicycle_1'
+linktitle = 'fa-bicycle'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bicycle` font awesome icon css class name is `fa-bicycle` and CSS Content Code is ` \f206`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-j'
 next = 'fa-jar'
-linktitle = 'fa-jar-wheat_1'
+linktitle = 'fa-jar-wheat'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Jar-Wheat` font awesome icon css class name is `fa-jar-wheat` and CSS Content Code is ` \e517`**.

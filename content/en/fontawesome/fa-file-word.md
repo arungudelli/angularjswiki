@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-file-waveform'
 next = 'fa-file-zipper'
-linktitle = 'fa-file-word_1'
+linktitle = 'fa-file-word'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`File-Word` font awesome icon css class name is `fa-file-word` and CSS Content Code is ` \f1c2`**.

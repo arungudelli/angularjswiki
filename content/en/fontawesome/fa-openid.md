@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-opencart'
 next = 'fa-opera'
-linktitle = 'fa-openid_1'
+linktitle = 'fa-openid'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Openid` font awesome icon css class name is `fa-openid` and CSS Content Code is ` \f19b`**.

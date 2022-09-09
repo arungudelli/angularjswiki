@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-pallet'
 next = 'fa-paper-plane'
-linktitle = 'fa-panorama_1'
+linktitle = 'fa-panorama'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Panorama` font awesome icon css class name is `fa-panorama` and CSS Content Code is ` \e209`**.

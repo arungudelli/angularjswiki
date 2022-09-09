@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-nfc-symbol'
 next = 'fa-node-js'
-linktitle = 'fa-nimblr_1'
+linktitle = 'fa-nimblr'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Nimblr` font awesome icon css class name is `fa-nimblr` and CSS Content Code is ` \f5a8`**.

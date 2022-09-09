@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-yahoo'
 next = 'fa-yandex-international'
-linktitle = 'fa-yammer_1'
+linktitle = 'fa-yammer'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Yammer` font awesome icon css class name is `fa-yammer` and CSS Content Code is ` \f840`**.

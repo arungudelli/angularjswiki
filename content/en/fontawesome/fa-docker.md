@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-dochub'
 next = 'fa-draft2digital'
-linktitle = 'fa-docker_1'
+linktitle = 'fa-docker'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Docker` font awesome icon css class name is `fa-docker` and CSS Content Code is ` \f395`**.

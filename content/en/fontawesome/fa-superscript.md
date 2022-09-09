@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-sun'
 next = 'fa-swatchbook'
-linktitle = 'fa-superscript_1'
+linktitle = 'fa-superscript'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Superscript` font awesome icon css class name is `fa-superscript` and CSS Content Code is ` \f12b`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-mastodon'
 next = 'fa-mdb'
-linktitle = 'fa-maxcdn_1'
+linktitle = 'fa-maxcdn'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Maxcdn` font awesome icon css class name is `fa-maxcdn` and CSS Content Code is ` \f136`**.

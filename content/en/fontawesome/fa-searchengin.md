@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-scribd'
 next = 'fa-sellcast'
-linktitle = 'fa-searchengin_1'
+linktitle = 'fa-searchengin'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Searchengin` font awesome icon css class name is `fa-searchengin` and CSS Content Code is ` \f3eb`**.

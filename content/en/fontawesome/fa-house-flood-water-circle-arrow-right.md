@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-house-flag'
 next = 'fa-house-flood-water'
-linktitle = 'fa-house-flood-water-circle-arrow-right_1'
+linktitle = 'fa-house-flood-water-circle-arrow-right'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`House-Flood-Water-Circle-Arrow-Right` font awesome icon css class name is `fa-house-flood-water-circle-arrow-right` and CSS Content Code is ` \e50f`**.

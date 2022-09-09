@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-arrow-up-from-ground-water'
 next = 'fa-arrow-up-long'
-linktitle = 'fa-arrow-up-from-water-pump_1'
+linktitle = 'fa-arrow-up-from-water-pump'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Arrow-Up-From-Water-Pump` font awesome icon css class name is `fa-arrow-up-from-water-pump` and CSS Content Code is ` \e4b6`**.

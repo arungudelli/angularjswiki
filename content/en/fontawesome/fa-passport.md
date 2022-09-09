@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-paragraph'
 next = 'fa-paste'
-linktitle = 'fa-passport_1'
+linktitle = 'fa-passport'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Passport` font awesome icon css class name is `fa-passport` and CSS Content Code is ` \f5ab`**.

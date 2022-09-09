@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-stroopwafel'
 next = 'fa-suitcase-medical'
-linktitle = 'fa-subscript_1'
+linktitle = 'fa-subscript'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Subscript` font awesome icon css class name is `fa-subscript` and CSS Content Code is ` \f12c`**.

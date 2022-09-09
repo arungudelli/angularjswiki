@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-square-youtube'
 next = 'fa-stack-exchange'
-linktitle = 'fa-squarespace_1'
+linktitle = 'fa-squarespace'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Squarespace` font awesome icon css class name is `fa-squarespace` and CSS Content Code is ` \f5be`**.

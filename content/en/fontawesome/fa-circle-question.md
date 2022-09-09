@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-circle-plus'
 next = 'fa-circle-radiation'
-linktitle = 'fa-circle-question_1'
+linktitle = 'fa-circle-question'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Circle-Question` font awesome icon css class name is `fa-circle-question` and CSS Content Code is ` \f059`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-forward'
 next = 'fa-frog'
-linktitle = 'fa-franc-sign_1'
+linktitle = 'fa-franc-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Franc-Sign` font awesome icon css class name is `fa-franc-sign` and CSS Content Code is ` \e18f`**.

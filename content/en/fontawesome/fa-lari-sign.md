@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-laptop'
 next = 'fa-layer-group'
-linktitle = 'fa-lari-sign_1'
+linktitle = 'fa-lari-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Lari-Sign` font awesome icon css class name is `fa-lari-sign` and CSS Content Code is ` \e1c8`**.

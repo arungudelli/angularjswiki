@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hand-holding'
 next = 'fa-hand-middle-finger'
-linktitle = 'fa-hand-lizard_1'
+linktitle = 'fa-hand-lizard'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Hand-Lizard` font awesome icon css class name is `fa-hand-lizard` and CSS Content Code is ` \f258`**.

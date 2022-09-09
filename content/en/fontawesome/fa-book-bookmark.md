@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-book-bible'
 next = 'fa-book-journal-whills'
-linktitle = 'fa-book-bookmark_1'
+linktitle = 'fa-book-bookmark'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Book-Bookmark` font awesome icon css class name is `fa-book-bookmark` and CSS Content Code is ` \e0bb`**.

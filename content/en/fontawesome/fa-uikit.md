@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-ubuntu'
 next = 'fa-umbraco'
-linktitle = 'fa-uikit_1'
+linktitle = 'fa-uikit'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Uikit` font awesome icon css class name is `fa-uikit` and CSS Content Code is ` \f403`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-yarn'
 next = 'fa-yoast'
-linktitle = 'fa-yelp_1'
+linktitle = 'fa-yelp'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Yelp` font awesome icon css class name is `fa-yelp` and CSS Content Code is ` \f1e9`**.

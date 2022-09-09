@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-accessible-icon'
 next = 'fa-adn'
-linktitle = 'fa-accusoft_1'
+linktitle = 'fa-accusoft'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Accusoft` font awesome icon css class name is `fa-accusoft` and CSS Content Code is ` \f369`**.

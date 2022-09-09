@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-aws'
 next = 'fa-battle-net'
-linktitle = 'fa-bandcamp_1'
+linktitle = 'fa-bandcamp'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bandcamp` font awesome icon css class name is `fa-bandcamp` and CSS Content Code is ` \f2d5`**.

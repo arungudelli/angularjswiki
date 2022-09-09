@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-rotate-right'
 next = 'fa-route'
-linktitle = 'fa-rotate_1'
+linktitle = 'fa-rotate'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Rotate` font awesome icon css class name is `fa-rotate` and CSS Content Code is ` \f2f1`**.

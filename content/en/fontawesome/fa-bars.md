@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bars-staggered'
 next = 'fa-baseball-bat-ball'
-linktitle = 'fa-bars_1'
+linktitle = 'fa-bars'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bars` font awesome icon css class name is `fa-bars` and CSS Content Code is ` \f0c9`**.

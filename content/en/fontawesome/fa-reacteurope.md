@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-react'
 next = 'fa-readme'
-linktitle = 'fa-reacteurope_1'
+linktitle = 'fa-reacteurope'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Reacteurope` font awesome icon css class name is `fa-reacteurope` and CSS Content Code is ` \f75d`**.

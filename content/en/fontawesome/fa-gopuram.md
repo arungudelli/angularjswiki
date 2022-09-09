@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-golf-ball-tee'
 next = 'fa-graduation-cap'
-linktitle = 'fa-gopuram_1'
+linktitle = 'fa-gopuram'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Gopuram` font awesome icon css class name is `fa-gopuram` and CSS Content Code is ` \f664`**.

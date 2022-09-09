@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-droplet-slash'
 next = 'fa-drum-steelpan'
-linktitle = 'fa-droplet_1'
+linktitle = 'fa-droplet'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Droplet` font awesome icon css class name is `fa-droplet` and CSS Content Code is ` \f043`**.

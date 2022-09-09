@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-wpforms'
 next = 'fa-xbox'
-linktitle = 'fa-wpressr_1'
+linktitle = 'fa-wpressr'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Wpressr` font awesome icon css class name is `fa-wpressr` and CSS Content Code is ` \f3e4`**.

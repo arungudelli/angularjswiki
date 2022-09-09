@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-sitrox'
 next = 'fa-skyatlas'
-linktitle = 'fa-sketch_1'
+linktitle = 'fa-sketch'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Sketch` font awesome icon css class name is `fa-sketch` and CSS Content Code is ` \f7c6`**.

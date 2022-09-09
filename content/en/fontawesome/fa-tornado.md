@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-torii-gate'
 next = 'fa-tower-broadcast'
-linktitle = 'fa-tornado_1'
+linktitle = 'fa-tornado'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Tornado` font awesome icon css class name is `fa-tornado` and CSS Content Code is ` \f76f`**.

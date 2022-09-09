@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-tree'
 next = 'fa-trophy'
-linktitle = 'fa-triangle-exclamation_1'
+linktitle = 'fa-triangle-exclamation'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Triangle-Exclamation` font awesome icon css class name is `fa-triangle-exclamation` and CSS Content Code is ` \f071`**.

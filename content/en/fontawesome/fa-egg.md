@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-earth-oceania'
 next = 'fa-eject'
-linktitle = 'fa-egg_1'
+linktitle = 'fa-egg'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Egg` font awesome icon css class name is `fa-egg` and CSS Content Code is ` \f7fb`**.

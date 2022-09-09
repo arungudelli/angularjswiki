@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-gitter'
 next = 'fa-glide'
-linktitle = 'fa-glide-g_1'
+linktitle = 'fa-glide-g'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Glide-G` font awesome icon css class name is `fa-glide-g` and CSS Content Code is ` \f2a6`**.

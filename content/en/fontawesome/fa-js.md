@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-joomla'
 next = 'fa-jsfiddle'
-linktitle = 'fa-js_1'
+linktitle = 'fa-js'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Js` font awesome icon css class name is `fa-js` and CSS Content Code is ` \f3b8`**.

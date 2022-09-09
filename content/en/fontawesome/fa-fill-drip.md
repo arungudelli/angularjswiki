@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-file'
 next = 'fa-fill'
-linktitle = 'fa-fill-drip_1'
+linktitle = 'fa-fill-drip'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Fill-Drip` font awesome icon css class name is `fa-fill-drip` and CSS Content Code is ` \f576`**.

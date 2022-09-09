@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-newspaper'
 next = 'fa-note-sticky'
-linktitle = 'fa-not-equal_1'
+linktitle = 'fa-not-equal'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Not-Equal` font awesome icon css class name is `fa-not-equal` and CSS Content Code is ` \f53e`**.

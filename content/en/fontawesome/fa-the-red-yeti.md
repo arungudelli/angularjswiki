@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-tencent-weibo'
 next = 'fa-themeco'
-linktitle = 'fa-the-red-yeti_1'
+linktitle = 'fa-the-red-yeti'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`The-Red-Yeti` font awesome icon css class name is `fa-the-red-yeti` and CSS Content Code is ` \f69d`**.

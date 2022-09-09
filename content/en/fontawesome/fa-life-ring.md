@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-less-than'
 next = 'fa-lightbulb'
-linktitle = 'fa-life-ring_1'
+linktitle = 'fa-life-ring'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Life-Ring` font awesome icon css class name is `fa-life-ring` and CSS Content Code is ` \f1cd`**.

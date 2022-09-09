@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-snowplow'
 next = 'fa-socks'
-linktitle = 'fa-soap_1'
+linktitle = 'fa-soap'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Soap` font awesome icon css class name is `fa-soap` and CSS Content Code is ` \e06e`**.

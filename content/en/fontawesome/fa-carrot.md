@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-caret-up'
 next = 'fa-cart-arrow-down'
-linktitle = 'fa-carrot_1'
+linktitle = 'fa-carrot'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Carrot` font awesome icon css class name is `fa-carrot` and CSS Content Code is ` \f787`**.

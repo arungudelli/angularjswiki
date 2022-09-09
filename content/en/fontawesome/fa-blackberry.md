@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-black-tie'
 next = 'fa-blogger-b'
-linktitle = 'fa-blackberry_1'
+linktitle = 'fa-blackberry'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Blackberry` font awesome icon css class name is `fa-blackberry` and CSS Content Code is ` \f37b`**.

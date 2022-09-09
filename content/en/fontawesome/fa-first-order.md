@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-first-order-alt'
 next = 'fa-firstdraft'
-linktitle = 'fa-first-order_1'
+linktitle = 'fa-first-order'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`First-Order` font awesome icon css class name is `fa-first-order` and CSS Content Code is ` \f2b0`**.

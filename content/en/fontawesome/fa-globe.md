@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-glasses'
 next = 'fa-golf-ball-tee'
-linktitle = 'fa-globe_1'
+linktitle = 'fa-globe'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Globe` font awesome icon css class name is `fa-globe` and CSS Content Code is ` \f0ac`**.

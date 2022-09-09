@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-gg'
 next = 'fa-git'
-linktitle = 'fa-git-alt_1'
+linktitle = 'fa-git-alt'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Git-Alt` font awesome icon css class name is `fa-git-alt` and CSS Content Code is ` \f841`**.

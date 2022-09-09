@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-affiliatetheme'
 next = 'fa-algolia'
-linktitle = 'fa-airbnb_1'
+linktitle = 'fa-airbnb'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Airbnb` font awesome icon css class name is `fa-airbnb` and CSS Content Code is ` \f834`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-eraser'
 next = 'fa-euro-sign'
-linktitle = 'fa-ethernet_1'
+linktitle = 'fa-ethernet'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Ethernet` font awesome icon css class name is `fa-ethernet` and CSS Content Code is ` \f796`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hurricane'
 next = 'fa-i'
-linktitle = 'fa-i-cursor_1'
+linktitle = 'fa-i-cursor'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`I-Cursor` font awesome icon css class name is `fa-i-cursor` and CSS Content Code is ` \f246`**.

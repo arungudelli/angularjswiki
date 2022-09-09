@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-mountain'
 next = 'fa-mug-saucer'
-linktitle = 'fa-mug-hot_1'
+linktitle = 'fa-mug-hot'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Mug-Hot` font awesome icon css class name is `fa-mug-hot` and CSS Content Code is ` \f7b6`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-rectangle-ad'
 next = 'fa-rectangle-xmark'
-linktitle = 'fa-rectangle-list_1'
+linktitle = 'fa-rectangle-list'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Rectangle-List` font awesome icon css class name is `fa-rectangle-list` and CSS Content Code is ` \f022`**.

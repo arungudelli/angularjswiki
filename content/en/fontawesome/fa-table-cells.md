@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-table-cells-large'
 next = 'fa-table-columns'
-linktitle = 'fa-table-cells_1'
+linktitle = 'fa-table-cells'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Table-Cells` font awesome icon css class name is `fa-table-cells` and CSS Content Code is ` \f00a`**.

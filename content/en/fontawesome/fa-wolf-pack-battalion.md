@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-wodu'
 next = 'fa-wordpress-simple'
-linktitle = 'fa-wolf-pack-battalion_1'
+linktitle = 'fa-wolf-pack-battalion'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Wolf-Pack-Battalion` font awesome icon css class name is `fa-wolf-pack-battalion` and CSS Content Code is ` \f514`**.

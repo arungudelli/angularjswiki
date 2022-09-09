@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-cart-flatbed'
 next = 'fa-cart-shopping'
-linktitle = 'fa-cart-plus_1'
+linktitle = 'fa-cart-plus'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Cart-Plus` font awesome icon css class name is `fa-cart-plus` and CSS Content Code is ` \f217`**.

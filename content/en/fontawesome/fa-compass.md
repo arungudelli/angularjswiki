@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-compass-drafting'
 next = 'fa-compress'
-linktitle = 'fa-compass_1'
+linktitle = 'fa-compass'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Compass` font awesome icon css class name is `fa-compass` and CSS Content Code is ` \f14e`**.

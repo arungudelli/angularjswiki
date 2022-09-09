@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-person-praying'
 next = 'fa-person-rays'
-linktitle = 'fa-person-pregnant_1'
+linktitle = 'fa-person-pregnant'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Person-Pregnant` font awesome icon css class name is `fa-person-pregnant` and CSS Content Code is ` \e31e`**.

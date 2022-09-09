@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-square-tumblr'
 next = 'fa-square-viadeo'
-linktitle = 'fa-square-twitter_1'
+linktitle = 'fa-square-twitter'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Square-Twitter` font awesome icon css class name is `fa-square-twitter` and CSS Content Code is ` \f081`**.

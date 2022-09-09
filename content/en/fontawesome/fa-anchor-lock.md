@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-anchor-circle-xmark'
 next = 'fa-anchor'
-linktitle = 'fa-anchor-lock_1'
+linktitle = 'fa-anchor-lock'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Anchor-Lock` font awesome icon css class name is `fa-anchor-lock` and CSS Content Code is ` \e4ad`**.

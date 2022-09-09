@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-crop'
 next = 'fa-crosshairs'
-linktitle = 'fa-cross_1'
+linktitle = 'fa-cross'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Cross` font awesome icon css class name is `fa-cross` and CSS Content Code is ` \f654`**.

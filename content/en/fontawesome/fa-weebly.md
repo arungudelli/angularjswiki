@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-waze'
 next = 'fa-weibo'
-linktitle = 'fa-weebly_1'
+linktitle = 'fa-weebly'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Weebly` font awesome icon css class name is `fa-weebly` and CSS Content Code is ` \f5cc`**.

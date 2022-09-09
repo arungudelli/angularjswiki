@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-lari-sign'
 next = 'fa-leaf'
-linktitle = 'fa-layer-group_1'
+linktitle = 'fa-layer-group'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Layer-Group` font awesome icon css class name is `fa-layer-group` and CSS Content Code is ` \f5fd`**.

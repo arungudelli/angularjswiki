@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bell-concierge'
 next = 'fa-bell'
-linktitle = 'fa-bell-slash_1'
+linktitle = 'fa-bell-slash'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bell-Slash` font awesome icon css class name is `fa-bell-slash` and CSS Content Code is ` \f1f6`**.

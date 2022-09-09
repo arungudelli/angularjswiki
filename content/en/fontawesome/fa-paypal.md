@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-patreon'
 next = 'fa-perbyte'
-linktitle = 'fa-paypal_1'
+linktitle = 'fa-paypal'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Paypal` font awesome icon css class name is `fa-paypal` and CSS Content Code is ` \f1ed`**.

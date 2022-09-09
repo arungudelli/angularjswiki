@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-expeditedssl'
 next = 'fa-facebook-messenger'
-linktitle = 'fa-facebook-f_1'
+linktitle = 'fa-facebook-f'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Facebook-F` font awesome icon css class name is `fa-facebook-f` and CSS Content Code is ` \f39e`**.

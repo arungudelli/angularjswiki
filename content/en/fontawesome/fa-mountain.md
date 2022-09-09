@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-mountain-sun'
 next = 'fa-mug-hot'
-linktitle = 'fa-mountain_1'
+linktitle = 'fa-mountain'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Mountain` font awesome icon css class name is `fa-mountain` and CSS Content Code is ` \f6fc`**.

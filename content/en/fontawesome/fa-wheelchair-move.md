@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-wheat-awn'
 next = 'fa-wheelchair'
-linktitle = 'fa-wheelchair-move_1'
+linktitle = 'fa-wheelchair-move'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Wheelchair-Move` font awesome icon css class name is `fa-wheelchair-move` and CSS Content Code is ` \e2ce`**.

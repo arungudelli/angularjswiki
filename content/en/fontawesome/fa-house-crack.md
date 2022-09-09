@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-house-circle-xmark'
 next = 'fa-house-fire'
-linktitle = 'fa-house-crack_1'
+linktitle = 'fa-house-crack'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`House-Crack` font awesome icon css class name is `fa-house-crack` and CSS Content Code is ` \e3b1`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-photo-film'
 next = 'fa-pills'
-linktitle = 'fa-piggy-bank_1'
+linktitle = 'fa-piggy-bank'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Piggy-Bank` font awesome icon css class name is `fa-piggy-bank` and CSS Content Code is ` \f4d3`**.

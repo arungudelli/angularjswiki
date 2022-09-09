@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-microphone-lines-slash'
 next = 'fa-microphone-slash'
-linktitle = 'fa-microphone-lines_1'
+linktitle = 'fa-microphone-lines'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Microphone-Lines` font awesome icon css class name is `fa-microphone-lines` and CSS Content Code is ` \f3c9`**.

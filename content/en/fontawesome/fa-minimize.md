@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-mill-sign'
 next = 'fa-minus'
-linktitle = 'fa-minimize_1'
+linktitle = 'fa-minimize'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Minimize` font awesome icon css class name is `fa-minimize` and CSS Content Code is ` \f78c`**.

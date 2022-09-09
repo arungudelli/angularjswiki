@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-circle-user'
 next = 'fa-circle'
-linktitle = 'fa-circle-xmark_1'
+linktitle = 'fa-circle-xmark'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Circle-Xmark` font awesome icon css class name is `fa-circle-xmark` and CSS Content Code is ` \f057`**.

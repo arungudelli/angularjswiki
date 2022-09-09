@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-square-reddit'
 next = 'fa-square-steam'
-linktitle = 'fa-square-snapchat_1'
+linktitle = 'fa-square-snapchat'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Square-Snapchat` font awesome icon css class name is `fa-square-snapchat` and CSS Content Code is ` \f2ad`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-soap'
 next = 'fa-solar-panel'
-linktitle = 'fa-socks_1'
+linktitle = 'fa-socks'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Socks` font awesome icon css class name is `fa-socks` and CSS Content Code is ` \f696`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-youtube'
 next = 'fa-address-book'
-linktitle = 'fa-zhihu_1'
+linktitle = 'fa-zhihu'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Zhihu` font awesome icon css class name is `fa-zhihu` and CSS Content Code is ` \f63f`**.

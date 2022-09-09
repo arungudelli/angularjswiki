@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-text-width'
 next = 'fa-thumbs-down'
-linktitle = 'fa-thermometer_1'
+linktitle = 'fa-thermometer'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Thermometer` font awesome icon css class name is `fa-thermometer` and CSS Content Code is ` \f491`**.

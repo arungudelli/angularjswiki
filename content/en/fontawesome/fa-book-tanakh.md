@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-book-skull'
 next = 'fa-book'
-linktitle = 'fa-book-tanakh_1'
+linktitle = 'fa-book-tanakh'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Book-Tanakh` font awesome icon css class name is `fa-book-tanakh` and CSS Content Code is ` \f827`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-user-astronaut'
 next = 'fa-user-clock'
-linktitle = 'fa-user-check_1'
+linktitle = 'fa-user-check'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`User-Check` font awesome icon css class name is `fa-user-check` and CSS Content Code is ` \f4fc`**.

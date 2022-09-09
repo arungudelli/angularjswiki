@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-tents'
 next = 'fa-text-height'
-linktitle = 'fa-terminal_1'
+linktitle = 'fa-terminal'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Terminal` font awesome icon css class name is `fa-terminal` and CSS Content Code is ` \f120`**.

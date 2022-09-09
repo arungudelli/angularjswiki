@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-l'
 next = 'fa-landmark-dome'
-linktitle = 'fa-land-mine-on_1'
+linktitle = 'fa-land-mine-on'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Land-Mine-On` font awesome icon css class name is `fa-land-mine-on` and CSS Content Code is ` \e51b`**.

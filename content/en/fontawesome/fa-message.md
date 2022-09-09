@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-mercury'
 next = 'fa-meteor'
-linktitle = 'fa-message_1'
+linktitle = 'fa-message'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Message` font awesome icon css class name is `fa-message` and CSS Content Code is ` \f27a`**.

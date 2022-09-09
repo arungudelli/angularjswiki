@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-images'
 next = 'fa-indent'
-linktitle = 'fa-inbox_1'
+linktitle = 'fa-inbox'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Inbox` font awesome icon css class name is `fa-inbox` and CSS Content Code is ` \f01c`**.

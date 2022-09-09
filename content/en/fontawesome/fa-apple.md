@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-apple-pay'
 next = 'fa-artstation'
-linktitle = 'fa-apple_1'
+linktitle = 'fa-apple'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Apple` font awesome icon css class name is `fa-apple` and CSS Content Code is ` \f179`**.

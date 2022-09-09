@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-earlybirds'
 next = 'fa-edge-legacy'
-linktitle = 'fa-ebay_1'
+linktitle = 'fa-ebay'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Ebay` font awesome icon css class name is `fa-ebay` and CSS Content Code is ` \f4f4`**.

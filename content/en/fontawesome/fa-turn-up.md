@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-turn-down'
 next = 'fa-tv'
-linktitle = 'fa-turn-up_1'
+linktitle = 'fa-turn-up'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Turn-Up` font awesome icon css class name is `fa-turn-up` and CSS Content Code is ` \f3bf`**.

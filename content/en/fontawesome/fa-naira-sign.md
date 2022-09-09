@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-n'
 next = 'fa-network-wired'
-linktitle = 'fa-naira-sign_1'
+linktitle = 'fa-naira-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Naira-Sign` font awesome icon css class name is `fa-naira-sign` and CSS Content Code is ` \e1f6`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-road-circle-exclamation'
 next = 'fa-road-lock'
-linktitle = 'fa-road-circle-xmark_1'
+linktitle = 'fa-road-circle-xmark'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Road-Circle-Xmark` font awesome icon css class name is `fa-road-circle-xmark` and CSS Content Code is ` \e566`**.

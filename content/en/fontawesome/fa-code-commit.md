@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-code-branch'
 next = 'fa-code-compare'
-linktitle = 'fa-code-commit_1'
+linktitle = 'fa-code-commit'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Code-Commit` font awesome icon css class name is `fa-code-commit` and CSS Content Code is ` \f386`**.

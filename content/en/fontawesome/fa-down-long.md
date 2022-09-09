@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-down-left-and-up-right-to-center'
 next = 'fa-download'
-linktitle = 'fa-down-long_1'
+linktitle = 'fa-down-long'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Down-Long` font awesome icon css class name is `fa-down-long` and CSS Content Code is ` \f309`**.

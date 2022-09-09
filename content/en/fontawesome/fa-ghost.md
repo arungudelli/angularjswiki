@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-genderless'
 next = 'fa-gift'
-linktitle = 'fa-ghost_1'
+linktitle = 'fa-ghost'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Ghost` font awesome icon css class name is `fa-ghost` and CSS Content Code is ` \f6e2`**.

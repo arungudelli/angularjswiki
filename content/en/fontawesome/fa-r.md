@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-quote-right'
 next = 'fa-radiation'
-linktitle = 'fa-r_1'
+linktitle = 'fa-r'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`R` font awesome icon css class name is `fa-r` and CSS Content Code is ` \52`**.

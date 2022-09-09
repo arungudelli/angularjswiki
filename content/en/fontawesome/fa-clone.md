@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-clock'
 next = 'fa-closed-captioning'
-linktitle = 'fa-clone_1'
+linktitle = 'fa-clone'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Clone` font awesome icon css class name is `fa-clone` and CSS Content Code is ` \f24d`**.

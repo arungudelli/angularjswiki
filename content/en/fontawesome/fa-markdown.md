@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-mandalorian'
 next = 'fa-mastodon'
-linktitle = 'fa-markdown_1'
+linktitle = 'fa-markdown'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Markdown` font awesome icon css class name is `fa-markdown` and CSS Content Code is ` \f60f`**.

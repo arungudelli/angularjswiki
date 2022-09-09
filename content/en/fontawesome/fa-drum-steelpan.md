@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-droplet'
 next = 'fa-drum'
-linktitle = 'fa-drum-steelpan_1'
+linktitle = 'fa-drum-steelpan'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Drum-Steelpan` font awesome icon css class name is `fa-drum-steelpan` and CSS Content Code is ` \f56a`**.

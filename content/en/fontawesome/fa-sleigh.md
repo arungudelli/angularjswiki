@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-slash'
 next = 'fa-sliders'
-linktitle = 'fa-sleigh_1'
+linktitle = 'fa-sleigh'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Sleigh` font awesome icon css class name is `fa-sleigh` and CSS Content Code is ` \f7cc`**.

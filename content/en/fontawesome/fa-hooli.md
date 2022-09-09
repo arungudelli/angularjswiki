@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hive'
 next = 'fa-hornbill'
-linktitle = 'fa-hooli_1'
+linktitle = 'fa-hooli'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Hooli` font awesome icon css class name is `fa-hooli` and CSS Content Code is ` \f427`**.

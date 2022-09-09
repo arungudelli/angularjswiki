@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-square-lastfm'
 next = 'fa-square-pied-piper'
-linktitle = 'fa-square-odnoklassniki_1'
+linktitle = 'fa-square-odnoklassniki'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Square-Odnoklassniki` font awesome icon css class name is `fa-square-odnoklassniki` and CSS Content Code is ` \f264`**.

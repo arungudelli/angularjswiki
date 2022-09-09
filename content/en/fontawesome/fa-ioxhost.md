@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-invision'
 next = 'fa-itch-io'
-linktitle = 'fa-ioxhost_1'
+linktitle = 'fa-ioxhost'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Ioxhost` font awesome icon css class name is `fa-ioxhost` and CSS Content Code is ` \f208`**.

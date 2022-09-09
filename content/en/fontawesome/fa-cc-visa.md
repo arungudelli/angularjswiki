@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-cc-stripe'
 next = 'fa-centercode'
-linktitle = 'fa-cc-visa_1'
+linktitle = 'fa-cc-visa'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Cc-Visa` font awesome icon css class name is `fa-cc-visa` and CSS Content Code is ` \f1f0`**.

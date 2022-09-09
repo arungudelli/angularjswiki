@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-dhl'
 next = 'fa-digg'
-linktitle = 'fa-diaspora_1'
+linktitle = 'fa-diaspora'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Diaspora` font awesome icon css class name is `fa-diaspora` and CSS Content Code is ` \f791`**.

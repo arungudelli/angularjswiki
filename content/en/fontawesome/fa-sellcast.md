@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-searchengin'
 next = 'fa-sellsy'
-linktitle = 'fa-sellcast_1'
+linktitle = 'fa-sellcast'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Sellcast` font awesome icon css class name is `fa-sellcast` and CSS Content Code is ` \f2da`**.

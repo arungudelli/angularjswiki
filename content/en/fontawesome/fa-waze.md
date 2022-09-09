@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-watchman-monitoring'
 next = 'fa-weebly'
-linktitle = 'fa-waze_1'
+linktitle = 'fa-waze'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Waze` font awesome icon css class name is `fa-waze` and CSS Content Code is ` \f83f`**.

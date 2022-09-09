@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-mortar-pestle'
 next = 'fa-mosquito-net'
-linktitle = 'fa-mosque_1'
+linktitle = 'fa-mosque'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Mosque` font awesome icon css class name is `fa-mosque` and CSS Content Code is ` \f678`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-angles-up'
 next = 'fa-apple-whole'
-linktitle = 'fa-ankh_1'
+linktitle = 'fa-ankh'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Ankh` font awesome icon css class name is `fa-ankh` and CSS Content Code is ` \f644`**.

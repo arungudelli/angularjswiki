@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-dumbbell'
 next = 'fa-dumpster'
-linktitle = 'fa-dumpster-fire_1'
+linktitle = 'fa-dumpster-fire'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Dumpster-Fire` font awesome icon css class name is `fa-dumpster-fire` and CSS Content Code is ` \f794`**.

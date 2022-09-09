@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-circle-exclamation'
 next = 'fa-circle-half-stroke'
-linktitle = 'fa-circle-h_1'
+linktitle = 'fa-circle-h'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Circle-H` font awesome icon css class name is `fa-circle-h` and CSS Content Code is ` \f47e`**.

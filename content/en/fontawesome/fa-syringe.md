@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-synagogue'
 next = 'fa-t'
-linktitle = 'fa-syringe_1'
+linktitle = 'fa-syringe'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Syringe` font awesome icon css class name is `fa-syringe` and CSS Content Code is ` \f48e`**.

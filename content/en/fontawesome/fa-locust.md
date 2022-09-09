@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-lock'
 next = 'fa-lungs-virus'
-linktitle = 'fa-locust_1'
+linktitle = 'fa-locust'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Locust` font awesome icon css class name is `fa-locust` and CSS Content Code is ` \e520`**.

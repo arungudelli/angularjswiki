@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hooli'
 next = 'fa-hotjar'
-linktitle = 'fa-hornbill_1'
+linktitle = 'fa-hornbill'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Hornbill` font awesome icon css class name is `fa-hornbill` and CSS Content Code is ` \f592`**.

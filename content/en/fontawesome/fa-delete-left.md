@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-database'
 next = 'fa-democrat'
-linktitle = 'fa-delete-left_1'
+linktitle = 'fa-delete-left'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Delete-Left` font awesome icon css class name is `fa-delete-left` and CSS Content Code is ` \f55a`**.

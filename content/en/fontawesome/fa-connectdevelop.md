@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-confluence'
 next = 'fa-contao'
-linktitle = 'fa-connectdevelop_1'
+linktitle = 'fa-connectdevelop'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Connectdevelop` font awesome icon css class name is `fa-connectdevelop` and CSS Content Code is ` \f20e`**.

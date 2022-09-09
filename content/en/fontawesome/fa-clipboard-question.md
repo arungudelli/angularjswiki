@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-clipboard-list'
 next = 'fa-clipboard-user'
-linktitle = 'fa-clipboard-question_1'
+linktitle = 'fa-clipboard-question'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Clipboard-Question` font awesome icon css class name is `fa-clipboard-question` and CSS Content Code is ` \e4e3`**.

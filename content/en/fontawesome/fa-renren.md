@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-redhat'
 next = 'fa-replyd'
-linktitle = 'fa-renren_1'
+linktitle = 'fa-renren'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Renren` font awesome icon css class name is `fa-renren` and CSS Content Code is ` \f18b`**.

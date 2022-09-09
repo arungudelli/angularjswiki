@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-pager'
 next = 'fa-paintbrush'
-linktitle = 'fa-paint-roller_1'
+linktitle = 'fa-paint-roller'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Paint-Roller` font awesome icon css class name is `fa-paint-roller` and CSS Content Code is ` \f5aa`**.

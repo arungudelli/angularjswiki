@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-themeco'
 next = 'fa-think-peaks'
-linktitle = 'fa-themeisle_1'
+linktitle = 'fa-themeisle'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Themeisle` font awesome icon css class name is `fa-themeisle` and CSS Content Code is ` \f2b2`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-folder-closed'
 next = 'fa-folder-open'
-linktitle = 'fa-folder-minus_1'
+linktitle = 'fa-folder-minus'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Folder-Minus` font awesome icon css class name is `fa-folder-minus` and CSS Content Code is ` \f65d`**.

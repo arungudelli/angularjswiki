@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-transgender'
 next = 'fa-trash-can-arrow-up'
-linktitle = 'fa-trash-arrow-up_1'
+linktitle = 'fa-trash-arrow-up'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Trash-Arrow-Up` font awesome icon css class name is `fa-trash-arrow-up` and CSS Content Code is ` \f829`**.

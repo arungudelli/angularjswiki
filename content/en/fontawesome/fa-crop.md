@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-crop-simple'
 next = 'fa-cross'
-linktitle = 'fa-crop_1'
+linktitle = 'fa-crop'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Crop` font awesome icon css class name is `fa-crop` and CSS Content Code is ` \f125`**.

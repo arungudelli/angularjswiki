@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-flask-vial'
 next = 'fa-floppy-disk'
-linktitle = 'fa-flask_1'
+linktitle = 'fa-flask'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Flask` font awesome icon css class name is `fa-flask` and CSS Content Code is ` \f0c3`**.

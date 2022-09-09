@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-recycle'
 next = 'fa-repeat'
-linktitle = 'fa-registered_1'
+linktitle = 'fa-registered'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Registered` font awesome icon css class name is `fa-registered` and CSS Content Code is ` \f25d`**.

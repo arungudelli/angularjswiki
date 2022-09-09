@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-house'
 next = 'fa-hurricane'
-linktitle = 'fa-hryvnia-sign_1'
+linktitle = 'fa-hryvnia-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Hryvnia-Sign` font awesome icon css class name is `fa-hryvnia-sign` and CSS Content Code is ` \f6f2`**.

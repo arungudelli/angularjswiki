@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-map-location-dot'
 next = 'fa-map-pin'
-linktitle = 'fa-map-location_1'
+linktitle = 'fa-map-location'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Map-Location` font awesome icon css class name is `fa-map-location` and CSS Content Code is ` \f59f`**.

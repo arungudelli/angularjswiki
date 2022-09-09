@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-filter-circle-xmark'
 next = 'fa-fingerprint'
-linktitle = 'fa-filter_1'
+linktitle = 'fa-filter'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Filter` font awesome icon css class name is `fa-filter` and CSS Content Code is ` \f0b0`**.

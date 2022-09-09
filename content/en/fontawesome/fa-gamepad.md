@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-g'
 next = 'fa-gas-pump'
-linktitle = 'fa-gamepad_1'
+linktitle = 'fa-gamepad'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Gamepad` font awesome icon css class name is `fa-gamepad` and CSS Content Code is ` \f11b`**.

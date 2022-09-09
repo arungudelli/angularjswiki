@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-artstation'
 next = 'fa-atlassian'
-linktitle = 'fa-asymmetrik_1'
+linktitle = 'fa-asymmetrik'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Asymmetrik` font awesome icon css class name is `fa-asymmetrik` and CSS Content Code is ` \f372`**.

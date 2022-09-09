@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-location-pin'
 next = 'fa-lock'
-linktitle = 'fa-lock-open_1'
+linktitle = 'fa-lock-open'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Lock-Open` font awesome icon css class name is `fa-lock-open` and CSS Content Code is ` \f3c1`**.

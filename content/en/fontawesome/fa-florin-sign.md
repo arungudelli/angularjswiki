@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-floppy-disk'
 next = 'fa-folder-closed'
-linktitle = 'fa-florin-sign_1'
+linktitle = 'fa-florin-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Florin-Sign` font awesome icon css class name is `fa-florin-sign` and CSS Content Code is ` \e184`**.

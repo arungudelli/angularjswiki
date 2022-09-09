@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-street-view'
 next = 'fa-stroopwafel'
-linktitle = 'fa-strikethrough_1'
+linktitle = 'fa-strikethrough'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Strikethrough` font awesome icon css class name is `fa-strikethrough` and CSS Content Code is ` \f0cc`**.

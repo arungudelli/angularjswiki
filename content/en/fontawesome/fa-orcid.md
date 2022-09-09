@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-optin-monster'
 next = 'fa-osi'
-linktitle = 'fa-orcid_1'
+linktitle = 'fa-orcid'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Orcid` font awesome icon css class name is `fa-orcid` and CSS Content Code is ` \f8d2`**.

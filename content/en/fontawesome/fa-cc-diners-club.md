@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-cc-apple-pay'
 next = 'fa-cc-discover'
-linktitle = 'fa-cc-diners-club_1'
+linktitle = 'fa-cc-diners-club'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Cc-Diners-Club` font awesome icon css class name is `fa-cc-diners-club` and CSS Content Code is ` \f24c`**.

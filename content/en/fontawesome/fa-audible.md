@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-atlassian'
 next = 'fa-autoprefixer'
-linktitle = 'fa-audible_1'
+linktitle = 'fa-audible'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Audible` font awesome icon css class name is `fa-audible` and CSS Content Code is ` \f373`**.

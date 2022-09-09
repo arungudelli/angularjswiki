@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-buy-n-large'
 next = 'fa-canadian-maple-leaf'
-linktitle = 'fa-buysellads_1'
+linktitle = 'fa-buysellads'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Buysellads` font awesome icon css class name is `fa-buysellads` and CSS Content Code is ` \f20d`**.

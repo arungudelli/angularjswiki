@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-person-through-window'
 next = 'fa-person-walking-arrow-right'
-linktitle = 'fa-person-walking-arrow-loop-left_1'
+linktitle = 'fa-person-walking-arrow-loop-left'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Person-Walking-Arrow-Loop-Left` font awesome icon css class name is `fa-person-walking-arrow-loop-left` and CSS Content Code is ` \e551`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-fort-awesome'
 next = 'fa-foursquare'
-linktitle = 'fa-forumbee_1'
+linktitle = 'fa-forumbee'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Forumbee` font awesome icon css class name is `fa-forumbee` and CSS Content Code is ` \f211`**.

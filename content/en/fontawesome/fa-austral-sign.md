@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-audio-description'
 next = 'fa-award'
-linktitle = 'fa-austral-sign_1'
+linktitle = 'fa-austral-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Austral-Sign` font awesome icon css class name is `fa-austral-sign` and CSS Content Code is ` \e0a9`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hand-lizard'
 next = 'fa-hand-peace'
-linktitle = 'fa-hand-middle-finger_1'
+linktitle = 'fa-hand-middle-finger'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Hand-Middle-Finger` font awesome icon css class name is `fa-hand-middle-finger` and CSS Content Code is ` \f806`**.

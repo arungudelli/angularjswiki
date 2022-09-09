@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-network-wired'
 next = 'fa-newspaper'
-linktitle = 'fa-neuter_1'
+linktitle = 'fa-neuter'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Neuter` font awesome icon css class name is `fa-neuter` and CSS Content Code is ` \f22c`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-goodreads-g'
 next = 'fa-google-drive'
-linktitle = 'fa-goodreads_1'
+linktitle = 'fa-goodreads'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Goodreads` font awesome icon css class name is `fa-goodreads` and CSS Content Code is ` \f3a8`**.

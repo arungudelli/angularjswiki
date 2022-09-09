@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-desktop'
 next = 'fa-diagram-next'
-linktitle = 'fa-dharmachakra_1'
+linktitle = 'fa-dharmachakra'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Dharmachakra` font awesome icon css class name is `fa-dharmachakra` and CSS Content Code is ` \f655`**.

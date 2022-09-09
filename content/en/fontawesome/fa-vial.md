@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-vial-virus'
 next = 'fa-vials'
-linktitle = 'fa-vial_1'
+linktitle = 'fa-vial'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Vial` font awesome icon css class name is `fa-vial` and CSS Content Code is ` \f492`**.

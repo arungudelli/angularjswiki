@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-ruler-horizontal'
 next = 'fa-ruler'
-linktitle = 'fa-ruler-vertical_1'
+linktitle = 'fa-ruler-vertical'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Ruler-Vertical` font awesome icon css class name is `fa-ruler-vertical` and CSS Content Code is ` \f548`**.

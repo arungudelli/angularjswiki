@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bell-slash'
 next = 'fa-bezier-curve'
-linktitle = 'fa-bell_1'
+linktitle = 'fa-bell'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bell` font awesome icon css class name is `fa-bell` and CSS Content Code is ` \f0f3`**.

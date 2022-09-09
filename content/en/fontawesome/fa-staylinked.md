@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-stackpath'
 next = 'fa-steam-symbol'
-linktitle = 'fa-staylinked_1'
+linktitle = 'fa-staylinked'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Staylinked` font awesome icon css class name is `fa-staylinked` and CSS Content Code is ` \f3f5`**.

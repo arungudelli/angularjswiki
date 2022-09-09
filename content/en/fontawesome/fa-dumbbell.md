@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-drumstick-bite'
 next = 'fa-dumpster-fire'
-linktitle = 'fa-dumbbell_1'
+linktitle = 'fa-dumbbell'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Dumbbell` font awesome icon css class name is `fa-dumbbell` and CSS Content Code is ` \f44b`**.

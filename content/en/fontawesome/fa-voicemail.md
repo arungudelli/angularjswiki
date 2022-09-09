@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-viruses'
 next = 'fa-volcano'
-linktitle = 'fa-voicemail_1'
+linktitle = 'fa-voicemail'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Voicemail` font awesome icon css class name is `fa-voicemail` and CSS Content Code is ` \f897`**.

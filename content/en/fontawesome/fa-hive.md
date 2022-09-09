@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hire-a-helper'
 next = 'fa-hooli'
-linktitle = 'fa-hive_1'
+linktitle = 'fa-hive'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Hive` font awesome icon css class name is `fa-hive` and CSS Content Code is ` \e07f`**.

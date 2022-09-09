@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hat-wizard'
 next = 'fa-head-side-cough'
-linktitle = 'fa-head-side-cough-slash_1'
+linktitle = 'fa-head-side-cough-slash'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Head-Side-Cough-Slash` font awesome icon css class name is `fa-head-side-cough-slash` and CSS Content Code is ` \e062`**.

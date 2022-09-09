@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-maximize'
 next = 'fa-memory'
-linktitle = 'fa-medal_1'
+linktitle = 'fa-medal'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Medal` font awesome icon css class name is `fa-medal` and CSS Content Code is ` \f5a2`**.

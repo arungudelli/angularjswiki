@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-qrcode'
 next = 'fa-quote-left'
-linktitle = 'fa-question_1'
+linktitle = 'fa-question'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Question` font awesome icon css class name is `fa-question` and CSS Content Code is ` \3f`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-wheat-awn-circle-exclamation'
 next = 'fa-wheelchair-move'
-linktitle = 'fa-wheat-awn_1'
+linktitle = 'fa-wheat-awn'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Wheat-Awn` font awesome icon css class name is `fa-wheat-awn` and CSS Content Code is ` \e2cd`**.

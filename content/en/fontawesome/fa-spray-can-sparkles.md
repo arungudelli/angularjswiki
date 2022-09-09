@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-spoon'
 next = 'fa-spray-can'
-linktitle = 'fa-spray-can-sparkles_1'
+linktitle = 'fa-spray-can-sparkles'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Spray-Can-Sparkles` font awesome icon css class name is `fa-spray-can-sparkles` and CSS Content Code is ` \f5d0`**.

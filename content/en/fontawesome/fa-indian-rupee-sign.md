@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-indent'
 next = 'fa-industry'
-linktitle = 'fa-indian-rupee-sign_1'
+linktitle = 'fa-indian-rupee-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Indian-Rupee-Sign` font awesome icon css class name is `fa-indian-rupee-sign` and CSS Content Code is ` \e1bc`**.

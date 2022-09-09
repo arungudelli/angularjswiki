@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-typo3'
 next = 'fa-ubuntu'
-linktitle = 'fa-uber_1'
+linktitle = 'fa-uber'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Uber` font awesome icon css class name is `fa-uber` and CSS Content Code is ` \f402`**.

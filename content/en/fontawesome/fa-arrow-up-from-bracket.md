@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-arrow-up-a-z'
 next = 'fa-arrow-up-from-ground-water'
-linktitle = 'fa-arrow-up-from-bracket_1'
+linktitle = 'fa-arrow-up-from-bracket'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Arrow-Up-From-Bracket` font awesome icon css class name is `fa-arrow-up-from-bracket` and CSS Content Code is ` \e09a`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-braille'
 next = 'fa-brazilian-real-sign'
-linktitle = 'fa-brain_1'
+linktitle = 'fa-brain'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Brain` font awesome icon css class name is `fa-brain` and CSS Content Code is ` \f5dc`**.

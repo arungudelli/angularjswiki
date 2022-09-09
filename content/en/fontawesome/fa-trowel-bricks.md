@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-trophy'
 next = 'fa-trowel'
-linktitle = 'fa-trowel-bricks_1'
+linktitle = 'fa-trowel-bricks'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Trowel-Bricks` font awesome icon css class name is `fa-trowel-bricks` and CSS Content Code is ` \e58a`**.

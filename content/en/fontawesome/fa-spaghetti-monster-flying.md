@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-spa'
 next = 'fa-spell-check'
-linktitle = 'fa-spaghetti-monster-flying_1'
+linktitle = 'fa-spaghetti-monster-flying'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Spaghetti-Monster-Flying` font awesome icon css class name is `fa-spaghetti-monster-flying` and CSS Content Code is ` \f67b`**.

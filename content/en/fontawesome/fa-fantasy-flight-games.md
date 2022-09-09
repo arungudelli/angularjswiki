@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-facebook'
 next = 'fa-fedex'
-linktitle = 'fa-fantasy-flight-games_1'
+linktitle = 'fa-fantasy-flight-games'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Fantasy-Flight-Games` font awesome icon css class name is `fa-fantasy-flight-games` and CSS Content Code is ` \f6dc`**.

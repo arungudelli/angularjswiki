@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-github'
 next = 'fa-gitlab'
-linktitle = 'fa-gitkraken_1'
+linktitle = 'fa-gitkraken'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Gitkraken` font awesome icon css class name is `fa-gitkraken` and CSS Content Code is ` \f3a6`**.

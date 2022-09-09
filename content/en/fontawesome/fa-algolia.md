@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-airbnb'
 next = 'fa-alipay'
-linktitle = 'fa-algolia_1'
+linktitle = 'fa-algolia'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Algolia` font awesome icon css class name is `fa-algolia` and CSS Content Code is ` \f36c`**.

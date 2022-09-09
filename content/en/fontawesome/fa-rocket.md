@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-robot'
 next = 'fa-rotate-left'
-linktitle = 'fa-rocket_1'
+linktitle = 'fa-rocket'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Rocket` font awesome icon css class name is `fa-rocket` and CSS Content Code is ` \f135`**.

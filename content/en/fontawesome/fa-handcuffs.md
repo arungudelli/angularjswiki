@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hand'
 next = 'fa-hands-asl-interpreting'
-linktitle = 'fa-handcuffs_1'
+linktitle = 'fa-handcuffs'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Handcuffs` font awesome icon css class name is `fa-handcuffs` and CSS Content Code is ` \e4f8`**.

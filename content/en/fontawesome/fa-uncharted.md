@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-umbraco'
 next = 'fa-uniregistry'
-linktitle = 'fa-uncharted_1'
+linktitle = 'fa-uncharted'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Uncharted` font awesome icon css class name is `fa-uncharted` and CSS Content Code is ` \e084`**.

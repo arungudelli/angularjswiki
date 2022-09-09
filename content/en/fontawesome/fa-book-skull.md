@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-book-quran'
 next = 'fa-book-tanakh'
-linktitle = 'fa-book-skull_1'
+linktitle = 'fa-book-skull'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Book-Skull` font awesome icon css class name is `fa-book-skull` and CSS Content Code is ` \f6b7`**.

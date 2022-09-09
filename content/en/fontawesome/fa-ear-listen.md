@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-ear-deaf'
 next = 'fa-earth-africa'
-linktitle = 'fa-ear-listen_1'
+linktitle = 'fa-ear-listen'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Ear-Listen` font awesome icon css class name is `fa-ear-listen` and CSS Content Code is ` \f2a2`**.

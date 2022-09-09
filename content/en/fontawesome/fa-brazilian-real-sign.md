@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-brain'
 next = 'fa-bread-slice'
-linktitle = 'fa-brazilian-real-sign_1'
+linktitle = 'fa-brazilian-real-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Brazilian-Real-Sign` font awesome icon css class name is `fa-brazilian-real-sign` and CSS Content Code is ` \e46c`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-think-peaks'
 next = 'fa-trade-federation'
-linktitle = 'fa-tiktok_1'
+linktitle = 'fa-tiktok'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Tiktok` font awesome icon css class name is `fa-tiktok` and CSS Content Code is ` \e07b`**.

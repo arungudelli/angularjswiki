@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-toilet-portable'
 next = 'fa-toilets-portable'
-linktitle = 'fa-toilet_1'
+linktitle = 'fa-toilet'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Toilet` font awesome icon css class name is `fa-toilet` and CSS Content Code is ` \f7d8`**.

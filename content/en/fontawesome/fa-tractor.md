@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-tower-observation'
 next = 'fa-trademark'
-linktitle = 'fa-tractor_1'
+linktitle = 'fa-tractor'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Tractor` font awesome icon css class name is `fa-tractor` and CSS Content Code is ` \f722`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-check-double'
 next = 'fa-check'
-linktitle = 'fa-check-to-slot_1'
+linktitle = 'fa-check-to-slot'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Check-To-Slot` font awesome icon css class name is `fa-check-to-slot` and CSS Content Code is ` \f772`**.

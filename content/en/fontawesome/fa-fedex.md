@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-fantasy-flight-games'
 next = 'fa-fedora'
-linktitle = 'fa-fedex_1'
+linktitle = 'fa-fedex'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Fedex` font awesome icon css class name is `fa-fedex` and CSS Content Code is ` \f797`**.

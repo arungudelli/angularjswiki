@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-elevator'
 next = 'fa-ellipsis'
-linktitle = 'fa-ellipsis-vertical_1'
+linktitle = 'fa-ellipsis-vertical'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Ellipsis-Vertical` font awesome icon css class name is `fa-ellipsis-vertical` and CSS Content Code is ` \f142`**.

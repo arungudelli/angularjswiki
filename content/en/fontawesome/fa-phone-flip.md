@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-peso-sign'
 next = 'fa-phone-slash'
-linktitle = 'fa-phone-flip_1'
+linktitle = 'fa-phone-flip'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Phone-Flip` font awesome icon css class name is `fa-phone-flip` and CSS Content Code is ` \f879`**.

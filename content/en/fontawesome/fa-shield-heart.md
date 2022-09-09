@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-shield-halved'
 next = 'fa-shield-virus'
-linktitle = 'fa-shield-heart_1'
+linktitle = 'fa-shield-heart'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Shield-Heart` font awesome icon css class name is `fa-shield-heart` and CSS Content Code is ` \e574`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-discourse'
 next = 'fa-docker'
-linktitle = 'fa-dochub_1'
+linktitle = 'fa-dochub'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Dochub` font awesome icon css class name is `fa-dochub` and CSS Content Code is ` \f394`**.

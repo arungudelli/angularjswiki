@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-deskpro'
 next = 'fa-deviantart'
-linktitle = 'fa-dev_1'
+linktitle = 'fa-dev'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Dev` font awesome icon css class name is `fa-dev` and CSS Content Code is ` \f6cc`**.

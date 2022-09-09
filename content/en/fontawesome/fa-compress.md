@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-compass'
 next = 'fa-computer-mouse'
-linktitle = 'fa-compress_1'
+linktitle = 'fa-compress'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Compress` font awesome icon css class name is `fa-compress` and CSS Content Code is ` \f066`**.

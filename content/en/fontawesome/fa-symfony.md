@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-swift'
 next = 'fa-teamspeak'
-linktitle = 'fa-symfony_1'
+linktitle = 'fa-symfony'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Symfony` font awesome icon css class name is `fa-symfony` and CSS Content Code is ` \f83d`**.

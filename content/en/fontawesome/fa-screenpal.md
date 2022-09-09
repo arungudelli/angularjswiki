@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-schlix'
 next = 'fa-scribd'
-linktitle = 'fa-screenpal_1'
+linktitle = 'fa-screenpal'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Screenpal` font awesome icon css class name is `fa-screenpal` and CSS Content Code is ` \e570`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bed-pulse'
 next = 'fa-beer-mug-empty'
-linktitle = 'fa-bed_1'
+linktitle = 'fa-bed'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bed` font awesome icon css class name is `fa-bed` and CSS Content Code is ` \f236`**.

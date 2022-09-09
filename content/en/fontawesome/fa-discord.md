@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-digital-ocean'
 next = 'fa-discourse'
-linktitle = 'fa-discord_1'
+linktitle = 'fa-discord'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Discord` font awesome icon css class name is `fa-discord` and CSS Content Code is ` \f392`**.

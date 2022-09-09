@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-square-steam'
 next = 'fa-square-twitter'
-linktitle = 'fa-square-tumblr_1'
+linktitle = 'fa-square-tumblr'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Square-Tumblr` font awesome icon css class name is `fa-square-tumblr` and CSS Content Code is ` \f174`**.

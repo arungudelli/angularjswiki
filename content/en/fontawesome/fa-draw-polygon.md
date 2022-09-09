@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-dragon'
 next = 'fa-droplet-slash'
-linktitle = 'fa-draw-polygon_1'
+linktitle = 'fa-draw-polygon'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Draw-Polygon` font awesome icon css class name is `fa-draw-polygon` and CSS Content Code is ` \f5ee`**.

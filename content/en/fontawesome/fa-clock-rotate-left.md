@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-clipboard'
 next = 'fa-clock'
-linktitle = 'fa-clock-rotate-left_1'
+linktitle = 'fa-clock-rotate-left'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Clock-Rotate-Left` font awesome icon css class name is `fa-clock-rotate-left` and CSS Content Code is ` \f1da`**.

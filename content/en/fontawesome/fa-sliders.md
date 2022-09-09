@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-sleigh'
 next = 'fa-smog'
-linktitle = 'fa-sliders_1'
+linktitle = 'fa-sliders'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Sliders` font awesome icon css class name is `fa-sliders` and CSS Content Code is ` \f1de`**.

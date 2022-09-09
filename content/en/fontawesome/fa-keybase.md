@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-kaggle'
 next = 'fa-keycdn'
-linktitle = 'fa-keybase_1'
+linktitle = 'fa-keybase'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Keybase` font awesome icon css class name is `fa-keybase` and CSS Content Code is ` \f4f5`**.

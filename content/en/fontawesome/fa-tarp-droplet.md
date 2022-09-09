@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-tape'
 next = 'fa-tarp'
-linktitle = 'fa-tarp-droplet_1'
+linktitle = 'fa-tarp-droplet'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Tarp-Droplet` font awesome icon css class name is `fa-tarp-droplet` and CSS Content Code is ` \e57c`**.

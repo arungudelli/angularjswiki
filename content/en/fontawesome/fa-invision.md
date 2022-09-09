@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-internet-explorer'
 next = 'fa-ioxhost'
-linktitle = 'fa-invision_1'
+linktitle = 'fa-invision'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Invision` font awesome icon css class name is `fa-invision` and CSS Content Code is ` \f7b0`**.

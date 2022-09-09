@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-ravelry'
 next = 'fa-reacteurope'
-linktitle = 'fa-react_1'
+linktitle = 'fa-react'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`React` font awesome icon css class name is `fa-react` and CSS Content Code is ` \f41b`**.

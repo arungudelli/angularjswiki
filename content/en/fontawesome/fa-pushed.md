@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-product-hunt'
 next = 'fa-python'
-linktitle = 'fa-pushed_1'
+linktitle = 'fa-pushed'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Pushed` font awesome icon css class name is `fa-pushed` and CSS Content Code is ` \f3e1`**.

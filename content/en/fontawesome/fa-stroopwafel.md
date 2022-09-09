@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-strikethrough'
 next = 'fa-subscript'
-linktitle = 'fa-stroopwafel_1'
+linktitle = 'fa-stroopwafel'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Stroopwafel` font awesome icon css class name is `fa-stroopwafel` and CSS Content Code is ` \f551`**.

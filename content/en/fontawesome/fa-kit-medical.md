@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-kip-sign'
 next = 'fa-kitchen-set'
-linktitle = 'fa-kit-medical_1'
+linktitle = 'fa-kit-medical'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Kit-Medical` font awesome icon css class name is `fa-kit-medical` and CSS Content Code is ` \f479`**.

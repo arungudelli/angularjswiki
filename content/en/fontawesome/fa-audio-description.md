@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-atom'
 next = 'fa-austral-sign'
-linktitle = 'fa-audio-description_1'
+linktitle = 'fa-audio-description'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Audio-Description` font awesome icon css class name is `fa-audio-description` and CSS Content Code is ` \f29e`**.

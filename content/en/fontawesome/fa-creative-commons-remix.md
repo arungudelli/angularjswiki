@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-creative-commons-pd'
 next = 'fa-creative-commons-sa'
-linktitle = 'fa-creative-commons-remix_1'
+linktitle = 'fa-creative-commons-remix'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Creative-Commons-Remix` font awesome icon css class name is `fa-creative-commons-remix` and CSS Content Code is ` \f4ee`**.

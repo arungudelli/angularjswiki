@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-location-pin-lock'
 next = 'fa-lock-open'
-linktitle = 'fa-location-pin_1'
+linktitle = 'fa-location-pin'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Location-Pin` font awesome icon css class name is `fa-location-pin` and CSS Content Code is ` \f041`**.

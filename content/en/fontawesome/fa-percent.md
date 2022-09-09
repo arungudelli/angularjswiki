@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-pepper-hot'
 next = 'fa-person-arrow-down-to-line'
-linktitle = 'fa-percent_1'
+linktitle = 'fa-percent'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Percent` font awesome icon css class name is `fa-percent` and CSS Content Code is ` \25`**.

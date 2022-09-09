@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-k'
 next = 'fa-key'
-linktitle = 'fa-kaaba_1'
+linktitle = 'fa-kaaba'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Kaaba` font awesome icon css class name is `fa-kaaba` and CSS Content Code is ` \f66b`**.

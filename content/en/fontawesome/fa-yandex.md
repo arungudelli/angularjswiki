@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-yandex-international'
 next = 'fa-yarn'
-linktitle = 'fa-yandex_1'
+linktitle = 'fa-yandex'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Yandex` font awesome icon css class name is `fa-yandex` and CSS Content Code is ` \f413`**.

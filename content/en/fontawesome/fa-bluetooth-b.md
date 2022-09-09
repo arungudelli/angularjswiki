@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-blogger'
 next = 'fa-bluetooth'
-linktitle = 'fa-bluetooth-b_1'
+linktitle = 'fa-bluetooth-b'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bluetooth-B` font awesome icon css class name is `fa-bluetooth-b` and CSS Content Code is ` \f294`**.

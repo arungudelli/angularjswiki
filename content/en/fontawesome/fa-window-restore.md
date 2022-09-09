@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-window-minimize'
 next = 'fa-wine-bottle'
-linktitle = 'fa-window-restore_1'
+linktitle = 'fa-window-restore'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Window-Restore` font awesome icon css class name is `fa-window-restore` and CSS Content Code is ` \f2d2`**.

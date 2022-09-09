@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-chevron-down'
 next = 'fa-chevron-right'
-linktitle = 'fa-chevron-left_1'
+linktitle = 'fa-chevron-left'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Chevron-Left` font awesome icon css class name is `fa-chevron-left` and CSS Content Code is ` \f053`**.

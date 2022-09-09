@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-sink'
 next = 'fa-skull-crossbones'
-linktitle = 'fa-sitemap_1'
+linktitle = 'fa-sitemap'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Sitemap` font awesome icon css class name is `fa-sitemap` and CSS Content Code is ` \f0e8`**.

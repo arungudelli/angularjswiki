@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-map'
 next = 'fa-mars-and-venus-burst'
-linktitle = 'fa-marker_1'
+linktitle = 'fa-marker'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Marker` font awesome icon css class name is `fa-marker` and CSS Content Code is ` \f5a1`**.

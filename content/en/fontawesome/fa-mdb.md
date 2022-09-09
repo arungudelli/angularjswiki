@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-maxcdn'
 next = 'fa-medapps'
-linktitle = 'fa-mdb_1'
+linktitle = 'fa-mdb'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Mdb` font awesome icon css class name is `fa-mdb` and CSS Content Code is ` \f8ca`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-joint'
 next = 'fa-k'
-linktitle = 'fa-jug-detergent_1'
+linktitle = 'fa-jug-detergent'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Jug-Detergent` font awesome icon css class name is `fa-jug-detergent` and CSS Content Code is ` \e519`**.

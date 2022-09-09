@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-spell-check'
 next = 'fa-spinner'
-linktitle = 'fa-spider_1'
+linktitle = 'fa-spider'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Spider` font awesome icon css class name is `fa-spider` and CSS Content Code is ` \f717`**.

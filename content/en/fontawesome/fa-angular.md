@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-angrycreative'
 next = 'fa-app-store-ios'
-linktitle = 'fa-angular_1'
+linktitle = 'fa-angular'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Angular` font awesome icon css class name is `fa-angular` and CSS Content Code is ` \f420`**.

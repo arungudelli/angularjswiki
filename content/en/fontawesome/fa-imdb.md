@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-ideal'
 next = 'fa-instagram'
-linktitle = 'fa-imdb_1'
+linktitle = 'fa-imdb'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Imdb` font awesome icon css class name is `fa-imdb` and CSS Content Code is ` \f2d8`**.

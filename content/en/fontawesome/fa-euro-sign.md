@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-ethernet'
 next = 'fa-exclamation'
-linktitle = 'fa-euro-sign_1'
+linktitle = 'fa-euro-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Euro-Sign` font awesome icon css class name is `fa-euro-sign` and CSS Content Code is ` \f153`**.

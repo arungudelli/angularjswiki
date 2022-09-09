@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-phone-flip'
 next = 'fa-phone-volume'
-linktitle = 'fa-phone-slash_1'
+linktitle = 'fa-phone-slash'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Phone-Slash` font awesome icon css class name is `fa-phone-slash` and CSS Content Code is ` \f3dd`**.

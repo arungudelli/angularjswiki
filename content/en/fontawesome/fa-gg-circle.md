@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-get-pocket'
 next = 'fa-gg'
-linktitle = 'fa-gg-circle_1'
+linktitle = 'fa-gg-circle'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Gg-Circle` font awesome icon css class name is `fa-gg-circle` and CSS Content Code is ` \f261`**.

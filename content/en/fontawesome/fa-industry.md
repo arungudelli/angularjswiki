@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-indian-rupee-sign'
 next = 'fa-infinity'
-linktitle = 'fa-industry_1'
+linktitle = 'fa-industry'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Industry` font awesome icon css class name is `fa-industry` and CSS Content Code is ` \f275`**.

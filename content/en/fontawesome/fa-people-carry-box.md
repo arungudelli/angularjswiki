@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-people-arrows'
 next = 'fa-people-group'
-linktitle = 'fa-people-carry-box_1'
+linktitle = 'fa-people-carry-box'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`People-Carry-Box` font awesome icon css class name is `fa-people-carry-box` and CSS Content Code is ` \f4ce`**.

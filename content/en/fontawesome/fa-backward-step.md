@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-backward-fast'
 next = 'fa-backward'
-linktitle = 'fa-backward-step_1'
+linktitle = 'fa-backward-step'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Backward-Step` font awesome icon css class name is `fa-backward-step` and CSS Content Code is ` \f048`**.

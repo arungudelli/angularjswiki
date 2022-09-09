@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-window-maximize'
 next = 'fa-window-restore'
-linktitle = 'fa-window-minimize_1'
+linktitle = 'fa-window-minimize'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Window-Minimize` font awesome icon css class name is `fa-window-minimize` and CSS Content Code is ` \f2d1`**.

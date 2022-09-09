@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-laptop-file'
 next = 'fa-laptop'
-linktitle = 'fa-laptop-medical_1'
+linktitle = 'fa-laptop-medical'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Laptop-Medical` font awesome icon css class name is `fa-laptop-medical` and CSS Content Code is ` \f812`**.

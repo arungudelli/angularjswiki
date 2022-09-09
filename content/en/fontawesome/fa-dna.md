@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-divide'
 next = 'fa-dog'
-linktitle = 'fa-dna_1'
+linktitle = 'fa-dna'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Dna` font awesome icon css class name is `fa-dna` and CSS Content Code is ` \f471`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hand-scissors'
 next = 'fa-hand-spock'
-linktitle = 'fa-hand-sparkles_1'
+linktitle = 'fa-hand-sparkles'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Hand-Sparkles` font awesome icon css class name is `fa-hand-sparkles` and CSS Content Code is ` \e05d`**.

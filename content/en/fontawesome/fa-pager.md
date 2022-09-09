@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-p'
 next = 'fa-paint-roller'
-linktitle = 'fa-pager_1'
+linktitle = 'fa-pager'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Pager` font awesome icon css class name is `fa-pager` and CSS Content Code is ` \f815`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-water-ladder'
 next = 'fa-wave-square'
-linktitle = 'fa-water_1'
+linktitle = 'fa-water'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Water` font awesome icon css class name is `fa-water` and CSS Content Code is ` \f773`**.

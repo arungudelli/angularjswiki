@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-volume-xmark'
 next = 'fa-w'
-linktitle = 'fa-vr-cardboard_1'
+linktitle = 'fa-vr-cardboard'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Vr-Cardboard` font awesome icon css class name is `fa-vr-cardboard` and CSS Content Code is ` \f729`**.

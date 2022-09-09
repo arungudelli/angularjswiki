@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-android'
 next = 'fa-angrycreative'
-linktitle = 'fa-angellist_1'
+linktitle = 'fa-angellist'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Angellist` font awesome icon css class name is `fa-angellist` and CSS Content Code is ` \f209`**.

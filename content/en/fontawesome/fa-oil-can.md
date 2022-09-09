@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-object-ungroup'
 next = 'fa-oil-well'
-linktitle = 'fa-oil-can_1'
+linktitle = 'fa-oil-can'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Oil-Can` font awesome icon css class name is `fa-oil-can` and CSS Content Code is ` \f613`**.

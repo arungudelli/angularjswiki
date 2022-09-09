@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-plug-circle-bolt'
 next = 'fa-plug-circle-exclamation'
-linktitle = 'fa-plug-circle-check_1'
+linktitle = 'fa-plug-circle-check'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Plug-Circle-Check` font awesome icon css class name is `fa-plug-circle-check` and CSS Content Code is ` \e55c`**.

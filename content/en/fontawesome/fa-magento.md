@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-lyft'
 next = 'fa-mailchimp'
-linktitle = 'fa-magento_1'
+linktitle = 'fa-magento'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Magento` font awesome icon css class name is `fa-magento` and CSS Content Code is ` \f3c4`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-linkedin-in'
 next = 'fa-linode'
-linktitle = 'fa-linkedin_1'
+linktitle = 'fa-linkedin'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Linkedin` font awesome icon css class name is `fa-linkedin` and CSS Content Code is ` \f08c`**.

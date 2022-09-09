@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-solar-panel'
 next = 'fa-sort-up'
-linktitle = 'fa-sort-down_1'
+linktitle = 'fa-sort-down'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Sort-Down` font awesome icon css class name is `fa-sort-down` and CSS Content Code is ` \f0dd`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-gauge-simple'
 next = 'fa-gavel'
-linktitle = 'fa-gauge_1'
+linktitle = 'fa-gauge'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Gauge` font awesome icon css class name is `fa-gauge` and CSS Content Code is ` \f624`**.

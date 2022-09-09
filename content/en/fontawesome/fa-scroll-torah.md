@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-screwdriver'
 next = 'fa-scroll'
-linktitle = 'fa-scroll-torah_1'
+linktitle = 'fa-scroll-torah'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Scroll-Torah` font awesome icon css class name is `fa-scroll-torah` and CSS Content Code is ` \f6a0`**.

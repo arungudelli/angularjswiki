@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-pen-fancy'
 next = 'fa-pen-ruler'
-linktitle = 'fa-pen-nib_1'
+linktitle = 'fa-pen-nib'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Pen-Nib` font awesome icon css class name is `fa-pen-nib` and CSS Content Code is ` \f5ad`**.

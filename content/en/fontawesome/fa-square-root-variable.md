@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-square-poll-vertical'
 next = 'fa-square-rss'
-linktitle = 'fa-square-root-variable_1'
+linktitle = 'fa-square-root-variable'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Square-Root-Variable` font awesome icon css class name is `fa-square-root-variable` and CSS Content Code is ` \f698`**.

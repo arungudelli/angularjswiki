@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-rebel'
 next = 'fa-reddit-alien'
-linktitle = 'fa-red-river_1'
+linktitle = 'fa-red-river'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Red-River` font awesome icon css class name is `fa-red-river` and CSS Content Code is ` \f3e3`**.

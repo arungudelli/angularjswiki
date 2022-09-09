@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-keyboard'
 next = 'fa-kip-sign'
-linktitle = 'fa-khanda_1'
+linktitle = 'fa-khanda'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Khanda` font awesome icon css class name is `fa-khanda` and CSS Content Code is ` \f66d`**.

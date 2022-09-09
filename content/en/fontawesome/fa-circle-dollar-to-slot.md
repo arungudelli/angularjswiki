@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-circle-chevron-up'
 next = 'fa-circle-dot'
-linktitle = 'fa-circle-dollar-to-slot_1'
+linktitle = 'fa-circle-dollar-to-slot'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Circle-Dollar-To-Slot` font awesome icon css class name is `fa-circle-dollar-to-slot` and CSS Content Code is ` \f4b9`**.

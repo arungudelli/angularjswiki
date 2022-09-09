@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-meteor'
 next = 'fa-microphone-lines-slash'
-linktitle = 'fa-microchip_1'
+linktitle = 'fa-microchip'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Microchip` font awesome icon css class name is `fa-microchip` and CSS Content Code is ` \f2db`**.

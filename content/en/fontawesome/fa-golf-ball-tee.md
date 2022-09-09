@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-globe'
 next = 'fa-gopuram'
-linktitle = 'fa-golf-ball-tee_1'
+linktitle = 'fa-golf-ball-tee'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Golf-Ball-Tee` font awesome icon css class name is `fa-golf-ball-tee` and CSS Content Code is ` \f450`**.

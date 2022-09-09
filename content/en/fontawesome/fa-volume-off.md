@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-volume-low'
 next = 'fa-volume-xmark'
-linktitle = 'fa-volume-off_1'
+linktitle = 'fa-volume-off'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Volume-Off` font awesome icon css class name is `fa-volume-off` and CSS Content Code is ` \f026`**.

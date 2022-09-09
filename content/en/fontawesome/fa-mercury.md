@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-menorah'
 next = 'fa-message'
-linktitle = 'fa-mercury_1'
+linktitle = 'fa-mercury'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Mercury` font awesome icon css class name is `fa-mercury` and CSS Content Code is ` \f223`**.

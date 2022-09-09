@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-train'
 next = 'fa-trash-arrow-up'
-linktitle = 'fa-transgender_1'
+linktitle = 'fa-transgender'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Transgender` font awesome icon css class name is `fa-transgender` and CSS Content Code is ` \f225`**.

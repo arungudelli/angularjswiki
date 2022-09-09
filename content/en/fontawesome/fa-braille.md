@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-boxes-stacked'
 next = 'fa-brain'
-linktitle = 'fa-braille_1'
+linktitle = 'fa-braille'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Braille` font awesome icon css class name is `fa-braille` and CSS Content Code is ` \f2a1`**.

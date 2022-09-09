@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-toilets-portable'
 next = 'fa-tooth'
-linktitle = 'fa-toolbox_1'
+linktitle = 'fa-toolbox'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Toolbox` font awesome icon css class name is `fa-toolbox` and CSS Content Code is ` \f552`**.

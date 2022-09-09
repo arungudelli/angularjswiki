@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-plant-wilt'
 next = 'fa-play'
-linktitle = 'fa-plate-wheat_1'
+linktitle = 'fa-plate-wheat'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Plate-Wheat` font awesome icon css class name is `fa-plate-wheat` and CSS Content Code is ` \e55a`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-stapler'
 next = 'fa-star-half-stroke'
-linktitle = 'fa-star-and-crescent_1'
+linktitle = 'fa-star-and-crescent'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Star-And-Crescent` font awesome icon css class name is `fa-star-and-crescent` and CSS Content Code is ` \f699`**.

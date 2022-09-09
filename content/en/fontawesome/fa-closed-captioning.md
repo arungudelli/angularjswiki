@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-clone'
 next = 'fa-cloud-arrow-down'
-linktitle = 'fa-closed-captioning_1'
+linktitle = 'fa-closed-captioning'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Closed-Captioning` font awesome icon css class name is `fa-closed-captioning` and CSS Content Code is ` \f20a`**.

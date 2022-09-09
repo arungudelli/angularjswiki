@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-lemon'
 next = 'fa-less-than'
-linktitle = 'fa-less-than-equal_1'
+linktitle = 'fa-less-than-equal'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Less-Than-Equal` font awesome icon css class name is `fa-less-than-equal` and CSS Content Code is ` \f537`**.

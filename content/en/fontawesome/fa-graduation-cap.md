@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-gopuram'
 next = 'fa-greater-than-equal'
-linktitle = 'fa-graduation-cap_1'
+linktitle = 'fa-graduation-cap'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Graduation-Cap` font awesome icon css class name is `fa-graduation-cap` and CSS Content Code is ` \f19d`**.

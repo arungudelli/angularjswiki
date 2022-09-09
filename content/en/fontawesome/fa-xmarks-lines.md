@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-xmark'
 next = 'fa-y'
-linktitle = 'fa-xmarks-lines_1'
+linktitle = 'fa-xmarks-lines'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Xmarks-Lines` font awesome icon css class name is `fa-xmarks-lines` and CSS Content Code is ` \e59a`**.

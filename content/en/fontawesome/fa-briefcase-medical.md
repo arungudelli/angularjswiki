@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bridge'
 next = 'fa-briefcase'
-linktitle = 'fa-briefcase-medical_1'
+linktitle = 'fa-briefcase-medical'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Briefcase-Medical` font awesome icon css class name is `fa-briefcase-medical` and CSS Content Code is ` \f469`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-terminal'
 next = 'fa-text-slash'
-linktitle = 'fa-text-height_1'
+linktitle = 'fa-text-height'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Text-Height` font awesome icon css class name is `fa-text-height` and CSS Content Code is ` \f034`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-yen-sign'
 next = 'fa-z'
-linktitle = 'fa-yin-yang_1'
+linktitle = 'fa-yin-yang'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Yin-Yang` font awesome icon css class name is `fa-yin-yang` and CSS Content Code is ` \f6ad`**.

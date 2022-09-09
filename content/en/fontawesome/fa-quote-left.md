@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-question'
 next = 'fa-quote-right'
-linktitle = 'fa-quote-left_1'
+linktitle = 'fa-quote-left'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Quote-Left` font awesome icon css class name is `fa-quote-left` and CSS Content Code is ` \f10d`**.

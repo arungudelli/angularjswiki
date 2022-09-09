@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-wizards-of-the-coast'
 next = 'fa-wolf-pack-battalion'
-linktitle = 'fa-wodu_1'
+linktitle = 'fa-wodu'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Wodu` font awesome icon css class name is `fa-wodu` and CSS Content Code is ` \e088`**.

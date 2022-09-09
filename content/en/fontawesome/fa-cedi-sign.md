@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-cat'
 next = 'fa-cent-sign'
-linktitle = 'fa-cedi-sign_1'
+linktitle = 'fa-cedi-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Cedi-Sign` font awesome icon css class name is `fa-cedi-sign` and CSS Content Code is ` \e0df`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-person'
 next = 'fa-peso-sign'
-linktitle = 'fa-peseta-sign_1'
+linktitle = 'fa-peseta-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Peseta-Sign` font awesome icon css class name is `fa-peseta-sign` and CSS Content Code is ` \e221`**.

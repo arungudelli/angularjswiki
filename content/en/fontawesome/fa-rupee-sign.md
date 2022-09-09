@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-ruler'
 next = 'fa-rupiah-sign'
-linktitle = 'fa-rupee-sign_1'
+linktitle = 'fa-rupee-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Rupee-Sign` font awesome icon css class name is `fa-rupee-sign` and CSS Content Code is ` \f156`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-gauge'
 next = 'fa-gear'
-linktitle = 'fa-gavel_1'
+linktitle = 'fa-gavel'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Gavel` font awesome icon css class name is `fa-gavel` and CSS Content Code is ` \f0e3`**.

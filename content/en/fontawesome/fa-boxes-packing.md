@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-box'
 next = 'fa-boxes-stacked'
-linktitle = 'fa-boxes-packing_1'
+linktitle = 'fa-boxes-packing'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Boxes-Packing` font awesome icon css class name is `fa-boxes-packing` and CSS Content Code is ` \e4c7`**.

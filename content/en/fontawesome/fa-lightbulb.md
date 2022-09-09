@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-life-ring'
 next = 'fa-lines-leaning'
-linktitle = 'fa-lightbulb_1'
+linktitle = 'fa-lightbulb'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Lightbulb` font awesome icon css class name is `fa-lightbulb` and CSS Content Code is ` \f0eb`**.

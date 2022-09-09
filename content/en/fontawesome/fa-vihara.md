@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-video'
 next = 'fa-virus-covid-slash'
-linktitle = 'fa-vihara_1'
+linktitle = 'fa-vihara'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Vihara` font awesome icon css class name is `fa-vihara` and CSS Content Code is ` \f6a7`**.

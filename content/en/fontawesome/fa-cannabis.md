@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-candy-cane'
 next = 'fa-capsules'
-linktitle = 'fa-cannabis_1'
+linktitle = 'fa-cannabis'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Cannabis` font awesome icon css class name is `fa-cannabis` and CSS Content Code is ` \f55f`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-people-roof'
 next = 'fa-percent'
-linktitle = 'fa-pepper-hot_1'
+linktitle = 'fa-pepper-hot'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Pepper-Hot` font awesome icon css class name is `fa-pepper-hot` and CSS Content Code is ` \f816`**.

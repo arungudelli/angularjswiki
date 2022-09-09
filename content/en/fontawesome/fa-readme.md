@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-reacteurope'
 next = 'fa-rebel'
-linktitle = 'fa-readme_1'
+linktitle = 'fa-readme'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Readme` font awesome icon css class name is `fa-readme` and CSS Content Code is ` \f4d5`**.

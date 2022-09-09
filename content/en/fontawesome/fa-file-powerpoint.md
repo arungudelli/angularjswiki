@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-file-pen'
 next = 'fa-file-prescription'
-linktitle = 'fa-file-powerpoint_1'
+linktitle = 'fa-file-powerpoint'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`File-Powerpoint` font awesome icon css class name is `fa-file-powerpoint` and CSS Content Code is ` \f1c4`**.

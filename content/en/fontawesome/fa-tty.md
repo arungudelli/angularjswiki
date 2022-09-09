@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-truck'
 next = 'fa-turkish-lira-sign'
-linktitle = 'fa-tty_1'
+linktitle = 'fa-tty'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Tty` font awesome icon css class name is `fa-tty` and CSS Content Code is ` \f1e4`**.

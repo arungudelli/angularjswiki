@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bottle-droplet'
 next = 'fa-bowl-food'
-linktitle = 'fa-bottle-water_1'
+linktitle = 'fa-bottle-water'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bottle-Water` font awesome icon css class name is `fa-bottle-water` and CSS Content Code is ` \e4c5`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-stack-exchange'
 next = 'fa-stackpath'
-linktitle = 'fa-stack-overflow_1'
+linktitle = 'fa-stack-overflow'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Stack-Overflow` font awesome icon css class name is `fa-stack-overflow` and CSS Content Code is ` \f16c`**.

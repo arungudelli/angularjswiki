@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-uniregistry'
 next = 'fa-unsplash'
-linktitle = 'fa-unity_1'
+linktitle = 'fa-unity'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Unity` font awesome icon css class name is `fa-unity` and CSS Content Code is ` \e049`**.

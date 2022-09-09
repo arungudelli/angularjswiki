@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-envira'
 next = 'fa-ethereum'
-linktitle = 'fa-erlang_1'
+linktitle = 'fa-erlang'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Erlang` font awesome icon css class name is `fa-erlang` and CSS Content Code is ` \f39d`**.

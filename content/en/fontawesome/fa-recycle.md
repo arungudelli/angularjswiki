@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-rectangle-xmark'
 next = 'fa-registered'
-linktitle = 'fa-recycle_1'
+linktitle = 'fa-recycle'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Recycle` font awesome icon css class name is `fa-recycle` and CSS Content Code is ` \f1b8`**.

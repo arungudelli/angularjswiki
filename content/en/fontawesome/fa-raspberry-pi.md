@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-r-project'
 next = 'fa-ravelry'
-linktitle = 'fa-raspberry-pi_1'
+linktitle = 'fa-raspberry-pi'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Raspberry-Pi` font awesome icon css class name is `fa-raspberry-pi` and CSS Content Code is ` \f7bb`**.

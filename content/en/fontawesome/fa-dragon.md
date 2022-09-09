@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-download'
 next = 'fa-draw-polygon'
-linktitle = 'fa-dragon_1'
+linktitle = 'fa-dragon'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Dragon` font awesome icon css class name is `fa-dragon` and CSS Content Code is ` \f6d5`**.

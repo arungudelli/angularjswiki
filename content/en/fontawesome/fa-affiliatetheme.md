@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-adversal'
 next = 'fa-airbnb'
-linktitle = 'fa-affiliatetheme_1'
+linktitle = 'fa-affiliatetheme'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Affiliatetheme` font awesome icon css class name is `fa-affiliatetheme` and CSS Content Code is ` \f36b`**.

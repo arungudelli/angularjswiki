@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-magnifying-glass-plus'
 next = 'fa-manat-sign'
-linktitle = 'fa-magnifying-glass_1'
+linktitle = 'fa-magnifying-glass'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Magnifying-Glass` font awesome icon css class name is `fa-magnifying-glass` and CSS Content Code is ` \f002`**.

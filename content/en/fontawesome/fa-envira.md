@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-empire'
 next = 'fa-erlang'
-linktitle = 'fa-envira_1'
+linktitle = 'fa-envira'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Envira` font awesome icon css class name is `fa-envira` and CSS Content Code is ` \f299`**.

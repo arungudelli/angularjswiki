@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-clipboard-user'
 next = 'fa-clock-rotate-left'
-linktitle = 'fa-clipboard_1'
+linktitle = 'fa-clipboard'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Clipboard` font awesome icon css class name is `fa-clipboard` and CSS Content Code is ` \f328`**.

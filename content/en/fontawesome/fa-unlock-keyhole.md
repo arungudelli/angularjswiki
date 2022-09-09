@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-universal-access'
 next = 'fa-unlock'
-linktitle = 'fa-unlock-keyhole_1'
+linktitle = 'fa-unlock-keyhole'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Unlock-Keyhole` font awesome icon css class name is `fa-unlock-keyhole` and CSS Content Code is ` \f13e`**.

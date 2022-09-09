@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-equals'
 next = 'fa-ethernet'
-linktitle = 'fa-eraser_1'
+linktitle = 'fa-eraser'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Eraser` font awesome icon css class name is `fa-eraser` and CSS Content Code is ` \f12d`**.

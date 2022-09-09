@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-chart-gantt'
 next = 'fa-chart-pie'
-linktitle = 'fa-chart-line_1'
+linktitle = 'fa-chart-line'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Chart-Line` font awesome icon css class name is `fa-chart-line` and CSS Content Code is ` \f201`**.

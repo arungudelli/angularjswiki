@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-border-all'
 next = 'fa-border-top-left'
-linktitle = 'fa-border-none_1'
+linktitle = 'fa-border-none'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Border-None` font awesome icon css class name is `fa-border-none` and CSS Content Code is ` \f850`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-angle-right'
 next = 'fa-angles-down'
-linktitle = 'fa-angle-up_1'
+linktitle = 'fa-angle-up'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Angle-Up` font awesome icon css class name is `fa-angle-up` and CSS Content Code is ` \f106`**.

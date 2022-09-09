@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-jsfiddle'
 next = 'fa-keybase'
-linktitle = 'fa-kaggle_1'
+linktitle = 'fa-kaggle'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Kaggle` font awesome icon css class name is `fa-kaggle` and CSS Content Code is ` \f5fa`**.

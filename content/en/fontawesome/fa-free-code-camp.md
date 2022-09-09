@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-foursquare'
 next = 'fa-freebsd'
-linktitle = 'fa-free-code-camp_1'
+linktitle = 'fa-free-code-camp'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Free-Code-Camp` font awesome icon css class name is `fa-free-code-camp` and CSS Content Code is ` \f2c5`**.

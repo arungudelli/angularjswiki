@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-baby-carriage'
 next = 'fa-backward-fast'
-linktitle = 'fa-baby_1'
+linktitle = 'fa-baby'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Baby` font awesome icon css class name is `fa-baby` and CSS Content Code is ` \f77c`**.

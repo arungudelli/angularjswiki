@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-steam-symbol'
 next = 'fa-sticker-mule'
-linktitle = 'fa-steam_1'
+linktitle = 'fa-steam'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Steam` font awesome icon css class name is `fa-steam` and CSS Content Code is ` \f1b6`**.

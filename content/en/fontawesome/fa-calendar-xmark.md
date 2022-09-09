@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-calendar-week'
 next = 'fa-calendar'
-linktitle = 'fa-calendar-xmark_1'
+linktitle = 'fa-calendar-xmark'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Calendar-Xmark` font awesome icon css class name is `fa-calendar-xmark` and CSS Content Code is ` \f273`**.

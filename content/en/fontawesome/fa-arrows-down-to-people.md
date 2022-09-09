@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-arrows-down-to-line'
 next = 'fa-arrows-left-right-to-line'
-linktitle = 'fa-arrows-down-to-people_1'
+linktitle = 'fa-arrows-down-to-people'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Arrows-Down-To-People` font awesome icon css class name is `fa-arrows-down-to-people` and CSS Content Code is ` \e4b9`**.

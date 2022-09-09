@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-grunt'
 next = 'fa-gulp'
-linktitle = 'fa-guilded_1'
+linktitle = 'fa-guilded'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Guilded` font awesome icon css class name is `fa-guilded` and CSS Content Code is ` \e07e`**.

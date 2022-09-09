@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-shopify'
 next = 'fa-simplybuilt'
-linktitle = 'fa-shopware_1'
+linktitle = 'fa-shopware'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Shopware` font awesome icon css class name is `fa-shopware` and CSS Content Code is ` \f5b5`**.

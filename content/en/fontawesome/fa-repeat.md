@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-registered'
 next = 'fa-reply-all'
-linktitle = 'fa-repeat_1'
+linktitle = 'fa-repeat'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Repeat` font awesome icon css class name is `fa-repeat` and CSS Content Code is ` \f363`**.

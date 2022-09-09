@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-face-kiss-beam'
 next = 'fa-face-kiss'
-linktitle = 'fa-face-kiss-wink-heart_1'
+linktitle = 'fa-face-kiss-wink-heart'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Face-Kiss-Wink-Heart` font awesome icon css class name is `fa-face-kiss-wink-heart` and CSS Content Code is ` \f598`**.

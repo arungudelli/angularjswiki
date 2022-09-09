@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-passport'
 next = 'fa-pause'
-linktitle = 'fa-paste_1'
+linktitle = 'fa-paste'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Paste` font awesome icon css class name is `fa-paste` and CSS Content Code is ` \f0ea`**.

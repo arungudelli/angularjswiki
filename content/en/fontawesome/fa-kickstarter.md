@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-kickstarter-k'
 next = 'fa-korvue'
-linktitle = 'fa-kickstarter_1'
+linktitle = 'fa-kickstarter'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Kickstarter` font awesome icon css class name is `fa-kickstarter` and CSS Content Code is ` \f3bb`**.

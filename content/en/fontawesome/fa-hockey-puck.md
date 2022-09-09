@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hippo'
 next = 'fa-holly-berry'
-linktitle = 'fa-hockey-puck_1'
+linktitle = 'fa-hockey-puck'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Hockey-Puck` font awesome icon css class name is `fa-hockey-puck` and CSS Content Code is ` \f453`**.

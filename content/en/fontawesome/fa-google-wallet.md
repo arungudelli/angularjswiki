@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-google-plus'
 next = 'fa-google'
-linktitle = 'fa-google-wallet_1'
+linktitle = 'fa-google-wallet'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Google-Wallet` font awesome icon css class name is `fa-google-wallet` and CSS Content Code is ` \f1ee`**.

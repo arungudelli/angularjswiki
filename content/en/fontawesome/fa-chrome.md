@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-centos'
 next = 'fa-chromecast'
-linktitle = 'fa-chrome_1'
+linktitle = 'fa-chrome'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Chrome` font awesome icon css class name is `fa-chrome` and CSS Content Code is ` \f268`**.

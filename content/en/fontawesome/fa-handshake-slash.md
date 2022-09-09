@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-handshake-simple'
 next = 'fa-handshake'
-linktitle = 'fa-handshake-slash_1'
+linktitle = 'fa-handshake-slash'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Handshake-Slash` font awesome icon css class name is `fa-handshake-slash` and CSS Content Code is ` \e060`**.

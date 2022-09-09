@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-draft2digital'
 next = 'fa-dropbox'
-linktitle = 'fa-dribbble_1'
+linktitle = 'fa-dribbble'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Dribbble` font awesome icon css class name is `fa-dribbble` and CSS Content Code is ` \f17d`**.

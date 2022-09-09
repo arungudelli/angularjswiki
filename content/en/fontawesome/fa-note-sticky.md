@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-not-equal'
 next = 'fa-notes-medical'
-linktitle = 'fa-note-sticky_1'
+linktitle = 'fa-note-sticky'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Note-Sticky` font awesome icon css class name is `fa-note-sticky` and CSS Content Code is ` \f249`**.

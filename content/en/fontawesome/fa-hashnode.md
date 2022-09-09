@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hackerrank'
 next = 'fa-hips'
-linktitle = 'fa-hashnode_1'
+linktitle = 'fa-hashnode'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Hashnode` font awesome icon css class name is `fa-hashnode` and CSS Content Code is ` \e499`**.

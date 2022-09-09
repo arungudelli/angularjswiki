@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-stethoscope'
 next = 'fa-stopwatch-20'
-linktitle = 'fa-stop_1'
+linktitle = 'fa-stop'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Stop` font awesome icon css class name is `fa-stop` and CSS Content Code is ` \f04d`**.

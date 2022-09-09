@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-diagram-project'
 next = 'fa-diamond-turn-right'
-linktitle = 'fa-diagram-successor_1'
+linktitle = 'fa-diagram-successor'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Diagram-Successor` font awesome icon css class name is `fa-diagram-successor` and CSS Content Code is ` \e47a`**.

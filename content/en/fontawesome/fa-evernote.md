@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-etsy'
 next = 'fa-expeditedssl'
-linktitle = 'fa-evernote_1'
+linktitle = 'fa-evernote'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Evernote` font awesome icon css class name is `fa-evernote` and CSS Content Code is ` \f839`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-sim-card'
 next = 'fa-sitemap'
-linktitle = 'fa-sink_1'
+linktitle = 'fa-sink'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Sink` font awesome icon css class name is `fa-sink` and CSS Content Code is ` \e06d`**.

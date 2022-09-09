@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-paint-roller'
 next = 'fa-palette'
-linktitle = 'fa-paintbrush_1'
+linktitle = 'fa-paintbrush'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Paintbrush` font awesome icon css class name is `fa-paintbrush` and CSS Content Code is ` \f1fc`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-motorcycle'
 next = 'fa-mountain-city'
-linktitle = 'fa-mound_1'
+linktitle = 'fa-mound'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Mound` font awesome icon css class name is `fa-mound` and CSS Content Code is ` \e52d`**.

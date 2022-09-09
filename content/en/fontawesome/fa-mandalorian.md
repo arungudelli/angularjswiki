@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-mailchimp'
 next = 'fa-markdown'
-linktitle = 'fa-mandalorian_1'
+linktitle = 'fa-mandalorian'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Mandalorian` font awesome icon css class name is `fa-mandalorian` and CSS Content Code is ` \f50f`**.

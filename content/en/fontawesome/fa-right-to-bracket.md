@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-right-long'
 next = 'fa-ring'
-linktitle = 'fa-right-to-bracket_1'
+linktitle = 'fa-right-to-bracket'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Right-To-Bracket` font awesome icon css class name is `fa-right-to-bracket` and CSS Content Code is ` \f2f6`**.

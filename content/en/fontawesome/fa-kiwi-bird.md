@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-kitchen-set'
 next = 'fa-l'
-linktitle = 'fa-kiwi-bird_1'
+linktitle = 'fa-kiwi-bird'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Kiwi-Bird` font awesome icon css class name is `fa-kiwi-bird` and CSS Content Code is ` \f535`**.

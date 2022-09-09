@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-vials'
 next = 'fa-video'
-linktitle = 'fa-video-slash_1'
+linktitle = 'fa-video-slash'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Video-Slash` font awesome icon css class name is `fa-video-slash` and CSS Content Code is ` \f4e2`**.

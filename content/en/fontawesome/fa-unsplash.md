@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-unity'
 next = 'fa-untappd'
-linktitle = 'fa-unsplash_1'
+linktitle = 'fa-unsplash'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Unsplash` font awesome icon css class name is `fa-unsplash` and CSS Content Code is ` \e07c`**.

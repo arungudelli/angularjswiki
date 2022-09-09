@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-receipt'
 next = 'fa-rectangle-ad'
-linktitle = 'fa-record-vinyl_1'
+linktitle = 'fa-record-vinyl'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Record-Vinyl` font awesome icon css class name is `fa-record-vinyl` and CSS Content Code is ` \f8d9`**.

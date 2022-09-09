@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-intercom'
 next = 'fa-invision'
-linktitle = 'fa-internet-explorer_1'
+linktitle = 'fa-internet-explorer'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Internet-Explorer` font awesome icon css class name is `fa-internet-explorer` and CSS Content Code is ` \f26b`**.

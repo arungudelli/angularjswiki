@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-ear-listen'
 next = 'fa-earth-americas'
-linktitle = 'fa-earth-africa_1'
+linktitle = 'fa-earth-africa'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Earth-Africa` font awesome icon css class name is `fa-earth-africa` and CSS Content Code is ` \f57c`**.

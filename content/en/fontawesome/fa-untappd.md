@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-unsplash'
 next = 'fa-ups'
-linktitle = 'fa-untappd_1'
+linktitle = 'fa-untappd'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Untappd` font awesome icon css class name is `fa-untappd` and CSS Content Code is ` \f405`**.

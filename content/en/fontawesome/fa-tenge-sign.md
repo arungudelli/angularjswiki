@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-temperature-three-quarters'
 next = 'fa-tent-arrow-down-to-line'
-linktitle = 'fa-tenge-sign_1'
+linktitle = 'fa-tenge-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Tenge-Sign` font awesome icon css class name is `fa-tenge-sign` and CSS Content Code is ` \f7d7`**.

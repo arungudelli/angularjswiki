@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-microphone'
 next = 'fa-mill-sign'
-linktitle = 'fa-microscope_1'
+linktitle = 'fa-microscope'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Microscope` font awesome icon css class name is `fa-microscope` and CSS Content Code is ` \f610`**.

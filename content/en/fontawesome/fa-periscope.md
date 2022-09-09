@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-perbyte'
 next = 'fa-phabricator'
-linktitle = 'fa-periscope_1'
+linktitle = 'fa-periscope'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Periscope` font awesome icon css class name is `fa-periscope` and CSS Content Code is ` \f3da`**.

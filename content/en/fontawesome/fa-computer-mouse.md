@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-compress'
 next = 'fa-computer'
-linktitle = 'fa-computer-mouse_1'
+linktitle = 'fa-computer-mouse'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Computer-Mouse` font awesome icon css class name is `fa-computer-mouse` and CSS Content Code is ` \f8cc`**.

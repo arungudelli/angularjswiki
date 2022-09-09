@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-table'
 next = 'fa-tablet-screen-button'
-linktitle = 'fa-tablet-button_1'
+linktitle = 'fa-tablet-button'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Tablet-Button` font awesome icon css class name is `fa-tablet-button` and CSS Content Code is ` \f10a`**.

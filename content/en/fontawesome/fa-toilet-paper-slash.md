@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-toggle-on'
 next = 'fa-toilet-paper'
-linktitle = 'fa-toilet-paper-slash_1'
+linktitle = 'fa-toilet-paper-slash'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Toilet-Paper-Slash` font awesome icon css class name is `fa-toilet-paper-slash` and CSS Content Code is ` \e072`**.

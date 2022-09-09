@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-person-military-rifle'
 next = 'fa-person-praying'
-linktitle = 'fa-person-military-to-person_1'
+linktitle = 'fa-person-military-to-person'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Person-Military-To-Person` font awesome icon css class name is `fa-person-military-to-person` and CSS Content Code is ` \e54c`**.

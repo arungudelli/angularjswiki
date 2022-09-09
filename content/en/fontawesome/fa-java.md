@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-itunes'
 next = 'fa-jedi-order'
-linktitle = 'fa-java_1'
+linktitle = 'fa-java'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Java` font awesome icon css class name is `fa-java` and CSS Content Code is ` \f4e4`**.

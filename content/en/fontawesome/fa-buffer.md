@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-btc'
 next = 'fa-buromobelexperte'
-linktitle = 'fa-buffer_1'
+linktitle = 'fa-buffer'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Buffer` font awesome icon css class name is `fa-buffer` and CSS Content Code is ` \f837`**.

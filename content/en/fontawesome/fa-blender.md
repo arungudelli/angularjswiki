@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-blender-phone'
 next = 'fa-blog'
-linktitle = 'fa-blender_1'
+linktitle = 'fa-blender'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Blender` font awesome icon css class name is `fa-blender` and CSS Content Code is ` \f517`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-centercode'
 next = 'fa-chrome'
-linktitle = 'fa-centos_1'
+linktitle = 'fa-centos'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Centos` font awesome icon css class name is `fa-centos` and CSS Content Code is ` \f789`**.

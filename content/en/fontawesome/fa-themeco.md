@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-the-red-yeti'
 next = 'fa-themeisle'
-linktitle = 'fa-themeco_1'
+linktitle = 'fa-themeco'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Themeco` font awesome icon css class name is `fa-themeco` and CSS Content Code is ` \f5c6`**.

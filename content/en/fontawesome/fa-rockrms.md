@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-rocketchat'
 next = 'fa-rust'
-linktitle = 'fa-rockrms_1'
+linktitle = 'fa-rockrms'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Rockrms` font awesome icon css class name is `fa-rockrms` and CSS Content Code is ` \f3e9`**.

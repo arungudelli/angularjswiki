@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-telegram'
 next = 'fa-the-red-yeti'
-linktitle = 'fa-tencent-weibo_1'
+linktitle = 'fa-tencent-weibo'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Tencent-Weibo` font awesome icon css class name is `fa-tencent-weibo` and CSS Content Code is ` \f1d5`**.

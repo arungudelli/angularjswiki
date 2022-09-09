@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bots'
 next = 'fa-buffer'
-linktitle = 'fa-btc_1'
+linktitle = 'fa-btc'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Btc` font awesome icon css class name is `fa-btc` and CSS Content Code is ` \f15a`**.

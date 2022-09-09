@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-faucet'
 next = 'fa-feather-pointed'
-linktitle = 'fa-fax_1'
+linktitle = 'fa-fax'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Fax` font awesome icon css class name is `fa-fax` and CSS Content Code is ` \f1ac`**.

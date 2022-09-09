@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-stripe'
 next = 'fa-stumbleupon-circle'
-linktitle = 'fa-studiovinari_1'
+linktitle = 'fa-studiovinari'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Studiovinari` font awesome icon css class name is `fa-studiovinari` and CSS Content Code is ` \f3f8`**.

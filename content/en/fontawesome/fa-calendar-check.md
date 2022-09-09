@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-calculator'
 next = 'fa-calendar-day'
-linktitle = 'fa-calendar-check_1'
+linktitle = 'fa-calendar-check'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Calendar-Check` font awesome icon css class name is `fa-calendar-check` and CSS Content Code is ` \f274`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bimobject'
 next = 'fa-bitcoin'
-linktitle = 'fa-bitbucket_1'
+linktitle = 'fa-bitbucket'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bitbucket` font awesome icon css class name is `fa-bitbucket` and CSS Content Code is ` \f171`**.

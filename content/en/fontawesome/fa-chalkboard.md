@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-chalkboard-user'
 next = 'fa-champagne-glasses'
-linktitle = 'fa-chalkboard_1'
+linktitle = 'fa-chalkboard'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Chalkboard` font awesome icon css class name is `fa-chalkboard` and CSS Content Code is ` \f51b`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-mattress-pillow'
 next = 'fa-medal'
-linktitle = 'fa-maximize_1'
+linktitle = 'fa-maximize'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Maximize` font awesome icon css class name is `fa-maximize` and CSS Content Code is ` \f31e`**.

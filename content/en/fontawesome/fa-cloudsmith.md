@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-cloudscale'
 next = 'fa-cloudversify'
-linktitle = 'fa-cloudsmith_1'
+linktitle = 'fa-cloudsmith'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Cloudsmith` font awesome icon css class name is `fa-cloudsmith` and CSS Content Code is ` \f384`**.

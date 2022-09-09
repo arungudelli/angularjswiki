@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-fan'
 next = 'fa-faucet'
-linktitle = 'fa-faucet-drip_1'
+linktitle = 'fa-faucet-drip'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Faucet-Drip` font awesome icon css class name is `fa-faucet-drip` and CSS Content Code is ` \e006`**.

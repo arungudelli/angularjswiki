@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-servicestack'
 next = 'fa-shopify'
-linktitle = 'fa-shirtsinbulk_1'
+linktitle = 'fa-shirtsinbulk'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Shirtsinbulk` font awesome icon css class name is `fa-shirtsinbulk` and CSS Content Code is ` \f214`**.

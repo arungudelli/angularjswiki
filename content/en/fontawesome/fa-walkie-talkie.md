@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-w'
 next = 'fa-wallet'
-linktitle = 'fa-walkie-talkie_1'
+linktitle = 'fa-walkie-talkie'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Walkie-Talkie` font awesome icon css class name is `fa-walkie-talkie` and CSS Content Code is ` \f8ef`**.

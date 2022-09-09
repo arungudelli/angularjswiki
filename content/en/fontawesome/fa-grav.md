@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-gratipay'
 next = 'fa-gripfire'
-linktitle = 'fa-grav_1'
+linktitle = 'fa-grav'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Grav` font awesome icon css class name is `fa-grav` and CSS Content Code is ` \f2d6`**.

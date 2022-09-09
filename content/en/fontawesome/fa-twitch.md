@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-tumblr'
 next = 'fa-twitter'
-linktitle = 'fa-twitch_1'
+linktitle = 'fa-twitch'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Twitch` font awesome icon css class name is `fa-twitch` and CSS Content Code is ` \f1e8`**.

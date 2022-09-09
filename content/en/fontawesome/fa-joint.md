@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-jet-fighter'
 next = 'fa-jug-detergent'
-linktitle = 'fa-joint_1'
+linktitle = 'fa-joint'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Joint` font awesome icon css class name is `fa-joint` and CSS Content Code is ` \f595`**.

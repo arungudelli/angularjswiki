@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-layer-group'
 next = 'fa-left-long'
-linktitle = 'fa-leaf_1'
+linktitle = 'fa-leaf'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Leaf` font awesome icon css class name is `fa-leaf` and CSS Content Code is ` \f06c`**.

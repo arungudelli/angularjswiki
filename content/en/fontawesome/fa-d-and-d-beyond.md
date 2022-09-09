@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-cuttlefish'
 next = 'fa-d-and-d'
-linktitle = 'fa-d-and-d-beyond_1'
+linktitle = 'fa-d-and-d-beyond'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`D-And-D-Beyond` font awesome icon css class name is `fa-d-and-d-beyond` and CSS Content Code is ` \f6ca`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-slack'
 next = 'fa-snapchat'
-linktitle = 'fa-slideshare_1'
+linktitle = 'fa-slideshare'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Slideshare` font awesome icon css class name is `fa-slideshare` and CSS Content Code is ` \f1e7`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-scissors'
 next = 'fa-screwdriver'
-linktitle = 'fa-screwdriver-wrench_1'
+linktitle = 'fa-screwdriver-wrench'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Screwdriver-Wrench` font awesome icon css class name is `fa-screwdriver-wrench` and CSS Content Code is ` \f7d9`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-city'
 next = 'fa-clipboard-check'
-linktitle = 'fa-clapperboard_1'
+linktitle = 'fa-clapperboard'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Clapperboard` font awesome icon css class name is `fa-clapperboard` and CSS Content Code is ` \e131`**.

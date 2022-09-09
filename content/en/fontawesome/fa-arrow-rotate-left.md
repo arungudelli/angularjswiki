@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-arrow-right'
 next = 'fa-arrow-rotate-right'
-linktitle = 'fa-arrow-rotate-left_1'
+linktitle = 'fa-arrow-rotate-left'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Arrow-Rotate-Left` font awesome icon css class name is `fa-arrow-rotate-left` and CSS Content Code is ` \f0e2`**.

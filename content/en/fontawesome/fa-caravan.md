@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-car'
 next = 'fa-caret-down'
-linktitle = 'fa-caravan_1'
+linktitle = 'fa-caravan'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Caravan` font awesome icon css class name is `fa-caravan` and CSS Content Code is ` \f8ff`**.

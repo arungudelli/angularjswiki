@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-arrows-rotate'
 next = 'fa-arrows-split-up-and-left'
-linktitle = 'fa-arrows-spin_1'
+linktitle = 'fa-arrows-spin'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Arrows-Spin` font awesome icon css class name is `fa-arrows-spin` and CSS Content Code is ` \e4bb`**.

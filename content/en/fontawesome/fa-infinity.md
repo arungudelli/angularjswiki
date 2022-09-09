@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-industry'
 next = 'fa-info'
-linktitle = 'fa-infinity_1'
+linktitle = 'fa-infinity'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Infinity` font awesome icon css class name is `fa-infinity` and CSS Content Code is ` \f534`**.

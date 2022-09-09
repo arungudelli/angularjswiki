@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-volcano'
 next = 'fa-volume-high'
-linktitle = 'fa-volleyball_1'
+linktitle = 'fa-volleyball'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Volleyball` font awesome icon css class name is `fa-volleyball` and CSS Content Code is ` \f45f`**.

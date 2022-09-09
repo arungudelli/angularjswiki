@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-baseball-bat-ball'
 next = 'fa-basket-shopping'
-linktitle = 'fa-baseball_1'
+linktitle = 'fa-baseball'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Baseball` font awesome icon css class name is `fa-baseball` and CSS Content Code is ` \f433`**.

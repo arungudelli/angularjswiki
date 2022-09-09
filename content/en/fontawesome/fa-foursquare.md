@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-forumbee'
 next = 'fa-free-code-camp'
-linktitle = 'fa-foursquare_1'
+linktitle = 'fa-foursquare'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Foursquare` font awesome icon css class name is `fa-foursquare` and CSS Content Code is ` \f180`**.

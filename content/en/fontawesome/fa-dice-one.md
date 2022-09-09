@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-dice-four'
 next = 'fa-dice-six'
-linktitle = 'fa-dice-one_1'
+linktitle = 'fa-dice-one'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Dice-One` font awesome icon css class name is `fa-dice-one` and CSS Content Code is ` \f525`**.

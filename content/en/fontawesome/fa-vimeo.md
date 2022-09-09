@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-vimeo-v'
 next = 'fa-vine'
-linktitle = 'fa-vimeo_1'
+linktitle = 'fa-vimeo'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Vimeo` font awesome icon css class name is `fa-vimeo` and CSS Content Code is ` \f40a`**.

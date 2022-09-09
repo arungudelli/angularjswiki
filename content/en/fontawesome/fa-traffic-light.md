@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-trademark'
 next = 'fa-trailer'
-linktitle = 'fa-traffic-light_1'
+linktitle = 'fa-traffic-light'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Traffic-Light` font awesome icon css class name is `fa-traffic-light` and CSS Content Code is ` \f637`**.

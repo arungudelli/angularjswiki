@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-square-nfi'
 next = 'fa-square-pen'
-linktitle = 'fa-square-parking_1'
+linktitle = 'fa-square-parking'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Square-Parking` font awesome icon css class name is `fa-square-parking` and CSS Content Code is ` \f540`**.

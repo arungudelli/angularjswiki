@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-cookie-bite'
 next = 'fa-copy'
-linktitle = 'fa-cookie_1'
+linktitle = 'fa-cookie'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Cookie` font awesome icon css class name is `fa-cookie` and CSS Content Code is ` \f563`**.

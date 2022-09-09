@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-square-js'
 next = 'fa-square-odnoklassniki'
-linktitle = 'fa-square-lastfm_1'
+linktitle = 'fa-square-lastfm'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Square-Lastfm` font awesome icon css class name is `fa-square-lastfm` and CSS Content Code is ` \f203`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-drupal'
 next = 'fa-earlybirds'
-linktitle = 'fa-dyalog_1'
+linktitle = 'fa-dyalog'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Dyalog` font awesome icon css class name is `fa-dyalog` and CSS Content Code is ` \f399`**.

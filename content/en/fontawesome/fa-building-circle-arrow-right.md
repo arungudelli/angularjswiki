@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bugs'
 next = 'fa-building-circle-check'
-linktitle = 'fa-building-circle-arrow-right_1'
+linktitle = 'fa-building-circle-arrow-right'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Building-Circle-Arrow-Right` font awesome icon css class name is `fa-building-circle-arrow-right` and CSS Content Code is ` \e4d1`**.

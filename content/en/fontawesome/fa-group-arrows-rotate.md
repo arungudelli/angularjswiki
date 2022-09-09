@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-grip'
 next = 'fa-guarani-sign'
-linktitle = 'fa-group-arrows-rotate_1'
+linktitle = 'fa-group-arrows-rotate'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Group-Arrows-Rotate` font awesome icon css class name is `fa-group-arrows-rotate` and CSS Content Code is ` \e4f6`**.

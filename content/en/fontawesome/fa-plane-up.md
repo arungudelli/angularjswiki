@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-plane-slash'
 next = 'fa-plane'
-linktitle = 'fa-plane-up_1'
+linktitle = 'fa-plane-up'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Plane-Up` font awesome icon css class name is `fa-plane-up` and CSS Content Code is ` \e22d`**.

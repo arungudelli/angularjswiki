@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-calendar'
 next = 'fa-camera-rotate'
-linktitle = 'fa-camera-retro_1'
+linktitle = 'fa-camera-retro'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Camera-Retro` font awesome icon css class name is `fa-camera-retro` and CSS Content Code is ` \f083`**.

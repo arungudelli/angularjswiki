@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hotjar'
 next = 'fa-html5'
-linktitle = 'fa-houzz_1'
+linktitle = 'fa-houzz'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Houzz` font awesome icon css class name is `fa-houzz` and CSS Content Code is ` \f27c`**.

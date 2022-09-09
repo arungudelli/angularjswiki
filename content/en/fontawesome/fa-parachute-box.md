@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-paperclip'
 next = 'fa-paragraph'
-linktitle = 'fa-parachute-box_1'
+linktitle = 'fa-parachute-box'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Parachute-Box` font awesome icon css class name is `fa-parachute-box` and CSS Content Code is ` \f4cd`**.

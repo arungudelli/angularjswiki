@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-wix'
 next = 'fa-wodu'
-linktitle = 'fa-wizards-of-the-coast_1'
+linktitle = 'fa-wizards-of-the-coast'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Wizards-Of-The-Coast` font awesome icon css class name is `fa-wizards-of-the-coast` and CSS Content Code is ` \f730`**.

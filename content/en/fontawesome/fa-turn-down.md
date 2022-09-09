@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-turkish-lira-sign'
 next = 'fa-turn-up'
-linktitle = 'fa-turn-down_1'
+linktitle = 'fa-turn-down'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Turn-Down` font awesome icon css class name is `fa-turn-down` and CSS Content Code is ` \f3be`**.

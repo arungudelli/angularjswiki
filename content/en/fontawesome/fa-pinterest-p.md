@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-pied-piper'
 next = 'fa-pinterest'
-linktitle = 'fa-pinterest-p_1'
+linktitle = 'fa-pinterest-p'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Pinterest-P` font awesome icon css class name is `fa-pinterest-p` and CSS Content Code is ` \f231`**.

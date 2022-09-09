@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-weibo'
 next = 'fa-whatsapp'
-linktitle = 'fa-weixin_1'
+linktitle = 'fa-weixin'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Weixin` font awesome icon css class name is `fa-weixin` and CSS Content Code is ` \f1d7`**.

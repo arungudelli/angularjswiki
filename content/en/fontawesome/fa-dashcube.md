@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-dailymotion'
 next = 'fa-deezer'
-linktitle = 'fa-dashcube_1'
+linktitle = 'fa-dashcube'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Dashcube` font awesome icon css class name is `fa-dashcube` and CSS Content Code is ` \f210`**.

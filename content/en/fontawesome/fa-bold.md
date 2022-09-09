@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-blog'
 next = 'fa-bolt-lightning'
-linktitle = 'fa-bold_1'
+linktitle = 'fa-bold'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bold` font awesome icon css class name is `fa-bold` and CSS Content Code is ` \f032`**.

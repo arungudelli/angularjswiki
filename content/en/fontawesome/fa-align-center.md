@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-address-card'
 next = 'fa-align-justify'
-linktitle = 'fa-align-center_1'
+linktitle = 'fa-align-center'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Align-Center` font awesome icon css class name is `fa-align-center` and CSS Content Code is ` \f037`**.

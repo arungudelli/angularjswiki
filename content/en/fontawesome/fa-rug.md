@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-ruble-sign'
 next = 'fa-ruler-combined'
-linktitle = 'fa-rug_1'
+linktitle = 'fa-rug'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Rug` font awesome icon css class name is `fa-rug` and CSS Content Code is ` \e569`**.

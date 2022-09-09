@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-socks'
 next = 'fa-sort-down'
-linktitle = 'fa-solar-panel_1'
+linktitle = 'fa-solar-panel'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Solar-Panel` font awesome icon css class name is `fa-solar-panel` and CSS Content Code is ` \f5ba`**.

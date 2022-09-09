@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-cc-amazon-pay'
 next = 'fa-cc-apple-pay'
-linktitle = 'fa-cc-amex_1'
+linktitle = 'fa-cc-amex'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Cc-Amex` font awesome icon css class name is `fa-cc-amex` and CSS Content Code is ` \f1f3`**.

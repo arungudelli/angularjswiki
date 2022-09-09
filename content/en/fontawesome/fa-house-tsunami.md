@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-house-signal'
 next = 'fa-house-user'
-linktitle = 'fa-house-tsunami_1'
+linktitle = 'fa-house-tsunami'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`House-Tsunami` font awesome icon css class name is `fa-house-tsunami` and CSS Content Code is ` \e515`**.

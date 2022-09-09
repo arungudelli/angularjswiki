@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-jenkins'
 next = 'fa-joget'
-linktitle = 'fa-jira_1'
+linktitle = 'fa-jira'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Jira` font awesome icon css class name is `fa-jira` and CSS Content Code is ` \f7b1`**.

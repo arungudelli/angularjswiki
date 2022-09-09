@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-rust'
 next = 'fa-salesforce'
-linktitle = 'fa-safari_1'
+linktitle = 'fa-safari'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Safari` font awesome icon css class name is `fa-safari` and CSS Content Code is ` \f267`**.

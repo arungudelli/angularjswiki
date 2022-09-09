@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-scroll'
 next = 'fa-section'
-linktitle = 'fa-sd-card_1'
+linktitle = 'fa-sd-card'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Sd-Card` font awesome icon css class name is `fa-sd-card` and CSS Content Code is ` \f7c2`**.

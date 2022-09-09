@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-diamond-turn-right'
 next = 'fa-dice-d20'
-linktitle = 'fa-diamond_1'
+linktitle = 'fa-diamond'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Diamond` font awesome icon css class name is `fa-diamond` and CSS Content Code is ` \f219`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-cc-discover'
 next = 'fa-cc-mastercard'
-linktitle = 'fa-cc-jcb_1'
+linktitle = 'fa-cc-jcb'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Cc-Jcb` font awesome icon css class name is `fa-cc-jcb` and CSS Content Code is ` \f24b`**.

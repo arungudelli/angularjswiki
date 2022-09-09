@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-nutritionix'
 next = 'fa-odnoklassniki'
-linktitle = 'fa-octopus-deploy_1'
+linktitle = 'fa-octopus-deploy'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Octopus-Deploy` font awesome icon css class name is `fa-octopus-deploy` and CSS Content Code is ` \e082`**.

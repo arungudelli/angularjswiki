@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-orcid'
 next = 'fa-padlet'
-linktitle = 'fa-osi_1'
+linktitle = 'fa-osi'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Osi` font awesome icon css class name is `fa-osi` and CSS Content Code is ` \f41a`**.

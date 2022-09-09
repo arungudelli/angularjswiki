@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-sketch'
 next = 'fa-skype'
-linktitle = 'fa-skyatlas_1'
+linktitle = 'fa-skyatlas'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Skyatlas` font awesome icon css class name is `fa-skyatlas` and CSS Content Code is ` \f216`**.

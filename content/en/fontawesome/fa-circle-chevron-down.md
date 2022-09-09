@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-circle-check'
 next = 'fa-circle-chevron-left'
-linktitle = 'fa-circle-chevron-down_1'
+linktitle = 'fa-circle-chevron-down'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Circle-Chevron-Down` font awesome icon css class name is `fa-circle-chevron-down` and CSS Content Code is ` \f13a`**.

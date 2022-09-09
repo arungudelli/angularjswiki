@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-instalod'
 next = 'fa-internet-explorer'
-linktitle = 'fa-intercom_1'
+linktitle = 'fa-intercom'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Intercom` font awesome icon css class name is `fa-intercom` and CSS Content Code is ` \f7af`**.

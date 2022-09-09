@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-hammer'
 next = 'fa-hand-back-fist'
-linktitle = 'fa-hamsa_1'
+linktitle = 'fa-hamsa'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Hamsa` font awesome icon css class name is `fa-hamsa` and CSS Content Code is ` \f665`**.

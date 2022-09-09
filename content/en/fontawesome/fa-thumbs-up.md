@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-thumbs-down'
 next = 'fa-thumbtack'
-linktitle = 'fa-thumbs-up_1'
+linktitle = 'fa-thumbs-up'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Thumbs-Up` font awesome icon css class name is `fa-thumbs-up` and CSS Content Code is ` \f164`**.

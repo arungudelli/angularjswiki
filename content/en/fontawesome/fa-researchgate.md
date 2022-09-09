@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-replyd'
 next = 'fa-resolving'
-linktitle = 'fa-researchgate_1'
+linktitle = 'fa-researchgate'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Researchgate` font awesome icon css class name is `fa-researchgate` and CSS Content Code is ` \f4f8`**.

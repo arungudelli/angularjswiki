@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-envelopes-bulk'
 next = 'fa-eraser'
-linktitle = 'fa-equals_1'
+linktitle = 'fa-equals'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Equals` font awesome icon css class name is `fa-equals` and CSS Content Code is ` \3d`**.

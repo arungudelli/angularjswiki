@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-umbrella'
 next = 'fa-universal-access'
-linktitle = 'fa-underline_1'
+linktitle = 'fa-underline'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Underline` font awesome icon css class name is `fa-underline` and CSS Content Code is ` \f0cd`**.

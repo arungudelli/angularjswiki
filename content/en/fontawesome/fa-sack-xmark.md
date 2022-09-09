@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-sack-dollar'
 next = 'fa-sailboat'
-linktitle = 'fa-sack-xmark_1'
+linktitle = 'fa-sack-xmark'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Sack-Xmark` font awesome icon css class name is `fa-sack-xmark` and CSS Content Code is ` \e56a`**.

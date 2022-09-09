@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-google-pay'
 next = 'fa-google-plus-g'
-linktitle = 'fa-google-play_1'
+linktitle = 'fa-google-play'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Google-Play` font awesome icon css class name is `fa-google-play` and CSS Content Code is ` \f3ab`**.

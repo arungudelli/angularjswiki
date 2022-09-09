@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-walkie-talkie'
 next = 'fa-wand-magic-sparkles'
-linktitle = 'fa-wallet_1'
+linktitle = 'fa-wallet'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Wallet` font awesome icon css class name is `fa-wallet` and CSS Content Code is ` \f555`**.

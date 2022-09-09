@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-file-prescription'
 next = 'fa-file-signature'
-linktitle = 'fa-file-shield_1'
+linktitle = 'fa-file-shield'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`File-Shield` font awesome icon css class name is `fa-file-shield` and CSS Content Code is ` \e4f0`**.

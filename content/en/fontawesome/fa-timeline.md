@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-ticket'
 next = 'fa-toggle-off'
-linktitle = 'fa-timeline_1'
+linktitle = 'fa-timeline'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Timeline` font awesome icon css class name is `fa-timeline` and CSS Content Code is ` \e29c`**.

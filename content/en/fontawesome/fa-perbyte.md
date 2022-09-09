@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-paypal'
 next = 'fa-periscope'
-linktitle = 'fa-perbyte_1'
+linktitle = 'fa-perbyte'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Perbyte` font awesome icon css class name is `fa-perbyte` and CSS Content Code is ` \e083`**.

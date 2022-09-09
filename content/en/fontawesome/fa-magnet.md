@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-m'
 next = 'fa-magnifying-glass-arrow-right'
-linktitle = 'fa-magnet_1'
+linktitle = 'fa-magnet'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Magnet` font awesome icon css class name is `fa-magnet` and CSS Content Code is ` \f076`**.

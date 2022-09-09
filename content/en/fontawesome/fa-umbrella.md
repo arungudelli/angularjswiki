@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-umbrella-beach'
 next = 'fa-underline'
-linktitle = 'fa-umbrella_1'
+linktitle = 'fa-umbrella'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Umbrella` font awesome icon css class name is `fa-umbrella` and CSS Content Code is ` \f0e9`**.

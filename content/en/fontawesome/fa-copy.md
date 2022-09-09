@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-cookie'
 next = 'fa-copyright'
-linktitle = 'fa-copy_1'
+linktitle = 'fa-copy'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Copy` font awesome icon css class name is `fa-copy` and CSS Content Code is ` \f0c5`**.

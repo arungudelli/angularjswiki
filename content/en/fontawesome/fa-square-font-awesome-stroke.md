@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-square-facebook'
 next = 'fa-square-font-awesome'
-linktitle = 'fa-square-font-awesome-stroke_1'
+linktitle = 'fa-square-font-awesome-stroke'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Square-Font-Awesome-Stroke` font awesome icon css class name is `fa-square-font-awesome-stroke` and CSS Content Code is ` \f35c`**.

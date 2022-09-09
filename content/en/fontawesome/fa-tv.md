@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-turn-up'
 next = 'fa-u'
-linktitle = 'fa-tv_1'
+linktitle = 'fa-tv'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Tv` font awesome icon css class name is `fa-tv` and CSS Content Code is ` \f26c`**.

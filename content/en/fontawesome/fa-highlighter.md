@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-helmet-un'
 next = 'fa-hill-avalanche'
-linktitle = 'fa-highlighter_1'
+linktitle = 'fa-highlighter'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Highlighter` font awesome icon css class name is `fa-highlighter` and CSS Content Code is ` \f591`**.

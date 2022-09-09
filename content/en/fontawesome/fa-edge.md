@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-edge-legacy'
 next = 'fa-elementor'
-linktitle = 'fa-edge_1'
+linktitle = 'fa-edge'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Edge` font awesome icon css class name is `fa-edge` and CSS Content Code is ` \f282`**.

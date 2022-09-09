@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-paste'
 next = 'fa-paw'
-linktitle = 'fa-pause_1'
+linktitle = 'fa-pause'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Pause` font awesome icon css class name is `fa-pause` and CSS Content Code is ` \f04c`**.

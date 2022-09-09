@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-wikipedia-w'
 next = 'fa-wirsindhandwerk'
-linktitle = 'fa-windows_1'
+linktitle = 'fa-windows'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Windows` font awesome icon css class name is `fa-windows` and CSS Content Code is ` \f17a`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-medium'
 next = 'fa-meetup'
-linktitle = 'fa-medrt_1'
+linktitle = 'fa-medrt'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Medrt` font awesome icon css class name is `fa-medrt` and CSS Content Code is ` \f3c8`**.

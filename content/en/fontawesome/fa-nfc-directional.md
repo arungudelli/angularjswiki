@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-neos'
 next = 'fa-nfc-symbol'
-linktitle = 'fa-nfc-directional_1'
+linktitle = 'fa-nfc-directional'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Nfc-Directional` font awesome icon css class name is `fa-nfc-directional` and CSS Content Code is ` \e530`**.

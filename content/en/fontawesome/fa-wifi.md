@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-whiskey-glass'
 next = 'fa-wind'
-linktitle = 'fa-wifi_1'
+linktitle = 'fa-wifi'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Wifi` font awesome icon css class name is `fa-wifi` and CSS Content Code is ` \f1eb`**.

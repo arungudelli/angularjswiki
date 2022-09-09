@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-users-slash'
 next = 'fa-users'
-linktitle = 'fa-users-viewfinder_1'
+linktitle = 'fa-users-viewfinder'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Users-Viewfinder` font awesome icon css class name is `fa-users-viewfinder` and CSS Content Code is ` \e595`**.

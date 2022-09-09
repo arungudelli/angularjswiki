@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-arrows-split-up-and-left'
 next = 'fa-arrows-to-dot'
-linktitle = 'fa-arrows-to-circle_1'
+linktitle = 'fa-arrows-to-circle'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Arrows-To-Circle` font awesome icon css class name is `fa-arrows-to-circle` and CSS Content Code is ` \e4bd`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-share'
 next = 'fa-shekel-sign'
-linktitle = 'fa-sheet-plastic_1'
+linktitle = 'fa-sheet-plastic'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Sheet-Plastic` font awesome icon css class name is `fa-sheet-plastic` and CSS Content Code is ` \e571`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-square-caret-right'
 next = 'fa-square-check'
-linktitle = 'fa-square-caret-up_1'
+linktitle = 'fa-square-caret-up'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Square-Caret-Up` font awesome icon css class name is `fa-square-caret-up` and CSS Content Code is ` \f151`**.

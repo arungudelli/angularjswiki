@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-store'
 next = 'fa-strikethrough'
-linktitle = 'fa-street-view_1'
+linktitle = 'fa-street-view'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Street-View` font awesome icon css class name is `fa-street-view` and CSS Content Code is ` \f21d`**.

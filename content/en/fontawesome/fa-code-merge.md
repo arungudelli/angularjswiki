@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-code-fork'
 next = 'fa-code-pull-request'
-linktitle = 'fa-code-merge_1'
+linktitle = 'fa-code-merge'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Code-Merge` font awesome icon css class name is `fa-code-merge` and CSS Content Code is ` \f387`**.

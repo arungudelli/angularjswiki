@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-rev'
 next = 'fa-rockrms'
-linktitle = 'fa-rocketchat_1'
+linktitle = 'fa-rocketchat'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Rocketchat` font awesome icon css class name is `fa-rocketchat` and CSS Content Code is ` \f3e8`**.

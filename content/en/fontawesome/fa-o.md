@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-notes-medical'
 next = 'fa-object-group'
-linktitle = 'fa-o_1'
+linktitle = 'fa-o'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`O` font awesome icon css class name is `fa-o` and CSS Content Code is ` \4f`**.

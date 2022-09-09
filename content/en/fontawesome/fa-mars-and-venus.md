@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-mars-and-venus-burst'
 next = 'fa-mars-double'
-linktitle = 'fa-mars-and-venus_1'
+linktitle = 'fa-mars-and-venus'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Mars-And-Venus` font awesome icon css class name is `fa-mars-and-venus` and CSS Content Code is ` \f224`**.

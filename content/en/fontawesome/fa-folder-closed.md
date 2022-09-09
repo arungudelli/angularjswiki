@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-florin-sign'
 next = 'fa-folder-minus'
-linktitle = 'fa-folder-closed_1'
+linktitle = 'fa-folder-closed'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Folder-Closed` font awesome icon css class name is `fa-folder-closed` and CSS Content Code is ` \e185`**.

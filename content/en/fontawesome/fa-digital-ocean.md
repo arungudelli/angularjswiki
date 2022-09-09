@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-digg'
 next = 'fa-discord'
-linktitle = 'fa-digital-ocean_1'
+linktitle = 'fa-digital-ocean'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Digital-Ocean` font awesome icon css class name is `fa-digital-ocean` and CSS Content Code is ` \f391`**.

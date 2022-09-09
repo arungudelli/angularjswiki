@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-toolbox'
 next = 'fa-torii-gate'
-linktitle = 'fa-tooth_1'
+linktitle = 'fa-tooth'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Tooth` font awesome icon css class name is `fa-tooth` and CSS Content Code is ` \f5c9`**.

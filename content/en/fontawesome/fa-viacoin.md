@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-vaadin'
 next = 'fa-viadeo'
-linktitle = 'fa-viacoin_1'
+linktitle = 'fa-viacoin'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Viacoin` font awesome icon css class name is `fa-viacoin` and CSS Content Code is ` \f237`**.

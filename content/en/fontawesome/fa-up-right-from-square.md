@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-up-right-and-down-left-from-center'
 next = 'fa-upload'
-linktitle = 'fa-up-right-from-square_1'
+linktitle = 'fa-up-right-from-square'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Up-Right-From-Square` font awesome icon css class name is `fa-up-right-from-square` and CSS Content Code is ` \f35d`**.

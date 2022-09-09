@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-tiktok'
 next = 'fa-trello'
-linktitle = 'fa-trade-federation_1'
+linktitle = 'fa-trade-federation'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Trade-Federation` font awesome icon css class name is `fa-trade-federation` and CSS Content Code is ` \f513`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-mitten'
 next = 'fa-mobile-retro'
-linktitle = 'fa-mobile-button_1'
+linktitle = 'fa-mobile-button'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Mobile-Button` font awesome icon css class name is `fa-mobile-button` and CSS Content Code is ` \f10b`**.

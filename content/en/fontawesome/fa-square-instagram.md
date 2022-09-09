@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-square-hacker-news'
 next = 'fa-square-js'
-linktitle = 'fa-square-instagram_1'
+linktitle = 'fa-square-instagram'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Square-Instagram` font awesome icon css class name is `fa-square-instagram` and CSS Content Code is ` \e055`**.

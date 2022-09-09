@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-envelope-circle-check'
 next = 'fa-envelope-open'
-linktitle = 'fa-envelope-open-text_1'
+linktitle = 'fa-envelope-open-text'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Envelope-Open-Text` font awesome icon css class name is `fa-envelope-open-text` and CSS Content Code is ` \f658`**.

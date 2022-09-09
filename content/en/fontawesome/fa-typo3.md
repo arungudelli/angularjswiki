@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-twitter'
 next = 'fa-uber'
-linktitle = 'fa-typo3_1'
+linktitle = 'fa-typo3'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Typo3` font awesome icon css class name is `fa-typo3` and CSS Content Code is ` \f42b`**.

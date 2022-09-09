@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-eye-dropper'
 next = 'fa-eye-slash'
-linktitle = 'fa-eye-low-vision_1'
+linktitle = 'fa-eye-low-vision'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Eye-Low-Vision` font awesome icon css class name is `fa-eye-low-vision` and CSS Content Code is ` \f2a8`**.

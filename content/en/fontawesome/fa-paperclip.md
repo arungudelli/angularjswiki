@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-paper-plane'
 next = 'fa-parachute-box'
-linktitle = 'fa-paperclip_1'
+linktitle = 'fa-paperclip'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Paperclip` font awesome icon css class name is `fa-paperclip` and CSS Content Code is ` \f0c6`**.

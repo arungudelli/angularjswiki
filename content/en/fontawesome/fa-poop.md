@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-poo'
 next = 'fa-power-off'
-linktitle = 'fa-poop_1'
+linktitle = 'fa-poop'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Poop` font awesome icon css class name is `fa-poop` and CSS Content Code is ` \f619`**.

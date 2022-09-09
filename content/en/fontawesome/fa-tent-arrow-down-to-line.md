@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-tenge-sign'
 next = 'fa-tent-arrow-left-right'
-linktitle = 'fa-tent-arrow-down-to-line_1'
+linktitle = 'fa-tent-arrow-down-to-line'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Tent-Arrow-Down-To-Line` font awesome icon css class name is `fa-tent-arrow-down-to-line` and CSS Content Code is ` \e57e`**.

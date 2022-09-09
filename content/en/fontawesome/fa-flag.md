@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-flag-usa'
 next = 'fa-flask-vial'
-linktitle = 'fa-flag_1'
+linktitle = 'fa-flag'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Flag` font awesome icon css class name is `fa-flag` and CSS Content Code is ` \f024`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-martini-glass-citrus'
 next = 'fa-martini-glass'
-linktitle = 'fa-martini-glass-empty_1'
+linktitle = 'fa-martini-glass-empty'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Martini-Glass-Empty` font awesome icon css class name is `fa-martini-glass-empty` and CSS Content Code is ` \f000`**.

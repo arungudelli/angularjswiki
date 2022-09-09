@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-usps'
 next = 'fa-vaadin'
-linktitle = 'fa-ussunnah_1'
+linktitle = 'fa-ussunnah'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Ussunnah` font awesome icon css class name is `fa-ussunnah` and CSS Content Code is ` \f407`**.

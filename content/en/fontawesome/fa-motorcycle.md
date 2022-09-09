@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-mosquito'
 next = 'fa-mound'
-linktitle = 'fa-motorcycle_1'
+linktitle = 'fa-motorcycle'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Motorcycle` font awesome icon css class name is `fa-motorcycle` and CSS Content Code is ` \f21c`**.

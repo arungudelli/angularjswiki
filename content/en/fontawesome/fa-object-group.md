@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-o'
 next = 'fa-object-ungroup'
-linktitle = 'fa-object-group_1'
+linktitle = 'fa-object-group'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Object-Group` font awesome icon css class name is `fa-object-group` and CSS Content Code is ` \f247`**.

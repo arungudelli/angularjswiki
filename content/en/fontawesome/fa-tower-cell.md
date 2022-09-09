@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-tower-broadcast'
 next = 'fa-tower-observation'
-linktitle = 'fa-tower-cell_1'
+linktitle = 'fa-tower-cell'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Tower-Cell` font awesome icon css class name is `fa-tower-cell` and CSS Content Code is ` \e585`**.

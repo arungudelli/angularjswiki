@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-colon-sign'
 next = 'fa-comment-dots'
-linktitle = 'fa-comment-dollar_1'
+linktitle = 'fa-comment-dollar'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Comment-Dollar` font awesome icon css class name is `fa-comment-dollar` and CSS Content Code is ` \f651`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-whatsapp'
 next = 'fa-wikipedia-w'
-linktitle = 'fa-whmcs_1'
+linktitle = 'fa-whmcs'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Whmcs` font awesome icon css class name is `fa-whmcs` and CSS Content Code is ` \f40d`**.

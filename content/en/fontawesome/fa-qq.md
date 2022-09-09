@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-python'
 next = 'fa-quinscape'
-linktitle = 'fa-qq_1'
+linktitle = 'fa-qq'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Qq` font awesome icon css class name is `fa-qq` and CSS Content Code is ` \f1d6`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-magnifying-glass'
 next = 'fa-map-location-dot'
-linktitle = 'fa-manat-sign_1'
+linktitle = 'fa-manat-sign'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Manat-Sign` font awesome icon css class name is `fa-manat-sign` and CSS Content Code is ` \e1d5`**.

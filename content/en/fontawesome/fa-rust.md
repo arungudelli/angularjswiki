@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-rockrms'
 next = 'fa-safari'
-linktitle = 'fa-rust_1'
+linktitle = 'fa-rust'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Rust` font awesome icon css class name is `fa-rust` and CSS Content Code is ` \e07a`**.

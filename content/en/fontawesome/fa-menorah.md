@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-memory'
 next = 'fa-mercury'
-linktitle = 'fa-menorah_1'
+linktitle = 'fa-menorah'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Menorah` font awesome icon css class name is `fa-menorah` and CSS Content Code is ` \f676`**.

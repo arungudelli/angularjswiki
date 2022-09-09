@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-mask-ventilator'
 next = 'fa-masks-theater'
-linktitle = 'fa-mask_1'
+linktitle = 'fa-mask'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Mask` font awesome icon css class name is `fa-mask` and CSS Content Code is ` \f6fa`**.

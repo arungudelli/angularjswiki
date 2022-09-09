@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-arrow-down-up-across-line'
 next = 'fa-arrow-down-wide-short'
-linktitle = 'fa-arrow-down-up-lock_1'
+linktitle = 'fa-arrow-down-up-lock'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Arrow-Down-Up-Lock` font awesome icon css class name is `fa-arrow-down-up-lock` and CSS Content Code is ` \e4b0`**.

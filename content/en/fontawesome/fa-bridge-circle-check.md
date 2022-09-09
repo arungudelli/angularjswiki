@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-bread-slice'
 next = 'fa-bridge-circle-exclamation'
-linktitle = 'fa-bridge-circle-check_1'
+linktitle = 'fa-bridge-circle-check'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bridge-Circle-Check` font awesome icon css class name is `fa-bridge-circle-check` and CSS Content Code is ` \e4c9`**.

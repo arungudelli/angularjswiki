@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-rectangle-list'
 next = 'fa-recycle'
-linktitle = 'fa-rectangle-xmark_1'
+linktitle = 'fa-rectangle-xmark'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Rectangle-Xmark` font awesome icon css class name is `fa-rectangle-xmark` and CSS Content Code is ` \f410`**.

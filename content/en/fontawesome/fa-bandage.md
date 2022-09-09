@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-ban'
 next = 'fa-barcode'
-linktitle = 'fa-bandage_1'
+linktitle = 'fa-bandage'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Bandage` font awesome icon css class name is `fa-bandage` and CSS Content Code is ` \f462`**.

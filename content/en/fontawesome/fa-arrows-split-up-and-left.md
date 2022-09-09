@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-arrows-spin'
 next = 'fa-arrows-to-circle'
-linktitle = 'fa-arrows-split-up-and-left_1'
+linktitle = 'fa-arrows-split-up-and-left'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Arrows-Split-Up-And-Left` font awesome icon css class name is `fa-arrows-split-up-and-left` and CSS Content Code is ` \e4bc`**.

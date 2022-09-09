@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-glide'
 next = 'fa-golang'
-linktitle = 'fa-gofore_1'
+linktitle = 'fa-gofore'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Gofore` font awesome icon css class name is `fa-gofore` and CSS Content Code is ` \f3a7`**.

@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-soundcloud'
 next = 'fa-space-awesome'
-linktitle = 'fa-sourcetree_1'
+linktitle = 'fa-sourcetree'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Sourcetree` font awesome icon css class name is `fa-sourcetree` and CSS Content Code is ` \f7d3`**.

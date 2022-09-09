@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-square-pen'
 next = 'fa-square-phone-flip'
-linktitle = 'fa-square-person-confined_1'
+linktitle = 'fa-square-person-confined'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Square-Person-Confined` font awesome icon css class name is `fa-square-person-confined` and CSS Content Code is ` \e577`**.

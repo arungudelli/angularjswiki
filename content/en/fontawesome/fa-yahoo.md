@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-y-combinator'
 next = 'fa-yammer'
-linktitle = 'fa-yahoo_1'
+linktitle = 'fa-yahoo'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Yahoo` font awesome icon css class name is `fa-yahoo` and CSS Content Code is ` \f19e`**.

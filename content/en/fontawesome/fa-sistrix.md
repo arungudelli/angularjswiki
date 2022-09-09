@@ -11,11 +11,11 @@ featured = 'font-awesome-icons.png'
 categories =['faicons']
 prev = 'fa-simplybuilt'
 next = 'fa-sith'
-linktitle = 'fa-sistrix_1'
+linktitle = 'fa-sistrix'
 [menu.fontawesome]
 parent = 'fontawesome'
 weight = 20
-draft = 'true'
+draft = 'false'
 +++ 
 
 **`Sistrix` font awesome icon css class name is `fa-sistrix` and CSS Content Code is ` \f3ee`**.
