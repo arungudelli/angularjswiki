@@ -31,6 +31,192 @@ weight=2
 
 To use font awesome icons as CSS content code follow the below steps.
 
+
+## Step 1: Load the font awesome CSS file.
+
+Add the font awesome CSS file in the `<head>` tag of the page
+
+I am using latest font awesome icon version 6.2.0.
+
+```
+<head>
+<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+</link>
+</head>
+```
+
+## Step 2: Define the CSS class names for the icons
+
+We need to add unique class name to the icon element. 
+
+```
+<!--Brand Icon -->
+<span class="twitter"></span>
+
+<!--Regular Icon -->
+<span class="user"></span>
+
+<!--Solid Icon -->
+<span class="cloud"></span>
+```
+
+## Step 3: Set the CSS content code for the icon.
+
+Go through the [2016 free font awesome icons](https://www.angularjswiki.com/fontawesome/), to get the CSS content code.
+
+For all icons, unicode values are already defined.
+
+```
+
+/* Brand icon*/
+.twitter::before {
+  content: '\f099';
+}
+
+/* Regular Icon */
+.user::before {
+  content: '\f007';
+}
+
+/* Solid Icon */
+.cloud::before {
+  content: '\f0c2';
+}
+```
+No icon will be displayed, because we need to add the font family.
+
+## Step 4: Set the icon font style
+
+For each style of icons i.e., regular, solid and brand icons we have to set the appropriate `font` style.
+
+In font awesome 6, there are predefined CSS custom properties.
+
+We can use them to set the `font` style.
+
+See the below list.
+
+<div class='table-responsive'>
+<table class='table'>
+<thead><tr><th>Icon Style</th><th>CSS custom property</th></tr></thead>
+<tbody>
+<tr><td>Brands</td><td>--fa-font-brands</td></tr>
+<tr><td>Solid</td><td>--fa-font-solid</td></tr>
+<tr><td>Regular</td><td>--fa-font-regular</td></tr>
+</tbody>
+</table>
+</div>
+
+```
+
+/* Brand icon*/
+.twitter::before {
+  content: '\f099';
+  font: var(--fa-font-brands);
+}
+
+/* Regular Icon */
+.user::before {
+  content: '\f007';
+  font: var(--fa-font-regular);
+}
+
+/* Solid Icon */
+.cloud::before {
+  content: '\f0c2';
+  font: var(--fa-font-solid);
+}
+```
+
+<div style="border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;">
+<style>
+
+/* Brand icon*/
+.twitter::before {
+  content: '\f099';
+  font: var(--fa-font-brands);
+}
+
+/* Regular Icon */
+.user::before {
+  content: '\f007';
+  font: var(--fa-font-regular);
+}
+
+/* Solid Icon */
+.cloud::before {
+  content: '\f0c2';
+  font: var(--fa-font-solid);
+}
+</style>
+<p>Output:</p>
+
+
+<!--Brand Icon -->
+<span class="twitter"></span>
+
+<!--Regular Icon -->
+<span class="user"></span>
+
+<!--Solid Icon -->
+<span class="cloud"></span>
+
+</div>
+
+## Step 5: Add common styles to the icons
+
+The above code displays the icons in default style. 
+
+If you want to add some custom styles to the icon add a common class to the icons.
+
+```
+<!--Brand Icon -->
+<span class="twitter fontawesomeicon"></span>
+
+<!--Regular Icon -->
+<span class="user fontawesomeicon"></span>
+
+<!--Solid Icon -->
+<span class="cloud fontawesomeicon"></span>
+```
+
+Then add necessary styles, I am changing the color of icons to the `red` colour.
+
+```
+.fontawesomeicon {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  color: red;
+}
+```
+
+<div style="border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;">
+<style>
+
+.fontawesomeicon {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  color: red;
+}
+</style>
+<p>Output:</p>
+
+
+<!--Brand Icon -->
+<span class="twitter fontawesomeicon"></span>
+
+<!--Regular Icon -->
+<span class="user fontawesomeicon"></span>
+
+<!--Solid Icon -->
+<span class="cloud fontawesomeicon"></span>
+
+</div>
+
+We can use font awesome predefined CSS custom properties for that.
+
 1. Add a unique CSS class name to the icon element you want to use.
 2. Set the font-family to "Font Awesome 5 Free" (For regular,solid icons) or "Font Awesome 5 Pro" (If you buy a pro license) or "Font Awesome 5 Brands" (For brand icons)
 3. Set the font-weight css property as 900 (For Solid), 400 (Regular or Brands), 300 (Light for pro icons).
