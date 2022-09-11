@@ -210,6 +210,8 @@ The above CSS custom properties adds the `font-family` and `font-weight` propert
 
 And if you are using font awesome 5 version icons, use the following `font-family` and `font-weight` css styles.
 
+There are no custom css properties defined in font awesome 5 version.
+
 <div class='table-responsive'>
 <table class='table'>
 <thead><tr><th>Icon Style</th><th>font-family</th><th>font-weight</th></tr></thead>
@@ -280,7 +282,7 @@ The general practice is to display font awesome icons using their css class name
 
 If you are starting a new project then it's fine. 
 
-When font awesome icons project started people are using already other existing icons.
+When font awesome icons project started people are using other existing icons.
 
 Think about an existing project where icons are displayed using other class names.
 
@@ -297,7 +299,7 @@ Changing all icon class names in a project is difficult.
 
 So font awesome used `::before` pseudo-element to display icons using CSS content codes.
 
-This way we can simple change the CSS styles for the icon elements no changes required HTML pages.
+This way we can simple change the CSS styles for the icon elements no changes required in HTML pages.
 
 ```
 .twitter::before {
@@ -320,9 +322,9 @@ Remember two things while display font awesome icons using their CSS content cod
 1. Add correct CSS content code 
 2. Do not forgot to add `font-family` & `font-weight`. 
 
-As explained above if you are using font awesome 6 version icons use `custom properties`.
+As explained above if you are using font awesome 6 version icons use `custom CSS properties`.
 
-And for the font awesome 5 version icons and `font-family` & `font-weight`.
+And for the font awesome 5 version icons use `font-family` & `font-weight`.
 
 ```
 /* Brand icon*/

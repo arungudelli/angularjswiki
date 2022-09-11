@@ -194,7 +194,7 @@ So we need to add `font-family` and `font-weight` css properties.
 
 ## Complete Font Awesome Icons List
 
-Here is the complete list of 1534 free font awesome icons cheatsheet.
+Here is the complete list of 2016 free font awesome icons cheat sheet.
 
 To use font awesome brand icons use class name as `fab`
 
@@ -218,6 +218,9 @@ To display bookmark icon use the following html code
 ```
 <i class="far fa-bookmark"></i>
 ```
+
+<input type="text" placeholder="search icons">
+
 ## Solid Font Awesome Icons Class List & CSS Content Codes
 
 <div class='table-responsive'><table class='table'>
