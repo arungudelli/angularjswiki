@@ -32,6 +32,8 @@ This post contains complete free font awesome icons class list names with their 
 
 And also you can search and find font awesome icons using the [search box](#search-font-awesome-icons) provided in the article.
 
+Click `Ctrl + D` to bookmark the page.
+
 **In the latest font awesome 6.2.0 version, there are 2016 free icons**.
 
 In the previous font awesome 5.14 version we have around 1598 free icons.
