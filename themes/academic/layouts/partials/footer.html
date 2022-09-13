@@ -370,5 +370,70 @@ if(bannerCloseButton){
 
 {{ end }}
 
+{{ if strings.HasSuffix .RelPermalink "/fontawesome/svg/" }}
+
+<script>
+  var icons = document.querySelectorAll('i');
+ 
+  function saveSvg(svgData, name) {
+     var svgBlob = new Blob([svgData], {type:"image/svg+xml;charset=utf-8"});
+     var svgUrl = URL.createObjectURL(svgBlob);
+     var downloadLink = document.createElement("a");
+     downloadLink.href = svgUrl;
+     downloadLink.download = name;
+     document.body.appendChild(downloadLink);
+     downloadLink.click();
+     document.body.removeChild(downloadLink);
+  }
+ 
+  function searchTable() {
+   var input, filter;
+   input = document.getElementById("myInput");
+   filter = input.value.toUpperCase();
+ 
+   var count = 0;
+ 
+    for (var i=0; i < icons.length; i++) {
+     //debugger;
+     var text = icons[i].nextSibling.textContent.trim().toUpperCase();
+     var tr = icons[i].parentNode.parentElement;
+ 
+     if (text.toUpperCase().indexOf(filter) > -1) {
+         tr.style.display = "";
+         count++;
+       } else {
+         tr.style.display = "none";
+     }
+    
+    }
+ 
+    var countElement = document.getElementById("counter");
+ 
+    countElement.innerHTML = count;
+ 
+  
+ }
+ 
+  for (var i=0; i < icons.length; i++) {
+     icons[i].onclick = function(){
+         var svg = this.parentElement.parentElement.getElementsByClassName("oflow")[0].innerText;
+         svg= svg.replaceAll("&lt;","<");
+         svg= svg.replaceAll("&gt;",">");
+         var text = this.nextSibling.textContent.trim().replaceAll(" ","-");
+         saveSvg(svg,text);
+     }
+ };
+ 
+ </script>
+ 
+ <style>
+   i{
+     cursor:pointer;
+   }
+ </style>
+ 
+
+{{end}}
+
 </body>
 </html>
