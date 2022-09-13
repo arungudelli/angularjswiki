@@ -223,7 +223,7 @@ The icons will be filtered in the below table.
 
 And Click on the icon to copy the html code.
 
-<input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search font awesome icons.." title="Search font awesome icons">
+{{< inputsearch >}}
 
 Total <strong><span id="counter">2016</span></strong> Icons.
 
@@ -14354,54 +14354,3 @@ Total <strong><span id="counter">2016</span></strong> Icons.
 
 Subscribe to our Angular wiki newsletter and download font awesome icons list in PDF format.
 
-<script>
- var icons = document.querySelectorAll('i');
-
-  function searchTable() {
-  var input, filter;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-
-  var count = 0;
-
-   for (var i=0; i < icons.length; i++) {
-    //debugger;
-    var text = icons[i].nextSibling.textContent.trim().toUpperCase();
-    var tr = icons[i].parentNode.parentElement;
-
-    if (text.toUpperCase().indexOf(filter) > -1) {
-        tr.style.display = "";
-        count++;
-      } else {
-        tr.style.display = "none";
-    }
-   
-   }
-
-   var countElement = document.getElementById("counter");
-
-   countElement.innerHTML = count;
-
- 
-}
-
-
-
-// copy.addEventListener("pointerdown", () => navigator.clipboard.writeText("Hello World!"))
-
-for (var i=0; i < icons.length; i++) {
-    icons[i].onpointerdown  = function(){
-       navigator.clipboard.writeText(this.outerHTML).then(() => {
-        alert(this.outerHTML + "successfully copied");
-      });
-    }
-};
-
-</script>
-
-<style>
-  i{
-    cursor:pointer;
-    under
-  }
-</style>

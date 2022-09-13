@@ -155,7 +155,8 @@ The icons will be filtered in the below table.
 [click here](https://use.fontawesome.com/releases/v5.14.0/fontawesome-free-5.14.0-web.zip) to download all SVG's
 
 
-<input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search for Icons.." title="Search font awesome SVG icons">
+{{< inputsearch >}}
+
 
 Total <strong><span id="counter">2016</span></strong> Icons.
 
@@ -10247,70 +10248,6 @@ Total <strong><span id="counter">2016</span></strong> Icons.
 
 </tbody>
 </table></div>
-
-
-
-
-
-<script>
- var icons = document.querySelectorAll('i');
-
- function saveSvg(svgData, name) {
-    var svgBlob = new Blob([svgData], {type:"image/svg+xml;charset=utf-8"});
-    var svgUrl = URL.createObjectURL(svgBlob);
-    var downloadLink = document.createElement("a");
-    downloadLink.href = svgUrl;
-    downloadLink.download = name;
-    document.body.appendChild(downloadLink);
-    downloadLink.click();
-    document.body.removeChild(downloadLink);
- }
-
- function searchTable() {
-  var input, filter;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-
-  var count = 0;
-
-   for (var i=0; i < icons.length; i++) {
-    //debugger;
-    var text = icons[i].nextSibling.textContent.trim().toUpperCase();
-    var tr = icons[i].parentNode.parentElement;
-
-    if (text.toUpperCase().indexOf(filter) > -1) {
-        tr.style.display = "";
-        count++;
-      } else {
-        tr.style.display = "none";
-    }
-   
-   }
-
-   var countElement = document.getElementById("counter");
-
-   countElement.innerHTML = count;
-
- 
-}
-
- for (var i=0; i < icons.length; i++) {
-    icons[i].onclick = function(){
-        var svg = this.parentElement.parentElement.getElementsByClassName("oflow")[0].innerText;
-        svg= svg.replaceAll("&lt;","<");
-        svg= svg.replaceAll("&gt;",">");
-        var text = this.nextSibling.textContent.trim().replaceAll(" ","-");
-        saveSvg(svg,text);
-    }
-};
-
-</script>
-
-<style>
-  i{
-    cursor:pointer;
-  }
-</style>
 
 
 
