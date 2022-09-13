@@ -16,7 +16,7 @@ featured="checkbox.jpg"
 linktitle = "Checkbox"
 [menu.material]
   parent = "Tutorial"
-  weight = 2
+  weight = 3
 
 +++
 
