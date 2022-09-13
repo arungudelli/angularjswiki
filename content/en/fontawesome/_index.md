@@ -207,7 +207,7 @@ So we need to add `font-family` and `font-weight` css properties.
 
 `font-family` and `font-weight` might be different for each icon depending upon the style of the icon like regular, solid and brand icons.
 
-[Use font awesome Icons as CSS Content Code](https://www.angularjswiki.com/fontawesome/csscontentcode)
+[Use font awesome Icons as CSS Content Code](/fontawesome/csscontentcode)
 
 To Display font awesome icons using SVG's go thought the below article.
 
