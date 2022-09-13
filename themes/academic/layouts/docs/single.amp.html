@@ -119,10 +119,12 @@ limitations under the License.
 <amp-img src="{{$featured.RelPermalink}}" width="1280" height="853" layout="responsive" alt="{{.Params.image.caption}}" class="mb4 mx3"></amp-img>
 {{end}}
 
+
         </header>
-        <div>{{ .Content }}</div>
+        {{ $contents := replace .Content "<style>" ""}}
+        {{ $contents := replace $contents "</style>" ""}}
 
-
+        <div>{{ safeHTML $contents  }}</div>
 
 <!--<ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
     <li>
