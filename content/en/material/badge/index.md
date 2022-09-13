@@ -6,7 +6,7 @@ draft = false  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
-prev = "material"
+prev = "checkbox"
 next = "tooltip"
 featured="angular-material-badge.jpg"
 authors = ["admin"]
@@ -18,7 +18,7 @@ keywords=["mat Badge,Angular Material Badge"]
 linktitle = "Badge"
 [menu.material]
   parent = "Tutorial"
-  weight = 2
+  weight = 3
 +++
 
 Angular Material Badge (`mat Badge`), used to display notifications counts like unread messages in Gmail. 

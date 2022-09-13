@@ -60,4 +60,9 @@ to = "https://adstxt.valueimpression.com/a/angularjswiki.com/ads.txt"
 status = 301
 force = true
 
+[[redirects]]
+from = "/angular/checkbox-implementation-in-angular-using-angular-material/"
+to = "/material/checkbox"
+status = 301
+
   
