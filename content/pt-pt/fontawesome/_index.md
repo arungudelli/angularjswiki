@@ -26,7 +26,7 @@ weight=1
 
 Este post contém gratuitamente font awesome completa lista de nomes de classes de ícones com os seus códigos de valor de conteúdo CSS &amp; tutorial passo a passo para usar font awesome ícones em páginas HTML.
 
-E também pode procurar e encontrar ícones font awesome usando a [caixa de pesquisa](#search-font-awesome-icons) fornecida no artigo.
+E também pode procurar e encontrar ícones font awesome usando a [caixa de pesquisa](#) fornecida no artigo.
 
 Clique `Ctrl + D` para marcar a página.
 
