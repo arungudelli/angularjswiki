@@ -209,7 +209,9 @@ Chcete-li zobrazit ikony font awesome pomocí SVG, přejděte na níže uvedený
 
 [Seznam ikon SVG, použití, CSS a stažení](/fontawesome/svg/)
 
-## Hledání ikon Font Awesome 
+## Search Font Awesome Icons 
+ 
+ 
 
 Zde je kompletní seznam bezplatných ikon font awesome cheat sheet.
 

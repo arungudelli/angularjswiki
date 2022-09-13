@@ -209,7 +209,7 @@ Untuk Menampilkan ikon font awesome menggunakan SVG, pikirkan artikel di bawah i
 
 [Daftar Ikon SVG Font Awesome, Penggunaan, CSS &amp; Unduh](/fontawesome/svg/)
 
-## Cari Ikon Font Awesome 
+## Search Font Awesome Icons 
 
 Berikut adalah daftar lengkap lembar contekan ikon font awesome gratis.
 

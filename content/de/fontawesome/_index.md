@@ -209,7 +209,7 @@ Um font awesome Icons mit SVG's anzuzeigen, lesen Sie bitte den folgenden Artike
 
 [Font Awesome SVG Icons Liste, Verwendung, CSS &amp; Download](/fontawesome/svg/)
 
-## Suche Font Awesome Icons 
+## Search Font Awesome Icons 
 
 Hier ist die komplette Liste der kostenlosen font awesome Icons Spickzettel.
 

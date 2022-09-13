@@ -209,7 +209,7 @@ Et kuvada font awesome ikoonid kasutades SVG's minna mõtlesin allpool artiklis.
 
 [Font Awesome SVG ikoonide nimekiri, kasutamine, CSS ja allalaadimine](/fontawesome/svg/)
 
-## Otsi Font Awesome Icons 
+## Search Font Awesome Icons 
 
 Siin on täielik loetelu tasuta font awesome ikoonide petuskeemidest.
 

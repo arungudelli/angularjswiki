@@ -209,7 +209,7 @@ Hvis du vil vise font awesome ikoner ved hjælp af SVG'er, skal du læse nedenst
 
 [Font Awesome SVG Icons List, Usage, CSS &amp; Download](/fontawesome/svg/)
 
-## Søg Font Awesome-ikoner 
+## Search Font Awesome Icons 
 
 Her er den komplette liste over gratis font awesome ikoner snydeblad.
 

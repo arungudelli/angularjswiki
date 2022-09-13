@@ -209,7 +209,7 @@ Megjelenítéséhez font awesome ikonok segítségével SVG's megy gondoltam az 
 
 [Font Awesome SVG ikonok listája, használata, CSS és letöltés](/fontawesome/svg/)
 
-## Font Awesome ikonok keresése 
+## Search Font Awesome Icons 
 
 Itt van az ingyenes font awesome ikonok teljes listája csalóka.
 

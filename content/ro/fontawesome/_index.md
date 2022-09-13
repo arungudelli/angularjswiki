@@ -209,7 +209,7 @@ Pentru a afișa font awesome pictograme folosind SVG, consultați articolul de m
 
 [Font Awesome SVG Icons List, Usage, CSS &amp; Download](/fontawesome/svg/)
 
-## Căutați pictograme Font Awesome 
+## Search Font Awesome Icons 
 
 Aici este lista completă de iconițe gratuite font awesome cheat sheet.
 

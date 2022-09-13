@@ -209,7 +209,7 @@ SVG'leri kullanarak font awesome simgelerini görüntülemek için aşağıdaki 
 
 [Font Awesome SVG Simgeleri Listesi, Kullanımı, CSS ve İndirme](/fontawesome/svg/)
 
-## Font Awesome Simgelerini Ara 
+## Search Font Awesome Icons 
 
 İşte ücretsiz font awesome simgeleri hile sayfasının tam listesi.
 

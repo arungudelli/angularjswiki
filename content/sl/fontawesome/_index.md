@@ -209,7 +209,7 @@ Zato moramo dodati lastnosti css `font-family` in `font-weight`.
 
 [Seznam ikon SVG, uporaba, CSS in prenos](/fontawesome/svg/)
 
-## Iskanje ikon Font Awesome 
+## Search Font Awesome Icons 
 
 Tukaj je popoln seznam brezplačnih ikon font awesome cheat sheet.
 

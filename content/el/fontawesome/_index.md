@@ -209,7 +209,7 @@ font awesome τα εικονίδια χρησιμοποιούν την ετικ�
 
 [Font Awesome SVG Icons List, Usage, CSS &amp; Download](/fontawesome/svg/)
 
-## Αναζήτηση εικονιδίων Font Awesome 
+## Search Font Awesome Icons 
 
 Εδώ είναι η πλήρης λίστα με τα δωρεάν εικονίδια font awesome cheat sheet.
 

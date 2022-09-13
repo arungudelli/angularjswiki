@@ -209,7 +209,7 @@ Voit näyttää font awesome kuvakkeet käyttäen SVG: n mennä ajatellut alla o
 
 [Font Awesome SVG Icons List, Usage, CSS &amp; Download](/fontawesome/svg/)
 
-## Etsi Font Awesome -kuvakkeita 
+## Search Font Awesome Icons 
 
 Tässä on täydellinen luettelo ilmaisista font awesome kuvakkeiden huijauslista.
 

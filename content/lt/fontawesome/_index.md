@@ -209,7 +209,7 @@ Norėdami rodyti font awesome piktogramas naudodami SVG, eikite pagalvoti į tol
 
 [Font Awesome SVG piktogramų sąrašas, naudojimas, CSS ir atsisiuntimas](/fontawesome/svg/)
 
-## Ieškoti nuostabių šrifto piktogramų 
+## Search Font Awesome Icons 
 
 Čia pateikiamas visas nemokamų font awesome piktogramų cheat sheet sąrašas.
 

@@ -210,7 +210,7 @@ font awesome アイコンをSVGで表示するには、以下の記事を参照�
 
 [Font Awesome SVG Icons List, Usage, CSS &amp; Download](/fontawesome/svg/)
 
-## Font Awesome Icons を検索する 
+## Search Font Awesome Icons 
 
 font awesome アイコンチートシートの全リストはこちらです。
 

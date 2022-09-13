@@ -209,7 +209,7 @@ font awesome иконки используют тег курсив, т.е..., `<
 
 [Font Awesome SVG Icons List, Usage, CSS &amp; Download](/fontawesome/svg/)
 
-## Поиск иконок Font Awesome 
+## Search Font Awesome Icons 
 
 Здесь представлен полный список бесплатных font awesome иконок шпаргалок.
 

@@ -209,7 +209,7 @@ Facebook图标是品牌图标的一部分，所以我添加了`fab` 作为额外
 
 [字体真棒SVG图标列表、用法、CSS和下载](/fontawesome/svg/)
 
-## 搜索Font Awesome图标 
+## Search Font Awesome Icons
 
 这里是免费的font awesome icons小抄的完整列表。
 

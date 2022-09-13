@@ -209,7 +209,7 @@ Om font awesome pictogrammen met SVG's weer te geven, gaat u naar het onderstaan
 
 [Font Awesome SVG Icons List, Usage, CSS &amp; Download](/fontawesome/svg/)
 
-## Font Awesome pictogrammen zoeken 
+## Search Font Awesome Icons 
 
 Hier is de volledige lijst van gratis font awesome pictogrammen spiekbriefje.
 
