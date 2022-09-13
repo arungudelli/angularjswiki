@@ -62,7 +62,7 @@ force = true
 
 [[redirects]]
 from = "/angular/checkbox-implementation-in-angular-using-angular-material/"
-to = "/material/checkbox"
+to = "/material/checkbox/"
 status = 301
 
   

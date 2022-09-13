@@ -303,8 +303,7 @@ This way we can simple change the CSS styles for the icon elements no changes re
 
 ```
 .twitter::before {
-  font-family: "Font Awesome 5 Brands"; 
-	font-weight: 400;
+  font: var(--fa-font-brands);
 	content: "\f099";
 }
 ```
@@ -350,7 +349,7 @@ And for the font awesome 5 version icons use `font-family` & `font-weight`.
 
 ```
 
-If you are using pro icons you need to add `font-family` as "Font Awesome 5 Pro".
+If you are using pro icons you need to add `font-family` as "Font Awesome 5 Pro" or "Font Awesome 6 Pro"
 
 ## font awesome CSS content code StackBlitz Demo
 
