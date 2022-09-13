@@ -219,7 +219,7 @@ Facebook图标是品牌图标的一部分，所以我添加了`fab` 作为额外
 
 并点击图标来复制html代码。
 
-<input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search font awesome icons.." title="Search font awesome icons">
+{{< inputsearch >}}
 
 Total <strong><span id="counter">2016</span></strong> Icons.
 

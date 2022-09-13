@@ -219,7 +219,7 @@ font awesome τα εικονίδια χρησιμοποιούν την ετικ�
 
 Και κάντε κλικ στο εικονίδιο για να αντιγράψετε τον κώδικα html.
 
-<input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search font awesome icons.." title="Search font awesome icons">
+{{< inputsearch >}}
 
 Total <strong><span id="counter">2016</span></strong> Icons.
 

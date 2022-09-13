@@ -219,7 +219,7 @@ Los iconos se filtrarán en la tabla de abajo.
 
 Y haga clic en el icono para copiar el código html.
 
-<input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search font awesome icons.." title="Search font awesome icons">
+{{< inputsearch >}}
 
 Total <strong><span id="counter">2016</span></strong> Icons.
 

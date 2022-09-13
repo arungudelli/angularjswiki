@@ -219,7 +219,7 @@ Ikone bodo filtrirane v spodnji preglednici.
 
 Kliknite na ikono, da kopirate kodo html.
 
-<input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search font awesome icons.." title="Search font awesome icons">
+{{< inputsearch >}}
 
 Total <strong><span id="counter">2016</span></strong> Icons.
 

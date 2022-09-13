@@ -219,7 +219,7 @@ Ikonerna kommer att filtreras i nedanstående tabell.
 
 Klicka på ikonen för att kopiera html-koden.
 
-<input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search font awesome icons.." title="Search font awesome icons">
+{{< inputsearch >}}
 
 Total <strong><span id="counter">2016</span></strong> Icons.
 
