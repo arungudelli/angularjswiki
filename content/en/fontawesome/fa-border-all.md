@@ -1,187 +1,285 @@
+
 +++
-title="fa-border-all icon in font awesome icons"
-summary="fa-border-all icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-border-all,f84c,fa-border-all"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-bootstrap"
-next="fa-border-none"
-linktitle="fa-border-all"
+title='Border-All font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Border-All font awesome icon CSS class is fa-border-all & CSS Content Code is  \f84c'
+keywords =['Border-All, \f84c,fa-border-all']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-bookmark'
+next = 'fa-border-none'
+linktitle = 'fa-border-all'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Border-All` font awesome icon css class name is `fa-border-all` and CSS Content Code is ` \f84c`**.
+ 
+
+`Border-All` font awesome icon is part of solid icons. 
 
 
-fa-border-all icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-border-all</td><td>fa-border-all</td><td>f84c</td></tr></tbody></table></div>
+{{%toc%}}
+## `Border-All` font awesome icon usage
+We can display `Border-All` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Border-All` font awesome icon CSS class name
+
+To display `Border-All` font awesome icon, add predefined class name i.e.,`fa-border-all` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Border-All` icon.
 
 
-## fa-border-all icon Usage
-
-To display fa-border-all icon add predefined class name i.e.,fa-border-all (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-border-all icon. i.e., fas.
-
+`Border-All` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-border-all'></i>
 
 ```
 
-<i class='fas fa-border-all'>fa-border-all</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-border-all'></i>
+
+</div>
+
+
+## `Border-All` font awesome icon CSS Content Code 
+
+We can display `Border-All` font awesome icon using it's CSS Content Code ` \f84c` 
+
+Use the following HTML code 
+
+```
+<li><span class='Border-All fontawesomeicon'></span>Border-All</li>
 ```
 
-<i class='fas fa-border-all'>fa-border-all</i>
-
-
-
-
-## Change fa-border-all icon size
-To increase fa-border-all font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-border-all.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Border-All::before {
+   font: var(--fa-font-solid);
+    content: ' \f84c';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Border-All::before {
+   font: var(--fa-font-solid);
+    content: ' \f84c';
+ }</style>
+
+<li><span class='Border-All fontawesomeicon'></span>Border-All</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Border-All` font awesome icon SVG 
+
+Use the following icon SVG to display `Border-All` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M384 96V224H256V96H384zm0 192V416H256V288H384zM192 224H64V96H192V224zM64 288H192V416H64V288zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M384 96V224H256V96H384zm0 192V416H256V288H384zM192 224H64V96H192V224zM64 288H192V416H64V288zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg>
+ Border-All displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M384 96V224H256V96H384zm0 192V416H256V288H384zM192 224H64V96H192V224zM64 288H192V416H64V288zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg>
+ Border-All displayed using SVG</p>
+</div>
+
+## Change `Border-All` font awesome icon size
+To increase `Border-All` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f84c.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-border-all fa-lg'>fa-lg</i><br/>
+<i class='fas fa-border-all fa-2x'>fa-2x</i><br/>
+<i class='fas fa-border-all fa-3x'>fa-3x</i><br/>
+<i class='fas fa-border-all fa-4x'>fa-4x</i><br/>
+<i class='fas fa-border-all fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-border-all fa-lg'>fa-lg</i><br/>
 <i class='fas fa-border-all fa-2x'>fa-2x</i><br/>
 <i class='fas fa-border-all fa-3x'>fa-3x</i><br/>
 <i class='fas fa-border-all fa-4x'>fa-4x</i><br/>
 <i class='fas fa-border-all fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-border-all fa-lg'>fa-lg</i><br/>
-<i class='fas fa-border-all fa-2x'>fa-2x</i><br/>
-<i class='fas fa-border-all fa-3x'>fa-3x</i><br/>
-<i class='fas fa-border-all fa-4x'>fa-4x</i><br/>
-<i class='fas fa-border-all fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-border-all Icon with Fixed Width 
-
+## `Border-All` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-border-all icon and fa-home may not have same height and width.
+For example `Border-All` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-border-all fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-border-all fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-border-all fa-fw fa-3x'></i>Fixed Width<i class='fas fa-border-all fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-border-all fa-fw fa-3x'></i>Fixed Width<i class='fas fa-border-all fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-border-all fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-border-all fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-border-all Icon Border 
+</div>
 
-To add border to fa-border-all icon, use fa-border class.
-
-
-```
-<i class='fas fa-border-all fa-border fa-3x'></i>
-
+## `Border-All` font awesome icon Border
+To add border to `Border-All` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-border-all fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-border-all icon To the left
-
-To pull icon fa-border-all to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-border-all fa-border fa-3x'></i>
+</div>
+
+## Pull `Border-All` font awesome icon To the left
+To pull `Border-All` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-border-all fa-pull-left fa-3x'></i>
+  ... The text after Border-All Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-border-all fa-pull-left fa-3x'></i>
-  ... The text after fa-border-all Icon will be displayed on the right side of the icons
+  ... The text after Border-All Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Border-All` font awesome icon To the left
+To pull `Border-All` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-border-all fa-pull-left fa-3x'></i>
-  ... The text after fa-border-all Icon will be displayed on the right side of the icons
+<i class='fas fa-border-all fa-pull-right fa-3x'></i>
+  ... The text after Border-All Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-border-all icon To the right
-To pull icon fa-border-all to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-border-all fa-pull-right fa-3x'></i>
-  ... The text after fa-border-all Icon will be displayed on the left side of the icons
+  ... The text after Border-All Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-border-all fa-pull-right fa-3x'></i>
-  ... The text after fa-border-all Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-border-all icon using fa-spin
-To animate font awesome fa-border-all icon, use fa-spin class.
-
+## Animate `Border-All` font awesome icon
+To animate `Border-All` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-border-all fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-border-all fa-spin fa-3x'></i>
+</div>
 
+## Animate `Border-All` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Border-All` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-border-all icon with steps
-While animating the font awesome icon,We can rotate fa-border-all icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-border-all icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-border-all fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-border-all fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-border-all fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-border-all fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-border-all Icon using fa-rotate-x
-To rotate the font awesome icon fa-border-all, Use fa-rotate-x class
+## Rotate `Border-All` font awesome icon
+ To rotate `Border-All` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-border-all fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-border-all fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-border-all fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-border-all fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-border-all fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-border-all fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-border-all Icon using fa-flip-*
-To flip fa-border-all font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Border-All` font awesome icon
+ To flip `Border-All` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-border-all fa-3x'>F</i> Normal <br>
 <i class='fas fa-border-all fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-border-all fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-border-all fa-3x'>F</i> Normal <br>
 <i class='fas fa-border-all fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-border-all fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Border-All` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-border-all icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Border-All` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-border-all on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-border-all fa-stack-1x'></i>
+    </span>
+      Border-All on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-border-all fa-stack-1x fa-inverse'></i>
+    </span>
+      Border-All on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-border-all fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Border-All on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-border-all fa-stack-1x'></i>
     </span>
-      fa-border-all on fa-square<br>
+      Border-All on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-border-all fa-stack-1x fa-inverse'></i>
     </span>
-      fa-border-all on fa-circle<br>
+      Border-All on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-border-all fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-border-all on fa-ban
+      Border-All on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-border-all fa-stack-1x'></i>
-    </span>
-      fa-border-all on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-border-all fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-border-all on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-border-all fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-border-all on fa-ban
 </div>
-
-
-
-
-
 

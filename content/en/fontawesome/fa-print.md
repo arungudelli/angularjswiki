@@ -1,187 +1,285 @@
+
 +++
-title="fa-print icon in font awesome icons"
-summary="fa-print icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-print,f02f,fa-print"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-prescription-bottle-alt"
-next="fa-procedures"
-linktitle="fa-print"
+title='Print font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Print font awesome icon CSS class is fa-print & CSS Content Code is  \f02f'
+keywords =['Print, \f02f,fa-print']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-prescription'
+next = 'fa-pump-medical'
+linktitle = 'fa-print'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Print` font awesome icon css class name is `fa-print` and CSS Content Code is ` \f02f`**.
+ 
+
+`Print` font awesome icon is part of solid icons. 
 
 
-fa-print icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-print</td><td>fa-print</td><td>f02f</td></tr></tbody></table></div>
+{{%toc%}}
+## `Print` font awesome icon usage
+We can display `Print` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Print` font awesome icon CSS class name
+
+To display `Print` font awesome icon, add predefined class name i.e.,`fa-print` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Print` icon.
 
 
-## fa-print icon Usage
-
-To display fa-print icon add predefined class name i.e.,fa-print (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-print icon. i.e., fas.
-
+`Print` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-print'></i>
 
 ```
 
-<i class='fas fa-print'>fa-print</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-print'></i>
+
+</div>
+
+
+## `Print` font awesome icon CSS Content Code 
+
+We can display `Print` font awesome icon using it's CSS Content Code ` \f02f` 
+
+Use the following HTML code 
+
+```
+<li><span class='Print fontawesomeicon'></span>Print</li>
 ```
 
-<i class='fas fa-print'>fa-print</i>
-
-
-
-
-## Change fa-print icon size
-To increase fa-print font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-print.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Print::before {
+   font: var(--fa-font-solid);
+    content: ' \f02f';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Print::before {
+   font: var(--fa-font-solid);
+    content: ' \f02f';
+ }</style>
+
+<li><span class='Print fontawesomeicon'></span>Print</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Print` font awesome icon SVG 
+
+Use the following icon SVG to display `Print` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg>
+ Print displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg>
+ Print displayed using SVG</p>
+</div>
+
+## Change `Print` font awesome icon size
+To increase `Print` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f02f.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-print fa-lg'>fa-lg</i><br/>
+<i class='fas fa-print fa-2x'>fa-2x</i><br/>
+<i class='fas fa-print fa-3x'>fa-3x</i><br/>
+<i class='fas fa-print fa-4x'>fa-4x</i><br/>
+<i class='fas fa-print fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-print fa-lg'>fa-lg</i><br/>
 <i class='fas fa-print fa-2x'>fa-2x</i><br/>
 <i class='fas fa-print fa-3x'>fa-3x</i><br/>
 <i class='fas fa-print fa-4x'>fa-4x</i><br/>
 <i class='fas fa-print fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-print fa-lg'>fa-lg</i><br/>
-<i class='fas fa-print fa-2x'>fa-2x</i><br/>
-<i class='fas fa-print fa-3x'>fa-3x</i><br/>
-<i class='fas fa-print fa-4x'>fa-4x</i><br/>
-<i class='fas fa-print fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-print Icon with Fixed Width 
-
+## `Print` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-print icon and fa-home may not have same height and width.
+For example `Print` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-print fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-print fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-print fa-fw fa-3x'></i>Fixed Width<i class='fas fa-print fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-print fa-fw fa-3x'></i>Fixed Width<i class='fas fa-print fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-print fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-print fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-print Icon Border 
+</div>
 
-To add border to fa-print icon, use fa-border class.
-
-
-```
-<i class='fas fa-print fa-border fa-3x'></i>
-
+## `Print` font awesome icon Border
+To add border to `Print` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-print fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-print icon To the left
-
-To pull icon fa-print to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-print fa-border fa-3x'></i>
+</div>
+
+## Pull `Print` font awesome icon To the left
+To pull `Print` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-print fa-pull-left fa-3x'></i>
+  ... The text after Print Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-print fa-pull-left fa-3x'></i>
-  ... The text after fa-print Icon will be displayed on the right side of the icons
+  ... The text after Print Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Print` font awesome icon To the left
+To pull `Print` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-print fa-pull-left fa-3x'></i>
-  ... The text after fa-print Icon will be displayed on the right side of the icons
+<i class='fas fa-print fa-pull-right fa-3x'></i>
+  ... The text after Print Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-print icon To the right
-To pull icon fa-print to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-print fa-pull-right fa-3x'></i>
-  ... The text after fa-print Icon will be displayed on the left side of the icons
+  ... The text after Print Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-print fa-pull-right fa-3x'></i>
-  ... The text after fa-print Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-print icon using fa-spin
-To animate font awesome fa-print icon, use fa-spin class.
-
+## Animate `Print` font awesome icon
+To animate `Print` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-print fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-print fa-spin fa-3x'></i>
+</div>
 
+## Animate `Print` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Print` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-print icon with steps
-While animating the font awesome icon,We can rotate fa-print icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-print icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-print fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-print fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-print fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-print fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-print Icon using fa-rotate-x
-To rotate the font awesome icon fa-print, Use fa-rotate-x class
+## Rotate `Print` font awesome icon
+ To rotate `Print` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-print fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-print fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-print fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-print fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-print fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-print fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-print Icon using fa-flip-*
-To flip fa-print font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Print` font awesome icon
+ To flip `Print` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-print fa-3x'>F</i> Normal <br>
 <i class='fas fa-print fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-print fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-print fa-3x'>F</i> Normal <br>
 <i class='fas fa-print fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-print fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Print` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-print icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Print` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-print on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-print fa-stack-1x'></i>
+    </span>
+      Print on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-print fa-stack-1x fa-inverse'></i>
+    </span>
+      Print on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-print fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Print on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-print fa-stack-1x'></i>
     </span>
-      fa-print on fa-square<br>
+      Print on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-print fa-stack-1x fa-inverse'></i>
     </span>
-      fa-print on fa-circle<br>
+      Print on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-print fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-print on fa-ban
+      Print on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-print fa-stack-1x'></i>
-    </span>
-      fa-print on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-print fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-print on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-print fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-print on fa-ban
 </div>
-
-
-
-
-
 

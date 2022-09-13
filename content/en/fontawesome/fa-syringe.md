@@ -1,187 +1,285 @@
+
 +++
-title="fa-syringe icon in font awesome icons"
-summary="fa-syringe icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-syringe,f48e,fa-syringe"]
-date="25-07-2020T22:59:21"
-lastmod="25-07-2020T22:59:21"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-sync-alt"
-next="fa-table"
-linktitle="fa-syringe"
+title='Syringe font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Syringe font awesome icon CSS class is fa-syringe & CSS Content Code is  \f48e'
+keywords =['Syringe, \f48e,fa-syringe']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-synagogue'
+next = 'fa-t'
+linktitle = 'fa-syringe'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Syringe` font awesome icon css class name is `fa-syringe` and CSS Content Code is ` \f48e`**.
+ 
+
+`Syringe` font awesome icon is part of solid icons. 
 
 
-fa-syringe icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-syringe</td><td>fa-syringe</td><td>f48e</td></tr></tbody></table></div>
+{{%toc%}}
+## `Syringe` font awesome icon usage
+We can display `Syringe` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Syringe` font awesome icon CSS class name
+
+To display `Syringe` font awesome icon, add predefined class name i.e.,`fa-syringe` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Syringe` icon.
 
 
-## fa-syringe icon Usage
-
-To display fa-syringe icon add predefined class name i.e.,fa-syringe (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-syringe icon. i.e., fas.
-
+`Syringe` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-syringe'></i>
 
 ```
 
-<i class='fas fa-syringe'>fa-syringe</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-syringe'></i>
+
+</div>
+
+
+## `Syringe` font awesome icon CSS Content Code 
+
+We can display `Syringe` font awesome icon using it's CSS Content Code ` \f48e` 
+
+Use the following HTML code 
+
+```
+<li><span class='Syringe fontawesomeicon'></span>Syringe</li>
 ```
 
-<i class='fas fa-syringe'>fa-syringe</i>
-
-
-
-
-## Change fa-syringe icon size
-To increase fa-syringe font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-syringe.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Syringe::before {
+   font: var(--fa-font-solid);
+    content: ' \f48e';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Syringe::before {
+   font: var(--fa-font-solid);
+    content: ' \f48e';
+ }</style>
+
+<li><span class='Syringe fontawesomeicon'></span>Syringe</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Syringe` font awesome icon SVG 
+
+Use the following icon SVG to display `Syringe` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M441 7l32 32 32 32c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-15-15L417.9 128l55 55c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-72-72L295 73c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l55 55L422.1 56 407 41c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0zM210.3 155.7l61.1-61.1c.3 .3 .6 .7 1 1l16 16 56 56 56 56 16 16c.3 .3 .6 .6 1 1l-191 191c-10.5 10.5-24.7 16.4-39.6 16.4H97.9L41 505c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l57-57V325.3c0-14.9 5.9-29.1 16.4-39.6l43.3-43.3 57 57c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-57-57 41.4-41.4 57 57c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-57-57z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M441 7l32 32 32 32c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-15-15L417.9 128l55 55c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-72-72L295 73c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l55 55L422.1 56 407 41c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0zM210.3 155.7l61.1-61.1c.3 .3 .6 .7 1 1l16 16 56 56 56 56 16 16c.3 .3 .6 .6 1 1l-191 191c-10.5 10.5-24.7 16.4-39.6 16.4H97.9L41 505c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l57-57V325.3c0-14.9 5.9-29.1 16.4-39.6l43.3-43.3 57 57c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-57-57 41.4-41.4 57 57c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-57-57z"/></svg>
+ Syringe displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M441 7l32 32 32 32c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-15-15L417.9 128l55 55c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-72-72L295 73c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l55 55L422.1 56 407 41c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0zM210.3 155.7l61.1-61.1c.3 .3 .6 .7 1 1l16 16 56 56 56 56 16 16c.3 .3 .6 .6 1 1l-191 191c-10.5 10.5-24.7 16.4-39.6 16.4H97.9L41 505c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l57-57V325.3c0-14.9 5.9-29.1 16.4-39.6l43.3-43.3 57 57c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-57-57 41.4-41.4 57 57c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-57-57z"/></svg>
+ Syringe displayed using SVG</p>
+</div>
+
+## Change `Syringe` font awesome icon size
+To increase `Syringe` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f48e.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-syringe fa-lg'>fa-lg</i><br/>
+<i class='fas fa-syringe fa-2x'>fa-2x</i><br/>
+<i class='fas fa-syringe fa-3x'>fa-3x</i><br/>
+<i class='fas fa-syringe fa-4x'>fa-4x</i><br/>
+<i class='fas fa-syringe fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-syringe fa-lg'>fa-lg</i><br/>
 <i class='fas fa-syringe fa-2x'>fa-2x</i><br/>
 <i class='fas fa-syringe fa-3x'>fa-3x</i><br/>
 <i class='fas fa-syringe fa-4x'>fa-4x</i><br/>
 <i class='fas fa-syringe fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-syringe fa-lg'>fa-lg</i><br/>
-<i class='fas fa-syringe fa-2x'>fa-2x</i><br/>
-<i class='fas fa-syringe fa-3x'>fa-3x</i><br/>
-<i class='fas fa-syringe fa-4x'>fa-4x</i><br/>
-<i class='fas fa-syringe fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-syringe Icon with Fixed Width 
-
+## `Syringe` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-syringe icon and fa-home may not have same height and width.
+For example `Syringe` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-syringe fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-syringe fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-syringe fa-fw fa-3x'></i>Fixed Width<i class='fas fa-syringe fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-syringe fa-fw fa-3x'></i>Fixed Width<i class='fas fa-syringe fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-syringe fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-syringe fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-syringe Icon Border 
+</div>
 
-To add border to fa-syringe icon, use fa-border class.
-
-
-```
-<i class='fas fa-syringe fa-border fa-3x'></i>
-
+## `Syringe` font awesome icon Border
+To add border to `Syringe` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-syringe fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-syringe icon To the left
-
-To pull icon fa-syringe to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-syringe fa-border fa-3x'></i>
+</div>
+
+## Pull `Syringe` font awesome icon To the left
+To pull `Syringe` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-syringe fa-pull-left fa-3x'></i>
+  ... The text after Syringe Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-syringe fa-pull-left fa-3x'></i>
-  ... The text after fa-syringe Icon will be displayed on the right side of the icons
+  ... The text after Syringe Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Syringe` font awesome icon To the left
+To pull `Syringe` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-syringe fa-pull-left fa-3x'></i>
-  ... The text after fa-syringe Icon will be displayed on the right side of the icons
+<i class='fas fa-syringe fa-pull-right fa-3x'></i>
+  ... The text after Syringe Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-syringe icon To the right
-To pull icon fa-syringe to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-syringe fa-pull-right fa-3x'></i>
-  ... The text after fa-syringe Icon will be displayed on the left side of the icons
+  ... The text after Syringe Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-syringe fa-pull-right fa-3x'></i>
-  ... The text after fa-syringe Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-syringe icon using fa-spin
-To animate font awesome fa-syringe icon, use fa-spin class.
-
+## Animate `Syringe` font awesome icon
+To animate `Syringe` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-syringe fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-syringe fa-spin fa-3x'></i>
+</div>
 
+## Animate `Syringe` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Syringe` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-syringe icon with steps
-While animating the font awesome icon,We can rotate fa-syringe icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-syringe icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-syringe fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-syringe fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-syringe fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-syringe fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-syringe Icon using fa-rotate-x
-To rotate the font awesome icon fa-syringe, Use fa-rotate-x class
+## Rotate `Syringe` font awesome icon
+ To rotate `Syringe` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-syringe fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-syringe fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-syringe fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-syringe fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-syringe fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-syringe fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-syringe Icon using fa-flip-*
-To flip fa-syringe font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Syringe` font awesome icon
+ To flip `Syringe` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-syringe fa-3x'>F</i> Normal <br>
 <i class='fas fa-syringe fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-syringe fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-syringe fa-3x'>F</i> Normal <br>
 <i class='fas fa-syringe fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-syringe fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Syringe` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-syringe icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Syringe` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-syringe on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-syringe fa-stack-1x'></i>
+    </span>
+      Syringe on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-syringe fa-stack-1x fa-inverse'></i>
+    </span>
+      Syringe on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-syringe fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Syringe on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-syringe fa-stack-1x'></i>
     </span>
-      fa-syringe on fa-square<br>
+      Syringe on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-syringe fa-stack-1x fa-inverse'></i>
     </span>
-      fa-syringe on fa-circle<br>
+      Syringe on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-syringe fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-syringe on fa-ban
+      Syringe on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-syringe fa-stack-1x'></i>
-    </span>
-      fa-syringe on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-syringe fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-syringe on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-syringe fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-syringe on fa-ban
 </div>
-
-
-
-
-
 

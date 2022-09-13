@@ -1,187 +1,285 @@
+
 +++
-title="fa-bullseye icon in font awesome icons"
-summary="fa-bullseye icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-bullseye,f140,fa-bullseye"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-bullhorn"
-next="fa-burn"
-linktitle="fa-bullseye"
+title='Bullseye font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Bullseye font awesome icon CSS class is fa-bullseye & CSS Content Code is  \f140'
+keywords =['Bullseye, \f140,fa-bullseye']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-bullhorn'
+next = 'fa-burger'
+linktitle = 'fa-bullseye'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Bullseye` font awesome icon css class name is `fa-bullseye` and CSS Content Code is ` \f140`**.
+ 
+
+`Bullseye` font awesome icon is part of solid icons. 
 
 
-fa-bullseye icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-bullseye</td><td>fa-bullseye</td><td>f140</td></tr></tbody></table></div>
+{{%toc%}}
+## `Bullseye` font awesome icon usage
+We can display `Bullseye` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Bullseye` font awesome icon CSS class name
+
+To display `Bullseye` font awesome icon, add predefined class name i.e.,`fa-bullseye` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Bullseye` icon.
 
 
-## fa-bullseye icon Usage
-
-To display fa-bullseye icon add predefined class name i.e.,fa-bullseye (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-bullseye icon. i.e., fas.
-
+`Bullseye` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-bullseye'></i>
 
 ```
 
-<i class='fas fa-bullseye'>fa-bullseye</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-bullseye'></i>
+
+</div>
+
+
+## `Bullseye` font awesome icon CSS Content Code 
+
+We can display `Bullseye` font awesome icon using it's CSS Content Code ` \f140` 
+
+Use the following HTML code 
+
+```
+<li><span class='Bullseye fontawesomeicon'></span>Bullseye</li>
 ```
 
-<i class='fas fa-bullseye'>fa-bullseye</i>
-
-
-
-
-## Change fa-bullseye icon size
-To increase fa-bullseye font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-bullseye.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Bullseye::before {
+   font: var(--fa-font-solid);
+    content: ' \f140';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Bullseye::before {
+   font: var(--fa-font-solid);
+    content: ' \f140';
+ }</style>
+
+<li><span class='Bullseye fontawesomeicon'></span>Bullseye</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Bullseye` font awesome icon SVG 
+
+Use the following icon SVG to display `Bullseye` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192s192-86 192-192zm64 0c0 141.4-114.6 256-256 256S0 397.4 0 256S114.6 0 256 0S512 114.6 512 256zM256 336c44.2 0 80-35.8 80-80s-35.8-80-80-80s-80 35.8-80 80s35.8 80 80 80zm0 64c-79.5 0-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144s-64.5 144-144 144zm32-144c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192s192-86 192-192zm64 0c0 141.4-114.6 256-256 256S0 397.4 0 256S114.6 0 256 0S512 114.6 512 256zM256 336c44.2 0 80-35.8 80-80s-35.8-80-80-80s-80 35.8-80 80s35.8 80 80 80zm0 64c-79.5 0-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144s-64.5 144-144 144zm32-144c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32z"/></svg>
+ Bullseye displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192s192-86 192-192zm64 0c0 141.4-114.6 256-256 256S0 397.4 0 256S114.6 0 256 0S512 114.6 512 256zM256 336c44.2 0 80-35.8 80-80s-35.8-80-80-80s-80 35.8-80 80s35.8 80 80 80zm0 64c-79.5 0-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144s-64.5 144-144 144zm32-144c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32z"/></svg>
+ Bullseye displayed using SVG</p>
+</div>
+
+## Change `Bullseye` font awesome icon size
+To increase `Bullseye` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f140.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-bullseye fa-lg'>fa-lg</i><br/>
+<i class='fas fa-bullseye fa-2x'>fa-2x</i><br/>
+<i class='fas fa-bullseye fa-3x'>fa-3x</i><br/>
+<i class='fas fa-bullseye fa-4x'>fa-4x</i><br/>
+<i class='fas fa-bullseye fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-bullseye fa-lg'>fa-lg</i><br/>
 <i class='fas fa-bullseye fa-2x'>fa-2x</i><br/>
 <i class='fas fa-bullseye fa-3x'>fa-3x</i><br/>
 <i class='fas fa-bullseye fa-4x'>fa-4x</i><br/>
 <i class='fas fa-bullseye fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-bullseye fa-lg'>fa-lg</i><br/>
-<i class='fas fa-bullseye fa-2x'>fa-2x</i><br/>
-<i class='fas fa-bullseye fa-3x'>fa-3x</i><br/>
-<i class='fas fa-bullseye fa-4x'>fa-4x</i><br/>
-<i class='fas fa-bullseye fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-bullseye Icon with Fixed Width 
-
+## `Bullseye` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-bullseye icon and fa-home may not have same height and width.
+For example `Bullseye` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-bullseye fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-bullseye fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-bullseye fa-fw fa-3x'></i>Fixed Width<i class='fas fa-bullseye fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-bullseye fa-fw fa-3x'></i>Fixed Width<i class='fas fa-bullseye fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-bullseye fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-bullseye fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-bullseye Icon Border 
+</div>
 
-To add border to fa-bullseye icon, use fa-border class.
-
-
-```
-<i class='fas fa-bullseye fa-border fa-3x'></i>
-
+## `Bullseye` font awesome icon Border
+To add border to `Bullseye` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-bullseye fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-bullseye icon To the left
-
-To pull icon fa-bullseye to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-bullseye fa-border fa-3x'></i>
+</div>
+
+## Pull `Bullseye` font awesome icon To the left
+To pull `Bullseye` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-bullseye fa-pull-left fa-3x'></i>
+  ... The text after Bullseye Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-bullseye fa-pull-left fa-3x'></i>
-  ... The text after fa-bullseye Icon will be displayed on the right side of the icons
+  ... The text after Bullseye Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Bullseye` font awesome icon To the left
+To pull `Bullseye` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-bullseye fa-pull-left fa-3x'></i>
-  ... The text after fa-bullseye Icon will be displayed on the right side of the icons
+<i class='fas fa-bullseye fa-pull-right fa-3x'></i>
+  ... The text after Bullseye Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-bullseye icon To the right
-To pull icon fa-bullseye to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-bullseye fa-pull-right fa-3x'></i>
-  ... The text after fa-bullseye Icon will be displayed on the left side of the icons
+  ... The text after Bullseye Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-bullseye fa-pull-right fa-3x'></i>
-  ... The text after fa-bullseye Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-bullseye icon using fa-spin
-To animate font awesome fa-bullseye icon, use fa-spin class.
-
+## Animate `Bullseye` font awesome icon
+To animate `Bullseye` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-bullseye fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-bullseye fa-spin fa-3x'></i>
+</div>
 
+## Animate `Bullseye` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Bullseye` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-bullseye icon with steps
-While animating the font awesome icon,We can rotate fa-bullseye icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-bullseye icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-bullseye fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-bullseye fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-bullseye fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-bullseye fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-bullseye Icon using fa-rotate-x
-To rotate the font awesome icon fa-bullseye, Use fa-rotate-x class
+## Rotate `Bullseye` font awesome icon
+ To rotate `Bullseye` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-bullseye fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-bullseye fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-bullseye fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-bullseye fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-bullseye fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-bullseye fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-bullseye Icon using fa-flip-*
-To flip fa-bullseye font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Bullseye` font awesome icon
+ To flip `Bullseye` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-bullseye fa-3x'>F</i> Normal <br>
 <i class='fas fa-bullseye fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-bullseye fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-bullseye fa-3x'>F</i> Normal <br>
 <i class='fas fa-bullseye fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-bullseye fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Bullseye` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-bullseye icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Bullseye` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-bullseye on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-bullseye fa-stack-1x'></i>
+    </span>
+      Bullseye on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-bullseye fa-stack-1x fa-inverse'></i>
+    </span>
+      Bullseye on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-bullseye fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Bullseye on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-bullseye fa-stack-1x'></i>
     </span>
-      fa-bullseye on fa-square<br>
+      Bullseye on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-bullseye fa-stack-1x fa-inverse'></i>
     </span>
-      fa-bullseye on fa-circle<br>
+      Bullseye on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-bullseye fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-bullseye on fa-ban
+      Bullseye on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-bullseye fa-stack-1x'></i>
-    </span>
-      fa-bullseye on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-bullseye fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-bullseye on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-bullseye fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-bullseye on fa-ban
 </div>
-
-
-
-
-
 

@@ -1,187 +1,285 @@
+
 +++
-title="fa-head-side-cough icon in font awesome icons"
-summary="fa-head-side-cough icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-head-side-cough,f961,fa-head-side-cough"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-hdd"
-next="fa-head-side-cough-slash"
-linktitle="fa-head-side-cough"
+title='Head-Side-Cough font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Head-Side-Cough font awesome icon CSS class is fa-head-side-cough & CSS Content Code is  \e061'
+keywords =['Head-Side-Cough, \e061,fa-head-side-cough']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-head-side-cough-slash'
+next = 'fa-head-side-mask'
+linktitle = 'fa-head-side-cough'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Head-Side-Cough` font awesome icon css class name is `fa-head-side-cough` and CSS Content Code is ` \e061`**.
+ 
+
+`Head-Side-Cough` font awesome icon is part of solid icons. 
 
 
-fa-head-side-cough icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-head-side-cough</td><td>fa-head-side-cough</td><td>f961</td></tr></tbody></table></div>
+{{%toc%}}
+## `Head-Side-Cough` font awesome icon usage
+We can display `Head-Side-Cough` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Head-Side-Cough` font awesome icon CSS class name
+
+To display `Head-Side-Cough` font awesome icon, add predefined class name i.e.,`fa-head-side-cough` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Head-Side-Cough` icon.
 
 
-## fa-head-side-cough icon Usage
-
-To display fa-head-side-cough icon add predefined class name i.e.,fa-head-side-cough (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-head-side-cough icon. i.e., fas.
-
+`Head-Side-Cough` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-head-side-cough'></i>
 
 ```
 
-<i class='fas fa-head-side-cough'>fa-head-side-cough</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-head-side-cough'></i>
+
+</div>
+
+
+## `Head-Side-Cough` font awesome icon CSS Content Code 
+
+We can display `Head-Side-Cough` font awesome icon using it's CSS Content Code ` \e061` 
+
+Use the following HTML code 
+
+```
+<li><span class='Head-Side-Cough fontawesomeicon'></span>Head-Side-Cough</li>
 ```
 
-<i class='fas fa-head-side-cough'>fa-head-side-cough</i>
-
-
-
-
-## Change fa-head-side-cough icon size
-To increase fa-head-side-cough font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-head-side-cough.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Head-Side-Cough::before {
+   font: var(--fa-font-solid);
+    content: ' \e061';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Head-Side-Cough::before {
+   font: var(--fa-font-solid);
+    content: ' \e061';
+ }</style>
+
+<li><span class='Head-Side-Cough fontawesomeicon'></span>Head-Side-Cough</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Head-Side-Cough` font awesome icon SVG 
+
+Use the following icon SVG to display `Head-Side-Cough` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 201.7C0 90.3 90.3 0 201.7 0H224c95.2 0 174.2 69.3 189.4 160.1c2.2 13 6.7 25.7 15 36.1l42 52.6c6.2 7.8 9.6 17.4 9.6 27.4c0 24.2-19.6 43.8-43.8 43.8H416v32H352c-17.7 0-32 14.3-32 32s14.3 32 32 32h64c0 35.3-28.7 64-64 64H288c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V375.8c0-17-7.1-33-17.5-46.4C18.3 293.2 0 246.5 0 201.7zM336 224c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32zm272 88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm-40 24c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24zm-64 48c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24zm128 0c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24zM608 504c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm-40-72c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 201.7C0 90.3 90.3 0 201.7 0H224c95.2 0 174.2 69.3 189.4 160.1c2.2 13 6.7 25.7 15 36.1l42 52.6c6.2 7.8 9.6 17.4 9.6 27.4c0 24.2-19.6 43.8-43.8 43.8H416v32H352c-17.7 0-32 14.3-32 32s14.3 32 32 32h64c0 35.3-28.7 64-64 64H288c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V375.8c0-17-7.1-33-17.5-46.4C18.3 293.2 0 246.5 0 201.7zM336 224c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32zm272 88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm-40 24c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24zm-64 48c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24zm128 0c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24zM608 504c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm-40-72c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24z"/></svg>
+ Head-Side-Cough displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 201.7C0 90.3 90.3 0 201.7 0H224c95.2 0 174.2 69.3 189.4 160.1c2.2 13 6.7 25.7 15 36.1l42 52.6c6.2 7.8 9.6 17.4 9.6 27.4c0 24.2-19.6 43.8-43.8 43.8H416v32H352c-17.7 0-32 14.3-32 32s14.3 32 32 32h64c0 35.3-28.7 64-64 64H288c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V375.8c0-17-7.1-33-17.5-46.4C18.3 293.2 0 246.5 0 201.7zM336 224c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32zm272 88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm-40 24c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24zm-64 48c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24zm128 0c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24zM608 504c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm-40-72c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24z"/></svg>
+ Head-Side-Cough displayed using SVG</p>
+</div>
+
+## Change `Head-Side-Cough` font awesome icon size
+To increase `Head-Side-Cough` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \e061.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-head-side-cough fa-lg'>fa-lg</i><br/>
+<i class='fas fa-head-side-cough fa-2x'>fa-2x</i><br/>
+<i class='fas fa-head-side-cough fa-3x'>fa-3x</i><br/>
+<i class='fas fa-head-side-cough fa-4x'>fa-4x</i><br/>
+<i class='fas fa-head-side-cough fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-head-side-cough fa-lg'>fa-lg</i><br/>
 <i class='fas fa-head-side-cough fa-2x'>fa-2x</i><br/>
 <i class='fas fa-head-side-cough fa-3x'>fa-3x</i><br/>
 <i class='fas fa-head-side-cough fa-4x'>fa-4x</i><br/>
 <i class='fas fa-head-side-cough fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-head-side-cough fa-lg'>fa-lg</i><br/>
-<i class='fas fa-head-side-cough fa-2x'>fa-2x</i><br/>
-<i class='fas fa-head-side-cough fa-3x'>fa-3x</i><br/>
-<i class='fas fa-head-side-cough fa-4x'>fa-4x</i><br/>
-<i class='fas fa-head-side-cough fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-head-side-cough Icon with Fixed Width 
-
+## `Head-Side-Cough` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-head-side-cough icon and fa-home may not have same height and width.
+For example `Head-Side-Cough` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-head-side-cough fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-head-side-cough fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-head-side-cough fa-fw fa-3x'></i>Fixed Width<i class='fas fa-head-side-cough fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-head-side-cough fa-fw fa-3x'></i>Fixed Width<i class='fas fa-head-side-cough fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-head-side-cough fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-head-side-cough fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-head-side-cough Icon Border 
+</div>
 
-To add border to fa-head-side-cough icon, use fa-border class.
-
-
-```
-<i class='fas fa-head-side-cough fa-border fa-3x'></i>
-
+## `Head-Side-Cough` font awesome icon Border
+To add border to `Head-Side-Cough` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-head-side-cough fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-head-side-cough icon To the left
-
-To pull icon fa-head-side-cough to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-head-side-cough fa-border fa-3x'></i>
+</div>
+
+## Pull `Head-Side-Cough` font awesome icon To the left
+To pull `Head-Side-Cough` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-head-side-cough fa-pull-left fa-3x'></i>
+  ... The text after Head-Side-Cough Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-head-side-cough fa-pull-left fa-3x'></i>
-  ... The text after fa-head-side-cough Icon will be displayed on the right side of the icons
+  ... The text after Head-Side-Cough Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Head-Side-Cough` font awesome icon To the left
+To pull `Head-Side-Cough` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-head-side-cough fa-pull-left fa-3x'></i>
-  ... The text after fa-head-side-cough Icon will be displayed on the right side of the icons
+<i class='fas fa-head-side-cough fa-pull-right fa-3x'></i>
+  ... The text after Head-Side-Cough Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-head-side-cough icon To the right
-To pull icon fa-head-side-cough to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-head-side-cough fa-pull-right fa-3x'></i>
-  ... The text after fa-head-side-cough Icon will be displayed on the left side of the icons
+  ... The text after Head-Side-Cough Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-head-side-cough fa-pull-right fa-3x'></i>
-  ... The text after fa-head-side-cough Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-head-side-cough icon using fa-spin
-To animate font awesome fa-head-side-cough icon, use fa-spin class.
-
+## Animate `Head-Side-Cough` font awesome icon
+To animate `Head-Side-Cough` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-head-side-cough fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-head-side-cough fa-spin fa-3x'></i>
+</div>
 
+## Animate `Head-Side-Cough` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Head-Side-Cough` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-head-side-cough icon with steps
-While animating the font awesome icon,We can rotate fa-head-side-cough icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-head-side-cough icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-head-side-cough fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-head-side-cough fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-head-side-cough fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-head-side-cough fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-head-side-cough Icon using fa-rotate-x
-To rotate the font awesome icon fa-head-side-cough, Use fa-rotate-x class
+## Rotate `Head-Side-Cough` font awesome icon
+ To rotate `Head-Side-Cough` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-head-side-cough fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-head-side-cough fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-head-side-cough fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-head-side-cough fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-head-side-cough fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-head-side-cough fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-head-side-cough Icon using fa-flip-*
-To flip fa-head-side-cough font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Head-Side-Cough` font awesome icon
+ To flip `Head-Side-Cough` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-head-side-cough fa-3x'>F</i> Normal <br>
 <i class='fas fa-head-side-cough fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-head-side-cough fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-head-side-cough fa-3x'>F</i> Normal <br>
 <i class='fas fa-head-side-cough fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-head-side-cough fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Head-Side-Cough` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-head-side-cough icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Head-Side-Cough` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-head-side-cough on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-head-side-cough fa-stack-1x'></i>
+    </span>
+      Head-Side-Cough on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-head-side-cough fa-stack-1x fa-inverse'></i>
+    </span>
+      Head-Side-Cough on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-head-side-cough fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Head-Side-Cough on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-head-side-cough fa-stack-1x'></i>
     </span>
-      fa-head-side-cough on fa-square<br>
+      Head-Side-Cough on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-head-side-cough fa-stack-1x fa-inverse'></i>
     </span>
-      fa-head-side-cough on fa-circle<br>
+      Head-Side-Cough on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-head-side-cough fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-head-side-cough on fa-ban
+      Head-Side-Cough on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-head-side-cough fa-stack-1x'></i>
-    </span>
-      fa-head-side-cough on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-head-side-cough fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-head-side-cough on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-head-side-cough fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-head-side-cough on fa-ban
 </div>
-
-
-
-
-
 

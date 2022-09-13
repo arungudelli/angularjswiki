@@ -1,189 +1,287 @@
+
 +++
-title="fa-envelope-open icon in font awesome icons"
-summary="fa-envelope-open icon in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-envelope-open,f2b6,fa-envelope-open"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-envelope"
-next="fa-envelope-open-text"
-linktitle="fa-envelope-open"
+title='Envelope-Open font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Envelope-Open font awesome icon CSS class is fa-envelope-open & CSS Content Code is  \f2b6'
+keywords =['Envelope-Open, \f2b6,fa-envelope-open']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-envelope-open-text'
+next = 'fa-envelope'
+linktitle = 'fa-envelope-open'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Envelope-Open` font awesome icon css class name is `fa-envelope-open` and CSS Content Code is ` \f2b6`**.
+
+`Envelope-Open` font awesome icon has 2 style types i.e.,  regular(far), solid(fas) 
 
 
-fa-envelope-open icon in font awesome icons has 2 variants regular (far) and solid (fas)
+{{%toc%}}
+## `Envelope-Open` font awesome icon usage
+We can display `Envelope-Open` font awesome icon using 3 different ways depending upon our requirement.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-envelope-open</td><td>fa-envelope-open</td><td>f2b6</td></tr></tbody></table></div>
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Envelope-Open` font awesome icon CSS class name
+
+To display `Envelope-Open` font awesome icon, add predefined class name i.e.,`fa-envelope-open` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Envelope-Open` icon.
 
 
-## fa-envelope-open icon Usage
+ `Envelope-Open` font awesome icon has 2 icon styles.
+ To Display regular icon use `far` class. 
+ To Display solid icon use `fas` class. 
 
-To display fa-envelope-open icon add predefined class name i.e.,fa-envelope-open (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-envelope-open icon. i.e., fas,far.
-
+```
+<i class='far fa-envelope-open'></i>
+<i class='fas fa-envelope-open'></i>
 
 ```
 
-<i class='fas fa-envelope-open'>fa-envelope-open</i>
-<i class='far fa-envelope-open'>fa-envelope-open</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='far fa-envelope-open'></i>
+<i class='fas fa-envelope-open'></i>
+
+</div>
+
+
+## `Envelope-Open` font awesome icon CSS Content Code 
+
+We can display `Envelope-Open` font awesome icon using it's CSS Content Code ` \f2b6` 
+
+Use the following HTML code 
+
+```
+<li><span class='Envelope-Open fontawesomeicon'></span>Envelope-Open</li>
 ```
 
-<i class='fas fa-envelope-open'>fa-envelope-open</i>
-<i class='far fa-envelope-open'>fa-envelope-open</i>
-
-
-
-
-## Change fa-envelope-open icon size
-To increase fa-envelope-open font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-envelope-open.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Envelope-Open::before {
+   font: var(--fa-font-solid);
+    content: ' \f2b6';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Envelope-Open::before {
+   font: var(--fa-font-solid);
+    content: ' \f2b6';
+ }</style>
+
+<li><span class='Envelope-Open fontawesomeicon'></span>Envelope-Open</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Envelope-Open` font awesome icon SVG 
+
+Use the following icon SVG to display `Envelope-Open` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M64 208.1L256 65.9 448 208.1v47.4L289.5 373c-9.7 7.2-21.4 11-33.5 11s-23.8-3.9-33.5-11L64 255.5V208.1zM256 0c-12.1 0-23.8 3.9-33.5 11L25.9 156.7C9.6 168.8 0 187.8 0 208.1V448c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V208.1c0-20.3-9.6-39.4-25.9-51.4L289.5 11C279.8 3.9 268.1 0 256 0z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M64 208.1L256 65.9 448 208.1v47.4L289.5 373c-9.7 7.2-21.4 11-33.5 11s-23.8-3.9-33.5-11L64 255.5V208.1zM256 0c-12.1 0-23.8 3.9-33.5 11L25.9 156.7C9.6 168.8 0 187.8 0 208.1V448c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V208.1c0-20.3-9.6-39.4-25.9-51.4L289.5 11C279.8 3.9 268.1 0 256 0z"/></svg>
+ Envelope-Open displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M64 208.1L256 65.9 448 208.1v47.4L289.5 373c-9.7 7.2-21.4 11-33.5 11s-23.8-3.9-33.5-11L64 255.5V208.1zM256 0c-12.1 0-23.8 3.9-33.5 11L25.9 156.7C9.6 168.8 0 187.8 0 208.1V448c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V208.1c0-20.3-9.6-39.4-25.9-51.4L289.5 11C279.8 3.9 268.1 0 256 0z"/></svg>
+ Envelope-Open displayed using SVG</p>
+</div>
+
+## Change `Envelope-Open` font awesome icon size
+To increase `Envelope-Open` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f2b6.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-envelope-open fa-lg'>fa-lg</i><br/>
+<i class='fas fa-envelope-open fa-2x'>fa-2x</i><br/>
+<i class='fas fa-envelope-open fa-3x'>fa-3x</i><br/>
+<i class='fas fa-envelope-open fa-4x'>fa-4x</i><br/>
+<i class='fas fa-envelope-open fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-envelope-open fa-lg'>fa-lg</i><br/>
 <i class='fas fa-envelope-open fa-2x'>fa-2x</i><br/>
 <i class='fas fa-envelope-open fa-3x'>fa-3x</i><br/>
 <i class='fas fa-envelope-open fa-4x'>fa-4x</i><br/>
 <i class='fas fa-envelope-open fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-envelope-open fa-lg'>fa-lg</i><br/>
-<i class='fas fa-envelope-open fa-2x'>fa-2x</i><br/>
-<i class='fas fa-envelope-open fa-3x'>fa-3x</i><br/>
-<i class='fas fa-envelope-open fa-4x'>fa-4x</i><br/>
-<i class='fas fa-envelope-open fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-envelope-open Icon with Fixed Width 
-
+## `Envelope-Open` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-envelope-open icon and fa-home may not have same height and width.
+For example `Envelope-Open` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-envelope-open fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-envelope-open fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-envelope-open fa-fw fa-3x'></i>Fixed Width<i class='fas fa-envelope-open fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-envelope-open fa-fw fa-3x'></i>Fixed Width<i class='fas fa-envelope-open fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-envelope-open fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-envelope-open fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-envelope-open Icon Border 
+</div>
 
-To add border to fa-envelope-open icon, use fa-border class.
-
-
-```
-<i class='fas fa-envelope-open fa-border fa-3x'></i>
-
+## `Envelope-Open` font awesome icon Border
+To add border to `Envelope-Open` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-envelope-open fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-envelope-open icon To the left
-
-To pull icon fa-envelope-open to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-envelope-open fa-border fa-3x'></i>
+</div>
+
+## Pull `Envelope-Open` font awesome icon To the left
+To pull `Envelope-Open` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-envelope-open fa-pull-left fa-3x'></i>
+  ... The text after Envelope-Open Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-envelope-open fa-pull-left fa-3x'></i>
-  ... The text after fa-envelope-open Icon will be displayed on the right side of the icons
+  ... The text after Envelope-Open Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Envelope-Open` font awesome icon To the left
+To pull `Envelope-Open` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-envelope-open fa-pull-left fa-3x'></i>
-  ... The text after fa-envelope-open Icon will be displayed on the right side of the icons
+<i class='fas fa-envelope-open fa-pull-right fa-3x'></i>
+  ... The text after Envelope-Open Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-envelope-open icon To the right
-To pull icon fa-envelope-open to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-envelope-open fa-pull-right fa-3x'></i>
-  ... The text after fa-envelope-open Icon will be displayed on the left side of the icons
+  ... The text after Envelope-Open Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-envelope-open fa-pull-right fa-3x'></i>
-  ... The text after fa-envelope-open Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-envelope-open icon using fa-spin
-To animate font awesome fa-envelope-open icon, use fa-spin class.
-
+## Animate `Envelope-Open` font awesome icon
+To animate `Envelope-Open` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-envelope-open fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-envelope-open fa-spin fa-3x'></i>
+</div>
 
+## Animate `Envelope-Open` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Envelope-Open` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-envelope-open icon with steps
-While animating the font awesome icon,We can rotate fa-envelope-open icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-envelope-open icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-envelope-open fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-envelope-open fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-envelope-open fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-envelope-open fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-envelope-open Icon using fa-rotate-x
-To rotate the font awesome icon fa-envelope-open, Use fa-rotate-x class
+## Rotate `Envelope-Open` font awesome icon
+ To rotate `Envelope-Open` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-envelope-open fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-envelope-open fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -192,86 +290,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-envelope-open fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-envelope-open fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-envelope-open fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-envelope-open fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-envelope-open Icon using fa-flip-*
-To flip fa-envelope-open font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Envelope-Open` font awesome icon
+ To flip `Envelope-Open` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-envelope-open fa-3x'>F</i> Normal <br>
 <i class='fas fa-envelope-open fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-envelope-open fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-envelope-open fa-3x'>F</i> Normal <br>
 <i class='fas fa-envelope-open fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-envelope-open fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Envelope-Open` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-envelope-open icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Envelope-Open` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-envelope-open on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-envelope-open fa-stack-1x'></i>
+    </span>
+      Envelope-Open on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-envelope-open fa-stack-1x fa-inverse'></i>
+    </span>
+      Envelope-Open on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-envelope-open fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Envelope-Open on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-envelope-open fa-stack-1x'></i>
     </span>
-      fa-envelope-open on fa-square<br>
+      Envelope-Open on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-envelope-open fa-stack-1x fa-inverse'></i>
     </span>
-      fa-envelope-open on fa-circle<br>
+      Envelope-Open on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-envelope-open fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-envelope-open on fa-ban
+      Envelope-Open on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-envelope-open fa-stack-1x'></i>
-    </span>
-      fa-envelope-open on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-envelope-open fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-envelope-open on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-envelope-open fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-envelope-open on fa-ban
 </div>
-
-
-
-
-
 

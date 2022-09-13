@@ -1,187 +1,285 @@
+
 +++
-title="fa-user-slash icon in font awesome icons"
-summary="fa-user-slash icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-user-slash,f506,fa-user-slash"]
-date="25-07-2020T22:59:21"
-lastmod="25-07-2020T22:59:21"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-user-shield"
-next="fa-user-tag"
-linktitle="fa-user-slash"
+title='User-Slash font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'User-Slash font awesome icon CSS class is fa-user-slash & CSS Content Code is  \f506'
+keywords =['User-Slash, \f506,fa-user-slash']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-user-shield'
+next = 'fa-user-tag'
+linktitle = 'fa-user-slash'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`User-Slash` font awesome icon css class name is `fa-user-slash` and CSS Content Code is ` \f506`**.
+ 
+
+`User-Slash` font awesome icon is part of solid icons. 
 
 
-fa-user-slash icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-user-slash</td><td>fa-user-slash</td><td>f506</td></tr></tbody></table></div>
+{{%toc%}}
+## `User-Slash` font awesome icon usage
+We can display `User-Slash` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `User-Slash` font awesome icon CSS class name
+
+To display `User-Slash` font awesome icon, add predefined class name i.e.,`fa-user-slash` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `User-Slash` icon.
 
 
-## fa-user-slash icon Usage
-
-To display fa-user-slash icon add predefined class name i.e.,fa-user-slash (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-user-slash icon. i.e., fas.
-
+`User-Slash` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-user-slash'></i>
 
 ```
 
-<i class='fas fa-user-slash'>fa-user-slash</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-user-slash'></i>
+
+</div>
+
+
+## `User-Slash` font awesome icon CSS Content Code 
+
+We can display `User-Slash` font awesome icon using it's CSS Content Code ` \f506` 
+
+Use the following HTML code 
+
+```
+<li><span class='User-Slash fontawesomeicon'></span>User-Slash</li>
 ```
 
-<i class='fas fa-user-slash'>fa-user-slash</i>
-
-
-
-
-## Change fa-user-slash icon size
-To increase fa-user-slash font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-user-slash.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.User-Slash::before {
+   font: var(--fa-font-solid);
+    content: ' \f506';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.User-Slash::before {
+   font: var(--fa-font-solid);
+    content: ' \f506';
+ }</style>
+
+<li><span class='User-Slash fontawesomeicon'></span>User-Slash</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `User-Slash` font awesome icon SVG 
+
+Use the following icon SVG to display `User-Slash` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L353.3 251.6C407.9 237 448 187.2 448 128C448 57.3 390.7 0 320 0C250.2 0 193.5 55.8 192 125.2L38.8 5.1zM264.3 304.3C170.5 309.4 96 387.2 96 482.3c0 16.4 13.3 29.7 29.7 29.7H514.3c3.9 0 7.6-.7 11-2.1l-261-205.6z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L353.3 251.6C407.9 237 448 187.2 448 128C448 57.3 390.7 0 320 0C250.2 0 193.5 55.8 192 125.2L38.8 5.1zM264.3 304.3C170.5 309.4 96 387.2 96 482.3c0 16.4 13.3 29.7 29.7 29.7H514.3c3.9 0 7.6-.7 11-2.1l-261-205.6z"/></svg>
+ User-Slash displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L353.3 251.6C407.9 237 448 187.2 448 128C448 57.3 390.7 0 320 0C250.2 0 193.5 55.8 192 125.2L38.8 5.1zM264.3 304.3C170.5 309.4 96 387.2 96 482.3c0 16.4 13.3 29.7 29.7 29.7H514.3c3.9 0 7.6-.7 11-2.1l-261-205.6z"/></svg>
+ User-Slash displayed using SVG</p>
+</div>
+
+## Change `User-Slash` font awesome icon size
+To increase `User-Slash` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f506.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-user-slash fa-lg'>fa-lg</i><br/>
+<i class='fas fa-user-slash fa-2x'>fa-2x</i><br/>
+<i class='fas fa-user-slash fa-3x'>fa-3x</i><br/>
+<i class='fas fa-user-slash fa-4x'>fa-4x</i><br/>
+<i class='fas fa-user-slash fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-user-slash fa-lg'>fa-lg</i><br/>
 <i class='fas fa-user-slash fa-2x'>fa-2x</i><br/>
 <i class='fas fa-user-slash fa-3x'>fa-3x</i><br/>
 <i class='fas fa-user-slash fa-4x'>fa-4x</i><br/>
 <i class='fas fa-user-slash fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-user-slash fa-lg'>fa-lg</i><br/>
-<i class='fas fa-user-slash fa-2x'>fa-2x</i><br/>
-<i class='fas fa-user-slash fa-3x'>fa-3x</i><br/>
-<i class='fas fa-user-slash fa-4x'>fa-4x</i><br/>
-<i class='fas fa-user-slash fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-user-slash Icon with Fixed Width 
-
+## `User-Slash` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-user-slash icon and fa-home may not have same height and width.
+For example `User-Slash` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-user-slash fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-user-slash fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-user-slash fa-fw fa-3x'></i>Fixed Width<i class='fas fa-user-slash fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-user-slash fa-fw fa-3x'></i>Fixed Width<i class='fas fa-user-slash fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-user-slash fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-user-slash fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-user-slash Icon Border 
+</div>
 
-To add border to fa-user-slash icon, use fa-border class.
-
-
-```
-<i class='fas fa-user-slash fa-border fa-3x'></i>
-
+## `User-Slash` font awesome icon Border
+To add border to `User-Slash` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-user-slash fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-user-slash icon To the left
-
-To pull icon fa-user-slash to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-user-slash fa-border fa-3x'></i>
+</div>
+
+## Pull `User-Slash` font awesome icon To the left
+To pull `User-Slash` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-user-slash fa-pull-left fa-3x'></i>
+  ... The text after User-Slash Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-user-slash fa-pull-left fa-3x'></i>
-  ... The text after fa-user-slash Icon will be displayed on the right side of the icons
+  ... The text after User-Slash Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `User-Slash` font awesome icon To the left
+To pull `User-Slash` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-user-slash fa-pull-left fa-3x'></i>
-  ... The text after fa-user-slash Icon will be displayed on the right side of the icons
+<i class='fas fa-user-slash fa-pull-right fa-3x'></i>
+  ... The text after User-Slash Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-user-slash icon To the right
-To pull icon fa-user-slash to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-user-slash fa-pull-right fa-3x'></i>
-  ... The text after fa-user-slash Icon will be displayed on the left side of the icons
+  ... The text after User-Slash Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-user-slash fa-pull-right fa-3x'></i>
-  ... The text after fa-user-slash Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-user-slash icon using fa-spin
-To animate font awesome fa-user-slash icon, use fa-spin class.
-
+## Animate `User-Slash` font awesome icon
+To animate `User-Slash` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-user-slash fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-user-slash fa-spin fa-3x'></i>
+</div>
 
+## Animate `User-Slash` font awesome icon with steps
+While animating the font awesome icon,We can rotate `User-Slash` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-user-slash icon with steps
-While animating the font awesome icon,We can rotate fa-user-slash icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-user-slash icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-user-slash fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-user-slash fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-user-slash fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-user-slash fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-user-slash Icon using fa-rotate-x
-To rotate the font awesome icon fa-user-slash, Use fa-rotate-x class
+## Rotate `User-Slash` font awesome icon
+ To rotate `User-Slash` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-user-slash fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-user-slash fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-user-slash fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-user-slash fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-user-slash fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-user-slash fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-user-slash Icon using fa-flip-*
-To flip fa-user-slash font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `User-Slash` font awesome icon
+ To flip `User-Slash` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-user-slash fa-3x'>F</i> Normal <br>
 <i class='fas fa-user-slash fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-user-slash fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-user-slash fa-3x'>F</i> Normal <br>
 <i class='fas fa-user-slash fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-user-slash fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `User-Slash` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-user-slash icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `User-Slash` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-user-slash on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-user-slash fa-stack-1x'></i>
+    </span>
+      User-Slash on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-user-slash fa-stack-1x fa-inverse'></i>
+    </span>
+      User-Slash on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-user-slash fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      User-Slash on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-user-slash fa-stack-1x'></i>
     </span>
-      fa-user-slash on fa-square<br>
+      User-Slash on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-user-slash fa-stack-1x fa-inverse'></i>
     </span>
-      fa-user-slash on fa-circle<br>
+      User-Slash on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-user-slash fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-user-slash on fa-ban
+      User-Slash on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-user-slash fa-stack-1x'></i>
-    </span>
-      fa-user-slash on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-user-slash fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-user-slash on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-user-slash fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-user-slash on fa-ban
 </div>
-
-
-
-
-
 

@@ -1,187 +1,285 @@
+
 +++
-title="fa-file-import icon in font awesome icons"
-summary="fa-file-import icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-file-import,f56f,fa-file-import"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-file-image"
-next="fa-file-invoice"
-linktitle="fa-file-import"
+title='File-Import font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'File-Import font awesome icon CSS class is fa-file-import & CSS Content Code is  \f56f'
+keywords =['File-Import, \f56f,fa-file-import']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-file-image'
+next = 'fa-file-invoice-dollar'
+linktitle = 'fa-file-import'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`File-Import` font awesome icon css class name is `fa-file-import` and CSS Content Code is ` \f56f`**.
+ 
+
+`File-Import` font awesome icon is part of solid icons. 
 
 
-fa-file-import icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-file-import</td><td>fa-file-import</td><td>f56f</td></tr></tbody></table></div>
+{{%toc%}}
+## `File-Import` font awesome icon usage
+We can display `File-Import` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `File-Import` font awesome icon CSS class name
+
+To display `File-Import` font awesome icon, add predefined class name i.e.,`fa-file-import` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `File-Import` icon.
 
 
-## fa-file-import icon Usage
-
-To display fa-file-import icon add predefined class name i.e.,fa-file-import (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-file-import icon. i.e., fas.
-
+`File-Import` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-file-import'></i>
 
 ```
 
-<i class='fas fa-file-import'>fa-file-import</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-file-import'></i>
+
+</div>
+
+
+## `File-Import` font awesome icon CSS Content Code 
+
+We can display `File-Import` font awesome icon using it's CSS Content Code ` \f56f` 
+
+Use the following HTML code 
+
+```
+<li><span class='File-Import fontawesomeicon'></span>File-Import</li>
 ```
 
-<i class='fas fa-file-import'>fa-file-import</i>
-
-
-
-
-## Change fa-file-import icon size
-To increase fa-file-import font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-file-import.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.File-Import::before {
+   font: var(--fa-font-solid);
+    content: ' \f56f';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.File-Import::before {
+   font: var(--fa-font-solid);
+    content: ' \f56f';
+ }</style>
+
+<li><span class='File-Import fontawesomeicon'></span>File-Import</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `File-Import` font awesome icon SVG 
+
+Use the following icon SVG to display `File-Import` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 64c0-35.3 28.7-64 64-64H352V128c0 17.7 14.3 32 32 32H512V448c0 35.3-28.7 64-64 64H192c-35.3 0-64-28.7-64-64V336H302.1l-39 39c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9l-80-80c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l39 39H128V64zm0 224v48H24c-13.3 0-24-10.7-24-24s10.7-24 24-24H128zM512 128H384V0L512 128z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 64c0-35.3 28.7-64 64-64H352V128c0 17.7 14.3 32 32 32H512V448c0 35.3-28.7 64-64 64H192c-35.3 0-64-28.7-64-64V336H302.1l-39 39c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9l-80-80c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l39 39H128V64zm0 224v48H24c-13.3 0-24-10.7-24-24s10.7-24 24-24H128zM512 128H384V0L512 128z"/></svg>
+ File-Import displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 64c0-35.3 28.7-64 64-64H352V128c0 17.7 14.3 32 32 32H512V448c0 35.3-28.7 64-64 64H192c-35.3 0-64-28.7-64-64V336H302.1l-39 39c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9l-80-80c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l39 39H128V64zm0 224v48H24c-13.3 0-24-10.7-24-24s10.7-24 24-24H128zM512 128H384V0L512 128z"/></svg>
+ File-Import displayed using SVG</p>
+</div>
+
+## Change `File-Import` font awesome icon size
+To increase `File-Import` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f56f.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-file-import fa-lg'>fa-lg</i><br/>
+<i class='fas fa-file-import fa-2x'>fa-2x</i><br/>
+<i class='fas fa-file-import fa-3x'>fa-3x</i><br/>
+<i class='fas fa-file-import fa-4x'>fa-4x</i><br/>
+<i class='fas fa-file-import fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-file-import fa-lg'>fa-lg</i><br/>
 <i class='fas fa-file-import fa-2x'>fa-2x</i><br/>
 <i class='fas fa-file-import fa-3x'>fa-3x</i><br/>
 <i class='fas fa-file-import fa-4x'>fa-4x</i><br/>
 <i class='fas fa-file-import fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-file-import fa-lg'>fa-lg</i><br/>
-<i class='fas fa-file-import fa-2x'>fa-2x</i><br/>
-<i class='fas fa-file-import fa-3x'>fa-3x</i><br/>
-<i class='fas fa-file-import fa-4x'>fa-4x</i><br/>
-<i class='fas fa-file-import fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-file-import Icon with Fixed Width 
-
+## `File-Import` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-file-import icon and fa-home may not have same height and width.
+For example `File-Import` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-file-import fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-file-import fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-file-import fa-fw fa-3x'></i>Fixed Width<i class='fas fa-file-import fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-file-import fa-fw fa-3x'></i>Fixed Width<i class='fas fa-file-import fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-file-import fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-file-import fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-file-import Icon Border 
+</div>
 
-To add border to fa-file-import icon, use fa-border class.
-
-
-```
-<i class='fas fa-file-import fa-border fa-3x'></i>
-
+## `File-Import` font awesome icon Border
+To add border to `File-Import` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-file-import fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-file-import icon To the left
-
-To pull icon fa-file-import to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-file-import fa-border fa-3x'></i>
+</div>
+
+## Pull `File-Import` font awesome icon To the left
+To pull `File-Import` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-file-import fa-pull-left fa-3x'></i>
+  ... The text after File-Import Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-file-import fa-pull-left fa-3x'></i>
-  ... The text after fa-file-import Icon will be displayed on the right side of the icons
+  ... The text after File-Import Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `File-Import` font awesome icon To the left
+To pull `File-Import` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-file-import fa-pull-left fa-3x'></i>
-  ... The text after fa-file-import Icon will be displayed on the right side of the icons
+<i class='fas fa-file-import fa-pull-right fa-3x'></i>
+  ... The text after File-Import Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-file-import icon To the right
-To pull icon fa-file-import to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-file-import fa-pull-right fa-3x'></i>
-  ... The text after fa-file-import Icon will be displayed on the left side of the icons
+  ... The text after File-Import Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-file-import fa-pull-right fa-3x'></i>
-  ... The text after fa-file-import Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-file-import icon using fa-spin
-To animate font awesome fa-file-import icon, use fa-spin class.
-
+## Animate `File-Import` font awesome icon
+To animate `File-Import` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-file-import fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-file-import fa-spin fa-3x'></i>
+</div>
 
+## Animate `File-Import` font awesome icon with steps
+While animating the font awesome icon,We can rotate `File-Import` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-file-import icon with steps
-While animating the font awesome icon,We can rotate fa-file-import icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-file-import icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-file-import fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-file-import fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-file-import fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-file-import fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-file-import Icon using fa-rotate-x
-To rotate the font awesome icon fa-file-import, Use fa-rotate-x class
+## Rotate `File-Import` font awesome icon
+ To rotate `File-Import` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-file-import fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-file-import fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-file-import fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-file-import fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-file-import fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-file-import fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-file-import Icon using fa-flip-*
-To flip fa-file-import font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `File-Import` font awesome icon
+ To flip `File-Import` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-file-import fa-3x'>F</i> Normal <br>
 <i class='fas fa-file-import fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-file-import fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-file-import fa-3x'>F</i> Normal <br>
 <i class='fas fa-file-import fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-file-import fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `File-Import` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-file-import icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `File-Import` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-file-import on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-file-import fa-stack-1x'></i>
+    </span>
+      File-Import on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-file-import fa-stack-1x fa-inverse'></i>
+    </span>
+      File-Import on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-file-import fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      File-Import on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-file-import fa-stack-1x'></i>
     </span>
-      fa-file-import on fa-square<br>
+      File-Import on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-file-import fa-stack-1x fa-inverse'></i>
     </span>
-      fa-file-import on fa-circle<br>
+      File-Import on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-file-import fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-file-import on fa-ban
+      File-Import on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-file-import fa-stack-1x'></i>
-    </span>
-      fa-file-import on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-file-import fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-file-import on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-file-import fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-file-import on fa-ban
 </div>
-
-
-
-
-
 

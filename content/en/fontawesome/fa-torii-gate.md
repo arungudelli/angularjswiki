@@ -1,187 +1,285 @@
+
 +++
-title="fa-torii-gate icon in font awesome icons"
-summary="fa-torii-gate icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-torii-gate,f6a1,fa-torii-gate"]
-date="25-07-2020T22:59:21"
-lastmod="25-07-2020T22:59:21"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-torah"
-next="fa-tractor"
-linktitle="fa-torii-gate"
+title='Torii-Gate font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Torii-Gate font awesome icon CSS class is fa-torii-gate & CSS Content Code is  \f6a1'
+keywords =['Torii-Gate, \f6a1,fa-torii-gate']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-tooth'
+next = 'fa-tornado'
+linktitle = 'fa-torii-gate'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Torii-Gate` font awesome icon css class name is `fa-torii-gate` and CSS Content Code is ` \f6a1`**.
+ 
+
+`Torii-Gate` font awesome icon is part of solid icons. 
 
 
-fa-torii-gate icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-torii-gate</td><td>fa-torii-gate</td><td>f6a1</td></tr></tbody></table></div>
+{{%toc%}}
+## `Torii-Gate` font awesome icon usage
+We can display `Torii-Gate` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Torii-Gate` font awesome icon CSS class name
+
+To display `Torii-Gate` font awesome icon, add predefined class name i.e.,`fa-torii-gate` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Torii-Gate` icon.
 
 
-## fa-torii-gate icon Usage
-
-To display fa-torii-gate icon add predefined class name i.e.,fa-torii-gate (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-torii-gate icon. i.e., fas.
-
+`Torii-Gate` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-torii-gate'></i>
 
 ```
 
-<i class='fas fa-torii-gate'>fa-torii-gate</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-torii-gate'></i>
+
+</div>
+
+
+## `Torii-Gate` font awesome icon CSS Content Code 
+
+We can display `Torii-Gate` font awesome icon using it's CSS Content Code ` \f6a1` 
+
+Use the following HTML code 
+
+```
+<li><span class='Torii-Gate fontawesomeicon'></span>Torii-Gate</li>
 ```
 
-<i class='fas fa-torii-gate'>fa-torii-gate</i>
-
-
-
-
-## Change fa-torii-gate icon size
-To increase fa-torii-gate font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-torii-gate.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Torii-Gate::before {
+   font: var(--fa-font-solid);
+    content: ' \f6a1';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Torii-Gate::before {
+   font: var(--fa-font-solid);
+    content: ' \f6a1';
+ }</style>
+
+<li><span class='Torii-Gate fontawesomeicon'></span>Torii-Gate</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Torii-Gate` font awesome icon SVG 
+
+Use the following icon SVG to display `Torii-Gate` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 80c0 26.5 21.5 48 48 48H64v64h64V128h96v64h64V128h96v64h64V128h16c26.5 0 48-21.5 48-48V0L440.6 23.8C424.3 29.2 407.2 32 390 32H122c-17.2 0-34.3-2.8-50.6-8.2L0 0V80zM64 288V480c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384V480c0 17.7 14.3 32 32 32s32-14.3 32-32V288h32c17.7 0 32-14.3 32-32s-14.3-32-32-32H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H64z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 80c0 26.5 21.5 48 48 48H64v64h64V128h96v64h64V128h96v64h64V128h16c26.5 0 48-21.5 48-48V0L440.6 23.8C424.3 29.2 407.2 32 390 32H122c-17.2 0-34.3-2.8-50.6-8.2L0 0V80zM64 288V480c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384V480c0 17.7 14.3 32 32 32s32-14.3 32-32V288h32c17.7 0 32-14.3 32-32s-14.3-32-32-32H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H64z"/></svg>
+ Torii-Gate displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 80c0 26.5 21.5 48 48 48H64v64h64V128h96v64h64V128h96v64h64V128h16c26.5 0 48-21.5 48-48V0L440.6 23.8C424.3 29.2 407.2 32 390 32H122c-17.2 0-34.3-2.8-50.6-8.2L0 0V80zM64 288V480c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384V480c0 17.7 14.3 32 32 32s32-14.3 32-32V288h32c17.7 0 32-14.3 32-32s-14.3-32-32-32H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H64z"/></svg>
+ Torii-Gate displayed using SVG</p>
+</div>
+
+## Change `Torii-Gate` font awesome icon size
+To increase `Torii-Gate` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f6a1.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-torii-gate fa-lg'>fa-lg</i><br/>
+<i class='fas fa-torii-gate fa-2x'>fa-2x</i><br/>
+<i class='fas fa-torii-gate fa-3x'>fa-3x</i><br/>
+<i class='fas fa-torii-gate fa-4x'>fa-4x</i><br/>
+<i class='fas fa-torii-gate fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-torii-gate fa-lg'>fa-lg</i><br/>
 <i class='fas fa-torii-gate fa-2x'>fa-2x</i><br/>
 <i class='fas fa-torii-gate fa-3x'>fa-3x</i><br/>
 <i class='fas fa-torii-gate fa-4x'>fa-4x</i><br/>
 <i class='fas fa-torii-gate fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-torii-gate fa-lg'>fa-lg</i><br/>
-<i class='fas fa-torii-gate fa-2x'>fa-2x</i><br/>
-<i class='fas fa-torii-gate fa-3x'>fa-3x</i><br/>
-<i class='fas fa-torii-gate fa-4x'>fa-4x</i><br/>
-<i class='fas fa-torii-gate fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-torii-gate Icon with Fixed Width 
-
+## `Torii-Gate` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-torii-gate icon and fa-home may not have same height and width.
+For example `Torii-Gate` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-torii-gate fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-torii-gate fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-torii-gate fa-fw fa-3x'></i>Fixed Width<i class='fas fa-torii-gate fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-torii-gate fa-fw fa-3x'></i>Fixed Width<i class='fas fa-torii-gate fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-torii-gate fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-torii-gate fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-torii-gate Icon Border 
+</div>
 
-To add border to fa-torii-gate icon, use fa-border class.
-
-
-```
-<i class='fas fa-torii-gate fa-border fa-3x'></i>
-
+## `Torii-Gate` font awesome icon Border
+To add border to `Torii-Gate` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-torii-gate fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-torii-gate icon To the left
-
-To pull icon fa-torii-gate to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-torii-gate fa-border fa-3x'></i>
+</div>
+
+## Pull `Torii-Gate` font awesome icon To the left
+To pull `Torii-Gate` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-torii-gate fa-pull-left fa-3x'></i>
+  ... The text after Torii-Gate Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-torii-gate fa-pull-left fa-3x'></i>
-  ... The text after fa-torii-gate Icon will be displayed on the right side of the icons
+  ... The text after Torii-Gate Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Torii-Gate` font awesome icon To the left
+To pull `Torii-Gate` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-torii-gate fa-pull-left fa-3x'></i>
-  ... The text after fa-torii-gate Icon will be displayed on the right side of the icons
+<i class='fas fa-torii-gate fa-pull-right fa-3x'></i>
+  ... The text after Torii-Gate Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-torii-gate icon To the right
-To pull icon fa-torii-gate to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-torii-gate fa-pull-right fa-3x'></i>
-  ... The text after fa-torii-gate Icon will be displayed on the left side of the icons
+  ... The text after Torii-Gate Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-torii-gate fa-pull-right fa-3x'></i>
-  ... The text after fa-torii-gate Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-torii-gate icon using fa-spin
-To animate font awesome fa-torii-gate icon, use fa-spin class.
-
+## Animate `Torii-Gate` font awesome icon
+To animate `Torii-Gate` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-torii-gate fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-torii-gate fa-spin fa-3x'></i>
+</div>
 
+## Animate `Torii-Gate` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Torii-Gate` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-torii-gate icon with steps
-While animating the font awesome icon,We can rotate fa-torii-gate icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-torii-gate icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-torii-gate fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-torii-gate fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-torii-gate fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-torii-gate fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-torii-gate Icon using fa-rotate-x
-To rotate the font awesome icon fa-torii-gate, Use fa-rotate-x class
+## Rotate `Torii-Gate` font awesome icon
+ To rotate `Torii-Gate` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-torii-gate fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-torii-gate fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-torii-gate fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-torii-gate fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-torii-gate fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-torii-gate fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-torii-gate Icon using fa-flip-*
-To flip fa-torii-gate font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Torii-Gate` font awesome icon
+ To flip `Torii-Gate` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-torii-gate fa-3x'>F</i> Normal <br>
 <i class='fas fa-torii-gate fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-torii-gate fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-torii-gate fa-3x'>F</i> Normal <br>
 <i class='fas fa-torii-gate fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-torii-gate fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Torii-Gate` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-torii-gate icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Torii-Gate` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-torii-gate on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-torii-gate fa-stack-1x'></i>
+    </span>
+      Torii-Gate on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-torii-gate fa-stack-1x fa-inverse'></i>
+    </span>
+      Torii-Gate on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-torii-gate fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Torii-Gate on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-torii-gate fa-stack-1x'></i>
     </span>
-      fa-torii-gate on fa-square<br>
+      Torii-Gate on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-torii-gate fa-stack-1x fa-inverse'></i>
     </span>
-      fa-torii-gate on fa-circle<br>
+      Torii-Gate on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-torii-gate fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-torii-gate on fa-ban
+      Torii-Gate on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-torii-gate fa-stack-1x'></i>
-    </span>
-      fa-torii-gate on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-torii-gate fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-torii-gate on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-torii-gate fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-torii-gate on fa-ban
 </div>
-
-
-
-
-
 

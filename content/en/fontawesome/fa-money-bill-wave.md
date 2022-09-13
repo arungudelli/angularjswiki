@@ -1,187 +1,285 @@
+
 +++
-title="fa-money-bill-wave icon in font awesome icons"
-summary="fa-money-bill-wave icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-money-bill-wave,f53a,fa-money-bill-wave"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-money-bill-alt"
-next="fa-money-bill-wave-alt"
-linktitle="fa-money-bill-wave"
+title='Money-Bill-Wave font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Money-Bill-Wave font awesome icon CSS class is fa-money-bill-wave & CSS Content Code is  \f53a'
+keywords =['Money-Bill-Wave, \f53a,fa-money-bill-wave']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-money-bill-trend-up'
+next = 'fa-money-bill-wheat'
+linktitle = 'fa-money-bill-wave'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Money-Bill-Wave` font awesome icon css class name is `fa-money-bill-wave` and CSS Content Code is ` \f53a`**.
+ 
+
+`Money-Bill-Wave` font awesome icon is part of solid icons. 
 
 
-fa-money-bill-wave icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-money-bill-wave</td><td>fa-money-bill-wave</td><td>f53a</td></tr></tbody></table></div>
+{{%toc%}}
+## `Money-Bill-Wave` font awesome icon usage
+We can display `Money-Bill-Wave` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Money-Bill-Wave` font awesome icon CSS class name
+
+To display `Money-Bill-Wave` font awesome icon, add predefined class name i.e.,`fa-money-bill-wave` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Money-Bill-Wave` icon.
 
 
-## fa-money-bill-wave icon Usage
-
-To display fa-money-bill-wave icon add predefined class name i.e.,fa-money-bill-wave (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-money-bill-wave icon. i.e., fas.
-
+`Money-Bill-Wave` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-money-bill-wave'></i>
 
 ```
 
-<i class='fas fa-money-bill-wave'>fa-money-bill-wave</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-money-bill-wave'></i>
+
+</div>
+
+
+## `Money-Bill-Wave` font awesome icon CSS Content Code 
+
+We can display `Money-Bill-Wave` font awesome icon using it's CSS Content Code ` \f53a` 
+
+Use the following HTML code 
+
+```
+<li><span class='Money-Bill-Wave fontawesomeicon'></span>Money-Bill-Wave</li>
 ```
 
-<i class='fas fa-money-bill-wave'>fa-money-bill-wave</i>
-
-
-
-
-## Change fa-money-bill-wave icon size
-To increase fa-money-bill-wave font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-money-bill-wave.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Money-Bill-Wave::before {
+   font: var(--fa-font-solid);
+    content: ' \f53a';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Money-Bill-Wave::before {
+   font: var(--fa-font-solid);
+    content: ' \f53a';
+ }</style>
+
+<li><span class='Money-Bill-Wave fontawesomeicon'></span>Money-Bill-Wave</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Money-Bill-Wave` font awesome icon SVG 
+
+Use the following icon SVG to display `Money-Bill-Wave` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 112.5V422.3c0 18 10.1 35 27 41.3c87 32.5 174 10.3 261-11.9c79.8-20.3 159.6-40.7 239.3-18.9c23 6.3 48.7-9.5 48.7-33.4V89.7c0-18-10.1-35-27-41.3C462 15.9 375 38.1 288 60.3C208.2 80.6 128.4 100.9 48.7 79.1C25.6 72.8 0 88.6 0 112.5zM288 352c-44.2 0-80-43-80-96s35.8-96 80-96s80 43 80 96s-35.8 96-80 96zM64 352c35.3 0 64 28.7 64 64H64V352zm64-208c0 35.3-28.7 64-64 64V144h64zM512 304v64H448c0-35.3 28.7-64 64-64zM448 96h64v64c-35.3 0-64-28.7-64-64z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 112.5V422.3c0 18 10.1 35 27 41.3c87 32.5 174 10.3 261-11.9c79.8-20.3 159.6-40.7 239.3-18.9c23 6.3 48.7-9.5 48.7-33.4V89.7c0-18-10.1-35-27-41.3C462 15.9 375 38.1 288 60.3C208.2 80.6 128.4 100.9 48.7 79.1C25.6 72.8 0 88.6 0 112.5zM288 352c-44.2 0-80-43-80-96s35.8-96 80-96s80 43 80 96s-35.8 96-80 96zM64 352c35.3 0 64 28.7 64 64H64V352zm64-208c0 35.3-28.7 64-64 64V144h64zM512 304v64H448c0-35.3 28.7-64 64-64zM448 96h64v64c-35.3 0-64-28.7-64-64z"/></svg>
+ Money-Bill-Wave displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 112.5V422.3c0 18 10.1 35 27 41.3c87 32.5 174 10.3 261-11.9c79.8-20.3 159.6-40.7 239.3-18.9c23 6.3 48.7-9.5 48.7-33.4V89.7c0-18-10.1-35-27-41.3C462 15.9 375 38.1 288 60.3C208.2 80.6 128.4 100.9 48.7 79.1C25.6 72.8 0 88.6 0 112.5zM288 352c-44.2 0-80-43-80-96s35.8-96 80-96s80 43 80 96s-35.8 96-80 96zM64 352c35.3 0 64 28.7 64 64H64V352zm64-208c0 35.3-28.7 64-64 64V144h64zM512 304v64H448c0-35.3 28.7-64 64-64zM448 96h64v64c-35.3 0-64-28.7-64-64z"/></svg>
+ Money-Bill-Wave displayed using SVG</p>
+</div>
+
+## Change `Money-Bill-Wave` font awesome icon size
+To increase `Money-Bill-Wave` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f53a.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-money-bill-wave fa-lg'>fa-lg</i><br/>
+<i class='fas fa-money-bill-wave fa-2x'>fa-2x</i><br/>
+<i class='fas fa-money-bill-wave fa-3x'>fa-3x</i><br/>
+<i class='fas fa-money-bill-wave fa-4x'>fa-4x</i><br/>
+<i class='fas fa-money-bill-wave fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-money-bill-wave fa-lg'>fa-lg</i><br/>
 <i class='fas fa-money-bill-wave fa-2x'>fa-2x</i><br/>
 <i class='fas fa-money-bill-wave fa-3x'>fa-3x</i><br/>
 <i class='fas fa-money-bill-wave fa-4x'>fa-4x</i><br/>
 <i class='fas fa-money-bill-wave fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-money-bill-wave fa-lg'>fa-lg</i><br/>
-<i class='fas fa-money-bill-wave fa-2x'>fa-2x</i><br/>
-<i class='fas fa-money-bill-wave fa-3x'>fa-3x</i><br/>
-<i class='fas fa-money-bill-wave fa-4x'>fa-4x</i><br/>
-<i class='fas fa-money-bill-wave fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-money-bill-wave Icon with Fixed Width 
-
+## `Money-Bill-Wave` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-money-bill-wave icon and fa-home may not have same height and width.
+For example `Money-Bill-Wave` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-money-bill-wave fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-money-bill-wave fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-money-bill-wave fa-fw fa-3x'></i>Fixed Width<i class='fas fa-money-bill-wave fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-money-bill-wave fa-fw fa-3x'></i>Fixed Width<i class='fas fa-money-bill-wave fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-money-bill-wave fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-money-bill-wave fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-money-bill-wave Icon Border 
+</div>
 
-To add border to fa-money-bill-wave icon, use fa-border class.
-
-
-```
-<i class='fas fa-money-bill-wave fa-border fa-3x'></i>
-
+## `Money-Bill-Wave` font awesome icon Border
+To add border to `Money-Bill-Wave` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-money-bill-wave fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-money-bill-wave icon To the left
-
-To pull icon fa-money-bill-wave to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-money-bill-wave fa-border fa-3x'></i>
+</div>
+
+## Pull `Money-Bill-Wave` font awesome icon To the left
+To pull `Money-Bill-Wave` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-money-bill-wave fa-pull-left fa-3x'></i>
+  ... The text after Money-Bill-Wave Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-money-bill-wave fa-pull-left fa-3x'></i>
-  ... The text after fa-money-bill-wave Icon will be displayed on the right side of the icons
+  ... The text after Money-Bill-Wave Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Money-Bill-Wave` font awesome icon To the left
+To pull `Money-Bill-Wave` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-money-bill-wave fa-pull-left fa-3x'></i>
-  ... The text after fa-money-bill-wave Icon will be displayed on the right side of the icons
+<i class='fas fa-money-bill-wave fa-pull-right fa-3x'></i>
+  ... The text after Money-Bill-Wave Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-money-bill-wave icon To the right
-To pull icon fa-money-bill-wave to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-money-bill-wave fa-pull-right fa-3x'></i>
-  ... The text after fa-money-bill-wave Icon will be displayed on the left side of the icons
+  ... The text after Money-Bill-Wave Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-money-bill-wave fa-pull-right fa-3x'></i>
-  ... The text after fa-money-bill-wave Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-money-bill-wave icon using fa-spin
-To animate font awesome fa-money-bill-wave icon, use fa-spin class.
-
+## Animate `Money-Bill-Wave` font awesome icon
+To animate `Money-Bill-Wave` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-money-bill-wave fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-money-bill-wave fa-spin fa-3x'></i>
+</div>
 
+## Animate `Money-Bill-Wave` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Money-Bill-Wave` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-money-bill-wave icon with steps
-While animating the font awesome icon,We can rotate fa-money-bill-wave icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-money-bill-wave icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-money-bill-wave fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-money-bill-wave fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-money-bill-wave fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-money-bill-wave fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-money-bill-wave Icon using fa-rotate-x
-To rotate the font awesome icon fa-money-bill-wave, Use fa-rotate-x class
+## Rotate `Money-Bill-Wave` font awesome icon
+ To rotate `Money-Bill-Wave` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-money-bill-wave fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-money-bill-wave fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-money-bill-wave fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-money-bill-wave fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-money-bill-wave fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-money-bill-wave fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-money-bill-wave Icon using fa-flip-*
-To flip fa-money-bill-wave font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Money-Bill-Wave` font awesome icon
+ To flip `Money-Bill-Wave` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-money-bill-wave fa-3x'>F</i> Normal <br>
 <i class='fas fa-money-bill-wave fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-money-bill-wave fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-money-bill-wave fa-3x'>F</i> Normal <br>
 <i class='fas fa-money-bill-wave fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-money-bill-wave fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Money-Bill-Wave` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-money-bill-wave icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Money-Bill-Wave` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-money-bill-wave on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-money-bill-wave fa-stack-1x'></i>
+    </span>
+      Money-Bill-Wave on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-money-bill-wave fa-stack-1x fa-inverse'></i>
+    </span>
+      Money-Bill-Wave on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-money-bill-wave fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Money-Bill-Wave on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-money-bill-wave fa-stack-1x'></i>
     </span>
-      fa-money-bill-wave on fa-square<br>
+      Money-Bill-Wave on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-money-bill-wave fa-stack-1x fa-inverse'></i>
     </span>
-      fa-money-bill-wave on fa-circle<br>
+      Money-Bill-Wave on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-money-bill-wave fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-money-bill-wave on fa-ban
+      Money-Bill-Wave on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-money-bill-wave fa-stack-1x'></i>
-    </span>
-      fa-money-bill-wave on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-money-bill-wave fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-money-bill-wave on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-money-bill-wave fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-money-bill-wave on fa-ban
 </div>
-
-
-
-
-
 

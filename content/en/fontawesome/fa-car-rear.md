@@ -1,0 +1,380 @@
+
++++
+title='Car-Rear font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Car-Rear font awesome icon CSS class is fa-car-rear & CSS Content Code is  \f5de'
+keywords =['Car-Rear, \f5de,fa-car-rear']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-car-on'
+next = 'fa-car-side'
+linktitle = 'fa-car-rear'
+[menu.fontawesome]
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Car-Rear` font awesome icon css class name is `fa-car-rear` and CSS Content Code is ` \f5de`**.
+ 
+
+`Car-Rear` font awesome icon is part of solid icons. 
+
+
+
+{{%toc%}}
+## `Car-Rear` font awesome icon usage
+We can display `Car-Rear` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
+
+
+
+## `Car-Rear` font awesome icon CSS class name
+
+To display `Car-Rear` font awesome icon, add predefined class name i.e.,`fa-car-rear` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Car-Rear` icon.
+
+
+`Car-Rear` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-car-rear'></i>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-car-rear'></i>
+
+</div>
+
+
+## `Car-Rear` font awesome icon CSS Content Code 
+
+We can display `Car-Rear` font awesome icon using it's CSS Content Code ` \f5de` 
+
+Use the following HTML code 
+
+```
+<li><span class='Car-Rear fontawesomeicon'></span>Car-Rear</li>
+```
+
+Apply CSS code 
+
+```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Car-Rear::before {
+   font: var(--fa-font-solid);
+    content: ' \f5de';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Car-Rear::before {
+   font: var(--fa-font-solid);
+    content: ' \f5de';
+ }</style>
+
+<li><span class='Car-Rear fontawesomeicon'></span>Car-Rear</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Car-Rear` font awesome icon SVG 
+
+Use the following icon SVG to display `Car-Rear` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.4 96H346.6c13.6 0 25.7 8.6 30.2 21.4L402.9 192H109.1l26.1-74.6c4.5-12.8 16.6-21.4 30.2-21.4zm-90.6 .3L39.6 196.8C16.4 206.4 0 229.3 0 256v80c0 23.7 12.9 44.4 32 55.4V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V400H384v48c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V391.4c19.1-11.1 32-31.7 32-55.4V256c0-26.7-16.4-49.6-39.6-59.2L437.2 96.3C423.7 57.8 387.4 32 346.6 32H165.4c-40.8 0-77.1 25.8-90.6 64.3zM208 272h96c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H208c-8.8 0-16-7.2-16-16V288c0-8.8 7.2-16 16-16zM48 280c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H72c-13.3 0-24-10.7-24-24zm360-24h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H408c-13.3 0-24-10.7-24-24s10.7-24 24-24z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.4 96H346.6c13.6 0 25.7 8.6 30.2 21.4L402.9 192H109.1l26.1-74.6c4.5-12.8 16.6-21.4 30.2-21.4zm-90.6 .3L39.6 196.8C16.4 206.4 0 229.3 0 256v80c0 23.7 12.9 44.4 32 55.4V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V400H384v48c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V391.4c19.1-11.1 32-31.7 32-55.4V256c0-26.7-16.4-49.6-39.6-59.2L437.2 96.3C423.7 57.8 387.4 32 346.6 32H165.4c-40.8 0-77.1 25.8-90.6 64.3zM208 272h96c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H208c-8.8 0-16-7.2-16-16V288c0-8.8 7.2-16 16-16zM48 280c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H72c-13.3 0-24-10.7-24-24zm360-24h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H408c-13.3 0-24-10.7-24-24s10.7-24 24-24z"/></svg>
+ Car-Rear displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.4 96H346.6c13.6 0 25.7 8.6 30.2 21.4L402.9 192H109.1l26.1-74.6c4.5-12.8 16.6-21.4 30.2-21.4zm-90.6 .3L39.6 196.8C16.4 206.4 0 229.3 0 256v80c0 23.7 12.9 44.4 32 55.4V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V400H384v48c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V391.4c19.1-11.1 32-31.7 32-55.4V256c0-26.7-16.4-49.6-39.6-59.2L437.2 96.3C423.7 57.8 387.4 32 346.6 32H165.4c-40.8 0-77.1 25.8-90.6 64.3zM208 272h96c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H208c-8.8 0-16-7.2-16-16V288c0-8.8 7.2-16 16-16zM48 280c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H72c-13.3 0-24-10.7-24-24zm360-24h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H408c-13.3 0-24-10.7-24-24s10.7-24 24-24z"/></svg>
+ Car-Rear displayed using SVG</p>
+</div>
+
+## Change `Car-Rear` font awesome icon size
+To increase `Car-Rear` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f5de.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-car-rear fa-lg'>fa-lg</i><br/>
+<i class='fas fa-car-rear fa-2x'>fa-2x</i><br/>
+<i class='fas fa-car-rear fa-3x'>fa-3x</i><br/>
+<i class='fas fa-car-rear fa-4x'>fa-4x</i><br/>
+<i class='fas fa-car-rear fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-car-rear fa-lg'>fa-lg</i><br/>
+<i class='fas fa-car-rear fa-2x'>fa-2x</i><br/>
+<i class='fas fa-car-rear fa-3x'>fa-3x</i><br/>
+<i class='fas fa-car-rear fa-4x'>fa-4x</i><br/>
+<i class='fas fa-car-rear fa-5x'>fa-5x</i><br/>
+
+</div>
+
+## `Car-Rear` font awesome icon with Fixed Width
+All the font awesome icons does not have same width.
+
+For example `Car-Rear` icon and `home` icon may not have same height and width.
+
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-car-rear fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-car-rear fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i style='border:1px solid;' class='fas fa-car-rear fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-car-rear fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
+
+</div>
+
+## `Car-Rear` font awesome icon Border
+To add border to `Car-Rear` font awesome icon, use `fa-border` class.
+```
+<i class='fas fa-car-rear fa-border fa-3x'></i>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-car-rear fa-border fa-3x'></i>
+</div>
+
+## Pull `Car-Rear` font awesome icon To the left
+To pull `Car-Rear` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-car-rear fa-pull-left fa-3x'></i>
+  ... The text after Car-Rear Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div style='width: 200px;'>
+<i class='fas fa-car-rear fa-pull-left fa-3x'></i>
+  ... The text after Car-Rear Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+</div>
+
+## Pull `Car-Rear` font awesome icon To the left
+To pull `Car-Rear` icon to the right of the container use `fa-pull-right` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-car-rear fa-pull-right fa-3x'></i>
+  ... The text after Car-Rear Icon will be displayed on the left side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div style='width: 200px;'>
+<i class='fas fa-car-rear fa-pull-right fa-3x'></i>
+  ... The text after Car-Rear Icon will be displayed on the left side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+</div>
+
+## Animate `Car-Rear` font awesome icon
+To animate `Car-Rear` font awesome icon, use `fa-spin` class.
+```
+<i class='fas fa-car-rear fa-spin fa-3x'></i>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-car-rear fa-spin fa-3x'></i>
+</div>
+
+## Animate `Car-Rear` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Car-Rear` icon in 8 steps instead of uniform rotation.
+
+We can use `fa-pulse` icon along with `fa-spin` class.
+```
+<i class='fas fa-car-rear fa-spin fa-pulse fa-3x'></i>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-car-rear fa-spin fa-pulse fa-3x'></i>
+</div>
+
+## Rotate `Car-Rear` font awesome icon
+ To rotate `Car-Rear` font awesome icon, Use `fa-rotate-x` class
+
+Where 'x' represents degree of rotation.
+```
+<div>
+<i class='fas fa-car-rear fa-3x'>R</i>normal<br/><br/>
+<i class='fas fa-car-rear fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
+<i class='fas fa-car-rear fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
+<i class='fas fa-car-rear fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
+<i class='fas fa-car-rear fa-3x'>R</i>normal<br/><br/>
+<i class='fas fa-car-rear fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
+<i class='fas fa-car-rear fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
+<i class='fas fa-car-rear fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
+</div>
+</div>
+
+## Flip `Car-Rear` font awesome icon
+ To flip `Car-Rear` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
+
+```
+<div>
+<i class='fas fa-car-rear fa-3x'>F</i> Normal <br>
+<i class='fas fa-car-rear fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
+<i class='fas fa-car-rear fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
+<i class='fas fa-car-rear fa-3x'>F</i> Normal <br>
+<i class='fas fa-car-rear fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
+<i class='fas fa-car-rear fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
+
+## Combine `Car-Rear` font awesome icon with other font awesome icons
+
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
+
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
+
+And use class `fa-inverse` for an alternative icon color. 
+
+In the below example, I am displaying `Car-Rear` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
+
+And used `fa-inverse` in the second example to invert the color of the icon.
+```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-car-rear fa-stack-1x'></i>
+    </span>
+      Car-Rear on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-car-rear fa-stack-1x fa-inverse'></i>
+    </span>
+      Car-Rear on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-car-rear fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Car-Rear on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-car-rear fa-stack-1x'></i>
+    </span>
+      Car-Rear on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-car-rear fa-stack-1x fa-inverse'></i>
+    </span>
+      Car-Rear on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-car-rear fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Car-Rear on fa-ban
+</div>
+</div>
+

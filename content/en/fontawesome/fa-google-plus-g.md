@@ -1,187 +1,285 @@
+
 +++
-title="fa-google-plus-g icon in font awesome icons"
-summary="fa-google-plus-g icon in font awesome icons is part of brand (fab) icons"
-keywords=["fa-google-plus-g,f0d5,fa-google-plus-g"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-google-plus"
-next="fa-google-plus-square"
-linktitle="fa-google-plus-g"
+title='Google-Plus-G font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Google-Plus-G font awesome icon CSS class is fa-google-plus-g & CSS Content Code is  \f0d5'
+keywords =['Google-Plus-G, \f0d5,fa-google-plus-g']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-google-play'
+next = 'fa-google-plus'
+linktitle = 'fa-google-plus-g'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Google-Plus-G` font awesome icon css class name is `fa-google-plus-g` and CSS Content Code is ` \f0d5`**.
+ 
+
+`Google-Plus-G` font awesome icon is part of brands icons. 
 
 
-fa-google-plus-g icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-google-plus-g</td><td>fa-google-plus-g</td><td>f0d5</td></tr></tbody></table></div>
+{{%toc%}}
+## `Google-Plus-G` font awesome icon usage
+We can display `Google-Plus-G` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Google-Plus-G` font awesome icon CSS class name
+
+To display `Google-Plus-G` font awesome icon, add predefined class name i.e.,`fa-google-plus-g` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Google-Plus-G` icon.
 
 
-## fa-google-plus-g icon Usage
-
-To display fa-google-plus-g icon add predefined class name i.e.,fa-google-plus-g (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-google-plus-g icon. i.e., fab.
-
+`Google-Plus-G` icon has 1 icon style i.e.,brands. 
+ We need to append icon style class `fab`.
+```
+<i class='fab fa-google-plus-g'></i>
 
 ```
 
-<i class='fab fa-google-plus-g'>fa-google-plus-g</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-google-plus-g'></i>
+
+</div>
+
+
+## `Google-Plus-G` font awesome icon CSS Content Code 
+
+We can display `Google-Plus-G` font awesome icon using it's CSS Content Code ` \f0d5` 
+
+Use the following HTML code 
+
+```
+<li><span class='Google-Plus-G fontawesomeicon'></span>Google-Plus-G</li>
 ```
 
-<i class='fab fa-google-plus-g'>fa-google-plus-g</i>
-
-
-
-
-## Change fa-google-plus-g icon size
-To increase fa-google-plus-g font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-google-plus-g.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Google-Plus-G::before {
+   font: var(--fa-font-brands);
+    content: ' \f0d5';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Google-Plus-G::before {
+   font: var(--fa-font-brands);
+    content: ' \f0d5';
+ }</style>
+
+<li><span class='Google-Plus-G fontawesomeicon'></span>Google-Plus-G</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Google-Plus-G` font awesome icon SVG 
+
+Use the following icon SVG to display `Google-Plus-G` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z"/></svg>
+ Google-Plus-G displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z"/></svg>
+ Google-Plus-G displayed using SVG</p>
+</div>
+
+## Change `Google-Plus-G` font awesome icon size
+To increase `Google-Plus-G` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f0d5.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fab fa-google-plus-g fa-lg'>fa-lg</i><br/>
+<i class='fab fa-google-plus-g fa-2x'>fa-2x</i><br/>
+<i class='fab fa-google-plus-g fa-3x'>fa-3x</i><br/>
+<i class='fab fa-google-plus-g fa-4x'>fa-4x</i><br/>
+<i class='fab fa-google-plus-g fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fab fa-google-plus-g fa-lg'>fa-lg</i><br/>
 <i class='fab fa-google-plus-g fa-2x'>fa-2x</i><br/>
 <i class='fab fa-google-plus-g fa-3x'>fa-3x</i><br/>
 <i class='fab fa-google-plus-g fa-4x'>fa-4x</i><br/>
 <i class='fab fa-google-plus-g fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fab fa-google-plus-g fa-lg'>fa-lg</i><br/>
-<i class='fab fa-google-plus-g fa-2x'>fa-2x</i><br/>
-<i class='fab fa-google-plus-g fa-3x'>fa-3x</i><br/>
-<i class='fab fa-google-plus-g fa-4x'>fa-4x</i><br/>
-<i class='fab fa-google-plus-g fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-google-plus-g Icon with Fixed Width 
-
+## `Google-Plus-G` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-google-plus-g icon and fa-home may not have same height and width.
+For example `Google-Plus-G` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fab fa-google-plus-g fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-google-plus-g fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fab fa-google-plus-g fa-fw fa-3x'></i>Fixed Width<i class='fab fa-google-plus-g fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fab fa-google-plus-g fa-fw fa-3x'></i>Fixed Width<i class='fab fa-google-plus-g fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fab fa-google-plus-g fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-google-plus-g fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-google-plus-g Icon Border 
+</div>
 
-To add border to fa-google-plus-g icon, use fa-border class.
-
-
-```
-<i class='fab fa-google-plus-g fa-border fa-3x'></i>
-
+## `Google-Plus-G` font awesome icon Border
+To add border to `Google-Plus-G` font awesome icon, use `fa-border` class.
 ```
 <i class='fab fa-google-plus-g fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-google-plus-g icon To the left
-
-To pull icon fa-google-plus-g to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-google-plus-g fa-border fa-3x'></i>
+</div>
+
+## Pull `Google-Plus-G` font awesome icon To the left
+To pull `Google-Plus-G` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fab fa-google-plus-g fa-pull-left fa-3x'></i>
+  ... The text after Google-Plus-G Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-google-plus-g fa-pull-left fa-3x'></i>
-  ... The text after fa-google-plus-g Icon will be displayed on the right side of the icons
+  ... The text after Google-Plus-G Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Google-Plus-G` font awesome icon To the left
+To pull `Google-Plus-G` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fab fa-google-plus-g fa-pull-left fa-3x'></i>
-  ... The text after fa-google-plus-g Icon will be displayed on the right side of the icons
+<i class='fab fa-google-plus-g fa-pull-right fa-3x'></i>
+  ... The text after Google-Plus-G Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-google-plus-g icon To the right
-To pull icon fa-google-plus-g to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-google-plus-g fa-pull-right fa-3x'></i>
-  ... The text after fa-google-plus-g Icon will be displayed on the left side of the icons
+  ... The text after Google-Plus-G Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fab fa-google-plus-g fa-pull-right fa-3x'></i>
-  ... The text after fa-google-plus-g Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-google-plus-g icon using fa-spin
-To animate font awesome fa-google-plus-g icon, use fa-spin class.
-
+## Animate `Google-Plus-G` font awesome icon
+To animate `Google-Plus-G` font awesome icon, use `fa-spin` class.
 ```
 <i class='fab fa-google-plus-g fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fab fa-google-plus-g fa-spin fa-3x'></i>
+</div>
 
+## Animate `Google-Plus-G` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Google-Plus-G` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-google-plus-g icon with steps
-While animating the font awesome icon,We can rotate fa-google-plus-g icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-google-plus-g icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fab fa-google-plus-g fa-pulse fa-spin fa-3x'></i>
-
+<i class='fab fa-google-plus-g fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fab fa-google-plus-g fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fab fa-google-plus-g fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-google-plus-g Icon using fa-rotate-x
-To rotate the font awesome icon fa-google-plus-g, Use fa-rotate-x class
+## Rotate `Google-Plus-G` font awesome icon
+ To rotate `Google-Plus-G` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fab fa-google-plus-g fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-google-plus-g fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fab fa-google-plus-g fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-google-plus-g fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fab fa-google-plus-g fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fab fa-google-plus-g fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-google-plus-g Icon using fa-flip-*
-To flip fa-google-plus-g font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Google-Plus-G` font awesome icon
+ To flip `Google-Plus-G` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fab fa-google-plus-g fa-3x'>F</i> Normal <br>
 <i class='fab fa-google-plus-g fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-google-plus-g fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fab fa-google-plus-g fa-3x'>F</i> Normal <br>
 <i class='fab fa-google-plus-g fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-google-plus-g fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Google-Plus-G` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-google-plus-g icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Google-Plus-G` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-google-plus-g on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fab fa-google-plus-g fa-stack-1x'></i>
+    </span>
+      Google-Plus-G on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fab fa-google-plus-g fa-stack-1x fa-inverse'></i>
+    </span>
+      Google-Plus-G on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fab fa-google-plus-g fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Google-Plus-G on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fab fa-google-plus-g fa-stack-1x'></i>
     </span>
-      fa-google-plus-g on fa-square<br>
+      Google-Plus-G on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fab fa-google-plus-g fa-stack-1x fa-inverse'></i>
     </span>
-      fa-google-plus-g on fa-circle<br>
+      Google-Plus-G on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fab fa-google-plus-g fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-google-plus-g on fa-ban
+      Google-Plus-G on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fab fa-google-plus-g fa-stack-1x'></i>
-    </span>
-      fa-google-plus-g on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fab fa-google-plus-g fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-google-plus-g on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fab fa-google-plus-g fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-google-plus-g on fa-ban
 </div>
-
-
-
-
-
 

@@ -1,187 +1,285 @@
+
 +++
-title="fa-slack icon in font awesome icons"
-summary="fa-slack icon in font awesome icons is part of brand (fab) icons"
-keywords=["fa-slack,f198,fa-slack"]
-date="25-07-2020T22:59:21"
-lastmod="25-07-2020T22:59:21"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-skype"
-next="fa-slack-hash"
-linktitle="fa-slack"
+title='Slack font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Slack font awesome icon CSS class is fa-slack & CSS Content Code is  \f198'
+keywords =['Slack, \f198,fa-slack']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-skype'
+next = 'fa-slideshare'
+linktitle = 'fa-slack'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Slack` font awesome icon css class name is `fa-slack` and CSS Content Code is ` \f198`**.
+ 
+
+`Slack` font awesome icon is part of brands icons. 
 
 
-fa-slack icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-slack</td><td>fa-slack</td><td>f198</td></tr></tbody></table></div>
+{{%toc%}}
+## `Slack` font awesome icon usage
+We can display `Slack` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Slack` font awesome icon CSS class name
+
+To display `Slack` font awesome icon, add predefined class name i.e.,`fa-slack` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Slack` icon.
 
 
-## fa-slack icon Usage
-
-To display fa-slack icon add predefined class name i.e.,fa-slack (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-slack icon. i.e., fab.
-
+`Slack` icon has 1 icon style i.e.,brands. 
+ We need to append icon style class `fab`.
+```
+<i class='fab fa-slack'></i>
 
 ```
 
-<i class='fab fa-slack'>fa-slack</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-slack'></i>
+
+</div>
+
+
+## `Slack` font awesome icon CSS Content Code 
+
+We can display `Slack` font awesome icon using it's CSS Content Code ` \f198` 
+
+Use the following HTML code 
+
+```
+<li><span class='Slack fontawesomeicon'></span>Slack</li>
 ```
 
-<i class='fab fa-slack'>fa-slack</i>
-
-
-
-
-## Change fa-slack icon size
-To increase fa-slack font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-slack.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Slack::before {
+   font: var(--fa-font-brands);
+    content: ' \f198';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Slack::before {
+   font: var(--fa-font-brands);
+    content: ' \f198';
+ }</style>
+
+<li><span class='Slack fontawesomeicon'></span>Slack</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Slack` font awesome icon SVG 
+
+Use the following icon SVG to display `Slack` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>
+ Slack displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>
+ Slack displayed using SVG</p>
+</div>
+
+## Change `Slack` font awesome icon size
+To increase `Slack` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f198.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fab fa-slack fa-lg'>fa-lg</i><br/>
+<i class='fab fa-slack fa-2x'>fa-2x</i><br/>
+<i class='fab fa-slack fa-3x'>fa-3x</i><br/>
+<i class='fab fa-slack fa-4x'>fa-4x</i><br/>
+<i class='fab fa-slack fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fab fa-slack fa-lg'>fa-lg</i><br/>
 <i class='fab fa-slack fa-2x'>fa-2x</i><br/>
 <i class='fab fa-slack fa-3x'>fa-3x</i><br/>
 <i class='fab fa-slack fa-4x'>fa-4x</i><br/>
 <i class='fab fa-slack fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fab fa-slack fa-lg'>fa-lg</i><br/>
-<i class='fab fa-slack fa-2x'>fa-2x</i><br/>
-<i class='fab fa-slack fa-3x'>fa-3x</i><br/>
-<i class='fab fa-slack fa-4x'>fa-4x</i><br/>
-<i class='fab fa-slack fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-slack Icon with Fixed Width 
-
+## `Slack` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-slack icon and fa-home may not have same height and width.
+For example `Slack` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fab fa-slack fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-slack fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fab fa-slack fa-fw fa-3x'></i>Fixed Width<i class='fab fa-slack fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fab fa-slack fa-fw fa-3x'></i>Fixed Width<i class='fab fa-slack fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fab fa-slack fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-slack fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-slack Icon Border 
+</div>
 
-To add border to fa-slack icon, use fa-border class.
-
-
-```
-<i class='fab fa-slack fa-border fa-3x'></i>
-
+## `Slack` font awesome icon Border
+To add border to `Slack` font awesome icon, use `fa-border` class.
 ```
 <i class='fab fa-slack fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-slack icon To the left
-
-To pull icon fa-slack to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-slack fa-border fa-3x'></i>
+</div>
+
+## Pull `Slack` font awesome icon To the left
+To pull `Slack` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fab fa-slack fa-pull-left fa-3x'></i>
+  ... The text after Slack Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-slack fa-pull-left fa-3x'></i>
-  ... The text after fa-slack Icon will be displayed on the right side of the icons
+  ... The text after Slack Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Slack` font awesome icon To the left
+To pull `Slack` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fab fa-slack fa-pull-left fa-3x'></i>
-  ... The text after fa-slack Icon will be displayed on the right side of the icons
+<i class='fab fa-slack fa-pull-right fa-3x'></i>
+  ... The text after Slack Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-slack icon To the right
-To pull icon fa-slack to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-slack fa-pull-right fa-3x'></i>
-  ... The text after fa-slack Icon will be displayed on the left side of the icons
+  ... The text after Slack Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fab fa-slack fa-pull-right fa-3x'></i>
-  ... The text after fa-slack Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-slack icon using fa-spin
-To animate font awesome fa-slack icon, use fa-spin class.
-
+## Animate `Slack` font awesome icon
+To animate `Slack` font awesome icon, use `fa-spin` class.
 ```
 <i class='fab fa-slack fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fab fa-slack fa-spin fa-3x'></i>
+</div>
 
+## Animate `Slack` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Slack` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-slack icon with steps
-While animating the font awesome icon,We can rotate fa-slack icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-slack icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fab fa-slack fa-pulse fa-spin fa-3x'></i>
-
+<i class='fab fa-slack fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fab fa-slack fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fab fa-slack fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-slack Icon using fa-rotate-x
-To rotate the font awesome icon fa-slack, Use fa-rotate-x class
+## Rotate `Slack` font awesome icon
+ To rotate `Slack` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fab fa-slack fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-slack fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fab fa-slack fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-slack fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fab fa-slack fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fab fa-slack fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-slack Icon using fa-flip-*
-To flip fa-slack font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Slack` font awesome icon
+ To flip `Slack` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fab fa-slack fa-3x'>F</i> Normal <br>
 <i class='fab fa-slack fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-slack fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fab fa-slack fa-3x'>F</i> Normal <br>
 <i class='fab fa-slack fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-slack fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Slack` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-slack icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Slack` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-slack on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fab fa-slack fa-stack-1x'></i>
+    </span>
+      Slack on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fab fa-slack fa-stack-1x fa-inverse'></i>
+    </span>
+      Slack on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fab fa-slack fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Slack on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fab fa-slack fa-stack-1x'></i>
     </span>
-      fa-slack on fa-square<br>
+      Slack on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fab fa-slack fa-stack-1x fa-inverse'></i>
     </span>
-      fa-slack on fa-circle<br>
+      Slack on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fab fa-slack fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-slack on fa-ban
+      Slack on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fab fa-slack fa-stack-1x'></i>
-    </span>
-      fa-slack on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fab fa-slack fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-slack on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fab fa-slack fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-slack on fa-ban
 </div>
-
-
-
-
-
 

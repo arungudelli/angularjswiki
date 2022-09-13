@@ -1,187 +1,285 @@
+
 +++
-title="fa-arrow-up icon in font awesome icons"
-summary="fa-arrow-up icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-arrow-up,f062,fa-arrow-up"]
-date="25-07-2020T22:59:19"
-lastmod="25-07-2020T22:59:19"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-arrow-right"
-next="fa-arrows-alt"
-linktitle="fa-arrow-up"
+title='Arrow-Up font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Arrow-Up font awesome icon CSS class is fa-arrow-up & CSS Content Code is  \f062'
+keywords =['Arrow-Up, \f062,fa-arrow-up']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-arrow-up-z-a'
+next = 'fa-arrows-down-to-line'
+linktitle = 'fa-arrow-up'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Arrow-Up` font awesome icon css class name is `fa-arrow-up` and CSS Content Code is ` \f062`**.
+ 
+
+`Arrow-Up` font awesome icon is part of solid icons. 
 
 
-fa-arrow-up icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-arrow-up</td><td>fa-arrow-up</td><td>f062</td></tr></tbody></table></div>
+{{%toc%}}
+## `Arrow-Up` font awesome icon usage
+We can display `Arrow-Up` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Arrow-Up` font awesome icon CSS class name
+
+To display `Arrow-Up` font awesome icon, add predefined class name i.e.,`fa-arrow-up` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Arrow-Up` icon.
 
 
-## fa-arrow-up icon Usage
-
-To display fa-arrow-up icon add predefined class name i.e.,fa-arrow-up (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-arrow-up icon. i.e., fas.
-
+`Arrow-Up` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-arrow-up'></i>
 
 ```
 
-<i class='fas fa-arrow-up'>fa-arrow-up</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-arrow-up'></i>
+
+</div>
+
+
+## `Arrow-Up` font awesome icon CSS Content Code 
+
+We can display `Arrow-Up` font awesome icon using it's CSS Content Code ` \f062` 
+
+Use the following HTML code 
+
+```
+<li><span class='Arrow-Up fontawesomeicon'></span>Arrow-Up</li>
 ```
 
-<i class='fas fa-arrow-up'>fa-arrow-up</i>
-
-
-
-
-## Change fa-arrow-up icon size
-To increase fa-arrow-up font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-arrow-up.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Arrow-Up::before {
+   font: var(--fa-font-solid);
+    content: ' \f062';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Arrow-Up::before {
+   font: var(--fa-font-solid);
+    content: ' \f062';
+ }</style>
+
+<li><span class='Arrow-Up fontawesomeicon'></span>Arrow-Up</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Arrow-Up` font awesome icon SVG 
+
+Use the following icon SVG to display `Arrow-Up` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg>
+ Arrow-Up displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg>
+ Arrow-Up displayed using SVG</p>
+</div>
+
+## Change `Arrow-Up` font awesome icon size
+To increase `Arrow-Up` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f062.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-arrow-up fa-lg'>fa-lg</i><br/>
+<i class='fas fa-arrow-up fa-2x'>fa-2x</i><br/>
+<i class='fas fa-arrow-up fa-3x'>fa-3x</i><br/>
+<i class='fas fa-arrow-up fa-4x'>fa-4x</i><br/>
+<i class='fas fa-arrow-up fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-arrow-up fa-lg'>fa-lg</i><br/>
 <i class='fas fa-arrow-up fa-2x'>fa-2x</i><br/>
 <i class='fas fa-arrow-up fa-3x'>fa-3x</i><br/>
 <i class='fas fa-arrow-up fa-4x'>fa-4x</i><br/>
 <i class='fas fa-arrow-up fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-arrow-up fa-lg'>fa-lg</i><br/>
-<i class='fas fa-arrow-up fa-2x'>fa-2x</i><br/>
-<i class='fas fa-arrow-up fa-3x'>fa-3x</i><br/>
-<i class='fas fa-arrow-up fa-4x'>fa-4x</i><br/>
-<i class='fas fa-arrow-up fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-arrow-up Icon with Fixed Width 
-
+## `Arrow-Up` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-arrow-up icon and fa-home may not have same height and width.
+For example `Arrow-Up` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-arrow-up fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-arrow-up fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-arrow-up fa-fw fa-3x'></i>Fixed Width<i class='fas fa-arrow-up fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-arrow-up fa-fw fa-3x'></i>Fixed Width<i class='fas fa-arrow-up fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-arrow-up fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-arrow-up fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-arrow-up Icon Border 
+</div>
 
-To add border to fa-arrow-up icon, use fa-border class.
-
-
-```
-<i class='fas fa-arrow-up fa-border fa-3x'></i>
-
+## `Arrow-Up` font awesome icon Border
+To add border to `Arrow-Up` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-arrow-up fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-arrow-up icon To the left
-
-To pull icon fa-arrow-up to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-arrow-up fa-border fa-3x'></i>
+</div>
+
+## Pull `Arrow-Up` font awesome icon To the left
+To pull `Arrow-Up` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-arrow-up fa-pull-left fa-3x'></i>
+  ... The text after Arrow-Up Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-arrow-up fa-pull-left fa-3x'></i>
-  ... The text after fa-arrow-up Icon will be displayed on the right side of the icons
+  ... The text after Arrow-Up Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Arrow-Up` font awesome icon To the left
+To pull `Arrow-Up` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-arrow-up fa-pull-left fa-3x'></i>
-  ... The text after fa-arrow-up Icon will be displayed on the right side of the icons
+<i class='fas fa-arrow-up fa-pull-right fa-3x'></i>
+  ... The text after Arrow-Up Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-arrow-up icon To the right
-To pull icon fa-arrow-up to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-arrow-up fa-pull-right fa-3x'></i>
-  ... The text after fa-arrow-up Icon will be displayed on the left side of the icons
+  ... The text after Arrow-Up Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-arrow-up fa-pull-right fa-3x'></i>
-  ... The text after fa-arrow-up Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-arrow-up icon using fa-spin
-To animate font awesome fa-arrow-up icon, use fa-spin class.
-
+## Animate `Arrow-Up` font awesome icon
+To animate `Arrow-Up` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-arrow-up fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-arrow-up fa-spin fa-3x'></i>
+</div>
 
+## Animate `Arrow-Up` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Arrow-Up` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-arrow-up icon with steps
-While animating the font awesome icon,We can rotate fa-arrow-up icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-arrow-up icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-arrow-up fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-arrow-up fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-arrow-up fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-arrow-up fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-arrow-up Icon using fa-rotate-x
-To rotate the font awesome icon fa-arrow-up, Use fa-rotate-x class
+## Rotate `Arrow-Up` font awesome icon
+ To rotate `Arrow-Up` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-arrow-up fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-arrow-up fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-arrow-up fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-arrow-up fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-arrow-up fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-arrow-up fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-arrow-up Icon using fa-flip-*
-To flip fa-arrow-up font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Arrow-Up` font awesome icon
+ To flip `Arrow-Up` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-arrow-up fa-3x'>F</i> Normal <br>
 <i class='fas fa-arrow-up fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-arrow-up fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-arrow-up fa-3x'>F</i> Normal <br>
 <i class='fas fa-arrow-up fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-arrow-up fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Arrow-Up` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-arrow-up icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Arrow-Up` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-arrow-up on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-arrow-up fa-stack-1x'></i>
+    </span>
+      Arrow-Up on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-arrow-up fa-stack-1x fa-inverse'></i>
+    </span>
+      Arrow-Up on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-arrow-up fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Arrow-Up on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-arrow-up fa-stack-1x'></i>
     </span>
-      fa-arrow-up on fa-square<br>
+      Arrow-Up on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-arrow-up fa-stack-1x fa-inverse'></i>
     </span>
-      fa-arrow-up on fa-circle<br>
+      Arrow-Up on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-arrow-up fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-arrow-up on fa-ban
+      Arrow-Up on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-arrow-up fa-stack-1x'></i>
-    </span>
-      fa-arrow-up on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-arrow-up fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-arrow-up on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-arrow-up fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-arrow-up on fa-ban
 </div>
-
-
-
-
-
 

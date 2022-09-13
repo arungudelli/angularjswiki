@@ -1,275 +1,385 @@
+
 +++
-title="fa-font-awesome icon in font awesome icons"
-summary="fa-font-awesome icon in font awesome icons is part of brand (fab) icons"
-keywords=["fa-font-awesome,f2b4,fa-font-awesome"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-font"
-next="fa-font-awesome-alt"
-linktitle="fa-font-awesome"
+title='Font-Awesome font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Font-Awesome font awesome icon CSS class is fa-font-awesome & CSS Content Code is  \f2b4'
+keywords =['Font-Awesome, \f2b4,fa-font-awesome']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-folder'
+next = 'fa-font'
+linktitle = 'fa-font-awesome'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Font-Awesome` font awesome icon css class name is `fa-font-awesome` and CSS Content Code is ` \f2b4`**.
+
+`Font-Awesome` font awesome icon has 3 style types i.e.,  brands(fab), regular(far), solid(fas) 
 
 
-fa-font-awesome icon in font awesome icons is part of brand (fab) icons
+{{%toc%}}
+## `Font-Awesome` font awesome icon usage
+We can display `Font-Awesome` font awesome icon using 3 different ways depending upon our requirement.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-font-awesome</td><td>fa-font-awesome</td><td>f2b4</td></tr></tbody></table></div>
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Font-Awesome` font awesome icon CSS class name
+
+To display `Font-Awesome` font awesome icon, add predefined class name i.e.,`fa-font-awesome` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Font-Awesome` icon.
 
 
-## fa-font-awesome icon Usage
+ `Font-Awesome` font awesome icon has 3 icon styles.
+ To Display brands icon use `fab` class. 
+ To Display regular icon use `far` class. 
+ To Display solid icon use `fas` class. 
 
-To display fa-font-awesome icon add predefined class name i.e.,fa-font-awesome (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-font-awesome icon. i.e., fab.
-
+```
+<i class='fab fa-font-awesome'></i>
+<i class='far fa-font-awesome'></i>
+<i class='fas fa-font-awesome'></i>
 
 ```
 
-<i class='fab fa-font-awesome'>fa-font-awesome</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-font-awesome'></i>
+<i class='far fa-font-awesome'></i>
+<i class='fas fa-font-awesome'></i>
+
+</div>
+
+
+## `Font-Awesome` font awesome icon CSS Content Code 
+
+We can display `Font-Awesome` font awesome icon using it's CSS Content Code ` \f2b4` 
+
+Use the following HTML code 
+
+```
+<li><span class='Font-Awesome fontawesomeicon'></span>Font-Awesome</li>
 ```
 
-<i class='fab fa-font-awesome'>fa-font-awesome</i>
+Apply CSS code 
 
+```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
 
+.Font-Awesome::before {
+   font: var(--fa-font-solid);
+    content: ' \f2b4';
+ }</style>
+```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
 
-## Change fa-font-awesome icon size
-To increase fa-font-awesome font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-font-awesome.
+.Font-Awesome::before {
+   font: var(--fa-font-solid);
+    content: ' \f2b4';
+ }</style>
 
-Increase in icon size will be relative to their parent container. 
+<li><span class='Font-Awesome fontawesomeicon'></span>Font-Awesome</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Font-Awesome` font awesome icon SVG 
+
+Use the following icon SVG to display `Font-Awesome` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M448 48V384c-63.1 22.5-82.3 32-119.5 32c-62.8 0-86.6-32-149.3-32c-20.6 0-36.6 3.6-51.2 8.2v-64c14.6-4.6 30.6-8.2 51.2-8.2c62.7 0 86.5 32 149.3 32c20.4 0 35.6-3 55.5-9.3v-208c-19.9 6.3-35.1 9.3-55.5 9.3c-62.8 0-86.6-32-149.3-32c-50.8 0-74.9 20.6-115.2 28.7V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32s32 14.3 32 32V76.7c40.3-8 64.4-28.7 115.2-28.7c62.7 0 86.5 32 149.3 32c37.1 0 56.4-9.5 119.5-32z"/></svg>
 
 ```
 
-<i class='fab fa-font-awesome fa-lg'>fa-lg</i><br/>
-<i class='fab fa-font-awesome fa-2x'>fa-2x</i><br/>
-<i class='fab fa-font-awesome fa-3x'>fa-3x</i><br/>
-<i class='fab fa-font-awesome fa-4x'>fa-4x</i><br/>
-<i class='fab fa-font-awesome fa-5x'>fa-5x</i><br/>
-            
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M448 48V384c-63.1 22.5-82.3 32-119.5 32c-62.8 0-86.6-32-149.3-32c-20.6 0-36.6 3.6-51.2 8.2v-64c14.6-4.6 30.6-8.2 51.2-8.2c62.7 0 86.5 32 149.3 32c20.4 0 35.6-3 55.5-9.3v-208c-19.9 6.3-35.1 9.3-55.5 9.3c-62.8 0-86.6-32-149.3-32c-50.8 0-74.9 20.6-115.2 28.7V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32s32 14.3 32 32V76.7c40.3-8 64.4-28.7 115.2-28.7c62.7 0 86.5 32 149.3 32c37.1 0 56.4-9.5 119.5-32z"/></svg>
+ Font-Awesome displayed using SVG</p>
 ```
 
-<i class='fab fa-font-awesome fa-lg'>fa-lg</i><br/>
-<i class='fab fa-font-awesome fa-2x'>fa-2x</i><br/>
-<i class='fab fa-font-awesome fa-3x'>fa-3x</i><br/>
-<i class='fab fa-font-awesome fa-4x'>fa-4x</i><br/>
-<i class='fab fa-font-awesome fa-5x'>fa-5x</i><br/>
-            
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
 
 
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M448 48V384c-63.1 22.5-82.3 32-119.5 32c-62.8 0-86.6-32-149.3-32c-20.6 0-36.6 3.6-51.2 8.2v-64c14.6-4.6 30.6-8.2 51.2-8.2c62.7 0 86.5 32 149.3 32c20.4 0 35.6-3 55.5-9.3v-208c-19.9 6.3-35.1 9.3-55.5 9.3c-62.8 0-86.6-32-149.3-32c-50.8 0-74.9 20.6-115.2 28.7V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32s32 14.3 32 32V76.7c40.3-8 64.4-28.7 115.2-28.7c62.7 0 86.5 32 149.3 32c37.1 0 56.4-9.5 119.5-32z"/></svg>
+ Font-Awesome displayed using SVG</p>
+</div>
 
-## fa-font-awesome Icon with Fixed Width 
+## Change `Font-Awesome` font awesome icon size
+To increase `Font-Awesome` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f2b4.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-font-awesome fa-lg'>fa-lg</i><br/>
+<i class='fas fa-font-awesome fa-2x'>fa-2x</i><br/>
+<i class='fas fa-font-awesome fa-3x'>fa-3x</i><br/>
+<i class='fas fa-font-awesome fa-4x'>fa-4x</i><br/>
+<i class='fas fa-font-awesome fa-5x'>fa-5x</i><br/>
 
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-font-awesome fa-lg'>fa-lg</i><br/>
+<i class='fas fa-font-awesome fa-2x'>fa-2x</i><br/>
+<i class='fas fa-font-awesome fa-3x'>fa-3x</i><br/>
+<i class='fas fa-font-awesome fa-4x'>fa-4x</i><br/>
+<i class='fas fa-font-awesome fa-5x'>fa-5x</i><br/>
+
+</div>
+
+## `Font-Awesome` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-font-awesome icon and fa-home may not have same height and width.
+For example `Font-Awesome` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-font-awesome fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-font-awesome fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fab fa-font-awesome fa-fw fa-3x'></i>Fixed Width<i class='fab fa-font-awesome fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i style='border:1px solid;' class='fas fa-font-awesome fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-font-awesome fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
+
+</div>
+
+## `Font-Awesome` font awesome icon Border
+To add border to `Font-Awesome` font awesome icon, use `fa-border` class.
+```
+<i class='fas fa-font-awesome fa-border fa-3x'></i>
 ```
 
-<i class='fab fa-font-awesome fa-fw fa-3x'></i>Fixed Width<i class='fab fa-font-awesome fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-font-awesome fa-border fa-3x'></i>
+</div>
 
-## fa-font-awesome Icon Border 
-
-To add border to fa-font-awesome icon, use fa-border class.
-
-
+## Pull `Font-Awesome` font awesome icon To the left
+To pull `Font-Awesome` icon to the left of the container use `fa-pull-left` class.
 ```
-<i class='fab fa-font-awesome fa-border fa-3x'></i>
-
-```
-<i class='fab fa-font-awesome fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-font-awesome icon To the left
-
-To pull icon fa-font-awesome to the left of the container use fa-pull-left class.\n
-
-```
-
 <div style='width: 200px;'>
-<i class='fab fa-font-awesome fa-pull-left fa-3x'></i>
-  ... The text after fa-font-awesome Icon will be displayed on the right side of the icons
+<i class='fas fa-font-awesome fa-pull-left fa-3x'></i>
+  ... The text after Font-Awesome Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
 ```
 
-<div style='width: 200px;'>
-<i class='fab fa-font-awesome fa-pull-left fa-3x'></i>
-  ... The text after fa-font-awesome Icon will be displayed on the right side of the icons
-</div>
-<div style = 'clear: both;'></div>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
-
-
-
-## Pull fa-font-awesome icon To the right
-To pull icon fa-font-awesome to the right of the container use fa-pull-right class.
-
-```
 
 <div style='width: 200px;'>
-<i class='fab fa-font-awesome fa-pull-right fa-3x'></i>
-  ... The text after fa-font-awesome Icon will be displayed on the left side of the icons
+<i class='fas fa-font-awesome fa-pull-left fa-3x'></i>
+  ... The text after Font-Awesome Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+</div>
+
+## Pull `Font-Awesome` font awesome icon To the left
+To pull `Font-Awesome` icon to the right of the container use `fa-pull-right` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-font-awesome fa-pull-right fa-3x'></i>
+  ... The text after Font-Awesome Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
-<i class='fab fa-font-awesome fa-pull-right fa-3x'></i>
-  ... The text after fa-font-awesome Icon will be displayed on the left side of the icons
+<i class='fas fa-font-awesome fa-pull-right fa-3x'></i>
+  ... The text after Font-Awesome Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
+</div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-font-awesome icon using fa-spin
-To animate font awesome fa-font-awesome icon, use fa-spin class.
-
+## Animate `Font-Awesome` font awesome icon
+To animate `Font-Awesome` font awesome icon, use `fa-spin` class.
 ```
-<i class='fab fa-font-awesome fa-spin fa-3x'></i>
+<i class='fas fa-font-awesome fa-spin fa-3x'></i>
 ```
-<i class='fab fa-font-awesome fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-font-awesome fa-spin fa-3x'></i>
+</div>
 
+## Animate `Font-Awesome` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Font-Awesome` icon in 8 steps instead of uniform rotation.
 
-## Animate fa-font-awesome icon with steps
-While animating the font awesome icon,We can rotate fa-font-awesome icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-font-awesome icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fab fa-font-awesome fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-font-awesome fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fab fa-font-awesome fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-font-awesome fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-font-awesome Icon using fa-rotate-x
-To rotate the font awesome icon fa-font-awesome, Use fa-rotate-x class
+## Rotate `Font-Awesome` font awesome icon
+ To rotate `Font-Awesome` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
-<i class='fab fa-font-awesome fa-3x'>R</i>normal<br/><br/>
-<i class='fab fa-font-awesome fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
-<i class='fab fa-font-awesome fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
-<i class='fab fa-font-awesome fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
+<i class='fas fa-font-awesome fa-3x'>R</i>normal<br/><br/>
+<i class='fas fa-font-awesome fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
+<i class='fas fa-font-awesome fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
+<i class='fas fa-font-awesome fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
-<i class='fab fa-font-awesome fa-3x'>R</i>normal<br/><br/>
-<i class='fab fa-font-awesome fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
-<i class='fab fa-font-awesome fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
-<i class='fab fa-font-awesome fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
+<i class='fas fa-font-awesome fa-3x'>R</i>normal<br/><br/>
+<i class='fas fa-font-awesome fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
+<i class='fas fa-font-awesome fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
+<i class='fas fa-font-awesome fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
+</div>
 </div>
 
-
-
-
-## Flip fa-font-awesome Icon using fa-flip-*
-To flip fa-font-awesome font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Font-Awesome` font awesome icon
+ To flip `Font-Awesome` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
-<i class='fab fa-font-awesome fa-3x'>F</i> Normal <br>
-<i class='fab fa-font-awesome fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
-<i class='fab fa-font-awesome fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+<div>
+<i class='fas fa-font-awesome fa-3x'>F</i> Normal <br>
+<i class='fas fa-font-awesome fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
+<i class='fas fa-font-awesome fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
-<i class='fab fa-font-awesome fa-3x'>F</i> Normal <br>
-<i class='fab fa-font-awesome fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
-<i class='fab fa-font-awesome fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<div>
+<i class='fas fa-font-awesome fa-3x'>F</i> Normal <br>
+<i class='fas fa-font-awesome fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
+<i class='fas fa-font-awesome fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Font-Awesome` font awesome icon with other font awesome icons
 
-## Combine fa-font-awesome icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-font-awesome on top of icons like fa-square,fa-circle and fa-ban.
+And use class `fa-inverse` for an alternative icon color. 
 
-And used fa-inverse in the second example to invert the color of the icon.
+In the below example, I am displaying `Font-Awesome` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-font-awesome fa-stack-1x'></i>
+    </span>
+      Font-Awesome on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-font-awesome fa-stack-1x fa-inverse'></i>
+    </span>
+      Font-Awesome on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-font-awesome fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Font-Awesome on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
-        <i class='fab fa-font-awesome fa-stack-1x'></i>
+        <i class='fas fa-font-awesome fa-stack-1x'></i>
     </span>
-      fa-font-awesome on fa-square<br>
+      Font-Awesome on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fab fa-font-awesome fa-stack-1x fa-inverse'></i>
+        <i class='fas fa-font-awesome fa-stack-1x fa-inverse'></i>
     </span>
-      fa-font-awesome on fa-circle<br>
+      Font-Awesome on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
-        <i class='fab fa-font-awesome fa-stack-1x'></i>
+        <i class='fas fa-font-awesome fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-font-awesome on fa-ban
+      Font-Awesome on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fab fa-font-awesome fa-stack-1x'></i>
-    </span>
-      fa-font-awesome on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fab fa-font-awesome fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-font-awesome on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fab fa-font-awesome fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-font-awesome on fa-ban
 </div>
-
-
-
-
-
 

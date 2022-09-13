@@ -1,187 +1,285 @@
+
 +++
-title="fa-buysellads icon in font awesome icons"
-summary="fa-buysellads icon in font awesome icons is part of brand (fab) icons"
-keywords=["fa-buysellads,f20d,fa-buysellads"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-buy-n-large"
-next="fa-calculator"
-linktitle="fa-buysellads"
+title='Buysellads font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Buysellads font awesome icon CSS class is fa-buysellads & CSS Content Code is  \f20d'
+keywords =['Buysellads, \f20d,fa-buysellads']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-buy-n-large'
+next = 'fa-canadian-maple-leaf'
+linktitle = 'fa-buysellads'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Buysellads` font awesome icon css class name is `fa-buysellads` and CSS Content Code is ` \f20d`**.
+ 
+
+`Buysellads` font awesome icon is part of brands icons. 
 
 
-fa-buysellads icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-buysellads</td><td>fa-buysellads</td><td>f20d</td></tr></tbody></table></div>
+{{%toc%}}
+## `Buysellads` font awesome icon usage
+We can display `Buysellads` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Buysellads` font awesome icon CSS class name
+
+To display `Buysellads` font awesome icon, add predefined class name i.e.,`fa-buysellads` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Buysellads` icon.
 
 
-## fa-buysellads icon Usage
-
-To display fa-buysellads icon add predefined class name i.e.,fa-buysellads (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-buysellads icon. i.e., fab.
-
+`Buysellads` icon has 1 icon style i.e.,brands. 
+ We need to append icon style class `fab`.
+```
+<i class='fab fa-buysellads'></i>
 
 ```
 
-<i class='fab fa-buysellads'>fa-buysellads</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-buysellads'></i>
+
+</div>
+
+
+## `Buysellads` font awesome icon CSS Content Code 
+
+We can display `Buysellads` font awesome icon using it's CSS Content Code ` \f20d` 
+
+Use the following HTML code 
+
+```
+<li><span class='Buysellads fontawesomeicon'></span>Buysellads</li>
 ```
 
-<i class='fab fa-buysellads'>fa-buysellads</i>
-
-
-
-
-## Change fa-buysellads icon size
-To increase fa-buysellads font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-buysellads.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Buysellads::before {
+   font: var(--fa-font-brands);
+    content: ' \f20d';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Buysellads::before {
+   font: var(--fa-font-brands);
+    content: ' \f20d';
+ }</style>
+
+<li><span class='Buysellads fontawesomeicon'></span>Buysellads</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Buysellads` font awesome icon SVG 
+
+Use the following icon SVG to display `Buysellads` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M224 150.7l42.9 160.7h-85.8L224 150.7zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-65.3 325.3l-94.5-298.7H159.8L65.3 405.3H156l111.7-91.6 24.2 91.6h90.8z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M224 150.7l42.9 160.7h-85.8L224 150.7zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-65.3 325.3l-94.5-298.7H159.8L65.3 405.3H156l111.7-91.6 24.2 91.6h90.8z"/></svg>
+ Buysellads displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M224 150.7l42.9 160.7h-85.8L224 150.7zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-65.3 325.3l-94.5-298.7H159.8L65.3 405.3H156l111.7-91.6 24.2 91.6h90.8z"/></svg>
+ Buysellads displayed using SVG</p>
+</div>
+
+## Change `Buysellads` font awesome icon size
+To increase `Buysellads` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f20d.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fab fa-buysellads fa-lg'>fa-lg</i><br/>
+<i class='fab fa-buysellads fa-2x'>fa-2x</i><br/>
+<i class='fab fa-buysellads fa-3x'>fa-3x</i><br/>
+<i class='fab fa-buysellads fa-4x'>fa-4x</i><br/>
+<i class='fab fa-buysellads fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fab fa-buysellads fa-lg'>fa-lg</i><br/>
 <i class='fab fa-buysellads fa-2x'>fa-2x</i><br/>
 <i class='fab fa-buysellads fa-3x'>fa-3x</i><br/>
 <i class='fab fa-buysellads fa-4x'>fa-4x</i><br/>
 <i class='fab fa-buysellads fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fab fa-buysellads fa-lg'>fa-lg</i><br/>
-<i class='fab fa-buysellads fa-2x'>fa-2x</i><br/>
-<i class='fab fa-buysellads fa-3x'>fa-3x</i><br/>
-<i class='fab fa-buysellads fa-4x'>fa-4x</i><br/>
-<i class='fab fa-buysellads fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-buysellads Icon with Fixed Width 
-
+## `Buysellads` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-buysellads icon and fa-home may not have same height and width.
+For example `Buysellads` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fab fa-buysellads fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-buysellads fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fab fa-buysellads fa-fw fa-3x'></i>Fixed Width<i class='fab fa-buysellads fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fab fa-buysellads fa-fw fa-3x'></i>Fixed Width<i class='fab fa-buysellads fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fab fa-buysellads fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-buysellads fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-buysellads Icon Border 
+</div>
 
-To add border to fa-buysellads icon, use fa-border class.
-
-
-```
-<i class='fab fa-buysellads fa-border fa-3x'></i>
-
+## `Buysellads` font awesome icon Border
+To add border to `Buysellads` font awesome icon, use `fa-border` class.
 ```
 <i class='fab fa-buysellads fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-buysellads icon To the left
-
-To pull icon fa-buysellads to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-buysellads fa-border fa-3x'></i>
+</div>
+
+## Pull `Buysellads` font awesome icon To the left
+To pull `Buysellads` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fab fa-buysellads fa-pull-left fa-3x'></i>
+  ... The text after Buysellads Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-buysellads fa-pull-left fa-3x'></i>
-  ... The text after fa-buysellads Icon will be displayed on the right side of the icons
+  ... The text after Buysellads Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Buysellads` font awesome icon To the left
+To pull `Buysellads` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fab fa-buysellads fa-pull-left fa-3x'></i>
-  ... The text after fa-buysellads Icon will be displayed on the right side of the icons
+<i class='fab fa-buysellads fa-pull-right fa-3x'></i>
+  ... The text after Buysellads Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-buysellads icon To the right
-To pull icon fa-buysellads to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-buysellads fa-pull-right fa-3x'></i>
-  ... The text after fa-buysellads Icon will be displayed on the left side of the icons
+  ... The text after Buysellads Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fab fa-buysellads fa-pull-right fa-3x'></i>
-  ... The text after fa-buysellads Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-buysellads icon using fa-spin
-To animate font awesome fa-buysellads icon, use fa-spin class.
-
+## Animate `Buysellads` font awesome icon
+To animate `Buysellads` font awesome icon, use `fa-spin` class.
 ```
 <i class='fab fa-buysellads fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fab fa-buysellads fa-spin fa-3x'></i>
+</div>
 
+## Animate `Buysellads` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Buysellads` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-buysellads icon with steps
-While animating the font awesome icon,We can rotate fa-buysellads icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-buysellads icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fab fa-buysellads fa-pulse fa-spin fa-3x'></i>
-
+<i class='fab fa-buysellads fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fab fa-buysellads fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fab fa-buysellads fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-buysellads Icon using fa-rotate-x
-To rotate the font awesome icon fa-buysellads, Use fa-rotate-x class
+## Rotate `Buysellads` font awesome icon
+ To rotate `Buysellads` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fab fa-buysellads fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-buysellads fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fab fa-buysellads fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-buysellads fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fab fa-buysellads fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fab fa-buysellads fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-buysellads Icon using fa-flip-*
-To flip fa-buysellads font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Buysellads` font awesome icon
+ To flip `Buysellads` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fab fa-buysellads fa-3x'>F</i> Normal <br>
 <i class='fab fa-buysellads fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-buysellads fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fab fa-buysellads fa-3x'>F</i> Normal <br>
 <i class='fab fa-buysellads fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-buysellads fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Buysellads` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-buysellads icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Buysellads` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-buysellads on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fab fa-buysellads fa-stack-1x'></i>
+    </span>
+      Buysellads on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fab fa-buysellads fa-stack-1x fa-inverse'></i>
+    </span>
+      Buysellads on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fab fa-buysellads fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Buysellads on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fab fa-buysellads fa-stack-1x'></i>
     </span>
-      fa-buysellads on fa-square<br>
+      Buysellads on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fab fa-buysellads fa-stack-1x fa-inverse'></i>
     </span>
-      fa-buysellads on fa-circle<br>
+      Buysellads on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fab fa-buysellads fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-buysellads on fa-ban
+      Buysellads on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fab fa-buysellads fa-stack-1x'></i>
-    </span>
-      fa-buysellads on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fab fa-buysellads fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-buysellads on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fab fa-buysellads fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-buysellads on fa-ban
 </div>
-
-
-
-
-
 

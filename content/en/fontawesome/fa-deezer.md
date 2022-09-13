@@ -1,187 +1,285 @@
+
 +++
-title="fa-deezer icon in font awesome icons"
-summary="fa-deezer icon in font awesome icons is part of brand (fab) icons"
-keywords=["fa-deezer,f977,fa-deezer"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-deaf"
-next="fa-delicious"
-linktitle="fa-deezer"
+title='Deezer font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Deezer font awesome icon CSS class is fa-deezer & CSS Content Code is  \e077'
+keywords =['Deezer, \e077,fa-deezer']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-dashcube'
+next = 'fa-delicious'
+linktitle = 'fa-deezer'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Deezer` font awesome icon css class name is `fa-deezer` and CSS Content Code is ` \e077`**.
+ 
+
+`Deezer` font awesome icon is part of brands icons. 
 
 
-fa-deezer icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-deezer</td><td>fa-deezer</td><td>f977</td></tr></tbody></table></div>
+{{%toc%}}
+## `Deezer` font awesome icon usage
+We can display `Deezer` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Deezer` font awesome icon CSS class name
+
+To display `Deezer` font awesome icon, add predefined class name i.e.,`fa-deezer` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Deezer` icon.
 
 
-## fa-deezer icon Usage
-
-To display fa-deezer icon add predefined class name i.e.,fa-deezer (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-deezer icon. i.e., fab.
-
+`Deezer` icon has 1 icon style i.e.,brands. 
+ We need to append icon style class `fab`.
+```
+<i class='fab fa-deezer'></i>
 
 ```
 
-<i class='fab fa-deezer'>fa-deezer</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-deezer'></i>
+
+</div>
+
+
+## `Deezer` font awesome icon CSS Content Code 
+
+We can display `Deezer` font awesome icon using it's CSS Content Code ` \e077` 
+
+Use the following HTML code 
+
+```
+<li><span class='Deezer fontawesomeicon'></span>Deezer</li>
 ```
 
-<i class='fab fa-deezer'>fa-deezer</i>
-
-
-
-
-## Change fa-deezer icon size
-To increase fa-deezer font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-deezer.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Deezer::before {
+   font: var(--fa-font-brands);
+    content: ' \e077';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Deezer::before {
+   font: var(--fa-font-brands);
+    content: ' \e077';
+ }</style>
+
+<li><span class='Deezer fontawesomeicon'></span>Deezer</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Deezer` font awesome icon SVG 
+
+Use the following icon SVG to display `Deezer` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M451.46,244.71H576V172H451.46Zm0-173.89v72.67H576V70.82Zm0,275.06H576V273.2H451.46ZM0,447.09H124.54V374.42H0Zm150.47,0H275V374.42H150.47Zm150.52,0H425.53V374.42H301Zm150.47,0H576V374.42H451.46ZM301,345.88H425.53V273.2H301Zm-150.52,0H275V273.2H150.47Zm0-101.17H275V172H150.47Z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M451.46,244.71H576V172H451.46Zm0-173.89v72.67H576V70.82Zm0,275.06H576V273.2H451.46ZM0,447.09H124.54V374.42H0Zm150.47,0H275V374.42H150.47Zm150.52,0H425.53V374.42H301Zm150.47,0H576V374.42H451.46ZM301,345.88H425.53V273.2H301Zm-150.52,0H275V273.2H150.47Zm0-101.17H275V172H150.47Z"/></svg>
+ Deezer displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M451.46,244.71H576V172H451.46Zm0-173.89v72.67H576V70.82Zm0,275.06H576V273.2H451.46ZM0,447.09H124.54V374.42H0Zm150.47,0H275V374.42H150.47Zm150.52,0H425.53V374.42H301Zm150.47,0H576V374.42H451.46ZM301,345.88H425.53V273.2H301Zm-150.52,0H275V273.2H150.47Zm0-101.17H275V172H150.47Z"/></svg>
+ Deezer displayed using SVG</p>
+</div>
+
+## Change `Deezer` font awesome icon size
+To increase `Deezer` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \e077.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fab fa-deezer fa-lg'>fa-lg</i><br/>
+<i class='fab fa-deezer fa-2x'>fa-2x</i><br/>
+<i class='fab fa-deezer fa-3x'>fa-3x</i><br/>
+<i class='fab fa-deezer fa-4x'>fa-4x</i><br/>
+<i class='fab fa-deezer fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fab fa-deezer fa-lg'>fa-lg</i><br/>
 <i class='fab fa-deezer fa-2x'>fa-2x</i><br/>
 <i class='fab fa-deezer fa-3x'>fa-3x</i><br/>
 <i class='fab fa-deezer fa-4x'>fa-4x</i><br/>
 <i class='fab fa-deezer fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fab fa-deezer fa-lg'>fa-lg</i><br/>
-<i class='fab fa-deezer fa-2x'>fa-2x</i><br/>
-<i class='fab fa-deezer fa-3x'>fa-3x</i><br/>
-<i class='fab fa-deezer fa-4x'>fa-4x</i><br/>
-<i class='fab fa-deezer fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-deezer Icon with Fixed Width 
-
+## `Deezer` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-deezer icon and fa-home may not have same height and width.
+For example `Deezer` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fab fa-deezer fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-deezer fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fab fa-deezer fa-fw fa-3x'></i>Fixed Width<i class='fab fa-deezer fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fab fa-deezer fa-fw fa-3x'></i>Fixed Width<i class='fab fa-deezer fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fab fa-deezer fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-deezer fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-deezer Icon Border 
+</div>
 
-To add border to fa-deezer icon, use fa-border class.
-
-
-```
-<i class='fab fa-deezer fa-border fa-3x'></i>
-
+## `Deezer` font awesome icon Border
+To add border to `Deezer` font awesome icon, use `fa-border` class.
 ```
 <i class='fab fa-deezer fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-deezer icon To the left
-
-To pull icon fa-deezer to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-deezer fa-border fa-3x'></i>
+</div>
+
+## Pull `Deezer` font awesome icon To the left
+To pull `Deezer` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fab fa-deezer fa-pull-left fa-3x'></i>
+  ... The text after Deezer Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-deezer fa-pull-left fa-3x'></i>
-  ... The text after fa-deezer Icon will be displayed on the right side of the icons
+  ... The text after Deezer Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Deezer` font awesome icon To the left
+To pull `Deezer` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fab fa-deezer fa-pull-left fa-3x'></i>
-  ... The text after fa-deezer Icon will be displayed on the right side of the icons
+<i class='fab fa-deezer fa-pull-right fa-3x'></i>
+  ... The text after Deezer Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-deezer icon To the right
-To pull icon fa-deezer to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-deezer fa-pull-right fa-3x'></i>
-  ... The text after fa-deezer Icon will be displayed on the left side of the icons
+  ... The text after Deezer Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fab fa-deezer fa-pull-right fa-3x'></i>
-  ... The text after fa-deezer Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-deezer icon using fa-spin
-To animate font awesome fa-deezer icon, use fa-spin class.
-
+## Animate `Deezer` font awesome icon
+To animate `Deezer` font awesome icon, use `fa-spin` class.
 ```
 <i class='fab fa-deezer fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fab fa-deezer fa-spin fa-3x'></i>
+</div>
 
+## Animate `Deezer` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Deezer` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-deezer icon with steps
-While animating the font awesome icon,We can rotate fa-deezer icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-deezer icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fab fa-deezer fa-pulse fa-spin fa-3x'></i>
-
+<i class='fab fa-deezer fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fab fa-deezer fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fab fa-deezer fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-deezer Icon using fa-rotate-x
-To rotate the font awesome icon fa-deezer, Use fa-rotate-x class
+## Rotate `Deezer` font awesome icon
+ To rotate `Deezer` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fab fa-deezer fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-deezer fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fab fa-deezer fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-deezer fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fab fa-deezer fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fab fa-deezer fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-deezer Icon using fa-flip-*
-To flip fa-deezer font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Deezer` font awesome icon
+ To flip `Deezer` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fab fa-deezer fa-3x'>F</i> Normal <br>
 <i class='fab fa-deezer fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-deezer fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fab fa-deezer fa-3x'>F</i> Normal <br>
 <i class='fab fa-deezer fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-deezer fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Deezer` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-deezer icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Deezer` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-deezer on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fab fa-deezer fa-stack-1x'></i>
+    </span>
+      Deezer on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fab fa-deezer fa-stack-1x fa-inverse'></i>
+    </span>
+      Deezer on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fab fa-deezer fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Deezer on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fab fa-deezer fa-stack-1x'></i>
     </span>
-      fa-deezer on fa-square<br>
+      Deezer on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fab fa-deezer fa-stack-1x fa-inverse'></i>
     </span>
-      fa-deezer on fa-circle<br>
+      Deezer on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fab fa-deezer fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-deezer on fa-ban
+      Deezer on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fab fa-deezer fa-stack-1x'></i>
-    </span>
-      fa-deezer on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fab fa-deezer fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-deezer on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fab fa-deezer fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-deezer on fa-ban
 </div>
-
-
-
-
-
 

@@ -1,187 +1,285 @@
+
 +++
-title="fa-cloudsmith icon in font awesome icons"
-summary="fa-cloudsmith icon in font awesome icons is part of brand (fab) icons"
-keywords=["fa-cloudsmith,f384,fa-cloudsmith"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-cloudscale"
-next="fa-cloudversify"
-linktitle="fa-cloudsmith"
+title='Cloudsmith font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Cloudsmith font awesome icon CSS class is fa-cloudsmith & CSS Content Code is  \f384'
+keywords =['Cloudsmith, \f384,fa-cloudsmith']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-cloudscale'
+next = 'fa-cloudversify'
+linktitle = 'fa-cloudsmith'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Cloudsmith` font awesome icon css class name is `fa-cloudsmith` and CSS Content Code is ` \f384`**.
+ 
+
+`Cloudsmith` font awesome icon is part of brands icons. 
 
 
-fa-cloudsmith icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-cloudsmith</td><td>fa-cloudsmith</td><td>f384</td></tr></tbody></table></div>
+{{%toc%}}
+## `Cloudsmith` font awesome icon usage
+We can display `Cloudsmith` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Cloudsmith` font awesome icon CSS class name
+
+To display `Cloudsmith` font awesome icon, add predefined class name i.e.,`fa-cloudsmith` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Cloudsmith` icon.
 
 
-## fa-cloudsmith icon Usage
-
-To display fa-cloudsmith icon add predefined class name i.e.,fa-cloudsmith (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-cloudsmith icon. i.e., fab.
-
+`Cloudsmith` icon has 1 icon style i.e.,brands. 
+ We need to append icon style class `fab`.
+```
+<i class='fab fa-cloudsmith'></i>
 
 ```
 
-<i class='fab fa-cloudsmith'>fa-cloudsmith</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-cloudsmith'></i>
+
+</div>
+
+
+## `Cloudsmith` font awesome icon CSS Content Code 
+
+We can display `Cloudsmith` font awesome icon using it's CSS Content Code ` \f384` 
+
+Use the following HTML code 
+
+```
+<li><span class='Cloudsmith fontawesomeicon'></span>Cloudsmith</li>
 ```
 
-<i class='fab fa-cloudsmith'>fa-cloudsmith</i>
-
-
-
-
-## Change fa-cloudsmith icon size
-To increase fa-cloudsmith font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-cloudsmith.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Cloudsmith::before {
+   font: var(--fa-font-brands);
+    content: ' \f384';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Cloudsmith::before {
+   font: var(--fa-font-brands);
+    content: ' \f384';
+ }</style>
+
+<li><span class='Cloudsmith fontawesomeicon'></span>Cloudsmith</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Cloudsmith` font awesome icon SVG 
+
+Use the following icon SVG to display `Cloudsmith` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M332.5 419.9c0 46.4-37.6 84.1-84 84.1s-84-37.7-84-84.1 37.6-84 84-84 84 37.6 84 84zm-84-243.9c46.4 0 80-37.6 80-84s-33.6-84-80-84-88 37.6-88 84-29.6 76-76 76-84 41.6-84 88 37.6 80 84 80 84-33.6 84-80 33.6-80 80-80z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M332.5 419.9c0 46.4-37.6 84.1-84 84.1s-84-37.7-84-84.1 37.6-84 84-84 84 37.6 84 84zm-84-243.9c46.4 0 80-37.6 80-84s-33.6-84-80-84-88 37.6-88 84-29.6 76-76 76-84 41.6-84 88 37.6 80 84 80 84-33.6 84-80 33.6-80 80-80z"/></svg>
+ Cloudsmith displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M332.5 419.9c0 46.4-37.6 84.1-84 84.1s-84-37.7-84-84.1 37.6-84 84-84 84 37.6 84 84zm-84-243.9c46.4 0 80-37.6 80-84s-33.6-84-80-84-88 37.6-88 84-29.6 76-76 76-84 41.6-84 88 37.6 80 84 80 84-33.6 84-80 33.6-80 80-80z"/></svg>
+ Cloudsmith displayed using SVG</p>
+</div>
+
+## Change `Cloudsmith` font awesome icon size
+To increase `Cloudsmith` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f384.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fab fa-cloudsmith fa-lg'>fa-lg</i><br/>
+<i class='fab fa-cloudsmith fa-2x'>fa-2x</i><br/>
+<i class='fab fa-cloudsmith fa-3x'>fa-3x</i><br/>
+<i class='fab fa-cloudsmith fa-4x'>fa-4x</i><br/>
+<i class='fab fa-cloudsmith fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fab fa-cloudsmith fa-lg'>fa-lg</i><br/>
 <i class='fab fa-cloudsmith fa-2x'>fa-2x</i><br/>
 <i class='fab fa-cloudsmith fa-3x'>fa-3x</i><br/>
 <i class='fab fa-cloudsmith fa-4x'>fa-4x</i><br/>
 <i class='fab fa-cloudsmith fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fab fa-cloudsmith fa-lg'>fa-lg</i><br/>
-<i class='fab fa-cloudsmith fa-2x'>fa-2x</i><br/>
-<i class='fab fa-cloudsmith fa-3x'>fa-3x</i><br/>
-<i class='fab fa-cloudsmith fa-4x'>fa-4x</i><br/>
-<i class='fab fa-cloudsmith fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-cloudsmith Icon with Fixed Width 
-
+## `Cloudsmith` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-cloudsmith icon and fa-home may not have same height and width.
+For example `Cloudsmith` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fab fa-cloudsmith fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-cloudsmith fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fab fa-cloudsmith fa-fw fa-3x'></i>Fixed Width<i class='fab fa-cloudsmith fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fab fa-cloudsmith fa-fw fa-3x'></i>Fixed Width<i class='fab fa-cloudsmith fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fab fa-cloudsmith fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-cloudsmith fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-cloudsmith Icon Border 
+</div>
 
-To add border to fa-cloudsmith icon, use fa-border class.
-
-
-```
-<i class='fab fa-cloudsmith fa-border fa-3x'></i>
-
+## `Cloudsmith` font awesome icon Border
+To add border to `Cloudsmith` font awesome icon, use `fa-border` class.
 ```
 <i class='fab fa-cloudsmith fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-cloudsmith icon To the left
-
-To pull icon fa-cloudsmith to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-cloudsmith fa-border fa-3x'></i>
+</div>
+
+## Pull `Cloudsmith` font awesome icon To the left
+To pull `Cloudsmith` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fab fa-cloudsmith fa-pull-left fa-3x'></i>
+  ... The text after Cloudsmith Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-cloudsmith fa-pull-left fa-3x'></i>
-  ... The text after fa-cloudsmith Icon will be displayed on the right side of the icons
+  ... The text after Cloudsmith Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Cloudsmith` font awesome icon To the left
+To pull `Cloudsmith` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fab fa-cloudsmith fa-pull-left fa-3x'></i>
-  ... The text after fa-cloudsmith Icon will be displayed on the right side of the icons
+<i class='fab fa-cloudsmith fa-pull-right fa-3x'></i>
+  ... The text after Cloudsmith Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-cloudsmith icon To the right
-To pull icon fa-cloudsmith to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-cloudsmith fa-pull-right fa-3x'></i>
-  ... The text after fa-cloudsmith Icon will be displayed on the left side of the icons
+  ... The text after Cloudsmith Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fab fa-cloudsmith fa-pull-right fa-3x'></i>
-  ... The text after fa-cloudsmith Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-cloudsmith icon using fa-spin
-To animate font awesome fa-cloudsmith icon, use fa-spin class.
-
+## Animate `Cloudsmith` font awesome icon
+To animate `Cloudsmith` font awesome icon, use `fa-spin` class.
 ```
 <i class='fab fa-cloudsmith fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fab fa-cloudsmith fa-spin fa-3x'></i>
+</div>
 
+## Animate `Cloudsmith` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Cloudsmith` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-cloudsmith icon with steps
-While animating the font awesome icon,We can rotate fa-cloudsmith icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-cloudsmith icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fab fa-cloudsmith fa-pulse fa-spin fa-3x'></i>
-
+<i class='fab fa-cloudsmith fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fab fa-cloudsmith fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fab fa-cloudsmith fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-cloudsmith Icon using fa-rotate-x
-To rotate the font awesome icon fa-cloudsmith, Use fa-rotate-x class
+## Rotate `Cloudsmith` font awesome icon
+ To rotate `Cloudsmith` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fab fa-cloudsmith fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-cloudsmith fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fab fa-cloudsmith fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-cloudsmith fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fab fa-cloudsmith fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fab fa-cloudsmith fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-cloudsmith Icon using fa-flip-*
-To flip fa-cloudsmith font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Cloudsmith` font awesome icon
+ To flip `Cloudsmith` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fab fa-cloudsmith fa-3x'>F</i> Normal <br>
 <i class='fab fa-cloudsmith fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-cloudsmith fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fab fa-cloudsmith fa-3x'>F</i> Normal <br>
 <i class='fab fa-cloudsmith fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-cloudsmith fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Cloudsmith` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-cloudsmith icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Cloudsmith` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-cloudsmith on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fab fa-cloudsmith fa-stack-1x'></i>
+    </span>
+      Cloudsmith on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fab fa-cloudsmith fa-stack-1x fa-inverse'></i>
+    </span>
+      Cloudsmith on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fab fa-cloudsmith fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Cloudsmith on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fab fa-cloudsmith fa-stack-1x'></i>
     </span>
-      fa-cloudsmith on fa-square<br>
+      Cloudsmith on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fab fa-cloudsmith fa-stack-1x fa-inverse'></i>
     </span>
-      fa-cloudsmith on fa-circle<br>
+      Cloudsmith on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fab fa-cloudsmith fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-cloudsmith on fa-ban
+      Cloudsmith on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fab fa-cloudsmith fa-stack-1x'></i>
-    </span>
-      fa-cloudsmith on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fab fa-cloudsmith fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-cloudsmith on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fab fa-cloudsmith fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-cloudsmith on fa-ban
 </div>
-
-
-
-
-
 

@@ -1,187 +1,285 @@
+
 +++
-title="fa-egg icon in font awesome icons"
-summary="fa-egg icon in font awesome icons has 1 variant fas i.e.,solid."
-keywords=["fa-egg,f7fb,fa-egg"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-edit"
-next="fa-eject"
-linktitle="fa-egg"
+title='Egg font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Egg font awesome icon CSS class is fa-egg & CSS Content Code is  \f7fb'
+keywords =['Egg, \f7fb,fa-egg']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-earth-oceania'
+next = 'fa-eject'
+linktitle = 'fa-egg'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Egg` font awesome icon css class name is `fa-egg` and CSS Content Code is ` \f7fb`**.
+ 
+
+`Egg` font awesome icon is part of solid icons. 
 
 
-fa-egg icon in font awesome icons has 1 variant fas i.e.,solid.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-egg</td><td>fa-egg</td><td>f7fb</td></tr></tbody></table></div>
+{{%toc%}}
+## `Egg` font awesome icon usage
+We can display `Egg` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Egg` font awesome icon CSS class name
+
+To display `Egg` font awesome icon, add predefined class name i.e.,`fa-egg` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Egg` icon.
 
 
-## fa-egg icon Usage
-
-To display fa-egg icon add predefined class name i.e.,fa-egg (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-egg icon. i.e., fas.
-
+`Egg` icon has 1 icon style i.e.,solid. 
+ We need to append icon style class `fas`.
+```
+<i class='fas fa-egg'></i>
 
 ```
 
-<i class='fas fa-egg'>fa-egg</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-egg'></i>
+
+</div>
+
+
+## `Egg` font awesome icon CSS Content Code 
+
+We can display `Egg` font awesome icon using it's CSS Content Code ` \f7fb` 
+
+Use the following HTML code 
+
+```
+<li><span class='Egg fontawesomeicon'></span>Egg</li>
 ```
 
-<i class='fas fa-egg'>fa-egg</i>
-
-
-
-
-## Change fa-egg icon size
-To increase fa-egg font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-egg.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Egg::before {
+   font: var(--fa-font-solid);
+    content: ' \f7fb';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Egg::before {
+   font: var(--fa-font-solid);
+    content: ' \f7fb';
+ }</style>
+
+<li><span class='Egg fontawesomeicon'></span>Egg</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Egg` font awesome icon SVG 
+
+Use the following icon SVG to display `Egg` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M192 496C86 496 0 410 0 304C0 192 96 16 192 16s192 176 192 288c0 106-86 192-192 192zM156.5 138l0 0 0 0 0 0c5.5-6.9 4.4-17-2.5-22.5s-17-4.4-22.5 2.5L144 128c-12.5-10-12.5-10-12.5-10l0 0 0 0-.1 .1-.2 .2-.6 .8c-.5 .7-1.3 1.7-2.2 3c-1.9 2.6-4.5 6.3-7.7 11c-6.3 9.4-14.6 23-23 39.7C81.1 206.1 64 252.6 64 304c0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.6 14.9-86.1 30.3-116.8c7.6-15.3 15.3-27.7 21-36.3c2.8-4.3 5.2-7.6 6.8-9.8c.8-1.1 1.4-1.9 1.8-2.4l.4-.6 .1-.1 0 0z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M192 496C86 496 0 410 0 304C0 192 96 16 192 16s192 176 192 288c0 106-86 192-192 192zM156.5 138l0 0 0 0 0 0c5.5-6.9 4.4-17-2.5-22.5s-17-4.4-22.5 2.5L144 128c-12.5-10-12.5-10-12.5-10l0 0 0 0-.1 .1-.2 .2-.6 .8c-.5 .7-1.3 1.7-2.2 3c-1.9 2.6-4.5 6.3-7.7 11c-6.3 9.4-14.6 23-23 39.7C81.1 206.1 64 252.6 64 304c0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.6 14.9-86.1 30.3-116.8c7.6-15.3 15.3-27.7 21-36.3c2.8-4.3 5.2-7.6 6.8-9.8c.8-1.1 1.4-1.9 1.8-2.4l.4-.6 .1-.1 0 0z"/></svg>
+ Egg displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M192 496C86 496 0 410 0 304C0 192 96 16 192 16s192 176 192 288c0 106-86 192-192 192zM156.5 138l0 0 0 0 0 0c5.5-6.9 4.4-17-2.5-22.5s-17-4.4-22.5 2.5L144 128c-12.5-10-12.5-10-12.5-10l0 0 0 0-.1 .1-.2 .2-.6 .8c-.5 .7-1.3 1.7-2.2 3c-1.9 2.6-4.5 6.3-7.7 11c-6.3 9.4-14.6 23-23 39.7C81.1 206.1 64 252.6 64 304c0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.6 14.9-86.1 30.3-116.8c7.6-15.3 15.3-27.7 21-36.3c2.8-4.3 5.2-7.6 6.8-9.8c.8-1.1 1.4-1.9 1.8-2.4l.4-.6 .1-.1 0 0z"/></svg>
+ Egg displayed using SVG</p>
+</div>
+
+## Change `Egg` font awesome icon size
+To increase `Egg` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f7fb.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-egg fa-lg'>fa-lg</i><br/>
+<i class='fas fa-egg fa-2x'>fa-2x</i><br/>
+<i class='fas fa-egg fa-3x'>fa-3x</i><br/>
+<i class='fas fa-egg fa-4x'>fa-4x</i><br/>
+<i class='fas fa-egg fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-egg fa-lg'>fa-lg</i><br/>
 <i class='fas fa-egg fa-2x'>fa-2x</i><br/>
 <i class='fas fa-egg fa-3x'>fa-3x</i><br/>
 <i class='fas fa-egg fa-4x'>fa-4x</i><br/>
 <i class='fas fa-egg fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-egg fa-lg'>fa-lg</i><br/>
-<i class='fas fa-egg fa-2x'>fa-2x</i><br/>
-<i class='fas fa-egg fa-3x'>fa-3x</i><br/>
-<i class='fas fa-egg fa-4x'>fa-4x</i><br/>
-<i class='fas fa-egg fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-egg Icon with Fixed Width 
-
+## `Egg` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-egg icon and fa-home may not have same height and width.
+For example `Egg` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-egg fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-egg fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-egg fa-fw fa-3x'></i>Fixed Width<i class='fas fa-egg fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-egg fa-fw fa-3x'></i>Fixed Width<i class='fas fa-egg fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-egg fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-egg fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-egg Icon Border 
+</div>
 
-To add border to fa-egg icon, use fa-border class.
-
-
-```
-<i class='fas fa-egg fa-border fa-3x'></i>
-
+## `Egg` font awesome icon Border
+To add border to `Egg` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-egg fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-egg icon To the left
-
-To pull icon fa-egg to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-egg fa-border fa-3x'></i>
+</div>
+
+## Pull `Egg` font awesome icon To the left
+To pull `Egg` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-egg fa-pull-left fa-3x'></i>
+  ... The text after Egg Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-egg fa-pull-left fa-3x'></i>
-  ... The text after fa-egg Icon will be displayed on the right side of the icons
+  ... The text after Egg Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Egg` font awesome icon To the left
+To pull `Egg` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-egg fa-pull-left fa-3x'></i>
-  ... The text after fa-egg Icon will be displayed on the right side of the icons
+<i class='fas fa-egg fa-pull-right fa-3x'></i>
+  ... The text after Egg Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-egg icon To the right
-To pull icon fa-egg to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-egg fa-pull-right fa-3x'></i>
-  ... The text after fa-egg Icon will be displayed on the left side of the icons
+  ... The text after Egg Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-egg fa-pull-right fa-3x'></i>
-  ... The text after fa-egg Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-egg icon using fa-spin
-To animate font awesome fa-egg icon, use fa-spin class.
-
+## Animate `Egg` font awesome icon
+To animate `Egg` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-egg fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-egg fa-spin fa-3x'></i>
+</div>
 
+## Animate `Egg` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Egg` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-egg icon with steps
-While animating the font awesome icon,We can rotate fa-egg icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-egg icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-egg fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-egg fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-egg fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-egg fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-egg Icon using fa-rotate-x
-To rotate the font awesome icon fa-egg, Use fa-rotate-x class
+## Rotate `Egg` font awesome icon
+ To rotate `Egg` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-egg fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-egg fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-egg fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-egg fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-egg fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-egg fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-egg Icon using fa-flip-*
-To flip fa-egg font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Egg` font awesome icon
+ To flip `Egg` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-egg fa-3x'>F</i> Normal <br>
 <i class='fas fa-egg fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-egg fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-egg fa-3x'>F</i> Normal <br>
 <i class='fas fa-egg fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-egg fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Egg` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-egg icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Egg` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-egg on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-egg fa-stack-1x'></i>
+    </span>
+      Egg on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-egg fa-stack-1x fa-inverse'></i>
+    </span>
+      Egg on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-egg fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Egg on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-egg fa-stack-1x'></i>
     </span>
-      fa-egg on fa-square<br>
+      Egg on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-egg fa-stack-1x fa-inverse'></i>
     </span>
-      fa-egg on fa-circle<br>
+      Egg on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-egg fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-egg on fa-ban
+      Egg on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-egg fa-stack-1x'></i>
-    </span>
-      fa-egg on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-egg fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-egg on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-egg fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-egg on fa-ban
 </div>
-
-
-
-
-
 

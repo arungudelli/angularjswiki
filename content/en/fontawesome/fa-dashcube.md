@@ -1,187 +1,285 @@
+
 +++
-title="fa-dashcube icon in font awesome icons"
-summary="fa-dashcube icon in font awesome icons is part of brand (fab) icons"
-keywords=["fa-dashcube,f210,fa-dashcube"]
-date="25-07-2020T22:59:20"
-lastmod="25-07-2020T22:59:20"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-dailymotion"
-next="fa-database"
-linktitle="fa-dashcube"
+title='Dashcube font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Dashcube font awesome icon CSS class is fa-dashcube & CSS Content Code is  \f210'
+keywords =['Dashcube, \f210,fa-dashcube']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-dailymotion'
+next = 'fa-deezer'
+linktitle = 'fa-dashcube'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Dashcube` font awesome icon css class name is `fa-dashcube` and CSS Content Code is ` \f210`**.
+ 
+
+`Dashcube` font awesome icon is part of brands icons. 
 
 
-fa-dashcube icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-dashcube</td><td>fa-dashcube</td><td>f210</td></tr></tbody></table></div>
+{{%toc%}}
+## `Dashcube` font awesome icon usage
+We can display `Dashcube` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Dashcube` font awesome icon CSS class name
+
+To display `Dashcube` font awesome icon, add predefined class name i.e.,`fa-dashcube` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Dashcube` icon.
 
 
-## fa-dashcube icon Usage
-
-To display fa-dashcube icon add predefined class name i.e.,fa-dashcube (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-dashcube icon. i.e., fab.
-
+`Dashcube` icon has 1 icon style i.e.,brands. 
+ We need to append icon style class `fab`.
+```
+<i class='fab fa-dashcube'></i>
 
 ```
 
-<i class='fab fa-dashcube'>fa-dashcube</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-dashcube'></i>
+
+</div>
+
+
+## `Dashcube` font awesome icon CSS Content Code 
+
+We can display `Dashcube` font awesome icon using it's CSS Content Code ` \f210` 
+
+Use the following HTML code 
+
+```
+<li><span class='Dashcube fontawesomeicon'></span>Dashcube</li>
 ```
 
-<i class='fab fa-dashcube'>fa-dashcube</i>
-
-
-
-
-## Change fa-dashcube icon size
-To increase fa-dashcube font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-dashcube.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Dashcube::before {
+   font: var(--fa-font-brands);
+    content: ' \f210';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Dashcube::before {
+   font: var(--fa-font-brands);
+    content: ' \f210';
+ }</style>
+
+<li><span class='Dashcube fontawesomeicon'></span>Dashcube</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Dashcube` font awesome icon SVG 
+
+Use the following icon SVG to display `Dashcube` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M326.6 104H110.4c-51.1 0-91.2 43.3-91.2 93.5V427c0 50.5 40.1 85 91.2 85h227.2c51.1 0 91.2-34.5 91.2-85V0L326.6 104zM153.9 416.5c-17.7 0-32.4-15.1-32.4-32.8V240.8c0-17.7 14.7-32.5 32.4-32.5h140.7c17.7 0 32 14.8 32 32.5v123.5l51.1 52.3H153.9z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M326.6 104H110.4c-51.1 0-91.2 43.3-91.2 93.5V427c0 50.5 40.1 85 91.2 85h227.2c51.1 0 91.2-34.5 91.2-85V0L326.6 104zM153.9 416.5c-17.7 0-32.4-15.1-32.4-32.8V240.8c0-17.7 14.7-32.5 32.4-32.5h140.7c17.7 0 32 14.8 32 32.5v123.5l51.1 52.3H153.9z"/></svg>
+ Dashcube displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M326.6 104H110.4c-51.1 0-91.2 43.3-91.2 93.5V427c0 50.5 40.1 85 91.2 85h227.2c51.1 0 91.2-34.5 91.2-85V0L326.6 104zM153.9 416.5c-17.7 0-32.4-15.1-32.4-32.8V240.8c0-17.7 14.7-32.5 32.4-32.5h140.7c17.7 0 32 14.8 32 32.5v123.5l51.1 52.3H153.9z"/></svg>
+ Dashcube displayed using SVG</p>
+</div>
+
+## Change `Dashcube` font awesome icon size
+To increase `Dashcube` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f210.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fab fa-dashcube fa-lg'>fa-lg</i><br/>
+<i class='fab fa-dashcube fa-2x'>fa-2x</i><br/>
+<i class='fab fa-dashcube fa-3x'>fa-3x</i><br/>
+<i class='fab fa-dashcube fa-4x'>fa-4x</i><br/>
+<i class='fab fa-dashcube fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fab fa-dashcube fa-lg'>fa-lg</i><br/>
 <i class='fab fa-dashcube fa-2x'>fa-2x</i><br/>
 <i class='fab fa-dashcube fa-3x'>fa-3x</i><br/>
 <i class='fab fa-dashcube fa-4x'>fa-4x</i><br/>
 <i class='fab fa-dashcube fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fab fa-dashcube fa-lg'>fa-lg</i><br/>
-<i class='fab fa-dashcube fa-2x'>fa-2x</i><br/>
-<i class='fab fa-dashcube fa-3x'>fa-3x</i><br/>
-<i class='fab fa-dashcube fa-4x'>fa-4x</i><br/>
-<i class='fab fa-dashcube fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-dashcube Icon with Fixed Width 
-
+## `Dashcube` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-dashcube icon and fa-home may not have same height and width.
+For example `Dashcube` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fab fa-dashcube fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-dashcube fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fab fa-dashcube fa-fw fa-3x'></i>Fixed Width<i class='fab fa-dashcube fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fab fa-dashcube fa-fw fa-3x'></i>Fixed Width<i class='fab fa-dashcube fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fab fa-dashcube fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-dashcube fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-dashcube Icon Border 
+</div>
 
-To add border to fa-dashcube icon, use fa-border class.
-
-
-```
-<i class='fab fa-dashcube fa-border fa-3x'></i>
-
+## `Dashcube` font awesome icon Border
+To add border to `Dashcube` font awesome icon, use `fa-border` class.
 ```
 <i class='fab fa-dashcube fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-dashcube icon To the left
-
-To pull icon fa-dashcube to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-dashcube fa-border fa-3x'></i>
+</div>
+
+## Pull `Dashcube` font awesome icon To the left
+To pull `Dashcube` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fab fa-dashcube fa-pull-left fa-3x'></i>
+  ... The text after Dashcube Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-dashcube fa-pull-left fa-3x'></i>
-  ... The text after fa-dashcube Icon will be displayed on the right side of the icons
+  ... The text after Dashcube Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Dashcube` font awesome icon To the left
+To pull `Dashcube` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fab fa-dashcube fa-pull-left fa-3x'></i>
-  ... The text after fa-dashcube Icon will be displayed on the right side of the icons
+<i class='fab fa-dashcube fa-pull-right fa-3x'></i>
+  ... The text after Dashcube Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-dashcube icon To the right
-To pull icon fa-dashcube to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-dashcube fa-pull-right fa-3x'></i>
-  ... The text after fa-dashcube Icon will be displayed on the left side of the icons
+  ... The text after Dashcube Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fab fa-dashcube fa-pull-right fa-3x'></i>
-  ... The text after fa-dashcube Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-dashcube icon using fa-spin
-To animate font awesome fa-dashcube icon, use fa-spin class.
-
+## Animate `Dashcube` font awesome icon
+To animate `Dashcube` font awesome icon, use `fa-spin` class.
 ```
 <i class='fab fa-dashcube fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fab fa-dashcube fa-spin fa-3x'></i>
+</div>
 
+## Animate `Dashcube` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Dashcube` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-dashcube icon with steps
-While animating the font awesome icon,We can rotate fa-dashcube icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-dashcube icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fab fa-dashcube fa-pulse fa-spin fa-3x'></i>
-
+<i class='fab fa-dashcube fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fab fa-dashcube fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fab fa-dashcube fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-dashcube Icon using fa-rotate-x
-To rotate the font awesome icon fa-dashcube, Use fa-rotate-x class
+## Rotate `Dashcube` font awesome icon
+ To rotate `Dashcube` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fab fa-dashcube fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-dashcube fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fab fa-dashcube fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-dashcube fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fab fa-dashcube fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fab fa-dashcube fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-dashcube Icon using fa-flip-*
-To flip fa-dashcube font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Dashcube` font awesome icon
+ To flip `Dashcube` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fab fa-dashcube fa-3x'>F</i> Normal <br>
 <i class='fab fa-dashcube fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-dashcube fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fab fa-dashcube fa-3x'>F</i> Normal <br>
 <i class='fab fa-dashcube fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-dashcube fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Dashcube` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-dashcube icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Dashcube` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-dashcube on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fab fa-dashcube fa-stack-1x'></i>
+    </span>
+      Dashcube on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fab fa-dashcube fa-stack-1x fa-inverse'></i>
+    </span>
+      Dashcube on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fab fa-dashcube fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Dashcube on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fab fa-dashcube fa-stack-1x'></i>
     </span>
-      fa-dashcube on fa-square<br>
+      Dashcube on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fab fa-dashcube fa-stack-1x fa-inverse'></i>
     </span>
-      fa-dashcube on fa-circle<br>
+      Dashcube on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fab fa-dashcube fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-dashcube on fa-ban
+      Dashcube on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fab fa-dashcube fa-stack-1x'></i>
-    </span>
-      fa-dashcube on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fab fa-dashcube fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-dashcube on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fab fa-dashcube fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-dashcube on fa-ban
 </div>
-
-
-
-
-
 

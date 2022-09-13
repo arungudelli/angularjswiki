@@ -1,189 +1,287 @@
+
 +++
-title="fa-window-restore icon in font awesome icons"
-summary="fa-window-restore icon in font awesome icons has 2 variants regular (far) and solid (fas)"
-keywords=["fa-window-restore,f2d2,fa-window-restore"]
-date="25-07-2020T22:59:21"
-lastmod="25-07-2020T22:59:21"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-window-minimize"
-next="fa-windows"
-linktitle="fa-window-restore"
+title='Window-Restore font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Window-Restore font awesome icon CSS class is fa-window-restore & CSS Content Code is  \f2d2'
+keywords =['Window-Restore, \f2d2,fa-window-restore']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-window-minimize'
+next = 'fa-wine-bottle'
+linktitle = 'fa-window-restore'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Window-Restore` font awesome icon css class name is `fa-window-restore` and CSS Content Code is ` \f2d2`**.
+
+`Window-Restore` font awesome icon has 2 style types i.e.,  regular(far), solid(fas) 
 
 
-fa-window-restore icon in font awesome icons has 2 variants regular (far) and solid (fas)
+{{%toc%}}
+## `Window-Restore` font awesome icon usage
+We can display `Window-Restore` font awesome icon using 3 different ways depending upon our requirement.
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-window-restore</td><td>fa-window-restore</td><td>f2d2</td></tr></tbody></table></div>
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Window-Restore` font awesome icon CSS class name
+
+To display `Window-Restore` font awesome icon, add predefined class name i.e.,`fa-window-restore` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Window-Restore` icon.
 
 
-## fa-window-restore icon Usage
+ `Window-Restore` font awesome icon has 2 icon styles.
+ To Display regular icon use `far` class. 
+ To Display solid icon use `fas` class. 
 
-To display fa-window-restore icon add predefined class name i.e.,fa-window-restore (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-window-restore icon. i.e., fas,far.
-
+```
+<i class='far fa-window-restore'></i>
+<i class='fas fa-window-restore'></i>
 
 ```
 
-<i class='fas fa-window-restore'>fa-window-restore</i>
-<i class='far fa-window-restore'>fa-window-restore</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='far fa-window-restore'></i>
+<i class='fas fa-window-restore'></i>
+
+</div>
+
+
+## `Window-Restore` font awesome icon CSS Content Code 
+
+We can display `Window-Restore` font awesome icon using it's CSS Content Code ` \f2d2` 
+
+Use the following HTML code 
+
+```
+<li><span class='Window-Restore fontawesomeicon'></span>Window-Restore</li>
 ```
 
-<i class='fas fa-window-restore'>fa-window-restore</i>
-<i class='far fa-window-restore'>fa-window-restore</i>
-
-
-
-
-## Change fa-window-restore icon size
-To increase fa-window-restore font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-window-restore.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Window-Restore::before {
+   font: var(--fa-font-solid);
+    content: ' \f2d2';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Window-Restore::before {
+   font: var(--fa-font-solid);
+    content: ' \f2d2';
+ }</style>
+
+<li><span class='Window-Restore fontawesomeicon'></span>Window-Restore</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Window-Restore` font awesome icon SVG 
+
+Use the following icon SVG to display `Window-Restore` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M432 64H208c-8.8 0-16 7.2-16 16V96H128V80c0-44.2 35.8-80 80-80H432c44.2 0 80 35.8 80 80V304c0 44.2-35.8 80-80 80H416V320h16c8.8 0 16-7.2 16-16V80c0-8.8-7.2-16-16-16zM0 192c0-35.3 28.7-64 64-64H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V192zm64 32c0 17.7 14.3 32 32 32H288c17.7 0 32-14.3 32-32s-14.3-32-32-32H96c-17.7 0-32 14.3-32 32z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M432 64H208c-8.8 0-16 7.2-16 16V96H128V80c0-44.2 35.8-80 80-80H432c44.2 0 80 35.8 80 80V304c0 44.2-35.8 80-80 80H416V320h16c8.8 0 16-7.2 16-16V80c0-8.8-7.2-16-16-16zM0 192c0-35.3 28.7-64 64-64H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V192zm64 32c0 17.7 14.3 32 32 32H288c17.7 0 32-14.3 32-32s-14.3-32-32-32H96c-17.7 0-32 14.3-32 32z"/></svg>
+ Window-Restore displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M432 64H208c-8.8 0-16 7.2-16 16V96H128V80c0-44.2 35.8-80 80-80H432c44.2 0 80 35.8 80 80V304c0 44.2-35.8 80-80 80H416V320h16c8.8 0 16-7.2 16-16V80c0-8.8-7.2-16-16-16zM0 192c0-35.3 28.7-64 64-64H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V192zm64 32c0 17.7 14.3 32 32 32H288c17.7 0 32-14.3 32-32s-14.3-32-32-32H96c-17.7 0-32 14.3-32 32z"/></svg>
+ Window-Restore displayed using SVG</p>
+</div>
+
+## Change `Window-Restore` font awesome icon size
+To increase `Window-Restore` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f2d2.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fas fa-window-restore fa-lg'>fa-lg</i><br/>
+<i class='fas fa-window-restore fa-2x'>fa-2x</i><br/>
+<i class='fas fa-window-restore fa-3x'>fa-3x</i><br/>
+<i class='fas fa-window-restore fa-4x'>fa-4x</i><br/>
+<i class='fas fa-window-restore fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fas fa-window-restore fa-lg'>fa-lg</i><br/>
 <i class='fas fa-window-restore fa-2x'>fa-2x</i><br/>
 <i class='fas fa-window-restore fa-3x'>fa-3x</i><br/>
 <i class='fas fa-window-restore fa-4x'>fa-4x</i><br/>
 <i class='fas fa-window-restore fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fas fa-window-restore fa-lg'>fa-lg</i><br/>
-<i class='fas fa-window-restore fa-2x'>fa-2x</i><br/>
-<i class='fas fa-window-restore fa-3x'>fa-3x</i><br/>
-<i class='fas fa-window-restore fa-4x'>fa-4x</i><br/>
-<i class='fas fa-window-restore fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-window-restore Icon with Fixed Width 
-
+## `Window-Restore` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-window-restore icon and fa-home may not have same height and width.
+For example `Window-Restore` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fas fa-window-restore fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-window-restore fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fas fa-window-restore fa-fw fa-3x'></i>Fixed Width<i class='fas fa-window-restore fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fas fa-window-restore fa-fw fa-3x'></i>Fixed Width<i class='fas fa-window-restore fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fas fa-window-restore fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-window-restore fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-window-restore Icon Border 
+</div>
 
-To add border to fa-window-restore icon, use fa-border class.
-
-
-```
-<i class='fas fa-window-restore fa-border fa-3x'></i>
-
+## `Window-Restore` font awesome icon Border
+To add border to `Window-Restore` font awesome icon, use `fa-border` class.
 ```
 <i class='fas fa-window-restore fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-window-restore icon To the left
-
-To pull icon fa-window-restore to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fas fa-window-restore fa-border fa-3x'></i>
+</div>
+
+## Pull `Window-Restore` font awesome icon To the left
+To pull `Window-Restore` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fas fa-window-restore fa-pull-left fa-3x'></i>
+  ... The text after Window-Restore Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-window-restore fa-pull-left fa-3x'></i>
-  ... The text after fa-window-restore Icon will be displayed on the right side of the icons
+  ... The text after Window-Restore Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Window-Restore` font awesome icon To the left
+To pull `Window-Restore` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fas fa-window-restore fa-pull-left fa-3x'></i>
-  ... The text after fa-window-restore Icon will be displayed on the right side of the icons
+<i class='fas fa-window-restore fa-pull-right fa-3x'></i>
+  ... The text after Window-Restore Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-window-restore icon To the right
-To pull icon fa-window-restore to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fas fa-window-restore fa-pull-right fa-3x'></i>
-  ... The text after fa-window-restore Icon will be displayed on the left side of the icons
+  ... The text after Window-Restore Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fas fa-window-restore fa-pull-right fa-3x'></i>
-  ... The text after fa-window-restore Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-window-restore icon using fa-spin
-To animate font awesome fa-window-restore icon, use fa-spin class.
-
+## Animate `Window-Restore` font awesome icon
+To animate `Window-Restore` font awesome icon, use `fa-spin` class.
 ```
 <i class='fas fa-window-restore fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fas fa-window-restore fa-spin fa-3x'></i>
+</div>
 
+## Animate `Window-Restore` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Window-Restore` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-window-restore icon with steps
-While animating the font awesome icon,We can rotate fa-window-restore icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-window-restore icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fas fa-window-restore fa-pulse fa-spin fa-3x'></i>
-
+<i class='fas fa-window-restore fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fas fa-window-restore fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fas fa-window-restore fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-window-restore Icon using fa-rotate-x
-To rotate the font awesome icon fa-window-restore, Use fa-rotate-x class
+## Rotate `Window-Restore` font awesome icon
+ To rotate `Window-Restore` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fas fa-window-restore fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-window-restore fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -192,86 +290,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fas fa-window-restore fa-3x'>R</i>normal<br/><br/>
 <i class='fas fa-window-restore fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fas fa-window-restore fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fas fa-window-restore fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-window-restore Icon using fa-flip-*
-To flip fa-window-restore font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Window-Restore` font awesome icon
+ To flip `Window-Restore` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fas fa-window-restore fa-3x'>F</i> Normal <br>
 <i class='fas fa-window-restore fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-window-restore fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fas fa-window-restore fa-3x'>F</i> Normal <br>
 <i class='fas fa-window-restore fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fas fa-window-restore fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Window-Restore` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-window-restore icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Window-Restore` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-window-restore on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fas fa-window-restore fa-stack-1x'></i>
+    </span>
+      Window-Restore on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fas fa-window-restore fa-stack-1x fa-inverse'></i>
+    </span>
+      Window-Restore on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-window-restore fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Window-Restore on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fas fa-window-restore fa-stack-1x'></i>
     </span>
-      fa-window-restore on fa-square<br>
+      Window-Restore on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fas fa-window-restore fa-stack-1x fa-inverse'></i>
     </span>
-      fa-window-restore on fa-circle<br>
+      Window-Restore on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fas fa-window-restore fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-window-restore on fa-ban
+      Window-Restore on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fas fa-window-restore fa-stack-1x'></i>
-    </span>
-      fa-window-restore on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fas fa-window-restore fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-window-restore on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-window-restore fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-window-restore on fa-ban
 </div>
-
-
-
-
-
 

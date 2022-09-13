@@ -1,187 +1,285 @@
+
 +++
-title="fa-vimeo-v icon in font awesome icons"
-summary="fa-vimeo-v icon in font awesome icons is part of brand (fab) icons"
-keywords=["fa-vimeo-v,f27d,fa-vimeo-v"]
-date="25-07-2020T22:59:21"
-lastmod="25-07-2020T22:59:21"
-type="docs"
-parentdoc="fontawesome"
-featured='font-awesome-icons.png'
-categories=['faicons']
-prev="fa-vimeo-square"
-next="fa-vine"
-linktitle="fa-vimeo-v"
+title='Vimeo-V font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
+summary = 'Vimeo-V font awesome icon CSS class is fa-vimeo-v & CSS Content Code is  \f27d'
+keywords =['Vimeo-V, \f27d,fa-vimeo-v']
+date = '08-09-2022T00:00:00'
+lastmod = '08-09-2022T00:00:01'
+type = 'docs'
+parentdoc = 'fontawesome'
+featured = 'font-awesome-icons.png'
+categories =['faicons']
+prev = 'fa-viber'
+next = 'fa-vimeo'
+linktitle = 'fa-vimeo-v'
 [menu.fontawesome]
-parent="fontawesome"
-weight=20
-draft=false
-+++
+parent = 'fontawesome'
+weight = 20
+draft = 'false'
++++ 
+
+**`Vimeo-V` font awesome icon css class name is `fa-vimeo-v` and CSS Content Code is ` \f27d`**.
+ 
+
+`Vimeo-V` font awesome icon is part of brands icons. 
 
 
-fa-vimeo-v icon in font awesome icons is part of brand (fab) icons
 
-<div class='table-responsive'><table class='table'><thead><tr><th>Name</th><th>Class Name</th><th>Css Content Code</th></tr></thead><tbody><tr><td>fa-vimeo-v</td><td>fa-vimeo-v</td><td>f27d</td></tr></tbody></table></div>
+{{%toc%}}
+## `Vimeo-V` font awesome icon usage
+We can display `Vimeo-V` font awesome icon using 3 different ways depending upon our requirement.
+
+1. Using CSS Class Name 
+
+2. Using CSS Content Code 
+
+3. Using SVG 
 
 
-{{% toc %}}
+
+## `Vimeo-V` font awesome icon CSS class name
+
+To display `Vimeo-V` font awesome icon, add predefined class name i.e.,`fa-vimeo-v` (with prefix `fa-`) to the `i` tag. 
+
+And we need to add corresponding font awesome icon style for the `Vimeo-V` icon.
 
 
-## fa-vimeo-v icon Usage
-
-To display fa-vimeo-v icon add predefined class name i.e.,fa-vimeo-v (with prefix fa-) to the 'i' tag.
-
-Here 'i' tag represents icon.
-
-And we need to add corresponding category for fa-vimeo-v icon. i.e., fab.
-
+`Vimeo-V` icon has 1 icon style i.e.,brands. 
+ We need to append icon style class `fab`.
+```
+<i class='fab fa-vimeo-v'></i>
 
 ```
 
-<i class='fab fa-vimeo-v'>fa-vimeo-v</i>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-vimeo-v'></i>
+
+</div>
+
+
+## `Vimeo-V` font awesome icon CSS Content Code 
+
+We can display `Vimeo-V` font awesome icon using it's CSS Content Code ` \f27d` 
+
+Use the following HTML code 
+
+```
+<li><span class='Vimeo-V fontawesomeicon'></span>Vimeo-V</li>
 ```
 
-<i class='fab fa-vimeo-v'>fa-vimeo-v</i>
-
-
-
-
-## Change fa-vimeo-v icon size
-To increase fa-vimeo-v font awesome icon size, use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes along with icon class fa-vimeo-v.
-
-Increase in icon size will be relative to their parent container. 
+Apply CSS code 
 
 ```
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Vimeo-V::before {
+   font: var(--fa-font-brands);
+    content: ' \f27d';
+ }</style>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+<style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Vimeo-V::before {
+   font: var(--fa-font-brands);
+    content: ' \f27d';
+ }</style>
+
+<li><span class='Vimeo-V fontawesomeicon'></span>Vimeo-V</li>
+</div>
+
+For the detailed tutorial visit
+[https://www.angularjswiki.com/fontawesome/csscontentcode/](https://www.angularjswiki.com/fontawesome/csscontentcode/)
+
+## `Vimeo-V` font awesome icon SVG 
+
+Use the following icon SVG to display `Vimeo-V` font awesome icon.
+```
+<svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M447.8 153.6c-2 43.6-32.4 103.3-91.4 179.1-60.9 79.2-112.4 118.8-154.6 118.8-26.1 0-48.2-24.1-66.3-72.3C100.3 250 85.3 174.3 56.2 174.3c-3.4 0-15.1 7.1-35.2 21.1L0 168.2c51.6-45.3 100.9-95.7 131.8-98.5 34.9-3.4 56.3 20.5 64.4 71.5 28.7 181.5 41.4 208.9 93.6 126.7 18.7-29.6 28.8-52.1 30.2-67.6 4.8-45.9-35.8-42.8-63.3-31 22-72.1 64.1-107.1 126.2-105.1 45.8 1.2 67.5 31.1 64.9 89.4z"/></svg>
+
+```
+
+Use the following HTML code
+```
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M447.8 153.6c-2 43.6-32.4 103.3-91.4 179.1-60.9 79.2-112.4 118.8-154.6 118.8-26.1 0-48.2-24.1-66.3-72.3C100.3 250 85.3 174.3 56.2 174.3c-3.4 0-15.1 7.1-35.2 21.1L0 168.2c51.6-45.3 100.9-95.7 131.8-98.5 34.9-3.4 56.3 20.5 64.4 71.5 28.7 181.5 41.4 208.9 93.6 126.7 18.7-29.6 28.8-52.1 30.2-67.6 4.8-45.9-35.8-42.8-63.3-31 22-72.1 64.1-107.1 126.2-105.1 45.8 1.2 67.5 31.1 64.9 89.4z"/></svg>
+ Vimeo-V displayed using SVG</p>
+```
+
+Apply CSS code
+```
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+  <style>
+    .fontawesomesvg {width: 1em;
+      height: 1em;
+      vertical-align: -.125em;
+    }
+  </style>
+
+
+<p>This <svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M447.8 153.6c-2 43.6-32.4 103.3-91.4 179.1-60.9 79.2-112.4 118.8-154.6 118.8-26.1 0-48.2-24.1-66.3-72.3C100.3 250 85.3 174.3 56.2 174.3c-3.4 0-15.1 7.1-35.2 21.1L0 168.2c51.6-45.3 100.9-95.7 131.8-98.5 34.9-3.4 56.3 20.5 64.4 71.5 28.7 181.5 41.4 208.9 93.6 126.7 18.7-29.6 28.8-52.1 30.2-67.6 4.8-45.9-35.8-42.8-63.3-31 22-72.1 64.1-107.1 126.2-105.1 45.8 1.2 67.5 31.1 64.9 89.4z"/></svg>
+ Vimeo-V displayed using SVG</p>
+</div>
+
+## Change `Vimeo-V` font awesome icon size
+To increase `Vimeo-V` font awesome icon size, use the `fa-lg(33 % increase)`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x` classes along with icon class  \f27d.
+Increase in icon size will be relative to their parent container.
+```
+<i class='fab fa-vimeo-v fa-lg'>fa-lg</i><br/>
+<i class='fab fa-vimeo-v fa-2x'>fa-2x</i><br/>
+<i class='fab fa-vimeo-v fa-3x'>fa-3x</i><br/>
+<i class='fab fa-vimeo-v fa-4x'>fa-4x</i><br/>
+<i class='fab fa-vimeo-v fa-5x'>fa-5x</i><br/>
+
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <i class='fab fa-vimeo-v fa-lg'>fa-lg</i><br/>
 <i class='fab fa-vimeo-v fa-2x'>fa-2x</i><br/>
 <i class='fab fa-vimeo-v fa-3x'>fa-3x</i><br/>
 <i class='fab fa-vimeo-v fa-4x'>fa-4x</i><br/>
 <i class='fab fa-vimeo-v fa-5x'>fa-5x</i><br/>
-            
-```
 
-<i class='fab fa-vimeo-v fa-lg'>fa-lg</i><br/>
-<i class='fab fa-vimeo-v fa-2x'>fa-2x</i><br/>
-<i class='fab fa-vimeo-v fa-3x'>fa-3x</i><br/>
-<i class='fab fa-vimeo-v fa-4x'>fa-4x</i><br/>
-<i class='fab fa-vimeo-v fa-5x'>fa-5x</i><br/>
-            
+</div>
 
-
-
-## fa-vimeo-v Icon with Fixed Width 
-
+## `Vimeo-V` font awesome icon with Fixed Width
 All the font awesome icons does not have same width.
 
-For example fa-vimeo-v icon and fa-home may not have same height and width.
+For example `Vimeo-V` icon and `home` icon may not have same height and width.
 
-So to display two icons with fixed width and height we can use fa-fw class.
-
+So to display two icons with fixed width and height we can use `fa-fw` class.
+```
+<i style='border:1px solid;' class='fab fa-vimeo-v fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-vimeo-v fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
 ```
 
-<i class='fab fa-vimeo-v fa-fw fa-3x'></i>Fixed Width<i class='fab fa-vimeo-v fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
-```
-
-<i class='fab fa-vimeo-v fa-fw fa-3x'></i>Fixed Width<i class='fab fa-vimeo-v fa-3x'></i>Normal<br/>
-<i class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i class='fas fa-home fa-3x'></i>Normal<br/>
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i style='border:1px solid;' class='fab fa-vimeo-v fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fab fa-vimeo-v fa-3x'></i>Normal<br/>
+<i style='border:1px solid;' class='fas fa-home fa-fw fa-3x'></i>Fixed Width<i style='border:1px solid;' class='fas fa-home fa-3x'></i>Normal<br/>
 
-## fa-vimeo-v Icon Border 
+</div>
 
-To add border to fa-vimeo-v icon, use fa-border class.
-
-
-```
-<i class='fab fa-vimeo-v fa-border fa-3x'></i>
-
+## `Vimeo-V` font awesome icon Border
+To add border to `Vimeo-V` font awesome icon, use `fa-border` class.
 ```
 <i class='fab fa-vimeo-v fa-border fa-3x'></i>
-
-
-
-
-
-## Pull fa-vimeo-v icon To the left
-
-To pull icon fa-vimeo-v to the left of the container use fa-pull-left class.\n
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<i class='fab fa-vimeo-v fa-border fa-3x'></i>
+</div>
+
+## Pull `Vimeo-V` font awesome icon To the left
+To pull `Vimeo-V` icon to the left of the container use `fa-pull-left` class.
+```
+<div style='width: 200px;'>
+<i class='fab fa-vimeo-v fa-pull-left fa-3x'></i>
+  ... The text after Vimeo-V Icon will be displayed on the right side of the icon.
+</div>
+<div style = 'clear: both;'></div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-vimeo-v fa-pull-left fa-3x'></i>
-  ... The text after fa-vimeo-v Icon will be displayed on the right side of the icons
+  ... The text after Vimeo-V Icon will be displayed on the right side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
+</div>
 
+## Pull `Vimeo-V` font awesome icon To the left
+To pull `Vimeo-V` icon to the right of the container use `fa-pull-right` class.
+```
 <div style='width: 200px;'>
-<i class='fab fa-vimeo-v fa-pull-left fa-3x'></i>
-  ... The text after fa-vimeo-v Icon will be displayed on the right side of the icons
+<i class='fab fa-vimeo-v fa-pull-right fa-3x'></i>
+  ... The text after Vimeo-V Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-
-
-
-
-## Pull fa-vimeo-v icon To the right
-To pull icon fa-vimeo-v to the right of the container use fa-pull-right class.
-
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div style='width: 200px;'>
 <i class='fab fa-vimeo-v fa-pull-right fa-3x'></i>
-  ... The text after fa-vimeo-v Icon will be displayed on the left side of the icons
+  ... The text after Vimeo-V Icon will be displayed on the left side of the icon.
 </div>
 <div style = 'clear: both;'></div>
-```
-
-<div style='width: 200px;'>
-<i class='fab fa-vimeo-v fa-pull-right fa-3x'></i>
-  ... The text after fa-vimeo-v Icon will be displayed on the left side of the icons
 </div>
-<div style = 'clear: both;'></div>
 
-These two classes can used to add single quotes or double quotes to the text.
-
-
-## Animate fa-vimeo-v icon using fa-spin
-To animate font awesome fa-vimeo-v icon, use fa-spin class.
-
+## Animate `Vimeo-V` font awesome icon
+To animate `Vimeo-V` font awesome icon, use `fa-spin` class.
 ```
 <i class='fab fa-vimeo-v fa-spin fa-3x'></i>
 ```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <i class='fab fa-vimeo-v fa-spin fa-3x'></i>
+</div>
 
+## Animate `Vimeo-V` font awesome icon with steps
+While animating the font awesome icon,We can rotate `Vimeo-V` icon in 8 steps instead of uniform rotation.
 
-
-
-## Animate fa-vimeo-v icon with steps
-While animating the font awesome icon,We can rotate fa-vimeo-v icon in 8 steps instead of uniform rotation.
-
-To animate font awesome fa-vimeo-v icon with 8 step rotation, use fa-pulse icon along with fa-spin class.
-
-
+We can use `fa-pulse` icon along with `fa-spin` class.
 ```
-<i class='fab fa-vimeo-v fa-pulse fa-spin fa-3x'></i>
-
+<i class='fab fa-vimeo-v fa-spin fa-pulse fa-3x'></i>
 ```
-<i class='fab fa-vimeo-v fa-pulse fa-spin fa-3x'></i>
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
 
 
+<i class='fab fa-vimeo-v fa-spin fa-pulse fa-3x'></i>
+</div>
 
-
-
-## Rotate fa-vimeo-v Icon using fa-rotate-x
-To rotate the font awesome icon fa-vimeo-v, Use fa-rotate-x class
+## Rotate `Vimeo-V` font awesome icon
+ To rotate `Vimeo-V` font awesome icon, Use `fa-rotate-x` class
 
 Where 'x' represents degree of rotation.
-
-
 ```
-
 <div>
 <i class='fab fa-vimeo-v fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-vimeo-v fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
@@ -190,86 +288,93 @@ Where 'x' represents degree of rotation.
 </div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
 <div>
 <i class='fab fa-vimeo-v fa-3x'>R</i>normal<br/><br/>
 <i class='fab fa-vimeo-v fa-rotate-90 fa-3x'>R</i> fa-rotate-90<br/><br/> 
 <i class='fab fa-vimeo-v fa-rotate-180  fa-3x'>R</i> fa-rotate-180<br/><br/> 
 <i class='fab fa-vimeo-v fa-rotate-270 fa-3x'>R</i> fa-rotate-270<br/><br/>
 </div>
+</div>
 
-
-
-
-## Flip fa-vimeo-v Icon using fa-flip-*
-To flip fa-vimeo-v font awesome icon horizontally and vertically use fa-flip-horizontal and fa-flip-vertical classes. 
+## Flip `Vimeo-V` font awesome icon
+ To flip `Vimeo-V` font awesome icon horizontally and vertically use `fa-flip-horizontal` and `fa-flip-vertical` classes.
 
 ```
-
+<div>
 <i class='fab fa-vimeo-v fa-3x'>F</i> Normal <br>
 <i class='fab fa-vimeo-v fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-vimeo-v fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
 ```
 
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
+
+<div>
 <i class='fab fa-vimeo-v fa-3x'>F</i> Normal <br>
 <i class='fab fa-vimeo-v fa-flip-horizontal fa-3x'>F</i> fa-flip-horizontal<br>
 <i class='fab fa-vimeo-v fa-flip-vertical fa-3x'>F</i> fa-flip-vertical<br>
+</div>
+</div>
 
+## Combine `Vimeo-V` font awesome icon with other font awesome icons
 
+In font awesome icons,using stacking we can combine multiple icons and display it as one icon.
 
+To do that use the `fa-stack` class on the parent, the `fa-stack-1x` for the regularly sized icon, and `fa-stack-2x` for the larger icon.
 
-## Combine fa-vimeo-v icon with other font awesome icons
-In font awesome icons,using stacking we can combine multiple icons and display it as one icon 
+And use class `fa-inverse` for an alternative icon color. 
 
-To do that use the fa-stack class on the parent, the fa-stack-1x for the regularly sized icon, and fa-stack-2x for the larger icon.
+In the below example, I am displaying `Vimeo-V` font awesome icon on top of icons like `fa-square`,`fa-circle` and `fa-ban`.
 
-And use class fa-inverse for an alternative icon color. 
-In the below example, I am displaying fa-vimeo-v on top of icons like fa-square,fa-circle and fa-ban.
-
-And used fa-inverse in the second example to invert the color of the icon.
-
+And used `fa-inverse` in the second example to invert the color of the icon.
 ```
+<div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fab fa-vimeo-v fa-stack-1x'></i>
+    </span>
+      Vimeo-V on fa-square<br>
+    <span class='fa-stack fa-lg'>
+        <i class='fas fa-circle fa-stack-2x'></i>
+        <i class='fab fa-vimeo-v fa-stack-1x fa-inverse'></i>
+    </span>
+      Vimeo-V on fa-circle<br>
+
+    <span class='fa-stack fa-lg'>
+        <i class='fab fa-vimeo-v fa-stack-1x'></i>
+        <i class='fas fa-ban fa-stack-2x'></i>
+    </span>
+      Vimeo-V on fa-ban
+</div>
+```
+
+<div style='border:1px solid rgba(0,0,0,.1);margin-bottom:10px;padding:5px;'>
+<p>Output:</p>
+
 
 <div>
     <span class='fa-stack fa-lg'>
         <i class='far fa-square fa-stack-2x'></i>
         <i class='fab fa-vimeo-v fa-stack-1x'></i>
     </span>
-      fa-vimeo-v on fa-square<br>
+      Vimeo-V on fa-square<br>
     <span class='fa-stack fa-lg'>
         <i class='fas fa-circle fa-stack-2x'></i>
         <i class='fab fa-vimeo-v fa-stack-1x fa-inverse'></i>
     </span>
-      fa-vimeo-v on fa-circle<br>
+      Vimeo-V on fa-circle<br>
 
     <span class='fa-stack fa-lg'>
         <i class='fab fa-vimeo-v fa-stack-1x'></i>
         <i class='fas fa-ban fa-stack-2x'></i>
     </span>
-      fa-vimeo-v on fa-ban
+      Vimeo-V on fa-ban
 </div>
-```
-
-<div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fab fa-vimeo-v fa-stack-1x'></i>
-    </span>
-      fa-vimeo-v on fa-square<br>
-    <span class='fa-stack fa-lg'>
-        <i class='fas fa-circle fa-stack-2x'></i>
-        <i class='fab fa-vimeo-v fa-stack-1x fa-inverse'></i>
-    </span>
-      fa-vimeo-v on fa-circle<br>
-
-    <span class='fa-stack fa-lg'>
-        <i class='fab fa-vimeo-v fa-stack-1x'></i>
-        <i class='fas fa-ban fa-stack-2x'></i>
-    </span>
-      fa-vimeo-v on fa-ban
 </div>
-
-
-
-
-
 
