@@ -1,10 +1,10 @@
 
 +++
-title     = "Liste des noms des classes des icônes Font Awesome 2016+ gratuites et leurs valeurs de contenu CSS"
-subtitle  = "Liste complète des icônes 2016+ gratuites font awesome "
-summary   = "Ce post contient des noms de listes de classes d'icônes gratuites font awesome avec leurs codes de valeurs de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML."
-keywords  = ["font awesome icons,font awesome icons list,fa icons list,icons "]
-linktitle = "Introduction"
+title     = "2016+ Ingyenes Font Awesome ikonok osztálylistája Nevek és CSS tartalmi értékeik"
+subtitle  = "2016+ ingyenes font awesome ikonok teljes listája"
+summary   = "Ez a bejegyzés tartalmazza az ingyenes font awesome ikonok osztálylistájának neveit a CSS tartalomérték kódjaikkal &amp; lépésről lépésre bemutatót a font awesome ikonok HTML oldalakon való használatához."
+keywords  = ["font awesome ikonok,font awesome ikonok listája,fa ikonok listája,ikonok"]
+linktitle = "Bevezetés"
 
 type="docs"
 date="2019-07-14T01:01:05+0000"
@@ -24,68 +24,68 @@ weight=1
 +++
 
 
-Ce post contient des noms de listes de classes d'icônes gratuites font awesome complètes avec leurs codes de valeur de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML.
+Ez a bejegyzés tartalmazza a teljes ingyenes font awesome ikonok osztálylista neveit a CSS tartalomérték kódjaikkal és lépésről lépésre bemutatót a font awesome ikonok HTML oldalakon való használatához.
 
-Vous pouvez également rechercher et trouver les icônes font awesome en utilisant la [boîte de recherche] (#search-font-awesome-icons) fournie dans l'article.
+És a cikkben található [keresőmező](#search-font-awesome-icons) segítségével kereshetsz és találhatsz font awesome ikonokat.
 
-Cliquez sur `Ctrl + D` pour ajouter la page à vos favoris.
+Kattintson a `Ctrl + D` linkre az oldal könyvjelzőbe helyezéséhez.
 
-**Dans la dernière version font awesome 6.2.0, il y a 2016 icônes gratuites**.
+**A font awesome legújabb, 6.2.0-s verziójában 2016 ingyenes ikon található**.
 
-Dans la version précédente font awesome 5.14, nous avons environ 1598 icônes gratuites.
+Az előző font awesome 5.14-es verzióban kb. 1598 ingyenes ikon van.
 
-Selon le style de l'icône, ces icônes gratuites font awesome sont divisées en trois catégories 
+Az ikonstílustól függően ezek az ingyenes font awesome ikonok három kategóriába oszthatók 
 
-1. font awesome les icônes solides
-2. font awesome icônes normales
-3. font awesome icônes de marque
+1. font awesome szilárd ikonok
+2. font awesome szabályos ikonok
+3. font awesome márkaikonok
 
-Nous pouvons <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">télécharger le</a> fichier css des icônes font awesome et les servir à partir de votre propre serveur ou nous pouvons les servir à partir de CDN publics.
+ <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">Letölthetjük</a> a font awesome ikonok css fájlját és kiszolgálhatjuk őket a saját szerveréről, vagy nyilvános CDN-ekből is kiszolgálhatjuk őket.
 
 {{% alert note %}}
-J'ai également créé un [ebook gratuit] (#download-font-awesome-icons-list-pdf) qui contient la liste complète des icônes de font awesome au format PDF.
+És készítettem egy [ingyenes ebookot](#download-font-awesome-icons-list-pdf), amely tartalmazza a font awesome ikonok teljes listáját PDF formátumban.
 {{% /alert%}}
 
 {{% toc %}}
 
-## Qu'est-ce que font awesome?
+## Mi az a font awesome?
 
-1. font awesome est la boîte à outils de polices et d'icônes la plus populaire du web, basée sur CSS et LESS.
-2. font awesome est créé par Dave Gandy.
-3. font awesome a été le nouveau projet open source le plus populaire de github en 2012 et fait actuellement partie du top 10 des projets.
-4. Font Awesome est actuellement présent sur 47 millions de sites Web et la moitié des développeurs Web du monde utilisent les icônes font awesome.
-5. Font Awesome permet d'ajouter facilement des icônes vectorielles et des logos sociaux à nos sites Web.
+1. font awesome a web legnépszerűbb, CSS és LESS alapú betűtípus- és ikonkészlete.
+2. font awesome dave Gandy készítette.
+3. font awesome 2012-ben a github legnépszerűbb új nyílt forráskódú projektje volt, jelenleg pedig összességében a 10 legnépszerűbb projekt között van.
+4. A Font Awesome jelenleg 47M weboldalon él, és a világ webfejlesztőinek fele a font awesome ikonokat használja.
+5. A Font Awesome megkönnyíti a vektoros ikonok és közösségi logók hozzáadását a weboldalainkhoz.
 
-## Comment utiliser les icônes font awesome?
+## Hogyan használjuk a font awesome ikonokat?
 
-Il existe deux façons d'utiliser les icônes font awesome dans nos applications Web.
+A font awesome ikonokat kétféleképpen használhatjuk webes alkalmazásainkban.
 
-1. Utilisation des noms de classe CSS
-2. Utilisation des valeurs de contenu CSS
-3. Utilisation des icônes SVG
+1. CSS osztálynevek használata
+2. CSS tartalomértékek használata
+3. SVG ikonok használata
 
-Tout d'abord, nous devons ajouter le fichier css de font awesome icons dans la section head du fichier html.
+Először is hozzá kell adnunk a font awesome ikonok css fájlt a html fájl head részéhez.
 
-## Afficher les icônes de font awesome en utilisant les noms de classe CSS 
+## A font awesome ikonok megjelenítése a CSS osztálynevek használatával 
 
-La façon la plus courante d'afficher les icônes font awesome est d'utiliser leurs noms de classe.
+A font awesome ikonok megjelenítésének legelterjedtebb módja az osztálynevek használata.
 
-Pour chaque icône, un nom de classe est prédéfini, il suffit d'ajouter `fa-` au nom de l'icône comme classe.
+Minden egyes ikonhoz van egy előre definiált osztálynév, csak a `fa-` -t kell az ikon nevéhez osztályként csatolni.
 
-font awesome icons utilise la balise italique, c'est-à-dire , `<i></i>` pour afficher les icônes 
+font awesome az ikonok dőlt betűs címkét használnak, azaz, `<i></i>` az ikonok megjelenítéséhez 
 
-La raison de l'utilisation de cette balise `<i>` comme icône est 
+Az ok, amiért ezt a `<i>` tag ikonként való használatának oka 
 
-1. C'est le diminutif
-2. `I` stand de l'icône (pas dans le monde HTML cependant)
+1. Rövid
+2. `I` ikon állása (nem a HTML világában)
 
-Pour afficher les icônes de font awesome en utilisant les noms de classe css, suivez les étapes suivantes.
+A font awesome ikonok megjelenítéséhez a css osztálynevek használatával kövesse a lépéseket.
 
-1. Ajoutez une balise d'icône.
-2. Ajoutez le nom de l'icône préfixé par `fa` à l'attribut de classe.
-3. En outre, nous devons ajouter la classe Style, c'est-à-dire solide, ordinaire ou marque
+1. Adjunk hozzá egy ikon taget.
+2. Adja hozzá az ikon nevét a `fa` előtaggal az osztály attribútumhoz.
+3. Ezenkívül hozzá kell adnunk a Style osztályt, azaz a solid vagy regular vagy brand osztályt
 
-Tout d'abord, nous allons ajouter les icônes font awesome css dans la section head du fichier html comme indiqué ci-dessous
+Először is hozzáadjuk a font awesome ikonok css-t a html fájl head szakaszában az alábbiak szerint
 
 ```
 <head>
@@ -95,48 +95,48 @@ Tout d'abord, nous allons ajouter les icônes font awesome css dans la section h
 </head>
 
 ```
-J'utilise le lien cdn de cloudfare font awesome icons.
+Én a cloudfare font awesome ikonok cdn linket használom.
 
-Pour utiliser le CDN officiel de font awesome. Passez par l'article [font awesome CDN](/fontawesome/cdn).
+A hivatalos font awesome CDN használatához. Menjen át a [font awesome CDN](/fontawesome/cdn) cikken.
 
-Maintenant pour afficher l'icône `facebook` font awesome , utilisez le code html ci-dessous.
+Most a `facebook` font awesome ikon megjelenítéséhez használja az alábbi html kódot.
 
 ```
 <i class="fab fa-facebook"></i>
 ```
-L'icône Facebook fait partie des icônes de marque, j'ai donc ajouté `fab` comme nom de classe supplémentaire.
+A Facebook ikon a márkaikonok része, ezért hozzáadtam a `fab` kiegészítő osztálynévként.
 
-Pour utiliser les icônes solides de font awesome, ajoutez le nom de classe suivant `fas`
+A font awesome szilárd ikonok használatához adja hozzá az osztálynevet, mint `fas`
 
-Par exemple, pour afficher l'icône `barcode`, utilisez le code html suivant
+Például a `barcode` ikon megjelenítéséhez használja a következő html kódot
 
 ```
 <i class="fas fa-barcode"></i>
 ```
-`bookmark` l'icône fait partie des icônes normales, ajoutez le nom de la classe en tant que `far`
+`bookmark` az ikon a normál ikonok részeként, az osztály nevét add hozzá, mint `far`
 
 ```
 <i class="far fa-bookmark"></i>
 ```
 
-Pour utiliser les icônes font awesome dans les applications Angular, consultez l'article suivant
+A font awesome ikonok Angular alkalmazásokban való használatához nézze át a cikket
 
-[Comment utiliser les icônes Font Awesome dans les applications Angular]
+[Hogyan használjunk Font Awesome ikonokat Angular alkalmazásokban]
 (https://www.angularjswiki.com/angular/how-to-use-font-awesome-icons-in-angular-applications/)
 
-## Afficher les icônes font awesome en utilisant les valeurs de contenu CSS
+## A font awesome ikonok megjelenítése CSS tartalomértékek használatával
 
-L'approche ci-dessus nous oblige à modifier les noms de nos classes d'icônes.
+A fenti megközelítéshez meg kell változtatnunk az ikonok osztályneveit.
 
-Si votre projet est nouveau, nous pouvons suivre l'approche ci-dessus 
+Ha a projekt új, akkor a fenti megközelítést követhetjük 
 
-Mais s'il s'agit d'un projet existant, il est très difficile de changer le nom de la classe d'icônes.
+Ha azonban egy meglévő projektről van szó, akkor nagyon nehéz megváltoztatni az ikonosztály nevét.
 
-Dans ce cas, nous pouvons afficher les icônes font awesome en utilisant leurs valeurs de contenu CSS.
+Ebben az esetben a font awesome ikonokat a CSS tartalmi értékeik segítségével jeleníthetjük meg.
 
-Nous pouvons utiliser les caractéristiques des éléments CSS Pseudo-elements `::before` ou `::after` pour les afficher.
+A megjelenítésükhöz használhatjuk a `::before` vagy a `::after` CSS Pseudo-elemek elemeinek jellemzőit.
 
-Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTML ci-dessous.
+Például a `user` ikon megjelenítéséhez az alábbi HTML-kódot használhattuk.
 
 ```
 <li>
@@ -144,9 +144,9 @@ Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTM
 </li>
 ``` 
 
-Mais le nom officiel de notre icône utilisateur font awesome est `fa-user`.
+De a hivatalos font awesome felhasználói ikonunk neve `fa-user`.
 
-Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS content code comme `\f007`, qui est la valeur unicode de l'icône `user`.
+Tehát az ikon megjelenítéséhez a `.user` osztályhoz adjuk hozzá a `\f007` CSS tartalomkód tulajdonságot, ami a `user` ikon unicode értéke.
 
 ```
 .user::before {
@@ -155,17 +155,17 @@ Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS conte
 }
 ```
 
-En plus du code de contenu CSS, nous devons également ajouter le style `font`.
+A CSS tartalomkód mellett a `font` stílust is hozzá kell adnunk.
 
-Nous pouvons utiliser les propriétés personnalisées CSS prédéfinies de font awesome pour cela.
+Ehhez használhatjuk a font awesome előre definiált CSS egyéni tulajdonságait.
 
-Pour les icônes solides, utilisez `var(--fa-font-solid)`
+A tömör ikonokhoz használjuk a `var(--fa-font-solid)`
 
-Pour les icônes régulières, utilisez `var(--fa-font-regular)`
+A szabályos ikonokhoz használd a `var(--fa-font-regular)`
 
-Pour les icônes de marque, utilisez `var(--fa-font-regular)`
+Márka ikonokhoz használd `var(--fa-font-regular)`
 
-En plus de cela, nous pouvons ajouter une classe personnalisée qui définit quelques propriétés CSS communes.
+Ezen kívül hozzáadhatunk egy egyéni osztályt, amely néhány általános CSS tulajdonságot definiál.
 
 ```
 .fontawesomeicon::before {
@@ -179,11 +179,11 @@ En plus de cela, nous pouvons ajouter une classe personnalisée qui définit que
 </li>
 
 ```
-C'est tout 
+Ennyi 
 
-Dans la version font awesome 5, il n'y a pas de propriétés css personnalisées 
+A font awesome 5 verzióban nincsenek egyéni css tulajdonságok 
 
-Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
+Tehát hozzá kell adnunk a `font-family` és a `font-weight` css tulajdonságokat.
 
 ```
 // Font awesome 5 version. 
@@ -201,23 +201,23 @@ Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
 
 ```
 
-`font-family` et `font-weight` peuvent être différentes pour chaque icône en fonction du style de l'icône, comme les icônes ordinaires, solides et de marque.
+`font-family` és a `font-weight` az egyes ikonoknál eltérő lehet, az ikon stílusától függően, mint például a normál, a tömör és a márkaikonok.
 
-[Utiliser les icônes font awesome comme code de contenu CSS](/fontawesome/csscontentcode)
+[ font awesome ikonok használata CSS tartalomkódként](/fontawesome/csscontentcode)
 
-Pour afficher les icônes font awesome en utilisant des SVG, consultez l'article ci-dessous.
+Megjelenítéséhez font awesome ikonok segítségével SVG's megy gondoltam az alábbi cikket.
 
-[Liste des icônes SVG Font Awesome, utilisation, CSS et téléchargement](/fontawesome/svg/)
+[Font Awesome SVG ikonok listája, használata, CSS és letöltés](/fontawesome/svg/)
 
 ## Search Font Awesome Icons 
 
-Voici la liste complète des icônes gratuites de font awesome.
+Itt van az ingyenes font awesome ikonok teljes listája csalóka.
 
-Tapez le nom de l'icône dans le champ de recherche ci-dessous et copiez le nom de la classe et le code de style ou de contenu CSS.
+Írja be az ikon nevét az alábbi keresőmezőbe, és másolja ki az osztály nevét és stílus- vagy CSS-tartalomkódját.
 
-Les icônes seront filtrées dans le tableau ci-dessous.
+Az ikonok az alábbi táblázatban lesznek kiszűrve.
 
-Et cliquez sur l'icône pour copier le code html.
+És kattintson az ikonra a html kód másolásához.
 
 <input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search font awesome icons.." title="Search font awesome icons">
 

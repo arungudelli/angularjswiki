@@ -1,10 +1,10 @@
 
 +++
-title     = "Liste des noms des classes des icônes Font Awesome 2016+ gratuites et leurs valeurs de contenu CSS"
-subtitle  = "Liste complète des icônes 2016+ gratuites font awesome "
-summary   = "Ce post contient des noms de listes de classes d'icônes gratuites font awesome avec leurs codes de valeurs de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML."
-keywords  = ["font awesome icons,font awesome icons list,fa icons list,icons "]
-linktitle = "Introduction"
+title     = "2016+ Безплатен списък на класа Font Awesome Icons Names &amp; their CSS content values"
+subtitle  = "Пълен списък на 2016+ безплатни икони font awesome "
+summary   = "Тази публикация съдържа списък с имена на класове на безплатни font awesome икони с техните CSS кодове за стойност на съдържанието и ръководство стъпка по стъпка за използване на font awesome икони в HTML страници."
+keywords  = ["font awesome икони,font awesome списък с икони,fa списък с икони,икони"]
+linktitle = "Въведение"
 
 type="docs"
 date="2019-07-14T01:01:05+0000"
@@ -24,68 +24,68 @@ weight=1
 +++
 
 
-Ce post contient des noms de listes de classes d'icônes gratuites font awesome complètes avec leurs codes de valeur de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML.
+Тази публикация съдържа пълни безплатни font awesome имена на списъци с класове икони с техните CSS кодове за стойност на съдържанието и ръководство стъпка по стъпка за използване на font awesome икони в HTML страници.
 
-Vous pouvez également rechercher et trouver les icônes font awesome en utilisant la [boîte de recherche] (#search-font-awesome-icons) fournie dans l'article.
+А също така можете да търсите и намирате font awesome икони, като използвате [полето за търсене](#search-font-awesome-icons), предоставено в статията.
 
-Cliquez sur `Ctrl + D` pour ajouter la page à vos favoris.
+Щракнете върху `Ctrl + D`, за да маркирате страницата.
 
-**Dans la dernière version font awesome 6.2.0, il y a 2016 icônes gratuites**.
+**В последната версия на font awesome 6.2.0 има 2016 безплатни икони**.
 
-Dans la version précédente font awesome 5.14, nous avons environ 1598 icônes gratuites.
+В предишната версия font awesome 5.14 има около 1598 безплатни икони.
 
-Selon le style de l'icône, ces icônes gratuites font awesome sont divisées en trois catégories 
+В зависимост от стила на иконата тези безплатни font awesome икони са разделени на три категории 
 
-1. font awesome les icônes solides
-2. font awesome icônes normales
-3. font awesome icônes de marque
+1. font awesome плътни икони
+2. font awesome обикновени икони
+3. font awesome икони на марки
 
-Nous pouvons <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">télécharger le</a> fichier css des icônes font awesome et les servir à partir de votre propre serveur ou nous pouvons les servir à partir de CDN publics.
+Можем да <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">изтеглим</a> font awesome икони css файл и да ги предоставим от вашия собствен сървър Или можем да ги предоставим от публични CDN.
 
 {{% alert note %}}
-J'ai également créé un [ebook gratuit] (#download-font-awesome-icons-list-pdf) qui contient la liste complète des icônes de font awesome au format PDF.
+А също така съм създал [безплатна електронна книга](#download-font-awesome-icons-list-pdf), която съдържа пълен списък на font awesome икони в PDF формат.
 {{% /alert%}}
 
 {{% toc %}}
 
-## Qu'est-ce que font awesome?
+## Какво е font awesome?
 
-1. font awesome est la boîte à outils de polices et d'icônes la plus populaire du web, basée sur CSS et LESS.
-2. font awesome est créé par Dave Gandy.
-3. font awesome a été le nouveau projet open source le plus populaire de github en 2012 et fait actuellement partie du top 10 des projets.
-4. Font Awesome est actuellement présent sur 47 millions de sites Web et la moitié des développeurs Web du monde utilisent les icônes font awesome.
-5. Font Awesome permet d'ajouter facilement des icônes vectorielles et des logos sociaux à nos sites Web.
+1. font awesome е най-популярният набор от инструменти за шрифтове и икони в уеб, базиран на CSS и LESS.
+2. font awesome е създаден от Дейв Ганди.
+3. font awesome беше най-популярният нов проект с отворен код в github през 2012 г. и в момента е един от 10-те най-популярни проекта като цяло.
+4. В момента Font Awesome е наличен в 47 млн. уебсайта, а половината от уеб разработчиците по света използват икони font awesome.
+5. Font Awesome улеснява добавянето на векторни икони и социални лога към нашите уебсайтове.
 
-## Comment utiliser les icônes font awesome?
+## Как да използвате иконите font awesome?
 
-Il existe deux façons d'utiliser les icônes font awesome dans nos applications Web.
+Има два начина, по които можем да използваме font awesome икони в нашите уеб приложения.
 
-1. Utilisation des noms de classe CSS
-2. Utilisation des valeurs de contenu CSS
-3. Utilisation des icônes SVG
+1. Използване на имена на CSS класове
+2. Използване на стойности на съдържанието на CSS
+3. Използване на SVG икони
 
-Tout d'abord, nous devons ajouter le fichier css de font awesome icons dans la section head du fichier html.
+Първо трябва да добавим font awesome icons css файл в секцията head на html файла.
 
-## Afficher les icônes de font awesome en utilisant les noms de classe CSS 
+## Показвайте иконите font awesome, като използвате имената на CSS класовете 
 
-La façon la plus courante d'afficher les icônes font awesome est d'utiliser leurs noms de classe.
+Най-разпространеният начин за показване на иконите font awesome е като се използват имената на техните класове.
 
-Pour chaque icône, un nom de classe est prédéfini, il suffit d'ajouter `fa-` au nom de l'icône comme classe.
+За всяка икона е предварително дефинирано име на клас, като само трябва да добавим `fa-` към името на иконата като клас.
 
-font awesome icons utilise la balise italique, c'est-à-dire , `<i></i>` pour afficher les icônes 
+font awesome иконите използват курсив, т.е., `<i></i>` за показване на иконите 
 
-La raison de l'utilisation de cette balise `<i>` comme icône est 
+Причината за използването на този `<i>` таг като икона е 
 
-1. C'est le diminutif
-2. `I` stand de l'icône (pas dans le monde HTML cependant)
+1. Той е кратък
+2. `I` стойка на икона (не и в света на HTML)
 
-Pour afficher les icônes de font awesome en utilisant les noms de classe css, suivez les étapes suivantes.
+За да покажете иконите font awesome, като използвате имената на класовете css, следвайте следните стъпки.
 
-1. Ajoutez une balise d'icône.
-2. Ajoutez le nom de l'icône préfixé par `fa` à l'attribut de classe.
-3. En outre, nous devons ajouter la classe Style, c'est-à-dire solide, ordinaire ou marque
+1. Добавете таг за икона.
+2. Добавете име на икона с префикс `fa` към атрибута class.
+3. Освен това трябва да добавим клас Style (стил), т.е. solid (плътно) или regular (обикновено) или brand (марка)
 
-Tout d'abord, nous allons ajouter les icônes font awesome css dans la section head du fichier html comme indiqué ci-dessous
+Първо ще добавим css на иконите font awesome в секцията head на html файла, както е показано по-долу
 
 ```
 <head>
@@ -95,48 +95,48 @@ Tout d'abord, nous allons ajouter les icônes font awesome css dans la section h
 </head>
 
 ```
-J'utilise le lien cdn de cloudfare font awesome icons.
+Аз използвам cloudfare font awesome icons cdn link.
 
-Pour utiliser le CDN officiel de font awesome. Passez par l'article [font awesome CDN](/fontawesome/cdn).
+За да използвате официалния font awesome CDN. Прегледайте статията [font awesome CDN](/fontawesome/cdn).
 
-Maintenant pour afficher l'icône `facebook` font awesome , utilisez le code html ci-dessous.
+Сега, за да покажете `facebook` font awesome икона, използвайте следния html код.
 
 ```
 <i class="fab fa-facebook"></i>
 ```
-L'icône Facebook fait partie des icônes de marque, j'ai donc ajouté `fab` comme nom de classe supplémentaire.
+Иконата на Facebook е част от иконите на марката, затова добавих `fab` като допълнително име на класа.
 
-Pour utiliser les icônes solides de font awesome, ajoutez le nom de classe suivant `fas`
+За да използвате font awesome солидни икони, добавете името на класа като `fas`
 
-Par exemple, pour afficher l'icône `barcode`, utilisez le code html suivant
+Например, за да покажете икона `barcode`, използвайте следния html код
 
 ```
 <i class="fas fa-barcode"></i>
 ```
-`bookmark` l'icône fait partie des icônes normales, ajoutez le nom de la classe en tant que `far`
+`bookmark` иконата е част от обикновените икони, добавете името на класа като `far`
 
 ```
 <i class="far fa-bookmark"></i>
 ```
 
-Pour utiliser les icônes font awesome dans les applications Angular, consultez l'article suivant
+За да използвате font awesome икони в Angular приложения, разгледайте статията
 
-[Comment utiliser les icônes Font Awesome dans les applications Angular]
+[Как да използваме Font Awesome икони в Angular приложения]
 (https://www.angularjswiki.com/angular/how-to-use-font-awesome-icons-in-angular-applications/)
 
-## Afficher les icônes font awesome en utilisant les valeurs de contenu CSS
+## Показване на икони font awesome чрез стойности на съдържанието CSS
 
-L'approche ci-dessus nous oblige à modifier les noms de nos classes d'icônes.
+Горният подход изисква да променим имената на класовете на иконите.
 
-Si votre projet est nouveau, nous pouvons suivre l'approche ci-dessus 
+Ако проектът ви е нов, тогава можем да следваме горния подход 
 
-Mais s'il s'agit d'un projet existant, il est très difficile de changer le nom de la classe d'icônes.
+Но ако става въпрос за съществуващ проект, е много трудно да се промени името на класа икони.
 
-Dans ce cas, nous pouvons afficher les icônes font awesome en utilisant leurs valeurs de contenu CSS.
+В този случай можем да покажем иконите на font awesome, като използваме техните стойности на съдържанието в CSS.
 
-Nous pouvons utiliser les caractéristiques des éléments CSS Pseudo-elements `::before` ou `::after` pour les afficher.
+Можем да използваме характеристиките на елементите CSS Pseudo-elements `::before` или `::after`, за да ги покажем.
 
-Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTML ci-dessous.
+Например за показване на икона `user` може да използваме следния HTML код.
 
 ```
 <li>
@@ -144,9 +144,9 @@ Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTM
 </li>
 ``` 
 
-Mais le nom officiel de notre icône utilisateur font awesome est `fa-user`.
+Но нашето официално име на потребителската икона font awesome е `fa-user`.
 
-Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS content code comme `\f007`, qui est la valeur unicode de l'icône `user`.
+Така че, за да покажете иконата, за класа `.user` добавете CSS свойството код на съдържанието като `\f007`, което е уникодова стойност за иконата `user`.
 
 ```
 .user::before {
@@ -155,17 +155,17 @@ Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS conte
 }
 ```
 
-En plus du code de contenu CSS, nous devons également ajouter le style `font`.
+Заедно с кода на CSS съдържанието трябва да добавим и `font` стил.
 
-Nous pouvons utiliser les propriétés personnalisées CSS prédéfinies de font awesome pour cela.
+За тази цел можем да използваме предварително дефинираните персонализирани CSS свойства font awesome.
 
-Pour les icônes solides, utilisez `var(--fa-font-solid)`
+За плътни икони използвайте `var(--fa-font-solid)`
 
-Pour les icônes régulières, utilisez `var(--fa-font-regular)`
+За обикновени икони използвайте `var(--fa-font-regular)`
 
-Pour les icônes de marque, utilisez `var(--fa-font-regular)`
+За маркови икони използвайте `var(--fa-font-regular)`
 
-En plus de cela, nous pouvons ajouter une classe personnalisée qui définit quelques propriétés CSS communes.
+В допълнение към това можем да добавим потребителски клас, който дефинира няколко общи CSS свойства.
 
 ```
 .fontawesomeicon::before {
@@ -179,11 +179,11 @@ En plus de cela, nous pouvons ajouter une classe personnalisée qui définit que
 </li>
 
 ```
-C'est tout 
+Това е всичко 
 
-Dans la version font awesome 5, il n'y a pas de propriétés css personnalisées 
+Във версията font awesome 5 няма персонализирани свойства на css 
 
-Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
+Затова трябва да добавим `font-family` и `font-weight` css свойства.
 
 ```
 // Font awesome 5 version. 
@@ -201,28 +201,28 @@ Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
 
 ```
 
-`font-family` et `font-weight` peuvent être différentes pour chaque icône en fonction du style de l'icône, comme les icônes ordinaires, solides et de marque.
+`font-family` и `font-weight` могат да бъдат различни за всяка икона в зависимост от стила на иконата, например обикновени, плътни и икони на марка.
 
-[Utiliser les icônes font awesome comme code de contenu CSS](/fontawesome/csscontentcode)
+[Използване на икони font awesome като код за CSS съдържание](/fontawesome/csscontentcode)
 
-Pour afficher les icônes font awesome en utilisant des SVG, consultez l'article ci-dessous.
+За да покажете font awesome икони с помощта на SVG, помислете върху статията по-долу.
 
-[Liste des icônes SVG Font Awesome, utilisation, CSS et téléchargement](/fontawesome/svg/)
+[Списък на страхотните SVG икони, използване, CSS и изтегляне](/fontawesome/svg/)
 
 ## Search Font Awesome Icons 
+ 
 
-Voici la liste complète des icônes gratuites de font awesome.
+Ето пълния списък на безплатните икони font awesome cheat sheet.
 
-Tapez le nom de l'icône dans le champ de recherche ci-dessous et copiez le nom de la classe et le code de style ou de contenu CSS.
+Въведете името на иконата в полето за търсене по-долу и копирайте името на класа и кода на стила или CSS съдържанието.
 
-Les icônes seront filtrées dans le tableau ci-dessous.
+Иконите ще бъдат филтрирани в таблицата по-долу.
 
-Et cliquez sur l'icône pour copier le code html.
+И щракнете върху иконата, за да копирате html кода.
 
 <input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search font awesome icons.." title="Search font awesome icons">
 
 Total <strong><span id="counter">2016</span></strong> Icons.
-
 
 ## Font Awesome Icons Class List & CSS Content Codes
 

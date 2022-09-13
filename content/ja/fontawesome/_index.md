@@ -1,10 +1,10 @@
 
 +++
-title     = "Liste des noms des classes des icônes Font Awesome 2016+ gratuites et leurs valeurs de contenu CSS"
-subtitle  = "Liste complète des icônes 2016+ gratuites font awesome "
-summary   = "Ce post contient des noms de listes de classes d'icônes gratuites font awesome avec leurs codes de valeurs de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML."
-keywords  = ["font awesome icons,font awesome icons list,fa icons list,icons "]
-linktitle = "Introduction"
+title     = "2016+ Free Font Awesome Icons クラスリスト 名前とそのCSSコンテンツ値"
+subtitle  = "2016+の無料font awesome アイコンの完全なリスト"
+summary   = "この記事には、無料のfont awesome アイコン クラスリスト名とそのCSSコンテンツ値コード＆HTMLページでfont awesome アイコンを使用するためのステップバイステップのチュートリアルが含まれています。"
+keywords  = ["font awesome アイコン,font awesome アイコンリスト, fa アイコンリスト, アイコン"]
+linktitle = "はじめに"
 
 type="docs"
 date="2019-07-14T01:01:05+0000"
@@ -24,68 +24,69 @@ weight=1
 +++
 
 
-Ce post contient des noms de listes de classes d'icônes gratuites font awesome complètes avec leurs codes de valeur de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML.
+この記事は、HTMLページでfont awesome アイコンを使用するために、彼らのCSSコンテンツ値コード＆ステップバイステップのチュートリアルと完全無料font awesome アイコンクラスリストの名前を含んでいます。
 
-Vous pouvez également rechercher et trouver les icônes font awesome en utilisant la [boîte de recherche] (#search-font-awesome-icons) fournie dans l'article.
+また、記事中にある[検索ボックス](#search-font-awesome-icons)を使ってfont awesome アイコンを検索して見つけることができます。
 
-Cliquez sur `Ctrl + D` pour ajouter la page à vos favoris.
+`Ctrl + D` をクリックして、ページをブックマークしてください。
 
-**Dans la dernière version font awesome 6.2.0, il y a 2016 icônes gratuites**.
+**最新のfont awesome 6.2.0バージョンでは、2016個のフリーアイコンが用意されています**。
 
-Dans la version précédente font awesome 5.14, nous avons environ 1598 icônes gratuites.
+以前のfont awesome 5.14バージョンでは、約1598個のフリーアイコンがあります。
 
-Selon le style de l'icône, ces icônes gratuites font awesome sont divisées en trois catégories 
+アイコンのスタイルによって、これらの無料font awesome アイコンは、3つのカテゴリに分かれています。 
 
-1. font awesome les icônes solides
-2. font awesome icônes normales
-3. font awesome icônes de marque
+1. font awesome ソリッドアイコン
+2. font awesome レギュラーアイコン
+3. font awesome ブランドアイコン
 
-Nous pouvons <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">télécharger le</a> fichier css des icônes font awesome et les servir à partir de votre propre serveur ou nous pouvons les servir à partir de CDN publics.
+font awesome アイコン CSS ファイルを<a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">ダウンロード</a>し、お客様のサーバーから提供することもできますし、公開されている CDN から提供することもできます。
 
 {{% alert note %}}
-J'ai également créé un [ebook gratuit] (#download-font-awesome-icons-list-pdf) qui contient la liste complète des icônes de font awesome au format PDF.
+のようになります。
+また、font awesome アイコンの完全なリストを PDF 形式で含む [無料の電子書籍](#download-font-awesome-icons-list-pdf) を作成しました。
 {{% /alert%}}
 
 {{% toc %}}
 
-## Qu'est-ce que font awesome?
+##font awesome とは何ですか?
 
-1. font awesome est la boîte à outils de polices et d'icônes la plus populaire du web, basée sur CSS et LESS.
-2. font awesome est créé par Dave Gandy.
-3. font awesome a été le nouveau projet open source le plus populaire de github en 2012 et fait actuellement partie du top 10 des projets.
-4. Font Awesome est actuellement présent sur 47 millions de sites Web et la moitié des développeurs Web du monde utilisent les icônes font awesome.
-5. Font Awesome permet d'ajouter facilement des icônes vectorielles et des logos sociaux à nos sites Web.
+1. font awesome は、CSS と LESS をベースとした、ウェブで最も人気のあるフォントとアイコンのツールキットです。
+2. font awesome は、Dave Gandy によって作成されました。
+3. font awesome は、2012年にgithubで最も人気のある新しいオープンソースプロジェクトであり、現在、全体のトップ10プロジェクトの一つです。
+4.Font Awesomeは現在4700万ものウェブサイトで使用されており、世界のウェブ開発者の半数がfont awesome のアイコンを使用しています。
+5.Font Awesomeを使えば、ベクターアイコンやソーシャルロゴを簡単にウェブサイトに追加することができます。
 
-## Comment utiliser les icônes font awesome?
+## How to usefont awesome icons?
 
-Il existe deux façons d'utiliser les icônes font awesome dans nos applications Web.
+ウェブアプリケーションでfont awesome のアイコンを使用するには、2つの方法があります。
 
-1. Utilisation des noms de classe CSS
-2. Utilisation des valeurs de contenu CSS
-3. Utilisation des icônes SVG
+1.CSSのクラス名を利用する
+2.CSSのコンテンツ値を使用する
+3.SVG アイコンの使用
 
-Tout d'abord, nous devons ajouter le fichier css de font awesome icons dans la section head du fichier html.
+まず、htmlファイルのheadセクションにfont awesome iconsのcssファイルを追加する必要があります。
 
-## Afficher les icônes de font awesome en utilisant les noms de classe CSS 
+##font awesome アイコンをCSSのクラス名で表示する 
 
-La façon la plus courante d'afficher les icônes font awesome est d'utiliser leurs noms de classe.
+font awesome のアイコンを表示する最も一般的な方法は、そのクラス名を使用することです。
 
-Pour chaque icône, un nom de classe est prédéfini, il suffit d'ajouter `fa-` au nom de l'icône comme classe.
+各アイコンにはあらかじめクラス名が定義されており、アイコンの名前にクラス名として`fa-` を追加するだけです。
 
-font awesome icons utilise la balise italique, c'est-à-dire , `<i></i>` pour afficher les icônes 
+font awesome アイコンの表示には、italicタグ、すなわち, `<i></i>`を使用してアイコンを表示します。 
 
-La raison de l'utilisation de cette balise `<i>` comme icône est 
+このタグをアイコンとして使用する理由は `<i>`タグをアイコンとして使う理由は 
 
-1. C'est le diminutif
-2. `I` stand de l'icône (pas dans le monde HTML cependant)
+1.アイコンの略
+2. `I` アイコンの略（HTMLの世界ではありえないけど）
 
-Pour afficher les icônes de font awesome en utilisant les noms de classe css, suivez les étapes suivantes.
+font awesome のアイコンをCSSのクラス名で表示するには、次のようにします。
 
-1. Ajoutez une balise d'icône.
-2. Ajoutez le nom de l'icône préfixé par `fa` à l'attribut de classe.
-3. En outre, nous devons ajouter la classe Style, c'est-à-dire solide, ordinaire ou marque
+1.iconタグを追加します。
+2.class属性の先頭に`fa` をつけたアイコン名を追加する。
+3.さらに、Styleクラスを追加する。
 
-Tout d'abord, nous allons ajouter les icônes font awesome css dans la section head du fichier html comme indiqué ci-dessous
+まず、htmlファイルのheadセクションに、font awesome アイコンのCSSを以下のように追加します。
 
 ```
 <head>
@@ -95,58 +96,58 @@ Tout d'abord, nous allons ajouter les icônes font awesome css dans la section h
 </head>
 
 ```
-J'utilise le lien cdn de cloudfare font awesome icons.
+私はcloudfarefont awesome icons cdn linkを使用しています。
 
-Pour utiliser le CDN officiel de font awesome. Passez par l'article [font awesome CDN](/fontawesome/cdn).
+公式のfont awesome CDN を使用する場合。font awesome CDN](/fontawesome/cdn) の記事を参照してください。
 
-Maintenant pour afficher l'icône `facebook` font awesome , utilisez le code html ci-dessous.
+`facebook` font awesome アイコンを表示するには、以下のhtmlコードを使用します。
 
 ```
 <i class="fab fa-facebook"></i>
 ```
-L'icône Facebook fait partie des icônes de marque, j'ai donc ajouté `fab` comme nom de classe supplémentaire.
+Facebookのアイコンはブランドアイコンの一部なので、クラス名として`fab` を追加しています。
 
-Pour utiliser les icônes solides de font awesome, ajoutez le nom de classe suivant `fas`
+font awesome のソリッドアイコンを使用するには、クラス名を次のように追加します。`fas`
 
-Par exemple, pour afficher l'icône `barcode`, utilisez le code html suivant
+例えば、`barcode` のアイコンを表示するには、次のようなhtmlコードを使用します。
 
 ```
 <i class="fas fa-barcode"></i>
 ```
-`bookmark` l'icône fait partie des icônes normales, ajoutez le nom de la classe en tant que `far`
+`bookmark` アイコンは通常のアイコンの一部であり、クラス名を`far`
 
 ```
 <i class="far fa-bookmark"></i>
 ```
 
-Pour utiliser les icônes font awesome dans les applications Angular, consultez l'article suivant
+Angularアプリケーションでfont awesome アイコンを使用するには、以下の記事を参照してください。
 
-[Comment utiliser les icônes Font Awesome dans les applications Angular]
+[AngularアプリケーションでFont Awesomeアイコンを使用する方法] を参照してください。
 (https://www.angularjswiki.com/angular/how-to-use-font-awesome-icons-in-angular-applications/)
 
-## Afficher les icônes font awesome en utilisant les valeurs de contenu CSS
+## CSS content values を使ってfont awesome アイコンを表示する
 
-L'approche ci-dessus nous oblige à modifier les noms de nos classes d'icônes.
+上記の方法では、アイコンのクラス名を変更する必要があります。
 
-Si votre projet est nouveau, nous pouvons suivre l'approche ci-dessus 
+もし、あなたのプロジェクトが新しいものであるなら、上記の方法を取ることができます。 
 
-Mais s'il s'agit d'un projet existant, il est très difficile de changer le nom de la classe d'icônes.
+しかし、既存のプロジェクトであれば、アイコンクラスネームを変更することは非常に困難です。
 
-Dans ce cas, nous pouvons afficher les icônes font awesome en utilisant leurs valeurs de contenu CSS.
+この場合、font awesome のアイコンをCSSのコンテンツ値を使って表示することができます。
 
-Nous pouvons utiliser les caractéristiques des éléments CSS Pseudo-elements `::before` ou `::after` pour les afficher.
+CSS Pseudo-elements elements features`::before` or`::after` を使って表示させることができます。
 
-Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTML ci-dessous.
+例えば、`user` のアイコンを表示する場合、以下のようなHTMLコードを使用します。
 
 ```
 <li>
 <span class="user"></span> Login
 </li>
-``` 
+```
 
-Mais le nom officiel de notre icône utilisateur font awesome est `fa-user`.
+しかし、私たちの公式のfont awesome ユーザーアイコン名は`fa-user` です。
 
-Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS content code comme `\f007`, qui est la valeur unicode de l'icône `user`.
+そこで、アイコンを表示するために、`.user` クラスに CSS content code プロパティを`\f007` として追加します。これは`user` アイコンの unicode 値です。
 
 ```
 .user::before {
@@ -155,17 +156,17 @@ Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS conte
 }
 ```
 
-En plus du code de contenu CSS, nous devons également ajouter le style `font`.
+CSSコンテンツ・コードと一緒に、`font` スタイルも追加する必要があります。
 
-Nous pouvons utiliser les propriétés personnalisées CSS prédéfinies de font awesome pour cela.
+そのためには、font awesome 定義済みの CSS カスタムプロパティを使用します。
 
-Pour les icônes solides, utilisez `var(--fa-font-solid)`
+ソリッドアイコンには`var(--fa-font-solid)`
 
-Pour les icônes régulières, utilisez `var(--fa-font-regular)`
+通常のアイコンの場合`var(--fa-font-regular)`
 
-Pour les icônes de marque, utilisez `var(--fa-font-regular)`
+ブランドアイコン`var(--fa-font-regular)`
 
-En plus de cela, nous pouvons ajouter une classe personnalisée qui définit quelques propriétés CSS communes.
+さらに、いくつかの一般的なCSSプロパティを定義するカスタムクラスを追加することができます。
 
 ```
 .fontawesomeicon::before {
@@ -179,11 +180,11 @@ En plus de cela, nous pouvons ajouter une classe personnalisée qui définit que
 </li>
 
 ```
-C'est tout 
+以上です。 
 
-Dans la version font awesome 5, il n'y a pas de propriétés css personnalisées 
+font awesome 5 バージョンでは、カスタム css プロパティはありません。 
 
-Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
+そこで、`font-family` と`font-weight` のcssプロパティを追加する必要があります。
 
 ```
 // Font awesome 5 version. 
@@ -201,23 +202,23 @@ Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
 
 ```
 
-`font-family` et `font-weight` peuvent être différentes pour chaque icône en fonction du style de l'icône, comme les icônes ordinaires, solides et de marque.
+`font-family` と`font-weight` は、通常のアイコン、ソリッドアイコン、ブランドアイコンなど、アイコンのスタイルに応じてそれぞれ異なるかもしれません。
 
-[Utiliser les icônes font awesome comme code de contenu CSS](/fontawesome/csscontentcode)
+[font awesome アイコンをCSSコンテンツコードとして使用する](/fontawesome/csscontentcode)
 
-Pour afficher les icônes font awesome en utilisant des SVG, consultez l'article ci-dessous.
+font awesome アイコンをSVGで表示するには、以下の記事を参照してください。
 
-[Liste des icônes SVG Font Awesome, utilisation, CSS et téléchargement](/fontawesome/svg/)
+[Font Awesome SVG Icons List, Usage, CSS &amp; Download](/fontawesome/svg/)
 
 ## Search Font Awesome Icons 
 
-Voici la liste complète des icônes gratuites de font awesome.
+font awesome アイコンチートシートの全リストはこちらです。
 
-Tapez le nom de l'icône dans le champ de recherche ci-dessous et copiez le nom de la classe et le code de style ou de contenu CSS.
+下の検索ボックスにアイコン名を入力し、クラス名とスタイルまたはCSSコンテンツコードをコピーしてください。
 
-Les icônes seront filtrées dans le tableau ci-dessous.
+アイコンは下の表でフィルタリングされます。
 
-Et cliquez sur l'icône pour copier le code html.
+また、アイコンをクリックすると、HTMLコードがコピーされます。
 
 <input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search font awesome icons.." title="Search font awesome icons">
 

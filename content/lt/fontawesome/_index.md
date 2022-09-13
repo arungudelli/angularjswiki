@@ -1,10 +1,10 @@
 
 +++
-title     = "Liste des noms des classes des icônes Font Awesome 2016+ gratuites et leurs valeurs de contenu CSS"
-subtitle  = "Liste complète des icônes 2016+ gratuites font awesome "
-summary   = "Ce post contient des noms de listes de classes d'icônes gratuites font awesome avec leurs codes de valeurs de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML."
-keywords  = ["font awesome icons,font awesome icons list,fa icons list,icons "]
-linktitle = "Introduction"
+title     = "2016+ Nemokamas Font Awesome piktogramų klasių sąrašas Pavadinimai ir jų CSS turinio vertės"
+subtitle  = "Išsamus 2016+ nemokamų font awesome piktogramų sąrašas"
+summary   = "Šiame pranešime pateikiami nemokamų font awesome piktogramų klasių sąrašo pavadinimai su jų CSS turinio vertės kodais ir žingsnis po žingsnio pamoka, kaip naudoti font awesome piktogramas HTML puslapiuose."
+keywords  = ["font awesome piktogramos,font awesome piktogramų sąrašas,fa piktogramų sąrašas,piktogramos"]
+linktitle = "Įvadas"
 
 type="docs"
 date="2019-07-14T01:01:05+0000"
@@ -24,68 +24,68 @@ weight=1
 +++
 
 
-Ce post contient des noms de listes de classes d'icônes gratuites font awesome complètes avec leurs codes de valeur de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML.
+Šiame pranešime pateikiami visi nemokami font awesome piktogramų klasės sąrašo pavadinimai su jų CSS turinio vertės kodais ir žingsnis po žingsnio pamoka, kaip naudoti font awesome piktogramas HTML puslapiuose.
 
-Vous pouvez également rechercher et trouver les icônes font awesome en utilisant la [boîte de recherche] (#search-font-awesome-icons) fournie dans l'article.
+Taip pat galite ieškoti ir rasti font awesome piktogramų naudodamiesi straipsnyje pateiktu [paieškos langeliu] (#search-font-awesome-icons).
 
-Cliquez sur `Ctrl + D` pour ajouter la page à vos favoris.
+Spustelėkite `Ctrl + D`, jei norite pažymėti puslapį.
 
-**Dans la dernière version font awesome 6.2.0, il y a 2016 icônes gratuites**.
+** Naujausioje font awesome 6.2.0 versijoje yra 2016 nemokamų piktogramų**.
 
-Dans la version précédente font awesome 5.14, nous avons environ 1598 icônes gratuites.
+Ankstesnėje font awesome 5.14 versijoje turime apie 1598 nemokamas piktogramas.
 
-Selon le style de l'icône, ces icônes gratuites font awesome sont divisées en trois catégories 
+Atsižvelgiant į piktogramų stilių, šios nemokamos font awesome piktogramos suskirstytos į tris kategorijas 
 
-1. font awesome les icônes solides
-2. font awesome icônes normales
-3. font awesome icônes de marque
+1. font awesome vientisos piktogramos
+2. font awesome įprastos piktogramos
+3. font awesome prekės ženklo piktogramos
 
-Nous pouvons <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">télécharger le</a> fichier css des icônes font awesome et les servir à partir de votre propre serveur ou nous pouvons les servir à partir de CDN publics.
+Galime <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">atsisiųsti</a> font awesome piktogramų css failą ir pateikti juos iš jūsų serverio arba galime pateikti juos iš viešųjų CDN.
 
 {{% alert note %}}
-J'ai également créé un [ebook gratuit] (#download-font-awesome-icons-list-pdf) qui contient la liste complète des icônes de font awesome au format PDF.
+Taip pat sukūriau [nemokamą elektroninę knygą] (#download-font-awesome-icons-list-pdf), kurioje yra visas font awesome piktogramų sąrašas PDF formatu.
 {{% /alert%}}
 
 {{% toc %}}
 
-## Qu'est-ce que font awesome?
+## Kas yra font awesome?
 
-1. font awesome est la boîte à outils de polices et d'icônes la plus populaire du web, basée sur CSS et LESS.
-2. font awesome est créé par Dave Gandy.
-3. font awesome a été le nouveau projet open source le plus populaire de github en 2012 et fait actuellement partie du top 10 des projets.
-4. Font Awesome est actuellement présent sur 47 millions de sites Web et la moitié des développeurs Web du monde utilisent les icônes font awesome.
-5. Font Awesome permet d'ajouter facilement des icônes vectorielles et des logos sociaux à nos sites Web.
+1. font awesome tai populiariausias žiniatinklio šriftų ir piktogramų įrankių rinkinys, pagrįstas CSS ir LESS.
+2. font awesome sukūrė Dave'as Gandy.
+3. font awesome 2012 m. buvo populiariausias github naujas atvirojo kodo projektas, o šiuo metu apskritai yra vienas iš 10 populiariausių projektų.
+4. Šiuo metu "Font Awesome" veikia 47 mln. svetainių, o pusė pasaulio žiniatinklio kūrėjų naudoja font awesome piktogramas.
+5. Font Awesome leidžia lengvai pridėti vektorines piktogramas ir socialinių tinklų logotipus į mūsų svetaines.
 
-## Comment utiliser les icônes font awesome?
+## Kaip naudoti font awesome piktogramas?
 
-Il existe deux façons d'utiliser les icônes font awesome dans nos applications Web.
+Yra du būdai, kaip galime naudoti font awesome piktogramas savo žiniatinklio programose.
 
-1. Utilisation des noms de classe CSS
-2. Utilisation des valeurs de contenu CSS
-3. Utilisation des icônes SVG
+1. Naudojant CSS klasių pavadinimus
+2. Naudojant CSS turinio reikšmes
+3. SVG piktogramų naudojimas
 
-Tout d'abord, nous devons ajouter le fichier css de font awesome icons dans la section head du fichier html.
+Pirmiausia turime pridėti font awesome piktogramų css failą į html failo antraštės skyrių.
 
-## Afficher les icônes de font awesome en utilisant les noms de classe CSS 
+## font awesome piktogramas rodykite naudodami CSS klasių pavadinimus 
 
-La façon la plus courante d'afficher les icônes font awesome est d'utiliser leurs noms de classe.
+Labiausiai paplitęs font awesome piktogramų rodymo būdas - naudoti jų klasių pavadinimus.
 
-Pour chaque icône, un nom de classe est prédéfini, il suffit d'ajouter `fa-` au nom de l'icône comme classe.
+Kiekvienai piktogramai iš anksto nustatytas klasės pavadinimas, tereikia prie piktogramos pavadinimo pridėti `fa-` kaip klasę.
 
-font awesome icons utilise la balise italique, c'est-à-dire , `<i></i>` pour afficher les icônes 
+font awesome piktogramos naudoja kursyvo žymą, t. y., `<i></i>` piktogramoms rodyti 
 
-La raison de l'utilisation de cette balise `<i>` comme icône est 
+Tokio naudojimo priežastis `<i>` žyma kaip piktograma yra 
 
-1. C'est le diminutif
-2. `I` stand de l'icône (pas dans le monde HTML cependant)
+1. Ji trumpa
+2. `I` piktogramos stendas (tačiau ne HTML pasaulyje)
 
-Pour afficher les icônes de font awesome en utilisant les noms de classe css, suivez les étapes suivantes.
+Norėdami rodyti font awesome piktogramas naudodami css klasių pavadinimus, atlikite šiuos veiksmus.
 
-1. Ajoutez une balise d'icône.
-2. Ajoutez le nom de l'icône préfixé par `fa` à l'attribut de classe.
-3. En outre, nous devons ajouter la classe Style, c'est-à-dire solide, ordinaire ou marque
+1. Pridėkite piktogramos žymą.
+2. Į klasės atributą pridėkite piktogramos pavadinimą su priešdėliu `fa`.
+3. Be to, turime pridėti Stiliaus klasę, t. y. Solid (vientisa), Regular (įprasta) arba Brand (prekės ženklas)
 
-Tout d'abord, nous allons ajouter les icônes font awesome css dans la section head du fichier html comme indiqué ci-dessous
+Pirmiausia pridėsime font awesome piktogramų css į html failo head skyrių, kaip parodyta toliau
 
 ```
 <head>
@@ -95,48 +95,48 @@ Tout d'abord, nous allons ajouter les icônes font awesome css dans la section h
 </head>
 
 ```
-J'utilise le lien cdn de cloudfare font awesome icons.
+Aš naudoju cloudfare font awesome piktogramų cdn nuorodą.
 
-Pour utiliser le CDN officiel de font awesome. Passez par l'article [font awesome CDN](/fontawesome/cdn).
+Norėdami naudoti oficialų font awesome CDN. Peržiūrėkite [font awesome CDN](/fontawesome/cdn) straipsnį.
 
-Maintenant pour afficher l'icône `facebook` font awesome , utilisez le code html ci-dessous.
+Dabar, norėdami rodyti `facebook` font awesome piktogramą, naudokite toliau pateiktą html kodą.
 
 ```
 <i class="fab fa-facebook"></i>
 ```
-L'icône Facebook fait partie des icônes de marque, j'ai donc ajouté `fab` comme nom de classe supplémentaire.
+"Facebook" piktograma yra prekės ženklo piktogramų dalis, todėl kaip papildomą klasės pavadinimą pridėjau `fab`.
 
-Pour utiliser les icônes solides de font awesome, ajoutez le nom de classe suivant `fas`
+Norėdami naudoti font awesome kietąsias piktogramas, pridėkite tokį klasės pavadinimą `fas`
 
-Par exemple, pour afficher l'icône `barcode`, utilisez le code html suivant
+Pavyzdžiui, norėdami rodyti `barcode` piktogramą, naudokite šį html kodą
 
 ```
 <i class="fas fa-barcode"></i>
 ```
-`bookmark` l'icône fait partie des icônes normales, ajoutez le nom de la classe en tant que `far`
+`bookmark` piktograma yra įprastų piktogramų dalis, pridėkite klasės pavadinimą kaip `far`
 
 ```
 <i class="far fa-bookmark"></i>
 ```
 
-Pour utiliser les icônes font awesome dans les applications Angular, consultez l'article suivant
+Norėdami naudoti font awesome piktogramas "Angular" programose, perskaitykite straipsnį
 
-[Comment utiliser les icônes Font Awesome dans les applications Angular]
+[Kaip naudoti "Font Awesome" piktogramas "Angular" programose]
 (https://www.angularjswiki.com/angular/how-to-use-font-awesome-icons-in-angular-applications/)
 
-## Afficher les icônes font awesome en utilisant les valeurs de contenu CSS
+## Rodykite font awesome piktogramas naudodami CSS turinio reikšmes
 
-L'approche ci-dessus nous oblige à modifier les noms de nos classes d'icônes.
+Pagal pirmiau pateiktą metodą turime pakeisti piktogramų klasių pavadinimus.
 
-Si votre projet est nouveau, nous pouvons suivre l'approche ci-dessus 
+Jei jūsų projektas yra naujas, tuomet galime vadovautis pirmiau nurodytu metodu 
 
-Mais s'il s'agit d'un projet existant, il est très difficile de changer le nom de la classe d'icônes.
+Tačiau jei tai jau egzistuojantis projektas, labai sunku pakeisti piktogramų klasės pavadinimą.
 
-Dans ce cas, nous pouvons afficher les icônes font awesome en utilisant leurs valeurs de contenu CSS.
+Tokiu atveju galime rodyti font awesome piktogramas naudodami jų CSS turinio reikšmes.
 
-Nous pouvons utiliser les caractéristiques des éléments CSS Pseudo-elements `::before` ou `::after` pour les afficher.
+Joms rodyti galime naudoti CSS pseudoelementų elementų funkcijas `::before` arba `::after`.
 
-Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTML ci-dessous.
+Pavyzdžiui, norėdami rodyti `user` piktogramą, galėtume naudoti toliau pateiktą HTML kodą.
 
 ```
 <li>
@@ -144,9 +144,9 @@ Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTM
 </li>
 ``` 
 
-Mais le nom officiel de notre icône utilisateur font awesome est `fa-user`.
+Tačiau mūsų oficialus font awesome naudotojo piktogramos pavadinimas yra `fa-user`.
 
-Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS content code comme `\f007`, qui est la valeur unicode de l'icône `user`.
+Taigi, norėdami rodyti piktogramą, `.user` klasei pridėkite CSS turinio kodo savybę kaip `\f007`, kuri yra `user` piktogramos unikodo reikšmė.
 
 ```
 .user::before {
@@ -155,17 +155,17 @@ Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS conte
 }
 ```
 
-En plus du code de contenu CSS, nous devons également ajouter le style `font`.
+Kartu su CSS turinio kodu turime pridėti ir `font` stilių.
 
-Nous pouvons utiliser les propriétés personnalisées CSS prédéfinies de font awesome pour cela.
+Tam galime naudoti font awesome iš anksto nustatytas CSS pasirinktines savybes.
 
-Pour les icônes solides, utilisez `var(--fa-font-solid)`
+Tvirtų piktogramų atveju naudokite `var(--fa-font-solid)`
 
-Pour les icônes régulières, utilisez `var(--fa-font-regular)`
+Paprastoms piktogramoms naudokite `var(--fa-font-regular)`
 
-Pour les icônes de marque, utilisez `var(--fa-font-regular)`
+Prekės ženklo piktogramoms naudokite `var(--fa-font-regular)`
 
-En plus de cela, nous pouvons ajouter une classe personnalisée qui définit quelques propriétés CSS communes.
+Be to, galime pridėti pasirinktinę klasę, kuri apibrėžia keletą bendrų CSS savybių.
 
 ```
 .fontawesomeicon::before {
@@ -179,11 +179,11 @@ En plus de cela, nous pouvons ajouter une classe personnalisée qui définit que
 </li>
 
 ```
-C'est tout 
+Štai ir viskas 
 
-Dans la version font awesome 5, il n'y a pas de propriétés css personnalisées 
+ font awesome 5 versijoje nėra pasirinktinių css savybių 
 
-Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
+Taigi turime pridėti `font-family` ir `font-weight` css savybes.
 
 ```
 // Font awesome 5 version. 
@@ -201,28 +201,27 @@ Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
 
 ```
 
-`font-family` et `font-weight` peuvent être différentes pour chaque icône en fonction du style de l'icône, comme les icônes ordinaires, solides et de marque.
+`font-family` ir `font-weight` gali būti skirtingos kiekvienai piktogramai, priklausomai nuo piktogramos stiliaus, pavyzdžiui, įprastos, kietos ir prekės ženklo piktogramos.
 
-[Utiliser les icônes font awesome comme code de contenu CSS](/fontawesome/csscontentcode)
+[Naudokite font awesome piktogramas kaip CSS turinio kodą](/fontawesome/csscontentcode)
 
-Pour afficher les icônes font awesome en utilisant des SVG, consultez l'article ci-dessous.
+Norėdami rodyti font awesome piktogramas naudodami SVG, eikite pagalvoti į toliau pateiktą straipsnį.
 
-[Liste des icônes SVG Font Awesome, utilisation, CSS et téléchargement](/fontawesome/svg/)
+[Font Awesome SVG piktogramų sąrašas, naudojimas, CSS ir atsisiuntimas](/fontawesome/svg/)
 
 ## Search Font Awesome Icons 
 
-Voici la liste complète des icônes gratuites de font awesome.
+Čia pateikiamas visas nemokamų font awesome piktogramų cheat sheet sąrašas.
 
-Tapez le nom de l'icône dans le champ de recherche ci-dessous et copiez le nom de la classe et le code de style ou de contenu CSS.
+Toliau esančiame paieškos laukelyje įveskite piktogramos pavadinimą ir nukopijuokite klasės pavadinimą bei stiliaus arba CSS turinio kodą.
 
-Les icônes seront filtrées dans le tableau ci-dessous.
+Piktogramos bus filtruojamos toliau pateiktoje lentelėje.
 
-Et cliquez sur l'icône pour copier le code html.
+Ir spustelėkite piktogramą, kad nukopijuotumėte html kodą.
 
 <input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search font awesome icons.." title="Search font awesome icons">
 
 Total <strong><span id="counter">2016</span></strong> Icons.
-
 
 ## Font Awesome Icons Class List & CSS Content Codes
 

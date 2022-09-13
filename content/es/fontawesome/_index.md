@@ -1,10 +1,10 @@
 
 +++
-title     = "Liste des noms des classes des icônes Font Awesome 2016+ gratuites et leurs valeurs de contenu CSS"
-subtitle  = "Liste complète des icônes 2016+ gratuites font awesome "
-summary   = "Ce post contient des noms de listes de classes d'icônes gratuites font awesome avec leurs codes de valeurs de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML."
-keywords  = ["font awesome icons,font awesome icons list,fa icons list,icons "]
-linktitle = "Introduction"
+title     = "2016+ Lista de clases de iconos gratuitos de Font Awesome Nombres y sus valores de contenido CSS"
+subtitle  = "Lista completa de 2016+ iconos gratuitos font awesome "
+summary   = "Este post contiene gratis font awesome iconos lista de clases con sus códigos de valor de contenido CSS &amp; tutorial paso a paso para utilizar font awesome iconos en páginas HTML."
+keywords  = ["font awesome iconos,font awesome lista de iconos,fa lista de iconos,iconos"]
+linktitle = "Introducción"
 
 type="docs"
 date="2019-07-14T01:01:05+0000"
@@ -24,68 +24,68 @@ weight=1
 +++
 
 
-Ce post contient des noms de listes de classes d'icônes gratuites font awesome complètes avec leurs codes de valeur de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML.
+Este post contiene completa libre font awesome iconos nombres de la lista de clase con sus códigos de valor de contenido CSS y paso a paso tutorial para utilizar font awesome iconos en páginas HTML.
 
-Vous pouvez également rechercher et trouver les icônes font awesome en utilisant la [boîte de recherche] (#search-font-awesome-icons) fournie dans l'article.
+Y también se puede buscar y encontrar font awesome iconos utilizando el [cuadro de búsqueda](#search-font-awesome-icons) proporcionado en el artículo.
 
-Cliquez sur `Ctrl + D` pour ajouter la page à vos favoris.
+Haga clic en `Ctrl + D` para marcar la página.
 
-**Dans la dernière version font awesome 6.2.0, il y a 2016 icônes gratuites**.
+**En la última versión de font awesome 6.2.0, hay 2016 iconos gratuitos**.
 
-Dans la version précédente font awesome 5.14, nous avons environ 1598 icônes gratuites.
+En la versión anterior font awesome 5.14 tenemos alrededor de 1598 iconos gratuitos.
 
-Selon le style de l'icône, ces icônes gratuites font awesome sont divisées en trois catégories 
+Dependiendo del estilo de los iconos, estos iconos gratuitos de font awesome se dividen en tres categorías 
 
-1. font awesome les icônes solides
-2. font awesome icônes normales
-3. font awesome icônes de marque
+1. font awesome iconos sólidos
+2. font awesome iconos regulares
+3. font awesome iconos de marca
 
-Nous pouvons <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">télécharger le</a> fichier css des icônes font awesome et les servir à partir de votre propre serveur ou nous pouvons les servir à partir de CDN publics.
+Podemos <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">descargar</a> el archivo css de font awesome iconos y servirlos desde su propio servidor o podemos servirlos desde CDNs públicos.
 
 {{% alert note %}}
-J'ai également créé un [ebook gratuit] (#download-font-awesome-icons-list-pdf) qui contient la liste complète des icônes de font awesome au format PDF.
+Y también he creado un [ebook gratuito](#download-font-awesome-icons-list-pdf) que contiene la lista completa de font awesome iconos en formato PDF.
 {{% /alert%}}
 
 {{% toc %}}
 
-## Qu'est-ce que font awesome?
+## ¿Qué es font awesome?
 
-1. font awesome est la boîte à outils de polices et d'icônes la plus populaire du web, basée sur CSS et LESS.
-2. font awesome est créé par Dave Gandy.
-3. font awesome a été le nouveau projet open source le plus populaire de github en 2012 et fait actuellement partie du top 10 des projets.
-4. Font Awesome est actuellement présent sur 47 millions de sites Web et la moitié des développeurs Web du monde utilisent les icônes font awesome.
-5. Font Awesome permet d'ajouter facilement des icônes vectorielles et des logos sociaux à nos sites Web.
+1. font awesome es el conjunto de herramientas de fuentes e iconos más popular de la web basado en CSS y LESS.
+2. font awesome fue creado por Dave Gandy.
+3. font awesome fue el nuevo proyecto de código abierto más popular de github en 2012 y actualmente es uno de los 10 mejores proyectos en general.
+4. Font Awesome está actualmente presente en 47 millones de sitios web y la mitad de los desarrolladores web del mundo utilizan los iconos de font awesome.
+5. Font Awesome hace que sea fácil añadir iconos vectoriales y logotipos sociales a nuestros sitios web.
 
-## Comment utiliser les icônes font awesome?
+## ¿Cómo utilizar los iconos de font awesome?
 
-Il existe deux façons d'utiliser les icônes font awesome dans nos applications Web.
+Hay dos formas de utilizar los iconos de font awesome en nuestras aplicaciones web.
 
-1. Utilisation des noms de classe CSS
-2. Utilisation des valeurs de contenu CSS
-3. Utilisation des icônes SVG
+1. Usando nombres de clases CSS
+2. Usando valores de contenido CSS
+3. Uso de iconos SVG
 
-Tout d'abord, nous devons ajouter le fichier css de font awesome icons dans la section head du fichier html.
+En primer lugar tenemos que añadir font awesome iconos css archivo en la sección de la cabeza del archivo html.
 
-## Afficher les icônes de font awesome en utilisant les noms de classe CSS 
+## Mostrar font awesome iconos utilizando los nombres de las clases CSS 
 
-La façon la plus courante d'afficher les icônes font awesome est d'utiliser leurs noms de classe.
+La forma más común de mostrar los iconos de font awesome es utilizando sus nombres de clase.
 
-Pour chaque icône, un nom de classe est prédéfini, il suffit d'ajouter `fa-` au nom de l'icône comme classe.
+Para todos y cada uno de los iconos hay un nombre de clase predefinido, sólo tenemos que añadir el `fa-` al nombre del icono como clase.
 
-font awesome icons utilise la balise italique, c'est-à-dire , `<i></i>` pour afficher les icônes 
+font awesome icons utiliza la etiqueta itálica, es decir, `<i></i>` para mostrar los iconos 
 
-La raison de l'utilisation de cette balise `<i>` comme icône est 
+La razón por la que se utiliza esta etiqueta `<i>` etiqueta como icono es 
 
-1. C'est le diminutif
-2. `I` stand de l'icône (pas dans le monde HTML cependant)
+1. Es la abreviatura
+2. `I` stand de Icono (aunque no en el mundo HTML)
 
-Pour afficher les icônes de font awesome en utilisant les noms de classe css, suivez les étapes suivantes.
+Para mostrar los iconos de font awesome usando nombres de clases css siga los pasos.
 
-1. Ajoutez une balise d'icône.
-2. Ajoutez le nom de l'icône préfixé par `fa` à l'attribut de classe.
-3. En outre, nous devons ajouter la classe Style, c'est-à-dire solide, ordinaire ou marque
+1. Añade una etiqueta de icono.
+2. Añada el nombre del icono con el prefijo `fa` al atributo de clase.
+3. Además tenemos que añadir la clase de estilo. es decir, sólido o regular o marca
 
-Tout d'abord, nous allons ajouter les icônes font awesome css dans la section head du fichier html comme indiqué ci-dessous
+Primero añadiremos el css de los iconos de font awesome en la sección head del archivo html como se muestra a continuación
 
 ```
 <head>
@@ -95,48 +95,48 @@ Tout d'abord, nous allons ajouter les icônes font awesome css dans la section h
 </head>
 
 ```
-J'utilise le lien cdn de cloudfare font awesome icons.
+Estoy usando cloudfare font awesome icons cdn link.
 
-Pour utiliser le CDN officiel de font awesome. Passez par l'article [font awesome CDN](/fontawesome/cdn).
+Para usar el CDN oficial de font awesome. Ir a través de la [font awesome CDN](/fontawesome/cdn) artículo.
 
-Maintenant pour afficher l'icône `facebook` font awesome , utilisez le code html ci-dessous.
+Ahora para mostrar `facebook` font awesome icono, utilice el siguiente código html.
 
 ```
 <i class="fab fa-facebook"></i>
 ```
-L'icône Facebook fait partie des icônes de marque, j'ai donc ajouté `fab` comme nom de classe supplémentaire.
+El icono de Facebook es parte de los iconos de marca, por lo que he añadido `fab` como nombre de clase adicional.
 
-Pour utiliser les icônes solides de font awesome, ajoutez le nom de classe suivant `fas`
+Para utilizar font awesome iconos sólidos añadir el nombre de la clase como `fas`
 
-Par exemple, pour afficher l'icône `barcode`, utilisez le code html suivant
+Por ejemplo, para mostrar el icono de `barcode` utilice el siguiente código html
 
 ```
 <i class="fas fa-barcode"></i>
 ```
-`bookmark` l'icône fait partie des icônes normales, ajoutez le nom de la classe en tant que `far`
+`bookmark` el icono es como parte de los iconos regulares, añada el nombre de la clase como `far`
 
 ```
 <i class="far fa-bookmark"></i>
 ```
 
-Pour utiliser les icônes font awesome dans les applications Angular, consultez l'article suivant
+Para utilizar los iconos de font awesome en las aplicaciones de Angular ir a través del artículo
 
-[Comment utiliser les icônes Font Awesome dans les applications Angular]
+[Cómo utilizar los iconos de Font Awesome en las aplicaciones Angular]
 (https://www.angularjswiki.com/angular/how-to-use-font-awesome-icons-in-angular-applications/)
 
-## Afficher les icônes font awesome en utilisant les valeurs de contenu CSS
+## Mostrar los iconos de font awesome usando valores de contenido CSS
 
-L'approche ci-dessus nous oblige à modifier les noms de nos classes d'icônes.
+El enfoque anterior requiere que cambiemos los nombres de nuestras clases de iconos.
 
-Si votre projet est nouveau, nous pouvons suivre l'approche ci-dessus 
+Si su proyecto es nuevo entonces podemos seguir el enfoque anterior 
 
-Mais s'il s'agit d'un projet existant, il est très difficile de changer le nom de la classe d'icônes.
+Pero si se trata de un proyecto existente, es muy difícil cambiar el nombre de la clase de icono.
 
-Dans ce cas, nous pouvons afficher les icônes font awesome en utilisant leurs valeurs de contenu CSS.
+En este caso podemos mostrar los iconos de font awesome utilizando sus valores de contenido CSS.
 
-Nous pouvons utiliser les caractéristiques des éléments CSS Pseudo-elements `::before` ou `::after` pour les afficher.
+Podemos utilizar las características de los elementos CSS Pseudo-elementos `::before` o `::after` para mostrarlos.
 
-Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTML ci-dessous.
+Por ejemplo, para mostrar el icono `user`, podríamos haber utilizado el siguiente código HTML.
 
 ```
 <li>
@@ -144,9 +144,9 @@ Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTM
 </li>
 ``` 
 
-Mais le nom officiel de notre icône utilisateur font awesome est `fa-user`.
+Pero nuestro nombre oficial de icono de usuario font awesome es `fa-user`.
 
-Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS content code comme `\f007`, qui est la valeur unicode de l'icône `user`.
+Así que para mostrar el icono, para la clase `.user` añadir la propiedad de código de contenido CSS como `\f007`, que es el valor unicode para el icono `user`.
 
 ```
 .user::before {
@@ -155,17 +155,17 @@ Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS conte
 }
 ```
 
-En plus du code de contenu CSS, nous devons également ajouter le style `font`.
+Junto con el código de contenido CSS, tenemos que añadir el estilo `font` también.
 
-Nous pouvons utiliser les propriétés personnalisées CSS prédéfinies de font awesome pour cela.
+Para ello, podemos utilizar las propiedades CSS personalizadas predefinidas de font awesome.
 
-Pour les icônes solides, utilisez `var(--fa-font-solid)`
+Para los iconos sólidos utilizar `var(--fa-font-solid)`
 
-Pour les icônes régulières, utilisez `var(--fa-font-regular)`
+Para los iconos regulares utilizar `var(--fa-font-regular)`
 
-Pour les icônes de marque, utilisez `var(--fa-font-regular)`
+Para los iconos de marca utilizar `var(--fa-font-regular)`
 
-En plus de cela, nous pouvons ajouter une classe personnalisée qui définit quelques propriétés CSS communes.
+Además, podemos añadir una clase personalizada que defina algunas propiedades CSS comunes.
 
 ```
 .fontawesomeicon::before {
@@ -179,11 +179,11 @@ En plus de cela, nous pouvons ajouter une classe personnalisée qui définit que
 </li>
 
 ```
-C'est tout 
+Eso es todo 
 
-Dans la version font awesome 5, il n'y a pas de propriétés css personnalisées 
+En la versión font awesome 5 no hay propiedades css personalizadas 
 
-Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
+Así que tenemos que añadir `font-family` y `font-weight` propiedades css.
 
 ```
 // Font awesome 5 version. 
@@ -201,28 +201,27 @@ Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
 
 ```
 
-`font-family` et `font-weight` peuvent être différentes pour chaque icône en fonction du style de l'icône, comme les icônes ordinaires, solides et de marque.
+`font-family` y `font-weight` puede ser diferente para cada icono dependiendo del estilo del icono como regular, sólido y iconos de marca.
 
-[Utiliser les icônes font awesome comme code de contenu CSS](/fontawesome/csscontentcode)
+[Usar font awesome Iconos como código de contenido CSS](/fontawesome/csscontentcode)
 
-Pour afficher les icônes font awesome en utilisant des SVG, consultez l'article ci-dessous.
+Para mostrar los iconos de font awesome usando SVG's vaya al siguiente artículo.
 
-[Liste des icônes SVG Font Awesome, utilisation, CSS et téléchargement](/fontawesome/svg/)
+[Lista de iconos SVG de Font Awesome, uso, CSS y descarga](/fontawesome/svg/)
 
 ## Search Font Awesome Icons 
 
-Voici la liste complète des icônes gratuites de font awesome.
+Aquí está la lista completa de iconos gratuitos font awesome hoja de trucos.
 
-Tapez le nom de l'icône dans le champ de recherche ci-dessous et copiez le nom de la classe et le code de style ou de contenu CSS.
+Escriba el nombre del icono en el cuadro de búsqueda de abajo y copiar el nombre de la clase y el estilo o el código de contenido CSS.
 
-Les icônes seront filtrées dans le tableau ci-dessous.
+Los iconos se filtrarán en la tabla de abajo.
 
-Et cliquez sur l'icône pour copier le code html.
+Y haga clic en el icono para copiar el código html.
 
 <input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search font awesome icons.." title="Search font awesome icons">
 
 Total <strong><span id="counter">2016</span></strong> Icons.
-
 
 ## Font Awesome Icons Class List & CSS Content Codes
 

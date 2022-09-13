@@ -1,10 +1,10 @@
 
 +++
-title     = "Liste des noms des classes des icônes Font Awesome 2016+ gratuites et leurs valeurs de contenu CSS"
-subtitle  = "Liste complète des icônes 2016+ gratuites font awesome "
-summary   = "Ce post contient des noms de listes de classes d'icônes gratuites font awesome avec leurs codes de valeurs de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML."
-keywords  = ["font awesome icons,font awesome icons list,fa icons list,icons "]
-linktitle = "Introduction"
+title     = "2016+ Bezplatný zoznam tried ikon Font Awesome a ich hodnoty obsahu CSS"
+subtitle  = "Kompletný zoznam 2016+ bezplatných ikon font awesome "
+summary   = "Tento príspevok obsahuje zoznam názvov tried ikon zadarmo font awesome s kódmi ich hodnôt obsahu CSS &amp; návod krok za krokom na používanie ikon font awesome na stránkach HTML."
+keywords  = ["font awesome ikony,font awesome zoznam ikon,zoznam ikon fa,ikony"]
+linktitle = "Úvod"
 
 type="docs"
 date="2019-07-14T01:01:05+0000"
@@ -24,68 +24,68 @@ weight=1
 +++
 
 
-Ce post contient des noms de listes de classes d'icônes gratuites font awesome complètes avec leurs codes de valeur de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML.
+Tento príspevok obsahuje kompletný bezplatný zoznam názvov tried ikon font awesome s ich kódmi hodnôt obsahu CSS &amp; návod krok za krokom na používanie ikon font awesome na stránkach HTML.
 
-Vous pouvez également rechercher et trouver les icônes font awesome en utilisant la [boîte de recherche] (#search-font-awesome-icons) fournie dans l'article.
+A tiež môžete vyhľadávať a nájsť font awesome ikony pomocou [vyhľadávacieho poľa](#search-font-awesome-icons) uvedeného v článku.
 
-Cliquez sur `Ctrl + D` pour ajouter la page à vos favoris.
+Kliknutím na `Ctrl + D` si stránku môžete pridať do záložiek.
 
-**Dans la dernière version font awesome 6.2.0, il y a 2016 icônes gratuites**.
+**V najnovšej verzii font awesome 6.2.0 je k dispozícii 2016 bezplatných ikon**.
 
-Dans la version précédente font awesome 5.14, nous avons environ 1598 icônes gratuites.
+V predchádzajúcej verzii font awesome 5.14 máme približne 1598 bezplatných ikon.
 
-Selon le style de l'icône, ces icônes gratuites font awesome sont divisées en trois catégories 
+V závislosti od štýlu ikon sú tieto bezplatné ikony font awesome rozdelené do troch kategórií 
 
-1. font awesome les icônes solides
-2. font awesome icônes normales
-3. font awesome icônes de marque
+1. font awesome pevné ikony
+2. font awesome bežné ikony
+3. font awesome ikony značiek
 
-Nous pouvons <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">télécharger le</a> fichier css des icônes font awesome et les servir à partir de votre propre serveur ou nous pouvons les servir à partir de CDN publics.
+Môžeme <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">stiahnuť</a> font awesome ikony css súbor a slúžiť z vášho vlastného servera Alebo môžeme slúžiť z verejných CDN.
 
 {{% alert note %}}
-J'ai également créé un [ebook gratuit] (#download-font-awesome-icons-list-pdf) qui contient la liste complète des icônes de font awesome au format PDF.
+A tiež som vytvoril [bezplatnú elektronickú knihu](#download-font-awesome-icons-list-pdf), ktorá obsahuje kompletný zoznam ikon font awesome vo formáte PDF.
 {{% /alert%}}
 
 {{% toc %}}
 
-## Qu'est-ce que font awesome?
+## Čo je font awesome?
 
-1. font awesome est la boîte à outils de polices et d'icônes la plus populaire du web, basée sur CSS et LESS.
-2. font awesome est créé par Dave Gandy.
-3. font awesome a été le nouveau projet open source le plus populaire de github en 2012 et fait actuellement partie du top 10 des projets.
-4. Font Awesome est actuellement présent sur 47 millions de sites Web et la moitié des développeurs Web du monde utilisent les icônes font awesome.
-5. Font Awesome permet d'ajouter facilement des icônes vectorielles et des logos sociaux à nos sites Web.
+1. font awesome je najpopulárnejšia webová sada nástrojov pre písma a ikony založená na CSS a LESS.
+2. font awesome vytvoril Dave Gandy.
+3. font awesome bol najpopulárnejším novým open source projektom na githube v roku 2012 a v súčasnosti patrí medzi 10 najpopulárnejších projektov celkovo.
+4. Font Awesome je v súčasnosti živý na 47 miliónoch webových stránok a polovica svetových webových vývojárov používa ikony font awesome.
+5. Font Awesome umožňuje jednoducho pridávať vektorové ikony a sociálne logá na naše webové stránky.
 
-## Comment utiliser les icônes font awesome?
+## Ako používať ikony font awesome?
 
-Il existe deux façons d'utiliser les icônes font awesome dans nos applications Web.
+Ikony font awesome môžeme v našich webových aplikáciách používať dvoma spôsobmi.
 
-1. Utilisation des noms de classe CSS
-2. Utilisation des valeurs de contenu CSS
-3. Utilisation des icônes SVG
+1. Použitie názvov tried CSS
+2. Použitie hodnôt obsahu CSS
+3. Používanie ikon SVG
 
-Tout d'abord, nous devons ajouter le fichier css de font awesome icons dans la section head du fichier html.
+Najprv musíme pridať súbor font awesome icons css do časti head súboru html.
 
-## Afficher les icônes de font awesome en utilisant les noms de classe CSS 
+## Zobrazenie ikon font awesome pomocou názvov tried CSS 
 
-La façon la plus courante d'afficher les icônes font awesome est d'utiliser leurs noms de classe.
+Najbežnejším spôsobom zobrazenia ikon font awesome je použitie názvov ich tried.
 
-Pour chaque icône, un nom de classe est prédéfini, il suffit d'ajouter `fa-` au nom de l'icône comme classe.
+Pre každú ikonu je preddefinovaný názov triedy, stačí, ak k názvu ikony ako triedu pripojíme `fa-`.
 
-font awesome icons utilise la balise italique, c'est-à-dire , `<i></i>` pour afficher les icônes 
+font awesome ikony používajú značku kurzíva, t. j., `<i></i>` na zobrazenie ikon 
 
-La raison de l'utilisation de cette balise `<i>` comme icône est 
+Dôvodom použitia tejto `<i>` tagu ako ikony je 
 
-1. C'est le diminutif
-2. `I` stand de l'icône (pas dans le monde HTML cependant)
+1. Je krátky
+2. `I` stojan ikony (nie však vo svete HTML)
 
-Pour afficher les icônes de font awesome en utilisant les noms de classe css, suivez les étapes suivantes.
+Ak chcete zobraziť ikony font awesome pomocou názvov tried css, postupujte podľa nasledujúcich krokov.
 
-1. Ajoutez une balise d'icône.
-2. Ajoutez le nom de l'icône préfixé par `fa` à l'attribut de classe.
-3. En outre, nous devons ajouter la classe Style, c'est-à-dire solide, ordinaire ou marque
+1. Pridajte značku ikony.
+2. Do atribútu triedy pridajte názov ikony s predponou `fa`.
+3. Okrem toho musíme pridať triedu Style. t. j. solid alebo regular alebo brand
 
-Tout d'abord, nous allons ajouter les icônes font awesome css dans la section head du fichier html comme indiqué ci-dessous
+Najskôr pridáme ikony font awesome css do sekcie head súboru html, ako je znázornené nižšie
 
 ```
 <head>
@@ -95,48 +95,48 @@ Tout d'abord, nous allons ajouter les icônes font awesome css dans la section h
 </head>
 
 ```
-J'utilise le lien cdn de cloudfare font awesome icons.
+Používam odkaz cloudfare font awesome icons cdn.
 
-Pour utiliser le CDN officiel de font awesome. Passez par l'article [font awesome CDN](/fontawesome/cdn).
+Ak chcete použiť oficiálnu font awesome CDN. Prejdite cez článok [font awesome CDN](/fontawesome/cdn).
 
-Maintenant pour afficher l'icône `facebook` font awesome , utilisez le code html ci-dessous.
+Teraz na zobrazenie ikony `facebook` font awesome použite nižšie uvedený html kód.
 
 ```
 <i class="fab fa-facebook"></i>
 ```
-L'icône Facebook fait partie des icônes de marque, j'ai donc ajouté `fab` comme nom de classe supplémentaire.
+Ikona Facebook je súčasťou ikony značky, preto som ako ďalší názov triedy pridal `fab`.
 
-Pour utiliser les icônes solides de font awesome, ajoutez le nom de classe suivant `fas`
+Ak chcete použiť ikony font awesome solid, pridajte názov triedy ako `fas`
 
-Par exemple, pour afficher l'icône `barcode`, utilisez le code html suivant
+Napríklad na zobrazenie ikony `barcode` použite nasledujúci html kód
 
 ```
 <i class="fas fa-barcode"></i>
 ```
-`bookmark` l'icône fait partie des icônes normales, ajoutez le nom de la classe en tant que `far`
+`bookmark` ikona je súčasťou bežných ikon, názov triedy pridajte ako `far`
 
 ```
 <i class="far fa-bookmark"></i>
 ```
 
-Pour utiliser les icônes font awesome dans les applications Angular, consultez l'article suivant
+Ak chcete používať ikony font awesome v aplikáciách Angular, prejdite si článok
 
-[Comment utiliser les icônes Font Awesome dans les applications Angular]
+[Ako používať ikony Font Awesome v aplikáciách Angular]
 (https://www.angularjswiki.com/angular/how-to-use-font-awesome-icons-in-angular-applications/)
 
-## Afficher les icônes font awesome en utilisant les valeurs de contenu CSS
+## Zobrazenie ikon font awesome pomocou hodnôt obsahu CSS
 
-L'approche ci-dessus nous oblige à modifier les noms de nos classes d'icônes.
+Uvedený prístup si vyžaduje, aby sme zmenili názvy tried ikon.
 
-Si votre projet est nouveau, nous pouvons suivre l'approche ci-dessus 
+Ak je váš projekt nový, potom môžeme postupovať podľa vyššie uvedeného prístupu 
 
-Mais s'il s'agit d'un projet existant, il est très difficile de changer le nom de la classe d'icônes.
+Ak však ide o existujúci projekt, je veľmi ťažké zmeniť názov triedy ikon.
 
-Dans ce cas, nous pouvons afficher les icônes font awesome en utilisant leurs valeurs de contenu CSS.
+V tomto prípade môžeme ikony font awesome zobraziť pomocou ich obsahových hodnôt CSS.
 
-Nous pouvons utiliser les caractéristiques des éléments CSS Pseudo-elements `::before` ou `::after` pour les afficher.
+Na ich zobrazenie môžeme použiť vlastnosti prvkov CSS Pseudo-elements `::before` alebo `::after`.
 
-Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTML ci-dessous.
+Napríklad na zobrazenie ikony `user` sme mohli použiť nasledujúci kód HTML.
 
 ```
 <li>
@@ -144,9 +144,9 @@ Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTM
 </li>
 ``` 
 
-Mais le nom officiel de notre icône utilisateur font awesome est `fa-user`.
+Ale náš oficiálny názov používateľskej ikony font awesome je `fa-user`.
 
-Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS content code comme `\f007`, qui est la valeur unicode de l'icône `user`.
+Takže na zobrazenie ikony pridajte pre triedu `.user` vlastnosť CSS content code ako `\f007`, čo je unicode hodnota pre ikonu `user`.
 
 ```
 .user::before {
@@ -155,17 +155,17 @@ Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS conte
 }
 ```
 
-En plus du code de contenu CSS, nous devons également ajouter le style `font`.
+Spolu s kódom obsahu CSS musíme pridať aj štýl `font`.
 
-Nous pouvons utiliser les propriétés personnalisées CSS prédéfinies de font awesome pour cela.
+Na to môžeme použiť preddefinované vlastné vlastnosti CSS font awesome.
 
-Pour les icônes solides, utilisez `var(--fa-font-solid)`
+Pre pevné ikony použite `var(--fa-font-solid)`
 
-Pour les icônes régulières, utilisez `var(--fa-font-regular)`
+Pre pravidelné ikony použite `var(--fa-font-regular)`
 
-Pour les icônes de marque, utilisez `var(--fa-font-regular)`
+Pre značkové ikony použite `var(--fa-font-regular)`
 
-En plus de cela, nous pouvons ajouter une classe personnalisée qui définit quelques propriétés CSS communes.
+Okrem toho môžeme pridať vlastnú triedu, ktorá definuje niekoľko bežných vlastností CSS.
 
 ```
 .fontawesomeicon::before {
@@ -179,11 +179,11 @@ En plus de cela, nous pouvons ajouter une classe personnalisée qui définit que
 </li>
 
 ```
-C'est tout 
+To je všetko 
 
-Dans la version font awesome 5, il n'y a pas de propriétés css personnalisées 
+Vo verzii font awesome 5 nie sú žiadne vlastné vlastnosti css 
 
-Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
+Preto musíme pridať vlastnosti css `font-family` a `font-weight`.
 
 ```
 // Font awesome 5 version. 
@@ -201,28 +201,27 @@ Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
 
 ```
 
-`font-family` et `font-weight` peuvent être différentes pour chaque icône en fonction du style de l'icône, comme les icônes ordinaires, solides et de marque.
+`font-family` a `font-weight` môžu byť pre každú ikonu iné v závislosti od štýlu ikony, ako sú bežné, plné a značkové ikony.
 
-[Utiliser les icônes font awesome comme code de contenu CSS](/fontawesome/csscontentcode)
+[Použite ikony font awesome ako kód obsahu CSS](/fontawesome/csscontentcode)
 
-Pour afficher les icônes font awesome en utilisant des SVG, consultez l'article ci-dessous.
+Ak chcete zobraziť ikony font awesome pomocou SVG, prejdite na nižšie uvedený článok.
 
-[Liste des icônes SVG Font Awesome, utilisation, CSS et téléchargement](/fontawesome/svg/)
+[Zoznam ikon SVG, použitie, CSS a stiahnutie](/fontawesome/svg/)
 
 ## Search Font Awesome Icons 
 
-Voici la liste complète des icônes gratuites de font awesome.
+Tu je kompletný zoznam bezplatných ikon font awesome cheat sheet.
 
-Tapez le nom de l'icône dans le champ de recherche ci-dessous et copiez le nom de la classe et le code de style ou de contenu CSS.
+Zadajte názov ikony do nižšie uvedeného vyhľadávacieho poľa a skopírujte názov triedy a kód štýlu alebo obsahu CSS.
 
-Les icônes seront filtrées dans le tableau ci-dessous.
+Ikony sa vyfiltrujú v nasledujúcej tabuľke.
 
-Et cliquez sur l'icône pour copier le code html.
+A kliknutím na ikonu skopírujte html kód.
 
 <input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search font awesome icons.." title="Search font awesome icons">
 
 Total <strong><span id="counter">2016</span></strong> Icons.
-
 
 ## Font Awesome Icons Class List & CSS Content Codes
 

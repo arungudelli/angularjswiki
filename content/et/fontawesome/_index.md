@@ -1,10 +1,10 @@
 
 +++
-title     = "Liste des noms des classes des icônes Font Awesome 2016+ gratuites et leurs valeurs de contenu CSS"
-subtitle  = "Liste complète des icônes 2016+ gratuites font awesome "
-summary   = "Ce post contient des noms de listes de classes d'icônes gratuites font awesome avec leurs codes de valeurs de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML."
-keywords  = ["font awesome icons,font awesome icons list,fa icons list,icons "]
-linktitle = "Introduction"
+title     = "2016+ Tasuta Font Awesome Icons klassi nimekiri nimed ja nende CSS sisu väärtused"
+subtitle  = "Täielik nimekiri 2016+ tasuta font awesome ikoonidest"
+summary   = "See postitus sisaldab tasuta font awesome ikoonide klassi nimekirja nimesid koos nende CSS sisuväärtuse koodidega &amp; samm-sammult õpetus font awesome ikoonide kasutamiseks HTML lehtedel."
+keywords  = ["font awesome ikoonid,font awesome ikoonide nimekiri,fa ikoonide nimekiri,ikoonid"]
+linktitle = "Sissejuhatus"
 
 type="docs"
 date="2019-07-14T01:01:05+0000"
@@ -24,68 +24,68 @@ weight=1
 +++
 
 
-Ce post contient des noms de listes de classes d'icônes gratuites font awesome complètes avec leurs codes de valeur de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML.
+See postitus sisaldab täielikku tasuta font awesome ikoonide klassi nimekirja nimed koos nende CSS sisu väärtuse koodidega &amp; samm-sammult õpetus font awesome ikoonide kasutamiseks HTML lehekülgedel.
 
-Vous pouvez également rechercher et trouver les icônes font awesome en utilisant la [boîte de recherche] (#search-font-awesome-icons) fournie dans l'article.
+Samuti saate otsida ja leida font awesome ikoonid, kasutades artiklis toodud [otsingukasti](#search-font-awesome-icons).
 
-Cliquez sur `Ctrl + D` pour ajouter la page à vos favoris.
+Klõpsake `Ctrl + D`, et lisada lehekülg järjehoidjale.
 
-**Dans la dernière version font awesome 6.2.0, il y a 2016 icônes gratuites**.
+**Viimases font awesome 6.2.0 versioonis on 2016 tasuta ikooni**.
 
-Dans la version précédente font awesome 5.14, nous avons environ 1598 icônes gratuites.
+Eelmises font awesome 5.14 versioonis on umbes 1598 tasuta ikooni.
 
-Selon le style de l'icône, ces icônes gratuites font awesome sont divisées en trois catégories 
+Sõltuvalt ikoonide stiilist on need tasuta font awesome ikoonid jagatud kolme kategooriasse 
 
-1. font awesome les icônes solides
-2. font awesome icônes normales
-3. font awesome icônes de marque
+1. font awesome tahked ikoonid
+2. font awesome tavalised ikoonid
+3. font awesome kaubamärgi ikoonid
 
-Nous pouvons <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">télécharger le</a> fichier css des icônes font awesome et les servir à partir de votre propre serveur ou nous pouvons les servir à partir de CDN publics.
+Me saame <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">alla laadida</a> font awesome ikoonide css-faili ja serveerida neid teie enda serverist või me saame serveerida neid avalikest CDN-idest.
 
 {{% alert note %}}
-J'ai également créé un [ebook gratuit] (#download-font-awesome-icons-list-pdf) qui contient la liste complète des icônes de font awesome au format PDF.
+Samuti olen loonud [tasuta e-raamatu](#download-font-awesome-icons-list-pdf), mis sisaldab font awesome ikoonide täielikku nimekirja PDF-formaadis.
 {{% /alert%}}
 
 {{% toc %}}
 
-## Qu'est-ce que font awesome?
+## Mis on font awesome?
 
-1. font awesome est la boîte à outils de polices et d'icônes la plus populaire du web, basée sur CSS et LESS.
-2. font awesome est créé par Dave Gandy.
-3. font awesome a été le nouveau projet open source le plus populaire de github en 2012 et fait actuellement partie du top 10 des projets.
-4. Font Awesome est actuellement présent sur 47 millions de sites Web et la moitié des développeurs Web du monde utilisent les icônes font awesome.
-5. Font Awesome permet d'ajouter facilement des icônes vectorielles et des logos sociaux à nos sites Web.
+1. font awesome on veebi populaarseim CSS-il ja LESSil põhinev fontide ja ikoonide tööriistakomplekt.
+2. font awesome on loonud Dave Gandy.
+3. font awesome oli 2012. aastal githubi kõige populaarsem uus avatud lähtekoodiga projekt ja on praegu üks 10 kõige populaarsemast projektist üldse.
+4. Font Awesome on praegu kasutusel 47M veebilehel ja pooled maailma veebiarendajad kasutavad font awesome ikoone.
+5. Font Awesome teeb vektorikoonide ja sotsiaalsete logode lisamise meie veebilehtedele lihtsaks.
 
-## Comment utiliser les icônes font awesome?
+## Kuidas kasutada font awesome ikoone?
 
-Il existe deux façons d'utiliser les icônes font awesome dans nos applications Web.
+Meil on kaks võimalust kasutada font awesome ikoone oma veebirakendustes.
 
-1. Utilisation des noms de classe CSS
-2. Utilisation des valeurs de contenu CSS
-3. Utilisation des icônes SVG
+1. CSS-klassi nimede kasutamine
+2. CSS sisu väärtuste kasutamine
+3. SVG ikoonide kasutamine
 
-Tout d'abord, nous devons ajouter le fichier css de font awesome icons dans la section head du fichier html.
+Kõigepealt peame lisama font awesome ikoonide css-faili html-faili päisesse.
 
-## Afficher les icônes de font awesome en utilisant les noms de classe CSS 
+## Näita font awesome ikoonid CSS-klassi nimede abil 
 
-La façon la plus courante d'afficher les icônes font awesome est d'utiliser leurs noms de classe.
+Kõige tavalisem viis font awesome ikoonide kuvamiseks on nende klassinimede kasutamine.
 
-Pour chaque icône, un nom de classe est prédéfini, il suffit d'ajouter `fa-` au nom de l'icône comme classe.
+Iga ikooni jaoks on klassinimi ette määratud, tuleb vaid lisada ikooni nimele klassina `fa-`.
 
-font awesome icons utilise la balise italique, c'est-à-dire , `<i></i>` pour afficher les icônes 
+font awesome ikoonid kasutavad kursiivis sildi, st, `<i></i>` ikoonide kuvamiseks 
 
-La raison de l'utilisation de cette balise `<i>` comme icône est 
+Selle kasutamise põhjuseks on `<i>` sildi kasutamine ikoonina on 
 
-1. C'est le diminutif
-2. `I` stand de l'icône (pas dans le monde HTML cependant)
+1. See on lühike
+2. `I` ikooni stend (aga mitte HTML maailmas)
 
-Pour afficher les icônes de font awesome en utilisant les noms de classe css, suivez les étapes suivantes.
+Et kuvada font awesome ikoonid kasutades css klassi nimesid järgige samme.
 
-1. Ajoutez une balise d'icône.
-2. Ajoutez le nom de l'icône préfixé par `fa` à l'attribut de classe.
-3. En outre, nous devons ajouter la classe Style, c'est-à-dire solide, ordinaire ou marque
+1. Lisage ikooni tag.
+2. Lisage klassi atribuudile ikooni nimi eesliitega `fa`.
+3. Lisaks peame lisama Style klassi. st solid või regular või brand
 
-Tout d'abord, nous allons ajouter les icônes font awesome css dans la section head du fichier html comme indiqué ci-dessous
+Kõigepealt lisame font awesome ikoonide css-i html-faili head-osasse, nagu allpool näidatud
 
 ```
 <head>
@@ -95,48 +95,48 @@ Tout d'abord, nous allons ajouter les icônes font awesome css dans la section h
 </head>
 
 ```
-J'utilise le lien cdn de cloudfare font awesome icons.
+Ma kasutan cloudfare font awesome ikoonide cdn linki.
 
-Pour utiliser le CDN officiel de font awesome. Passez par l'article [font awesome CDN](/fontawesome/cdn).
+Et kasutada ametlikku font awesome CDN. Mine läbi [font awesome CDN](/fontawesome/cdn) artikli.
 
-Maintenant pour afficher l'icône `facebook` font awesome , utilisez le code html ci-dessous.
+Nüüd, et kuvada `facebook` font awesome ikooni, kasutage allpool toodud html-koodi.
 
 ```
 <i class="fab fa-facebook"></i>
 ```
-L'icône Facebook fait partie des icônes de marque, j'ai donc ajouté `fab` comme nom de classe supplémentaire.
+Facebooki ikoon on osa brändi ikoonidest, seega olen lisanud lisaklassi nimeks `fab`.
 
-Pour utiliser les icônes solides de font awesome, ajoutez le nom de classe suivant `fas`
+Et kasutada font awesome tahke ikoonid lisada klassi nimi kui `fas`
 
-Par exemple, pour afficher l'icône `barcode`, utilisez le code html suivant
+Näiteks `barcode` ikooni kuvamiseks kasutage järgmist html-koodi
 
 ```
 <i class="fas fa-barcode"></i>
 ```
-`bookmark` l'icône fait partie des icônes normales, ajoutez le nom de la classe en tant que `far`
+`bookmark` ikoon on tavaliste ikoonide osana, lisage klassi nimi kui `far`
 
 ```
 <i class="far fa-bookmark"></i>
 ```
 
-Pour utiliser les icônes font awesome dans les applications Angular, consultez l'article suivant
+ font awesome ikoonide kasutamiseks Angulari rakendustes vaadake läbi artikkel
 
-[Comment utiliser les icônes Font Awesome dans les applications Angular]
+[Kuidas kasutada Font Awesome ikoonid Angular rakendustes]
 (https://www.angularjswiki.com/angular/how-to-use-font-awesome-icons-in-angular-applications/)
 
-## Afficher les icônes font awesome en utilisant les valeurs de contenu CSS
+## Näita font awesome ikoone CSS-i sisuväärtuste abil
 
-L'approche ci-dessus nous oblige à modifier les noms de nos classes d'icônes.
+Ülaltoodud lähenemine nõuab, et me muudaksime oma ikooniklassi nimesid.
 
-Si votre projet est nouveau, nous pouvons suivre l'approche ci-dessus 
+Kui teie projekt on uus, siis võime järgida ülaltoodud lähenemist 
 
-Mais s'il s'agit d'un projet existant, il est très difficile de changer le nom de la classe d'icônes.
+Kuid kui tegemist on olemasoleva projektiga, on ikooniklassi nime muutmine väga keeruline.
 
-Dans ce cas, nous pouvons afficher les icônes font awesome en utilisant leurs valeurs de contenu CSS.
+Sellisel juhul saame kuvada font awesome ikoonid kasutades nende CSS sisu väärtusi.
 
-Nous pouvons utiliser les caractéristiques des éléments CSS Pseudo-elements `::before` ou `::after` pour les afficher.
+Nende kuvamiseks saame kasutada CSS Pseudoelementide elementide funktsioone `::before` või `::after`.
 
-Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTML ci-dessous.
+Näiteks `user` ikooni kuvamiseks võisime kasutada allpool olevat HTML-koodi.
 
 ```
 <li>
@@ -144,9 +144,9 @@ Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTM
 </li>
 ``` 
 
-Mais le nom officiel de notre icône utilisateur font awesome est `fa-user`.
+Aga meie ametlik font awesome kasutaja ikooni nimi on `fa-user`.
 
-Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS content code comme `\f007`, qui est la valeur unicode de l'icône `user`.
+Nii et ikooni kuvamiseks tuleb klassile `.user` lisada CSS sisu koodiomandiks `\f007`, mis on ikooni `user` unicode väärtus.
 
 ```
 .user::before {
@@ -155,17 +155,17 @@ Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS conte
 }
 ```
 
-En plus du code de contenu CSS, nous devons également ajouter le style `font`.
+Koos CSS sisukoodiga peame lisama ka `font` stiili.
 
-Nous pouvons utiliser les propriétés personnalisées CSS prédéfinies de font awesome pour cela.
+Selleks saame kasutada font awesome ettemääratud CSS kohandatud omadusi.
 
-Pour les icônes solides, utilisez `var(--fa-font-solid)`
+Tahkete ikoonide jaoks kasutage `var(--fa-font-solid)`
 
-Pour les icônes régulières, utilisez `var(--fa-font-regular)`
+Tavaliste ikoonide jaoks kasutage `var(--fa-font-regular)`
 
-Pour les icônes de marque, utilisez `var(--fa-font-regular)`
+Markiikoonide puhul kasutage `var(--fa-font-regular)`
 
-En plus de cela, nous pouvons ajouter une classe personnalisée qui définit quelques propriétés CSS communes.
+Lisaks sellele saame lisada kohandatud klassi, mis määratleb mõned tavalised CSS omadused.
 
 ```
 .fontawesomeicon::before {
@@ -179,11 +179,11 @@ En plus de cela, nous pouvons ajouter une classe personnalisée qui définit que
 </li>
 
 ```
-C'est tout 
+See ongi kõik 
 
-Dans la version font awesome 5, il n'y a pas de propriétés css personnalisées 
+ font awesome 5 versioonis ei ole kohandatud css-omadusi 
 
-Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
+Seega peame lisama `font-family` ja `font-weight` css omadused.
 
 ```
 // Font awesome 5 version. 
@@ -201,28 +201,27 @@ Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
 
 ```
 
-`font-family` et `font-weight` peuvent être différentes pour chaque icône en fonction du style de l'icône, comme les icônes ordinaires, solides et de marque.
+`font-family` ja `font-weight` võivad olla iga ikooni jaoks erinevad, sõltuvalt ikooni stiilist, nagu tavalised, tahked ja kaubamärgiga ikoonid.
 
-[Utiliser les icônes font awesome comme code de contenu CSS](/fontawesome/csscontentcode)
+[Kasutage font awesome ikoonid CSS sisukoodina](/fontawesome/csscontentcode)
 
-Pour afficher les icônes font awesome en utilisant des SVG, consultez l'article ci-dessous.
+Et kuvada font awesome ikoonid kasutades SVG's minna mõtlesin allpool artiklis.
 
-[Liste des icônes SVG Font Awesome, utilisation, CSS et téléchargement](/fontawesome/svg/)
+[Font Awesome SVG ikoonide nimekiri, kasutamine, CSS ja allalaadimine](/fontawesome/svg/)
 
 ## Search Font Awesome Icons 
 
-Voici la liste complète des icônes gratuites de font awesome.
+Siin on täielik loetelu tasuta font awesome ikoonide petuskeemidest.
 
-Tapez le nom de l'icône dans le champ de recherche ci-dessous et copiez le nom de la classe et le code de style ou de contenu CSS.
+Sisestage ikooni nimi allpool olevasse otsingukasti ja kopeerige klassi nimi ja stiil või CSS-sisu kood.
 
-Les icônes seront filtrées dans le tableau ci-dessous.
+Ikoonid filtreeritakse allolevasse tabelisse.
 
-Et cliquez sur l'icône pour copier le code html.
+Ja klõpsake ikoonil, et kopeerida html-kood.
 
 <input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search font awesome icons.." title="Search font awesome icons">
 
 Total <strong><span id="counter">2016</span></strong> Icons.
-
 
 ## Font Awesome Icons Class List & CSS Content Codes
 

@@ -1,10 +1,10 @@
 
 +++
-title     = "Liste des noms des classes des icônes Font Awesome 2016+ gratuites et leurs valeurs de contenu CSS"
-subtitle  = "Liste complète des icônes 2016+ gratuites font awesome "
-summary   = "Ce post contient des noms de listes de classes d'icônes gratuites font awesome avec leurs codes de valeurs de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML."
-keywords  = ["font awesome icons,font awesome icons list,fa icons list,icons "]
-linktitle = "Introduction"
+title     = "2016+ Bezmaksas Font Awesome ikonu klases nosaukumu saraksts un to CSS satura vērtības"
+subtitle  = "Pilns 2016+ bezmaksas font awesome ikonu saraksts"
+summary   = "Šajā rakstā ir ietverti bezmaksas font awesome ikonu klašu sarakstu nosaukumi ar to CSS satura vērtību kodiem &amp; soli pa solim pamācība, lai izmantotu font awesome ikonas HTML lapās."
+keywords  = ["font awesome ikonas,font awesome ikonu saraksts,fa ikonu saraksts,ikonas"]
+linktitle = "Ievads"
 
 type="docs"
 date="2019-07-14T01:01:05+0000"
@@ -24,68 +24,68 @@ weight=1
 +++
 
 
-Ce post contient des noms de listes de classes d'icônes gratuites font awesome complètes avec leurs codes de valeur de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML.
+Šajā rakstā ir ietverti pilnīgi bezmaksas font awesome ikonu klašu sarakstu nosaukumi ar to CSS satura vērtības kodiem un soli pa solim pamācība, lai izmantotu font awesome ikonas HTML lapās.
 
-Vous pouvez également rechercher et trouver les icônes font awesome en utilisant la [boîte de recherche] (#search-font-awesome-icons) fournie dans l'article.
+Un arī jūs varat meklēt un atrast font awesome ikonas, izmantojot rakstā sniegto [meklēšanas lodziņu](#search-font-awesome-icons).
 
-Cliquez sur `Ctrl + D` pour ajouter la page à vos favoris.
+Noklikšķiniet uz `Ctrl + D`, lai atzīmētu lapu.
 
-**Dans la dernière version font awesome 6.2.0, il y a 2016 icônes gratuites**.
+**Jaunākajā font awesome 6.2.0 versijā ir pieejamas 2016 bezmaksas ikonas**.
 
-Dans la version précédente font awesome 5.14, nous avons environ 1598 icônes gratuites.
+Iepriekšējā font awesome 5.14 versijā ir aptuveni 1598 bezmaksas ikonas.
 
-Selon le style de l'icône, ces icônes gratuites font awesome sont divisées en trois catégories 
+Atkarībā no ikonu stila šīs bezmaksas font awesome ikonas iedalītas trīs kategorijās 
 
-1. font awesome les icônes solides
-2. font awesome icônes normales
-3. font awesome icônes de marque
+1. font awesome cietās ikonas
+2. font awesome parastās ikonas
+3. font awesome zīmola ikonas
 
-Nous pouvons <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">télécharger le</a> fichier css des icônes font awesome et les servir à partir de votre propre serveur ou nous pouvons les servir à partir de CDN publics.
+Mēs varam <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">lejupielādēt</a> font awesome ikonas css failu un pasniegt tās no jūsu servera Vai arī mēs varam pasniegt tās no publiskiem CDN.
 
-{{% alert note %}}
-J'ai également créé un [ebook gratuit] (#download-font-awesome-icons-list-pdf) qui contient la liste complète des icônes de font awesome au format PDF.
+{{% alert piezīme %}}
+Esmu izveidojis arī [bezmaksas e-grāmatu](#download-font-awesome-icons-list-pdf), kurā ir pilns font awesome ikonu saraksts PDF formātā.
 {{% /alert%}}
 
 {{% toc %}}
 
-## Qu'est-ce que font awesome?
+## Kas ir font awesome?
 
-1. font awesome est la boîte à outils de polices et d'icônes la plus populaire du web, basée sur CSS et LESS.
-2. font awesome est créé par Dave Gandy.
-3. font awesome a été le nouveau projet open source le plus populaire de github en 2012 et fait actuellement partie du top 10 des projets.
-4. Font Awesome est actuellement présent sur 47 millions de sites Web et la moitié des développeurs Web du monde utilisent les icônes font awesome.
-5. Font Awesome permet d'ajouter facilement des icônes vectorielles et des logos sociaux à nos sites Web.
+1. font awesome ir tīmekļa populārākais fontu un ikonu rīku komplekts, kas balstīts uz CSS un LESS.
+2. font awesome ir radījis Dave Gandy.
+3. font awesome 2012. gadā bija github populārākais jaunais atvērtā pirmkoda projekts, un pašlaik ir viens no 10 populārākajiem projektiem kopumā.
+4. Font Awesome pašlaik ir pieejams 47 miljonos tīmekļa vietņu, un puse pasaules tīmekļa izstrādātāju izmanto font awesome ikonas.
+5. Font Awesome ļauj viegli pievienot mūsu vietnēm vektoru ikonas un sociālos logotipus.
 
-## Comment utiliser les icônes font awesome?
+## Kā lietot font awesome ikonas?
 
-Il existe deux façons d'utiliser les icônes font awesome dans nos applications Web.
+Ir divi veidi, kā mēs varam izmantot font awesome ikonas savās tīmekļa lietojumprogrammās.
 
-1. Utilisation des noms de classe CSS
-2. Utilisation des valeurs de contenu CSS
-3. Utilisation des icônes SVG
+1. Izmantojot CSS klašu nosaukumus
+2. Izmantojot CSS satura vērtības
+3. SVG ikonu izmantošana
 
-Tout d'abord, nous devons ajouter le fichier css de font awesome icons dans la section head du fichier html.
+Vispirms mums ir nepieciešams pievienot font awesome ikonas css failu html faila galvenes sadaļā.
 
-## Afficher les icônes de font awesome en utilisant les noms de classe CSS 
+## Parādiet font awesome ikonas, izmantojot CSS klases nosaukumus 
 
-La façon la plus courante d'afficher les icônes font awesome est d'utiliser leurs noms de classe.
+Visizplatītākais veids, kā parādīt font awesome ikonas, ir izmantot to klašu nosaukumus.
 
-Pour chaque icône, un nom de classe est prédéfini, il suffit d'ajouter `fa-` au nom de l'icône comme classe.
+Katrai ikonai ir iepriekš definēts klases nosaukums, mums tikai jāpievieno `fa-` ikonas nosaukumam kā klase.
 
-font awesome icons utilise la balise italique, c'est-à-dire , `<i></i>` pour afficher les icônes 
+font awesome ikonas izmanto slīprakstu, t. i., `<i></i>` lai attēlotu ikonas 
 
-La raison de l'utilisation de cette balise `<i>` comme icône est 
+Iemesls, kādēļ tiek izmantota šī `<i>` tagu kā ikonu ir 
 
-1. C'est le diminutif
-2. `I` stand de l'icône (pas dans le monde HTML cependant)
+1. Tā ir īsa
+2. `I` ikonas statīvs (ne HTML pasaulē)
 
-Pour afficher les icônes de font awesome en utilisant les noms de classe css, suivez les étapes suivantes.
+Lai parādītu font awesome ikonas, izmantojot css klases nosaukumus, izpildiet šos soļus.
 
-1. Ajoutez une balise d'icône.
-2. Ajoutez le nom de l'icône préfixé par `fa` à l'attribut de classe.
-3. En outre, nous devons ajouter la classe Style, c'est-à-dire solide, ordinaire ou marque
+1. Pievienojiet ikonas tagu.
+2. Pievienojiet ikonas nosaukumu ar prefiksu `fa` klases atribūtā.
+3. Papildus jāpievieno stila klase, t. i., solid, regular vai brand
 
-Tout d'abord, nous allons ajouter les icônes font awesome css dans la section head du fichier html comme indiqué ci-dessous
+Vispirms mēs pievienosim font awesome ikonas css html faila galvenes sadaļā, kā parādīts tālāk
 
 ```
 <head>
@@ -95,48 +95,48 @@ Tout d'abord, nous allons ajouter les icônes font awesome css dans la section h
 </head>
 
 ```
-J'utilise le lien cdn de cloudfare font awesome icons.
+Es izmantoju cloudfare font awesome ikonas cdn saiti.
 
-Pour utiliser le CDN officiel de font awesome. Passez par l'article [font awesome CDN](/fontawesome/cdn).
+Lai izmantotu oficiālo font awesome CDN. Iet caur [font awesome CDN](/fontawesome/cdn) rakstu.
 
-Maintenant pour afficher l'icône `facebook` font awesome , utilisez le code html ci-dessous.
+Tagad, lai parādītu `facebook` font awesome ikonu, izmantojiet tālāk norādīto html kodu.
 
 ```
 <i class="fab fa-facebook"></i>
 ```
-L'icône Facebook fait partie des icônes de marque, j'ai donc ajouté `fab` comme nom de classe supplémentaire.
+Facebook ikona ir daļa no zīmola ikonām, tāpēc esmu pievienojis `fab` kā papildu klases nosaukumu.
 
-Pour utiliser les icônes solides de font awesome, ajoutez le nom de classe suivant `fas`
+Lai izmantotu font awesome cietās ikonas, pievienojiet klases nosaukumu kā `fas`
 
-Par exemple, pour afficher l'icône `barcode`, utilisez le code html suivant
+Piemēram, lai parādītu `barcode` ikonu, izmantojiet šādu html kodu
 
 ```
 <i class="fas fa-barcode"></i>
 ```
-`bookmark` l'icône fait partie des icônes normales, ajoutez le nom de la classe en tant que `far`
+`bookmark` ikona ir daļa no parastajām ikonām, pievienojiet klases nosaukumu kā `far`
 
 ```
 <i class="far fa-bookmark"></i>
 ```
 
-Pour utiliser les icônes font awesome dans les applications Angular, consultez l'article suivant
+Lai izmantotu font awesome ikonas Angular lietojumprogrammās, skatiet rakstu
 
-[Comment utiliser les icônes Font Awesome dans les applications Angular]
+[Kā lietot Font Awesome ikonas Angular lietojumprogrammās]
 (https://www.angularjswiki.com/angular/how-to-use-font-awesome-icons-in-angular-applications/)
 
-## Afficher les icônes font awesome en utilisant les valeurs de contenu CSS
+## Parādiet font awesome ikonas, izmantojot CSS satura vērtības
 
-L'approche ci-dessus nous oblige à modifier les noms de nos classes d'icônes.
+Izmantojot iepriekš minēto pieeju, mums ir jāmaina ikonu klašu nosaukumi.
 
-Si votre projet est nouveau, nous pouvons suivre l'approche ci-dessus 
+Ja jūsu projekts ir jauns, mēs varam izmantot iepriekš minēto pieeju 
 
-Mais s'il s'agit d'un projet existant, il est très difficile de changer le nom de la classe d'icônes.
+Bet, ja tas ir jau esošs projekts, ir ļoti grūti mainīt ikonu klases nosaukumu.
 
-Dans ce cas, nous pouvons afficher les icônes font awesome en utilisant leurs valeurs de contenu CSS.
+Šādā gadījumā mēs varam attēlot font awesome ikonas, izmantojot to CSS satura vērtības.
 
-Nous pouvons utiliser les caractéristiques des éléments CSS Pseudo-elements `::before` ou `::after` pour les afficher.
+To attēlošanai varam izmantot CSS pseidoelementu elementu funkcijas `::before` vai `::after`.
 
-Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTML ci-dessous.
+Piemēram, lai attēlotu ikonu `user`, mēs varētu izmantot tālāk norādīto HTML kodu.
 
 ```
 <li>
@@ -144,9 +144,9 @@ Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTM
 </li>
 ``` 
 
-Mais le nom officiel de notre icône utilisateur font awesome est `fa-user`.
+Bet mūsu oficiālais font awesome lietotāja ikonas nosaukums ir `fa-user`.
 
-Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS content code comme `\f007`, qui est la valeur unicode de l'icône `user`.
+Tāpēc, lai parādītu ikonu, `.user` klasei pievienojiet CSS satura koda īpašību kā `\f007`, kas ir `user` ikonas unikoda vērtība.
 
 ```
 .user::before {
@@ -155,17 +155,17 @@ Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS conte
 }
 ```
 
-En plus du code de contenu CSS, nous devons également ajouter le style `font`.
+Kopā ar CSS satura kodu mums jāpievieno arī `font` stils.
 
-Nous pouvons utiliser les propriétés personnalisées CSS prédéfinies de font awesome pour cela.
+Šim nolūkam mēs varam izmantot font awesome iepriekš definētās CSS pielāgotās īpašības.
 
-Pour les icônes solides, utilisez `var(--fa-font-solid)`
+Cietām ikonām izmantojiet `var(--fa-font-solid)`
 
-Pour les icônes régulières, utilisez `var(--fa-font-regular)`
+Parastām ikonām izmantojiet `var(--fa-font-regular)`
 
-Pour les icônes de marque, utilisez `var(--fa-font-regular)`
+Zīmola ikonām izmantojiet `var(--fa-font-regular)`
 
-En plus de cela, nous pouvons ajouter une classe personnalisée qui définit quelques propriétés CSS communes.
+Papildus tam mēs varam pievienot pielāgotu klasi, kas definē dažas kopīgas CSS īpašības.
 
 ```
 .fontawesomeicon::before {
@@ -179,11 +179,11 @@ En plus de cela, nous pouvons ajouter une classe personnalisée qui définit que
 </li>
 
 ```
-C'est tout 
+Tas ir viss 
 
-Dans la version font awesome 5, il n'y a pas de propriétés css personnalisées 
+ font awesome 5 versijā nav pielāgotu css īpašību 
 
-Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
+Tāpēc mums ir jāpievieno `font-family` un `font-weight` css īpašības.
 
 ```
 // Font awesome 5 version. 
@@ -201,23 +201,23 @@ Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
 
 ```
 
-`font-family` et `font-weight` peuvent être différentes pour chaque icône en fonction du style de l'icône, comme les icônes ordinaires, solides et de marque.
+`font-family` un `font-weight` katrai ikonai var būt atšķirīgas atkarībā no ikonas stila, piemēram, parastās, cietās un zīmola ikonas.
 
-[Utiliser les icônes font awesome comme code de contenu CSS](/fontawesome/csscontentcode)
+[Izmantojiet font awesome ikonas kā CSS satura kodu](/fontawesome/csscontentcode)
 
-Pour afficher les icônes font awesome en utilisant des SVG, consultez l'article ci-dessous.
+Lai parādītu font awesome ikonas, izmantojot SVG, apmeklējiet zemāk redzamo rakstu.
 
-[Liste des icônes SVG Font Awesome, utilisation, CSS et téléchargement](/fontawesome/svg/)
+[Font Awesome SVG ikonu saraksts, lietošana, CSS un lejupielāde](/fontawesome/svg/)
 
 ## Search Font Awesome Icons 
 
-Voici la liste complète des icônes gratuites de font awesome.
+Šeit ir pilns bezmaksas font awesome ikonu saraksts.
 
-Tapez le nom de l'icône dans le champ de recherche ci-dessous et copiez le nom de la classe et le code de style ou de contenu CSS.
+Ierakstiet ikonas nosaukumu zemāk esošajā meklēšanas lodziņā un nokopējiet klases nosaukumu un stila vai CSS satura kodu.
 
-Les icônes seront filtrées dans le tableau ci-dessous.
+Ikonas tiks filtrētas tālāk redzamajā tabulā.
 
-Et cliquez sur l'icône pour copier le code html.
+Un noklikšķiniet uz ikonas, lai kopētu html kodu.
 
 <input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search font awesome icons.." title="Search font awesome icons">
 

@@ -1,10 +1,10 @@
 
 +++
-title     = "Liste des noms des classes des icônes Font Awesome 2016+ gratuites et leurs valeurs de contenu CSS"
-subtitle  = "Liste complète des icônes 2016+ gratuites font awesome "
-summary   = "Ce post contient des noms de listes de classes d'icônes gratuites font awesome avec leurs codes de valeurs de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML."
-keywords  = ["font awesome icons,font awesome icons list,fa icons list,icons "]
-linktitle = "Introduction"
+title     = "2016+ Ücretsiz Font Awesome Simgeleri Sınıf listesi İsimler ve CSS içerik değerleri"
+subtitle  = "2016+ ücretsiz font awesome simgelerinin tam listesi"
+summary   = "Bu yazı, HTML sayfalarında font awesome simgelerini kullanmak için CSS içerik değeri kodlarıyla birlikte ücretsiz font awesome simgeleri sınıf listesi adlarını ve adım adım öğreticiyi içerir."
+keywords  = ["font awesome simgeler,font awesome simgeler listesi,fa simgeler listesi,simgeler"]
+linktitle = "Giriş"
 
 type="docs"
 date="2019-07-14T01:01:05+0000"
@@ -24,68 +24,68 @@ weight=1
 +++
 
 
-Ce post contient des noms de listes de classes d'icônes gratuites font awesome complètes avec leurs codes de valeur de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML.
+Bu yazı, font awesome simgelerini HTML sayfalarında kullanmak için CSS içerik değeri kodları ve adım adım öğretici ile birlikte eksiksiz ücretsiz font awesome simgeleri sınıf listesi adlarını içerir.
 
-Vous pouvez également rechercher et trouver les icônes font awesome en utilisant la [boîte de recherche] (#search-font-awesome-icons) fournie dans l'article.
+Ayrıca makalede verilen [arama kutusunu] (#search-font-awesome-icons) kullanarak font awesome simgelerini arayabilir ve bulabilirsiniz.
 
-Cliquez sur `Ctrl + D` pour ajouter la page à vos favoris.
+Sayfayı yer imlerine eklemek için `Ctrl + D` adresini tıklayın.
 
-**Dans la dernière version font awesome 6.2.0, il y a 2016 icônes gratuites**.
+**En son font awesome 6.2.0 sürümünde 2016 ücretsiz simge bulunmaktadır**.
 
-Dans la version précédente font awesome 5.14, nous avons environ 1598 icônes gratuites.
+Önceki font awesome 5.14 sürümünde yaklaşık 1598 ücretsiz simgemiz vardı.
 
-Selon le style de l'icône, ces icônes gratuites font awesome sont divisées en trois catégories 
+Simge stiline bağlı olarak, bu ücretsiz font awesome simgeleri üç kategoriye ayrılmıştır 
 
-1. font awesome les icônes solides
-2. font awesome icônes normales
-3. font awesome icônes de marque
+1. font awesome katı simgeler
+2. font awesome normal simgeler
+3. font awesome marka simgeleri
 
-Nous pouvons <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">télécharger le</a> fichier css des icônes font awesome et les servir à partir de votre propre serveur ou nous pouvons les servir à partir de CDN publics.
+ font awesome ikonları css dosyasını <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">indirip</a> kendi sunucunuzdan servis edebiliriz Veya genel CDN'lerden servis edebiliriz.
 
 {{% alert note %}}
-J'ai également créé un [ebook gratuit] (#download-font-awesome-icons-list-pdf) qui contient la liste complète des icônes de font awesome au format PDF.
+sAyrıca PDF formatında font awesome simgelerinin tam listesini içeren bir [ücretsiz e-kitap] (#download-font-awesome-icons-list-pdf) oluşturdum.
 {{% /alert%}}
 
 {{% toc %}}
 
-## Qu'est-ce que font awesome?
+## font awesome nedir?
 
-1. font awesome est la boîte à outils de polices et d'icônes la plus populaire du web, basée sur CSS et LESS.
-2. font awesome est créé par Dave Gandy.
-3. font awesome a été le nouveau projet open source le plus populaire de github en 2012 et fait actuellement partie du top 10 des projets.
-4. Font Awesome est actuellement présent sur 47 millions de sites Web et la moitié des développeurs Web du monde utilisent les icônes font awesome.
-5. Font Awesome permet d'ajouter facilement des icônes vectorielles et des logos sociaux à nos sites Web.
+1. font awesome cSS ve LESS tabanlı web'in en popüler yazı tipi ve simge araç setidir.
+2. font awesome dave Gandy tarafından oluşturulmuştur.
+3. font awesome 2012'de github'ın en popüler yeni açık kaynak projesiydi ve şu anda genel olarak en iyi 10 projeden biri.
+4. Font Awesome şu anda 47 milyon web sitesinde yayında ve dünyadaki web geliştiricilerinin yarısı font awesome simgelerini kullanıyor.
+5. Font Awesome, web sitelerimize vektör simgeleri ve sosyal logolar eklemeyi kolaylaştırır.
 
-## Comment utiliser les icônes font awesome?
+## font awesome simgeleri nasıl kullanılır?
 
-Il existe deux façons d'utiliser les icônes font awesome dans nos applications Web.
+Web uygulamalarımızda font awesome simgelerini kullanmanın iki yolu vardır.
 
-1. Utilisation des noms de classe CSS
-2. Utilisation des valeurs de contenu CSS
-3. Utilisation des icônes SVG
+1. CSS sınıf adlarını kullanma
+2. CSS içerik değerlerini kullanma
+3. SVG Simgelerini Kullanma
 
-Tout d'abord, nous devons ajouter le fichier css de font awesome icons dans la section head du fichier html.
+Öncelikle html dosyasının head bölümüne font awesome icons css dosyasını eklememiz gerekiyor.
 
-## Afficher les icônes de font awesome en utilisant les noms de classe CSS 
+## CSS sınıf adlarını kullanarak font awesome simgelerini görüntüleyin 
 
-La façon la plus courante d'afficher les icônes font awesome est d'utiliser leurs noms de classe.
+ font awesome simgelerini görüntülemenin en yaygın yolu sınıf adlarını kullanmaktır.
 
-Pour chaque icône, un nom de classe est prédéfini, il suffit d'ajouter `fa-` au nom de l'icône comme classe.
+Her simge için bir sınıf adı önceden tanımlanmıştır, sadece `fa-` adresini simge adına sınıf olarak eklememiz gerekir.
 
-font awesome icons utilise la balise italique, c'est-à-dire , `<i></i>` pour afficher les icônes 
+font awesome simgeler italik etiketi kullanır, örn, `<i></i>` simgeleri görüntülemek için 
 
-La raison de l'utilisation de cette balise `<i>` comme icône est 
+Bunu kullanmanın arkasındaki neden `<i>` etiketi simge olarak 
 
-1. C'est le diminutif
-2. `I` stand de l'icône (pas dans le monde HTML cependant)
+1. Kısa
+2. `I` simge standı (HTML dünyasında değil ama)
 
-Pour afficher les icônes de font awesome en utilisant les noms de classe css, suivez les étapes suivantes.
+ font awesome simgelerini css sınıf adlarını kullanarak görüntülemek için adımları izleyin.
 
-1. Ajoutez une balise d'icône.
-2. Ajoutez le nom de l'icône préfixé par `fa` à l'attribut de classe.
-3. En outre, nous devons ajouter la classe Style, c'est-à-dire solide, ordinaire ou marque
+1. Bir simge etiketi ekleyin.
+2. Sınıf niteliğine `fa` ile ön eklenmiş simge adı ekleyin.
+3. Ek olarak Stil sınıfı eklemeliyiz. yani, düz veya normal veya marka
 
-Tout d'abord, nous allons ajouter les icônes font awesome css dans la section head du fichier html comme indiqué ci-dessous
+Öncelikle html dosyasının head bölümüne font awesome ikonları css'sini aşağıda gösterildiği gibi ekleyeceğiz
 
 ```
 <head>
@@ -95,48 +95,48 @@ Tout d'abord, nous allons ajouter les icônes font awesome css dans la section h
 </head>
 
 ```
-J'utilise le lien cdn de cloudfare font awesome icons.
+Cloudfare font awesome simgeleri cdn bağlantısını kullanıyorum.
 
-Pour utiliser le CDN officiel de font awesome. Passez par l'article [font awesome CDN](/fontawesome/cdn).
+Resmi font awesome CDN kullanmak için. font awesome CDN](/fontawesome/cdn) makalesini inceleyin.
 
-Maintenant pour afficher l'icône `facebook` font awesome , utilisez le code html ci-dessous.
+Şimdi `facebook` font awesome simgesini görüntülemek için aşağıdaki html kodunu kullanın.
 
 ```
 <i class="fab fa-facebook"></i>
 ```
-L'icône Facebook fait partie des icônes de marque, j'ai donc ajouté `fab` comme nom de classe supplémentaire.
+Facebook simgesi marka simgelerinin bir parçasıdır, bu yüzden ek sınıf adı olarak `fab` ekledim.
 
-Pour utiliser les icônes solides de font awesome, ajoutez le nom de classe suivant `fas`
+ font awesome katı simgelerini kullanmak için sınıf adını şu şekilde ekleyin `fas`
 
-Par exemple, pour afficher l'icône `barcode`, utilisez le code html suivant
+Örneğin `barcode` simgesini görüntülemek için aşağıdaki html kodunu kullanın
 
 ```
 <i class="fas fa-barcode"></i>
 ```
-`bookmark` l'icône fait partie des icônes normales, ajoutez le nom de la classe en tant que `far`
+`bookmark` simgesi normal simgelerin bir parçasıysa, sınıf adını `far`
 
 ```
 <i class="far fa-bookmark"></i>
 ```
 
-Pour utiliser les icônes font awesome dans les applications Angular, consultez l'article suivant
+Angular uygulamalarında font awesome simgelerini kullanmak için makaleyi inceleyin
 
-[Comment utiliser les icônes Font Awesome dans les applications Angular]
+[Angular Uygulamalarında Font Awesome İkonları Nasıl Kullanılır]
 (https://www.angularjswiki.com/angular/how-to-use-font-awesome-icons-in-angular-applications/)
 
-## Afficher les icônes font awesome en utilisant les valeurs de contenu CSS
+## CSS içerik değerlerini kullanarak font awesome simgelerini görüntüleyin
 
-L'approche ci-dessus nous oblige à modifier les noms de nos classes d'icônes.
+Yukarıdaki yaklaşım, simge sınıfı adlarımızı değiştirmemizi gerektirir.
 
-Si votre projet est nouveau, nous pouvons suivre l'approche ci-dessus 
+Projeniz yeniyse yukarıdaki yaklaşımı takip edebiliriz 
 
-Mais s'il s'agit d'un projet existant, il est très difficile de changer le nom de la classe d'icônes.
+Ancak mevcut bir proje ise, simge sınıfı adını değiştirmek çok zordur.
 
-Dans ce cas, nous pouvons afficher les icônes font awesome en utilisant leurs valeurs de contenu CSS.
+Bu durumda font awesome simgelerini CSS içerik değerlerini kullanarak görüntüleyebiliriz.
 
-Nous pouvons utiliser les caractéristiques des éléments CSS Pseudo-elements `::before` ou `::after` pour les afficher.
+Bunları görüntülemek için `::before` veya `::after` CSS Pseudo-elements element özelliklerini kullanabiliriz.
 
-Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTML ci-dessous.
+Örneğin `user` simgesini görüntülemek için aşağıdaki HTML kodunu kullanmış olabiliriz.
 
 ```
 <li>
@@ -144,9 +144,9 @@ Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTM
 </li>
 ``` 
 
-Mais le nom officiel de notre icône utilisateur font awesome est `fa-user`.
+Ancak resmi font awesome kullanıcı simge adımız `fa-user`.
 
-Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS content code comme `\f007`, qui est la valeur unicode de l'icône `user`.
+Simgeyi görüntülemek için, `.user` sınıfı için CSS içerik kodu özelliğini `user` simgesinin unicode değeri olan `\f007` olarak ekleyin.
 
 ```
 .user::before {
@@ -155,17 +155,17 @@ Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS conte
 }
 ```
 
-En plus du code de contenu CSS, nous devons également ajouter le style `font`.
+CSS içerik kodunun yanı sıra `font` stilini de eklememiz gerekiyor.
 
-Nous pouvons utiliser les propriétés personnalisées CSS prédéfinies de font awesome pour cela.
+Bunun için font awesome ön tanımlı CSS özel özelliklerini kullanabiliriz.
 
-Pour les icônes solides, utilisez `var(--fa-font-solid)`
+Katı simgeler için `var(--fa-font-solid)`
 
-Pour les icônes régulières, utilisez `var(--fa-font-regular)`
+Normal simgeler için `var(--fa-font-regular)`
 
-Pour les icônes de marque, utilisez `var(--fa-font-regular)`
+Marka simgeleri için `var(--fa-font-regular)`
 
-En plus de cela, nous pouvons ajouter une classe personnalisée qui définit quelques propriétés CSS communes.
+Buna ek olarak, birkaç yaygın CSS özelliğini tanımlayan özel bir sınıf ekleyebiliriz.
 
 ```
 .fontawesomeicon::before {
@@ -179,11 +179,11 @@ En plus de cela, nous pouvons ajouter une classe personnalisée qui définit que
 </li>
 
 ```
-C'est tout 
+Bu kadar 
 
-Dans la version font awesome 5, il n'y a pas de propriétés css personnalisées 
+ font awesome 5 sürümünde özel css özellikleri yoktur 
 
-Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
+Bu yüzden `font-family` ve `font-weight` css özelliklerini eklememiz gerekiyor.
 
 ```
 // Font awesome 5 version. 
@@ -201,23 +201,23 @@ Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
 
 ```
 
-`font-family` et `font-weight` peuvent être différentes pour chaque icône en fonction du style de l'icône, comme les icônes ordinaires, solides et de marque.
+`font-family` ve `font-weight` adresleri normal, düz ve marka simgeleri gibi simgenin stiline bağlı olarak her simge için farklı olabilir.
 
-[Utiliser les icônes font awesome comme code de contenu CSS](/fontawesome/csscontentcode)
+[ font awesome Simgelerini CSS İçerik Kodu Olarak Kullanın](/fontawesome/csscontentcode)
 
-Pour afficher les icônes font awesome en utilisant des SVG, consultez l'article ci-dessous.
+SVG'leri kullanarak font awesome simgelerini görüntülemek için aşağıdaki makaleye bakın.
 
-[Liste des icônes SVG Font Awesome, utilisation, CSS et téléchargement](/fontawesome/svg/)
+[Font Awesome SVG Simgeleri Listesi, Kullanımı, CSS ve İndirme](/fontawesome/svg/)
 
 ## Search Font Awesome Icons 
 
-Voici la liste complète des icônes gratuites de font awesome.
+İşte ücretsiz font awesome simgeleri hile sayfasının tam listesi.
 
-Tapez le nom de l'icône dans le champ de recherche ci-dessous et copiez le nom de la classe et le code de style ou de contenu CSS.
+Aşağıdaki arama kutusuna simge adını yazın ve sınıf adını ve stil veya CSS içerik kodunu kopyalayın.
 
-Les icônes seront filtrées dans le tableau ci-dessous.
+Simgeler aşağıdaki tabloda filtrelenecektir.
 
-Et cliquez sur l'icône pour copier le code html.
+Ve html kodunu kopyalamak için simgeye tıklayın.
 
 <input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search font awesome icons.." title="Search font awesome icons">
 

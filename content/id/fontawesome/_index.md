@@ -1,10 +1,10 @@
 
 +++
-title     = "Liste des noms des classes des icônes Font Awesome 2016+ gratuites et leurs valeurs de contenu CSS"
-subtitle  = "Liste complète des icônes 2016+ gratuites font awesome "
-summary   = "Ce post contient des noms de listes de classes d'icônes gratuites font awesome avec leurs codes de valeurs de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML."
-keywords  = ["font awesome icons,font awesome icons list,fa icons list,icons "]
-linktitle = "Introduction"
+title     = "2016+ Daftar Nama Kelas Ikon Font Awesome Gratis &amp; nilai konten CSS mereka"
+subtitle  = "Daftar lengkap ikon font awesome gratis 2016+"
+summary   = "Postingan ini berisi nama daftar kelas ikon font awesome gratis dengan kode nilai konten CSS mereka &amp; tutorial langkah demi langkah untuk menggunakan ikon font awesome di halaman HTML."
+keywords  = ["font awesome icons,font awesome icons list,fa icons list,icons"]
+linktitle = "Pendahuluan"
 
 type="docs"
 date="2019-07-14T01:01:05+0000"
@@ -24,68 +24,68 @@ weight=1
 +++
 
 
-Ce post contient des noms de listes de classes d'icônes gratuites font awesome complètes avec leurs codes de valeur de contenu CSS et un tutoriel étape par étape pour utiliser les icônes font awesome dans les pages HTML.
+Posting ini berisi nama daftar kelas ikon font awesome gratis lengkap dengan kode nilai konten CSS mereka &amp; tutorial langkah demi langkah untuk menggunakan ikon font awesome di halaman HTML.
 
-Vous pouvez également rechercher et trouver les icônes font awesome en utilisant la [boîte de recherche] (#search-font-awesome-icons) fournie dans l'article.
+Dan juga Anda dapat mencari dan menemukan ikon font awesome menggunakan [kotak pencarian] (#search-font-awesome-icons) yang disediakan dalam artikel.
 
-Cliquez sur `Ctrl + D` pour ajouter la page à vos favoris.
+Klik `Ctrl + D` untuk menandai halaman.
 
-**Dans la dernière version font awesome 6.2.0, il y a 2016 icônes gratuites**.
+**Dalam versi font awesome 6.2.0 terbaru, ada 2016 ikon gratis**.
 
-Dans la version précédente font awesome 5.14, nous avons environ 1598 icônes gratuites.
+Dalam versi font awesome 5.14 sebelumnya, kami memiliki sekitar 1598 ikon gratis.
 
-Selon le style de l'icône, ces icônes gratuites font awesome sont divisées en trois catégories 
+Tergantung pada gaya ikon, ikon font awesome gratis ini dibagi menjadi tiga kategori 
 
-1. font awesome les icônes solides
-2. font awesome icônes normales
-3. font awesome icônes de marque
+1. font awesome ikon padat
+2. font awesome ikon biasa
+3. font awesome ikon merek
 
-Nous pouvons <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">télécharger le</a> fichier css des icônes font awesome et les servir à partir de votre propre serveur ou nous pouvons les servir à partir de CDN publics.
+Kami dapat <a href="https://use.fontawesome.com/releases/v6.2.0/fontawesome-free-6.2.0-web.zip" rel="noopener" target="_blank">mengunduh</a> file font awesome ikon css dan menyajikannya dari server Anda sendiri Atau kami dapat menyajikannya dari CDN publik.
 
 {{% alert note %}}
-J'ai également créé un [ebook gratuit] (#download-font-awesome-icons-list-pdf) qui contient la liste complète des icônes de font awesome au format PDF.
+Dan juga saya telah membuat [ebook gratis](#download-font-awesome-icons-list-pdf) yang berisi daftar lengkap ikon font awesome dalam format PDF.
 {{% /alert%}}
 
 {{% toc %}}
 
-## Qu'est-ce que font awesome?
+## Apa itu font awesome?
 
-1. font awesome est la boîte à outils de polices et d'icônes la plus populaire du web, basée sur CSS et LESS.
-2. font awesome est créé par Dave Gandy.
-3. font awesome a été le nouveau projet open source le plus populaire de github en 2012 et fait actuellement partie du top 10 des projets.
-4. Font Awesome est actuellement présent sur 47 millions de sites Web et la moitié des développeurs Web du monde utilisent les icônes font awesome.
-5. Font Awesome permet d'ajouter facilement des icônes vectorielles et des logos sociaux à nos sites Web.
+1. font awesome adalah toolkit font dan ikon paling populer di web berdasarkan CSS dan LESS.
+2. font awesome dibuat oleh Dave Gandy.
+3. font awesome adalah proyek open source baru yang paling populer di github pada tahun 2012 dan saat ini merupakan salah satu dari 10 proyek teratas secara keseluruhan.
+4. Font Awesome saat ini sudah ada di 47 juta situs web dan setengah dari pengembang web di dunia menggunakan ikon font awesome.
+5. Font Awesome memudahkan untuk menambahkan ikon vektor dan logo sosial ke situs web kita.
 
-## Comment utiliser les icônes font awesome?
+## Bagaimana cara menggunakan ikon font awesome?
 
-Il existe deux façons d'utiliser les icônes font awesome dans nos applications Web.
+Ada dua cara yang bisa kita gunakan untuk menggunakan ikon font awesome di aplikasi web kita.
 
-1. Utilisation des noms de classe CSS
-2. Utilisation des valeurs de contenu CSS
-3. Utilisation des icônes SVG
+1. Menggunakan nama kelas CSS
+2. Menggunakan nilai konten CSS
+3. Menggunakan Ikon SVG
 
-Tout d'abord, nous devons ajouter le fichier css de font awesome icons dans la section head du fichier html.
+Pertama kita perlu menambahkan file css font awesome icons di bagian head file html.
 
-## Afficher les icônes de font awesome en utilisant les noms de classe CSS 
+## Menampilkan ikon font awesome menggunakan nama kelas CSS 
 
-La façon la plus courante d'afficher les icônes font awesome est d'utiliser leurs noms de classe.
+Cara paling umum untuk menampilkan ikon font awesome adalah menggunakan nama kelasnya.
 
-Pour chaque icône, un nom de classe est prédéfini, il suffit d'ajouter `fa-` au nom de l'icône comme classe.
+Untuk setiap ikon, nama kelas sudah ditentukan sebelumnya, hanya saja kita perlu menambahkan `fa-` ke nama ikon sebagai kelas.
 
-font awesome icons utilise la balise italique, c'est-à-dire , `<i></i>` pour afficher les icônes 
+font awesome ikon menggunakan tag miring yaitu , `<i></i>` untuk menampilkan ikon 
 
-La raison de l'utilisation de cette balise `<i>` comme icône est 
+Alasan di balik penggunaan tag `<i>` sebagai ikon adalah 
 
-1. C'est le diminutif
-2. `I` stand de l'icône (pas dans le monde HTML cependant)
+1. Ini adalah kependekan
+2. `I` berdiri dari Ikon (tidak dalam dunia HTML sekalipun)
 
-Pour afficher les icônes de font awesome en utilisant les noms de classe css, suivez les étapes suivantes.
+Untuk menampilkan ikon font awesome menggunakan nama kelas css ikuti langkah-langkahnya.
 
-1. Ajoutez une balise d'icône.
-2. Ajoutez le nom de l'icône préfixé par `fa` à l'attribut de classe.
-3. En outre, nous devons ajouter la classe Style, c'est-à-dire solide, ordinaire ou marque
+1. Tambahkan tag ikon.
+2. Tambahkan nama ikon yang diawali dengan `fa` ke atribut kelas.
+3. Selain itu kita harus menambahkan kelas Style. yaitu, solid atau regular atau brand
 
-Tout d'abord, nous allons ajouter les icônes font awesome css dans la section head du fichier html comme indiqué ci-dessous
+Pertama kita akan menambahkan css ikon font awesome di bagian head file html seperti yang ditunjukkan di bawah ini
 
 ```
 <head>
@@ -95,48 +95,48 @@ Tout d'abord, nous allons ajouter les icônes font awesome css dans la section h
 </head>
 
 ```
-J'utilise le lien cdn de cloudfare font awesome icons.
+Saya menggunakan tautan cdn ikon cloudfare font awesome.
 
-Pour utiliser le CDN officiel de font awesome. Passez par l'article [font awesome CDN](/fontawesome/cdn).
+Untuk menggunakan font awesome CDN resmi. Pergi melalui artikel [font awesome CDN](/fontawesome/cdn).
 
-Maintenant pour afficher l'icône `facebook` font awesome , utilisez le code html ci-dessous.
+Sekarang untuk menampilkan ikon `facebook` font awesome , gunakan kode html di bawah ini.
 
 ```
 <i class="fab fa-facebook"></i>
 ```
-L'icône Facebook fait partie des icônes de marque, j'ai donc ajouté `fab` comme nom de classe supplémentaire.
+Ikon Facebook adalah bagian dari ikon merek, jadi saya telah menambahkan `fab` sebagai nama kelas tambahan.
 
-Pour utiliser les icônes solides de font awesome, ajoutez le nom de classe suivant `fas`
+Untuk menggunakan font awesome ikon solid tambahkan nama kelas sebagai `fas`
 
-Par exemple, pour afficher l'icône `barcode`, utilisez le code html suivant
+Sebagai contoh untuk menampilkan ikon `barcode` gunakan kode html berikut ini
 
 ```
 <i class="fas fa-barcode"></i>
 ```
-`bookmark` l'icône fait partie des icônes normales, ajoutez le nom de la classe en tant que `far`
+`bookmark` icon adalah sebagai bagian dari icon biasa, tambahkan nama kelas sebagai `far`
 
 ```
 <i class="far fa-bookmark"></i>
 ```
 
-Pour utiliser les icônes font awesome dans les applications Angular, consultez l'article suivant
+Untuk menggunakan ikon font awesome dalam aplikasi Angular, baca artikel
 
-[Comment utiliser les icônes Font Awesome dans les applications Angular]
+[Cara Menggunakan ikon Font Awesome di Aplikasi Angular]
 (https://www.angularjswiki.com/angular/how-to-use-font-awesome-icons-in-angular-applications/)
 
-## Afficher les icônes font awesome en utilisant les valeurs de contenu CSS
+## Menampilkan ikon font awesome menggunakan nilai konten CSS
 
-L'approche ci-dessus nous oblige à modifier les noms de nos classes d'icônes.
+Pendekatan di atas mengharuskan kita untuk mengubah nama kelas ikon kita.
 
-Si votre projet est nouveau, nous pouvons suivre l'approche ci-dessus 
+Jika proyek anda masih baru maka kita dapat mengikuti pendekatan di atas 
 
-Mais s'il s'agit d'un projet existant, il est très difficile de changer le nom de la classe d'icônes.
+Tetapi jika itu adalah proyek yang sudah ada, sangat sulit untuk mengubah nama kelas ikon.
 
-Dans ce cas, nous pouvons afficher les icônes font awesome en utilisant leurs valeurs de contenu CSS.
+Dalam hal ini kita dapat menampilkan ikon font awesome menggunakan nilai konten CSS mereka.
 
-Nous pouvons utiliser les caractéristiques des éléments CSS Pseudo-elements `::before` ou `::after` pour les afficher.
+Kita dapat menggunakan fitur elemen CSS Pseudo-elements `::before` atau `::after` untuk menampilkannya.
 
-Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTML ci-dessous.
+Misalnya untuk menampilkan ikon `user`, Kita mungkin telah menggunakan kode HTML di bawah ini.
 
 ```
 <li>
@@ -144,9 +144,9 @@ Par exemple, pour afficher l'icône `user`, nous aurions pu utiliser le code HTM
 </li>
 ``` 
 
-Mais le nom officiel de notre icône utilisateur font awesome est `fa-user`.
+Tetapi nama ikon pengguna font awesome resmi kami adalah `fa-user`.
 
-Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS content code comme `\f007`, qui est la valeur unicode de l'icône `user`.
+Jadi untuk menampilkan ikon, untuk kelas `.user` tambahkan properti kode konten CSS sebagai `\f007`, yang merupakan nilai unicode untuk ikon `user`.
 
 ```
 .user::before {
@@ -155,17 +155,17 @@ Pour afficher l'icône, pour la classe `.user`, ajoutez la propriété CSS conte
 }
 ```
 
-En plus du code de contenu CSS, nous devons également ajouter le style `font`.
+Bersamaan dengan kode konten CSS, Kita perlu menambahkan gaya `font` juga.
 
-Nous pouvons utiliser les propriétés personnalisées CSS prédéfinies de font awesome pour cela.
+Kita dapat menggunakan font awesome properti kustom CSS yang telah ditentukan sebelumnya untuk itu.
 
-Pour les icônes solides, utilisez `var(--fa-font-solid)`
+Untuk ikon solid, gunakan `var(--fa-font-solid)`
 
-Pour les icônes régulières, utilisez `var(--fa-font-regular)`
+Untuk ikon biasa gunakan `var(--fa-font-regular)`
 
-Pour les icônes de marque, utilisez `var(--fa-font-regular)`
+Untuk ikon Merek gunakan `var(--fa-font-regular)`
 
-En plus de cela, nous pouvons ajouter une classe personnalisée qui définit quelques propriétés CSS communes.
+Selain itu kita dapat menambahkan kelas khusus yang mendefinisikan beberapa properti CSS umum.
 
 ```
 .fontawesomeicon::before {
@@ -179,11 +179,11 @@ En plus de cela, nous pouvons ajouter une classe personnalisée qui définit que
 </li>
 
 ```
-C'est tout 
+Itu saja 
 
-Dans la version font awesome 5, il n'y a pas de propriétés css personnalisées 
+Dalam versi font awesome 5 tidak ada properti css khusus 
 
-Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
+Jadi kita perlu menambahkan `font-family` dan `font-weight` css properties.
 
 ```
 // Font awesome 5 version. 
@@ -201,28 +201,27 @@ Nous devons donc ajouter les propriétés css de `font-family` et `font-weight`.
 
 ```
 
-`font-family` et `font-weight` peuvent être différentes pour chaque icône en fonction du style de l'icône, comme les icônes ordinaires, solides et de marque.
+`font-family` dan `font-weight` mungkin berbeda untuk setiap ikon tergantung pada gaya ikon seperti ikon biasa, solid dan merek.
 
-[Utiliser les icônes font awesome comme code de contenu CSS](/fontawesome/csscontentcode)
+[Gunakan Ikon font awesome sebagai Kode Konten CSS](/fontawesome/csscontentcode)
 
-Pour afficher les icônes font awesome en utilisant des SVG, consultez l'article ci-dessous.
+Untuk Menampilkan ikon font awesome menggunakan SVG, pikirkan artikel di bawah ini.
 
-[Liste des icônes SVG Font Awesome, utilisation, CSS et téléchargement](/fontawesome/svg/)
+[Daftar Ikon SVG Font Awesome, Penggunaan, CSS &amp; Unduh](/fontawesome/svg/)
 
 ## Search Font Awesome Icons 
 
-Voici la liste complète des icônes gratuites de font awesome.
+Berikut adalah daftar lengkap lembar contekan ikon font awesome gratis.
 
-Tapez le nom de l'icône dans le champ de recherche ci-dessous et copiez le nom de la classe et le code de style ou de contenu CSS.
+Ketik nama ikon di kotak pencarian di bawah ini dan salin nama kelas dan gaya atau kode konten CSS.
 
-Les icônes seront filtrées dans le tableau ci-dessous.
+Ikon-ikon tersebut akan disaring pada tabel di bawah ini.
 
-Et cliquez sur l'icône pour copier le code html.
+Dan Klik pada ikon untuk menyalin kode html.
 
 <input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search font awesome icons.." title="Search font awesome icons">
 
 Total <strong><span id="counter">2016</span></strong> Icons.
-
 
 ## Font Awesome Icons Class List & CSS Content Codes
 
