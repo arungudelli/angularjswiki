@@ -85,7 +85,8 @@ And "registry" option is something specific to `ng add` command. Which is used t
 
 Remaining all other options helps us to understand execution of `ng add` command.
 
-<div class='table-responsive'><table class='table'>
+<div class='table-responsive'>
+<table class='table'>
 
   <thead>
     <tr>
@@ -94,16 +95,14 @@ Remaining all other options helps us to understand execution of `ng add` command
     </tr>
   </thead>
   <tbody>
-  
     <tr>
       <td>
-        registry="registryname"
+        registry = registryname
       </td>
       <td>
          The node NPM registry name to be used while adding external packages. 
       </td>
     </tr>
-  
     <tr>
       <td>
         help=true or false or json or JSON
@@ -113,7 +112,6 @@ Remaining all other options helps us to understand execution of `ng add` command
         Default value is false
       </td>
     </tr>
-  
     <tr>
       <td>
         interactive=true or false
@@ -121,8 +119,7 @@ Remaining all other options helps us to understand execution of `ng add` command
       <td>
         Enable or disables input prompts while executing ng add command.
       </td>
-    </tr>
-  
+    </tr>  
     <tr>
       <td>
          defaults = true or false
@@ -131,7 +128,6 @@ Remaining all other options helps us to understand execution of `ng add` command
         Enable or disables input prompts while executing ng add command with default options
       </td>
     </tr>
-  
     <tr>
       <td>
         verbose=true or false
@@ -142,7 +138,6 @@ Remaining all other options helps us to understand execution of `ng add` command
       </td>
     </tr>
   </tbody>
-
 </table></div>
 
 
