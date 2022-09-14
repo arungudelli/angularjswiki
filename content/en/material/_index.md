@@ -28,9 +28,11 @@ Angular Material module helps us to create high-quality UI applications with Ang
 
 In this Angular material tutorial I will explain basics of Angular Material with simple examples,starting from setting up Angular material project in our local machine.
 
-Angular Material project is under active development. New features are being added regularly.Official latest version of Angular Material is 7.0.
+Angular Material project is under active development. New features are being added regularly.
 
-{{%toc%}}
+Official latest version of Angular Material is 7.0.
+
+{{% toc %}}
 
 ## What is Angular Material?
 

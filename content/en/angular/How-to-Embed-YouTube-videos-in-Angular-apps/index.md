@@ -21,7 +21,7 @@ authors = ["admin"]
 
 In this tutorial we learn how to embed youtube videos in Angular applications using `@angular/youtube-player` component.
 
-{{%toc%}}
+{{<toc>}}
 
 ## What is Angular Youtube Player Component? 
 
@@ -56,7 +56,7 @@ export class AppModule {}
 
 Instead of adding in `AppModule` you can add it in your own video component module.
 
-```
+```typescript
 import { NgModule } from '@angular/core';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 
@@ -118,7 +118,7 @@ The video id is `QIZ9aZD6vs0`.
 
 Pass the video id to the `youtube-player` component `videoId @input`.
 
-```
+```typescript
 <youtube-player videoId="QIZ9aZD6vs0"> </youtube-player>
 
 ```
@@ -129,7 +129,7 @@ And we can bind a variable to `[videoId]` input.
 
 Here is the complete example.
 
-```
+```typescript
 export class AppComponent {
   //  videoUrl = 'https://www.youtube.com/watch?v=QIZ9aZD6vs0';
 
@@ -160,7 +160,7 @@ By default youtube player component loads the video in `640` width and `390` hei
 
 To change the width and height of the video we can make use `[height]` and `[width]` input parameters.
 
-```
+```angular2
 <youtube-player [videoId]="videoId"
                 [height]="250" 
                 [width]="500"> 
