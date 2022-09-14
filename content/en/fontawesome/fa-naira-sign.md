@@ -1,7 +1,7 @@
 
 +++
 title='Naira-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Naira-Sign font awesome icon CSS class is fa-naira-sign & CSS Content Code is  \e1f6'
+summary = 'Naira-Sign font awesome icon CSS class is fa-naira-sign & CSS Content Code is e1f6'
 keywords =['Naira-Sign, \e1f6,fa-naira-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

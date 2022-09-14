@@ -1,7 +1,7 @@
 
 +++
 title='Person-Harassing font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Harassing font awesome icon CSS class is fa-person-harassing & CSS Content Code is  \e549'
+summary = 'Person-Harassing font awesome icon CSS class is fa-person-harassing & CSS Content Code is e549'
 keywords =['Person-Harassing, \e549,fa-person-harassing']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

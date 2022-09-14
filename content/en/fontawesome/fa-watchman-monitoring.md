@@ -1,7 +1,7 @@
 
 +++
 title='Watchman-Monitoring font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Watchman-Monitoring font awesome icon CSS class is fa-watchman-monitoring & CSS Content Code is  \e087'
+summary = 'Watchman-Monitoring font awesome icon CSS class is fa-watchman-monitoring & CSS Content Code is e087'
 keywords =['Watchman-Monitoring, \e087,fa-watchman-monitoring']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

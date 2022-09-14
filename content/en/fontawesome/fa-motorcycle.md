@@ -1,7 +1,7 @@
 
 +++
 title='Motorcycle font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Motorcycle font awesome icon CSS class is fa-motorcycle & CSS Content Code is  \f21c'
+summary = 'Motorcycle font awesome icon CSS class is fa-motorcycle & CSS Content Code is f21c'
 keywords =['Motorcycle, \f21c,fa-motorcycle']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

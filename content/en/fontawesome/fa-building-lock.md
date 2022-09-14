@@ -1,7 +1,7 @@
 
 +++
 title='Building-Lock font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Building-Lock font awesome icon CSS class is fa-building-lock & CSS Content Code is  \e4d6'
+summary = 'Building-Lock font awesome icon CSS class is fa-building-lock & CSS Content Code is e4d6'
 keywords =['Building-Lock, \e4d6,fa-building-lock']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

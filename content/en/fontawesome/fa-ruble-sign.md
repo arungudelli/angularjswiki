@@ -1,7 +1,7 @@
 
 +++
 title='Ruble-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ruble-Sign font awesome icon CSS class is fa-ruble-sign & CSS Content Code is  \f158'
+summary = 'Ruble-Sign font awesome icon CSS class is fa-ruble-sign & CSS Content Code is f158'
 keywords =['Ruble-Sign, \f158,fa-ruble-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

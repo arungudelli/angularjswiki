@@ -1,7 +1,7 @@
 
 +++
 title='Music font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Music font awesome icon CSS class is fa-music & CSS Content Code is  \f001'
+summary = 'Music font awesome icon CSS class is fa-music & CSS Content Code is f001'
 keywords =['Music, \f001,fa-music']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

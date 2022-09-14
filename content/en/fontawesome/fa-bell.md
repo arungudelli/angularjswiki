@@ -1,7 +1,7 @@
 
 +++
 title='Bell font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bell font awesome icon CSS class is fa-bell & CSS Content Code is  \f0f3'
+summary = 'Bell font awesome icon CSS class is fa-bell & CSS Content Code is f0f3'
 keywords =['Bell, \f0f3,fa-bell']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

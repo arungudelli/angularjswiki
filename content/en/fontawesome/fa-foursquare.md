@@ -1,7 +1,7 @@
 
 +++
 title='Foursquare font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Foursquare font awesome icon CSS class is fa-foursquare & CSS Content Code is  \f180'
+summary = 'Foursquare font awesome icon CSS class is fa-foursquare & CSS Content Code is f180'
 keywords =['Foursquare, \f180,fa-foursquare']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

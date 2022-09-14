@@ -1,7 +1,7 @@
 
 +++
 title='Khanda font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Khanda font awesome icon CSS class is fa-khanda & CSS Content Code is  \f66d'
+summary = 'Khanda font awesome icon CSS class is fa-khanda & CSS Content Code is f66d'
 keywords =['Khanda, \f66d,fa-khanda']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

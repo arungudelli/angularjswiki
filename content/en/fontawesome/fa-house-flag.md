@@ -1,7 +1,7 @@
 
 +++
 title='House-Flag font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'House-Flag font awesome icon CSS class is fa-house-flag & CSS Content Code is  \e50d'
+summary = 'House-Flag font awesome icon CSS class is fa-house-flag & CSS Content Code is e50d'
 keywords =['House-Flag, \e50d,fa-house-flag']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

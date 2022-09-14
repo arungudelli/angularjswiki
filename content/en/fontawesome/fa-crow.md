@@ -1,7 +1,7 @@
 
 +++
 title='Crow font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Crow font awesome icon CSS class is fa-crow & CSS Content Code is  \f520'
+summary = 'Crow font awesome icon CSS class is fa-crow & CSS Content Code is f520'
 keywords =['Crow, \f520,fa-crow']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

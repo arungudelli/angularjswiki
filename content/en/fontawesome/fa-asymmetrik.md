@@ -1,7 +1,7 @@
 
 +++
 title='Asymmetrik font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Asymmetrik font awesome icon CSS class is fa-asymmetrik & CSS Content Code is  \f372'
+summary = 'Asymmetrik font awesome icon CSS class is fa-asymmetrik & CSS Content Code is f372'
 keywords =['Asymmetrik, \f372,fa-asymmetrik']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Hand-Peace font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hand-Peace font awesome icon CSS class is fa-hand-peace & CSS Content Code is  \f25b'
+summary = 'Hand-Peace font awesome icon CSS class is fa-hand-peace & CSS Content Code is f25b'
 keywords =['Hand-Peace, \f25b,fa-hand-peace']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Heart-Circle-Minus font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Heart-Circle-Minus font awesome icon CSS class is fa-heart-circle-minus & CSS Content Code is  \e4ff'
+summary = 'Heart-Circle-Minus font awesome icon CSS class is fa-heart-circle-minus & CSS Content Code is e4ff'
 keywords =['Heart-Circle-Minus, \e4ff,fa-heart-circle-minus']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Om font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Om font awesome icon CSS class is fa-om & CSS Content Code is  \f679'
+summary = 'Om font awesome icon CSS class is fa-om & CSS Content Code is f679'
 keywords =['Om, \f679,fa-om']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

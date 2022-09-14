@@ -1,7 +1,7 @@
 
 +++
 title='Dhl font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Dhl font awesome icon CSS class is fa-dhl & CSS Content Code is  \f790'
+summary = 'Dhl font awesome icon CSS class is fa-dhl & CSS Content Code is f790'
 keywords =['Dhl, \f790,fa-dhl']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

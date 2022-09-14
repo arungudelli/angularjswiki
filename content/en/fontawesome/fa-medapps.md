@@ -1,7 +1,7 @@
 
 +++
 title='Medapps font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Medapps font awesome icon CSS class is fa-medapps & CSS Content Code is  \f3c6'
+summary = 'Medapps font awesome icon CSS class is fa-medapps & CSS Content Code is f3c6'
 keywords =['Medapps, \f3c6,fa-medapps']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

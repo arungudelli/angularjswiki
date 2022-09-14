@@ -1,7 +1,7 @@
 
 +++
 title='Book-Atlas font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Book-Atlas font awesome icon CSS class is fa-book-atlas & CSS Content Code is  \f558'
+summary = 'Book-Atlas font awesome icon CSS class is fa-book-atlas & CSS Content Code is f558'
 keywords =['Book-Atlas, \f558,fa-book-atlas']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

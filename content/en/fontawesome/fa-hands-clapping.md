@@ -1,7 +1,7 @@
 
 +++
 title='Hands-Clapping font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hands-Clapping font awesome icon CSS class is fa-hands-clapping & CSS Content Code is  \e1a8'
+summary = 'Hands-Clapping font awesome icon CSS class is fa-hands-clapping & CSS Content Code is e1a8'
 keywords =['Hands-Clapping, \e1a8,fa-hands-clapping']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Vial-Circle-Check font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Vial-Circle-Check font awesome icon CSS class is fa-vial-circle-check & CSS Content Code is  \e596'
+summary = 'Vial-Circle-Check font awesome icon CSS class is fa-vial-circle-check & CSS Content Code is e596'
 keywords =['Vial-Circle-Check, \e596,fa-vial-circle-check']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

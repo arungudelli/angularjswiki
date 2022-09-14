@@ -1,7 +1,7 @@
 
 +++
 title='Reddit font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Reddit font awesome icon CSS class is fa-reddit & CSS Content Code is  \f1a1'
+summary = 'Reddit font awesome icon CSS class is fa-reddit & CSS Content Code is f1a1'
 keywords =['Reddit, \f1a1,fa-reddit']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

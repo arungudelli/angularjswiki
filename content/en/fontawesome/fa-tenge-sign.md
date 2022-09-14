@@ -1,7 +1,7 @@
 
 +++
 title='Tenge-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Tenge-Sign font awesome icon CSS class is fa-tenge-sign & CSS Content Code is  \f7d7'
+summary = 'Tenge-Sign font awesome icon CSS class is fa-tenge-sign & CSS Content Code is f7d7'
 keywords =['Tenge-Sign, \f7d7,fa-tenge-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

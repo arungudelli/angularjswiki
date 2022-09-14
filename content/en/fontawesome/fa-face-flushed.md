@@ -1,7 +1,7 @@
 
 +++
 title='Face-Flushed font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Face-Flushed font awesome icon CSS class is fa-face-flushed & CSS Content Code is  \f579'
+summary = 'Face-Flushed font awesome icon CSS class is fa-face-flushed & CSS Content Code is f579'
 keywords =['Face-Flushed, \f579,fa-face-flushed']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

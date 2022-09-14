@@ -1,7 +1,7 @@
 
 +++
 title='Pinterest-P font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Pinterest-P font awesome icon CSS class is fa-pinterest-p & CSS Content Code is  \f231'
+summary = 'Pinterest-P font awesome icon CSS class is fa-pinterest-p & CSS Content Code is f231'
 keywords =['Pinterest-P, \f231,fa-pinterest-p']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

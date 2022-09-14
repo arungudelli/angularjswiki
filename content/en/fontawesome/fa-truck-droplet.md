@@ -1,7 +1,7 @@
 
 +++
 title='Truck-Droplet font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Truck-Droplet font awesome icon CSS class is fa-truck-droplet & CSS Content Code is  \e58c'
+summary = 'Truck-Droplet font awesome icon CSS class is fa-truck-droplet & CSS Content Code is e58c'
 keywords =['Truck-Droplet, \e58c,fa-truck-droplet']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

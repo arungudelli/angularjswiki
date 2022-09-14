@@ -1,7 +1,7 @@
 
 +++
 title='Temperature-Low font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Temperature-Low font awesome icon CSS class is fa-temperature-low & CSS Content Code is  \f76b'
+summary = 'Temperature-Low font awesome icon CSS class is fa-temperature-low & CSS Content Code is f76b'
 keywords =['Temperature-Low, \f76b,fa-temperature-low']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

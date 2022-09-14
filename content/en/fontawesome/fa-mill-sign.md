@@ -1,7 +1,7 @@
 
 +++
 title='Mill-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mill-Sign font awesome icon CSS class is fa-mill-sign & CSS Content Code is  \e1ed'
+summary = 'Mill-Sign font awesome icon CSS class is fa-mill-sign & CSS Content Code is e1ed'
 keywords =['Mill-Sign, \e1ed,fa-mill-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

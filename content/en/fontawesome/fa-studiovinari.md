@@ -1,7 +1,7 @@
 
 +++
 title='Studiovinari font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Studiovinari font awesome icon CSS class is fa-studiovinari & CSS Content Code is  \f3f8'
+summary = 'Studiovinari font awesome icon CSS class is fa-studiovinari & CSS Content Code is f3f8'
 keywords =['Studiovinari, \f3f8,fa-studiovinari']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

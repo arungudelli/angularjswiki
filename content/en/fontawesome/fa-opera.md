@@ -1,7 +1,7 @@
 
 +++
 title='Opera font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Opera font awesome icon CSS class is fa-opera & CSS Content Code is  \f26a'
+summary = 'Opera font awesome icon CSS class is fa-opera & CSS Content Code is f26a'
 keywords =['Opera, \f26a,fa-opera']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Comment-Sms font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Comment-Sms font awesome icon CSS class is fa-comment-sms & CSS Content Code is  \f7cd'
+summary = 'Comment-Sms font awesome icon CSS class is fa-comment-sms & CSS Content Code is f7cd'
 keywords =['Comment-Sms, \f7cd,fa-comment-sms']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

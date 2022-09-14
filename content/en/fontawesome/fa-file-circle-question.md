@@ -1,7 +1,7 @@
 
 +++
 title='File-Circle-Question font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'File-Circle-Question font awesome icon CSS class is fa-file-circle-question & CSS Content Code is  \e4ef'
+summary = 'File-Circle-Question font awesome icon CSS class is fa-file-circle-question & CSS Content Code is e4ef'
 keywords =['File-Circle-Question, \e4ef,fa-file-circle-question']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

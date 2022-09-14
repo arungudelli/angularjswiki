@@ -1,7 +1,7 @@
 
 +++
 title='Monument font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Monument font awesome icon CSS class is fa-monument & CSS Content Code is  \f5a6'
+summary = 'Monument font awesome icon CSS class is fa-monument & CSS Content Code is f5a6'
 keywords =['Monument, \f5a6,fa-monument']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

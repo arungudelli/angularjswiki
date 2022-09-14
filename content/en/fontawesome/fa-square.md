@@ -1,7 +1,7 @@
 
 +++
 title='Square font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square font awesome icon CSS class is fa-square & CSS Content Code is  \f0c8'
+summary = 'Square font awesome icon CSS class is fa-square & CSS Content Code is f0c8'
 keywords =['Square, \f0c8,fa-square']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

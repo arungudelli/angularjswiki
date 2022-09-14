@@ -1,7 +1,7 @@
 
 +++
 title='Envelope-Circle-Check font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Envelope-Circle-Check font awesome icon CSS class is fa-envelope-circle-check & CSS Content Code is  \e4e8'
+summary = 'Envelope-Circle-Check font awesome icon CSS class is fa-envelope-circle-check & CSS Content Code is e4e8'
 keywords =['Envelope-Circle-Check, \e4e8,fa-envelope-circle-check']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Figma font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Figma font awesome icon CSS class is fa-figma & CSS Content Code is  \f799'
+summary = 'Figma font awesome icon CSS class is fa-figma & CSS Content Code is f799'
 keywords =['Figma, \f799,fa-figma']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

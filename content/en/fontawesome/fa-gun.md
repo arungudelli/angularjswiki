@@ -1,7 +1,7 @@
 
 +++
 title='Gun font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Gun font awesome icon CSS class is fa-gun & CSS Content Code is  \e19b'
+summary = 'Gun font awesome icon CSS class is fa-gun & CSS Content Code is e19b'
 keywords =['Gun, \e19b,fa-gun']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

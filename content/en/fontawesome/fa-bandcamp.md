@@ -1,7 +1,7 @@
 
 +++
 title='Bandcamp font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bandcamp font awesome icon CSS class is fa-bandcamp & CSS Content Code is  \f2d5'
+summary = 'Bandcamp font awesome icon CSS class is fa-bandcamp & CSS Content Code is f2d5'
 keywords =['Bandcamp, \f2d5,fa-bandcamp']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

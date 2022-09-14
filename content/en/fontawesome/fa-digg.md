@@ -1,7 +1,7 @@
 
 +++
 title='Digg font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Digg font awesome icon CSS class is fa-digg & CSS Content Code is  \f1a6'
+summary = 'Digg font awesome icon CSS class is fa-digg & CSS Content Code is f1a6'
 keywords =['Digg, \f1a6,fa-digg']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

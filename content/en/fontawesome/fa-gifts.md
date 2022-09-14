@@ -1,7 +1,7 @@
 
 +++
 title='Gifts font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Gifts font awesome icon CSS class is fa-gifts & CSS Content Code is  \f79c'
+summary = 'Gifts font awesome icon CSS class is fa-gifts & CSS Content Code is f79c'
 keywords =['Gifts, \f79c,fa-gifts']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

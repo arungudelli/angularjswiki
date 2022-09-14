@@ -1,7 +1,7 @@
 
 +++
 title='Itunes-Note font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Itunes-Note font awesome icon CSS class is fa-itunes-note & CSS Content Code is  \f3b5'
+summary = 'Itunes-Note font awesome icon CSS class is fa-itunes-note & CSS Content Code is f3b5'
 keywords =['Itunes-Note, \f3b5,fa-itunes-note']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

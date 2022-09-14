@@ -1,7 +1,7 @@
 
 +++
 title='Car-Side font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Car-Side font awesome icon CSS class is fa-car-side & CSS Content Code is  \f5e4'
+summary = 'Car-Side font awesome icon CSS class is fa-car-side & CSS Content Code is f5e4'
 keywords =['Car-Side, \f5e4,fa-car-side']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

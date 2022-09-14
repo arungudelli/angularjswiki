@@ -1,7 +1,7 @@
 
 +++
 title='Teamspeak font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Teamspeak font awesome icon CSS class is fa-teamspeak & CSS Content Code is  \f4f9'
+summary = 'Teamspeak font awesome icon CSS class is fa-teamspeak & CSS Content Code is f4f9'
 keywords =['Teamspeak, \f4f9,fa-teamspeak']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

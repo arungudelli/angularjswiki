@@ -1,7 +1,7 @@
 
 +++
 title='Hotjar font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hotjar font awesome icon CSS class is fa-hotjar & CSS Content Code is  \f3b1'
+summary = 'Hotjar font awesome icon CSS class is fa-hotjar & CSS Content Code is f3b1'
 keywords =['Hotjar, \f3b1,fa-hotjar']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

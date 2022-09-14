@@ -1,7 +1,7 @@
 
 +++
 title='Star-Of-David font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Star-Of-David font awesome icon CSS class is fa-star-of-david & CSS Content Code is  \f69a'
+summary = 'Star-Of-David font awesome icon CSS class is fa-star-of-david & CSS Content Code is f69a'
 keywords =['Star-Of-David, \f69a,fa-star-of-david']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

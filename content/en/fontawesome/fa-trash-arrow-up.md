@@ -1,7 +1,7 @@
 
 +++
 title='Trash-Arrow-Up font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Trash-Arrow-Up font awesome icon CSS class is fa-trash-arrow-up & CSS Content Code is  \f829'
+summary = 'Trash-Arrow-Up font awesome icon CSS class is fa-trash-arrow-up & CSS Content Code is f829'
 keywords =['Trash-Arrow-Up, \f829,fa-trash-arrow-up']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Left-Right font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Left-Right font awesome icon CSS class is fa-left-right & CSS Content Code is  \f337'
+summary = 'Left-Right font awesome icon CSS class is fa-left-right & CSS Content Code is f337'
 keywords =['Left-Right, \f337,fa-left-right']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

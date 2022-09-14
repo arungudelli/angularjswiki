@@ -1,7 +1,7 @@
 
 +++
 title='Yin-Yang font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Yin-Yang font awesome icon CSS class is fa-yin-yang & CSS Content Code is  \f6ad'
+summary = 'Yin-Yang font awesome icon CSS class is fa-yin-yang & CSS Content Code is f6ad'
 keywords =['Yin-Yang, \f6ad,fa-yin-yang']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

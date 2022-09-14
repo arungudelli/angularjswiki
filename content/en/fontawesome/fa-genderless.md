@@ -1,7 +1,7 @@
 
 +++
 title='Genderless font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Genderless font awesome icon CSS class is fa-genderless & CSS Content Code is  \f22d'
+summary = 'Genderless font awesome icon CSS class is fa-genderless & CSS Content Code is f22d'
 keywords =['Genderless, \f22d,fa-genderless']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

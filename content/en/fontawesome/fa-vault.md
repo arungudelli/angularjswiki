@@ -1,7 +1,7 @@
 
 +++
 title='Vault font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Vault font awesome icon CSS class is fa-vault & CSS Content Code is  \e2c5'
+summary = 'Vault font awesome icon CSS class is fa-vault & CSS Content Code is e2c5'
 keywords =['Vault, \e2c5,fa-vault']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

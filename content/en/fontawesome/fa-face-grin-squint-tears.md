@@ -1,7 +1,7 @@
 
 +++
 title='Face-Grin-Squint-Tears font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Face-Grin-Squint-Tears font awesome icon CSS class is fa-face-grin-squint-tears & CSS Content Code is  \f586'
+summary = 'Face-Grin-Squint-Tears font awesome icon CSS class is fa-face-grin-squint-tears & CSS Content Code is f586'
 keywords =['Face-Grin-Squint-Tears, \f586,fa-face-grin-squint-tears']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Codepen font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Codepen font awesome icon CSS class is fa-codepen & CSS Content Code is  \f1cb'
+summary = 'Codepen font awesome icon CSS class is fa-codepen & CSS Content Code is f1cb'
 keywords =['Codepen, \f1cb,fa-codepen']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

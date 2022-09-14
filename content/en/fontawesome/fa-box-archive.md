@@ -1,7 +1,7 @@
 
 +++
 title='Box-Archive font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Box-Archive font awesome icon CSS class is fa-box-archive & CSS Content Code is  \f187'
+summary = 'Box-Archive font awesome icon CSS class is fa-box-archive & CSS Content Code is f187'
 keywords =['Box-Archive, \f187,fa-box-archive']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

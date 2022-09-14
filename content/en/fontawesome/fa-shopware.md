@@ -1,7 +1,7 @@
 
 +++
 title='Shopware font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Shopware font awesome icon CSS class is fa-shopware & CSS Content Code is  \f5b5'
+summary = 'Shopware font awesome icon CSS class is fa-shopware & CSS Content Code is f5b5'
 keywords =['Shopware, \f5b5,fa-shopware']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

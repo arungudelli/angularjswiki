@@ -1,7 +1,7 @@
 
 +++
 title='Holly-Berry font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Holly-Berry font awesome icon CSS class is fa-holly-berry & CSS Content Code is  \f7aa'
+summary = 'Holly-Berry font awesome icon CSS class is fa-holly-berry & CSS Content Code is f7aa'
 keywords =['Holly-Berry, \f7aa,fa-holly-berry']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

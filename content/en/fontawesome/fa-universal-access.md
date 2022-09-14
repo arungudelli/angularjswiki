@@ -1,7 +1,7 @@
 
 +++
 title='Universal-Access font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Universal-Access font awesome icon CSS class is fa-universal-access & CSS Content Code is  \f29a'
+summary = 'Universal-Access font awesome icon CSS class is fa-universal-access & CSS Content Code is f29a'
 keywords =['Universal-Access, \f29a,fa-universal-access']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

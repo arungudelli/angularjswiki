@@ -1,7 +1,7 @@
 
 +++
 title='Network-Wired font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Network-Wired font awesome icon CSS class is fa-network-wired & CSS Content Code is  \f6ff'
+summary = 'Network-Wired font awesome icon CSS class is fa-network-wired & CSS Content Code is f6ff'
 keywords =['Network-Wired, \f6ff,fa-network-wired']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

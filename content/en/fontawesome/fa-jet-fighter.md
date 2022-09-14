@@ -1,7 +1,7 @@
 
 +++
 title='Jet-Fighter font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Jet-Fighter font awesome icon CSS class is fa-jet-fighter & CSS Content Code is  \f0fb'
+summary = 'Jet-Fighter font awesome icon CSS class is fa-jet-fighter & CSS Content Code is f0fb'
 keywords =['Jet-Fighter, \f0fb,fa-jet-fighter']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

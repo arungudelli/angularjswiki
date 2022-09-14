@@ -1,7 +1,7 @@
 
 +++
 title='Searchengin font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Searchengin font awesome icon CSS class is fa-searchengin & CSS Content Code is  \f3eb'
+summary = 'Searchengin font awesome icon CSS class is fa-searchengin & CSS Content Code is f3eb'
 keywords =['Searchengin, \f3eb,fa-searchengin']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

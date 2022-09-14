@@ -1,7 +1,7 @@
 
 +++
 title='Fedora font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Fedora font awesome icon CSS class is fa-fedora & CSS Content Code is  \f798'
+summary = 'Fedora font awesome icon CSS class is fa-fedora & CSS Content Code is f798'
 keywords =['Fedora, \f798,fa-fedora']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

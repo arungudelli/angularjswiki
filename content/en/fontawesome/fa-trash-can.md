@@ -1,7 +1,7 @@
 
 +++
 title='Trash-Can font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Trash-Can font awesome icon CSS class is fa-trash-can & CSS Content Code is  \f2ed'
+summary = 'Trash-Can font awesome icon CSS class is fa-trash-can & CSS Content Code is f2ed'
 keywords =['Trash-Can, \f2ed,fa-trash-can']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

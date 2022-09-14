@@ -1,7 +1,7 @@
 
 +++
 title='Scale-Balanced font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Scale-Balanced font awesome icon CSS class is fa-scale-balanced & CSS Content Code is  \f24e'
+summary = 'Scale-Balanced font awesome icon CSS class is fa-scale-balanced & CSS Content Code is f24e'
 keywords =['Scale-Balanced, \f24e,fa-scale-balanced']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

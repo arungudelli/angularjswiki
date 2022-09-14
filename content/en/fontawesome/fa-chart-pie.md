@@ -1,7 +1,7 @@
 
 +++
 title='Chart-Pie font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Chart-Pie font awesome icon CSS class is fa-chart-pie & CSS Content Code is  \f200'
+summary = 'Chart-Pie font awesome icon CSS class is fa-chart-pie & CSS Content Code is f200'
 keywords =['Chart-Pie, \f200,fa-chart-pie']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

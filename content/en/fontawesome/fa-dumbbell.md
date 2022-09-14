@@ -1,7 +1,7 @@
 
 +++
 title='Dumbbell font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Dumbbell font awesome icon CSS class is fa-dumbbell & CSS Content Code is  \f44b'
+summary = 'Dumbbell font awesome icon CSS class is fa-dumbbell & CSS Content Code is f44b'
 keywords =['Dumbbell, \f44b,fa-dumbbell']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

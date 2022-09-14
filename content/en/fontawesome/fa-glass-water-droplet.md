@@ -1,7 +1,7 @@
 
 +++
 title='Glass-Water-Droplet font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Glass-Water-Droplet font awesome icon CSS class is fa-glass-water-droplet & CSS Content Code is  \e4f5'
+summary = 'Glass-Water-Droplet font awesome icon CSS class is fa-glass-water-droplet & CSS Content Code is e4f5'
 keywords =['Glass-Water-Droplet, \e4f5,fa-glass-water-droplet']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Filter-Circle-Xmark font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Filter-Circle-Xmark font awesome icon CSS class is fa-filter-circle-xmark & CSS Content Code is  \e17b'
+summary = 'Filter-Circle-Xmark font awesome icon CSS class is fa-filter-circle-xmark & CSS Content Code is e17b'
 keywords =['Filter-Circle-Xmark, \e17b,fa-filter-circle-xmark']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

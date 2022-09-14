@@ -1,7 +1,7 @@
 
 +++
 title='File-Invoice font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'File-Invoice font awesome icon CSS class is fa-file-invoice & CSS Content Code is  \f570'
+summary = 'File-Invoice font awesome icon CSS class is fa-file-invoice & CSS Content Code is f570'
 keywords =['File-Invoice, \f570,fa-file-invoice']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

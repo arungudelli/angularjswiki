@@ -1,7 +1,7 @@
 
 +++
 title='Spray-Can font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Spray-Can font awesome icon CSS class is fa-spray-can & CSS Content Code is  \f5bd'
+summary = 'Spray-Can font awesome icon CSS class is fa-spray-can & CSS Content Code is f5bd'
 keywords =['Spray-Can, \f5bd,fa-spray-can']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

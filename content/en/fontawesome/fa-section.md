@@ -1,7 +1,7 @@
 
 +++
 title='Section font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Section font awesome icon CSS class is fa-section & CSS Content Code is  \e447'
+summary = 'Section font awesome icon CSS class is fa-section & CSS Content Code is e447'
 keywords =['Section, \e447,fa-section']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Cable-Car font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cable-Car font awesome icon CSS class is fa-cable-car & CSS Content Code is  \f7da'
+summary = 'Cable-Car font awesome icon CSS class is fa-cable-car & CSS Content Code is f7da'
 keywords =['Cable-Car, \f7da,fa-cable-car']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

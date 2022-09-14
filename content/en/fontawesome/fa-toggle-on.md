@@ -1,7 +1,7 @@
 
 +++
 title='Toggle-On font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Toggle-On font awesome icon CSS class is fa-toggle-on & CSS Content Code is  \f205'
+summary = 'Toggle-On font awesome icon CSS class is fa-toggle-on & CSS Content Code is f205'
 keywords =['Toggle-On, \f205,fa-toggle-on']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Angle-Down font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Angle-Down font awesome icon CSS class is fa-angle-down & CSS Content Code is  \f107'
+summary = 'Angle-Down font awesome icon CSS class is fa-angle-down & CSS Content Code is f107'
 keywords =['Angle-Down, \f107,fa-angle-down']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

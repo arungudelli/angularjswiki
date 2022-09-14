@@ -1,7 +1,7 @@
 
 +++
 title='Keycdn font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Keycdn font awesome icon CSS class is fa-keycdn & CSS Content Code is  \f3ba'
+summary = 'Keycdn font awesome icon CSS class is fa-keycdn & CSS Content Code is f3ba'
 keywords =['Keycdn, \f3ba,fa-keycdn']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

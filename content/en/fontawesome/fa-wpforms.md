@@ -1,7 +1,7 @@
 
 +++
 title='Wpforms font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Wpforms font awesome icon CSS class is fa-wpforms & CSS Content Code is  \f298'
+summary = 'Wpforms font awesome icon CSS class is fa-wpforms & CSS Content Code is f298'
 keywords =['Wpforms, \f298,fa-wpforms']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

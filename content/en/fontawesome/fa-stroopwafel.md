@@ -1,7 +1,7 @@
 
 +++
 title='Stroopwafel font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Stroopwafel font awesome icon CSS class is fa-stroopwafel & CSS Content Code is  \f551'
+summary = 'Stroopwafel font awesome icon CSS class is fa-stroopwafel & CSS Content Code is f551'
 keywords =['Stroopwafel, \f551,fa-stroopwafel']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

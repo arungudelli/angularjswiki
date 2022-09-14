@@ -1,7 +1,7 @@
 
 +++
 title='Laptop-File font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Laptop-File font awesome icon CSS class is fa-laptop-file & CSS Content Code is  \e51d'
+summary = 'Laptop-File font awesome icon CSS class is fa-laptop-file & CSS Content Code is e51d'
 keywords =['Laptop-File, \e51d,fa-laptop-file']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

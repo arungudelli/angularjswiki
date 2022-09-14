@@ -1,7 +1,7 @@
 
 +++
 title='Dharmachakra font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Dharmachakra font awesome icon CSS class is fa-dharmachakra & CSS Content Code is  \f655'
+summary = 'Dharmachakra font awesome icon CSS class is fa-dharmachakra & CSS Content Code is f655'
 keywords =['Dharmachakra, \f655,fa-dharmachakra']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

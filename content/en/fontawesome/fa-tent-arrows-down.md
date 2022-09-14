@@ -1,7 +1,7 @@
 
 +++
 title='Tent-Arrows-Down font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Tent-Arrows-Down font awesome icon CSS class is fa-tent-arrows-down & CSS Content Code is  \e581'
+summary = 'Tent-Arrows-Down font awesome icon CSS class is fa-tent-arrows-down & CSS Content Code is e581'
 keywords =['Tent-Arrows-Down, \e581,fa-tent-arrows-down']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

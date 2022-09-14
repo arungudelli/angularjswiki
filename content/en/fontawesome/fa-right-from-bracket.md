@@ -1,7 +1,7 @@
 
 +++
 title='Right-From-Bracket font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Right-From-Bracket font awesome icon CSS class is fa-right-from-bracket & CSS Content Code is  \f2f5'
+summary = 'Right-From-Bracket font awesome icon CSS class is fa-right-from-bracket & CSS Content Code is f2f5'
 keywords =['Right-From-Bracket, \f2f5,fa-right-from-bracket']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

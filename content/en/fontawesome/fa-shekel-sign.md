@@ -1,7 +1,7 @@
 
 +++
 title='Shekel-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Shekel-Sign font awesome icon CSS class is fa-shekel-sign & CSS Content Code is  \f20b'
+summary = 'Shekel-Sign font awesome icon CSS class is fa-shekel-sign & CSS Content Code is f20b'
 keywords =['Shekel-Sign, \f20b,fa-shekel-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

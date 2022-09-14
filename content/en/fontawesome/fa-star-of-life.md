@@ -1,7 +1,7 @@
 
 +++
 title='Star-Of-Life font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Star-Of-Life font awesome icon CSS class is fa-star-of-life & CSS Content Code is  \f621'
+summary = 'Star-Of-Life font awesome icon CSS class is fa-star-of-life & CSS Content Code is f621'
 keywords =['Star-Of-Life, \f621,fa-star-of-life']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Tachograph-Digital font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Tachograph-Digital font awesome icon CSS class is fa-tachograph-digital & CSS Content Code is  \f566'
+summary = 'Tachograph-Digital font awesome icon CSS class is fa-tachograph-digital & CSS Content Code is f566'
 keywords =['Tachograph-Digital, \f566,fa-tachograph-digital']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

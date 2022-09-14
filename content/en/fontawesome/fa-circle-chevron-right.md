@@ -1,7 +1,7 @@
 
 +++
 title='Circle-Chevron-Right font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Circle-Chevron-Right font awesome icon CSS class is fa-circle-chevron-right & CSS Content Code is  \f138'
+summary = 'Circle-Chevron-Right font awesome icon CSS class is fa-circle-chevron-right & CSS Content Code is f138'
 keywords =['Circle-Chevron-Right, \f138,fa-circle-chevron-right']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

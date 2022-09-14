@@ -1,7 +1,7 @@
 
 +++
 title='Gears font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Gears font awesome icon CSS class is fa-gears & CSS Content Code is  \f085'
+summary = 'Gears font awesome icon CSS class is fa-gears & CSS Content Code is f085'
 keywords =['Gears, \f085,fa-gears']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

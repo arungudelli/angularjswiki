@@ -1,7 +1,7 @@
 
 +++
 title='Italic font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Italic font awesome icon CSS class is fa-italic & CSS Content Code is  \f033'
+summary = 'Italic font awesome icon CSS class is fa-italic & CSS Content Code is f033'
 keywords =['Italic, \f033,fa-italic']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

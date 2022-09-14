@@ -1,7 +1,7 @@
 
 +++
 title='Arrow-Rotate-Right font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Arrow-Rotate-Right font awesome icon CSS class is fa-arrow-rotate-right & CSS Content Code is  \f01e'
+summary = 'Arrow-Rotate-Right font awesome icon CSS class is fa-arrow-rotate-right & CSS Content Code is f01e'
 keywords =['Arrow-Rotate-Right, \f01e,fa-arrow-rotate-right']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

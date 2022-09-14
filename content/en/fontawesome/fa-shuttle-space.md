@@ -1,7 +1,7 @@
 
 +++
 title='Shuttle-Space font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Shuttle-Space font awesome icon CSS class is fa-shuttle-space & CSS Content Code is  \f197'
+summary = 'Shuttle-Space font awesome icon CSS class is fa-shuttle-space & CSS Content Code is f197'
 keywords =['Shuttle-Space, \f197,fa-shuttle-space']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

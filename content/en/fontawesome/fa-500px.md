@@ -1,7 +1,7 @@
 
 +++
 title='500Px font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = '500Px font awesome icon CSS class is fa-500px & CSS Content Code is  \f26e'
+summary = '500Px font awesome icon CSS class is fa-500px & CSS Content Code is f26e'
 keywords =['500Px, \f26e,fa-500px']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

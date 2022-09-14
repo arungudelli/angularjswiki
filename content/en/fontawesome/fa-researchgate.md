@@ -1,7 +1,7 @@
 
 +++
 title='Researchgate font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Researchgate font awesome icon CSS class is fa-researchgate & CSS Content Code is  \f4f8'
+summary = 'Researchgate font awesome icon CSS class is fa-researchgate & CSS Content Code is f4f8'
 keywords =['Researchgate, \f4f8,fa-researchgate']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

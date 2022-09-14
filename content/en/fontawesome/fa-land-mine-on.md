@@ -1,7 +1,7 @@
 
 +++
 title='Land-Mine-On font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Land-Mine-On font awesome icon CSS class is fa-land-mine-on & CSS Content Code is  \e51b'
+summary = 'Land-Mine-On font awesome icon CSS class is fa-land-mine-on & CSS Content Code is e51b'
 keywords =['Land-Mine-On, \e51b,fa-land-mine-on']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

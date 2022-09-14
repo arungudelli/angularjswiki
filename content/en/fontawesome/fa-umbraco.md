@@ -1,7 +1,7 @@
 
 +++
 title='Umbraco font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Umbraco font awesome icon CSS class is fa-umbraco & CSS Content Code is  \f8e8'
+summary = 'Umbraco font awesome icon CSS class is fa-umbraco & CSS Content Code is f8e8'
 keywords =['Umbraco, \f8e8,fa-umbraco']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Patreon font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Patreon font awesome icon CSS class is fa-patreon & CSS Content Code is  \f3d9'
+summary = 'Patreon font awesome icon CSS class is fa-patreon & CSS Content Code is f3d9'
 keywords =['Patreon, \f3d9,fa-patreon']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

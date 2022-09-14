@@ -1,7 +1,7 @@
 
 +++
 title='Candy-Cane font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Candy-Cane font awesome icon CSS class is fa-candy-cane & CSS Content Code is  \f786'
+summary = 'Candy-Cane font awesome icon CSS class is fa-candy-cane & CSS Content Code is f786'
 keywords =['Candy-Cane, \f786,fa-candy-cane']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

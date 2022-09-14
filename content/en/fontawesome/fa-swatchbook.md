@@ -1,7 +1,7 @@
 
 +++
 title='Swatchbook font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Swatchbook font awesome icon CSS class is fa-swatchbook & CSS Content Code is  \f5c3'
+summary = 'Swatchbook font awesome icon CSS class is fa-swatchbook & CSS Content Code is f5c3'
 keywords =['Swatchbook, \f5c3,fa-swatchbook']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

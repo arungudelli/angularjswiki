@@ -1,7 +1,7 @@
 
 +++
 title='Staylinked font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Staylinked font awesome icon CSS class is fa-staylinked & CSS Content Code is  \f3f5'
+summary = 'Staylinked font awesome icon CSS class is fa-staylinked & CSS Content Code is f3f5'
 keywords =['Staylinked, \f3f5,fa-staylinked']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

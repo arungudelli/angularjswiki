@@ -1,7 +1,7 @@
 
 +++
 title='Bacterium font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bacterium font awesome icon CSS class is fa-bacterium & CSS Content Code is  \e05a'
+summary = 'Bacterium font awesome icon CSS class is fa-bacterium & CSS Content Code is e05a'
 keywords =['Bacterium, \e05a,fa-bacterium']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

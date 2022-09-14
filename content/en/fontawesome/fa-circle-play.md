@@ -1,7 +1,7 @@
 
 +++
 title='Circle-Play font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Circle-Play font awesome icon CSS class is fa-circle-play & CSS Content Code is  \f144'
+summary = 'Circle-Play font awesome icon CSS class is fa-circle-play & CSS Content Code is f144'
 keywords =['Circle-Play, \f144,fa-circle-play']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

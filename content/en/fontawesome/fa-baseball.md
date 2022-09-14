@@ -1,7 +1,7 @@
 
 +++
 title='Baseball font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Baseball font awesome icon CSS class is fa-baseball & CSS Content Code is  \f433'
+summary = 'Baseball font awesome icon CSS class is fa-baseball & CSS Content Code is f433'
 keywords =['Baseball, \f433,fa-baseball']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

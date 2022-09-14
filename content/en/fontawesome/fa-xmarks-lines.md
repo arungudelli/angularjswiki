@@ -1,7 +1,7 @@
 
 +++
 title='Xmarks-Lines font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Xmarks-Lines font awesome icon CSS class is fa-xmarks-lines & CSS Content Code is  \e59a'
+summary = 'Xmarks-Lines font awesome icon CSS class is fa-xmarks-lines & CSS Content Code is e59a'
 keywords =['Xmarks-Lines, \e59a,fa-xmarks-lines']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

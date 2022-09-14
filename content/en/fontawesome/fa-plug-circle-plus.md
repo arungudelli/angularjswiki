@@ -1,7 +1,7 @@
 
 +++
 title='Plug-Circle-Plus font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Plug-Circle-Plus font awesome icon CSS class is fa-plug-circle-plus & CSS Content Code is  \e55f'
+summary = 'Plug-Circle-Plus font awesome icon CSS class is fa-plug-circle-plus & CSS Content Code is e55f'
 keywords =['Plug-Circle-Plus, \e55f,fa-plug-circle-plus']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

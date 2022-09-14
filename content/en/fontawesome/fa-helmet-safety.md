@@ -1,7 +1,7 @@
 
 +++
 title='Helmet-Safety font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Helmet-Safety font awesome icon CSS class is fa-helmet-safety & CSS Content Code is  \f807'
+summary = 'Helmet-Safety font awesome icon CSS class is fa-helmet-safety & CSS Content Code is f807'
 keywords =['Helmet-Safety, \f807,fa-helmet-safety']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

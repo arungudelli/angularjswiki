@@ -1,7 +1,7 @@
 
 +++
 title='Toilet font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Toilet font awesome icon CSS class is fa-toilet & CSS Content Code is  \f7d8'
+summary = 'Toilet font awesome icon CSS class is fa-toilet & CSS Content Code is f7d8'
 keywords =['Toilet, \f7d8,fa-toilet']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

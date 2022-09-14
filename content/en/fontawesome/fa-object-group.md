@@ -1,7 +1,7 @@
 
 +++
 title='Object-Group font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Object-Group font awesome icon CSS class is fa-object-group & CSS Content Code is  \f247'
+summary = 'Object-Group font awesome icon CSS class is fa-object-group & CSS Content Code is f247'
 keywords =['Object-Group, \f247,fa-object-group']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

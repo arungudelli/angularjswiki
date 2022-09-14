@@ -1,7 +1,7 @@
 
 +++
 title='Elementor font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Elementor font awesome icon CSS class is fa-elementor & CSS Content Code is  \f430'
+summary = 'Elementor font awesome icon CSS class is fa-elementor & CSS Content Code is f430'
 keywords =['Elementor, \f430,fa-elementor']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

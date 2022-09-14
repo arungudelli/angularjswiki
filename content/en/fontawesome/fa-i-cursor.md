@@ -1,7 +1,7 @@
 
 +++
 title='I-Cursor font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'I-Cursor font awesome icon CSS class is fa-i-cursor & CSS Content Code is  \f246'
+summary = 'I-Cursor font awesome icon CSS class is fa-i-cursor & CSS Content Code is f246'
 keywords =['I-Cursor, \f246,fa-i-cursor']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

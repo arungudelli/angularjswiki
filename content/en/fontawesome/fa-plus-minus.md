@@ -1,7 +1,7 @@
 
 +++
 title='Plus-Minus font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Plus-Minus font awesome icon CSS class is fa-plus-minus & CSS Content Code is  \e43c'
+summary = 'Plus-Minus font awesome icon CSS class is fa-plus-minus & CSS Content Code is e43c'
 keywords =['Plus-Minus, \e43c,fa-plus-minus']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

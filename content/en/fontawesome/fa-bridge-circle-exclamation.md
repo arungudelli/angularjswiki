@@ -1,7 +1,7 @@
 
 +++
 title='Bridge-Circle-Exclamation font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bridge-Circle-Exclamation font awesome icon CSS class is fa-bridge-circle-exclamation & CSS Content Code is  \e4ca'
+summary = 'Bridge-Circle-Exclamation font awesome icon CSS class is fa-bridge-circle-exclamation & CSS Content Code is e4ca'
 keywords =['Bridge-Circle-Exclamation, \e4ca,fa-bridge-circle-exclamation']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

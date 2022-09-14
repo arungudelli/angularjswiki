@@ -1,7 +1,7 @@
 
 +++
 title='Square-Pen font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Pen font awesome icon CSS class is fa-square-pen & CSS Content Code is  \f14b'
+summary = 'Square-Pen font awesome icon CSS class is fa-square-pen & CSS Content Code is f14b'
 keywords =['Square-Pen, \f14b,fa-square-pen']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

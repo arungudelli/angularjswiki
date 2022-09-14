@@ -1,7 +1,7 @@
 
 +++
 title='Hornbill font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hornbill font awesome icon CSS class is fa-hornbill & CSS Content Code is  \f592'
+summary = 'Hornbill font awesome icon CSS class is fa-hornbill & CSS Content Code is f592'
 keywords =['Hornbill, \f592,fa-hornbill']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

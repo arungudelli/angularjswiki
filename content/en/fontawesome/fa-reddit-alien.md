@@ -1,7 +1,7 @@
 
 +++
 title='Reddit-Alien font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Reddit-Alien font awesome icon CSS class is fa-reddit-alien & CSS Content Code is  \f281'
+summary = 'Reddit-Alien font awesome icon CSS class is fa-reddit-alien & CSS Content Code is f281'
 keywords =['Reddit-Alien, \f281,fa-reddit-alien']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

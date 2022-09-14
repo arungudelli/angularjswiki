@@ -1,7 +1,7 @@
 
 +++
 title='Apple-Pay font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Apple-Pay font awesome icon CSS class is fa-apple-pay & CSS Content Code is  \f415'
+summary = 'Apple-Pay font awesome icon CSS class is fa-apple-pay & CSS Content Code is f415'
 keywords =['Apple-Pay, \f415,fa-apple-pay']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

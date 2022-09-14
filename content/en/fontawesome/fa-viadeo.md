@@ -1,7 +1,7 @@
 
 +++
 title='Viadeo font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Viadeo font awesome icon CSS class is fa-viadeo & CSS Content Code is  \f2a9'
+summary = 'Viadeo font awesome icon CSS class is fa-viadeo & CSS Content Code is f2a9'
 keywords =['Viadeo, \f2a9,fa-viadeo']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

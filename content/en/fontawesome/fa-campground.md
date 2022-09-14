@@ -1,7 +1,7 @@
 
 +++
 title='Campground font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Campground font awesome icon CSS class is fa-campground & CSS Content Code is  \f6bb'
+summary = 'Campground font awesome icon CSS class is fa-campground & CSS Content Code is f6bb'
 keywords =['Campground, \f6bb,fa-campground']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

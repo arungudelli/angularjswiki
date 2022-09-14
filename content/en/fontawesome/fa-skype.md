@@ -1,7 +1,7 @@
 
 +++
 title='Skype font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Skype font awesome icon CSS class is fa-skype & CSS Content Code is  \f17e'
+summary = 'Skype font awesome icon CSS class is fa-skype & CSS Content Code is f17e'
 keywords =['Skype, \f17e,fa-skype']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

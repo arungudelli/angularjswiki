@@ -1,7 +1,7 @@
 
 +++
 title='Tree-City font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Tree-City font awesome icon CSS class is fa-tree-city & CSS Content Code is  \e587'
+summary = 'Tree-City font awesome icon CSS class is fa-tree-city & CSS Content Code is e587'
 keywords =['Tree-City, \e587,fa-tree-city']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

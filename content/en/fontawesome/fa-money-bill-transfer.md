@@ -1,7 +1,7 @@
 
 +++
 title='Money-Bill-Transfer font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Money-Bill-Transfer font awesome icon CSS class is fa-money-bill-transfer & CSS Content Code is  \e528'
+summary = 'Money-Bill-Transfer font awesome icon CSS class is fa-money-bill-transfer & CSS Content Code is e528'
 keywords =['Money-Bill-Transfer, \e528,fa-money-bill-transfer']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

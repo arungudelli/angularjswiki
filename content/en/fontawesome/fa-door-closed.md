@@ -1,7 +1,7 @@
 
 +++
 title='Door-Closed font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Door-Closed font awesome icon CSS class is fa-door-closed & CSS Content Code is  \f52a'
+summary = 'Door-Closed font awesome icon CSS class is fa-door-closed & CSS Content Code is f52a'
 keywords =['Door-Closed, \f52a,fa-door-closed']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

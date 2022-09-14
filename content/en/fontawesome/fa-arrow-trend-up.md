@@ -1,7 +1,7 @@
 
 +++
 title='Arrow-Trend-Up font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Arrow-Trend-Up font awesome icon CSS class is fa-arrow-trend-up & CSS Content Code is  \e098'
+summary = 'Arrow-Trend-Up font awesome icon CSS class is fa-arrow-trend-up & CSS Content Code is e098'
 keywords =['Arrow-Trend-Up, \e098,fa-arrow-trend-up']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

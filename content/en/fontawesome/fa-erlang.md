@@ -1,7 +1,7 @@
 
 +++
 title='Erlang font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Erlang font awesome icon CSS class is fa-erlang & CSS Content Code is  \f39d'
+summary = 'Erlang font awesome icon CSS class is fa-erlang & CSS Content Code is f39d'
 keywords =['Erlang, \f39d,fa-erlang']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

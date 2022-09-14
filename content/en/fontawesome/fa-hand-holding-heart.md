@@ -1,7 +1,7 @@
 
 +++
 title='Hand-Holding-Heart font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hand-Holding-Heart font awesome icon CSS class is fa-hand-holding-heart & CSS Content Code is  \f4be'
+summary = 'Hand-Holding-Heart font awesome icon CSS class is fa-hand-holding-heart & CSS Content Code is f4be'
 keywords =['Hand-Holding-Heart, \f4be,fa-hand-holding-heart']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

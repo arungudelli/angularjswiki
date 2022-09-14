@@ -1,7 +1,7 @@
 
 +++
 title='Ferry font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ferry font awesome icon CSS class is fa-ferry & CSS Content Code is  \e4ea'
+summary = 'Ferry font awesome icon CSS class is fa-ferry & CSS Content Code is e4ea'
 keywords =['Ferry, \e4ea,fa-ferry']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

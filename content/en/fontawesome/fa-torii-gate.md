@@ -1,7 +1,7 @@
 
 +++
 title='Torii-Gate font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Torii-Gate font awesome icon CSS class is fa-torii-gate & CSS Content Code is  \f6a1'
+summary = 'Torii-Gate font awesome icon CSS class is fa-torii-gate & CSS Content Code is f6a1'
 keywords =['Torii-Gate, \f6a1,fa-torii-gate']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

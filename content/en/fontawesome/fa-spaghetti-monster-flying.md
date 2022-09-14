@@ -1,7 +1,7 @@
 
 +++
 title='Spaghetti-Monster-Flying font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Spaghetti-Monster-Flying font awesome icon CSS class is fa-spaghetti-monster-flying & CSS Content Code is  \f67b'
+summary = 'Spaghetti-Monster-Flying font awesome icon CSS class is fa-spaghetti-monster-flying & CSS Content Code is f67b'
 keywords =['Spaghetti-Monster-Flying, \f67b,fa-spaghetti-monster-flying']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

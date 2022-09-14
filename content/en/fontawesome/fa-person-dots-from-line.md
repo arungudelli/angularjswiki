@@ -1,7 +1,7 @@
 
 +++
 title='Person-Dots-From-Line font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Dots-From-Line font awesome icon CSS class is fa-person-dots-from-line & CSS Content Code is  \f470'
+summary = 'Person-Dots-From-Line font awesome icon CSS class is fa-person-dots-from-line & CSS Content Code is f470'
 keywords =['Person-Dots-From-Line, \f470,fa-person-dots-from-line']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

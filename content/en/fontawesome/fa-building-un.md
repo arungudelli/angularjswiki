@@ -1,7 +1,7 @@
 
 +++
 title='Building-Un font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Building-Un font awesome icon CSS class is fa-building-un & CSS Content Code is  \e4d9'
+summary = 'Building-Un font awesome icon CSS class is fa-building-un & CSS Content Code is e4d9'
 keywords =['Building-Un, \e4d9,fa-building-un']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

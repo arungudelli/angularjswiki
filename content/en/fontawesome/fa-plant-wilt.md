@@ -1,7 +1,7 @@
 
 +++
 title='Plant-Wilt font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Plant-Wilt font awesome icon CSS class is fa-plant-wilt & CSS Content Code is  \e5aa'
+summary = 'Plant-Wilt font awesome icon CSS class is fa-plant-wilt & CSS Content Code is e5aa'
 keywords =['Plant-Wilt, \e5aa,fa-plant-wilt']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

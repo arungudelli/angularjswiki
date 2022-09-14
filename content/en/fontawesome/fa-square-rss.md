@@ -1,7 +1,7 @@
 
 +++
 title='Square-Rss font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Rss font awesome icon CSS class is fa-square-rss & CSS Content Code is  \f143'
+summary = 'Square-Rss font awesome icon CSS class is fa-square-rss & CSS Content Code is f143'
 keywords =['Square-Rss, \f143,fa-square-rss']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

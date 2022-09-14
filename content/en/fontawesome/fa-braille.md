@@ -1,7 +1,7 @@
 
 +++
 title='Braille font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Braille font awesome icon CSS class is fa-braille & CSS Content Code is  \f2a1'
+summary = 'Braille font awesome icon CSS class is fa-braille & CSS Content Code is f2a1'
 keywords =['Braille, \f2a1,fa-braille']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

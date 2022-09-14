@@ -1,7 +1,7 @@
 
 +++
 title='Tag font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Tag font awesome icon CSS class is fa-tag & CSS Content Code is  \f02b'
+summary = 'Tag font awesome icon CSS class is fa-tag & CSS Content Code is f02b'
 keywords =['Tag, \f02b,fa-tag']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Affiliatetheme font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Affiliatetheme font awesome icon CSS class is fa-affiliatetheme & CSS Content Code is  \f36b'
+summary = 'Affiliatetheme font awesome icon CSS class is fa-affiliatetheme & CSS Content Code is f36b'
 keywords =['Affiliatetheme, \f36b,fa-affiliatetheme']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

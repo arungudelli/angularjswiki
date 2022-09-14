@@ -1,7 +1,7 @@
 
 +++
 title='Cmplid font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cmplid font awesome icon CSS class is fa-cmplid & CSS Content Code is  \e360'
+summary = 'Cmplid font awesome icon CSS class is fa-cmplid & CSS Content Code is e360'
 keywords =['Cmplid, \e360,fa-cmplid']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Circle-Half-Stroke font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Circle-Half-Stroke font awesome icon CSS class is fa-circle-half-stroke & CSS Content Code is  \f042'
+summary = 'Circle-Half-Stroke font awesome icon CSS class is fa-circle-half-stroke & CSS Content Code is f042'
 keywords =['Circle-Half-Stroke, \f042,fa-circle-half-stroke']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

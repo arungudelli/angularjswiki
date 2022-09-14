@@ -1,7 +1,7 @@
 
 +++
 title='Compass font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Compass font awesome icon CSS class is fa-compass & CSS Content Code is  \f14e'
+summary = 'Compass font awesome icon CSS class is fa-compass & CSS Content Code is f14e'
 keywords =['Compass, \f14e,fa-compass']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='User-Pen font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'User-Pen font awesome icon CSS class is fa-user-pen & CSS Content Code is  \f4ff'
+summary = 'User-Pen font awesome icon CSS class is fa-user-pen & CSS Content Code is f4ff'
 keywords =['User-Pen, \f4ff,fa-user-pen']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

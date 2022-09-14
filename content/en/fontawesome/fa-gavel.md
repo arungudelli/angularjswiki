@@ -1,7 +1,7 @@
 
 +++
 title='Gavel font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Gavel font awesome icon CSS class is fa-gavel & CSS Content Code is  \f0e3'
+summary = 'Gavel font awesome icon CSS class is fa-gavel & CSS Content Code is f0e3'
 keywords =['Gavel, \f0e3,fa-gavel']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

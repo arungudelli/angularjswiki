@@ -1,7 +1,7 @@
 
 +++
 title='Share-From-Square font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Share-From-Square font awesome icon CSS class is fa-share-from-square & CSS Content Code is  \f14d'
+summary = 'Share-From-Square font awesome icon CSS class is fa-share-from-square & CSS Content Code is f14d'
 keywords =['Share-From-Square, \f14d,fa-share-from-square']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

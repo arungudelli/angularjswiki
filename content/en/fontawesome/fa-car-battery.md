@@ -1,7 +1,7 @@
 
 +++
 title='Car-Battery font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Car-Battery font awesome icon CSS class is fa-car-battery & CSS Content Code is  \f5df'
+summary = 'Car-Battery font awesome icon CSS class is fa-car-battery & CSS Content Code is f5df'
 keywords =['Car-Battery, \f5df,fa-car-battery']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

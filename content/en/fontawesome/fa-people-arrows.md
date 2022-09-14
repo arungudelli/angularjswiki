@@ -1,7 +1,7 @@
 
 +++
 title='People-Arrows font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'People-Arrows font awesome icon CSS class is fa-people-arrows & CSS Content Code is  \e068'
+summary = 'People-Arrows font awesome icon CSS class is fa-people-arrows & CSS Content Code is e068'
 keywords =['People-Arrows, \e068,fa-people-arrows']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

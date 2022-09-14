@@ -1,7 +1,7 @@
 
 +++
 title='Scale-Unbalanced-Flip font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Scale-Unbalanced-Flip font awesome icon CSS class is fa-scale-unbalanced-flip & CSS Content Code is  \f516'
+summary = 'Scale-Unbalanced-Flip font awesome icon CSS class is fa-scale-unbalanced-flip & CSS Content Code is f516'
 keywords =['Scale-Unbalanced-Flip, \f516,fa-scale-unbalanced-flip']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

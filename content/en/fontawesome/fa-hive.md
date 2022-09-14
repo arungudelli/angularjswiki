@@ -1,7 +1,7 @@
 
 +++
 title='Hive font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hive font awesome icon CSS class is fa-hive & CSS Content Code is  \e07f'
+summary = 'Hive font awesome icon CSS class is fa-hive & CSS Content Code is e07f'
 keywords =['Hive, \e07f,fa-hive']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

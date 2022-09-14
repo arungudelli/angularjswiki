@@ -1,7 +1,7 @@
 
 +++
 title='Hotel font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hotel font awesome icon CSS class is fa-hotel & CSS Content Code is  \f594'
+summary = 'Hotel font awesome icon CSS class is fa-hotel & CSS Content Code is f594'
 keywords =['Hotel, \f594,fa-hotel']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

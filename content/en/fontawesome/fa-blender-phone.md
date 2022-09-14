@@ -1,7 +1,7 @@
 
 +++
 title='Blender-Phone font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Blender-Phone font awesome icon CSS class is fa-blender-phone & CSS Content Code is  \f6b6'
+summary = 'Blender-Phone font awesome icon CSS class is fa-blender-phone & CSS Content Code is f6b6'
 keywords =['Blender-Phone, \f6b6,fa-blender-phone']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

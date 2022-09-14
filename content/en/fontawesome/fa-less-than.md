@@ -1,7 +1,7 @@
 
 +++
 title='Less-Than font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Less-Than font awesome icon CSS class is fa-less-than & CSS Content Code is  \3c'
+summary = 'Less-Than font awesome icon CSS class is fa-less-than & CSS Content Code is 3c'
 keywords =['Less-Than, \3c,fa-less-than']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

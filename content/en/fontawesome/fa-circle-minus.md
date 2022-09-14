@@ -1,7 +1,7 @@
 
 +++
 title='Circle-Minus font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Circle-Minus font awesome icon CSS class is fa-circle-minus & CSS Content Code is  \f056'
+summary = 'Circle-Minus font awesome icon CSS class is fa-circle-minus & CSS Content Code is f056'
 keywords =['Circle-Minus, \f056,fa-circle-minus']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

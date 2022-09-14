@@ -1,7 +1,7 @@
 
 +++
 title='Wifi font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Wifi font awesome icon CSS class is fa-wifi & CSS Content Code is  \f1eb'
+summary = 'Wifi font awesome icon CSS class is fa-wifi & CSS Content Code is f1eb'
 keywords =['Wifi, \f1eb,fa-wifi']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

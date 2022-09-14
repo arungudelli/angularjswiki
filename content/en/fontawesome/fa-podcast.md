@@ -1,7 +1,7 @@
 
 +++
 title='Podcast font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Podcast font awesome icon CSS class is fa-podcast & CSS Content Code is  \f2ce'
+summary = 'Podcast font awesome icon CSS class is fa-podcast & CSS Content Code is f2ce'
 keywords =['Podcast, \f2ce,fa-podcast']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

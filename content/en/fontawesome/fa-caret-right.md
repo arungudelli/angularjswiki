@@ -1,7 +1,7 @@
 
 +++
 title='Caret-Right font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Caret-Right font awesome icon CSS class is fa-caret-right & CSS Content Code is  \f0da'
+summary = 'Caret-Right font awesome icon CSS class is fa-caret-right & CSS Content Code is f0da'
 keywords =['Caret-Right, \f0da,fa-caret-right']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

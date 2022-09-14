@@ -1,7 +1,7 @@
 
 +++
 title='Prescription font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Prescription font awesome icon CSS class is fa-prescription & CSS Content Code is  \f5b1'
+summary = 'Prescription font awesome icon CSS class is fa-prescription & CSS Content Code is f5b1'
 keywords =['Prescription, \f5b1,fa-prescription']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

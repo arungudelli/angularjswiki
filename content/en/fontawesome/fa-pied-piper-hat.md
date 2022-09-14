@@ -1,7 +1,7 @@
 
 +++
 title='Pied-Piper-Hat font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Pied-Piper-Hat font awesome icon CSS class is fa-pied-piper-hat & CSS Content Code is  \f4e5'
+summary = 'Pied-Piper-Hat font awesome icon CSS class is fa-pied-piper-hat & CSS Content Code is f4e5'
 keywords =['Pied-Piper-Hat, \f4e5,fa-pied-piper-hat']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

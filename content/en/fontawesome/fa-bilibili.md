@@ -1,7 +1,7 @@
 
 +++
 title='Bilibili font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bilibili font awesome icon CSS class is fa-bilibili & CSS Content Code is  \e3d9'
+summary = 'Bilibili font awesome icon CSS class is fa-bilibili & CSS Content Code is e3d9'
 keywords =['Bilibili, \e3d9,fa-bilibili']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

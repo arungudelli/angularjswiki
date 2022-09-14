@@ -1,7 +1,7 @@
 
 +++
 title='Water font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Water font awesome icon CSS class is fa-water & CSS Content Code is  \f773'
+summary = 'Water font awesome icon CSS class is fa-water & CSS Content Code is f773'
 keywords =['Water, \f773,fa-water']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

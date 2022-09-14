@@ -1,7 +1,7 @@
 
 +++
 title='Paper-Plane font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Paper-Plane font awesome icon CSS class is fa-paper-plane & CSS Content Code is  \f1d8'
+summary = 'Paper-Plane font awesome icon CSS class is fa-paper-plane & CSS Content Code is f1d8'
 keywords =['Paper-Plane, \f1d8,fa-paper-plane']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

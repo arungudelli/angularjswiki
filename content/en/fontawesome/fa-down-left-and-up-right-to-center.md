@@ -1,7 +1,7 @@
 
 +++
 title='Down-Left-And-Up-Right-To-Center font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Down-Left-And-Up-Right-To-Center font awesome icon CSS class is fa-down-left-and-up-right-to-center & CSS Content Code is  \f422'
+summary = 'Down-Left-And-Up-Right-To-Center font awesome icon CSS class is fa-down-left-and-up-right-to-center & CSS Content Code is f422'
 keywords =['Down-Left-And-Up-Right-To-Center, \f422,fa-down-left-and-up-right-to-center']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

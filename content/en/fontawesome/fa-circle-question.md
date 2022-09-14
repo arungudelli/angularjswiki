@@ -1,7 +1,7 @@
 
 +++
 title='Circle-Question font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Circle-Question font awesome icon CSS class is fa-circle-question & CSS Content Code is  \f059'
+summary = 'Circle-Question font awesome icon CSS class is fa-circle-question & CSS Content Code is f059'
 keywords =['Circle-Question, \f059,fa-circle-question']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

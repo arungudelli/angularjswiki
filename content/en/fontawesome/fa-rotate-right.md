@@ -1,7 +1,7 @@
 
 +++
 title='Rotate-Right font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Rotate-Right font awesome icon CSS class is fa-rotate-right & CSS Content Code is  \f2f9'
+summary = 'Rotate-Right font awesome icon CSS class is fa-rotate-right & CSS Content Code is f2f9'
 keywords =['Rotate-Right, \f2f9,fa-rotate-right']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

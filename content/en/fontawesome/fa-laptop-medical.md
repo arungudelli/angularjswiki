@@ -1,7 +1,7 @@
 
 +++
 title='Laptop-Medical font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Laptop-Medical font awesome icon CSS class is fa-laptop-medical & CSS Content Code is  \f812'
+summary = 'Laptop-Medical font awesome icon CSS class is fa-laptop-medical & CSS Content Code is f812'
 keywords =['Laptop-Medical, \f812,fa-laptop-medical']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

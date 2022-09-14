@@ -1,7 +1,7 @@
 
 +++
 title='Bowl-Food font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bowl-Food font awesome icon CSS class is fa-bowl-food & CSS Content Code is  \e4c6'
+summary = 'Bowl-Food font awesome icon CSS class is fa-bowl-food & CSS Content Code is e4c6'
 keywords =['Bowl-Food, \e4c6,fa-bowl-food']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

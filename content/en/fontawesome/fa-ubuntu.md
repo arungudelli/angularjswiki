@@ -1,7 +1,7 @@
 
 +++
 title='Ubuntu font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ubuntu font awesome icon CSS class is fa-ubuntu & CSS Content Code is  \f7df'
+summary = 'Ubuntu font awesome icon CSS class is fa-ubuntu & CSS Content Code is f7df'
 keywords =['Ubuntu, \f7df,fa-ubuntu']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

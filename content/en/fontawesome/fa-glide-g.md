@@ -1,7 +1,7 @@
 
 +++
 title='Glide-G font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Glide-G font awesome icon CSS class is fa-glide-g & CSS Content Code is  \f2a6'
+summary = 'Glide-G font awesome icon CSS class is fa-glide-g & CSS Content Code is f2a6'
 keywords =['Glide-G, \f2a6,fa-glide-g']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

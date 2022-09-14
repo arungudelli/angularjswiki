@@ -1,7 +1,7 @@
 
 +++
 title='Users-Rays font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Users-Rays font awesome icon CSS class is fa-users-rays & CSS Content Code is  \e593'
+summary = 'Users-Rays font awesome icon CSS class is fa-users-rays & CSS Content Code is e593'
 keywords =['Users-Rays, \e593,fa-users-rays']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

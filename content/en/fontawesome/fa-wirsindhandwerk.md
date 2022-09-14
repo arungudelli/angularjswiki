@@ -1,7 +1,7 @@
 
 +++
 title='Wirsindhandwerk font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Wirsindhandwerk font awesome icon CSS class is fa-wirsindhandwerk & CSS Content Code is  \e2d0'
+summary = 'Wirsindhandwerk font awesome icon CSS class is fa-wirsindhandwerk & CSS Content Code is e2d0'
 keywords =['Wirsindhandwerk, \e2d0,fa-wirsindhandwerk']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

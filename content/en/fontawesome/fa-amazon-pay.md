@@ -1,7 +1,7 @@
 
 +++
 title='Amazon-Pay font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Amazon-Pay font awesome icon CSS class is fa-amazon-pay & CSS Content Code is  \f42c'
+summary = 'Amazon-Pay font awesome icon CSS class is fa-amazon-pay & CSS Content Code is f42c'
 keywords =['Amazon-Pay, \f42c,fa-amazon-pay']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

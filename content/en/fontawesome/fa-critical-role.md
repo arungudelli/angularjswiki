@@ -1,7 +1,7 @@
 
 +++
 title='Critical-Role font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Critical-Role font awesome icon CSS class is fa-critical-role & CSS Content Code is  \f6c9'
+summary = 'Critical-Role font awesome icon CSS class is fa-critical-role & CSS Content Code is f6c9'
 keywords =['Critical-Role, \f6c9,fa-critical-role']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

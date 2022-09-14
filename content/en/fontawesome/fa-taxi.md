@@ -1,7 +1,7 @@
 
 +++
 title='Taxi font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Taxi font awesome icon CSS class is fa-taxi & CSS Content Code is  \f1ba'
+summary = 'Taxi font awesome icon CSS class is fa-taxi & CSS Content Code is f1ba'
 keywords =['Taxi, \f1ba,fa-taxi']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

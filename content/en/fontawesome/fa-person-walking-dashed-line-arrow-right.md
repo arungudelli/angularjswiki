@@ -1,7 +1,7 @@
 
 +++
 title='Person-Walking-Dashed-Line-Arrow-Right font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Walking-Dashed-Line-Arrow-Right font awesome icon CSS class is fa-person-walking-dashed-line-arrow-right & CSS Content Code is  \e553'
+summary = 'Person-Walking-Dashed-Line-Arrow-Right font awesome icon CSS class is fa-person-walking-dashed-line-arrow-right & CSS Content Code is e553'
 keywords =['Person-Walking-Dashed-Line-Arrow-Right, \e553,fa-person-walking-dashed-line-arrow-right']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

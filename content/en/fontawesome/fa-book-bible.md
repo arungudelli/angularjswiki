@@ -1,7 +1,7 @@
 
 +++
 title='Book-Bible font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Book-Bible font awesome icon CSS class is fa-book-bible & CSS Content Code is  \f647'
+summary = 'Book-Bible font awesome icon CSS class is fa-book-bible & CSS Content Code is f647'
 keywords =['Book-Bible, \f647,fa-book-bible']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Palfed font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Palfed font awesome icon CSS class is fa-palfed & CSS Content Code is  \f3d8'
+summary = 'Palfed font awesome icon CSS class is fa-palfed & CSS Content Code is f3d8'
 keywords =['Palfed, \f3d8,fa-palfed']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

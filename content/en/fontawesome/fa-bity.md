@@ -1,7 +1,7 @@
 
 +++
 title='Bity font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bity font awesome icon CSS class is fa-bity & CSS Content Code is  \f37a'
+summary = 'Bity font awesome icon CSS class is fa-bity & CSS Content Code is f37a'
 keywords =['Bity, \f37a,fa-bity']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Fingerprint font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Fingerprint font awesome icon CSS class is fa-fingerprint & CSS Content Code is  \f577'
+summary = 'Fingerprint font awesome icon CSS class is fa-fingerprint & CSS Content Code is f577'
 keywords =['Fingerprint, \f577,fa-fingerprint']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

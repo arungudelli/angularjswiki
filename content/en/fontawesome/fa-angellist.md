@@ -1,7 +1,7 @@
 
 +++
 title='Angellist font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Angellist font awesome icon CSS class is fa-angellist & CSS Content Code is  \f209'
+summary = 'Angellist font awesome icon CSS class is fa-angellist & CSS Content Code is f209'
 keywords =['Angellist, \f209,fa-angellist']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

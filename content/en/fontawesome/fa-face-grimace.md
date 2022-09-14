@@ -1,7 +1,7 @@
 
 +++
 title='Face-Grimace font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Face-Grimace font awesome icon CSS class is fa-face-grimace & CSS Content Code is  \f57f'
+summary = 'Face-Grimace font awesome icon CSS class is fa-face-grimace & CSS Content Code is f57f'
 keywords =['Face-Grimace, \f57f,fa-face-grimace']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Red-River font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Red-River font awesome icon CSS class is fa-red-river & CSS Content Code is  \f3e3'
+summary = 'Red-River font awesome icon CSS class is fa-red-river & CSS Content Code is f3e3'
 keywords =['Red-River, \f3e3,fa-red-river']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

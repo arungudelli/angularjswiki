@@ -1,7 +1,7 @@
 
 +++
 title='Comment-Dollar font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Comment-Dollar font awesome icon CSS class is fa-comment-dollar & CSS Content Code is  \f651'
+summary = 'Comment-Dollar font awesome icon CSS class is fa-comment-dollar & CSS Content Code is f651'
 keywords =['Comment-Dollar, \f651,fa-comment-dollar']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

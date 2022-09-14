@@ -1,7 +1,7 @@
 
 +++
 title='Align-Left font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Align-Left font awesome icon CSS class is fa-align-left & CSS Content Code is  \f036'
+summary = 'Align-Left font awesome icon CSS class is fa-align-left & CSS Content Code is f036'
 keywords =['Align-Left, \f036,fa-align-left']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

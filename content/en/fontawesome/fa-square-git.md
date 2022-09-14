@@ -1,7 +1,7 @@
 
 +++
 title='Square-Git font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Git font awesome icon CSS class is fa-square-git & CSS Content Code is  \f1d2'
+summary = 'Square-Git font awesome icon CSS class is fa-square-git & CSS Content Code is f1d2'
 keywords =['Square-Git, \f1d2,fa-square-git']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

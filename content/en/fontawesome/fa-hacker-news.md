@@ -1,7 +1,7 @@
 
 +++
 title='Hacker-News font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hacker-News font awesome icon CSS class is fa-hacker-news & CSS Content Code is  \f1d4'
+summary = 'Hacker-News font awesome icon CSS class is fa-hacker-news & CSS Content Code is f1d4'
 keywords =['Hacker-News, \f1d4,fa-hacker-news']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

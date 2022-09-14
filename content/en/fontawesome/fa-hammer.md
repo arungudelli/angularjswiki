@@ -1,7 +1,7 @@
 
 +++
 title='Hammer font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hammer font awesome icon CSS class is fa-hammer & CSS Content Code is  \f6e3'
+summary = 'Hammer font awesome icon CSS class is fa-hammer & CSS Content Code is f6e3'
 keywords =['Hammer, \f6e3,fa-hammer']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

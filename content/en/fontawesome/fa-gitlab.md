@@ -1,7 +1,7 @@
 
 +++
 title='Gitlab font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Gitlab font awesome icon CSS class is fa-gitlab & CSS Content Code is  \f296'
+summary = 'Gitlab font awesome icon CSS class is fa-gitlab & CSS Content Code is f296'
 keywords =['Gitlab, \f296,fa-gitlab']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

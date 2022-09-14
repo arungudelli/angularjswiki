@@ -1,7 +1,7 @@
 
 +++
 title='Ravelry font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ravelry font awesome icon CSS class is fa-ravelry & CSS Content Code is  \f2d9'
+summary = 'Ravelry font awesome icon CSS class is fa-ravelry & CSS Content Code is f2d9'
 keywords =['Ravelry, \f2d9,fa-ravelry']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Hashnode font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hashnode font awesome icon CSS class is fa-hashnode & CSS Content Code is  \e499'
+summary = 'Hashnode font awesome icon CSS class is fa-hashnode & CSS Content Code is e499'
 keywords =['Hashnode, \e499,fa-hashnode']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

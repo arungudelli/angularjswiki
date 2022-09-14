@@ -1,7 +1,7 @@
 
 +++
 title='Temperature-Arrow-Down font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Temperature-Arrow-Down font awesome icon CSS class is fa-temperature-arrow-down & CSS Content Code is  \e03f'
+summary = 'Temperature-Arrow-Down font awesome icon CSS class is fa-temperature-arrow-down & CSS Content Code is e03f'
 keywords =['Temperature-Arrow-Down, \e03f,fa-temperature-arrow-down']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Hands-Bubbles font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hands-Bubbles font awesome icon CSS class is fa-hands-bubbles & CSS Content Code is  \e05e'
+summary = 'Hands-Bubbles font awesome icon CSS class is fa-hands-bubbles & CSS Content Code is e05e'
 keywords =['Hands-Bubbles, \e05e,fa-hands-bubbles']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

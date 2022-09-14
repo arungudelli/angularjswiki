@@ -1,7 +1,7 @@
 
 +++
 title='Paste font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Paste font awesome icon CSS class is fa-paste & CSS Content Code is  \f0ea'
+summary = 'Paste font awesome icon CSS class is fa-paste & CSS Content Code is f0ea'
 keywords =['Paste, \f0ea,fa-paste']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

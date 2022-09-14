@@ -1,7 +1,7 @@
 
 +++
 title='R font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'R font awesome icon CSS class is fa-r & CSS Content Code is  \52'
+summary = 'R font awesome icon CSS class is fa-r & CSS Content Code is 52'
 keywords =['R, \52,fa-r']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

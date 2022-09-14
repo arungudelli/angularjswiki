@@ -1,7 +1,7 @@
 
 +++
 title='Trademark font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Trademark font awesome icon CSS class is fa-trademark & CSS Content Code is  \f25c'
+summary = 'Trademark font awesome icon CSS class is fa-trademark & CSS Content Code is f25c'
 keywords =['Trademark, \f25c,fa-trademark']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

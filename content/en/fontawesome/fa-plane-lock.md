@@ -1,7 +1,7 @@
 
 +++
 title='Plane-Lock font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Plane-Lock font awesome icon CSS class is fa-plane-lock & CSS Content Code is  \e558'
+summary = 'Plane-Lock font awesome icon CSS class is fa-plane-lock & CSS Content Code is e558'
 keywords =['Plane-Lock, \e558,fa-plane-lock']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

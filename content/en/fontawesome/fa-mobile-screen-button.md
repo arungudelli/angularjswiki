@@ -1,7 +1,7 @@
 
 +++
 title='Mobile-Screen-Button font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mobile-Screen-Button font awesome icon CSS class is fa-mobile-screen-button & CSS Content Code is  \f3cd'
+summary = 'Mobile-Screen-Button font awesome icon CSS class is fa-mobile-screen-button & CSS Content Code is f3cd'
 keywords =['Mobile-Screen-Button, \f3cd,fa-mobile-screen-button']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

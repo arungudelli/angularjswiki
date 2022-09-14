@@ -1,7 +1,7 @@
 
 +++
 title='Database font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Database font awesome icon CSS class is fa-database & CSS Content Code is  \f1c0'
+summary = 'Database font awesome icon CSS class is fa-database & CSS Content Code is f1c0'
 keywords =['Database, \f1c0,fa-database']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Wheat-Awn-Circle-Exclamation font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Wheat-Awn-Circle-Exclamation font awesome icon CSS class is fa-wheat-awn-circle-exclamation & CSS Content Code is  \e598'
+summary = 'Wheat-Awn-Circle-Exclamation font awesome icon CSS class is fa-wheat-awn-circle-exclamation & CSS Content Code is e598'
 keywords =['Wheat-Awn-Circle-Exclamation, \e598,fa-wheat-awn-circle-exclamation']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

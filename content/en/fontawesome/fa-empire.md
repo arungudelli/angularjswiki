@@ -1,7 +1,7 @@
 
 +++
 title='Empire font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Empire font awesome icon CSS class is fa-empire & CSS Content Code is  \f1d1'
+summary = 'Empire font awesome icon CSS class is fa-empire & CSS Content Code is f1d1'
 keywords =['Empire, \f1d1,fa-empire']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

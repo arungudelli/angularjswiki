@@ -1,7 +1,7 @@
 
 +++
 title='Volume-Off font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Volume-Off font awesome icon CSS class is fa-volume-off & CSS Content Code is  \f026'
+summary = 'Volume-Off font awesome icon CSS class is fa-volume-off & CSS Content Code is f026'
 keywords =['Volume-Off, \f026,fa-volume-off']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

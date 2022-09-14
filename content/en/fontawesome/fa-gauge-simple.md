@@ -1,7 +1,7 @@
 
 +++
 title='Gauge-Simple font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Gauge-Simple font awesome icon CSS class is fa-gauge-simple & CSS Content Code is  \f629'
+summary = 'Gauge-Simple font awesome icon CSS class is fa-gauge-simple & CSS Content Code is f629'
 keywords =['Gauge-Simple, \f629,fa-gauge-simple']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Sleigh font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Sleigh font awesome icon CSS class is fa-sleigh & CSS Content Code is  \f7cc'
+summary = 'Sleigh font awesome icon CSS class is fa-sleigh & CSS Content Code is f7cc'
 keywords =['Sleigh, \f7cc,fa-sleigh']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

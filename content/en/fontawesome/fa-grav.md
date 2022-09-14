@@ -1,7 +1,7 @@
 
 +++
 title='Grav font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Grav font awesome icon CSS class is fa-grav & CSS Content Code is  \f2d6'
+summary = 'Grav font awesome icon CSS class is fa-grav & CSS Content Code is f2d6'
 keywords =['Grav, \f2d6,fa-grav']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Futbol font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Futbol font awesome icon CSS class is fa-futbol & CSS Content Code is  \f1e3'
+summary = 'Futbol font awesome icon CSS class is fa-futbol & CSS Content Code is f1e3'
 keywords =['Futbol, \f1e3,fa-futbol']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

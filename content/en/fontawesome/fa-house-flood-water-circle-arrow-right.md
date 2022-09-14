@@ -1,7 +1,7 @@
 
 +++
 title='House-Flood-Water-Circle-Arrow-Right font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'House-Flood-Water-Circle-Arrow-Right font awesome icon CSS class is fa-house-flood-water-circle-arrow-right & CSS Content Code is  \e50f'
+summary = 'House-Flood-Water-Circle-Arrow-Right font awesome icon CSS class is fa-house-flood-water-circle-arrow-right & CSS Content Code is e50f'
 keywords =['House-Flood-Water-Circle-Arrow-Right, \e50f,fa-house-flood-water-circle-arrow-right']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Stairs font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Stairs font awesome icon CSS class is fa-stairs & CSS Content Code is  \e289'
+summary = 'Stairs font awesome icon CSS class is fa-stairs & CSS Content Code is e289'
 keywords =['Stairs, \e289,fa-stairs']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

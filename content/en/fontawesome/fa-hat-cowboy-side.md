@@ -1,7 +1,7 @@
 
 +++
 title='Hat-Cowboy-Side font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hat-Cowboy-Side font awesome icon CSS class is fa-hat-cowboy-side & CSS Content Code is  \f8c1'
+summary = 'Hat-Cowboy-Side font awesome icon CSS class is fa-hat-cowboy-side & CSS Content Code is f8c1'
 keywords =['Hat-Cowboy-Side, \f8c1,fa-hat-cowboy-side']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

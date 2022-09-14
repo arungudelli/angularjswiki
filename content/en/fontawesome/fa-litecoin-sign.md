@@ -1,7 +1,7 @@
 
 +++
 title='Litecoin-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Litecoin-Sign font awesome icon CSS class is fa-litecoin-sign & CSS Content Code is  \e1d3'
+summary = 'Litecoin-Sign font awesome icon CSS class is fa-litecoin-sign & CSS Content Code is e1d3'
 keywords =['Litecoin-Sign, \e1d3,fa-litecoin-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

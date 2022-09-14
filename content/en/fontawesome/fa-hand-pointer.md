@@ -1,7 +1,7 @@
 
 +++
 title='Hand-Pointer font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hand-Pointer font awesome icon CSS class is fa-hand-pointer & CSS Content Code is  \f25a'
+summary = 'Hand-Pointer font awesome icon CSS class is fa-hand-pointer & CSS Content Code is f25a'
 keywords =['Hand-Pointer, \f25a,fa-hand-pointer']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

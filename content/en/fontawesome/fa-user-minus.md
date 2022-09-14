@@ -1,7 +1,7 @@
 
 +++
 title='User-Minus font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'User-Minus font awesome icon CSS class is fa-user-minus & CSS Content Code is  \f503'
+summary = 'User-Minus font awesome icon CSS class is fa-user-minus & CSS Content Code is f503'
 keywords =['User-Minus, \f503,fa-user-minus']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

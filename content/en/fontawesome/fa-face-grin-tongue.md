@@ -1,7 +1,7 @@
 
 +++
 title='Face-Grin-Tongue font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Face-Grin-Tongue font awesome icon CSS class is fa-face-grin-tongue & CSS Content Code is  \f589'
+summary = 'Face-Grin-Tongue font awesome icon CSS class is fa-face-grin-tongue & CSS Content Code is f589'
 keywords =['Face-Grin-Tongue, \f589,fa-face-grin-tongue']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

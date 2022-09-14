@@ -1,7 +1,7 @@
 
 +++
 title='Servicestack font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Servicestack font awesome icon CSS class is fa-servicestack & CSS Content Code is  \f3ec'
+summary = 'Servicestack font awesome icon CSS class is fa-servicestack & CSS Content Code is f3ec'
 keywords =['Servicestack, \f3ec,fa-servicestack']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Facebook font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Facebook font awesome icon CSS class is fa-facebook & CSS Content Code is  \f09a'
+summary = 'Facebook font awesome icon CSS class is fa-facebook & CSS Content Code is f09a'
 keywords =['Facebook, \f09a,fa-facebook']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

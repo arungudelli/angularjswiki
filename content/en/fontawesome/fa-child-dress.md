@@ -1,7 +1,7 @@
 
 +++
 title='Child-Dress font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Child-Dress font awesome icon CSS class is fa-child-dress & CSS Content Code is  \e59c'
+summary = 'Child-Dress font awesome icon CSS class is fa-child-dress & CSS Content Code is e59c'
 keywords =['Child-Dress, \e59c,fa-child-dress']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

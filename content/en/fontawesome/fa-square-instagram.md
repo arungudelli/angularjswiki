@@ -1,7 +1,7 @@
 
 +++
 title='Square-Instagram font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Instagram font awesome icon CSS class is fa-square-instagram & CSS Content Code is  \e055'
+summary = 'Square-Instagram font awesome icon CSS class is fa-square-instagram & CSS Content Code is e055'
 keywords =['Square-Instagram, \e055,fa-square-instagram']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

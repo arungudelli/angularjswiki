@@ -1,7 +1,7 @@
 
 +++
 title='Ellipsis-Vertical font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ellipsis-Vertical font awesome icon CSS class is fa-ellipsis-vertical & CSS Content Code is  \f142'
+summary = 'Ellipsis-Vertical font awesome icon CSS class is fa-ellipsis-vertical & CSS Content Code is f142'
 keywords =['Ellipsis-Vertical, \f142,fa-ellipsis-vertical']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

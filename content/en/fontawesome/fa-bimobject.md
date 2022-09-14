@@ -1,7 +1,7 @@
 
 +++
 title='Bimobject font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bimobject font awesome icon CSS class is fa-bimobject & CSS Content Code is  \f378'
+summary = 'Bimobject font awesome icon CSS class is fa-bimobject & CSS Content Code is f378'
 keywords =['Bimobject, \f378,fa-bimobject']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Street-View font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Street-View font awesome icon CSS class is fa-street-view & CSS Content Code is  \f21d'
+summary = 'Street-View font awesome icon CSS class is fa-street-view & CSS Content Code is f21d'
 keywords =['Street-View, \f21d,fa-street-view']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

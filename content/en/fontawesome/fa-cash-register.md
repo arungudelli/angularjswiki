@@ -1,7 +1,7 @@
 
 +++
 title='Cash-Register font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cash-Register font awesome icon CSS class is fa-cash-register & CSS Content Code is  \f788'
+summary = 'Cash-Register font awesome icon CSS class is fa-cash-register & CSS Content Code is f788'
 keywords =['Cash-Register, \f788,fa-cash-register']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

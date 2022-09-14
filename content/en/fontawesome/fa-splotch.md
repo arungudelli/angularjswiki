@@ -1,7 +1,7 @@
 
 +++
 title='Splotch font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Splotch font awesome icon CSS class is fa-splotch & CSS Content Code is  \f5bc'
+summary = 'Splotch font awesome icon CSS class is fa-splotch & CSS Content Code is f5bc'
 keywords =['Splotch, \f5bc,fa-splotch']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Poo font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Poo font awesome icon CSS class is fa-poo & CSS Content Code is  \f2fe'
+summary = 'Poo font awesome icon CSS class is fa-poo & CSS Content Code is f2fe'
 keywords =['Poo, \f2fe,fa-poo']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

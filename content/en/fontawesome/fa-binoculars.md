@@ -1,7 +1,7 @@
 
 +++
 title='Binoculars font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Binoculars font awesome icon CSS class is fa-binoculars & CSS Content Code is  \f1e5'
+summary = 'Binoculars font awesome icon CSS class is fa-binoculars & CSS Content Code is f1e5'
 keywords =['Binoculars, \f1e5,fa-binoculars']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

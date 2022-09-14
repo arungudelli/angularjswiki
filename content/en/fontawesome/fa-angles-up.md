@@ -1,7 +1,7 @@
 
 +++
 title='Angles-Up font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Angles-Up font awesome icon CSS class is fa-angles-up & CSS Content Code is  \f102'
+summary = 'Angles-Up font awesome icon CSS class is fa-angles-up & CSS Content Code is f102'
 keywords =['Angles-Up, \f102,fa-angles-up']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

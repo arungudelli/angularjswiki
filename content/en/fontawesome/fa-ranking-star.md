@@ -1,7 +1,7 @@
 
 +++
 title='Ranking-Star font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ranking-Star font awesome icon CSS class is fa-ranking-star & CSS Content Code is  \e561'
+summary = 'Ranking-Star font awesome icon CSS class is fa-ranking-star & CSS Content Code is e561'
 keywords =['Ranking-Star, \e561,fa-ranking-star']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

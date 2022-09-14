@@ -1,7 +1,7 @@
 
 +++
 title='Forward font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Forward font awesome icon CSS class is fa-forward & CSS Content Code is  \f04e'
+summary = 'Forward font awesome icon CSS class is fa-forward & CSS Content Code is f04e'
 keywords =['Forward, \f04e,fa-forward']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Google-Wallet font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Google-Wallet font awesome icon CSS class is fa-google-wallet & CSS Content Code is  \f1ee'
+summary = 'Google-Wallet font awesome icon CSS class is fa-google-wallet & CSS Content Code is f1ee'
 keywords =['Google-Wallet, \f1ee,fa-google-wallet']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

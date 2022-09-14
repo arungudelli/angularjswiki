@@ -1,7 +1,7 @@
 
 +++
 title='Fedex font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Fedex font awesome icon CSS class is fa-fedex & CSS Content Code is  \f797'
+summary = 'Fedex font awesome icon CSS class is fa-fedex & CSS Content Code is f797'
 keywords =['Fedex, \f797,fa-fedex']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

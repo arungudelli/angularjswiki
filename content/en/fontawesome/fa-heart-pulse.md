@@ -1,7 +1,7 @@
 
 +++
 title='Heart-Pulse font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Heart-Pulse font awesome icon CSS class is fa-heart-pulse & CSS Content Code is  \f21e'
+summary = 'Heart-Pulse font awesome icon CSS class is fa-heart-pulse & CSS Content Code is f21e'
 keywords =['Heart-Pulse, \f21e,fa-heart-pulse']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

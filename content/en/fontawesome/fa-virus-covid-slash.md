@@ -1,7 +1,7 @@
 
 +++
 title='Virus-Covid-Slash font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Virus-Covid-Slash font awesome icon CSS class is fa-virus-covid-slash & CSS Content Code is  \e4a9'
+summary = 'Virus-Covid-Slash font awesome icon CSS class is fa-virus-covid-slash & CSS Content Code is e4a9'
 keywords =['Virus-Covid-Slash, \e4a9,fa-virus-covid-slash']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

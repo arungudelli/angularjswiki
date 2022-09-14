@@ -1,7 +1,7 @@
 
 +++
 title='Css3 font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Css3 font awesome icon CSS class is fa-css3 & CSS Content Code is  \f13c'
+summary = 'Css3 font awesome icon CSS class is fa-css3 & CSS Content Code is f13c'
 keywords =['Css3, \f13c,fa-css3']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

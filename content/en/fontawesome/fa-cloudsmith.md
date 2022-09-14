@@ -1,7 +1,7 @@
 
 +++
 title='Cloudsmith font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cloudsmith font awesome icon CSS class is fa-cloudsmith & CSS Content Code is  \f384'
+summary = 'Cloudsmith font awesome icon CSS class is fa-cloudsmith & CSS Content Code is f384'
 keywords =['Cloudsmith, \f384,fa-cloudsmith']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

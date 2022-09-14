@@ -1,7 +1,7 @@
 
 +++
 title='Satellite font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Satellite font awesome icon CSS class is fa-satellite & CSS Content Code is  \f7bf'
+summary = 'Satellite font awesome icon CSS class is fa-satellite & CSS Content Code is f7bf'
 keywords =['Satellite, \f7bf,fa-satellite']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

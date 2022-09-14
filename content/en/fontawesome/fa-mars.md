@@ -1,7 +1,7 @@
 
 +++
 title='Mars font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mars font awesome icon CSS class is fa-mars & CSS Content Code is  \f222'
+summary = 'Mars font awesome icon CSS class is fa-mars & CSS Content Code is f222'
 keywords =['Mars, \f222,fa-mars']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

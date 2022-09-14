@@ -1,7 +1,7 @@
 
 +++
 title='School-Lock font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'School-Lock font awesome icon CSS class is fa-school-lock & CSS Content Code is  \e56f'
+summary = 'School-Lock font awesome icon CSS class is fa-school-lock & CSS Content Code is e56f'
 keywords =['School-Lock, \e56f,fa-school-lock']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

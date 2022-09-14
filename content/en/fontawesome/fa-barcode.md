@@ -1,7 +1,7 @@
 
 +++
 title='Barcode font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Barcode font awesome icon CSS class is fa-barcode & CSS Content Code is  \f02a'
+summary = 'Barcode font awesome icon CSS class is fa-barcode & CSS Content Code is f02a'
 keywords =['Barcode, \f02a,fa-barcode']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

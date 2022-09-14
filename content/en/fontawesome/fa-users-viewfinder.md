@@ -1,7 +1,7 @@
 
 +++
 title='Users-Viewfinder font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Users-Viewfinder font awesome icon CSS class is fa-users-viewfinder & CSS Content Code is  \e595'
+summary = 'Users-Viewfinder font awesome icon CSS class is fa-users-viewfinder & CSS Content Code is e595'
 keywords =['Users-Viewfinder, \e595,fa-users-viewfinder']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

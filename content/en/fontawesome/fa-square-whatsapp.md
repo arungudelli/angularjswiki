@@ -1,7 +1,7 @@
 
 +++
 title='Square-Whatsapp font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Whatsapp font awesome icon CSS class is fa-square-whatsapp & CSS Content Code is  \f40c'
+summary = 'Square-Whatsapp font awesome icon CSS class is fa-square-whatsapp & CSS Content Code is f40c'
 keywords =['Square-Whatsapp, \f40c,fa-square-whatsapp']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

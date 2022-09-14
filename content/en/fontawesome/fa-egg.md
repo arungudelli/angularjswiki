@@ -1,7 +1,7 @@
 
 +++
 title='Egg font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Egg font awesome icon CSS class is fa-egg & CSS Content Code is  \f7fb'
+summary = 'Egg font awesome icon CSS class is fa-egg & CSS Content Code is f7fb'
 keywords =['Egg, \f7fb,fa-egg']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

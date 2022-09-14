@@ -1,7 +1,7 @@
 
 +++
 title='Earlybirds font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Earlybirds font awesome icon CSS class is fa-earlybirds & CSS Content Code is  \f39a'
+summary = 'Earlybirds font awesome icon CSS class is fa-earlybirds & CSS Content Code is f39a'
 keywords =['Earlybirds, \f39a,fa-earlybirds']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

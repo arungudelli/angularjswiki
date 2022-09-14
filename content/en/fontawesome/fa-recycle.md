@@ -1,7 +1,7 @@
 
 +++
 title='Recycle font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Recycle font awesome icon CSS class is fa-recycle & CSS Content Code is  \f1b8'
+summary = 'Recycle font awesome icon CSS class is fa-recycle & CSS Content Code is f1b8'
 keywords =['Recycle, \f1b8,fa-recycle']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

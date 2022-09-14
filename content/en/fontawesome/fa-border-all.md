@@ -1,7 +1,7 @@
 
 +++
 title='Border-All font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Border-All font awesome icon CSS class is fa-border-all & CSS Content Code is  \f84c'
+summary = 'Border-All font awesome icon CSS class is fa-border-all & CSS Content Code is f84c'
 keywords =['Border-All, \f84c,fa-border-all']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

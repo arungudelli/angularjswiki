@@ -1,7 +1,7 @@
 
 +++
 title='Hill-Rockslide font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hill-Rockslide font awesome icon CSS class is fa-hill-rockslide & CSS Content Code is  \e508'
+summary = 'Hill-Rockslide font awesome icon CSS class is fa-hill-rockslide & CSS Content Code is e508'
 keywords =['Hill-Rockslide, \e508,fa-hill-rockslide']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

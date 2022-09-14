@@ -1,7 +1,7 @@
 
 +++
 title='Drumstick-Bite font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Drumstick-Bite font awesome icon CSS class is fa-drumstick-bite & CSS Content Code is  \f6d7'
+summary = 'Drumstick-Bite font awesome icon CSS class is fa-drumstick-bite & CSS Content Code is f6d7'
 keywords =['Drumstick-Bite, \f6d7,fa-drumstick-bite']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

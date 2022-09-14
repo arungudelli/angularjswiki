@@ -1,7 +1,7 @@
 
 +++
 title='Bucket font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bucket font awesome icon CSS class is fa-bucket & CSS Content Code is  \e4cf'
+summary = 'Bucket font awesome icon CSS class is fa-bucket & CSS Content Code is e4cf'
 keywords =['Bucket, \e4cf,fa-bucket']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

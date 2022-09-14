@@ -1,7 +1,7 @@
 
 +++
 title='Arrows-To-Eye font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Arrows-To-Eye font awesome icon CSS class is fa-arrows-to-eye & CSS Content Code is  \e4bf'
+summary = 'Arrows-To-Eye font awesome icon CSS class is fa-arrows-to-eye & CSS Content Code is e4bf'
 keywords =['Arrows-To-Eye, \e4bf,fa-arrows-to-eye']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Down-Long font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Down-Long font awesome icon CSS class is fa-down-long & CSS Content Code is  \f309'
+summary = 'Down-Long font awesome icon CSS class is fa-down-long & CSS Content Code is f309'
 keywords =['Down-Long, \f309,fa-down-long']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

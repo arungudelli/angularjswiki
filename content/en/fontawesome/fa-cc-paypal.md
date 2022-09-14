@@ -1,7 +1,7 @@
 
 +++
 title='Cc-Paypal font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cc-Paypal font awesome icon CSS class is fa-cc-paypal & CSS Content Code is  \f1f4'
+summary = 'Cc-Paypal font awesome icon CSS class is fa-cc-paypal & CSS Content Code is f1f4'
 keywords =['Cc-Paypal, \f1f4,fa-cc-paypal']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

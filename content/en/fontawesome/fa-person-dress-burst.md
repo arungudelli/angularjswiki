@@ -1,7 +1,7 @@
 
 +++
 title='Person-Dress-Burst font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Dress-Burst font awesome icon CSS class is fa-person-dress-burst & CSS Content Code is  \e544'
+summary = 'Person-Dress-Burst font awesome icon CSS class is fa-person-dress-burst & CSS Content Code is e544'
 keywords =['Person-Dress-Burst, \e544,fa-person-dress-burst']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

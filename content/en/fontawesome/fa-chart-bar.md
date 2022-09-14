@@ -1,7 +1,7 @@
 
 +++
 title='Chart-Bar font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Chart-Bar font awesome icon CSS class is fa-chart-bar & CSS Content Code is  \f080'
+summary = 'Chart-Bar font awesome icon CSS class is fa-chart-bar & CSS Content Code is f080'
 keywords =['Chart-Bar, \f080,fa-chart-bar']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

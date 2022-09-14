@@ -1,7 +1,7 @@
 
 +++
 title='Timeline font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Timeline font awesome icon CSS class is fa-timeline & CSS Content Code is  \e29c'
+summary = 'Timeline font awesome icon CSS class is fa-timeline & CSS Content Code is e29c'
 keywords =['Timeline, \e29c,fa-timeline']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

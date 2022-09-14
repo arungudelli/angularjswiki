@@ -1,7 +1,7 @@
 
 +++
 title='Unity font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Unity font awesome icon CSS class is fa-unity & CSS Content Code is  \e049'
+summary = 'Unity font awesome icon CSS class is fa-unity & CSS Content Code is e049'
 keywords =['Unity, \e049,fa-unity']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

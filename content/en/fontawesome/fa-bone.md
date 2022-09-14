@@ -1,7 +1,7 @@
 
 +++
 title='Bone font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bone font awesome icon CSS class is fa-bone & CSS Content Code is  \f5d7'
+summary = 'Bone font awesome icon CSS class is fa-bone & CSS Content Code is f5d7'
 keywords =['Bone, \f5d7,fa-bone']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

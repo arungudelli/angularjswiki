@@ -1,7 +1,7 @@
 
 +++
 title='Outdent font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Outdent font awesome icon CSS class is fa-outdent & CSS Content Code is  \f03b'
+summary = 'Outdent font awesome icon CSS class is fa-outdent & CSS Content Code is f03b'
 keywords =['Outdent, \f03b,fa-outdent']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

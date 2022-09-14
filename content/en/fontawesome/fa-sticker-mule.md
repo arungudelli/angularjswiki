@@ -1,7 +1,7 @@
 
 +++
 title='Sticker-Mule font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Sticker-Mule font awesome icon CSS class is fa-sticker-mule & CSS Content Code is  \f3f7'
+summary = 'Sticker-Mule font awesome icon CSS class is fa-sticker-mule & CSS Content Code is f3f7'
 keywords =['Sticker-Mule, \f3f7,fa-sticker-mule']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

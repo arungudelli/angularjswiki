@@ -1,7 +1,7 @@
 
 +++
 title='Truck-Field-Un font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Truck-Field-Un font awesome icon CSS class is fa-truck-field-un & CSS Content Code is  \e58e'
+summary = 'Truck-Field-Un font awesome icon CSS class is fa-truck-field-un & CSS Content Code is e58e'
 keywords =['Truck-Field-Un, \e58e,fa-truck-field-un']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

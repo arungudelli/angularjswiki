@@ -1,7 +1,7 @@
 
 +++
 title='Speakap font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Speakap font awesome icon CSS class is fa-speakap & CSS Content Code is  \f3f3'
+summary = 'Speakap font awesome icon CSS class is fa-speakap & CSS Content Code is f3f3'
 keywords =['Speakap, \f3f3,fa-speakap']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

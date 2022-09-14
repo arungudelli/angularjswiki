@@ -1,7 +1,7 @@
 
 +++
 title='Square-Parking font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Parking font awesome icon CSS class is fa-square-parking & CSS Content Code is  \f540'
+summary = 'Square-Parking font awesome icon CSS class is fa-square-parking & CSS Content Code is f540'
 keywords =['Square-Parking, \f540,fa-square-parking']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

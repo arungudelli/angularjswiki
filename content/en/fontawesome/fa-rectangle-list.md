@@ -1,7 +1,7 @@
 
 +++
 title='Rectangle-List font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Rectangle-List font awesome icon CSS class is fa-rectangle-list & CSS Content Code is  \f022'
+summary = 'Rectangle-List font awesome icon CSS class is fa-rectangle-list & CSS Content Code is f022'
 keywords =['Rectangle-List, \f022,fa-rectangle-list']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

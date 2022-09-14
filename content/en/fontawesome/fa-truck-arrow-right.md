@@ -1,7 +1,7 @@
 
 +++
 title='Truck-Arrow-Right font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Truck-Arrow-Right font awesome icon CSS class is fa-truck-arrow-right & CSS Content Code is  \e58b'
+summary = 'Truck-Arrow-Right font awesome icon CSS class is fa-truck-arrow-right & CSS Content Code is e58b'
 keywords =['Truck-Arrow-Right, \e58b,fa-truck-arrow-right']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

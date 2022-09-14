@@ -1,7 +1,7 @@
 
 +++
 title='Table-List font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Table-List font awesome icon CSS class is fa-table-list & CSS Content Code is  \f00b'
+summary = 'Table-List font awesome icon CSS class is fa-table-list & CSS Content Code is f00b'
 keywords =['Table-List, \f00b,fa-table-list']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

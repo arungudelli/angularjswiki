@@ -1,7 +1,7 @@
 
 +++
 title='Earth-Oceania font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Earth-Oceania font awesome icon CSS class is fa-earth-oceania & CSS Content Code is  \e47b'
+summary = 'Earth-Oceania font awesome icon CSS class is fa-earth-oceania & CSS Content Code is e47b'
 keywords =['Earth-Oceania, \e47b,fa-earth-oceania']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

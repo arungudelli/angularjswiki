@@ -1,7 +1,7 @@
 
 +++
 title='Square-Envelope font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Envelope font awesome icon CSS class is fa-square-envelope & CSS Content Code is  \f199'
+summary = 'Square-Envelope font awesome icon CSS class is fa-square-envelope & CSS Content Code is f199'
 keywords =['Square-Envelope, \f199,fa-square-envelope']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

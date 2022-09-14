@@ -1,7 +1,7 @@
 
 +++
 title='Optin-Monster font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Optin-Monster font awesome icon CSS class is fa-optin-monster & CSS Content Code is  \f23c'
+summary = 'Optin-Monster font awesome icon CSS class is fa-optin-monster & CSS Content Code is f23c'
 keywords =['Optin-Monster, \f23c,fa-optin-monster']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

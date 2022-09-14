@@ -1,7 +1,7 @@
 
 +++
 title='Face-Meh-Blank font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Face-Meh-Blank font awesome icon CSS class is fa-face-meh-blank & CSS Content Code is  \f5a4'
+summary = 'Face-Meh-Blank font awesome icon CSS class is fa-face-meh-blank & CSS Content Code is f5a4'
 keywords =['Face-Meh-Blank, \f5a4,fa-face-meh-blank']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

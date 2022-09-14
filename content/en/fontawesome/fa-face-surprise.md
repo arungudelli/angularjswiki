@@ -1,7 +1,7 @@
 
 +++
 title='Face-Surprise font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Face-Surprise font awesome icon CSS class is fa-face-surprise & CSS Content Code is  \f5c2'
+summary = 'Face-Surprise font awesome icon CSS class is fa-face-surprise & CSS Content Code is f5c2'
 keywords =['Face-Surprise, \f5c2,fa-face-surprise']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

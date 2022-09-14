@@ -1,7 +1,7 @@
 
 +++
 title='File-Excel font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'File-Excel font awesome icon CSS class is fa-file-excel & CSS Content Code is  \f1c3'
+summary = 'File-Excel font awesome icon CSS class is fa-file-excel & CSS Content Code is f1c3'
 keywords =['File-Excel, \f1c3,fa-file-excel']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

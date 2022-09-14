@@ -1,7 +1,7 @@
 
 +++
 title='Money-Bill font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Money-Bill font awesome icon CSS class is fa-money-bill & CSS Content Code is  \f0d6'
+summary = 'Money-Bill font awesome icon CSS class is fa-money-bill & CSS Content Code is f0d6'
 keywords =['Money-Bill, \f0d6,fa-money-bill']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

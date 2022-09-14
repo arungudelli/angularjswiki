@@ -1,7 +1,7 @@
 
 +++
 title='Hourglass font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hourglass font awesome icon CSS class is fa-hourglass & CSS Content Code is  \f254'
+summary = 'Hourglass font awesome icon CSS class is fa-hourglass & CSS Content Code is f254'
 keywords =['Hourglass, \f254,fa-hourglass']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

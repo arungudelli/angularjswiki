@@ -1,7 +1,7 @@
 
 +++
 title='Canadian-Maple-Leaf font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Canadian-Maple-Leaf font awesome icon CSS class is fa-canadian-maple-leaf & CSS Content Code is  \f785'
+summary = 'Canadian-Maple-Leaf font awesome icon CSS class is fa-canadian-maple-leaf & CSS Content Code is f785'
 keywords =['Canadian-Maple-Leaf, \f785,fa-canadian-maple-leaf']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Voicemail font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Voicemail font awesome icon CSS class is fa-voicemail & CSS Content Code is  \f897'
+summary = 'Voicemail font awesome icon CSS class is fa-voicemail & CSS Content Code is f897'
 keywords =['Voicemail, \f897,fa-voicemail']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

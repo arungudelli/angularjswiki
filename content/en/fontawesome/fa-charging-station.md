@@ -1,7 +1,7 @@
 
 +++
 title='Charging-Station font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Charging-Station font awesome icon CSS class is fa-charging-station & CSS Content Code is  \f5e7'
+summary = 'Charging-Station font awesome icon CSS class is fa-charging-station & CSS Content Code is f5e7'
 keywords =['Charging-Station, \f5e7,fa-charging-station']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

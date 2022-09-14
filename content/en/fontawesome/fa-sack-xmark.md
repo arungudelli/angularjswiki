@@ -1,7 +1,7 @@
 
 +++
 title='Sack-Xmark font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Sack-Xmark font awesome icon CSS class is fa-sack-xmark & CSS Content Code is  \e56a'
+summary = 'Sack-Xmark font awesome icon CSS class is fa-sack-xmark & CSS Content Code is e56a'
 keywords =['Sack-Xmark, \e56a,fa-sack-xmark']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

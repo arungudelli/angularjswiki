@@ -1,7 +1,7 @@
 
 +++
 title='Pen-Nib font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Pen-Nib font awesome icon CSS class is fa-pen-nib & CSS Content Code is  \f5ad'
+summary = 'Pen-Nib font awesome icon CSS class is fa-pen-nib & CSS Content Code is f5ad'
 keywords =['Pen-Nib, \f5ad,fa-pen-nib']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

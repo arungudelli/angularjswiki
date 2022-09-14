@@ -1,7 +1,7 @@
 
 +++
 title='Rockrms font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Rockrms font awesome icon CSS class is fa-rockrms & CSS Content Code is  \f3e9'
+summary = 'Rockrms font awesome icon CSS class is fa-rockrms & CSS Content Code is f3e9'
 keywords =['Rockrms, \f3e9,fa-rockrms']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'
