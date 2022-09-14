@@ -1,7 +1,7 @@
 
 +++
 title='0 Number font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = '0 Number font awesome icon CSS class is fa-0 & CSS Content Code is  \30'
+summary = '0 Number font awesome icon CSS class is fa-0 & CSS Content Code is 30'
 keywords =['0 Number, \30,fa-0']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

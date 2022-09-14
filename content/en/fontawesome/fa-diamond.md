@@ -1,7 +1,7 @@
 
 +++
 title='Diamond font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Diamond font awesome icon CSS class is fa-diamond & CSS Content Code is  \f219'
+summary = 'Diamond font awesome icon CSS class is fa-diamond & CSS Content Code is f219'
 keywords =['Diamond, \f219,fa-diamond']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

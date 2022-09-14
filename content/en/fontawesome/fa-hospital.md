@@ -1,7 +1,7 @@
 
 +++
 title='Hospital font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hospital font awesome icon CSS class is fa-hospital & CSS Content Code is  \f0f8'
+summary = 'Hospital font awesome icon CSS class is fa-hospital & CSS Content Code is f0f8'
 keywords =['Hospital, \f0f8,fa-hospital']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

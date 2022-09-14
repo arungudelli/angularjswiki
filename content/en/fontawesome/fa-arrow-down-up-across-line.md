@@ -1,7 +1,7 @@
 
 +++
 title='Arrow-Down-Up-Across-Line font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Arrow-Down-Up-Across-Line font awesome icon CSS class is fa-arrow-down-up-across-line & CSS Content Code is  \e4af'
+summary = 'Arrow-Down-Up-Across-Line font awesome icon CSS class is fa-arrow-down-up-across-line & CSS Content Code is e4af'
 keywords =['Arrow-Down-Up-Across-Line, \e4af,fa-arrow-down-up-across-line']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Bong font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bong font awesome icon CSS class is fa-bong & CSS Content Code is  \f55c'
+summary = 'Bong font awesome icon CSS class is fa-bong & CSS Content Code is f55c'
 keywords =['Bong, \f55c,fa-bong']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

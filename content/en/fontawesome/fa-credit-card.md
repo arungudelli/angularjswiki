@@ -1,7 +1,7 @@
 
 +++
 title='Credit-Card font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Credit-Card font awesome icon CSS class is fa-credit-card & CSS Content Code is  \f09d'
+summary = 'Credit-Card font awesome icon CSS class is fa-credit-card & CSS Content Code is f09d'
 keywords =['Credit-Card, \f09d,fa-credit-card']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

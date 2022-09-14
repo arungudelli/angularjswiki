@@ -1,7 +1,7 @@
 
 +++
 title='Pinterest font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Pinterest font awesome icon CSS class is fa-pinterest & CSS Content Code is  \f0d2'
+summary = 'Pinterest font awesome icon CSS class is fa-pinterest & CSS Content Code is f0d2'
 keywords =['Pinterest, \f0d2,fa-pinterest']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

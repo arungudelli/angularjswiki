@@ -1,7 +1,7 @@
 
 +++
 title='Brush font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Brush font awesome icon CSS class is fa-brush & CSS Content Code is  \f55d'
+summary = 'Brush font awesome icon CSS class is fa-brush & CSS Content Code is f55d'
 keywords =['Brush, \f55d,fa-brush']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

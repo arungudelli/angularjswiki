@@ -1,7 +1,7 @@
 
 +++
 title='Lira-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Lira-Sign font awesome icon CSS class is fa-lira-sign & CSS Content Code is  \f195'
+summary = 'Lira-Sign font awesome icon CSS class is fa-lira-sign & CSS Content Code is f195'
 keywords =['Lira-Sign, \f195,fa-lira-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

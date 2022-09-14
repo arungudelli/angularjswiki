@@ -1,7 +1,7 @@
 
 +++
 title='Reply-All font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Reply-All font awesome icon CSS class is fa-reply-all & CSS Content Code is  \f122'
+summary = 'Reply-All font awesome icon CSS class is fa-reply-all & CSS Content Code is f122'
 keywords =['Reply-All, \f122,fa-reply-all']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Arrow-Down-Up-Lock font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Arrow-Down-Up-Lock font awesome icon CSS class is fa-arrow-down-up-lock & CSS Content Code is  \e4b0'
+summary = 'Arrow-Down-Up-Lock font awesome icon CSS class is fa-arrow-down-up-lock & CSS Content Code is e4b0'
 keywords =['Arrow-Down-Up-Lock, \e4b0,fa-arrow-down-up-lock']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Google-Plus font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Google-Plus font awesome icon CSS class is fa-google-plus & CSS Content Code is  \f2b3'
+summary = 'Google-Plus font awesome icon CSS class is fa-google-plus & CSS Content Code is f2b3'
 keywords =['Google-Plus, \f2b3,fa-google-plus']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

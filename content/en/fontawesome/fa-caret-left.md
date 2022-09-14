@@ -1,7 +1,7 @@
 
 +++
 title='Caret-Left font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Caret-Left font awesome icon CSS class is fa-caret-left & CSS Content Code is  \f0d9'
+summary = 'Caret-Left font awesome icon CSS class is fa-caret-left & CSS Content Code is f0d9'
 keywords =['Caret-Left, \f0d9,fa-caret-left']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

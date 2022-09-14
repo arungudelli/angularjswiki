@@ -1,7 +1,7 @@
 
 +++
 title='Circle-Arrow-Right font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Circle-Arrow-Right font awesome icon CSS class is fa-circle-arrow-right & CSS Content Code is  \f0a9'
+summary = 'Circle-Arrow-Right font awesome icon CSS class is fa-circle-arrow-right & CSS Content Code is f0a9'
 keywords =['Circle-Arrow-Right, \f0a9,fa-circle-arrow-right']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

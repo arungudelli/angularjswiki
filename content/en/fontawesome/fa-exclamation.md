@@ -1,7 +1,7 @@
 
 +++
 title='Exclamation font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Exclamation font awesome icon CSS class is fa-exclamation & CSS Content Code is  \21'
+summary = 'Exclamation font awesome icon CSS class is fa-exclamation & CSS Content Code is 21'
 keywords =['Exclamation, \21,fa-exclamation']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

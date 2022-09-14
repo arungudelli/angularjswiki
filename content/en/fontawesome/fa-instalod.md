@@ -1,7 +1,7 @@
 
 +++
 title='Instalod font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Instalod font awesome icon CSS class is fa-instalod & CSS Content Code is  \e081'
+summary = 'Instalod font awesome icon CSS class is fa-instalod & CSS Content Code is e081'
 keywords =['Instalod, \e081,fa-instalod']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

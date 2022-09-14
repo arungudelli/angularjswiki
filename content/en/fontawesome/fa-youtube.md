@@ -1,7 +1,7 @@
 
 +++
 title='Youtube font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Youtube font awesome icon CSS class is fa-youtube & CSS Content Code is  \f167'
+summary = 'Youtube font awesome icon CSS class is fa-youtube & CSS Content Code is f167'
 keywords =['Youtube, \f167,fa-youtube']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Star-Half font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Star-Half font awesome icon CSS class is fa-star-half & CSS Content Code is  \f089'
+summary = 'Star-Half font awesome icon CSS class is fa-star-half & CSS Content Code is f089'
 keywords =['Star-Half, \f089,fa-star-half']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

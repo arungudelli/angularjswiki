@@ -1,7 +1,7 @@
 
 +++
 title='Strava font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Strava font awesome icon CSS class is fa-strava & CSS Content Code is  \f428'
+summary = 'Strava font awesome icon CSS class is fa-strava & CSS Content Code is f428'
 keywords =['Strava, \f428,fa-strava']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

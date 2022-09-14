@@ -1,7 +1,7 @@
 
 +++
 title='Kip-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Kip-Sign font awesome icon CSS class is fa-kip-sign & CSS Content Code is  \e1c4'
+summary = 'Kip-Sign font awesome icon CSS class is fa-kip-sign & CSS Content Code is e1c4'
 keywords =['Kip-Sign, \e1c4,fa-kip-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

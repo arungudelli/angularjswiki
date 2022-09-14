@@ -1,7 +1,7 @@
 
 +++
 title='Volume-Xmark font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Volume-Xmark font awesome icon CSS class is fa-volume-xmark & CSS Content Code is  \f6a9'
+summary = 'Volume-Xmark font awesome icon CSS class is fa-volume-xmark & CSS Content Code is f6a9'
 keywords =['Volume-Xmark, \f6a9,fa-volume-xmark']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

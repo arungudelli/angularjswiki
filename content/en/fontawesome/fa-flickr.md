@@ -1,7 +1,7 @@
 
 +++
 title='Flickr font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Flickr font awesome icon CSS class is fa-flickr & CSS Content Code is  \f16e'
+summary = 'Flickr font awesome icon CSS class is fa-flickr & CSS Content Code is f16e'
 keywords =['Flickr, \f16e,fa-flickr']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

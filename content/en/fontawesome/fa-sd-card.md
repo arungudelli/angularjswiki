@@ -1,7 +1,7 @@
 
 +++
 title='Sd-Card font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Sd-Card font awesome icon CSS class is fa-sd-card & CSS Content Code is  \f7c2'
+summary = 'Sd-Card font awesome icon CSS class is fa-sd-card & CSS Content Code is f7c2'
 keywords =['Sd-Card, \f7c2,fa-sd-card']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Water-Ladder font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Water-Ladder font awesome icon CSS class is fa-water-ladder & CSS Content Code is  \f5c5'
+summary = 'Water-Ladder font awesome icon CSS class is fa-water-ladder & CSS Content Code is f5c5'
 keywords =['Water-Ladder, \f5c5,fa-water-ladder']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Grip-Vertical font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Grip-Vertical font awesome icon CSS class is fa-grip-vertical & CSS Content Code is  \f58e'
+summary = 'Grip-Vertical font awesome icon CSS class is fa-grip-vertical & CSS Content Code is f58e'
 keywords =['Grip-Vertical, \f58e,fa-grip-vertical']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

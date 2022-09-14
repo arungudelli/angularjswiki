@@ -1,7 +1,7 @@
 
 +++
 title='Arrows-Down-To-Line font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Arrows-Down-To-Line font awesome icon CSS class is fa-arrows-down-to-line & CSS Content Code is  \e4b8'
+summary = 'Arrows-Down-To-Line font awesome icon CSS class is fa-arrows-down-to-line & CSS Content Code is e4b8'
 keywords =['Arrows-Down-To-Line, \e4b8,fa-arrows-down-to-line']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Arrows-Down-To-People font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Arrows-Down-To-People font awesome icon CSS class is fa-arrows-down-to-people & CSS Content Code is  \e4b9'
+summary = 'Arrows-Down-To-People font awesome icon CSS class is fa-arrows-down-to-people & CSS Content Code is e4b9'
 keywords =['Arrows-Down-To-People, \e4b9,fa-arrows-down-to-people']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Stripe-S font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Stripe-S font awesome icon CSS class is fa-stripe-s & CSS Content Code is  \f42a'
+summary = 'Stripe-S font awesome icon CSS class is fa-stripe-s & CSS Content Code is f42a'
 keywords =['Stripe-S, \f42a,fa-stripe-s']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

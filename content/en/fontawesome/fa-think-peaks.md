@@ -1,7 +1,7 @@
 
 +++
 title='Think-Peaks font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Think-Peaks font awesome icon CSS class is fa-think-peaks & CSS Content Code is  \f731'
+summary = 'Think-Peaks font awesome icon CSS class is fa-think-peaks & CSS Content Code is f731'
 keywords =['Think-Peaks, \f731,fa-think-peaks']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='React font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'React font awesome icon CSS class is fa-react & CSS Content Code is  \f41b'
+summary = 'React font awesome icon CSS class is fa-react & CSS Content Code is f41b'
 keywords =['React, \f41b,fa-react']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

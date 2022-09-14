@@ -1,7 +1,7 @@
 
 +++
 title='Sliders font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Sliders font awesome icon CSS class is fa-sliders & CSS Content Code is  \f1de'
+summary = 'Sliders font awesome icon CSS class is fa-sliders & CSS Content Code is f1de'
 keywords =['Sliders, \f1de,fa-sliders']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

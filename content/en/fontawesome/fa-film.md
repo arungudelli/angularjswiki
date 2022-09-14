@@ -1,7 +1,7 @@
 
 +++
 title='Film font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Film font awesome icon CSS class is fa-film & CSS Content Code is  \f008'
+summary = 'Film font awesome icon CSS class is fa-film & CSS Content Code is f008'
 keywords =['Film, \f008,fa-film']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

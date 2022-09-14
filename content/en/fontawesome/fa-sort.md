@@ -1,7 +1,7 @@
 
 +++
 title='Sort font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Sort font awesome icon CSS class is fa-sort & CSS Content Code is  \f0dc'
+summary = 'Sort font awesome icon CSS class is fa-sort & CSS Content Code is f0dc'
 keywords =['Sort, \f0dc,fa-sort']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

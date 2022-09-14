@@ -1,7 +1,7 @@
 
 +++
 title='Square-Root-Variable font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Root-Variable font awesome icon CSS class is fa-square-root-variable & CSS Content Code is  \f698'
+summary = 'Square-Root-Variable font awesome icon CSS class is fa-square-root-variable & CSS Content Code is f698'
 keywords =['Square-Root-Variable, \f698,fa-square-root-variable']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

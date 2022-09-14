@@ -1,7 +1,7 @@
 
 +++
 title='Oil-Can font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Oil-Can font awesome icon CSS class is fa-oil-can & CSS Content Code is  \f613'
+summary = 'Oil-Can font awesome icon CSS class is fa-oil-can & CSS Content Code is f613'
 keywords =['Oil-Can, \f613,fa-oil-can']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

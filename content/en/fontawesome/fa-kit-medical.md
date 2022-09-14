@@ -1,7 +1,7 @@
 
 +++
 title='Kit-Medical font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Kit-Medical font awesome icon CSS class is fa-kit-medical & CSS Content Code is  \f479'
+summary = 'Kit-Medical font awesome icon CSS class is fa-kit-medical & CSS Content Code is f479'
 keywords =['Kit-Medical, \f479,fa-kit-medical']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

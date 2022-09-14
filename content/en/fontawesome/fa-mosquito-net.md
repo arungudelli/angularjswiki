@@ -1,7 +1,7 @@
 
 +++
 title='Mosquito-Net font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mosquito-Net font awesome icon CSS class is fa-mosquito-net & CSS Content Code is  \e52c'
+summary = 'Mosquito-Net font awesome icon CSS class is fa-mosquito-net & CSS Content Code is e52c'
 keywords =['Mosquito-Net, \e52c,fa-mosquito-net']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

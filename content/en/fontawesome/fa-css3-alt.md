@@ -1,7 +1,7 @@
 
 +++
 title='Css3-Alt font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Css3-Alt font awesome icon CSS class is fa-css3-alt & CSS Content Code is  \f38b'
+summary = 'Css3-Alt font awesome icon CSS class is fa-css3-alt & CSS Content Code is f38b'
 keywords =['Css3-Alt, \f38b,fa-css3-alt']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

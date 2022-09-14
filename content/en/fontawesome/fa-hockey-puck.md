@@ -1,7 +1,7 @@
 
 +++
 title='Hockey-Puck font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hockey-Puck font awesome icon CSS class is fa-hockey-puck & CSS Content Code is  \f453'
+summary = 'Hockey-Puck font awesome icon CSS class is fa-hockey-puck & CSS Content Code is f453'
 keywords =['Hockey-Puck, \f453,fa-hockey-puck']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

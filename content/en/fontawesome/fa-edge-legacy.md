@@ -1,7 +1,7 @@
 
 +++
 title='Edge-Legacy font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Edge-Legacy font awesome icon CSS class is fa-edge-legacy & CSS Content Code is  \e078'
+summary = 'Edge-Legacy font awesome icon CSS class is fa-edge-legacy & CSS Content Code is e078'
 keywords =['Edge-Legacy, \e078,fa-edge-legacy']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

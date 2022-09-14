@@ -1,7 +1,7 @@
 
 +++
 title='Info font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Info font awesome icon CSS class is fa-info & CSS Content Code is  \f129'
+summary = 'Info font awesome icon CSS class is fa-info & CSS Content Code is f129'
 keywords =['Info, \f129,fa-info']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

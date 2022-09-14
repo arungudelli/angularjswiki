@@ -1,7 +1,7 @@
 
 +++
 title='Golf-Ball-Tee font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Golf-Ball-Tee font awesome icon CSS class is fa-golf-ball-tee & CSS Content Code is  \f450'
+summary = 'Golf-Ball-Tee font awesome icon CSS class is fa-golf-ball-tee & CSS Content Code is f450'
 keywords =['Golf-Ball-Tee, \f450,fa-golf-ball-tee']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

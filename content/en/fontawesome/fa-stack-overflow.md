@@ -1,7 +1,7 @@
 
 +++
 title='Stack-Overflow font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Stack-Overflow font awesome icon CSS class is fa-stack-overflow & CSS Content Code is  \f16c'
+summary = 'Stack-Overflow font awesome icon CSS class is fa-stack-overflow & CSS Content Code is f16c'
 keywords =['Stack-Overflow, \f16c,fa-stack-overflow']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

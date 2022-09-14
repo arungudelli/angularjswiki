@@ -1,7 +1,7 @@
 
 +++
 title='Gem font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Gem font awesome icon CSS class is fa-gem & CSS Content Code is  \f3a5'
+summary = 'Gem font awesome icon CSS class is fa-gem & CSS Content Code is f3a5'
 keywords =['Gem, \f3a5,fa-gem']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

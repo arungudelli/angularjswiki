@@ -1,7 +1,7 @@
 
 +++
 title='Child-Reaching font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Child-Reaching font awesome icon CSS class is fa-child-reaching & CSS Content Code is  \e59d'
+summary = 'Child-Reaching font awesome icon CSS class is fa-child-reaching & CSS Content Code is e59d'
 keywords =['Child-Reaching, \e59d,fa-child-reaching']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Folder-Open font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Folder-Open font awesome icon CSS class is fa-folder-open & CSS Content Code is  \f07c'
+summary = 'Folder-Open font awesome icon CSS class is fa-folder-open & CSS Content Code is f07c'
 keywords =['Folder-Open, \f07c,fa-folder-open']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

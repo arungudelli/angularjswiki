@@ -1,7 +1,7 @@
 
 +++
 title='Volume-High font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Volume-High font awesome icon CSS class is fa-volume-high & CSS Content Code is  \f028'
+summary = 'Volume-High font awesome icon CSS class is fa-volume-high & CSS Content Code is f028'
 keywords =['Volume-High, \f028,fa-volume-high']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

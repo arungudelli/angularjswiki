@@ -1,7 +1,7 @@
 
 +++
 title='Clipboard-Check font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Clipboard-Check font awesome icon CSS class is fa-clipboard-check & CSS Content Code is  \f46c'
+summary = 'Clipboard-Check font awesome icon CSS class is fa-clipboard-check & CSS Content Code is f46c'
 keywords =['Clipboard-Check, \f46c,fa-clipboard-check']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

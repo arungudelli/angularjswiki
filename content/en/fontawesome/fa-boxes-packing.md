@@ -1,7 +1,7 @@
 
 +++
 title='Boxes-Packing font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Boxes-Packing font awesome icon CSS class is fa-boxes-packing & CSS Content Code is  \e4c7'
+summary = 'Boxes-Packing font awesome icon CSS class is fa-boxes-packing & CSS Content Code is e4c7'
 keywords =['Boxes-Packing, \e4c7,fa-boxes-packing']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

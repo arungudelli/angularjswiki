@@ -1,7 +1,7 @@
 
 +++
 title='Artstation font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Artstation font awesome icon CSS class is fa-artstation & CSS Content Code is  \f77a'
+summary = 'Artstation font awesome icon CSS class is fa-artstation & CSS Content Code is f77a'
 keywords =['Artstation, \f77a,fa-artstation']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

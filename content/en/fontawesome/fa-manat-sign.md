@@ -1,7 +1,7 @@
 
 +++
 title='Manat-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Manat-Sign font awesome icon CSS class is fa-manat-sign & CSS Content Code is  \e1d5'
+summary = 'Manat-Sign font awesome icon CSS class is fa-manat-sign & CSS Content Code is e1d5'
 keywords =['Manat-Sign, \e1d5,fa-manat-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

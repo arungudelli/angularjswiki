@@ -1,7 +1,7 @@
 
 +++
 title='Code-Commit font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Code-Commit font awesome icon CSS class is fa-code-commit & CSS Content Code is  \f386'
+summary = 'Code-Commit font awesome icon CSS class is fa-code-commit & CSS Content Code is f386'
 keywords =['Code-Commit, \f386,fa-code-commit']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

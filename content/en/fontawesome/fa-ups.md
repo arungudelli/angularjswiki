@@ -1,7 +1,7 @@
 
 +++
 title='Ups font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ups font awesome icon CSS class is fa-ups & CSS Content Code is  \f7e0'
+summary = 'Ups font awesome icon CSS class is fa-ups & CSS Content Code is f7e0'
 keywords =['Ups, \f7e0,fa-ups']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

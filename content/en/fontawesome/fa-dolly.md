@@ -1,7 +1,7 @@
 
 +++
 title='Dolly font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Dolly font awesome icon CSS class is fa-dolly & CSS Content Code is  \f472'
+summary = 'Dolly font awesome icon CSS class is fa-dolly & CSS Content Code is f472'
 keywords =['Dolly, \f472,fa-dolly']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

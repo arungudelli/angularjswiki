@@ -1,7 +1,7 @@
 
 +++
 title='Yandex font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Yandex font awesome icon CSS class is fa-yandex & CSS Content Code is  \f413'
+summary = 'Yandex font awesome icon CSS class is fa-yandex & CSS Content Code is f413'
 keywords =['Yandex, \f413,fa-yandex']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

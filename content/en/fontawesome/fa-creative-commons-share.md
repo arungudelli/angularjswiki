@@ -1,7 +1,7 @@
 
 +++
 title='Creative-Commons-Share font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Creative-Commons-Share font awesome icon CSS class is fa-creative-commons-share & CSS Content Code is  \f4f2'
+summary = 'Creative-Commons-Share font awesome icon CSS class is fa-creative-commons-share & CSS Content Code is f4f2'
 keywords =['Creative-Commons-Share, \f4f2,fa-creative-commons-share']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Graduation-Cap font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Graduation-Cap font awesome icon CSS class is fa-graduation-cap & CSS Content Code is  \f19d'
+summary = 'Graduation-Cap font awesome icon CSS class is fa-graduation-cap & CSS Content Code is f19d'
 keywords =['Graduation-Cap, \f19d,fa-graduation-cap']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Cc-Amex font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cc-Amex font awesome icon CSS class is fa-cc-amex & CSS Content Code is  \f1f3'
+summary = 'Cc-Amex font awesome icon CSS class is fa-cc-amex & CSS Content Code is f1f3'
 keywords =['Cc-Amex, \f1f3,fa-cc-amex']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

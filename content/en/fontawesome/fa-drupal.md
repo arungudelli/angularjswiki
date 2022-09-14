@@ -1,7 +1,7 @@
 
 +++
 title='Drupal font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Drupal font awesome icon CSS class is fa-drupal & CSS Content Code is  \f1a9'
+summary = 'Drupal font awesome icon CSS class is fa-drupal & CSS Content Code is f1a9'
 keywords =['Drupal, \f1a9,fa-drupal']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

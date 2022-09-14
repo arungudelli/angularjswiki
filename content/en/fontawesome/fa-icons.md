@@ -1,7 +1,7 @@
 
 +++
 title='Icons font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Icons font awesome icon CSS class is fa-icons & CSS Content Code is  \f86d'
+summary = 'Icons font awesome icon CSS class is fa-icons & CSS Content Code is f86d'
 keywords =['Icons, \f86d,fa-icons']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

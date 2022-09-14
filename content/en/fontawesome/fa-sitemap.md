@@ -1,7 +1,7 @@
 
 +++
 title='Sitemap font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Sitemap font awesome icon CSS class is fa-sitemap & CSS Content Code is  \f0e8'
+summary = 'Sitemap font awesome icon CSS class is fa-sitemap & CSS Content Code is f0e8'
 keywords =['Sitemap, \f0e8,fa-sitemap']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

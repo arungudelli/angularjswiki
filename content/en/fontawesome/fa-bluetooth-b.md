@@ -1,7 +1,7 @@
 
 +++
 title='Bluetooth-B font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bluetooth-B font awesome icon CSS class is fa-bluetooth-b & CSS Content Code is  \f294'
+summary = 'Bluetooth-B font awesome icon CSS class is fa-bluetooth-b & CSS Content Code is f294'
 keywords =['Bluetooth-B, \f294,fa-bluetooth-b']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Train-Tram font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Train-Tram font awesome icon CSS class is fa-train-tram & CSS Content Code is  \e5b4'
+summary = 'Train-Tram font awesome icon CSS class is fa-train-tram & CSS Content Code is e5b4'
 keywords =['Train-Tram, \e5b4,fa-train-tram']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

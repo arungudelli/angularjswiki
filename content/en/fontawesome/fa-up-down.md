@@ -1,7 +1,7 @@
 
 +++
 title='Up-Down font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Up-Down font awesome icon CSS class is fa-up-down & CSS Content Code is  \f338'
+summary = 'Up-Down font awesome icon CSS class is fa-up-down & CSS Content Code is f338'
 keywords =['Up-Down, \f338,fa-up-down']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

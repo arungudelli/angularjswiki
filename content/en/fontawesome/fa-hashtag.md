@@ -1,7 +1,7 @@
 
 +++
 title='Hashtag font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hashtag font awesome icon CSS class is fa-hashtag & CSS Content Code is  \23'
+summary = 'Hashtag font awesome icon CSS class is fa-hashtag & CSS Content Code is 23'
 keywords =['Hashtag, \23,fa-hashtag']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

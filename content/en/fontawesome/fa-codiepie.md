@@ -1,7 +1,7 @@
 
 +++
 title='Codiepie font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Codiepie font awesome icon CSS class is fa-codiepie & CSS Content Code is  \f284'
+summary = 'Codiepie font awesome icon CSS class is fa-codiepie & CSS Content Code is f284'
 keywords =['Codiepie, \f284,fa-codiepie']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

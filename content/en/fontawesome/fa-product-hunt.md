@@ -1,7 +1,7 @@
 
 +++
 title='Product-Hunt font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Product-Hunt font awesome icon CSS class is fa-product-hunt & CSS Content Code is  \f288'
+summary = 'Product-Hunt font awesome icon CSS class is fa-product-hunt & CSS Content Code is f288'
 keywords =['Product-Hunt, \f288,fa-product-hunt']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

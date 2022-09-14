@@ -1,7 +1,7 @@
 
 +++
 title='Landmark font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Landmark font awesome icon CSS class is fa-landmark & CSS Content Code is  \f66f'
+summary = 'Landmark font awesome icon CSS class is fa-landmark & CSS Content Code is f66f'
 keywords =['Landmark, \f66f,fa-landmark']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

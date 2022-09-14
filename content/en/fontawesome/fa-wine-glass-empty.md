@@ -1,7 +1,7 @@
 
 +++
 title='Wine-Glass-Empty font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Wine-Glass-Empty font awesome icon CSS class is fa-wine-glass-empty & CSS Content Code is  \f5ce'
+summary = 'Wine-Glass-Empty font awesome icon CSS class is fa-wine-glass-empty & CSS Content Code is f5ce'
 keywords =['Wine-Glass-Empty, \f5ce,fa-wine-glass-empty']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

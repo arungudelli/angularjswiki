@@ -1,7 +1,7 @@
 
 +++
 title='Meteor font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Meteor font awesome icon CSS class is fa-meteor & CSS Content Code is  \f753'
+summary = 'Meteor font awesome icon CSS class is fa-meteor & CSS Content Code is f753'
 keywords =['Meteor, \f753,fa-meteor']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Mastodon font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mastodon font awesome icon CSS class is fa-mastodon & CSS Content Code is  \f4f6'
+summary = 'Mastodon font awesome icon CSS class is fa-mastodon & CSS Content Code is f4f6'
 keywords =['Mastodon, \f4f6,fa-mastodon']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

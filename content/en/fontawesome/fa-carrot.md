@@ -1,7 +1,7 @@
 
 +++
 title='Carrot font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Carrot font awesome icon CSS class is fa-carrot & CSS Content Code is  \f787'
+summary = 'Carrot font awesome icon CSS class is fa-carrot & CSS Content Code is f787'
 keywords =['Carrot, \f787,fa-carrot']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

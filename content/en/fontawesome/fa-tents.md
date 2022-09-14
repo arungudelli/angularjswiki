@@ -1,7 +1,7 @@
 
 +++
 title='Tents font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Tents font awesome icon CSS class is fa-tents & CSS Content Code is  \e582'
+summary = 'Tents font awesome icon CSS class is fa-tents & CSS Content Code is e582'
 keywords =['Tents, \e582,fa-tents']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

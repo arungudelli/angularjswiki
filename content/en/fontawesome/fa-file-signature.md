@@ -1,7 +1,7 @@
 
 +++
 title='File-Signature font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'File-Signature font awesome icon CSS class is fa-file-signature & CSS Content Code is  \f573'
+summary = 'File-Signature font awesome icon CSS class is fa-file-signature & CSS Content Code is f573'
 keywords =['File-Signature, \f573,fa-file-signature']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

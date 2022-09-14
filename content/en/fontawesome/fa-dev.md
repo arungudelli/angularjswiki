@@ -1,7 +1,7 @@
 
 +++
 title='Dev font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Dev font awesome icon CSS class is fa-dev & CSS Content Code is  \f6cc'
+summary = 'Dev font awesome icon CSS class is fa-dev & CSS Content Code is f6cc'
 keywords =['Dev, \f6cc,fa-dev']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Battle-Net font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Battle-Net font awesome icon CSS class is fa-battle-net & CSS Content Code is  \f835'
+summary = 'Battle-Net font awesome icon CSS class is fa-battle-net & CSS Content Code is f835'
 keywords =['Battle-Net, \f835,fa-battle-net']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

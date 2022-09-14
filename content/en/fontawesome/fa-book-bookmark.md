@@ -1,7 +1,7 @@
 
 +++
 title='Book-Bookmark font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Book-Bookmark font awesome icon CSS class is fa-book-bookmark & CSS Content Code is  \e0bb'
+summary = 'Book-Bookmark font awesome icon CSS class is fa-book-bookmark & CSS Content Code is e0bb'
 keywords =['Book-Bookmark, \e0bb,fa-book-bookmark']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

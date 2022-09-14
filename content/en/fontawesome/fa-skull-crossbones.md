@@ -1,7 +1,7 @@
 
 +++
 title='Skull-Crossbones font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Skull-Crossbones font awesome icon CSS class is fa-skull-crossbones & CSS Content Code is  \f714'
+summary = 'Skull-Crossbones font awesome icon CSS class is fa-skull-crossbones & CSS Content Code is f714'
 keywords =['Skull-Crossbones, \f714,fa-skull-crossbones']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Audio-Description font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Audio-Description font awesome icon CSS class is fa-audio-description & CSS Content Code is  \f29e'
+summary = 'Audio-Description font awesome icon CSS class is fa-audio-description & CSS Content Code is f29e'
 keywords =['Audio-Description, \f29e,fa-audio-description']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

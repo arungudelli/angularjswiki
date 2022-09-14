@@ -1,7 +1,7 @@
 
 +++
 title='Simplybuilt font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Simplybuilt font awesome icon CSS class is fa-simplybuilt & CSS Content Code is  \f215'
+summary = 'Simplybuilt font awesome icon CSS class is fa-simplybuilt & CSS Content Code is f215'
 keywords =['Simplybuilt, \f215,fa-simplybuilt']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

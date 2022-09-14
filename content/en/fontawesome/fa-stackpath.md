@@ -1,7 +1,7 @@
 
 +++
 title='Stackpath font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Stackpath font awesome icon CSS class is fa-stackpath & CSS Content Code is  \f842'
+summary = 'Stackpath font awesome icon CSS class is fa-stackpath & CSS Content Code is f842'
 keywords =['Stackpath, \f842,fa-stackpath']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

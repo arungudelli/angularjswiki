@@ -1,7 +1,7 @@
 
 +++
 title='Python font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Python font awesome icon CSS class is fa-python & CSS Content Code is  \f3e2'
+summary = 'Python font awesome icon CSS class is fa-python & CSS Content Code is f3e2'
 keywords =['Python, \f3e2,fa-python']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Retweet font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Retweet font awesome icon CSS class is fa-retweet & CSS Content Code is  \f079'
+summary = 'Retweet font awesome icon CSS class is fa-retweet & CSS Content Code is f079'
 keywords =['Retweet, \f079,fa-retweet']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

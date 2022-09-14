@@ -1,7 +1,7 @@
 
 +++
 title='Location-Arrow font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Location-Arrow font awesome icon CSS class is fa-location-arrow & CSS Content Code is  \f124'
+summary = 'Location-Arrow font awesome icon CSS class is fa-location-arrow & CSS Content Code is f124'
 keywords =['Location-Arrow, \f124,fa-location-arrow']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Cake-Candles font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cake-Candles font awesome icon CSS class is fa-cake-candles & CSS Content Code is  \f1fd'
+summary = 'Cake-Candles font awesome icon CSS class is fa-cake-candles & CSS Content Code is f1fd'
 keywords =['Cake-Candles, \f1fd,fa-cake-candles']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

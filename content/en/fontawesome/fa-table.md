@@ -1,7 +1,7 @@
 
 +++
 title='Table font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Table font awesome icon CSS class is fa-table & CSS Content Code is  \f0ce'
+summary = 'Table font awesome icon CSS class is fa-table & CSS Content Code is f0ce'
 keywords =['Table, \f0ce,fa-table']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

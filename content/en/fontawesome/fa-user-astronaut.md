@@ -1,7 +1,7 @@
 
 +++
 title='User-Astronaut font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'User-Astronaut font awesome icon CSS class is fa-user-astronaut & CSS Content Code is  \f4fb'
+summary = 'User-Astronaut font awesome icon CSS class is fa-user-astronaut & CSS Content Code is f4fb'
 keywords =['User-Astronaut, \f4fb,fa-user-astronaut']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

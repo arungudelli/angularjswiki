@@ -1,7 +1,7 @@
 
 +++
 title='Champagne-Glasses font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Champagne-Glasses font awesome icon CSS class is fa-champagne-glasses & CSS Content Code is  \f79f'
+summary = 'Champagne-Glasses font awesome icon CSS class is fa-champagne-glasses & CSS Content Code is f79f'
 keywords =['Champagne-Glasses, \f79f,fa-champagne-glasses']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

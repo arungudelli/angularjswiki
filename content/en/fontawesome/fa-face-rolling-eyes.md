@@ -1,7 +1,7 @@
 
 +++
 title='Face-Rolling-Eyes font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Face-Rolling-Eyes font awesome icon CSS class is fa-face-rolling-eyes & CSS Content Code is  \f5a5'
+summary = 'Face-Rolling-Eyes font awesome icon CSS class is fa-face-rolling-eyes & CSS Content Code is f5a5'
 keywords =['Face-Rolling-Eyes, \f5a5,fa-face-rolling-eyes']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

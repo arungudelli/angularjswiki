@@ -1,7 +1,7 @@
 
 +++
 title='Less font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Less font awesome icon CSS class is fa-less & CSS Content Code is  \f41d'
+summary = 'Less font awesome icon CSS class is fa-less & CSS Content Code is f41d'
 keywords =['Less, \f41d,fa-less']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

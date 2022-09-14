@@ -1,7 +1,7 @@
 
 +++
 title='Rupee-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Rupee-Sign font awesome icon CSS class is fa-rupee-sign & CSS Content Code is  \f156'
+summary = 'Rupee-Sign font awesome icon CSS class is fa-rupee-sign & CSS Content Code is f156'
 keywords =['Rupee-Sign, \f156,fa-rupee-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

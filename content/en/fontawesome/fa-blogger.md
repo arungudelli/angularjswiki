@@ -1,7 +1,7 @@
 
 +++
 title='Blogger font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Blogger font awesome icon CSS class is fa-blogger & CSS Content Code is  \f37c'
+summary = 'Blogger font awesome icon CSS class is fa-blogger & CSS Content Code is f37c'
 keywords =['Blogger, \f37c,fa-blogger']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

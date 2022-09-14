@@ -1,7 +1,7 @@
 
 +++
 title='Earth-Americas font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Earth-Americas font awesome icon CSS class is fa-earth-americas & CSS Content Code is  \f57d'
+summary = 'Earth-Americas font awesome icon CSS class is fa-earth-americas & CSS Content Code is f57d'
 keywords =['Earth-Americas, \f57d,fa-earth-americas']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Q font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Q font awesome icon CSS class is fa-q & CSS Content Code is  \51'
+summary = 'Q font awesome icon CSS class is fa-q & CSS Content Code is 51'
 keywords =['Q, \51,fa-q']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

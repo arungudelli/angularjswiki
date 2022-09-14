@@ -1,7 +1,7 @@
 
 +++
 title='Signs-Post font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Signs-Post font awesome icon CSS class is fa-signs-post & CSS Content Code is  \f277'
+summary = 'Signs-Post font awesome icon CSS class is fa-signs-post & CSS Content Code is f277'
 keywords =['Signs-Post, \f277,fa-signs-post']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

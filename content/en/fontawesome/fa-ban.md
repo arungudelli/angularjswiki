@@ -1,7 +1,7 @@
 
 +++
 title='Ban font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ban font awesome icon CSS class is fa-ban & CSS Content Code is  \f05e'
+summary = 'Ban font awesome icon CSS class is fa-ban & CSS Content Code is f05e'
 keywords =['Ban, \f05e,fa-ban']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

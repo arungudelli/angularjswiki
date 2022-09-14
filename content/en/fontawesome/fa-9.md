@@ -1,7 +1,7 @@
 
 +++
 title='9 Number font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = '9 Number font awesome icon CSS class is fa-9 & CSS Content Code is  \39'
+summary = '9 Number font awesome icon CSS class is fa-9 & CSS Content Code is 39'
 keywords =['9 Number, \39,fa-9']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

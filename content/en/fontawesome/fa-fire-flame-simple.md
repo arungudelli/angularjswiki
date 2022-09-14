@@ -1,7 +1,7 @@
 
 +++
 title='Fire-Flame-Simple font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Fire-Flame-Simple font awesome icon CSS class is fa-fire-flame-simple & CSS Content Code is  \f46a'
+summary = 'Fire-Flame-Simple font awesome icon CSS class is fa-fire-flame-simple & CSS Content Code is f46a'
 keywords =['Fire-Flame-Simple, \f46a,fa-fire-flame-simple']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

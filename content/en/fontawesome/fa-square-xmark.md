@@ -1,7 +1,7 @@
 
 +++
 title='Square-Xmark font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Xmark font awesome icon CSS class is fa-square-xmark & CSS Content Code is  \f2d3'
+summary = 'Square-Xmark font awesome icon CSS class is fa-square-xmark & CSS Content Code is f2d3'
 keywords =['Square-Xmark, \f2d3,fa-square-xmark']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

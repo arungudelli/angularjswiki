@@ -1,7 +1,7 @@
 
 +++
 title='Temperature-Half font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Temperature-Half font awesome icon CSS class is fa-temperature-half & CSS Content Code is  \f2c9'
+summary = 'Temperature-Half font awesome icon CSS class is fa-temperature-half & CSS Content Code is f2c9'
 keywords =['Temperature-Half, \f2c9,fa-temperature-half']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

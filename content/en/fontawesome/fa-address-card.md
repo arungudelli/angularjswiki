@@ -1,7 +1,7 @@
 
 +++
 title='Address-Card font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Address-Card font awesome icon CSS class is fa-address-card & CSS Content Code is  \f2bb'
+summary = 'Address-Card font awesome icon CSS class is fa-address-card & CSS Content Code is f2bb'
 keywords =['Address-Card, \f2bb,fa-address-card']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

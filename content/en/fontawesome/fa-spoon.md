@@ -1,7 +1,7 @@
 
 +++
 title='Spoon font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Spoon font awesome icon CSS class is fa-spoon & CSS Content Code is  \f2e5'
+summary = 'Spoon font awesome icon CSS class is fa-spoon & CSS Content Code is f2e5'
 keywords =['Spoon, \f2e5,fa-spoon']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Head-Side-Cough-Slash font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Head-Side-Cough-Slash font awesome icon CSS class is fa-head-side-cough-slash & CSS Content Code is  \e062'
+summary = 'Head-Side-Cough-Slash font awesome icon CSS class is fa-head-side-cough-slash & CSS Content Code is e062'
 keywords =['Head-Side-Cough-Slash, \e062,fa-head-side-cough-slash']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

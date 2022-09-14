@@ -1,7 +1,7 @@
 
 +++
 title='Pushed font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Pushed font awesome icon CSS class is fa-pushed & CSS Content Code is  \f3e1'
+summary = 'Pushed font awesome icon CSS class is fa-pushed & CSS Content Code is f3e1'
 keywords =['Pushed, \f3e1,fa-pushed']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

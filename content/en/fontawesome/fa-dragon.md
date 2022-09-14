@@ -1,7 +1,7 @@
 
 +++
 title='Dragon font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Dragon font awesome icon CSS class is fa-dragon & CSS Content Code is  \f6d5'
+summary = 'Dragon font awesome icon CSS class is fa-dragon & CSS Content Code is f6d5'
 keywords =['Dragon, \f6d5,fa-dragon']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

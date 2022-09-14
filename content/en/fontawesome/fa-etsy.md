@@ -1,7 +1,7 @@
 
 +++
 title='Etsy font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Etsy font awesome icon CSS class is fa-etsy & CSS Content Code is  \f2d7'
+summary = 'Etsy font awesome icon CSS class is fa-etsy & CSS Content Code is f2d7'
 keywords =['Etsy, \f2d7,fa-etsy']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

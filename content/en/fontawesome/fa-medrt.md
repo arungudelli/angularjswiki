@@ -1,7 +1,7 @@
 
 +++
 title='Medrt font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Medrt font awesome icon CSS class is fa-medrt & CSS Content Code is  \f3c8'
+summary = 'Medrt font awesome icon CSS class is fa-medrt & CSS Content Code is f3c8'
 keywords =['Medrt, \f3c8,fa-medrt']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

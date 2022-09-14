@@ -1,7 +1,7 @@
 
 +++
 title='Tower-Cell font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Tower-Cell font awesome icon CSS class is fa-tower-cell & CSS Content Code is  \e585'
+summary = 'Tower-Cell font awesome icon CSS class is fa-tower-cell & CSS Content Code is e585'
 keywords =['Tower-Cell, \e585,fa-tower-cell']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

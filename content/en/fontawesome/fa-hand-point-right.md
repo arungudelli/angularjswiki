@@ -1,7 +1,7 @@
 
 +++
 title='Hand-Point-Right font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hand-Point-Right font awesome icon CSS class is fa-hand-point-right & CSS Content Code is  \f0a4'
+summary = 'Hand-Point-Right font awesome icon CSS class is fa-hand-point-right & CSS Content Code is f0a4'
 keywords =['Hand-Point-Right, \f0a4,fa-hand-point-right']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

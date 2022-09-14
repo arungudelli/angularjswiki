@@ -1,7 +1,7 @@
 
 +++
 title='Code-Compare font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Code-Compare font awesome icon CSS class is fa-code-compare & CSS Content Code is  \e13a'
+summary = 'Code-Compare font awesome icon CSS class is fa-code-compare & CSS Content Code is e13a'
 keywords =['Code-Compare, \e13a,fa-code-compare']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

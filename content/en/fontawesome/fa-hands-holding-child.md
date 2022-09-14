@@ -1,7 +1,7 @@
 
 +++
 title='Hands-Holding-Child font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hands-Holding-Child font awesome icon CSS class is fa-hands-holding-child & CSS Content Code is  \e4fa'
+summary = 'Hands-Holding-Child font awesome icon CSS class is fa-hands-holding-child & CSS Content Code is e4fa'
 keywords =['Hands-Holding-Child, \e4fa,fa-hands-holding-child']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

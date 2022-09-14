@@ -1,7 +1,7 @@
 
 +++
 title='Arrow-Up-From-Ground-Water font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Arrow-Up-From-Ground-Water font awesome icon CSS class is fa-arrow-up-from-ground-water & CSS Content Code is  \e4b5'
+summary = 'Arrow-Up-From-Ground-Water font awesome icon CSS class is fa-arrow-up-from-ground-water & CSS Content Code is e4b5'
 keywords =['Arrow-Up-From-Ground-Water, \e4b5,fa-arrow-up-from-ground-water']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Black-Tie font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Black-Tie font awesome icon CSS class is fa-black-tie & CSS Content Code is  \f27e'
+summary = 'Black-Tie font awesome icon CSS class is fa-black-tie & CSS Content Code is f27e'
 keywords =['Black-Tie, \f27e,fa-black-tie']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

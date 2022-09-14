@@ -1,7 +1,7 @@
 
 +++
 title='Sith font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Sith font awesome icon CSS class is fa-sith & CSS Content Code is  \f512'
+summary = 'Sith font awesome icon CSS class is fa-sith & CSS Content Code is f512'
 keywords =['Sith, \f512,fa-sith']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

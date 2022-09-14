@@ -1,7 +1,7 @@
 
 +++
 title='Sellcast font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Sellcast font awesome icon CSS class is fa-sellcast & CSS Content Code is  \f2da'
+summary = 'Sellcast font awesome icon CSS class is fa-sellcast & CSS Content Code is f2da'
 keywords =['Sellcast, \f2da,fa-sellcast']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

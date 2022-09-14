@@ -1,7 +1,7 @@
 
 +++
 title='Dribbble font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Dribbble font awesome icon CSS class is fa-dribbble & CSS Content Code is  \f17d'
+summary = 'Dribbble font awesome icon CSS class is fa-dribbble & CSS Content Code is f17d'
 keywords =['Dribbble, \f17d,fa-dribbble']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

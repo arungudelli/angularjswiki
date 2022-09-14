@@ -1,7 +1,7 @@
 
 +++
 title='App-Store font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'App-Store font awesome icon CSS class is fa-app-store & CSS Content Code is  \f36f'
+summary = 'App-Store font awesome icon CSS class is fa-app-store & CSS Content Code is f36f'
 keywords =['App-Store, \f36f,fa-app-store']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

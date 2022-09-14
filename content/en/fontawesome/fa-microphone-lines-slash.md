@@ -1,7 +1,7 @@
 
 +++
 title='Microphone-Lines-Slash font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Microphone-Lines-Slash font awesome icon CSS class is fa-microphone-lines-slash & CSS Content Code is  \f539'
+summary = 'Microphone-Lines-Slash font awesome icon CSS class is fa-microphone-lines-slash & CSS Content Code is f539'
 keywords =['Microphone-Lines-Slash, \f539,fa-microphone-lines-slash']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

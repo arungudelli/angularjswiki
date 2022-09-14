@@ -1,7 +1,7 @@
 
 +++
 title='Jar-Wheat font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Jar-Wheat font awesome icon CSS class is fa-jar-wheat & CSS Content Code is  \e517'
+summary = 'Jar-Wheat font awesome icon CSS class is fa-jar-wheat & CSS Content Code is e517'
 keywords =['Jar-Wheat, \e517,fa-jar-wheat']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

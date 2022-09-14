@@ -1,7 +1,7 @@
 
 +++
 title='Chart-Gantt font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Chart-Gantt font awesome icon CSS class is fa-chart-gantt & CSS Content Code is  \e0e4'
+summary = 'Chart-Gantt font awesome icon CSS class is fa-chart-gantt & CSS Content Code is e0e4'
 keywords =['Chart-Gantt, \e0e4,fa-chart-gantt']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

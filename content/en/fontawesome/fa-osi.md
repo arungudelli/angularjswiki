@@ -1,7 +1,7 @@
 
 +++
 title='Osi font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Osi font awesome icon CSS class is fa-osi & CSS Content Code is  \f41a'
+summary = 'Osi font awesome icon CSS class is fa-osi & CSS Content Code is f41a'
 keywords =['Osi, \f41a,fa-osi']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Lungs font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Lungs font awesome icon CSS class is fa-lungs & CSS Content Code is  \f604'
+summary = 'Lungs font awesome icon CSS class is fa-lungs & CSS Content Code is f604'
 keywords =['Lungs, \f604,fa-lungs']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Square-Steam font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Steam font awesome icon CSS class is fa-square-steam & CSS Content Code is  \f1b7'
+summary = 'Square-Steam font awesome icon CSS class is fa-square-steam & CSS Content Code is f1b7'
 keywords =['Square-Steam, \f1b7,fa-square-steam']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Cc-Diners-Club font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cc-Diners-Club font awesome icon CSS class is fa-cc-diners-club & CSS Content Code is  \f24c'
+summary = 'Cc-Diners-Club font awesome icon CSS class is fa-cc-diners-club & CSS Content Code is f24c'
 keywords =['Cc-Diners-Club, \f24c,fa-cc-diners-club']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Cc-Discover font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cc-Discover font awesome icon CSS class is fa-cc-discover & CSS Content Code is  \f1f2'
+summary = 'Cc-Discover font awesome icon CSS class is fa-cc-discover & CSS Content Code is f1f2'
 keywords =['Cc-Discover, \f1f2,fa-cc-discover']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

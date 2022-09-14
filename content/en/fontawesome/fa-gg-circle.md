@@ -1,7 +1,7 @@
 
 +++
 title='Gg-Circle font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Gg-Circle font awesome icon CSS class is fa-gg-circle & CSS Content Code is  \f261'
+summary = 'Gg-Circle font awesome icon CSS class is fa-gg-circle & CSS Content Code is f261'
 keywords =['Gg-Circle, \f261,fa-gg-circle']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

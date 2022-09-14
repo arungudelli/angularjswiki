@@ -1,7 +1,7 @@
 
 +++
 title='Shield-Heart font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Shield-Heart font awesome icon CSS class is fa-shield-heart & CSS Content Code is  \e574'
+summary = 'Shield-Heart font awesome icon CSS class is fa-shield-heart & CSS Content Code is e574'
 keywords =['Shield-Heart, \e574,fa-shield-heart']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

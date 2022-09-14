@@ -1,7 +1,7 @@
 
 +++
 title='Rocket font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Rocket font awesome icon CSS class is fa-rocket & CSS Content Code is  \f135'
+summary = 'Rocket font awesome icon CSS class is fa-rocket & CSS Content Code is f135'
 keywords =['Rocket, \f135,fa-rocket']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

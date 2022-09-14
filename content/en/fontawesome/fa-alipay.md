@@ -1,7 +1,7 @@
 
 +++
 title='Alipay font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Alipay font awesome icon CSS class is fa-alipay & CSS Content Code is  \f642'
+summary = 'Alipay font awesome icon CSS class is fa-alipay & CSS Content Code is f642'
 keywords =['Alipay, \f642,fa-alipay']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

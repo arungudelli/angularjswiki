@@ -1,7 +1,7 @@
 
 +++
 title='Person-Military-Pointing font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Military-Pointing font awesome icon CSS class is fa-person-military-pointing & CSS Content Code is  \e54a'
+summary = 'Person-Military-Pointing font awesome icon CSS class is fa-person-military-pointing & CSS Content Code is e54a'
 keywords =['Person-Military-Pointing, \e54a,fa-person-military-pointing']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

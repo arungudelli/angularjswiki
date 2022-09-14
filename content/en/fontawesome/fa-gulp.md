@@ -1,7 +1,7 @@
 
 +++
 title='Gulp font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Gulp font awesome icon CSS class is fa-gulp & CSS Content Code is  \f3ae'
+summary = 'Gulp font awesome icon CSS class is fa-gulp & CSS Content Code is f3ae'
 keywords =['Gulp, \f3ae,fa-gulp']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

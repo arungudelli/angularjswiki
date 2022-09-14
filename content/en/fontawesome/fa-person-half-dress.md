@@ -1,7 +1,7 @@
 
 +++
 title='Person-Half-Dress font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Half-Dress font awesome icon CSS class is fa-person-half-dress & CSS Content Code is  \e548'
+summary = 'Person-Half-Dress font awesome icon CSS class is fa-person-half-dress & CSS Content Code is e548'
 keywords =['Person-Half-Dress, \e548,fa-person-half-dress']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

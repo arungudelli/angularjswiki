@@ -1,7 +1,7 @@
 
 +++
 title='Football font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Football font awesome icon CSS class is fa-football & CSS Content Code is  \f44e'
+summary = 'Football font awesome icon CSS class is fa-football & CSS Content Code is f44e'
 keywords =['Football, \f44e,fa-football']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

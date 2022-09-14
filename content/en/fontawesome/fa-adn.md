@@ -1,7 +1,7 @@
 
 +++
 title='Adn font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Adn font awesome icon CSS class is fa-adn & CSS Content Code is  \f170'
+summary = 'Adn font awesome icon CSS class is fa-adn & CSS Content Code is f170'
 keywords =['Adn, \f170,fa-adn']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

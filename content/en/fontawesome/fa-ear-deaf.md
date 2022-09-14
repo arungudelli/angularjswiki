@@ -1,7 +1,7 @@
 
 +++
 title='Ear-Deaf font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ear-Deaf font awesome icon CSS class is fa-ear-deaf & CSS Content Code is  \f2a4'
+summary = 'Ear-Deaf font awesome icon CSS class is fa-ear-deaf & CSS Content Code is f2a4'
 keywords =['Ear-Deaf, \f2a4,fa-ear-deaf']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

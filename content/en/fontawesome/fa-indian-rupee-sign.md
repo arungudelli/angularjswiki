@@ -1,7 +1,7 @@
 
 +++
 title='Indian-Rupee-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Indian-Rupee-Sign font awesome icon CSS class is fa-indian-rupee-sign & CSS Content Code is  \e1bc'
+summary = 'Indian-Rupee-Sign font awesome icon CSS class is fa-indian-rupee-sign & CSS Content Code is e1bc'
 keywords =['Indian-Rupee-Sign, \e1bc,fa-indian-rupee-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

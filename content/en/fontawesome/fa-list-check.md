@@ -1,7 +1,7 @@
 
 +++
 title='List-Check font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'List-Check font awesome icon CSS class is fa-list-check & CSS Content Code is  \f0ae'
+summary = 'List-Check font awesome icon CSS class is fa-list-check & CSS Content Code is f0ae'
 keywords =['List-Check, \f0ae,fa-list-check']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

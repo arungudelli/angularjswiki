@@ -1,7 +1,7 @@
 
 +++
 title='Desktop font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Desktop font awesome icon CSS class is fa-desktop & CSS Content Code is  \f390'
+summary = 'Desktop font awesome icon CSS class is fa-desktop & CSS Content Code is f390'
 keywords =['Desktop, \f390,fa-desktop']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Diagram-Project font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Diagram-Project font awesome icon CSS class is fa-diagram-project & CSS Content Code is  \f542'
+summary = 'Diagram-Project font awesome icon CSS class is fa-diagram-project & CSS Content Code is f542'
 keywords =['Diagram-Project, \f542,fa-diagram-project']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

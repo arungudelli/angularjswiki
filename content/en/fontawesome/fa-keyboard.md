@@ -1,7 +1,7 @@
 
 +++
 title='Keyboard font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Keyboard font awesome icon CSS class is fa-keyboard & CSS Content Code is  \f11c'
+summary = 'Keyboard font awesome icon CSS class is fa-keyboard & CSS Content Code is f11c'
 keywords =['Keyboard, \f11c,fa-keyboard']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

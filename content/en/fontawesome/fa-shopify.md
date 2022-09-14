@@ -1,7 +1,7 @@
 
 +++
 title='Shopify font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Shopify font awesome icon CSS class is fa-shopify & CSS Content Code is  \e057'
+summary = 'Shopify font awesome icon CSS class is fa-shopify & CSS Content Code is e057'
 keywords =['Shopify, \e057,fa-shopify']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

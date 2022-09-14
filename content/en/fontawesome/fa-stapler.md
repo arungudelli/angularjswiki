@@ -1,7 +1,7 @@
 
 +++
 title='Stapler font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Stapler font awesome icon CSS class is fa-stapler & CSS Content Code is  \e5af'
+summary = 'Stapler font awesome icon CSS class is fa-stapler & CSS Content Code is e5af'
 keywords =['Stapler, \e5af,fa-stapler']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Cart-Flatbed font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cart-Flatbed font awesome icon CSS class is fa-cart-flatbed & CSS Content Code is  \f474'
+summary = 'Cart-Flatbed font awesome icon CSS class is fa-cart-flatbed & CSS Content Code is f474'
 keywords =['Cart-Flatbed, \f474,fa-cart-flatbed']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Arrows-Turn-Right font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Arrows-Turn-Right font awesome icon CSS class is fa-arrows-turn-right & CSS Content Code is  \e4c0'
+summary = 'Arrows-Turn-Right font awesome icon CSS class is fa-arrows-turn-right & CSS Content Code is e4c0'
 keywords =['Arrows-Turn-Right, \e4c0,fa-arrows-turn-right']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

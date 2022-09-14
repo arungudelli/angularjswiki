@@ -1,7 +1,7 @@
 
 +++
 title='Delete-Left font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Delete-Left font awesome icon CSS class is fa-delete-left & CSS Content Code is  \f55a'
+summary = 'Delete-Left font awesome icon CSS class is fa-delete-left & CSS Content Code is f55a'
 keywords =['Delete-Left, \f55a,fa-delete-left']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Heart-Crack font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Heart-Crack font awesome icon CSS class is fa-heart-crack & CSS Content Code is  \f7a9'
+summary = 'Heart-Crack font awesome icon CSS class is fa-heart-crack & CSS Content Code is f7a9'
 keywords =['Heart-Crack, \f7a9,fa-heart-crack']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

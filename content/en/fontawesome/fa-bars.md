@@ -1,7 +1,7 @@
 
 +++
 title='Bars font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bars font awesome icon CSS class is fa-bars & CSS Content Code is  \f0c9'
+summary = 'Bars font awesome icon CSS class is fa-bars & CSS Content Code is f0c9'
 keywords =['Bars, \f0c9,fa-bars']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

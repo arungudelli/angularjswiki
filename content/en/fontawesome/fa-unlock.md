@@ -1,7 +1,7 @@
 
 +++
 title='Unlock font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Unlock font awesome icon CSS class is fa-unlock & CSS Content Code is  \f09c'
+summary = 'Unlock font awesome icon CSS class is fa-unlock & CSS Content Code is f09c'
 keywords =['Unlock, \f09c,fa-unlock']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

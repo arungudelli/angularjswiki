@@ -1,7 +1,7 @@
 
 +++
 title='Colon-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Colon-Sign font awesome icon CSS class is fa-colon-sign & CSS Content Code is  \e140'
+summary = 'Colon-Sign font awesome icon CSS class is fa-colon-sign & CSS Content Code is e140'
 keywords =['Colon-Sign, \e140,fa-colon-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

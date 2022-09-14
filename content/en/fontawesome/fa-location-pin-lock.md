@@ -1,7 +1,7 @@
 
 +++
 title='Location-Pin-Lock font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Location-Pin-Lock font awesome icon CSS class is fa-location-pin-lock & CSS Content Code is  \e51f'
+summary = 'Location-Pin-Lock font awesome icon CSS class is fa-location-pin-lock & CSS Content Code is e51f'
 keywords =['Location-Pin-Lock, \e51f,fa-location-pin-lock']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

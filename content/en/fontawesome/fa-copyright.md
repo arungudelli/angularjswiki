@@ -1,7 +1,7 @@
 
 +++
 title='Copyright font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Copyright font awesome icon CSS class is fa-copyright & CSS Content Code is  \f1f9'
+summary = 'Copyright font awesome icon CSS class is fa-copyright & CSS Content Code is f1f9'
 keywords =['Copyright, \f1f9,fa-copyright']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

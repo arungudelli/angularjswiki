@@ -1,7 +1,7 @@
 
 +++
 title='Walkie-Talkie font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Walkie-Talkie font awesome icon CSS class is fa-walkie-talkie & CSS Content Code is  \f8ef'
+summary = 'Walkie-Talkie font awesome icon CSS class is fa-walkie-talkie & CSS Content Code is f8ef'
 keywords =['Walkie-Talkie, \f8ef,fa-walkie-talkie']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

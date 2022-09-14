@@ -1,7 +1,7 @@
 
 +++
 title='Kaaba font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Kaaba font awesome icon CSS class is fa-kaaba & CSS Content Code is  \f66b'
+summary = 'Kaaba font awesome icon CSS class is fa-kaaba & CSS Content Code is f66b'
 keywords =['Kaaba, \f66b,fa-kaaba']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

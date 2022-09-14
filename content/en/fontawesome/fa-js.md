@@ -1,7 +1,7 @@
 
 +++
 title='Js font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Js font awesome icon CSS class is fa-js & CSS Content Code is  \f3b8'
+summary = 'Js font awesome icon CSS class is fa-js & CSS Content Code is f3b8'
 keywords =['Js, \f3b8,fa-js']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

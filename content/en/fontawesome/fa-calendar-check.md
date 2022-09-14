@@ -1,7 +1,7 @@
 
 +++
 title='Calendar-Check font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Calendar-Check font awesome icon CSS class is fa-calendar-check & CSS Content Code is  \f274'
+summary = 'Calendar-Check font awesome icon CSS class is fa-calendar-check & CSS Content Code is f274'
 keywords =['Calendar-Check, \f274,fa-calendar-check']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

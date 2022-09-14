@@ -1,7 +1,7 @@
 
 +++
 title='Language font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Language font awesome icon CSS class is fa-language & CSS Content Code is  \f1ab'
+summary = 'Language font awesome icon CSS class is fa-language & CSS Content Code is f1ab'
 keywords =['Language, \f1ab,fa-language']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

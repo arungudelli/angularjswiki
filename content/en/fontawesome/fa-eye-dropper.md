@@ -1,7 +1,7 @@
 
 +++
 title='Eye-Dropper font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Eye-Dropper font awesome icon CSS class is fa-eye-dropper & CSS Content Code is  \f1fb'
+summary = 'Eye-Dropper font awesome icon CSS class is fa-eye-dropper & CSS Content Code is f1fb'
 keywords =['Eye-Dropper, \f1fb,fa-eye-dropper']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

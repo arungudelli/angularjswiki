@@ -1,7 +1,7 @@
 
 +++
 title='Flipboard font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Flipboard font awesome icon CSS class is fa-flipboard & CSS Content Code is  \f44d'
+summary = 'Flipboard font awesome icon CSS class is fa-flipboard & CSS Content Code is f44d'
 keywords =['Flipboard, \f44d,fa-flipboard']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

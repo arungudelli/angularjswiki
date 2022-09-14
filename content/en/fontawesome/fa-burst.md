@@ -1,7 +1,7 @@
 
 +++
 title='Burst font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Burst font awesome icon CSS class is fa-burst & CSS Content Code is  \e4dc'
+summary = 'Burst font awesome icon CSS class is fa-burst & CSS Content Code is e4dc'
 keywords =['Burst, \e4dc,fa-burst']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

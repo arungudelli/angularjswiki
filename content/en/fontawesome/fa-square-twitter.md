@@ -1,7 +1,7 @@
 
 +++
 title='Square-Twitter font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Twitter font awesome icon CSS class is fa-square-twitter & CSS Content Code is  \f081'
+summary = 'Square-Twitter font awesome icon CSS class is fa-square-twitter & CSS Content Code is f081'
 keywords =['Square-Twitter, \f081,fa-square-twitter']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

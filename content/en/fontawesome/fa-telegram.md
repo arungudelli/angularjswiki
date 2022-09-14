@@ -1,7 +1,7 @@
 
 +++
 title='Telegram font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Telegram font awesome icon CSS class is fa-telegram & CSS Content Code is  \f2c6'
+summary = 'Telegram font awesome icon CSS class is fa-telegram & CSS Content Code is f2c6'
 keywords =['Telegram, \f2c6,fa-telegram']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

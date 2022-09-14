@@ -1,7 +1,7 @@
 
 +++
 title='Shirtsinbulk font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Shirtsinbulk font awesome icon CSS class is fa-shirtsinbulk & CSS Content Code is  \f214'
+summary = 'Shirtsinbulk font awesome icon CSS class is fa-shirtsinbulk & CSS Content Code is f214'
 keywords =['Shirtsinbulk, \f214,fa-shirtsinbulk']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

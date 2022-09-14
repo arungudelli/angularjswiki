@@ -1,7 +1,7 @@
 
 +++
 title='Square-Vimeo font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Vimeo font awesome icon CSS class is fa-square-vimeo & CSS Content Code is  \f194'
+summary = 'Square-Vimeo font awesome icon CSS class is fa-square-vimeo & CSS Content Code is f194'
 keywords =['Square-Vimeo, \f194,fa-square-vimeo']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

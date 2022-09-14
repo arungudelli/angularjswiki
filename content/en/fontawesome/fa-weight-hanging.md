@@ -1,7 +1,7 @@
 
 +++
 title='Weight-Hanging font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Weight-Hanging font awesome icon CSS class is fa-weight-hanging & CSS Content Code is  \f5cd'
+summary = 'Weight-Hanging font awesome icon CSS class is fa-weight-hanging & CSS Content Code is f5cd'
 keywords =['Weight-Hanging, \f5cd,fa-weight-hanging']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

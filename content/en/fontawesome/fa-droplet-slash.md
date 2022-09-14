@@ -1,7 +1,7 @@
 
 +++
 title='Droplet-Slash font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Droplet-Slash font awesome icon CSS class is fa-droplet-slash & CSS Content Code is  \f5c7'
+summary = 'Droplet-Slash font awesome icon CSS class is fa-droplet-slash & CSS Content Code is f5c7'
 keywords =['Droplet-Slash, \f5c7,fa-droplet-slash']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

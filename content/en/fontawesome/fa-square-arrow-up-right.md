@@ -1,7 +1,7 @@
 
 +++
 title='Square-Arrow-Up-Right font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Arrow-Up-Right font awesome icon CSS class is fa-square-arrow-up-right & CSS Content Code is  \f14c'
+summary = 'Square-Arrow-Up-Right font awesome icon CSS class is fa-square-arrow-up-right & CSS Content Code is f14c'
 keywords =['Square-Arrow-Up-Right, \f14c,fa-square-arrow-up-right']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

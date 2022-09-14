@@ -1,7 +1,7 @@
 
 +++
 title='Hands-Asl-Interpreting font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hands-Asl-Interpreting font awesome icon CSS class is fa-hands-asl-interpreting & CSS Content Code is  \f2a3'
+summary = 'Hands-Asl-Interpreting font awesome icon CSS class is fa-hands-asl-interpreting & CSS Content Code is f2a3'
 keywords =['Hands-Asl-Interpreting, \f2a3,fa-hands-asl-interpreting']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

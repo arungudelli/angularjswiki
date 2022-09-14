@@ -1,7 +1,7 @@
 
 +++
 title='Pager font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Pager font awesome icon CSS class is fa-pager & CSS Content Code is  \f815'
+summary = 'Pager font awesome icon CSS class is fa-pager & CSS Content Code is f815'
 keywords =['Pager, \f815,fa-pager']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

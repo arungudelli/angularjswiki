@@ -1,7 +1,7 @@
 
 +++
 title='First-Order font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'First-Order font awesome icon CSS class is fa-first-order & CSS Content Code is  \f2b0'
+summary = 'First-Order font awesome icon CSS class is fa-first-order & CSS Content Code is f2b0'
 keywords =['First-Order, \f2b0,fa-first-order']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

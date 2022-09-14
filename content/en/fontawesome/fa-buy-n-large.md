@@ -1,7 +1,7 @@
 
 +++
 title='Buy-N-Large font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Buy-N-Large font awesome icon CSS class is fa-buy-n-large & CSS Content Code is  \f8a6'
+summary = 'Buy-N-Large font awesome icon CSS class is fa-buy-n-large & CSS Content Code is f8a6'
 keywords =['Buy-N-Large, \f8a6,fa-buy-n-large']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

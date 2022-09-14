@@ -1,7 +1,7 @@
 
 +++
 title='Clover font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Clover font awesome icon CSS class is fa-clover & CSS Content Code is  \e139'
+summary = 'Clover font awesome icon CSS class is fa-clover & CSS Content Code is e139'
 keywords =['Clover, \e139,fa-clover']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

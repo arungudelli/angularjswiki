@@ -1,7 +1,7 @@
 
 +++
 title='Percent font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Percent font awesome icon CSS class is fa-percent & CSS Content Code is  \25'
+summary = 'Percent font awesome icon CSS class is fa-percent & CSS Content Code is 25'
 keywords =['Percent, \25,fa-percent']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

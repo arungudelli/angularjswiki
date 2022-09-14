@@ -1,7 +1,7 @@
 
 +++
 title='Amazon font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Amazon font awesome icon CSS class is fa-amazon & CSS Content Code is  \f270'
+summary = 'Amazon font awesome icon CSS class is fa-amazon & CSS Content Code is f270'
 keywords =['Amazon, \f270,fa-amazon']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Republican font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Republican font awesome icon CSS class is fa-republican & CSS Content Code is  \f75e'
+summary = 'Republican font awesome icon CSS class is fa-republican & CSS Content Code is f75e'
 keywords =['Republican, \f75e,fa-republican']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

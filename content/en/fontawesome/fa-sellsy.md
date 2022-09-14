@@ -1,7 +1,7 @@
 
 +++
 title='Sellsy font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Sellsy font awesome icon CSS class is fa-sellsy & CSS Content Code is  \f213'
+summary = 'Sellsy font awesome icon CSS class is fa-sellsy & CSS Content Code is f213'
 keywords =['Sellsy, \f213,fa-sellsy']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

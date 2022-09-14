@@ -1,7 +1,7 @@
 
 +++
 title='Atom font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Atom font awesome icon CSS class is fa-atom & CSS Content Code is  \f5d2'
+summary = 'Atom font awesome icon CSS class is fa-atom & CSS Content Code is f5d2'
 keywords =['Atom, \f5d2,fa-atom']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

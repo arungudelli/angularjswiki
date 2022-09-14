@@ -1,7 +1,7 @@
 
 +++
 title='Snapchat font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Snapchat font awesome icon CSS class is fa-snapchat & CSS Content Code is  \f2ab'
+summary = 'Snapchat font awesome icon CSS class is fa-snapchat & CSS Content Code is f2ab'
 keywords =['Snapchat, \f2ab,fa-snapchat']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Ankh font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ankh font awesome icon CSS class is fa-ankh & CSS Content Code is  \f644'
+summary = 'Ankh font awesome icon CSS class is fa-ankh & CSS Content Code is f644'
 keywords =['Ankh, \f644,fa-ankh']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

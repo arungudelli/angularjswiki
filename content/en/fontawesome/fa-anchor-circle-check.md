@@ -1,7 +1,7 @@
 
 +++
 title='Anchor-Circle-Check font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Anchor-Circle-Check font awesome icon CSS class is fa-anchor-circle-check & CSS Content Code is  \e4aa'
+summary = 'Anchor-Circle-Check font awesome icon CSS class is fa-anchor-circle-check & CSS Content Code is e4aa'
 keywords =['Anchor-Circle-Check, \e4aa,fa-anchor-circle-check']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

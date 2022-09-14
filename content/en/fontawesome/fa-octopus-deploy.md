@@ -1,7 +1,7 @@
 
 +++
 title='Octopus-Deploy font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Octopus-Deploy font awesome icon CSS class is fa-octopus-deploy & CSS Content Code is  \e082'
+summary = 'Octopus-Deploy font awesome icon CSS class is fa-octopus-deploy & CSS Content Code is e082'
 keywords =['Octopus-Deploy, \e082,fa-octopus-deploy']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

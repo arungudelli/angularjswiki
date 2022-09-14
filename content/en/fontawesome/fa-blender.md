@@ -1,7 +1,7 @@
 
 +++
 title='Blender font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Blender font awesome icon CSS class is fa-blender & CSS Content Code is  \f517'
+summary = 'Blender font awesome icon CSS class is fa-blender & CSS Content Code is f517'
 keywords =['Blender, \f517,fa-blender']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

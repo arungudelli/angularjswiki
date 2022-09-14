@@ -1,7 +1,7 @@
 
 +++
 title='User-Secret font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'User-Secret font awesome icon CSS class is fa-user-secret & CSS Content Code is  \f21b'
+summary = 'User-Secret font awesome icon CSS class is fa-user-secret & CSS Content Code is f21b'
 keywords =['User-Secret, \f21b,fa-user-secret']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

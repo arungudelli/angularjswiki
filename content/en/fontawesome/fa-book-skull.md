@@ -1,7 +1,7 @@
 
 +++
 title='Book-Skull font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Book-Skull font awesome icon CSS class is fa-book-skull & CSS Content Code is  \f6b7'
+summary = 'Book-Skull font awesome icon CSS class is fa-book-skull & CSS Content Code is f6b7'
 keywords =['Book-Skull, \f6b7,fa-book-skull']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

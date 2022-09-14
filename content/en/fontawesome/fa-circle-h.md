@@ -1,7 +1,7 @@
 
 +++
 title='Circle-H font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Circle-H font awesome icon CSS class is fa-circle-h & CSS Content Code is  \f47e'
+summary = 'Circle-H font awesome icon CSS class is fa-circle-h & CSS Content Code is f47e'
 keywords =['Circle-H, \f47e,fa-circle-h']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

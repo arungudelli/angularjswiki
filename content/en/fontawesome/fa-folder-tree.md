@@ -1,7 +1,7 @@
 
 +++
 title='Folder-Tree font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Folder-Tree font awesome icon CSS class is fa-folder-tree & CSS Content Code is  \f802'
+summary = 'Folder-Tree font awesome icon CSS class is fa-folder-tree & CSS Content Code is f802'
 keywords =['Folder-Tree, \f802,fa-folder-tree']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

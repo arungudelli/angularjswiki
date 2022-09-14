@@ -1,7 +1,7 @@
 
 +++
 title='Nutritionix font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Nutritionix font awesome icon CSS class is fa-nutritionix & CSS Content Code is  \f3d6'
+summary = 'Nutritionix font awesome icon CSS class is fa-nutritionix & CSS Content Code is f3d6'
 keywords =['Nutritionix, \f3d6,fa-nutritionix']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

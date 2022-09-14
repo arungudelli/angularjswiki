@@ -1,7 +1,7 @@
 
 +++
 title='People-Carry-Box font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'People-Carry-Box font awesome icon CSS class is fa-people-carry-box & CSS Content Code is  \f4ce'
+summary = 'People-Carry-Box font awesome icon CSS class is fa-people-carry-box & CSS Content Code is f4ce'
 keywords =['People-Carry-Box, \f4ce,fa-people-carry-box']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

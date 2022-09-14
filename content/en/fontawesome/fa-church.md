@@ -1,7 +1,7 @@
 
 +++
 title='Church font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Church font awesome icon CSS class is fa-church & CSS Content Code is  \f51d'
+summary = 'Church font awesome icon CSS class is fa-church & CSS Content Code is f51d'
 keywords =['Church, \f51d,fa-church']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

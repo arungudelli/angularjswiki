@@ -1,7 +1,7 @@
 
 +++
 title='Folder-Closed font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Folder-Closed font awesome icon CSS class is fa-folder-closed & CSS Content Code is  \e185'
+summary = 'Folder-Closed font awesome icon CSS class is fa-folder-closed & CSS Content Code is e185'
 keywords =['Folder-Closed, \e185,fa-folder-closed']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

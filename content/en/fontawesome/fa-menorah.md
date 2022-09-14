@@ -1,7 +1,7 @@
 
 +++
 title='Menorah font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Menorah font awesome icon CSS class is fa-menorah & CSS Content Code is  \f676'
+summary = 'Menorah font awesome icon CSS class is fa-menorah & CSS Content Code is f676'
 keywords =['Menorah, \f676,fa-menorah']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

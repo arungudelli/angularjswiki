@@ -1,7 +1,7 @@
 
 +++
 title='Pen-Fancy font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Pen-Fancy font awesome icon CSS class is fa-pen-fancy & CSS Content Code is  \f5ac'
+summary = 'Pen-Fancy font awesome icon CSS class is fa-pen-fancy & CSS Content Code is f5ac'
 keywords =['Pen-Fancy, \f5ac,fa-pen-fancy']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Plane-Arrival font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Plane-Arrival font awesome icon CSS class is fa-plane-arrival & CSS Content Code is  \f5af'
+summary = 'Plane-Arrival font awesome icon CSS class is fa-plane-arrival & CSS Content Code is f5af'
 keywords =['Plane-Arrival, \f5af,fa-plane-arrival']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

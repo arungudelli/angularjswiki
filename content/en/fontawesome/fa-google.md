@@ -1,7 +1,7 @@
 
 +++
 title='Google font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Google font awesome icon CSS class is fa-google & CSS Content Code is  \f1a0'
+summary = 'Google font awesome icon CSS class is fa-google & CSS Content Code is f1a0'
 keywords =['Google, \f1a0,fa-google']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

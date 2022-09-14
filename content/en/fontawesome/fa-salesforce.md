@@ -1,7 +1,7 @@
 
 +++
 title='Salesforce font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Salesforce font awesome icon CSS class is fa-salesforce & CSS Content Code is  \f83b'
+summary = 'Salesforce font awesome icon CSS class is fa-salesforce & CSS Content Code is f83b'
 keywords =['Salesforce, \f83b,fa-salesforce']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

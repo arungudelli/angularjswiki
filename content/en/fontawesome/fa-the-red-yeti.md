@@ -1,7 +1,7 @@
 
 +++
 title='The-Red-Yeti font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'The-Red-Yeti font awesome icon CSS class is fa-the-red-yeti & CSS Content Code is  \f69d'
+summary = 'The-Red-Yeti font awesome icon CSS class is fa-the-red-yeti & CSS Content Code is f69d'
 keywords =['The-Red-Yeti, \f69d,fa-the-red-yeti']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

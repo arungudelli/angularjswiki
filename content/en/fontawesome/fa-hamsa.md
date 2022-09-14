@@ -1,7 +1,7 @@
 
 +++
 title='Hamsa font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hamsa font awesome icon CSS class is fa-hamsa & CSS Content Code is  \f665'
+summary = 'Hamsa font awesome icon CSS class is fa-hamsa & CSS Content Code is f665'
 keywords =['Hamsa, \f665,fa-hamsa']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

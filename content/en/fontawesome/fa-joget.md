@@ -1,7 +1,7 @@
 
 +++
 title='Joget font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Joget font awesome icon CSS class is fa-joget & CSS Content Code is  \f3b7'
+summary = 'Joget font awesome icon CSS class is fa-joget & CSS Content Code is f3b7'
 keywords =['Joget, \f3b7,fa-joget']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

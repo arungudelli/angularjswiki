@@ -1,7 +1,7 @@
 
 +++
 title='Bezier-Curve font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bezier-Curve font awesome icon CSS class is fa-bezier-curve & CSS Content Code is  \f55b'
+summary = 'Bezier-Curve font awesome icon CSS class is fa-bezier-curve & CSS Content Code is f55b'
 keywords =['Bezier-Curve, \f55b,fa-bezier-curve']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

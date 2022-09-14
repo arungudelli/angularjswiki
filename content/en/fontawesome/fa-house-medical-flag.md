@@ -1,7 +1,7 @@
 
 +++
 title='House-Medical-Flag font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'House-Medical-Flag font awesome icon CSS class is fa-house-medical-flag & CSS Content Code is  \e514'
+summary = 'House-Medical-Flag font awesome icon CSS class is fa-house-medical-flag & CSS Content Code is e514'
 keywords =['House-Medical-Flag, \e514,fa-house-medical-flag']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

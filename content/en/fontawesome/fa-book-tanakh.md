@@ -1,7 +1,7 @@
 
 +++
 title='Book-Tanakh font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Book-Tanakh font awesome icon CSS class is fa-book-tanakh & CSS Content Code is  \f827'
+summary = 'Book-Tanakh font awesome icon CSS class is fa-book-tanakh & CSS Content Code is f827'
 keywords =['Book-Tanakh, \f827,fa-book-tanakh']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

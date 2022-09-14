@@ -1,7 +1,7 @@
 
 +++
 title='Staff-Snake font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Staff-Snake font awesome icon CSS class is fa-staff-snake & CSS Content Code is  \e579'
+summary = 'Staff-Snake font awesome icon CSS class is fa-staff-snake & CSS Content Code is e579'
 keywords =['Staff-Snake, \e579,fa-staff-snake']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

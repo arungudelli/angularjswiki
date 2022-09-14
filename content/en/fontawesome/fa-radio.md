@@ -1,7 +1,7 @@
 
 +++
 title='Radio font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Radio font awesome icon CSS class is fa-radio & CSS Content Code is  \f8d7'
+summary = 'Radio font awesome icon CSS class is fa-radio & CSS Content Code is f8d7'
 keywords =['Radio, \f8d7,fa-radio']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Uikit font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Uikit font awesome icon CSS class is fa-uikit & CSS Content Code is  \f403'
+summary = 'Uikit font awesome icon CSS class is fa-uikit & CSS Content Code is f403'
 keywords =['Uikit, \f403,fa-uikit']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

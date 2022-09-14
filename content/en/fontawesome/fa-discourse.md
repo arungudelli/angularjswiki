@@ -1,7 +1,7 @@
 
 +++
 title='Discourse font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Discourse font awesome icon CSS class is fa-discourse & CSS Content Code is  \f393'
+summary = 'Discourse font awesome icon CSS class is fa-discourse & CSS Content Code is f393'
 keywords =['Discourse, \f393,fa-discourse']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

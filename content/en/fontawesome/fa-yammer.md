@@ -1,7 +1,7 @@
 
 +++
 title='Yammer font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Yammer font awesome icon CSS class is fa-yammer & CSS Content Code is  \f840'
+summary = 'Yammer font awesome icon CSS class is fa-yammer & CSS Content Code is f840'
 keywords =['Yammer, \f840,fa-yammer']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

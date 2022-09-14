@@ -1,7 +1,7 @@
 
 +++
 title='Arrows-Spin font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Arrows-Spin font awesome icon CSS class is fa-arrows-spin & CSS Content Code is  \e4bb'
+summary = 'Arrows-Spin font awesome icon CSS class is fa-arrows-spin & CSS Content Code is e4bb'
 keywords =['Arrows-Spin, \e4bb,fa-arrows-spin']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

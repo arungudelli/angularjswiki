@@ -1,7 +1,7 @@
 
 +++
 title='Adversal font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Adversal font awesome icon CSS class is fa-adversal & CSS Content Code is  \f36a'
+summary = 'Adversal font awesome icon CSS class is fa-adversal & CSS Content Code is f36a'
 keywords =['Adversal, \f36a,fa-adversal']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

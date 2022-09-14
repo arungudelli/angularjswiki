@@ -1,7 +1,7 @@
 
 +++
 title='R-Project font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'R-Project font awesome icon CSS class is fa-r-project & CSS Content Code is  \f4f7'
+summary = 'R-Project font awesome icon CSS class is fa-r-project & CSS Content Code is f4f7'
 keywords =['R-Project, \f4f7,fa-r-project']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

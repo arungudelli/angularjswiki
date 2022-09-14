@@ -1,7 +1,7 @@
 
 +++
 title='Icicles font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Icicles font awesome icon CSS class is fa-icicles & CSS Content Code is  \f7ad'
+summary = 'Icicles font awesome icon CSS class is fa-icicles & CSS Content Code is f7ad'
 keywords =['Icicles, \f7ad,fa-icicles']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

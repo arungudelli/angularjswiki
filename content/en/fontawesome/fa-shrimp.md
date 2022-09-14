@@ -1,7 +1,7 @@
 
 +++
 title='Shrimp font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Shrimp font awesome icon CSS class is fa-shrimp & CSS Content Code is  \e448'
+summary = 'Shrimp font awesome icon CSS class is fa-shrimp & CSS Content Code is e448'
 keywords =['Shrimp, \e448,fa-shrimp']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

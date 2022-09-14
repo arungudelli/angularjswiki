@@ -1,7 +1,7 @@
 
 +++
 title='Wodu font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Wodu font awesome icon CSS class is fa-wodu & CSS Content Code is  \e088'
+summary = 'Wodu font awesome icon CSS class is fa-wodu & CSS Content Code is e088'
 keywords =['Wodu, \e088,fa-wodu']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

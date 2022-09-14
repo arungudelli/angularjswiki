@@ -1,7 +1,7 @@
 
 +++
 title='Underline font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Underline font awesome icon CSS class is fa-underline & CSS Content Code is  \f0cd'
+summary = 'Underline font awesome icon CSS class is fa-underline & CSS Content Code is f0cd'
 keywords =['Underline, \f0cd,fa-underline']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

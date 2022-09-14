@@ -1,7 +1,7 @@
 
 +++
 title='Arrows-Split-Up-And-Left font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Arrows-Split-Up-And-Left font awesome icon CSS class is fa-arrows-split-up-and-left & CSS Content Code is  \e4bc'
+summary = 'Arrows-Split-Up-And-Left font awesome icon CSS class is fa-arrows-split-up-and-left & CSS Content Code is e4bc'
 keywords =['Arrows-Split-Up-And-Left, \e4bc,fa-arrows-split-up-and-left']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

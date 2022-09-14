@@ -1,7 +1,7 @@
 
 +++
 title='Guitar font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Guitar font awesome icon CSS class is fa-guitar & CSS Content Code is  \f7a6'
+summary = 'Guitar font awesome icon CSS class is fa-guitar & CSS Content Code is f7a6'
 keywords =['Guitar, \f7a6,fa-guitar']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

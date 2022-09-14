@@ -1,7 +1,7 @@
 
 +++
 title='Hands-Praying font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hands-Praying font awesome icon CSS class is fa-hands-praying & CSS Content Code is  \f684'
+summary = 'Hands-Praying font awesome icon CSS class is fa-hands-praying & CSS Content Code is f684'
 keywords =['Hands-Praying, \f684,fa-hands-praying']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

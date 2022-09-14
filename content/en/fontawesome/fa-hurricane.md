@@ -1,7 +1,7 @@
 
 +++
 title='Hurricane font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hurricane font awesome icon CSS class is fa-hurricane & CSS Content Code is  \f751'
+summary = 'Hurricane font awesome icon CSS class is fa-hurricane & CSS Content Code is f751'
 keywords =['Hurricane, \f751,fa-hurricane']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

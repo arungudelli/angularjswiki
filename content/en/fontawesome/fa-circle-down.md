@@ -1,7 +1,7 @@
 
 +++
 title='Circle-Down font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Circle-Down font awesome icon CSS class is fa-circle-down & CSS Content Code is  \f358'
+summary = 'Circle-Down font awesome icon CSS class is fa-circle-down & CSS Content Code is f358'
 keywords =['Circle-Down, \f358,fa-circle-down']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

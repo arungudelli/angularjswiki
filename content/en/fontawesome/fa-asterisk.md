@@ -1,7 +1,7 @@
 
 +++
 title='Asterisk font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Asterisk font awesome icon CSS class is fa-asterisk & CSS Content Code is  \2a'
+summary = 'Asterisk font awesome icon CSS class is fa-asterisk & CSS Content Code is 2a'
 keywords =['Asterisk, \2a,fa-asterisk']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

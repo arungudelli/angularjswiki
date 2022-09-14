@@ -1,7 +1,7 @@
 
 +++
 title='Paperclip font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Paperclip font awesome icon CSS class is fa-paperclip & CSS Content Code is  \f0c6'
+summary = 'Paperclip font awesome icon CSS class is fa-paperclip & CSS Content Code is f0c6'
 keywords =['Paperclip, \f0c6,fa-paperclip']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Guilded font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Guilded font awesome icon CSS class is fa-guilded & CSS Content Code is  \e07e'
+summary = 'Guilded font awesome icon CSS class is fa-guilded & CSS Content Code is e07e'
 keywords =['Guilded, \e07e,fa-guilded']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

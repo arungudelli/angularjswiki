@@ -1,7 +1,7 @@
 
 +++
 title='Hubspot font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hubspot font awesome icon CSS class is fa-hubspot & CSS Content Code is  \f3b2'
+summary = 'Hubspot font awesome icon CSS class is fa-hubspot & CSS Content Code is f3b2'
 keywords =['Hubspot, \f3b2,fa-hubspot']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

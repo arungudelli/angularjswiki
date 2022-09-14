@@ -1,7 +1,7 @@
 
 +++
 title='Subscript font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Subscript font awesome icon CSS class is fa-subscript & CSS Content Code is  \f12c'
+summary = 'Subscript font awesome icon CSS class is fa-subscript & CSS Content Code is f12c'
 keywords =['Subscript, \f12c,fa-subscript']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

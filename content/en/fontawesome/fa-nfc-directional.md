@@ -1,7 +1,7 @@
 
 +++
 title='Nfc-Directional font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Nfc-Directional font awesome icon CSS class is fa-nfc-directional & CSS Content Code is  \e530'
+summary = 'Nfc-Directional font awesome icon CSS class is fa-nfc-directional & CSS Content Code is e530'
 keywords =['Nfc-Directional, \e530,fa-nfc-directional']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

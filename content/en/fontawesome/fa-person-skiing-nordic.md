@@ -1,7 +1,7 @@
 
 +++
 title='Person-Skiing-Nordic font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Skiing-Nordic font awesome icon CSS class is fa-person-skiing-nordic & CSS Content Code is  \f7ca'
+summary = 'Person-Skiing-Nordic font awesome icon CSS class is fa-person-skiing-nordic & CSS Content Code is f7ca'
 keywords =['Person-Skiing-Nordic, \f7ca,fa-person-skiing-nordic']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

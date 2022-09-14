@@ -1,7 +1,7 @@
 
 +++
 title='Building-Circle-Xmark font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Building-Circle-Xmark font awesome icon CSS class is fa-building-circle-xmark & CSS Content Code is  \e4d4'
+summary = 'Building-Circle-Xmark font awesome icon CSS class is fa-building-circle-xmark & CSS Content Code is e4d4'
 keywords =['Building-Circle-Xmark, \e4d4,fa-building-circle-xmark']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Google-Drive font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Google-Drive font awesome icon CSS class is fa-google-drive & CSS Content Code is  \f3aa'
+summary = 'Google-Drive font awesome icon CSS class is fa-google-drive & CSS Content Code is f3aa'
 keywords =['Google-Drive, \f3aa,fa-google-drive']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

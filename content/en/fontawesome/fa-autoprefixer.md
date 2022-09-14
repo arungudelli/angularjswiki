@@ -1,7 +1,7 @@
 
 +++
 title='Autoprefixer font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Autoprefixer font awesome icon CSS class is fa-autoprefixer & CSS Content Code is  \f41c'
+summary = 'Autoprefixer font awesome icon CSS class is fa-autoprefixer & CSS Content Code is f41c'
 keywords =['Autoprefixer, \f41c,fa-autoprefixer']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Megaport font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Megaport font awesome icon CSS class is fa-megaport & CSS Content Code is  \f5a3'
+summary = 'Megaport font awesome icon CSS class is fa-megaport & CSS Content Code is f5a3'
 keywords =['Megaport, \f5a3,fa-megaport']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

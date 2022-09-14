@@ -1,7 +1,7 @@
 
 +++
 title='Earth-Europe font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Earth-Europe font awesome icon CSS class is fa-earth-europe & CSS Content Code is  \f7a2'
+summary = 'Earth-Europe font awesome icon CSS class is fa-earth-europe & CSS Content Code is f7a2'
 keywords =['Earth-Europe, \f7a2,fa-earth-europe']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

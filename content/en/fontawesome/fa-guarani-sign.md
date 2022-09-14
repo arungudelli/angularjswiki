@@ -1,7 +1,7 @@
 
 +++
 title='Guarani-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Guarani-Sign font awesome icon CSS class is fa-guarani-sign & CSS Content Code is  \e19a'
+summary = 'Guarani-Sign font awesome icon CSS class is fa-guarani-sign & CSS Content Code is e19a'
 keywords =['Guarani-Sign, \e19a,fa-guarani-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Microblog font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Microblog font awesome icon CSS class is fa-microblog & CSS Content Code is  \e01a'
+summary = 'Microblog font awesome icon CSS class is fa-microblog & CSS Content Code is e01a'
 keywords =['Microblog, \e01a,fa-microblog']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

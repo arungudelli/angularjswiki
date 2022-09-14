@@ -1,7 +1,7 @@
 
 +++
 title='Symfony font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Symfony font awesome icon CSS class is fa-symfony & CSS Content Code is  \f83d'
+summary = 'Symfony font awesome icon CSS class is fa-symfony & CSS Content Code is f83d'
 keywords =['Symfony, \f83d,fa-symfony']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

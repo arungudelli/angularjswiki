@@ -1,7 +1,7 @@
 
 +++
 title='House-Tsunami font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'House-Tsunami font awesome icon CSS class is fa-house-tsunami & CSS Content Code is  \e515'
+summary = 'House-Tsunami font awesome icon CSS class is fa-house-tsunami & CSS Content Code is e515'
 keywords =['House-Tsunami, \e515,fa-house-tsunami']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Martini-Glass-Empty font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Martini-Glass-Empty font awesome icon CSS class is fa-martini-glass-empty & CSS Content Code is  \f000'
+summary = 'Martini-Glass-Empty font awesome icon CSS class is fa-martini-glass-empty & CSS Content Code is f000'
 keywords =['Martini-Glass-Empty, \f000,fa-martini-glass-empty']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

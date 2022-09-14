@@ -1,7 +1,7 @@
 
 +++
 title='Vest-Patches font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Vest-Patches font awesome icon CSS class is fa-vest-patches & CSS Content Code is  \e086'
+summary = 'Vest-Patches font awesome icon CSS class is fa-vest-patches & CSS Content Code is e086'
 keywords =['Vest-Patches, \e086,fa-vest-patches']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

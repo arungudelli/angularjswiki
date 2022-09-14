@@ -1,7 +1,7 @@
 
 +++
 title='Aviato font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Aviato font awesome icon CSS class is fa-aviato & CSS Content Code is  \f421'
+summary = 'Aviato font awesome icon CSS class is fa-aviato & CSS Content Code is f421'
 keywords =['Aviato, \f421,fa-aviato']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

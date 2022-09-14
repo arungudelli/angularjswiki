@@ -1,7 +1,7 @@
 
 +++
 title='Sink font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Sink font awesome icon CSS class is fa-sink & CSS Content Code is  \e06d'
+summary = 'Sink font awesome icon CSS class is fa-sink & CSS Content Code is e06d'
 keywords =['Sink, \e06d,fa-sink']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

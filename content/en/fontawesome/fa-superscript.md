@@ -1,7 +1,7 @@
 
 +++
 title='Superscript font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Superscript font awesome icon CSS class is fa-superscript & CSS Content Code is  \f12b'
+summary = 'Superscript font awesome icon CSS class is fa-superscript & CSS Content Code is f12b'
 keywords =['Superscript, \f12b,fa-superscript']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

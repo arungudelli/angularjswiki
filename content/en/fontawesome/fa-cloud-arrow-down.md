@@ -1,7 +1,7 @@
 
 +++
 title='Cloud-Arrow-Down font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cloud-Arrow-Down font awesome icon CSS class is fa-cloud-arrow-down & CSS Content Code is  \f0ed'
+summary = 'Cloud-Arrow-Down font awesome icon CSS class is fa-cloud-arrow-down & CSS Content Code is f0ed'
 keywords =['Cloud-Arrow-Down, \f0ed,fa-cloud-arrow-down']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

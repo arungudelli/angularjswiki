@@ -1,7 +1,7 @@
 
 +++
 title='Sim-Card font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Sim-Card font awesome icon CSS class is fa-sim-card & CSS Content Code is  \f7c4'
+summary = 'Sim-Card font awesome icon CSS class is fa-sim-card & CSS Content Code is f7c4'
 keywords =['Sim-Card, \f7c4,fa-sim-card']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Life-Ring font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Life-Ring font awesome icon CSS class is fa-life-ring & CSS Content Code is  \f1cd'
+summary = 'Life-Ring font awesome icon CSS class is fa-life-ring & CSS Content Code is f1cd'
 keywords =['Life-Ring, \f1cd,fa-life-ring']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Equals font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Equals font awesome icon CSS class is fa-equals & CSS Content Code is  \3d'
+summary = 'Equals font awesome icon CSS class is fa-equals & CSS Content Code is 3d'
 keywords =['Equals, \3d,fa-equals']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

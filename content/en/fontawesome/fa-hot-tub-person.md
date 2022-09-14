@@ -1,7 +1,7 @@
 
 +++
 title='Hot-Tub-Person font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hot-Tub-Person font awesome icon CSS class is fa-hot-tub-person & CSS Content Code is  \f593'
+summary = 'Hot-Tub-Person font awesome icon CSS class is fa-hot-tub-person & CSS Content Code is f593'
 keywords =['Hot-Tub-Person, \f593,fa-hot-tub-person']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Tarp-Droplet font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Tarp-Droplet font awesome icon CSS class is fa-tarp-droplet & CSS Content Code is  \e57c'
+summary = 'Tarp-Droplet font awesome icon CSS class is fa-tarp-droplet & CSS Content Code is e57c'
 keywords =['Tarp-Droplet, \e57c,fa-tarp-droplet']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

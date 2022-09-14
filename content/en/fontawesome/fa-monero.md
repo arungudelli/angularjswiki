@@ -1,7 +1,7 @@
 
 +++
 title='Monero font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Monero font awesome icon CSS class is fa-monero & CSS Content Code is  \f3d0'
+summary = 'Monero font awesome icon CSS class is fa-monero & CSS Content Code is f3d0'
 keywords =['Monero, \f3d0,fa-monero']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

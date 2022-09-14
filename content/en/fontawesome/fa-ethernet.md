@@ -1,7 +1,7 @@
 
 +++
 title='Ethernet font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ethernet font awesome icon CSS class is fa-ethernet & CSS Content Code is  \f796'
+summary = 'Ethernet font awesome icon CSS class is fa-ethernet & CSS Content Code is f796'
 keywords =['Ethernet, \f796,fa-ethernet']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

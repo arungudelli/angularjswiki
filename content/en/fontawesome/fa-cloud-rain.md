@@ -1,7 +1,7 @@
 
 +++
 title='Cloud-Rain font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cloud-Rain font awesome icon CSS class is fa-cloud-rain & CSS Content Code is  \f73d'
+summary = 'Cloud-Rain font awesome icon CSS class is fa-cloud-rain & CSS Content Code is f73d'
 keywords =['Cloud-Rain, \f73d,fa-cloud-rain']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

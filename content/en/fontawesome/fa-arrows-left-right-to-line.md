@@ -1,7 +1,7 @@
 
 +++
 title='Arrows-Left-Right-To-Line font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Arrows-Left-Right-To-Line font awesome icon CSS class is fa-arrows-left-right-to-line & CSS Content Code is  \e4ba'
+summary = 'Arrows-Left-Right-To-Line font awesome icon CSS class is fa-arrows-left-right-to-line & CSS Content Code is e4ba'
 keywords =['Arrows-Left-Right-To-Line, \e4ba,fa-arrows-left-right-to-line']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

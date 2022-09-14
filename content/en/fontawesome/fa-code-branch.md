@@ -1,7 +1,7 @@
 
 +++
 title='Code-Branch font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Code-Branch font awesome icon CSS class is fa-code-branch & CSS Content Code is  \f126'
+summary = 'Code-Branch font awesome icon CSS class is fa-code-branch & CSS Content Code is f126'
 keywords =['Code-Branch, \f126,fa-code-branch']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

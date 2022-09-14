@@ -1,7 +1,7 @@
 
 +++
 title='Twitter font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Twitter font awesome icon CSS class is fa-twitter & CSS Content Code is  \f099'
+summary = 'Twitter font awesome icon CSS class is fa-twitter & CSS Content Code is f099'
 keywords =['Twitter, \f099,fa-twitter']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

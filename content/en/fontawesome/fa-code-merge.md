@@ -1,7 +1,7 @@
 
 +++
 title='Code-Merge font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Code-Merge font awesome icon CSS class is fa-code-merge & CSS Content Code is  \f387'
+summary = 'Code-Merge font awesome icon CSS class is fa-code-merge & CSS Content Code is f387'
 keywords =['Code-Merge, \f387,fa-code-merge']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

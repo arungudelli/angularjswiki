@@ -1,7 +1,7 @@
 
 +++
 title='Turn-Down font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Turn-Down font awesome icon CSS class is fa-turn-down & CSS Content Code is  \f3be'
+summary = 'Turn-Down font awesome icon CSS class is fa-turn-down & CSS Content Code is f3be'
 keywords =['Turn-Down, \f3be,fa-turn-down']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

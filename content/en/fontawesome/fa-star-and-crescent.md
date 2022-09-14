@@ -1,7 +1,7 @@
 
 +++
 title='Star-And-Crescent font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Star-And-Crescent font awesome icon CSS class is fa-star-and-crescent & CSS Content Code is  \f699'
+summary = 'Star-And-Crescent font awesome icon CSS class is fa-star-and-crescent & CSS Content Code is f699'
 keywords =['Star-And-Crescent, \f699,fa-star-and-crescent']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

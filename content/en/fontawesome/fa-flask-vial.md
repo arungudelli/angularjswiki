@@ -1,7 +1,7 @@
 
 +++
 title='Flask-Vial font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Flask-Vial font awesome icon CSS class is fa-flask-vial & CSS Content Code is  \e4f3'
+summary = 'Flask-Vial font awesome icon CSS class is fa-flask-vial & CSS Content Code is e4f3'
 keywords =['Flask-Vial, \e4f3,fa-flask-vial']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

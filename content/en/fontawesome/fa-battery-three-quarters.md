@@ -1,7 +1,7 @@
 
 +++
 title='Battery-Three-Quarters font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Battery-Three-Quarters font awesome icon CSS class is fa-battery-three-quarters & CSS Content Code is  \f241'
+summary = 'Battery-Three-Quarters font awesome icon CSS class is fa-battery-three-quarters & CSS Content Code is f241'
 keywords =['Battery-Three-Quarters, \f241,fa-battery-three-quarters']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Person-Breastfeeding font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Breastfeeding font awesome icon CSS class is fa-person-breastfeeding & CSS Content Code is  \e53a'
+summary = 'Person-Breastfeeding font awesome icon CSS class is fa-person-breastfeeding & CSS Content Code is e53a'
 keywords =['Person-Breastfeeding, \e53a,fa-person-breastfeeding']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

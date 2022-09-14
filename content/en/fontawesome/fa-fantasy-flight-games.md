@@ -1,7 +1,7 @@
 
 +++
 title='Fantasy-Flight-Games font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Fantasy-Flight-Games font awesome icon CSS class is fa-fantasy-flight-games & CSS Content Code is  \f6dc'
+summary = 'Fantasy-Flight-Games font awesome icon CSS class is fa-fantasy-flight-games & CSS Content Code is f6dc'
 keywords =['Fantasy-Flight-Games, \f6dc,fa-fantasy-flight-games']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

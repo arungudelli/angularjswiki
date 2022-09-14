@@ -1,7 +1,7 @@
 
 +++
 title='Backward font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Backward font awesome icon CSS class is fa-backward & CSS Content Code is  \f04a'
+summary = 'Backward font awesome icon CSS class is fa-backward & CSS Content Code is f04a'
 keywords =['Backward, \f04a,fa-backward']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

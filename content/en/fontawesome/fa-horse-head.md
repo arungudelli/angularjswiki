@@ -1,7 +1,7 @@
 
 +++
 title='Horse-Head font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Horse-Head font awesome icon CSS class is fa-horse-head & CSS Content Code is  \f7ab'
+summary = 'Horse-Head font awesome icon CSS class is fa-horse-head & CSS Content Code is f7ab'
 keywords =['Horse-Head, \f7ab,fa-horse-head']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

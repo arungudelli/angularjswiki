@@ -1,7 +1,7 @@
 
 +++
 title='Draft2digital font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Draft2digital font awesome icon CSS class is fa-draft2digital & CSS Content Code is  \f396'
+summary = 'Draft2digital font awesome icon CSS class is fa-draft2digital & CSS Content Code is f396'
 keywords =['Draft2digital, \f396,fa-draft2digital']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

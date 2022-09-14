@@ -1,7 +1,7 @@
 
 +++
 title='Mountain font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mountain font awesome icon CSS class is fa-mountain & CSS Content Code is  \f6fc'
+summary = 'Mountain font awesome icon CSS class is fa-mountain & CSS Content Code is f6fc'
 keywords =['Mountain, \f6fc,fa-mountain']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

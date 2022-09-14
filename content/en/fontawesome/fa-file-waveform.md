@@ -1,7 +1,7 @@
 
 +++
 title='File-Waveform font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'File-Waveform font awesome icon CSS class is fa-file-waveform & CSS Content Code is  \f478'
+summary = 'File-Waveform font awesome icon CSS class is fa-file-waveform & CSS Content Code is f478'
 keywords =['File-Waveform, \f478,fa-file-waveform']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

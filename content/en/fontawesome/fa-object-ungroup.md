@@ -1,7 +1,7 @@
 
 +++
 title='Object-Ungroup font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Object-Ungroup font awesome icon CSS class is fa-object-ungroup & CSS Content Code is  \f248'
+summary = 'Object-Ungroup font awesome icon CSS class is fa-object-ungroup & CSS Content Code is f248'
 keywords =['Object-Ungroup, \f248,fa-object-ungroup']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

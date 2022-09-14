@@ -1,7 +1,7 @@
 
 +++
 title='Person-Booth font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Booth font awesome icon CSS class is fa-person-booth & CSS Content Code is  \f756'
+summary = 'Person-Booth font awesome icon CSS class is fa-person-booth & CSS Content Code is f756'
 keywords =['Person-Booth, \f756,fa-person-booth']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

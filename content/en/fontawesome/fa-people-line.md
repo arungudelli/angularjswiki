@@ -1,7 +1,7 @@
 
 +++
 title='People-Line font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'People-Line font awesome icon CSS class is fa-people-line & CSS Content Code is  \e534'
+summary = 'People-Line font awesome icon CSS class is fa-people-line & CSS Content Code is e534'
 keywords =['People-Line, \e534,fa-people-line']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Github-Alt font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Github-Alt font awesome icon CSS class is fa-github-alt & CSS Content Code is  \f113'
+summary = 'Github-Alt font awesome icon CSS class is fa-github-alt & CSS Content Code is f113'
 keywords =['Github-Alt, \f113,fa-github-alt']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

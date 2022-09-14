@@ -1,7 +1,7 @@
 
 +++
 title='Computer font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Computer font awesome icon CSS class is fa-computer & CSS Content Code is  \e4e5'
+summary = 'Computer font awesome icon CSS class is fa-computer & CSS Content Code is e4e5'
 keywords =['Computer, \e4e5,fa-computer']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

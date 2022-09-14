@@ -1,7 +1,7 @@
 
 +++
 title='Peseta-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Peseta-Sign font awesome icon CSS class is fa-peseta-sign & CSS Content Code is  \e221'
+summary = 'Peseta-Sign font awesome icon CSS class is fa-peseta-sign & CSS Content Code is e221'
 keywords =['Peseta-Sign, \e221,fa-peseta-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Mask-Face font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mask-Face font awesome icon CSS class is fa-mask-face & CSS Content Code is  \e1d7'
+summary = 'Mask-Face font awesome icon CSS class is fa-mask-face & CSS Content Code is e1d7'
 keywords =['Mask-Face, \e1d7,fa-mask-face']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

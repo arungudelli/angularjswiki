@@ -1,7 +1,7 @@
 
 +++
 title='Building-Columns font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Building-Columns font awesome icon CSS class is fa-building-columns & CSS Content Code is  \f19c'
+summary = 'Building-Columns font awesome icon CSS class is fa-building-columns & CSS Content Code is f19c'
 keywords =['Building-Columns, \f19c,fa-building-columns']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

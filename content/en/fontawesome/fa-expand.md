@@ -1,7 +1,7 @@
 
 +++
 title='Expand font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Expand font awesome icon CSS class is fa-expand & CSS Content Code is  \f065'
+summary = 'Expand font awesome icon CSS class is fa-expand & CSS Content Code is f065'
 keywords =['Expand, \f065,fa-expand']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

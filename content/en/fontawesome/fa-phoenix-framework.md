@@ -1,7 +1,7 @@
 
 +++
 title='Phoenix-Framework font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Phoenix-Framework font awesome icon CSS class is fa-phoenix-framework & CSS Content Code is  \f3dc'
+summary = 'Phoenix-Framework font awesome icon CSS class is fa-phoenix-framework & CSS Content Code is f3dc'
 keywords =['Phoenix-Framework, \f3dc,fa-phoenix-framework']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

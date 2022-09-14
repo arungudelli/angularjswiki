@@ -1,7 +1,7 @@
 
 +++
 title='Gratipay font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Gratipay font awesome icon CSS class is fa-gratipay & CSS Content Code is  \f184'
+summary = 'Gratipay font awesome icon CSS class is fa-gratipay & CSS Content Code is f184'
 keywords =['Gratipay, \f184,fa-gratipay']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

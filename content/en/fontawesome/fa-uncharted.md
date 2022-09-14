@@ -1,7 +1,7 @@
 
 +++
 title='Uncharted font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Uncharted font awesome icon CSS class is fa-uncharted & CSS Content Code is  \e084'
+summary = 'Uncharted font awesome icon CSS class is fa-uncharted & CSS Content Code is e084'
 keywords =['Uncharted, \e084,fa-uncharted']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

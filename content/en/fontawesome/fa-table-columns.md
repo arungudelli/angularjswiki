@@ -1,7 +1,7 @@
 
 +++
 title='Table-Columns font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Table-Columns font awesome icon CSS class is fa-table-columns & CSS Content Code is  \f0db'
+summary = 'Table-Columns font awesome icon CSS class is fa-table-columns & CSS Content Code is f0db'
 keywords =['Table-Columns, \f0db,fa-table-columns']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

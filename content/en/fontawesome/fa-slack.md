@@ -1,7 +1,7 @@
 
 +++
 title='Slack font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Slack font awesome icon CSS class is fa-slack & CSS Content Code is  \f198'
+summary = 'Slack font awesome icon CSS class is fa-slack & CSS Content Code is f198'
 keywords =['Slack, \f198,fa-slack']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

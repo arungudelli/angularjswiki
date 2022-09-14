@@ -1,7 +1,7 @@
 
 +++
 title='Square-Gitlab font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Gitlab font awesome icon CSS class is fa-square-gitlab & CSS Content Code is  \e5ae'
+summary = 'Square-Gitlab font awesome icon CSS class is fa-square-gitlab & CSS Content Code is e5ae'
 keywords =['Square-Gitlab, \e5ae,fa-square-gitlab']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

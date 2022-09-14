@@ -1,7 +1,7 @@
 
 +++
 title='Joomla font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Joomla font awesome icon CSS class is fa-joomla & CSS Content Code is  \f1aa'
+summary = 'Joomla font awesome icon CSS class is fa-joomla & CSS Content Code is f1aa'
 keywords =['Joomla, \f1aa,fa-joomla']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

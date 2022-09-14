@@ -1,7 +1,7 @@
 
 +++
 title='Person-Rifle font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Rifle font awesome icon CSS class is fa-person-rifle & CSS Content Code is  \e54e'
+summary = 'Person-Rifle font awesome icon CSS class is fa-person-rifle & CSS Content Code is e54e'
 keywords =['Person-Rifle, \e54e,fa-person-rifle']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

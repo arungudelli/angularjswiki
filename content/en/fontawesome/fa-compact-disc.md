@@ -1,7 +1,7 @@
 
 +++
 title='Compact-Disc font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Compact-Disc font awesome icon CSS class is fa-compact-disc & CSS Content Code is  \f51f'
+summary = 'Compact-Disc font awesome icon CSS class is fa-compact-disc & CSS Content Code is f51f'
 keywords =['Compact-Disc, \f51f,fa-compact-disc']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

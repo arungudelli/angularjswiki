@@ -1,7 +1,7 @@
 
 +++
 title='Print font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Print font awesome icon CSS class is fa-print & CSS Content Code is  \f02f'
+summary = 'Print font awesome icon CSS class is fa-print & CSS Content Code is f02f'
 keywords =['Print, \f02f,fa-print']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

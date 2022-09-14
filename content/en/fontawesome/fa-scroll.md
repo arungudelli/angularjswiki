@@ -1,7 +1,7 @@
 
 +++
 title='Scroll font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Scroll font awesome icon CSS class is fa-scroll & CSS Content Code is  \f70e'
+summary = 'Scroll font awesome icon CSS class is fa-scroll & CSS Content Code is f70e'
 keywords =['Scroll, \f70e,fa-scroll']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

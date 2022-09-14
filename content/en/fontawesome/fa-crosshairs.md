@@ -1,7 +1,7 @@
 
 +++
 title='Crosshairs font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Crosshairs font awesome icon CSS class is fa-crosshairs & CSS Content Code is  \f05b'
+summary = 'Crosshairs font awesome icon CSS class is fa-crosshairs & CSS Content Code is f05b'
 keywords =['Crosshairs, \f05b,fa-crosshairs']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

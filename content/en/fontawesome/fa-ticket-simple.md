@@ -1,7 +1,7 @@
 
 +++
 title='Ticket-Simple font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ticket-Simple font awesome icon CSS class is fa-ticket-simple & CSS Content Code is  \f3ff'
+summary = 'Ticket-Simple font awesome icon CSS class is fa-ticket-simple & CSS Content Code is f3ff'
 keywords =['Ticket-Simple, \f3ff,fa-ticket-simple']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

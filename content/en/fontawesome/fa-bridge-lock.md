@@ -1,7 +1,7 @@
 
 +++
 title='Bridge-Lock font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bridge-Lock font awesome icon CSS class is fa-bridge-lock & CSS Content Code is  \e4cc'
+summary = 'Bridge-Lock font awesome icon CSS class is fa-bridge-lock & CSS Content Code is e4cc'
 keywords =['Bridge-Lock, \e4cc,fa-bridge-lock']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

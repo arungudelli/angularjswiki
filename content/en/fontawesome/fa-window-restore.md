@@ -1,7 +1,7 @@
 
 +++
 title='Window-Restore font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Window-Restore font awesome icon CSS class is fa-window-restore & CSS Content Code is  \f2d2'
+summary = 'Window-Restore font awesome icon CSS class is fa-window-restore & CSS Content Code is f2d2'
 keywords =['Window-Restore, \f2d2,fa-window-restore']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Whmcs font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Whmcs font awesome icon CSS class is fa-whmcs & CSS Content Code is  \f40d'
+summary = 'Whmcs font awesome icon CSS class is fa-whmcs & CSS Content Code is f40d'
 keywords =['Whmcs, \f40d,fa-whmcs']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

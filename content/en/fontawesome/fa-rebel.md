@@ -1,7 +1,7 @@
 
 +++
 title='Rebel font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Rebel font awesome icon CSS class is fa-rebel & CSS Content Code is  \f1d0'
+summary = 'Rebel font awesome icon CSS class is fa-rebel & CSS Content Code is f1d0'
 keywords =['Rebel, \f1d0,fa-rebel']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Rust font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Rust font awesome icon CSS class is fa-rust & CSS Content Code is  \e07a'
+summary = 'Rust font awesome icon CSS class is fa-rust & CSS Content Code is e07a'
 keywords =['Rust, \e07a,fa-rust']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

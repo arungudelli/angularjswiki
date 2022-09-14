@@ -1,7 +1,7 @@
 
 +++
 title='Firstdraft font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Firstdraft font awesome icon CSS class is fa-firstdraft & CSS Content Code is  \f3a1'
+summary = 'Firstdraft font awesome icon CSS class is fa-firstdraft & CSS Content Code is f3a1'
 keywords =['Firstdraft, \f3a1,fa-firstdraft']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

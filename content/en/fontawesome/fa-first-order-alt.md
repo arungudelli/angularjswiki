@@ -1,7 +1,7 @@
 
 +++
 title='First-Order-Alt font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'First-Order-Alt font awesome icon CSS class is fa-first-order-alt & CSS Content Code is  \f50a'
+summary = 'First-Order-Alt font awesome icon CSS class is fa-first-order-alt & CSS Content Code is f50a'
 keywords =['First-Order-Alt, \f50a,fa-first-order-alt']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Bolt-Lightning font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bolt-Lightning font awesome icon CSS class is fa-bolt-lightning & CSS Content Code is  \e0b7'
+summary = 'Bolt-Lightning font awesome icon CSS class is fa-bolt-lightning & CSS Content Code is e0b7'
 keywords =['Bolt-Lightning, \e0b7,fa-bolt-lightning']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Meetup font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Meetup font awesome icon CSS class is fa-meetup & CSS Content Code is  \f2e0'
+summary = 'Meetup font awesome icon CSS class is fa-meetup & CSS Content Code is f2e0'
 keywords =['Meetup, \f2e0,fa-meetup']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Volleyball font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Volleyball font awesome icon CSS class is fa-volleyball & CSS Content Code is  \f45f'
+summary = 'Volleyball font awesome icon CSS class is fa-volleyball & CSS Content Code is f45f'
 keywords =['Volleyball, \f45f,fa-volleyball']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

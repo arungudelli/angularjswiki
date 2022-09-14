@@ -1,7 +1,7 @@
 
 +++
 title='Cloudversify font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cloudversify font awesome icon CSS class is fa-cloudversify & CSS Content Code is  \f385'
+summary = 'Cloudversify font awesome icon CSS class is fa-cloudversify & CSS Content Code is f385'
 keywords =['Cloudversify, \f385,fa-cloudversify']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

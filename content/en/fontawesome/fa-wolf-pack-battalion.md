@@ -1,7 +1,7 @@
 
 +++
 title='Wolf-Pack-Battalion font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Wolf-Pack-Battalion font awesome icon CSS class is fa-wolf-pack-battalion & CSS Content Code is  \f514'
+summary = 'Wolf-Pack-Battalion font awesome icon CSS class is fa-wolf-pack-battalion & CSS Content Code is f514'
 keywords =['Wolf-Pack-Battalion, \f514,fa-wolf-pack-battalion']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

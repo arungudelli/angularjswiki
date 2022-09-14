@@ -1,7 +1,7 @@
 
 +++
 title='Plane-Circle-Xmark font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Plane-Circle-Xmark font awesome icon CSS class is fa-plane-circle-xmark & CSS Content Code is  \e557'
+summary = 'Plane-Circle-Xmark font awesome icon CSS class is fa-plane-circle-xmark & CSS Content Code is e557'
 keywords =['Plane-Circle-Xmark, \e557,fa-plane-circle-xmark']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

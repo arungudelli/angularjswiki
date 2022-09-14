@@ -1,7 +1,7 @@
 
 +++
 title='Linux font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Linux font awesome icon CSS class is fa-linux & CSS Content Code is  \f17c'
+summary = 'Linux font awesome icon CSS class is fa-linux & CSS Content Code is f17c'
 keywords =['Linux, \f17c,fa-linux']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='File-Import font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'File-Import font awesome icon CSS class is fa-file-import & CSS Content Code is  \f56f'
+summary = 'File-Import font awesome icon CSS class is fa-file-import & CSS Content Code is f56f'
 keywords =['File-Import, \f56f,fa-file-import']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

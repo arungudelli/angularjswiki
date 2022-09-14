@@ -1,7 +1,7 @@
 
 +++
 title='Registered font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Registered font awesome icon CSS class is fa-registered & CSS Content Code is  \f25d'
+summary = 'Registered font awesome icon CSS class is fa-registered & CSS Content Code is f25d'
 keywords =['Registered, \f25d,fa-registered']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

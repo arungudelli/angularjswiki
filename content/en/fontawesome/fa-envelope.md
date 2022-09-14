@@ -1,7 +1,7 @@
 
 +++
 title='Envelope font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Envelope font awesome icon CSS class is fa-envelope & CSS Content Code is  \f0e0'
+summary = 'Envelope font awesome icon CSS class is fa-envelope & CSS Content Code is f0e0'
 keywords =['Envelope, \f0e0,fa-envelope']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

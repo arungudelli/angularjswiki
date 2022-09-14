@@ -1,7 +1,7 @@
 
 +++
 title='Arrow-Up-Right-Dots font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Arrow-Up-Right-Dots font awesome icon CSS class is fa-arrow-up-right-dots & CSS Content Code is  \e4b7'
+summary = 'Arrow-Up-Right-Dots font awesome icon CSS class is fa-arrow-up-right-dots & CSS Content Code is e4b7'
 keywords =['Arrow-Up-Right-Dots, \e4b7,fa-arrow-up-right-dots']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

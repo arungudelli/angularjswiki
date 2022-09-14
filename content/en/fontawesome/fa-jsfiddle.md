@@ -1,7 +1,7 @@
 
 +++
 title='Jsfiddle font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Jsfiddle font awesome icon CSS class is fa-jsfiddle & CSS Content Code is  \f1cc'
+summary = 'Jsfiddle font awesome icon CSS class is fa-jsfiddle & CSS Content Code is f1cc'
 keywords =['Jsfiddle, \f1cc,fa-jsfiddle']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

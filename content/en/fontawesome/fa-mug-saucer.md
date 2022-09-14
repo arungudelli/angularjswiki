@@ -1,7 +1,7 @@
 
 +++
 title='Mug-Saucer font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mug-Saucer font awesome icon CSS class is fa-mug-saucer & CSS Content Code is  \f0f4'
+summary = 'Mug-Saucer font awesome icon CSS class is fa-mug-saucer & CSS Content Code is f0f4'
 keywords =['Mug-Saucer, \f0f4,fa-mug-saucer']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

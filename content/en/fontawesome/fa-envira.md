@@ -1,7 +1,7 @@
 
 +++
 title='Envira font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Envira font awesome icon CSS class is fa-envira & CSS Content Code is  \f299'
+summary = 'Envira font awesome icon CSS class is fa-envira & CSS Content Code is f299'
 keywords =['Envira, \f299,fa-envira']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

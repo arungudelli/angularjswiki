@@ -1,7 +1,7 @@
 
 +++
 title='Florin-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Florin-Sign font awesome icon CSS class is fa-florin-sign & CSS Content Code is  \e184'
+summary = 'Florin-Sign font awesome icon CSS class is fa-florin-sign & CSS Content Code is e184'
 keywords =['Florin-Sign, \e184,fa-florin-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

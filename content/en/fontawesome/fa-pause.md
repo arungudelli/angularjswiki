@@ -1,7 +1,7 @@
 
 +++
 title='Pause font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Pause font awesome icon CSS class is fa-pause & CSS Content Code is  \f04c'
+summary = 'Pause font awesome icon CSS class is fa-pause & CSS Content Code is f04c'
 keywords =['Pause, \f04c,fa-pause']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

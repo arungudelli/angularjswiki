@@ -1,7 +1,7 @@
 
 +++
 title='Cannabis font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cannabis font awesome icon CSS class is fa-cannabis & CSS Content Code is  \f55f'
+summary = 'Cannabis font awesome icon CSS class is fa-cannabis & CSS Content Code is f55f'
 keywords =['Cannabis, \f55f,fa-cannabis']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

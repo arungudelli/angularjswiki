@@ -1,7 +1,7 @@
 
 +++
 title='Circle-Nodes font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Circle-Nodes font awesome icon CSS class is fa-circle-nodes & CSS Content Code is  \e4e2'
+summary = 'Circle-Nodes font awesome icon CSS class is fa-circle-nodes & CSS Content Code is e4e2'
 keywords =['Circle-Nodes, \e4e2,fa-circle-nodes']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

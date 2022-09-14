@@ -1,7 +1,7 @@
 
 +++
 title='Peso-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Peso-Sign font awesome icon CSS class is fa-peso-sign & CSS Content Code is  \e222'
+summary = 'Peso-Sign font awesome icon CSS class is fa-peso-sign & CSS Content Code is e222'
 keywords =['Peso-Sign, \e222,fa-peso-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

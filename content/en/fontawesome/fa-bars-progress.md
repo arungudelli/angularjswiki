@@ -1,7 +1,7 @@
 
 +++
 title='Bars-Progress font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bars-Progress font awesome icon CSS class is fa-bars-progress & CSS Content Code is  \f828'
+summary = 'Bars-Progress font awesome icon CSS class is fa-bars-progress & CSS Content Code is f828'
 keywords =['Bars-Progress, \f828,fa-bars-progress']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Computer-Mouse font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Computer-Mouse font awesome icon CSS class is fa-computer-mouse & CSS Content Code is  \f8cc'
+summary = 'Computer-Mouse font awesome icon CSS class is fa-computer-mouse & CSS Content Code is f8cc'
 keywords =['Computer-Mouse, \f8cc,fa-computer-mouse']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

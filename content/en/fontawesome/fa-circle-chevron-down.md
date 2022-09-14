@@ -1,7 +1,7 @@
 
 +++
 title='Circle-Chevron-Down font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Circle-Chevron-Down font awesome icon CSS class is fa-circle-chevron-down & CSS Content Code is  \f13a'
+summary = 'Circle-Chevron-Down font awesome icon CSS class is fa-circle-chevron-down & CSS Content Code is f13a'
 keywords =['Circle-Chevron-Down, \f13a,fa-circle-chevron-down']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Person-Walking-With-Cane font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Walking-With-Cane font awesome icon CSS class is fa-person-walking-with-cane & CSS Content Code is  \f29d'
+summary = 'Person-Walking-With-Cane font awesome icon CSS class is fa-person-walking-with-cane & CSS Content Code is f29d'
 keywords =['Person-Walking-With-Cane, \f29d,fa-person-walking-with-cane']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

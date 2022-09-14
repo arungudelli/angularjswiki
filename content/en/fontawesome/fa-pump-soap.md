@@ -1,7 +1,7 @@
 
 +++
 title='Pump-Soap font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Pump-Soap font awesome icon CSS class is fa-pump-soap & CSS Content Code is  \e06b'
+summary = 'Pump-Soap font awesome icon CSS class is fa-pump-soap & CSS Content Code is e06b'
 keywords =['Pump-Soap, \e06b,fa-pump-soap']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

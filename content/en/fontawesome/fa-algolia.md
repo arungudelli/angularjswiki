@@ -1,7 +1,7 @@
 
 +++
 title='Algolia font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Algolia font awesome icon CSS class is fa-algolia & CSS Content Code is  \f36c'
+summary = 'Algolia font awesome icon CSS class is fa-algolia & CSS Content Code is f36c'
 keywords =['Algolia, \f36c,fa-algolia']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

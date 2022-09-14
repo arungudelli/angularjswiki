@@ -1,7 +1,7 @@
 
 +++
 title='Leanpub font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Leanpub font awesome icon CSS class is fa-leanpub & CSS Content Code is  \f212'
+summary = 'Leanpub font awesome icon CSS class is fa-leanpub & CSS Content Code is f212'
 keywords =['Leanpub, \f212,fa-leanpub']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

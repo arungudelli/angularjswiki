@@ -1,7 +1,7 @@
 
 +++
 title='Google-Pay font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Google-Pay font awesome icon CSS class is fa-google-pay & CSS Content Code is  \e079'
+summary = 'Google-Pay font awesome icon CSS class is fa-google-pay & CSS Content Code is e079'
 keywords =['Google-Pay, \e079,fa-google-pay']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

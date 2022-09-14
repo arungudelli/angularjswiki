@@ -1,7 +1,7 @@
 
 +++
 title='Table-Cells-Large font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Table-Cells-Large font awesome icon CSS class is fa-table-cells-large & CSS Content Code is  \f009'
+summary = 'Table-Cells-Large font awesome icon CSS class is fa-table-cells-large & CSS Content Code is f009'
 keywords =['Table-Cells-Large, \f009,fa-table-cells-large']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

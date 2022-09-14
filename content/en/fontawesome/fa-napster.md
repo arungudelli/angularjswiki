@@ -1,7 +1,7 @@
 
 +++
 title='Napster font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Napster font awesome icon CSS class is fa-napster & CSS Content Code is  \f3d2'
+summary = 'Napster font awesome icon CSS class is fa-napster & CSS Content Code is f3d2'
 keywords =['Napster, \f3d2,fa-napster']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

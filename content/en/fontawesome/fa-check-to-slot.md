@@ -1,7 +1,7 @@
 
 +++
 title='Check-To-Slot font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Check-To-Slot font awesome icon CSS class is fa-check-to-slot & CSS Content Code is  \f772'
+summary = 'Check-To-Slot font awesome icon CSS class is fa-check-to-slot & CSS Content Code is f772'
 keywords =['Check-To-Slot, \f772,fa-check-to-slot']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

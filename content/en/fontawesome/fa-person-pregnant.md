@@ -1,7 +1,7 @@
 
 +++
 title='Person-Pregnant font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Pregnant font awesome icon CSS class is fa-person-pregnant & CSS Content Code is  \e31e'
+summary = 'Person-Pregnant font awesome icon CSS class is fa-person-pregnant & CSS Content Code is e31e'
 keywords =['Person-Pregnant, \e31e,fa-person-pregnant']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Road-Circle-Check font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Road-Circle-Check font awesome icon CSS class is fa-road-circle-check & CSS Content Code is  \e564'
+summary = 'Road-Circle-Check font awesome icon CSS class is fa-road-circle-check & CSS Content Code is e564'
 keywords =['Road-Circle-Check, \e564,fa-road-circle-check']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'
