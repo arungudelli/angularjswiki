@@ -1,7 +1,7 @@
 
 +++
 title='Medal font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Medal font awesome icon CSS class is fa-medal & CSS Content Code is  \f5a2'
+summary = 'Medal font awesome icon CSS class is fa-medal & CSS Content Code is f5a2'
 keywords =['Medal, \f5a2,fa-medal']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

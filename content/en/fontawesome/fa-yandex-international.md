@@ -1,7 +1,7 @@
 
 +++
 title='Yandex-International font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Yandex-International font awesome icon CSS class is fa-yandex-international & CSS Content Code is  \f414'
+summary = 'Yandex-International font awesome icon CSS class is fa-yandex-international & CSS Content Code is f414'
 keywords =['Yandex-International, \f414,fa-yandex-international']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

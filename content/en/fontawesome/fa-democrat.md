@@ -1,7 +1,7 @@
 
 +++
 title='Democrat font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Democrat font awesome icon CSS class is fa-democrat & CSS Content Code is  \f747'
+summary = 'Democrat font awesome icon CSS class is fa-democrat & CSS Content Code is f747'
 keywords =['Democrat, \f747,fa-democrat']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

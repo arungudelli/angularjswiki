@@ -1,7 +1,7 @@
 
 +++
 title='Tiktok font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Tiktok font awesome icon CSS class is fa-tiktok & CSS Content Code is  \e07b'
+summary = 'Tiktok font awesome icon CSS class is fa-tiktok & CSS Content Code is e07b'
 keywords =['Tiktok, \e07b,fa-tiktok']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

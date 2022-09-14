@@ -1,7 +1,7 @@
 
 +++
 title='Mattress-Pillow font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mattress-Pillow font awesome icon CSS class is fa-mattress-pillow & CSS Content Code is  \e525'
+summary = 'Mattress-Pillow font awesome icon CSS class is fa-mattress-pillow & CSS Content Code is e525'
 keywords =['Mattress-Pillow, \e525,fa-mattress-pillow']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

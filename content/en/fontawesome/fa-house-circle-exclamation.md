@@ -1,7 +1,7 @@
 
 +++
 title='House-Circle-Exclamation font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'House-Circle-Exclamation font awesome icon CSS class is fa-house-circle-exclamation & CSS Content Code is  \e50a'
+summary = 'House-Circle-Exclamation font awesome icon CSS class is fa-house-circle-exclamation & CSS Content Code is e50a'
 keywords =['House-Circle-Exclamation, \e50a,fa-house-circle-exclamation']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

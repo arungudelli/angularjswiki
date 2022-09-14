@@ -1,7 +1,7 @@
 
 +++
 title='Suitcase-Medical font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Suitcase-Medical font awesome icon CSS class is fa-suitcase-medical & CSS Content Code is  \f0fa'
+summary = 'Suitcase-Medical font awesome icon CSS class is fa-suitcase-medical & CSS Content Code is f0fa'
 keywords =['Suitcase-Medical, \f0fa,fa-suitcase-medical']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

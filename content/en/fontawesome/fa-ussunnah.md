@@ -1,7 +1,7 @@
 
 +++
 title='Ussunnah font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ussunnah font awesome icon CSS class is fa-ussunnah & CSS Content Code is  \f407'
+summary = 'Ussunnah font awesome icon CSS class is fa-ussunnah & CSS Content Code is f407'
 keywords =['Ussunnah, \f407,fa-ussunnah']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Text-Height font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Text-Height font awesome icon CSS class is fa-text-height & CSS Content Code is  \f034'
+summary = 'Text-Height font awesome icon CSS class is fa-text-height & CSS Content Code is f034'
 keywords =['Text-Height, \f034,fa-text-height']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Beer-Mug-Empty font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Beer-Mug-Empty font awesome icon CSS class is fa-beer-mug-empty & CSS Content Code is  \f0fc'
+summary = 'Beer-Mug-Empty font awesome icon CSS class is fa-beer-mug-empty & CSS Content Code is f0fc'
 keywords =['Beer-Mug-Empty, \f0fc,fa-beer-mug-empty']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

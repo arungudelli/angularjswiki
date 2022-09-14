@@ -1,7 +1,7 @@
 
 +++
 title='House-Crack font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'House-Crack font awesome icon CSS class is fa-house-crack & CSS Content Code is  \e3b1'
+summary = 'House-Crack font awesome icon CSS class is fa-house-crack & CSS Content Code is e3b1'
 keywords =['House-Crack, \e3b1,fa-house-crack']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

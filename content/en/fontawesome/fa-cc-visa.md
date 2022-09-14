@@ -1,7 +1,7 @@
 
 +++
 title='Cc-Visa font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cc-Visa font awesome icon CSS class is fa-cc-visa & CSS Content Code is  \f1f0'
+summary = 'Cc-Visa font awesome icon CSS class is fa-cc-visa & CSS Content Code is f1f0'
 keywords =['Cc-Visa, \f1f0,fa-cc-visa']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Compress font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Compress font awesome icon CSS class is fa-compress & CSS Content Code is  \f066'
+summary = 'Compress font awesome icon CSS class is fa-compress & CSS Content Code is f066'
 keywords =['Compress, \f066,fa-compress']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

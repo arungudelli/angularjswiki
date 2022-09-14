@@ -1,7 +1,7 @@
 
 +++
 title='Unsplash font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Unsplash font awesome icon CSS class is fa-unsplash & CSS Content Code is  \e07c'
+summary = 'Unsplash font awesome icon CSS class is fa-unsplash & CSS Content Code is e07c'
 keywords =['Unsplash, \e07c,fa-unsplash']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Explosion font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Explosion font awesome icon CSS class is fa-explosion & CSS Content Code is  \e4e9'
+summary = 'Explosion font awesome icon CSS class is fa-explosion & CSS Content Code is e4e9'
 keywords =['Explosion, \e4e9,fa-explosion']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

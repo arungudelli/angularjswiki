@@ -1,7 +1,7 @@
 
 +++
 title='Quote-Left font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Quote-Left font awesome icon CSS class is fa-quote-left & CSS Content Code is  \f10d'
+summary = 'Quote-Left font awesome icon CSS class is fa-quote-left & CSS Content Code is f10d'
 keywords =['Quote-Left, \f10d,fa-quote-left']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

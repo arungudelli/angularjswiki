@@ -1,7 +1,7 @@
 
 +++
 title='Hands-Bound font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hands-Bound font awesome icon CSS class is fa-hands-bound & CSS Content Code is  \e4f9'
+summary = 'Hands-Bound font awesome icon CSS class is fa-hands-bound & CSS Content Code is e4f9'
 keywords =['Hands-Bound, \e4f9,fa-hands-bound']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

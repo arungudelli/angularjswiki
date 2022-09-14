@@ -1,7 +1,7 @@
 
 +++
 title='Mixcloud font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mixcloud font awesome icon CSS class is fa-mixcloud & CSS Content Code is  \f289'
+summary = 'Mixcloud font awesome icon CSS class is fa-mixcloud & CSS Content Code is f289'
 keywords =['Mixcloud, \f289,fa-mixcloud']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

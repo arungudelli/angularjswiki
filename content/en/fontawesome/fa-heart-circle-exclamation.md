@@ -1,7 +1,7 @@
 
 +++
 title='Heart-Circle-Exclamation font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Heart-Circle-Exclamation font awesome icon CSS class is fa-heart-circle-exclamation & CSS Content Code is  \e4fe'
+summary = 'Heart-Circle-Exclamation font awesome icon CSS class is fa-heart-circle-exclamation & CSS Content Code is e4fe'
 keywords =['Heart-Circle-Exclamation, \e4fe,fa-heart-circle-exclamation']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

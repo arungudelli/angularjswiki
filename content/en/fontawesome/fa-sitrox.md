@@ -1,7 +1,7 @@
 
 +++
 title='Sitrox font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Sitrox font awesome icon CSS class is fa-sitrox & CSS Content Code is  \e44a'
+summary = 'Sitrox font awesome icon CSS class is fa-sitrox & CSS Content Code is e44a'
 keywords =['Sitrox, \e44a,fa-sitrox']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Spray-Can-Sparkles font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Spray-Can-Sparkles font awesome icon CSS class is fa-spray-can-sparkles & CSS Content Code is  \f5d0'
+summary = 'Spray-Can-Sparkles font awesome icon CSS class is fa-spray-can-sparkles & CSS Content Code is f5d0'
 keywords =['Spray-Can-Sparkles, \f5d0,fa-spray-can-sparkles']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

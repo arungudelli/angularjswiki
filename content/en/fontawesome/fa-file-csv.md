@@ -1,7 +1,7 @@
 
 +++
 title='File-Csv font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'File-Csv font awesome icon CSS class is fa-file-csv & CSS Content Code is  \f6dd'
+summary = 'File-Csv font awesome icon CSS class is fa-file-csv & CSS Content Code is f6dd'
 keywords =['File-Csv, \f6dd,fa-file-csv']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

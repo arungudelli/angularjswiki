@@ -1,7 +1,7 @@
 
 +++
 title='Plug font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Plug font awesome icon CSS class is fa-plug & CSS Content Code is  \f1e6'
+summary = 'Plug font awesome icon CSS class is fa-plug & CSS Content Code is f1e6'
 keywords =['Plug, \f1e6,fa-plug']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

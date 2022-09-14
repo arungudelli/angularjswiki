@@ -1,7 +1,7 @@
 
 +++
 title='House-Circle-Check font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'House-Circle-Check font awesome icon CSS class is fa-house-circle-check & CSS Content Code is  \e509'
+summary = 'House-Circle-Check font awesome icon CSS class is fa-house-circle-check & CSS Content Code is e509'
 keywords =['House-Circle-Check, \e509,fa-house-circle-check']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Modx font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Modx font awesome icon CSS class is fa-modx & CSS Content Code is  \f285'
+summary = 'Modx font awesome icon CSS class is fa-modx & CSS Content Code is f285'
 keywords =['Modx, \f285,fa-modx']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

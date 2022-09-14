@@ -1,7 +1,7 @@
 
 +++
 title='Code-Pull-Request font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Code-Pull-Request font awesome icon CSS class is fa-code-pull-request & CSS Content Code is  \e13c'
+summary = 'Code-Pull-Request font awesome icon CSS class is fa-code-pull-request & CSS Content Code is e13c'
 keywords =['Code-Pull-Request, \e13c,fa-code-pull-request']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

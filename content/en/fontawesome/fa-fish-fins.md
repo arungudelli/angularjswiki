@@ -1,7 +1,7 @@
 
 +++
 title='Fish-Fins font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Fish-Fins font awesome icon CSS class is fa-fish-fins & CSS Content Code is  \e4f2'
+summary = 'Fish-Fins font awesome icon CSS class is fa-fish-fins & CSS Content Code is e4f2'
 keywords =['Fish-Fins, \e4f2,fa-fish-fins']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

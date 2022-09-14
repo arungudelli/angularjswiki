@@ -1,7 +1,7 @@
 
 +++
 title='File-Powerpoint font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'File-Powerpoint font awesome icon CSS class is fa-file-powerpoint & CSS Content Code is  \f1c4'
+summary = 'File-Powerpoint font awesome icon CSS class is fa-file-powerpoint & CSS Content Code is f1c4'
 keywords =['File-Powerpoint, \f1c4,fa-file-powerpoint']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

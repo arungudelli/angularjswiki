@@ -1,7 +1,7 @@
 
 +++
 title='Hippo font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hippo font awesome icon CSS class is fa-hippo & CSS Content Code is  \f6ed'
+summary = 'Hippo font awesome icon CSS class is fa-hippo & CSS Content Code is f6ed'
 keywords =['Hippo, \f6ed,fa-hippo']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

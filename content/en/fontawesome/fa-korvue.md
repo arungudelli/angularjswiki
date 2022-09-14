@@ -1,7 +1,7 @@
 
 +++
 title='Korvue font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Korvue font awesome icon CSS class is fa-korvue & CSS Content Code is  \f42f'
+summary = 'Korvue font awesome icon CSS class is fa-korvue & CSS Content Code is f42f'
 keywords =['Korvue, \f42f,fa-korvue']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Hand-Spock font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hand-Spock font awesome icon CSS class is fa-hand-spock & CSS Content Code is  \f259'
+summary = 'Hand-Spock font awesome icon CSS class is fa-hand-spock & CSS Content Code is f259'
 keywords =['Hand-Spock, \f259,fa-hand-spock']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Wine-Bottle font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Wine-Bottle font awesome icon CSS class is fa-wine-bottle & CSS Content Code is  \f72f'
+summary = 'Wine-Bottle font awesome icon CSS class is fa-wine-bottle & CSS Content Code is f72f'
 keywords =['Wine-Bottle, \f72f,fa-wine-bottle']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

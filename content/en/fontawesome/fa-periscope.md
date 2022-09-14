@@ -1,7 +1,7 @@
 
 +++
 title='Periscope font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Periscope font awesome icon CSS class is fa-periscope & CSS Content Code is  \f3da'
+summary = 'Periscope font awesome icon CSS class is fa-periscope & CSS Content Code is f3da'
 keywords =['Periscope, \f3da,fa-periscope']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

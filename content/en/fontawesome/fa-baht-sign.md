@@ -1,7 +1,7 @@
 
 +++
 title='Baht-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Baht-Sign font awesome icon CSS class is fa-baht-sign & CSS Content Code is  \e0ac'
+summary = 'Baht-Sign font awesome icon CSS class is fa-baht-sign & CSS Content Code is e0ac'
 keywords =['Baht-Sign, \e0ac,fa-baht-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

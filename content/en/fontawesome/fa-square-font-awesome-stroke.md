@@ -1,7 +1,7 @@
 
 +++
 title='Square-Font-Awesome-Stroke font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Font-Awesome-Stroke font awesome icon CSS class is fa-square-font-awesome-stroke & CSS Content Code is  \f35c'
+summary = 'Square-Font-Awesome-Stroke font awesome icon CSS class is fa-square-font-awesome-stroke & CSS Content Code is f35c'
 keywords =['Square-Font-Awesome-Stroke, \f35c,fa-square-font-awesome-stroke']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

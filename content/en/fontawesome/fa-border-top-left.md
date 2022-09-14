@@ -1,7 +1,7 @@
 
 +++
 title='Border-Top-Left font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Border-Top-Left font awesome icon CSS class is fa-border-top-left & CSS Content Code is  \f853'
+summary = 'Border-Top-Left font awesome icon CSS class is fa-border-top-left & CSS Content Code is f853'
 keywords =['Border-Top-Left, \f853,fa-border-top-left']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

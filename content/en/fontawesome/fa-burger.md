@@ -1,7 +1,7 @@
 
 +++
 title='Burger font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Burger font awesome icon CSS class is fa-burger & CSS Content Code is  \f805'
+summary = 'Burger font awesome icon CSS class is fa-burger & CSS Content Code is f805'
 keywords =['Burger, \f805,fa-burger']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

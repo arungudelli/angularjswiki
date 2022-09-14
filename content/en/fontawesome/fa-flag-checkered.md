@@ -1,7 +1,7 @@
 
 +++
 title='Flag-Checkered font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Flag-Checkered font awesome icon CSS class is fa-flag-checkered & CSS Content Code is  \f11e'
+summary = 'Flag-Checkered font awesome icon CSS class is fa-flag-checkered & CSS Content Code is f11e'
 keywords =['Flag-Checkered, \f11e,fa-flag-checkered']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

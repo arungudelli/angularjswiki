@@ -1,7 +1,7 @@
 
 +++
 title='Backward-Step font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Backward-Step font awesome icon CSS class is fa-backward-step & CSS Content Code is  \f048'
+summary = 'Backward-Step font awesome icon CSS class is fa-backward-step & CSS Content Code is f048'
 keywords =['Backward-Step, \f048,fa-backward-step']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

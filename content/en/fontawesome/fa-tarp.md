@@ -1,7 +1,7 @@
 
 +++
 title='Tarp font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Tarp font awesome icon CSS class is fa-tarp & CSS Content Code is  \e57b'
+summary = 'Tarp font awesome icon CSS class is fa-tarp & CSS Content Code is e57b'
 keywords =['Tarp, \e57b,fa-tarp']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

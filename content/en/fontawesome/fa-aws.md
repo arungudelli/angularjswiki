@@ -1,7 +1,7 @@
 
 +++
 title='Aws font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Aws font awesome icon CSS class is fa-aws & CSS Content Code is  \f375'
+summary = 'Aws font awesome icon CSS class is fa-aws & CSS Content Code is f375'
 keywords =['Aws, \f375,fa-aws']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

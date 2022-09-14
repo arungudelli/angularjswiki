@@ -1,7 +1,7 @@
 
 +++
 title='Audible font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Audible font awesome icon CSS class is fa-audible & CSS Content Code is  \f373'
+summary = 'Audible font awesome icon CSS class is fa-audible & CSS Content Code is f373'
 keywords =['Audible, \f373,fa-audible']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

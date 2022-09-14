@@ -1,7 +1,7 @@
 
 +++
 title='Viber font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Viber font awesome icon CSS class is fa-viber & CSS Content Code is  \f409'
+summary = 'Viber font awesome icon CSS class is fa-viber & CSS Content Code is f409'
 keywords =['Viber, \f409,fa-viber']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

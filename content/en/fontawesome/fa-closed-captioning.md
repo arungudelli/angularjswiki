@@ -1,7 +1,7 @@
 
 +++
 title='Closed-Captioning font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Closed-Captioning font awesome icon CSS class is fa-closed-captioning & CSS Content Code is  \f20a'
+summary = 'Closed-Captioning font awesome icon CSS class is fa-closed-captioning & CSS Content Code is f20a'
 keywords =['Closed-Captioning, \f20a,fa-closed-captioning']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Plate-Wheat font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Plate-Wheat font awesome icon CSS class is fa-plate-wheat & CSS Content Code is  \e55a'
+summary = 'Plate-Wheat font awesome icon CSS class is fa-plate-wheat & CSS Content Code is e55a'
 keywords =['Plate-Wheat, \e55a,fa-plate-wheat']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

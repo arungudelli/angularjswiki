@@ -1,7 +1,7 @@
 
 +++
 title='Snowflake font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Snowflake font awesome icon CSS class is fa-snowflake & CSS Content Code is  \f2dc'
+summary = 'Snowflake font awesome icon CSS class is fa-snowflake & CSS Content Code is f2dc'
 keywords =['Snowflake, \f2dc,fa-snowflake']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Teeth font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Teeth font awesome icon CSS class is fa-teeth & CSS Content Code is  \f62e'
+summary = 'Teeth font awesome icon CSS class is fa-teeth & CSS Content Code is f62e'
 keywords =['Teeth, \f62e,fa-teeth']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

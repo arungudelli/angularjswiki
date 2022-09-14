@@ -1,7 +1,7 @@
 
 +++
 title='Eye font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Eye font awesome icon CSS class is fa-eye & CSS Content Code is  \f06e'
+summary = 'Eye font awesome icon CSS class is fa-eye & CSS Content Code is f06e'
 keywords =['Eye, \f06e,fa-eye']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

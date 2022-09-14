@@ -1,7 +1,7 @@
 
 +++
 title='Mosque font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mosque font awesome icon CSS class is fa-mosque & CSS Content Code is  \f678'
+summary = 'Mosque font awesome icon CSS class is fa-mosque & CSS Content Code is f678'
 keywords =['Mosque, \f678,fa-mosque']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

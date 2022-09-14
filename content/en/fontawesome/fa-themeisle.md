@@ -1,7 +1,7 @@
 
 +++
 title='Themeisle font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Themeisle font awesome icon CSS class is fa-themeisle & CSS Content Code is  \f2b2'
+summary = 'Themeisle font awesome icon CSS class is fa-themeisle & CSS Content Code is f2b2'
 keywords =['Themeisle, \f2b2,fa-themeisle']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

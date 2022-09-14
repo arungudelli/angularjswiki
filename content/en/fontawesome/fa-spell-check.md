@@ -1,7 +1,7 @@
 
 +++
 title='Spell-Check font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Spell-Check font awesome icon CSS class is fa-spell-check & CSS Content Code is  \f891'
+summary = 'Spell-Check font awesome icon CSS class is fa-spell-check & CSS Content Code is f891'
 keywords =['Spell-Check, \f891,fa-spell-check']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

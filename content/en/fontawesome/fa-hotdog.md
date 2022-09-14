@@ -1,7 +1,7 @@
 
 +++
 title='Hotdog font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hotdog font awesome icon CSS class is fa-hotdog & CSS Content Code is  \f80f'
+summary = 'Hotdog font awesome icon CSS class is fa-hotdog & CSS Content Code is f80f'
 keywords =['Hotdog, \f80f,fa-hotdog']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

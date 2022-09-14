@@ -1,7 +1,7 @@
 
 +++
 title='Tent-Arrow-Turn-Left font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Tent-Arrow-Turn-Left font awesome icon CSS class is fa-tent-arrow-turn-left & CSS Content Code is  \e580'
+summary = 'Tent-Arrow-Turn-Left font awesome icon CSS class is fa-tent-arrow-turn-left & CSS Content Code is e580'
 keywords =['Tent-Arrow-Turn-Left, \e580,fa-tent-arrow-turn-left']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

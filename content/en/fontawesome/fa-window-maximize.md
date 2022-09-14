@@ -1,7 +1,7 @@
 
 +++
 title='Window-Maximize font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Window-Maximize font awesome icon CSS class is fa-window-maximize & CSS Content Code is  \f2d0'
+summary = 'Window-Maximize font awesome icon CSS class is fa-window-maximize & CSS Content Code is f2d0'
 keywords =['Window-Maximize, \f2d0,fa-window-maximize']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

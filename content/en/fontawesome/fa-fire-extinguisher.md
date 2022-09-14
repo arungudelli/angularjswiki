@@ -1,7 +1,7 @@
 
 +++
 title='Fire-Extinguisher font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Fire-Extinguisher font awesome icon CSS class is fa-fire-extinguisher & CSS Content Code is  \f134'
+summary = 'Fire-Extinguisher font awesome icon CSS class is fa-fire-extinguisher & CSS Content Code is f134'
 keywords =['Fire-Extinguisher, \f134,fa-fire-extinguisher']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

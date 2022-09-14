@@ -1,7 +1,7 @@
 
 +++
 title='Globe font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Globe font awesome icon CSS class is fa-globe & CSS Content Code is  \f0ac'
+summary = 'Globe font awesome icon CSS class is fa-globe & CSS Content Code is f0ac'
 keywords =['Globe, \f0ac,fa-globe']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

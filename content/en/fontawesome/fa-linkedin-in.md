@@ -1,7 +1,7 @@
 
 +++
 title='Linkedin-In font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Linkedin-In font awesome icon CSS class is fa-linkedin-in & CSS Content Code is  \f0e1'
+summary = 'Linkedin-In font awesome icon CSS class is fa-linkedin-in & CSS Content Code is f0e1'
 keywords =['Linkedin-In, \f0e1,fa-linkedin-in']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

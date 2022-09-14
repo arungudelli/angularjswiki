@@ -1,7 +1,7 @@
 
 +++
 title='Copy font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Copy font awesome icon CSS class is fa-copy & CSS Content Code is  \f0c5'
+summary = 'Copy font awesome icon CSS class is fa-copy & CSS Content Code is f0c5'
 keywords =['Copy, \f0c5,fa-copy']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

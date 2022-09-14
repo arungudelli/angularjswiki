@@ -1,7 +1,7 @@
 
 +++
 title='Dice-Two font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Dice-Two font awesome icon CSS class is fa-dice-two & CSS Content Code is  \f528'
+summary = 'Dice-Two font awesome icon CSS class is fa-dice-two & CSS Content Code is f528'
 keywords =['Dice-Two, \f528,fa-dice-two']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

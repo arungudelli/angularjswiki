@@ -1,7 +1,7 @@
 
 +++
 title='Golang font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Golang font awesome icon CSS class is fa-golang & CSS Content Code is  \e40f'
+summary = 'Golang font awesome icon CSS class is fa-golang & CSS Content Code is e40f'
 keywords =['Golang, \e40f,fa-golang']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

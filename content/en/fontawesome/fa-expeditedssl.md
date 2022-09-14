@@ -1,7 +1,7 @@
 
 +++
 title='Expeditedssl font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Expeditedssl font awesome icon CSS class is fa-expeditedssl & CSS Content Code is  \f23e'
+summary = 'Expeditedssl font awesome icon CSS class is fa-expeditedssl & CSS Content Code is f23e'
 keywords =['Expeditedssl, \f23e,fa-expeditedssl']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

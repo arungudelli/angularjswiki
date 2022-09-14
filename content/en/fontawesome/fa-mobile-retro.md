@@ -1,7 +1,7 @@
 
 +++
 title='Mobile-Retro font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mobile-Retro font awesome icon CSS class is fa-mobile-retro & CSS Content Code is  \e527'
+summary = 'Mobile-Retro font awesome icon CSS class is fa-mobile-retro & CSS Content Code is e527'
 keywords =['Mobile-Retro, \e527,fa-mobile-retro']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

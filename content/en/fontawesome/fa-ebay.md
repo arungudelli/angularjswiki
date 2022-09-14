@@ -1,7 +1,7 @@
 
 +++
 title='Ebay font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ebay font awesome icon CSS class is fa-ebay & CSS Content Code is  \f4f4'
+summary = 'Ebay font awesome icon CSS class is fa-ebay & CSS Content Code is f4f4'
 keywords =['Ebay, \f4f4,fa-ebay']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

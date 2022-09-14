@@ -1,7 +1,7 @@
 
 +++
 title='Turn-Up font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Turn-Up font awesome icon CSS class is fa-turn-up & CSS Content Code is  \f3bf'
+summary = 'Turn-Up font awesome icon CSS class is fa-turn-up & CSS Content Code is f3bf'
 keywords =['Turn-Up, \f3bf,fa-turn-up']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Dollar-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Dollar-Sign font awesome icon CSS class is fa-dollar-sign & CSS Content Code is  \24'
+summary = 'Dollar-Sign font awesome icon CSS class is fa-dollar-sign & CSS Content Code is 24'
 keywords =['Dollar-Sign, \24,fa-dollar-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Themeco font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Themeco font awesome icon CSS class is fa-themeco & CSS Content Code is  \f5c6'
+summary = 'Themeco font awesome icon CSS class is fa-themeco & CSS Content Code is f5c6'
 keywords =['Themeco, \f5c6,fa-themeco']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

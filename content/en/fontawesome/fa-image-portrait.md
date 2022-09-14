@@ -1,7 +1,7 @@
 
 +++
 title='Image-Portrait font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Image-Portrait font awesome icon CSS class is fa-image-portrait & CSS Content Code is  \f3e0'
+summary = 'Image-Portrait font awesome icon CSS class is fa-image-portrait & CSS Content Code is f3e0'
 keywords =['Image-Portrait, \f3e0,fa-image-portrait']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Person-Walking-Arrow-Loop-Left font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Walking-Arrow-Loop-Left font awesome icon CSS class is fa-person-walking-arrow-loop-left & CSS Content Code is  \e551'
+summary = 'Person-Walking-Arrow-Loop-Left font awesome icon CSS class is fa-person-walking-arrow-loop-left & CSS Content Code is e551'
 keywords =['Person-Walking-Arrow-Loop-Left, \e551,fa-person-walking-arrow-loop-left']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

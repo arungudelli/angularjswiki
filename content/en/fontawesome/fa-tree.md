@@ -1,7 +1,7 @@
 
 +++
 title='Tree font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Tree font awesome icon CSS class is fa-tree & CSS Content Code is  \f1bb'
+summary = 'Tree font awesome icon CSS class is fa-tree & CSS Content Code is f1bb'
 keywords =['Tree, \f1bb,fa-tree']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

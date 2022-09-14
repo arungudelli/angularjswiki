@@ -1,7 +1,7 @@
 
 +++
 title='Person-Circle-Xmark font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Circle-Xmark font awesome icon CSS class is fa-person-circle-xmark & CSS Content Code is  \e543'
+summary = 'Person-Circle-Xmark font awesome icon CSS class is fa-person-circle-xmark & CSS Content Code is e543'
 keywords =['Person-Circle-Xmark, \e543,fa-person-circle-xmark']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

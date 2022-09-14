@@ -1,7 +1,7 @@
 
 +++
 title='Diaspora font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Diaspora font awesome icon CSS class is fa-diaspora & CSS Content Code is  \f791'
+summary = 'Diaspora font awesome icon CSS class is fa-diaspora & CSS Content Code is f791'
 keywords =['Diaspora, \f791,fa-diaspora']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Atlassian font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Atlassian font awesome icon CSS class is fa-atlassian & CSS Content Code is  \f77b'
+summary = 'Atlassian font awesome icon CSS class is fa-atlassian & CSS Content Code is f77b'
 keywords =['Atlassian, \f77b,fa-atlassian']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

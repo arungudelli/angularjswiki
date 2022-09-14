@@ -1,7 +1,7 @@
 
 +++
 title='Weight-Scale font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Weight-Scale font awesome icon CSS class is fa-weight-scale & CSS Content Code is  \f496'
+summary = 'Weight-Scale font awesome icon CSS class is fa-weight-scale & CSS Content Code is f496'
 keywords =['Weight-Scale, \f496,fa-weight-scale']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

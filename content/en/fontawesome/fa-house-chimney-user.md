@@ -1,7 +1,7 @@
 
 +++
 title='House-Chimney-User font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'House-Chimney-User font awesome icon CSS class is fa-house-chimney-user & CSS Content Code is  \e065'
+summary = 'House-Chimney-User font awesome icon CSS class is fa-house-chimney-user & CSS Content Code is e065'
 keywords =['House-Chimney-User, \e065,fa-house-chimney-user']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

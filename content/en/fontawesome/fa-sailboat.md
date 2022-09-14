@@ -1,7 +1,7 @@
 
 +++
 title='Sailboat font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Sailboat font awesome icon CSS class is fa-sailboat & CSS Content Code is  \e445'
+summary = 'Sailboat font awesome icon CSS class is fa-sailboat & CSS Content Code is e445'
 keywords =['Sailboat, \e445,fa-sailboat']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

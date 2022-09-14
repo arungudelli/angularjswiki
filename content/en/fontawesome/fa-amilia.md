@@ -1,7 +1,7 @@
 
 +++
 title='Amilia font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Amilia font awesome icon CSS class is fa-amilia & CSS Content Code is  \f36d'
+summary = 'Amilia font awesome icon CSS class is fa-amilia & CSS Content Code is f36d'
 keywords =['Amilia, \f36d,fa-amilia']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Square-Caret-Up font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Caret-Up font awesome icon CSS class is fa-square-caret-up & CSS Content Code is  \f151'
+summary = 'Square-Caret-Up font awesome icon CSS class is fa-square-caret-up & CSS Content Code is f151'
 keywords =['Square-Caret-Up, \f151,fa-square-caret-up']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

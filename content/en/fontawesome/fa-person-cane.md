@@ -1,7 +1,7 @@
 
 +++
 title='Person-Cane font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Cane font awesome icon CSS class is fa-person-cane & CSS Content Code is  \e53c'
+summary = 'Person-Cane font awesome icon CSS class is fa-person-cane & CSS Content Code is e53c'
 keywords =['Person-Cane, \e53c,fa-person-cane']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

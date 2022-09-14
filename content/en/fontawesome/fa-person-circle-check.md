@@ -1,7 +1,7 @@
 
 +++
 title='Person-Circle-Check font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Circle-Check font awesome icon CSS class is fa-person-circle-check & CSS Content Code is  \e53e'
+summary = 'Person-Circle-Check font awesome icon CSS class is fa-person-circle-check & CSS Content Code is e53e'
 keywords =['Person-Circle-Check, \e53e,fa-person-circle-check']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

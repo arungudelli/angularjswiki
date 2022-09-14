@@ -1,7 +1,7 @@
 
 +++
 title='File-Circle-Exclamation font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'File-Circle-Exclamation font awesome icon CSS class is fa-file-circle-exclamation & CSS Content Code is  \e4eb'
+summary = 'File-Circle-Exclamation font awesome icon CSS class is fa-file-circle-exclamation & CSS Content Code is e4eb'
 keywords =['File-Circle-Exclamation, \e4eb,fa-file-circle-exclamation']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

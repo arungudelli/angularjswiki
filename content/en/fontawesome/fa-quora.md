@@ -1,7 +1,7 @@
 
 +++
 title='Quora font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Quora font awesome icon CSS class is fa-quora & CSS Content Code is  \f2c4'
+summary = 'Quora font awesome icon CSS class is fa-quora & CSS Content Code is f2c4'
 keywords =['Quora, \f2c4,fa-quora']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Rainbow font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Rainbow font awesome icon CSS class is fa-rainbow & CSS Content Code is  \f75b'
+summary = 'Rainbow font awesome icon CSS class is fa-rainbow & CSS Content Code is f75b'
 keywords =['Rainbow, \f75b,fa-rainbow']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Money-Check font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Money-Check font awesome icon CSS class is fa-money-check & CSS Content Code is  \f53c'
+summary = 'Money-Check font awesome icon CSS class is fa-money-check & CSS Content Code is f53c'
 keywords =['Money-Check, \f53c,fa-money-check']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

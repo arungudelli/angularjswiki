@@ -1,7 +1,7 @@
 
 +++
 title='Hill-Avalanche font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hill-Avalanche font awesome icon CSS class is fa-hill-avalanche & CSS Content Code is  \e507'
+summary = 'Hill-Avalanche font awesome icon CSS class is fa-hill-avalanche & CSS Content Code is e507'
 keywords =['Hill-Avalanche, \e507,fa-hill-avalanche']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Mitten font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mitten font awesome icon CSS class is fa-mitten & CSS Content Code is  \f7b5'
+summary = 'Mitten font awesome icon CSS class is fa-mitten & CSS Content Code is f7b5'
 keywords =['Mitten, \f7b5,fa-mitten']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

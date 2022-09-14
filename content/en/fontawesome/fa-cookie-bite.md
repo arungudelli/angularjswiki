@@ -1,7 +1,7 @@
 
 +++
 title='Cookie-Bite font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cookie-Bite font awesome icon CSS class is fa-cookie-bite & CSS Content Code is  \f564'
+summary = 'Cookie-Bite font awesome icon CSS class is fa-cookie-bite & CSS Content Code is f564'
 keywords =['Cookie-Bite, \f564,fa-cookie-bite']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

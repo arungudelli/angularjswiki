@@ -1,7 +1,7 @@
 
 +++
 title='Ruler font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ruler font awesome icon CSS class is fa-ruler & CSS Content Code is  \f545'
+summary = 'Ruler font awesome icon CSS class is fa-ruler & CSS Content Code is f545'
 keywords =['Ruler, \f545,fa-ruler']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Clapperboard font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Clapperboard font awesome icon CSS class is fa-clapperboard & CSS Content Code is  \e131'
+summary = 'Clapperboard font awesome icon CSS class is fa-clapperboard & CSS Content Code is e131'
 keywords =['Clapperboard, \e131,fa-clapperboard']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

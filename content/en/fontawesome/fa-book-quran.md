@@ -1,7 +1,7 @@
 
 +++
 title='Book-Quran font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Book-Quran font awesome icon CSS class is fa-book-quran & CSS Content Code is  \f687'
+summary = 'Book-Quran font awesome icon CSS class is fa-book-quran & CSS Content Code is f687'
 keywords =['Book-Quran, \f687,fa-book-quran']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

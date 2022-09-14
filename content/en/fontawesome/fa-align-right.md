@@ -1,7 +1,7 @@
 
 +++
 title='Align-Right font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Align-Right font awesome icon CSS class is fa-align-right & CSS Content Code is  \f038'
+summary = 'Align-Right font awesome icon CSS class is fa-align-right & CSS Content Code is f038'
 keywords =['Align-Right, \f038,fa-align-right']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

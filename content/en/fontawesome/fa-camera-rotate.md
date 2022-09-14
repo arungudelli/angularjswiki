@@ -1,7 +1,7 @@
 
 +++
 title='Camera-Rotate font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Camera-Rotate font awesome icon CSS class is fa-camera-rotate & CSS Content Code is  \e0d8'
+summary = 'Camera-Rotate font awesome icon CSS class is fa-camera-rotate & CSS Content Code is e0d8'
 keywords =['Camera-Rotate, \e0d8,fa-camera-rotate']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

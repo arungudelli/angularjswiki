@@ -1,7 +1,7 @@
 
 +++
 title='Thumbs-Down font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Thumbs-Down font awesome icon CSS class is fa-thumbs-down & CSS Content Code is  \f165'
+summary = 'Thumbs-Down font awesome icon CSS class is fa-thumbs-down & CSS Content Code is f165'
 keywords =['Thumbs-Down, \f165,fa-thumbs-down']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

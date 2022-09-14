@@ -1,7 +1,7 @@
 
 +++
 title='Fonticons-Fi font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Fonticons-Fi font awesome icon CSS class is fa-fonticons-fi & CSS Content Code is  \f3a2'
+summary = 'Fonticons-Fi font awesome icon CSS class is fa-fonticons-fi & CSS Content Code is f3a2'
 keywords =['Fonticons-Fi, \f3a2,fa-fonticons-fi']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Won-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Won-Sign font awesome icon CSS class is fa-won-sign & CSS Content Code is  \f159'
+summary = 'Won-Sign font awesome icon CSS class is fa-won-sign & CSS Content Code is f159'
 keywords =['Won-Sign, \f159,fa-won-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

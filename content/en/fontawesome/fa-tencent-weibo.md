@@ -1,7 +1,7 @@
 
 +++
 title='Tencent-Weibo font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Tencent-Weibo font awesome icon CSS class is fa-tencent-weibo & CSS Content Code is  \f1d5'
+summary = 'Tencent-Weibo font awesome icon CSS class is fa-tencent-weibo & CSS Content Code is f1d5'
 keywords =['Tencent-Weibo, \f1d5,fa-tencent-weibo']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

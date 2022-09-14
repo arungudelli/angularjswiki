@@ -1,7 +1,7 @@
 
 +++
 title='Pills font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Pills font awesome icon CSS class is fa-pills & CSS Content Code is  \f484'
+summary = 'Pills font awesome icon CSS class is fa-pills & CSS Content Code is f484'
 keywords =['Pills, \f484,fa-pills']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

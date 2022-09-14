@@ -1,7 +1,7 @@
 
 +++
 title='Evernote font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Evernote font awesome icon CSS class is fa-evernote & CSS Content Code is  \f839'
+summary = 'Evernote font awesome icon CSS class is fa-evernote & CSS Content Code is f839'
 keywords =['Evernote, \f839,fa-evernote']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

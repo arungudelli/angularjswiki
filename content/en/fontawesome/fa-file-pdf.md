@@ -1,7 +1,7 @@
 
 +++
 title='File-Pdf font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'File-Pdf font awesome icon CSS class is fa-file-pdf & CSS Content Code is  \f1c1'
+summary = 'File-Pdf font awesome icon CSS class is fa-file-pdf & CSS Content Code is f1c1'
 keywords =['File-Pdf, \f1c1,fa-file-pdf']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

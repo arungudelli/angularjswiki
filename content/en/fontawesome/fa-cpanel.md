@@ -1,7 +1,7 @@
 
 +++
 title='Cpanel font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cpanel font awesome icon CSS class is fa-cpanel & CSS Content Code is  \f388'
+summary = 'Cpanel font awesome icon CSS class is fa-cpanel & CSS Content Code is f388'
 keywords =['Cpanel, \f388,fa-cpanel']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

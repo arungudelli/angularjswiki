@@ -1,7 +1,7 @@
 
 +++
 title='Apple-Whole font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Apple-Whole font awesome icon CSS class is fa-apple-whole & CSS Content Code is  \f5d1'
+summary = 'Apple-Whole font awesome icon CSS class is fa-apple-whole & CSS Content Code is f5d1'
 keywords =['Apple-Whole, \f5d1,fa-apple-whole']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Flag-Usa font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Flag-Usa font awesome icon CSS class is fa-flag-usa & CSS Content Code is  \f74d'
+summary = 'Flag-Usa font awesome icon CSS class is fa-flag-usa & CSS Content Code is f74d'
 keywords =['Flag-Usa, \f74d,fa-flag-usa']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

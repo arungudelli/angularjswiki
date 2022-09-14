@@ -1,7 +1,7 @@
 
 +++
 title='Worm font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Worm font awesome icon CSS class is fa-worm & CSS Content Code is  \e599'
+summary = 'Worm font awesome icon CSS class is fa-worm & CSS Content Code is e599'
 keywords =['Worm, \e599,fa-worm']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

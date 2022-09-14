@@ -1,7 +1,7 @@
 
 +++
 title='File-Zipper font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'File-Zipper font awesome icon CSS class is fa-file-zipper & CSS Content Code is  \f1c6'
+summary = 'File-Zipper font awesome icon CSS class is fa-file-zipper & CSS Content Code is f1c6'
 keywords =['File-Zipper, \f1c6,fa-file-zipper']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

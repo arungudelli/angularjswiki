@@ -1,7 +1,7 @@
 
 +++
 title='Btc font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Btc font awesome icon CSS class is fa-btc & CSS Content Code is  \f15a'
+summary = 'Btc font awesome icon CSS class is fa-btc & CSS Content Code is f15a'
 keywords =['Btc, \f15a,fa-btc']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

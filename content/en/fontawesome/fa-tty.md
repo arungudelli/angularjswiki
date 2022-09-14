@@ -1,7 +1,7 @@
 
 +++
 title='Tty font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Tty font awesome icon CSS class is fa-tty & CSS Content Code is  \f1e4'
+summary = 'Tty font awesome icon CSS class is fa-tty & CSS Content Code is f1e4'
 keywords =['Tty, \f1e4,fa-tty']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

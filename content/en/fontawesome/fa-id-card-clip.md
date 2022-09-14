@@ -1,7 +1,7 @@
 
 +++
 title='Id-Card-Clip font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Id-Card-Clip font awesome icon CSS class is fa-id-card-clip & CSS Content Code is  \f47f'
+summary = 'Id-Card-Clip font awesome icon CSS class is fa-id-card-clip & CSS Content Code is f47f'
 keywords =['Id-Card-Clip, \f47f,fa-id-card-clip']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

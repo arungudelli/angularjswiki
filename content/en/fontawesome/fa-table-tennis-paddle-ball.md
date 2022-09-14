@@ -1,7 +1,7 @@
 
 +++
 title='Table-Tennis-Paddle-Ball font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Table-Tennis-Paddle-Ball font awesome icon CSS class is fa-table-tennis-paddle-ball & CSS Content Code is  \f45d'
+summary = 'Table-Tennis-Paddle-Ball font awesome icon CSS class is fa-table-tennis-paddle-ball & CSS Content Code is f45d'
 keywords =['Table-Tennis-Paddle-Ball, \f45d,fa-table-tennis-paddle-ball']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Signal font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Signal font awesome icon CSS class is fa-signal & CSS Content Code is  \f012'
+summary = 'Signal font awesome icon CSS class is fa-signal & CSS Content Code is f012'
 keywords =['Signal, \f012,fa-signal']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

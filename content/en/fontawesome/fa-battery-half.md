@@ -1,7 +1,7 @@
 
 +++
 title='Battery-Half font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Battery-Half font awesome icon CSS class is fa-battery-half & CSS Content Code is  \f242'
+summary = 'Battery-Half font awesome icon CSS class is fa-battery-half & CSS Content Code is f242'
 keywords =['Battery-Half, \f242,fa-battery-half']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

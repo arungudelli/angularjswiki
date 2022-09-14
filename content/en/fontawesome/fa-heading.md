@@ -1,7 +1,7 @@
 
 +++
 title='Heading font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Heading font awesome icon CSS class is fa-heading & CSS Content Code is  \f1dc'
+summary = 'Heading font awesome icon CSS class is fa-heading & CSS Content Code is f1dc'
 keywords =['Heading, \f1dc,fa-heading']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

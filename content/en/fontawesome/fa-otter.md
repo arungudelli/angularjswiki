@@ -1,7 +1,7 @@
 
 +++
 title='Otter font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Otter font awesome icon CSS class is fa-otter & CSS Content Code is  \f700'
+summary = 'Otter font awesome icon CSS class is fa-otter & CSS Content Code is f700'
 keywords =['Otter, \f700,fa-otter']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

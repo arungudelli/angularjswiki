@@ -1,7 +1,7 @@
 
 +++
 title='Raspberry-Pi font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Raspberry-Pi font awesome icon CSS class is fa-raspberry-pi & CSS Content Code is  \f7bb'
+summary = 'Raspberry-Pi font awesome icon CSS class is fa-raspberry-pi & CSS Content Code is f7bb'
 keywords =['Raspberry-Pi, \f7bb,fa-raspberry-pi']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

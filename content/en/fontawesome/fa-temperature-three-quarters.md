@@ -1,7 +1,7 @@
 
 +++
 title='Temperature-Three-Quarters font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Temperature-Three-Quarters font awesome icon CSS class is fa-temperature-three-quarters & CSS Content Code is  \f2c8'
+summary = 'Temperature-Three-Quarters font awesome icon CSS class is fa-temperature-three-quarters & CSS Content Code is f2c8'
 keywords =['Temperature-Three-Quarters, \f2c8,fa-temperature-three-quarters']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

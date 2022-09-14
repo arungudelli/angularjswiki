@@ -1,7 +1,7 @@
 
 +++
 title='Venus font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Venus font awesome icon CSS class is fa-venus & CSS Content Code is  \f221'
+summary = 'Venus font awesome icon CSS class is fa-venus & CSS Content Code is f221'
 keywords =['Venus, \f221,fa-venus']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

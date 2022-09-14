@@ -1,7 +1,7 @@
 
 +++
 title='Circle-Stop font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Circle-Stop font awesome icon CSS class is fa-circle-stop & CSS Content Code is  \f28d'
+summary = 'Circle-Stop font awesome icon CSS class is fa-circle-stop & CSS Content Code is f28d'
 keywords =['Circle-Stop, \f28d,fa-circle-stop']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Forward-Step font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Forward-Step font awesome icon CSS class is fa-forward-step & CSS Content Code is  \f051'
+summary = 'Forward-Step font awesome icon CSS class is fa-forward-step & CSS Content Code is f051'
 keywords =['Forward-Step, \f051,fa-forward-step']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

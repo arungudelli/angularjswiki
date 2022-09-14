@@ -1,7 +1,7 @@
 
 +++
 title='Fort-Awesome font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Fort-Awesome font awesome icon CSS class is fa-fort-awesome & CSS Content Code is  \f286'
+summary = 'Fort-Awesome font awesome icon CSS class is fa-fort-awesome & CSS Content Code is f286'
 keywords =['Fort-Awesome, \f286,fa-fort-awesome']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

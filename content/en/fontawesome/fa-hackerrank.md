@@ -1,7 +1,7 @@
 
 +++
 title='Hackerrank font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hackerrank font awesome icon CSS class is fa-hackerrank & CSS Content Code is  \f5f7'
+summary = 'Hackerrank font awesome icon CSS class is fa-hackerrank & CSS Content Code is f5f7'
 keywords =['Hackerrank, \f5f7,fa-hackerrank']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

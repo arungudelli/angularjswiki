@@ -1,7 +1,7 @@
 
 +++
 title='Comment-Dots font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Comment-Dots font awesome icon CSS class is fa-comment-dots & CSS Content Code is  \f4ad'
+summary = 'Comment-Dots font awesome icon CSS class is fa-comment-dots & CSS Content Code is f4ad'
 keywords =['Comment-Dots, \f4ad,fa-comment-dots']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Triangle-Exclamation font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Triangle-Exclamation font awesome icon CSS class is fa-triangle-exclamation & CSS Content Code is  \f071'
+summary = 'Triangle-Exclamation font awesome icon CSS class is fa-triangle-exclamation & CSS Content Code is f071'
 keywords =['Triangle-Exclamation, \f071,fa-triangle-exclamation']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

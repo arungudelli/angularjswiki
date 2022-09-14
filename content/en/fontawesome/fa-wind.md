@@ -1,7 +1,7 @@
 
 +++
 title='Wind font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Wind font awesome icon CSS class is fa-wind & CSS Content Code is  \f72e'
+summary = 'Wind font awesome icon CSS class is fa-wind & CSS Content Code is f72e'
 keywords =['Wind, \f72e,fa-wind']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

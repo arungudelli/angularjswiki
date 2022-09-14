@@ -1,7 +1,7 @@
 
 +++
 title='Hand-Middle-Finger font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hand-Middle-Finger font awesome icon CSS class is fa-hand-middle-finger & CSS Content Code is  \f806'
+summary = 'Hand-Middle-Finger font awesome icon CSS class is fa-hand-middle-finger & CSS Content Code is f806'
 keywords =['Hand-Middle-Finger, \f806,fa-hand-middle-finger']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

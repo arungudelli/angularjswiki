@@ -1,7 +1,7 @@
 
 +++
 title='Handcuffs font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Handcuffs font awesome icon CSS class is fa-handcuffs & CSS Content Code is  \e4f8'
+summary = 'Handcuffs font awesome icon CSS class is fa-handcuffs & CSS Content Code is e4f8'
 keywords =['Handcuffs, \e4f8,fa-handcuffs']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Greater-Than-Equal font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Greater-Than-Equal font awesome icon CSS class is fa-greater-than-equal & CSS Content Code is  \f532'
+summary = 'Greater-Than-Equal font awesome icon CSS class is fa-greater-than-equal & CSS Content Code is f532'
 keywords =['Greater-Than-Equal, \f532,fa-greater-than-equal']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

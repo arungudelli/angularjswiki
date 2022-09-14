@@ -1,7 +1,7 @@
 
 +++
 title='Y-Combinator font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Y-Combinator font awesome icon CSS class is fa-y-combinator & CSS Content Code is  \f23b'
+summary = 'Y-Combinator font awesome icon CSS class is fa-y-combinator & CSS Content Code is f23b'
 keywords =['Y-Combinator, \f23b,fa-y-combinator']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

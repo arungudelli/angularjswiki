@@ -1,7 +1,7 @@
 
 +++
 title='Linode font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Linode font awesome icon CSS class is fa-linode & CSS Content Code is  \f2b8'
+summary = 'Linode font awesome icon CSS class is fa-linode & CSS Content Code is f2b8'
 keywords =['Linode, \f2b8,fa-linode']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

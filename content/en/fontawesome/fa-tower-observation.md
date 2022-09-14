@@ -1,7 +1,7 @@
 
 +++
 title='Tower-Observation font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Tower-Observation font awesome icon CSS class is fa-tower-observation & CSS Content Code is  \e586'
+summary = 'Tower-Observation font awesome icon CSS class is fa-tower-observation & CSS Content Code is e586'
 keywords =['Tower-Observation, \e586,fa-tower-observation']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

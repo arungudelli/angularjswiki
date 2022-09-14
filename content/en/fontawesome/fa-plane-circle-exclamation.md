@@ -1,7 +1,7 @@
 
 +++
 title='Plane-Circle-Exclamation font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Plane-Circle-Exclamation font awesome icon CSS class is fa-plane-circle-exclamation & CSS Content Code is  \e556'
+summary = 'Plane-Circle-Exclamation font awesome icon CSS class is fa-plane-circle-exclamation & CSS Content Code is e556'
 keywords =['Plane-Circle-Exclamation, \e556,fa-plane-circle-exclamation']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

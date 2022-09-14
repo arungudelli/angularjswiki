@@ -1,7 +1,7 @@
 
 +++
 title='Laravel font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Laravel font awesome icon CSS class is fa-laravel & CSS Content Code is  \f3bd'
+summary = 'Laravel font awesome icon CSS class is fa-laravel & CSS Content Code is f3bd'
 keywords =['Laravel, \f3bd,fa-laravel']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

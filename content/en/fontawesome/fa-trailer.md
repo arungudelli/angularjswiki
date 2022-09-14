@@ -1,7 +1,7 @@
 
 +++
 title='Trailer font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Trailer font awesome icon CSS class is fa-trailer & CSS Content Code is  \e041'
+summary = 'Trailer font awesome icon CSS class is fa-trailer & CSS Content Code is e041'
 keywords =['Trailer, \e041,fa-trailer']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

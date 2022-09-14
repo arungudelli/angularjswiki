@@ -1,7 +1,7 @@
 
 +++
 title='Face-Grin-Beam-Sweat font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Face-Grin-Beam-Sweat font awesome icon CSS class is fa-face-grin-beam-sweat & CSS Content Code is  \f583'
+summary = 'Face-Grin-Beam-Sweat font awesome icon CSS class is fa-face-grin-beam-sweat & CSS Content Code is f583'
 keywords =['Face-Grin-Beam-Sweat, \f583,fa-face-grin-beam-sweat']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

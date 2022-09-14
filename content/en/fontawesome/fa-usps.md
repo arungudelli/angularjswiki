@@ -1,7 +1,7 @@
 
 +++
 title='Usps font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Usps font awesome icon CSS class is fa-usps & CSS Content Code is  \f7e1'
+summary = 'Usps font awesome icon CSS class is fa-usps & CSS Content Code is f7e1'
 keywords =['Usps, \f7e1,fa-usps']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

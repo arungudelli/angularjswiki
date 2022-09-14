@@ -1,7 +1,7 @@
 
 +++
 title='Connectdevelop font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Connectdevelop font awesome icon CSS class is fa-connectdevelop & CSS Content Code is  \f20e'
+summary = 'Connectdevelop font awesome icon CSS class is fa-connectdevelop & CSS Content Code is f20e'
 keywords =['Connectdevelop, \f20e,fa-connectdevelop']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

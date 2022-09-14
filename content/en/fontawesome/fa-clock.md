@@ -1,7 +1,7 @@
 
 +++
 title='Clock font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Clock font awesome icon CSS class is fa-clock & CSS Content Code is  \f017'
+summary = 'Clock font awesome icon CSS class is fa-clock & CSS Content Code is f017'
 keywords =['Clock, \f017,fa-clock']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

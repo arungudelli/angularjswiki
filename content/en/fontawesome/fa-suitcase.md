@@ -1,7 +1,7 @@
 
 +++
 title='Suitcase font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Suitcase font awesome icon CSS class is fa-suitcase & CSS Content Code is  \f0f2'
+summary = 'Suitcase font awesome icon CSS class is fa-suitcase & CSS Content Code is f0f2'
 keywords =['Suitcase, \f0f2,fa-suitcase']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

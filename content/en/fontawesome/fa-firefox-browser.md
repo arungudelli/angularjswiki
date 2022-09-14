@@ -1,7 +1,7 @@
 
 +++
 title='Firefox-Browser font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Firefox-Browser font awesome icon CSS class is fa-firefox-browser & CSS Content Code is  \e007'
+summary = 'Firefox-Browser font awesome icon CSS class is fa-firefox-browser & CSS Content Code is e007'
 keywords =['Firefox-Browser, \e007,fa-firefox-browser']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

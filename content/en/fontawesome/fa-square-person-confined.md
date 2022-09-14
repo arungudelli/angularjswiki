@@ -1,7 +1,7 @@
 
 +++
 title='Square-Person-Confined font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Person-Confined font awesome icon CSS class is fa-square-person-confined & CSS Content Code is  \e577'
+summary = 'Square-Person-Confined font awesome icon CSS class is fa-square-person-confined & CSS Content Code is e577'
 keywords =['Square-Person-Confined, \e577,fa-square-person-confined']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

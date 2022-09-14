@@ -1,7 +1,7 @@
 
 +++
 title='Dyalog font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Dyalog font awesome icon CSS class is fa-dyalog & CSS Content Code is  \f399'
+summary = 'Dyalog font awesome icon CSS class is fa-dyalog & CSS Content Code is f399'
 keywords =['Dyalog, \f399,fa-dyalog']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Mandalorian font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mandalorian font awesome icon CSS class is fa-mandalorian & CSS Content Code is  \f50f'
+summary = 'Mandalorian font awesome icon CSS class is fa-mandalorian & CSS Content Code is f50f'
 keywords =['Mandalorian, \f50f,fa-mandalorian']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

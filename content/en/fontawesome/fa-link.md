@@ -1,7 +1,7 @@
 
 +++
 title='Link font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Link font awesome icon CSS class is fa-link & CSS Content Code is  \f0c1'
+summary = 'Link font awesome icon CSS class is fa-link & CSS Content Code is f0c1'
 keywords =['Link, \f0c1,fa-link']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

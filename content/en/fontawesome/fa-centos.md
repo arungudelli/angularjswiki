@@ -1,7 +1,7 @@
 
 +++
 title='Centos font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Centos font awesome icon CSS class is fa-centos & CSS Content Code is  \f789'
+summary = 'Centos font awesome icon CSS class is fa-centos & CSS Content Code is f789'
 keywords =['Centos, \f789,fa-centos']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

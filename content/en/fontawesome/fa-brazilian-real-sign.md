@@ -1,7 +1,7 @@
 
 +++
 title='Brazilian-Real-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Brazilian-Real-Sign font awesome icon CSS class is fa-brazilian-real-sign & CSS Content Code is  \e46c'
+summary = 'Brazilian-Real-Sign font awesome icon CSS class is fa-brazilian-real-sign & CSS Content Code is e46c'
 keywords =['Brazilian-Real-Sign, \e46c,fa-brazilian-real-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

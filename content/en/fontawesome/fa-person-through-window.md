@@ -1,7 +1,7 @@
 
 +++
 title='Person-Through-Window font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Through-Window font awesome icon CSS class is fa-person-through-window & CSS Content Code is  \e5a9'
+summary = 'Person-Through-Window font awesome icon CSS class is fa-person-through-window & CSS Content Code is e5a9'
 keywords =['Person-Through-Window, \e5a9,fa-person-through-window']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

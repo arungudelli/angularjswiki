@@ -1,7 +1,7 @@
 
 +++
 title='Magnifying-Glass-Location font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Magnifying-Glass-Location font awesome icon CSS class is fa-magnifying-glass-location & CSS Content Code is  \f689'
+summary = 'Magnifying-Glass-Location font awesome icon CSS class is fa-magnifying-glass-location & CSS Content Code is f689'
 keywords =['Magnifying-Glass-Location, \f689,fa-magnifying-glass-location']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

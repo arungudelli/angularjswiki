@@ -1,7 +1,7 @@
 
 +++
 title='Tablet-Button font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Tablet-Button font awesome icon CSS class is fa-tablet-button & CSS Content Code is  \f10a'
+summary = 'Tablet-Button font awesome icon CSS class is fa-tablet-button & CSS Content Code is f10a'
 keywords =['Tablet-Button, \f10a,fa-tablet-button']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

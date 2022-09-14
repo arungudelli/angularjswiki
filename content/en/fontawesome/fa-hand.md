@@ -1,7 +1,7 @@
 
 +++
 title='Hand font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hand font awesome icon CSS class is fa-hand & CSS Content Code is  \f256'
+summary = 'Hand font awesome icon CSS class is fa-hand & CSS Content Code is f256'
 keywords =['Hand, \f256,fa-hand']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

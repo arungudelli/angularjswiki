@@ -1,7 +1,7 @@
 
 +++
 title='Node font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Node font awesome icon CSS class is fa-node & CSS Content Code is  \f419'
+summary = 'Node font awesome icon CSS class is fa-node & CSS Content Code is f419'
 keywords =['Node, \f419,fa-node']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

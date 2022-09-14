@@ -1,7 +1,7 @@
 
 +++
 title='Face-Laugh-Beam font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Face-Laugh-Beam font awesome icon CSS class is fa-face-laugh-beam & CSS Content Code is  \f59a'
+summary = 'Face-Laugh-Beam font awesome icon CSS class is fa-face-laugh-beam & CSS Content Code is f59a'
 keywords =['Face-Laugh-Beam, \f59a,fa-face-laugh-beam']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

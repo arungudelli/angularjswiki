@@ -1,7 +1,7 @@
 
 +++
 title='Ribbon font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ribbon font awesome icon CSS class is fa-ribbon & CSS Content Code is  \f4d6'
+summary = 'Ribbon font awesome icon CSS class is fa-ribbon & CSS Content Code is f4d6'
 keywords =['Ribbon, \f4d6,fa-ribbon']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

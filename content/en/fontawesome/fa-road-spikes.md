@@ -1,7 +1,7 @@
 
 +++
 title='Road-Spikes font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Road-Spikes font awesome icon CSS class is fa-road-spikes & CSS Content Code is  \e568'
+summary = 'Road-Spikes font awesome icon CSS class is fa-road-spikes & CSS Content Code is e568'
 keywords =['Road-Spikes, \e568,fa-road-spikes']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

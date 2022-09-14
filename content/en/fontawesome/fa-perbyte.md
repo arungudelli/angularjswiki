@@ -1,7 +1,7 @@
 
 +++
 title='Perbyte font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Perbyte font awesome icon CSS class is fa-perbyte & CSS Content Code is  \e083'
+summary = 'Perbyte font awesome icon CSS class is fa-perbyte & CSS Content Code is e083'
 keywords =['Perbyte, \e083,fa-perbyte']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Readme font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Readme font awesome icon CSS class is fa-readme & CSS Content Code is  \f4d5'
+summary = 'Readme font awesome icon CSS class is fa-readme & CSS Content Code is f4d5'
 keywords =['Readme, \f4d5,fa-readme']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

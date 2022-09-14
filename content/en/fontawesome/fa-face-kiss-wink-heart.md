@@ -1,7 +1,7 @@
 
 +++
 title='Face-Kiss-Wink-Heart font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Face-Kiss-Wink-Heart font awesome icon CSS class is fa-face-kiss-wink-heart & CSS Content Code is  \f598'
+summary = 'Face-Kiss-Wink-Heart font awesome icon CSS class is fa-face-kiss-wink-heart & CSS Content Code is f598'
 keywords =['Face-Kiss-Wink-Heart, \f598,fa-face-kiss-wink-heart']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

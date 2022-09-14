@@ -1,7 +1,7 @@
 
 +++
 title='Upload font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Upload font awesome icon CSS class is fa-upload & CSS Content Code is  \f093'
+summary = 'Upload font awesome icon CSS class is fa-upload & CSS Content Code is f093'
 keywords =['Upload, \f093,fa-upload']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

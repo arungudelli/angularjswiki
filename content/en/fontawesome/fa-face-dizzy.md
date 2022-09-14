@@ -1,7 +1,7 @@
 
 +++
 title='Face-Dizzy font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Face-Dizzy font awesome icon CSS class is fa-face-dizzy & CSS Content Code is  \f567'
+summary = 'Face-Dizzy font awesome icon CSS class is fa-face-dizzy & CSS Content Code is f567'
 keywords =['Face-Dizzy, \f567,fa-face-dizzy']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

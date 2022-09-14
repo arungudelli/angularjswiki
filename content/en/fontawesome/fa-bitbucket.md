@@ -1,7 +1,7 @@
 
 +++
 title='Bitbucket font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bitbucket font awesome icon CSS class is fa-bitbucket & CSS Content Code is  \f171'
+summary = 'Bitbucket font awesome icon CSS class is fa-bitbucket & CSS Content Code is f171'
 keywords =['Bitbucket, \f171,fa-bitbucket']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

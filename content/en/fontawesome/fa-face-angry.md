@@ -1,7 +1,7 @@
 
 +++
 title='Face-Angry font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Face-Angry font awesome icon CSS class is fa-face-angry & CSS Content Code is  \f556'
+summary = 'Face-Angry font awesome icon CSS class is fa-face-angry & CSS Content Code is f556'
 keywords =['Face-Angry, \f556,fa-face-angry']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

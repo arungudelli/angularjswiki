@@ -1,7 +1,7 @@
 
 +++
 title='Space-Awesome font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Space-Awesome font awesome icon CSS class is fa-space-awesome & CSS Content Code is  \e5ac'
+summary = 'Space-Awesome font awesome icon CSS class is fa-space-awesome & CSS Content Code is e5ac'
 keywords =['Space-Awesome, \e5ac,fa-space-awesome']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

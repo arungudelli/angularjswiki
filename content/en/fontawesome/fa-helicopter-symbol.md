@@ -1,7 +1,7 @@
 
 +++
 title='Helicopter-Symbol font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Helicopter-Symbol font awesome icon CSS class is fa-helicopter-symbol & CSS Content Code is  \e502'
+summary = 'Helicopter-Symbol font awesome icon CSS class is fa-helicopter-symbol & CSS Content Code is e502'
 keywords =['Helicopter-Symbol, \e502,fa-helicopter-symbol']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

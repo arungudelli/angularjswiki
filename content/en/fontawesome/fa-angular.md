@@ -1,7 +1,7 @@
 
 +++
 title='Angular font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Angular font awesome icon CSS class is fa-angular & CSS Content Code is  \f420'
+summary = 'Angular font awesome icon CSS class is fa-angular & CSS Content Code is f420'
 keywords =['Angular, \f420,fa-angular']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='List-Ul font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'List-Ul font awesome icon CSS class is fa-list-ul & CSS Content Code is  \f0ca'
+summary = 'List-Ul font awesome icon CSS class is fa-list-ul & CSS Content Code is f0ca'
 keywords =['List-Ul, \f0ca,fa-list-ul']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Map-Location font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Map-Location font awesome icon CSS class is fa-map-location & CSS Content Code is  \f59f'
+summary = 'Map-Location font awesome icon CSS class is fa-map-location & CSS Content Code is f59f'
 keywords =['Map-Location, \f59f,fa-map-location']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

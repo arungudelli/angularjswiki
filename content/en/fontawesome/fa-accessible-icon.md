@@ -1,7 +1,7 @@
 
 +++
 title='Accessible-Icon font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Accessible-Icon font awesome icon CSS class is fa-accessible-icon & CSS Content Code is  \f368'
+summary = 'Accessible-Icon font awesome icon CSS class is fa-accessible-icon & CSS Content Code is f368'
 keywords =['Accessible-Icon, \f368,fa-accessible-icon']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

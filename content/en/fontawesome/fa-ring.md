@@ -1,7 +1,7 @@
 
 +++
 title='Ring font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ring font awesome icon CSS class is fa-ring & CSS Content Code is  \f70b'
+summary = 'Ring font awesome icon CSS class is fa-ring & CSS Content Code is f70b'
 keywords =['Ring, \f70b,fa-ring']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

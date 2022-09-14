@@ -1,7 +1,7 @@
 
 +++
 title='Vial font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Vial font awesome icon CSS class is fa-vial & CSS Content Code is  \f492'
+summary = 'Vial font awesome icon CSS class is fa-vial & CSS Content Code is f492'
 keywords =['Vial, \f492,fa-vial']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

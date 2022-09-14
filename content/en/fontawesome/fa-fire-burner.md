@@ -1,7 +1,7 @@
 
 +++
 title='Fire-Burner font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Fire-Burner font awesome icon CSS class is fa-fire-burner & CSS Content Code is  \e4f1'
+summary = 'Fire-Burner font awesome icon CSS class is fa-fire-burner & CSS Content Code is e4f1'
 keywords =['Fire-Burner, \e4f1,fa-fire-burner']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

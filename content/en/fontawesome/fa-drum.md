@@ -1,7 +1,7 @@
 
 +++
 title='Drum font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Drum font awesome icon CSS class is fa-drum & CSS Content Code is  \f569'
+summary = 'Drum font awesome icon CSS class is fa-drum & CSS Content Code is f569'
 keywords =['Drum, \f569,fa-drum']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

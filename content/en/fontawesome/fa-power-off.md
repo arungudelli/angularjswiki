@@ -1,7 +1,7 @@
 
 +++
 title='Power-Off font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Power-Off font awesome icon CSS class is fa-power-off & CSS Content Code is  \f011'
+summary = 'Power-Off font awesome icon CSS class is fa-power-off & CSS Content Code is f011'
 keywords =['Power-Off, \f011,fa-power-off']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

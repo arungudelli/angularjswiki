@@ -1,7 +1,7 @@
 
 +++
 title='Magnifying-Glass-Chart font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Magnifying-Glass-Chart font awesome icon CSS class is fa-magnifying-glass-chart & CSS Content Code is  \e522'
+summary = 'Magnifying-Glass-Chart font awesome icon CSS class is fa-magnifying-glass-chart & CSS Content Code is e522'
 keywords =['Magnifying-Glass-Chart, \e522,fa-magnifying-glass-chart']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

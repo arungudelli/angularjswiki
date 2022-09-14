@@ -1,7 +1,7 @@
 
 +++
 title='Trowel font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Trowel font awesome icon CSS class is fa-trowel & CSS Content Code is  \e589'
+summary = 'Trowel font awesome icon CSS class is fa-trowel & CSS Content Code is e589'
 keywords =['Trowel, \e589,fa-trowel']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

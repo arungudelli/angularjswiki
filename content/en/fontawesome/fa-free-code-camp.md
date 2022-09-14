@@ -1,7 +1,7 @@
 
 +++
 title='Free-Code-Camp font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Free-Code-Camp font awesome icon CSS class is fa-free-code-camp & CSS Content Code is  \f2c5'
+summary = 'Free-Code-Camp font awesome icon CSS class is fa-free-code-camp & CSS Content Code is f2c5'
 keywords =['Free-Code-Camp, \f2c5,fa-free-code-camp']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

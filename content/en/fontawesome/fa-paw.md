@@ -1,7 +1,7 @@
 
 +++
 title='Paw font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Paw font awesome icon CSS class is fa-paw & CSS Content Code is  \f1b0'
+summary = 'Paw font awesome icon CSS class is fa-paw & CSS Content Code is f1b0'
 keywords =['Paw, \f1b0,fa-paw']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Magento font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Magento font awesome icon CSS class is fa-magento & CSS Content Code is  \f3c4'
+summary = 'Magento font awesome icon CSS class is fa-magento & CSS Content Code is f3c4'
 keywords =['Magento, \f3c4,fa-magento']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

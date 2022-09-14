@@ -1,7 +1,7 @@
 
 +++
 title='File-Video font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'File-Video font awesome icon CSS class is fa-file-video & CSS Content Code is  \f1c8'
+summary = 'File-Video font awesome icon CSS class is fa-file-video & CSS Content Code is f1c8'
 keywords =['File-Video, \f1c8,fa-file-video']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

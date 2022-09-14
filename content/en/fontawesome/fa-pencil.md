@@ -1,7 +1,7 @@
 
 +++
 title='Pencil font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Pencil font awesome icon CSS class is fa-pencil & CSS Content Code is  \f303'
+summary = 'Pencil font awesome icon CSS class is fa-pencil & CSS Content Code is f303'
 keywords =['Pencil, \f303,fa-pencil']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

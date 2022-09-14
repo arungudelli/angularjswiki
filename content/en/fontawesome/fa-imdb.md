@@ -1,7 +1,7 @@
 
 +++
 title='Imdb font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Imdb font awesome icon CSS class is fa-imdb & CSS Content Code is  \f2d8'
+summary = 'Imdb font awesome icon CSS class is fa-imdb & CSS Content Code is f2d8'
 keywords =['Imdb, \f2d8,fa-imdb']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

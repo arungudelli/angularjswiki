@@ -1,7 +1,7 @@
 
 +++
 title='Basket-Shopping font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Basket-Shopping font awesome icon CSS class is fa-basket-shopping & CSS Content Code is  \f291'
+summary = 'Basket-Shopping font awesome icon CSS class is fa-basket-shopping & CSS Content Code is f291'
 keywords =['Basket-Shopping, \f291,fa-basket-shopping']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

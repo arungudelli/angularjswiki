@@ -1,7 +1,7 @@
 
 +++
 title='Road-Circle-Exclamation font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Road-Circle-Exclamation font awesome icon CSS class is fa-road-circle-exclamation & CSS Content Code is  \e565'
+summary = 'Road-Circle-Exclamation font awesome icon CSS class is fa-road-circle-exclamation & CSS Content Code is e565'
 keywords =['Road-Circle-Exclamation, \e565,fa-road-circle-exclamation']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

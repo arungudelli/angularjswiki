@@ -1,7 +1,7 @@
 
 +++
 title='Gg font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Gg font awesome icon CSS class is fa-gg & CSS Content Code is  \f260'
+summary = 'Gg font awesome icon CSS class is fa-gg & CSS Content Code is f260'
 keywords =['Gg, \f260,fa-gg']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

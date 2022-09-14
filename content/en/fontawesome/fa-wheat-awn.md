@@ -1,7 +1,7 @@
 
 +++
 title='Wheat-Awn font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Wheat-Awn font awesome icon CSS class is fa-wheat-awn & CSS Content Code is  \e2cd'
+summary = 'Wheat-Awn font awesome icon CSS class is fa-wheat-awn & CSS Content Code is e2cd'
 keywords =['Wheat-Awn, \e2cd,fa-wheat-awn']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

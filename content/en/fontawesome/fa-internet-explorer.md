@@ -1,7 +1,7 @@
 
 +++
 title='Internet-Explorer font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Internet-Explorer font awesome icon CSS class is fa-internet-explorer & CSS Content Code is  \f26b'
+summary = 'Internet-Explorer font awesome icon CSS class is fa-internet-explorer & CSS Content Code is f26b'
 keywords =['Internet-Explorer, \f26b,fa-internet-explorer']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Scroll-Torah font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Scroll-Torah font awesome icon CSS class is fa-scroll-torah & CSS Content Code is  \f6a0'
+summary = 'Scroll-Torah font awesome icon CSS class is fa-scroll-torah & CSS Content Code is f6a0'
 keywords =['Scroll-Torah, \f6a0,fa-scroll-torah']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

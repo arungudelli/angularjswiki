@@ -1,7 +1,7 @@
 
 +++
 title='Sign-Hanging font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Sign-Hanging font awesome icon CSS class is fa-sign-hanging & CSS Content Code is  \f4d9'
+summary = 'Sign-Hanging font awesome icon CSS class is fa-sign-hanging & CSS Content Code is f4d9'
 keywords =['Sign-Hanging, \f4d9,fa-sign-hanging']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

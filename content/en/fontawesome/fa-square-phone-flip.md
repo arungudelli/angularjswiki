@@ -1,7 +1,7 @@
 
 +++
 title='Square-Phone-Flip font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Phone-Flip font awesome icon CSS class is fa-square-phone-flip & CSS Content Code is  \f87b'
+summary = 'Square-Phone-Flip font awesome icon CSS class is fa-square-phone-flip & CSS Content Code is f87b'
 keywords =['Square-Phone-Flip, \f87b,fa-square-phone-flip']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

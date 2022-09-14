@@ -1,7 +1,7 @@
 
 +++
 title='Grunt font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Grunt font awesome icon CSS class is fa-grunt & CSS Content Code is  \f3ad'
+summary = 'Grunt font awesome icon CSS class is fa-grunt & CSS Content Code is f3ad'
 keywords =['Grunt, \f3ad,fa-grunt']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

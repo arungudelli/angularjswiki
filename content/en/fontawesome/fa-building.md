@@ -1,7 +1,7 @@
 
 +++
 title='Building font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Building font awesome icon CSS class is fa-building & CSS Content Code is  \f1ad'
+summary = 'Building font awesome icon CSS class is fa-building & CSS Content Code is f1ad'
 keywords =['Building, \f1ad,fa-building']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

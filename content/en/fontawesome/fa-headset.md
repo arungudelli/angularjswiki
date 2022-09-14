@@ -1,7 +1,7 @@
 
 +++
 title='Headset font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Headset font awesome icon CSS class is fa-headset & CSS Content Code is  \f590'
+summary = 'Headset font awesome icon CSS class is fa-headset & CSS Content Code is f590'
 keywords =['Headset, \f590,fa-headset']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

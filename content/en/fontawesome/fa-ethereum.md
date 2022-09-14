@@ -1,7 +1,7 @@
 
 +++
 title='Ethereum font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ethereum font awesome icon CSS class is fa-ethereum & CSS Content Code is  \f42e'
+summary = 'Ethereum font awesome icon CSS class is fa-ethereum & CSS Content Code is f42e'
 keywords =['Ethereum, \f42e,fa-ethereum']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

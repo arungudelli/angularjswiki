@@ -1,7 +1,7 @@
 
 +++
 title='User-Nurse font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'User-Nurse font awesome icon CSS class is fa-user-nurse & CSS Content Code is  \f82f'
+summary = 'User-Nurse font awesome icon CSS class is fa-user-nurse & CSS Content Code is f82f'
 keywords =['User-Nurse, \f82f,fa-user-nurse']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Wand-Magic-Sparkles font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Wand-Magic-Sparkles font awesome icon CSS class is fa-wand-magic-sparkles & CSS Content Code is  \e2ca'
+summary = 'Wand-Magic-Sparkles font awesome icon CSS class is fa-wand-magic-sparkles & CSS Content Code is e2ca'
 keywords =['Wand-Magic-Sparkles, \e2ca,fa-wand-magic-sparkles']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

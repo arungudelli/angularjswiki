@@ -1,7 +1,7 @@
 
 +++
 title='Ioxhost font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ioxhost font awesome icon CSS class is fa-ioxhost & CSS Content Code is  \f208'
+summary = 'Ioxhost font awesome icon CSS class is fa-ioxhost & CSS Content Code is f208'
 keywords =['Ioxhost, \f208,fa-ioxhost']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

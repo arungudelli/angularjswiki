@@ -1,7 +1,7 @@
 
 +++
 title='Pix font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Pix font awesome icon CSS class is fa-pix & CSS Content Code is  \e43a'
+summary = 'Pix font awesome icon CSS class is fa-pix & CSS Content Code is e43a'
 keywords =['Pix, \e43a,fa-pix']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

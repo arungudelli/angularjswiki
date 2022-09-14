@@ -1,7 +1,7 @@
 
 +++
 title='Contao font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Contao font awesome icon CSS class is fa-contao & CSS Content Code is  \f26d'
+summary = 'Contao font awesome icon CSS class is fa-contao & CSS Content Code is f26d'
 keywords =['Contao, \f26d,fa-contao']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Arrow-Right-To-City font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Arrow-Right-To-City font awesome icon CSS class is fa-arrow-right-to-city & CSS Content Code is  \e4b3'
+summary = 'Arrow-Right-To-City font awesome icon CSS class is fa-arrow-right-to-city & CSS Content Code is e4b3'
 keywords =['Arrow-Right-To-City, \e4b3,fa-arrow-right-to-city']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

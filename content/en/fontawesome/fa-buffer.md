@@ -1,7 +1,7 @@
 
 +++
 title='Buffer font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Buffer font awesome icon CSS class is fa-buffer & CSS Content Code is  \f837'
+summary = 'Buffer font awesome icon CSS class is fa-buffer & CSS Content Code is f837'
 keywords =['Buffer, \f837,fa-buffer']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

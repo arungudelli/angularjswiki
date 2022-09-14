@@ -1,7 +1,7 @@
 
 +++
 title='Person-Arrow-Up-From-Line font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Person-Arrow-Up-From-Line font awesome icon CSS class is fa-person-arrow-up-from-line & CSS Content Code is  \e539'
+summary = 'Person-Arrow-Up-From-Line font awesome icon CSS class is fa-person-arrow-up-from-line & CSS Content Code is e539'
 keywords =['Person-Arrow-Up-From-Line, \e539,fa-person-arrow-up-from-line']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

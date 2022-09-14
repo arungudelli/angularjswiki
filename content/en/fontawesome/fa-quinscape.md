@@ -1,7 +1,7 @@
 
 +++
 title='Quinscape font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Quinscape font awesome icon CSS class is fa-quinscape & CSS Content Code is  \f459'
+summary = 'Quinscape font awesome icon CSS class is fa-quinscape & CSS Content Code is f459'
 keywords =['Quinscape, \f459,fa-quinscape']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

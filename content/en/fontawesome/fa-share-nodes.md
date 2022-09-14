@@ -1,7 +1,7 @@
 
 +++
 title='Share-Nodes font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Share-Nodes font awesome icon CSS class is fa-share-nodes & CSS Content Code is  \f1e0'
+summary = 'Share-Nodes font awesome icon CSS class is fa-share-nodes & CSS Content Code is f1e0'
 keywords =['Share-Nodes, \f1e0,fa-share-nodes']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

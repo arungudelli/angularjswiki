@@ -1,7 +1,7 @@
 
 +++
 title='Dochub font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Dochub font awesome icon CSS class is fa-dochub & CSS Content Code is  \f394'
+summary = 'Dochub font awesome icon CSS class is fa-dochub & CSS Content Code is f394'
 keywords =['Dochub, \f394,fa-dochub']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

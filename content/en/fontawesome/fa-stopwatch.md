@@ -1,7 +1,7 @@
 
 +++
 title='Stopwatch font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Stopwatch font awesome icon CSS class is fa-stopwatch & CSS Content Code is  \f2f2'
+summary = 'Stopwatch font awesome icon CSS class is fa-stopwatch & CSS Content Code is f2f2'
 keywords =['Stopwatch, \f2f2,fa-stopwatch']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Dumpster-Fire font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Dumpster-Fire font awesome icon CSS class is fa-dumpster-fire & CSS Content Code is  \f794'
+summary = 'Dumpster-Fire font awesome icon CSS class is fa-dumpster-fire & CSS Content Code is f794'
 keywords =['Dumpster-Fire, \f794,fa-dumpster-fire']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

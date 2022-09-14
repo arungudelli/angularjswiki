@@ -1,7 +1,7 @@
 
 +++
 title='Redhat font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Redhat font awesome icon CSS class is fa-redhat & CSS Content Code is  \f7bc'
+summary = 'Redhat font awesome icon CSS class is fa-redhat & CSS Content Code is f7bc'
 keywords =['Redhat, \f7bc,fa-redhat']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

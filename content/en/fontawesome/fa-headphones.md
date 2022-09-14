@@ -1,7 +1,7 @@
 
 +++
 title='Headphones font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Headphones font awesome icon CSS class is fa-headphones & CSS Content Code is  \f025'
+summary = 'Headphones font awesome icon CSS class is fa-headphones & CSS Content Code is f025'
 keywords =['Headphones, \f025,fa-headphones']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

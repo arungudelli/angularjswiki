@@ -1,7 +1,7 @@
 
 +++
 title='Bell-Slash font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bell-Slash font awesome icon CSS class is fa-bell-slash & CSS Content Code is  \f1f6'
+summary = 'Bell-Slash font awesome icon CSS class is fa-bell-slash & CSS Content Code is f1f6'
 keywords =['Bell-Slash, \f1f6,fa-bell-slash']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

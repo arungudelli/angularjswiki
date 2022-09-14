@@ -1,7 +1,7 @@
 
 +++
 title='Bread-Slice font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bread-Slice font awesome icon CSS class is fa-bread-slice & CSS Content Code is  \f7ec'
+summary = 'Bread-Slice font awesome icon CSS class is fa-bread-slice & CSS Content Code is f7ec'
 keywords =['Bread-Slice, \f7ec,fa-bread-slice']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

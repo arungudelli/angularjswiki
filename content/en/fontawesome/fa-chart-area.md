@@ -1,7 +1,7 @@
 
 +++
 title='Chart-Area font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Chart-Area font awesome icon CSS class is fa-chart-area & CSS Content Code is  \f1fe'
+summary = 'Chart-Area font awesome icon CSS class is fa-chart-area & CSS Content Code is f1fe'
 keywords =['Chart-Area, \f1fe,fa-chart-area']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

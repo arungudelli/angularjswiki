@@ -1,7 +1,7 @@
 
 +++
 title='Plane-Up font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Plane-Up font awesome icon CSS class is fa-plane-up & CSS Content Code is  \e22d'
+summary = 'Plane-Up font awesome icon CSS class is fa-plane-up & CSS Content Code is e22d'
 keywords =['Plane-Up, \e22d,fa-plane-up']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

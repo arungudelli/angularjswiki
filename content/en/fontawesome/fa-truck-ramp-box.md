@@ -1,7 +1,7 @@
 
 +++
 title='Truck-Ramp-Box font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Truck-Ramp-Box font awesome icon CSS class is fa-truck-ramp-box & CSS Content Code is  \f4de'
+summary = 'Truck-Ramp-Box font awesome icon CSS class is fa-truck-ramp-box & CSS Content Code is f4de'
 keywords =['Truck-Ramp-Box, \f4de,fa-truck-ramp-box']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

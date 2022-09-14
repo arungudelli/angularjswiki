@@ -1,7 +1,7 @@
 
 +++
 title='X-Ray font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'X-Ray font awesome icon CSS class is fa-x-ray & CSS Content Code is  \f497'
+summary = 'X-Ray font awesome icon CSS class is fa-x-ray & CSS Content Code is f497'
 keywords =['X-Ray, \f497,fa-x-ray']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

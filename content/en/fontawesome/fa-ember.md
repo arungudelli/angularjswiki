@@ -1,7 +1,7 @@
 
 +++
 title='Ember font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ember font awesome icon CSS class is fa-ember & CSS Content Code is  \f423'
+summary = 'Ember font awesome icon CSS class is fa-ember & CSS Content Code is f423'
 keywords =['Ember, \f423,fa-ember']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

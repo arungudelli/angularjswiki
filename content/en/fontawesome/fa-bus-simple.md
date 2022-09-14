@@ -1,7 +1,7 @@
 
 +++
 title='Bus-Simple font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bus-Simple font awesome icon CSS class is fa-bus-simple & CSS Content Code is  \f55e'
+summary = 'Bus-Simple font awesome icon CSS class is fa-bus-simple & CSS Content Code is f55e'
 keywords =['Bus-Simple, \f55e,fa-bus-simple']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Weixin font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Weixin font awesome icon CSS class is fa-weixin & CSS Content Code is  \f1d7'
+summary = 'Weixin font awesome icon CSS class is fa-weixin & CSS Content Code is f1d7'
 keywords =['Weixin, \f1d7,fa-weixin']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

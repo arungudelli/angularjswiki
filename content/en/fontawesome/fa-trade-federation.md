@@ -1,7 +1,7 @@
 
 +++
 title='Trade-Federation font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Trade-Federation font awesome icon CSS class is fa-trade-federation & CSS Content Code is  \f513'
+summary = 'Trade-Federation font awesome icon CSS class is fa-trade-federation & CSS Content Code is f513'
 keywords =['Trade-Federation, \f513,fa-trade-federation']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

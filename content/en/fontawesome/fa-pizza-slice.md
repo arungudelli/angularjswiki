@@ -1,7 +1,7 @@
 
 +++
 title='Pizza-Slice font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Pizza-Slice font awesome icon CSS class is fa-pizza-slice & CSS Content Code is  \f818'
+summary = 'Pizza-Slice font awesome icon CSS class is fa-pizza-slice & CSS Content Code is f818'
 keywords =['Pizza-Slice, \f818,fa-pizza-slice']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Ns8 font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Ns8 font awesome icon CSS class is fa-ns8 & CSS Content Code is  \f3d5'
+summary = 'Ns8 font awesome icon CSS class is fa-ns8 & CSS Content Code is f3d5'
 keywords =['Ns8, \f3d5,fa-ns8']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

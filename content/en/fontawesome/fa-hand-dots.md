@@ -1,7 +1,7 @@
 
 +++
 title='Hand-Dots font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Hand-Dots font awesome icon CSS class is fa-hand-dots & CSS Content Code is  \f461'
+summary = 'Hand-Dots font awesome icon CSS class is fa-hand-dots & CSS Content Code is f461'
 keywords =['Hand-Dots, \f461,fa-hand-dots']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

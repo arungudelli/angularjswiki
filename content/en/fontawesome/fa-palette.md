@@ -1,7 +1,7 @@
 
 +++
 title='Palette font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Palette font awesome icon CSS class is fa-palette & CSS Content Code is  \f53f'
+summary = 'Palette font awesome icon CSS class is fa-palette & CSS Content Code is f53f'
 keywords =['Palette, \f53f,fa-palette']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

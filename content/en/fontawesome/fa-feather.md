@@ -1,7 +1,7 @@
 
 +++
 title='Feather font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Feather font awesome icon CSS class is fa-feather & CSS Content Code is  \f52d'
+summary = 'Feather font awesome icon CSS class is fa-feather & CSS Content Code is f52d'
 keywords =['Feather, \f52d,fa-feather']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

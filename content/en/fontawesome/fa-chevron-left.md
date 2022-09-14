@@ -1,7 +1,7 @@
 
 +++
 title='Chevron-Left font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Chevron-Left font awesome icon CSS class is fa-chevron-left & CSS Content Code is  \f053'
+summary = 'Chevron-Left font awesome icon CSS class is fa-chevron-left & CSS Content Code is f053'
 keywords =['Chevron-Left, \f053,fa-chevron-left']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

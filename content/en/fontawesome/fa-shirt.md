@@ -1,7 +1,7 @@
 
 +++
 title='Shirt font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Shirt font awesome icon CSS class is fa-shirt & CSS Content Code is  \f553'
+summary = 'Shirt font awesome icon CSS class is fa-shirt & CSS Content Code is f553'
 keywords =['Shirt, \f553,fa-shirt']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

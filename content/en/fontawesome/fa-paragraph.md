@@ -1,7 +1,7 @@
 
 +++
 title='Paragraph font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Paragraph font awesome icon CSS class is fa-paragraph & CSS Content Code is  \f1dd'
+summary = 'Paragraph font awesome icon CSS class is fa-paragraph & CSS Content Code is f1dd'
 keywords =['Paragraph, \f1dd,fa-paragraph']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

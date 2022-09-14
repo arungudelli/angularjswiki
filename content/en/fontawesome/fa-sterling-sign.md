@@ -1,7 +1,7 @@
 
 +++
 title='Sterling-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Sterling-Sign font awesome icon CSS class is fa-sterling-sign & CSS Content Code is  \f154'
+summary = 'Sterling-Sign font awesome icon CSS class is fa-sterling-sign & CSS Content Code is f154'
 keywords =['Sterling-Sign, \f154,fa-sterling-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

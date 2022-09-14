@@ -1,7 +1,7 @@
 
 +++
 title='Filter font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Filter font awesome icon CSS class is fa-filter & CSS Content Code is  \f0b0'
+summary = 'Filter font awesome icon CSS class is fa-filter & CSS Content Code is f0b0'
 keywords =['Filter, \f0b0,fa-filter']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

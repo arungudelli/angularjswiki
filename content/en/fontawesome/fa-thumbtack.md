@@ -1,7 +1,7 @@
 
 +++
 title='Thumbtack font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Thumbtack font awesome icon CSS class is fa-thumbtack & CSS Content Code is  \f08d'
+summary = 'Thumbtack font awesome icon CSS class is fa-thumbtack & CSS Content Code is f08d'
 keywords =['Thumbtack, \f08d,fa-thumbtack']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

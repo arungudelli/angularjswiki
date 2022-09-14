@@ -1,7 +1,7 @@
 
 +++
 title='Lemon font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Lemon font awesome icon CSS class is fa-lemon & CSS Content Code is  \f094'
+summary = 'Lemon font awesome icon CSS class is fa-lemon & CSS Content Code is f094'
 keywords =['Lemon, \f094,fa-lemon']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

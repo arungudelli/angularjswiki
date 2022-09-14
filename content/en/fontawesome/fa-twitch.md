@@ -1,7 +1,7 @@
 
 +++
 title='Twitch font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Twitch font awesome icon CSS class is fa-twitch & CSS Content Code is  \f1e8'
+summary = 'Twitch font awesome icon CSS class is fa-twitch & CSS Content Code is f1e8'
 keywords =['Twitch, \f1e8,fa-twitch']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

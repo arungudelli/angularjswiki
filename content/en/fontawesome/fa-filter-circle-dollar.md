@@ -1,7 +1,7 @@
 
 +++
 title='Filter-Circle-Dollar font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Filter-Circle-Dollar font awesome icon CSS class is fa-filter-circle-dollar & CSS Content Code is  \f662'
+summary = 'Filter-Circle-Dollar font awesome icon CSS class is fa-filter-circle-dollar & CSS Content Code is f662'
 keywords =['Filter-Circle-Dollar, \f662,fa-filter-circle-dollar']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

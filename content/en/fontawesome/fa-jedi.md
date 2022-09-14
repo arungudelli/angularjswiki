@@ -1,7 +1,7 @@
 
 +++
 title='Jedi font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Jedi font awesome icon CSS class is fa-jedi & CSS Content Code is  \f669'
+summary = 'Jedi font awesome icon CSS class is fa-jedi & CSS Content Code is f669'
 keywords =['Jedi, \f669,fa-jedi']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

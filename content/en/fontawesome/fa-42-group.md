@@ -1,7 +1,7 @@
 
 +++
 title='42-Group font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = '42-Group font awesome icon CSS class is fa-42-group & CSS Content Code is  \e080'
+summary = '42-Group font awesome icon CSS class is fa-42-group & CSS Content Code is e080'
 keywords =['42-Group, \e080,fa-42-group']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Bug-Slash font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bug-Slash font awesome icon CSS class is fa-bug-slash & CSS Content Code is  \e490'
+summary = 'Bug-Slash font awesome icon CSS class is fa-bug-slash & CSS Content Code is e490'
 keywords =['Bug-Slash, \e490,fa-bug-slash']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

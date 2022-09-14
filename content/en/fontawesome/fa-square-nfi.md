@@ -1,7 +1,7 @@
 
 +++
 title='Square-Nfi font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Nfi font awesome icon CSS class is fa-square-nfi & CSS Content Code is  \e576'
+summary = 'Square-Nfi font awesome icon CSS class is fa-square-nfi & CSS Content Code is e576'
 keywords =['Square-Nfi, \e576,fa-square-nfi']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Fill font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Fill font awesome icon CSS class is fa-fill & CSS Content Code is  \f575'
+summary = 'Fill font awesome icon CSS class is fa-fill & CSS Content Code is f575'
 keywords =['Fill, \f575,fa-fill']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

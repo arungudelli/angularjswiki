@@ -1,7 +1,7 @@
 
 +++
 title='Dailymotion font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Dailymotion font awesome icon CSS class is fa-dailymotion & CSS Content Code is  \e052'
+summary = 'Dailymotion font awesome icon CSS class is fa-dailymotion & CSS Content Code is e052'
 keywords =['Dailymotion, \e052,fa-dailymotion']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

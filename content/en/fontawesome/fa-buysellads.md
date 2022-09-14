@@ -1,7 +1,7 @@
 
 +++
 title='Buysellads font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Buysellads font awesome icon CSS class is fa-buysellads & CSS Content Code is  \f20d'
+summary = 'Buysellads font awesome icon CSS class is fa-buysellads & CSS Content Code is f20d'
 keywords =['Buysellads, \f20d,fa-buysellads']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

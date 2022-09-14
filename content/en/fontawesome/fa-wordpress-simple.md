@@ -1,7 +1,7 @@
 
 +++
 title='Wordpress-Simple font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Wordpress-Simple font awesome icon CSS class is fa-wordpress-simple & CSS Content Code is  \f411'
+summary = 'Wordpress-Simple font awesome icon CSS class is fa-wordpress-simple & CSS Content Code is f411'
 keywords =['Wordpress-Simple, \f411,fa-wordpress-simple']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

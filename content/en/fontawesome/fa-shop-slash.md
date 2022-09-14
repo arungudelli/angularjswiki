@@ -1,7 +1,7 @@
 
 +++
 title='Shop-Slash font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Shop-Slash font awesome icon CSS class is fa-shop-slash & CSS Content Code is  \e070'
+summary = 'Shop-Slash font awesome icon CSS class is fa-shop-slash & CSS Content Code is e070'
 keywords =['Shop-Slash, \e070,fa-shop-slash']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

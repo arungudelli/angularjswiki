@@ -1,7 +1,7 @@
 
 +++
 title='Note-Sticky font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Note-Sticky font awesome icon CSS class is fa-note-sticky & CSS Content Code is  \f249'
+summary = 'Note-Sticky font awesome icon CSS class is fa-note-sticky & CSS Content Code is f249'
 keywords =['Note-Sticky, \f249,fa-note-sticky']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

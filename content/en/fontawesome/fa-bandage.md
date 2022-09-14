@@ -1,7 +1,7 @@
 
 +++
 title='Bandage font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bandage font awesome icon CSS class is fa-bandage & CSS Content Code is  \f462'
+summary = 'Bandage font awesome icon CSS class is fa-bandage & CSS Content Code is f462'
 keywords =['Bandage, \f462,fa-bandage']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

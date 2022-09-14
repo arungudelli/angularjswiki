@@ -1,7 +1,7 @@
 
 +++
 title='Shield-Virus font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Shield-Virus font awesome icon CSS class is fa-shield-virus & CSS Content Code is  \e06c'
+summary = 'Shield-Virus font awesome icon CSS class is fa-shield-virus & CSS Content Code is e06c'
 keywords =['Shield-Virus, \e06c,fa-shield-virus']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

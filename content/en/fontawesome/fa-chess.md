@@ -1,7 +1,7 @@
 
 +++
 title='Chess font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Chess font awesome icon CSS class is fa-chess & CSS Content Code is  \f439'
+summary = 'Chess font awesome icon CSS class is fa-chess & CSS Content Code is f439'
 keywords =['Chess, \f439,fa-chess']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Capsules font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Capsules font awesome icon CSS class is fa-capsules & CSS Content Code is  \f46b'
+summary = 'Capsules font awesome icon CSS class is fa-capsules & CSS Content Code is f46b'
 keywords =['Capsules, \f46b,fa-capsules']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

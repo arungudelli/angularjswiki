@@ -1,7 +1,7 @@
 
 +++
 title='Road-Lock font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Road-Lock font awesome icon CSS class is fa-road-lock & CSS Content Code is  \e567'
+summary = 'Road-Lock font awesome icon CSS class is fa-road-lock & CSS Content Code is e567'
 keywords =['Road-Lock, \e567,fa-road-lock']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

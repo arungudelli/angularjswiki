@@ -1,7 +1,7 @@
 
 +++
 title='Helmet-Un font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Helmet-Un font awesome icon CSS class is fa-helmet-un & CSS Content Code is  \e503'
+summary = 'Helmet-Un font awesome icon CSS class is fa-helmet-un & CSS Content Code is e503'
 keywords =['Helmet-Un, \e503,fa-helmet-un']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

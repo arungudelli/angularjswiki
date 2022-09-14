@@ -1,7 +1,7 @@
 
 +++
 title='Newspaper font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Newspaper font awesome icon CSS class is fa-newspaper & CSS Content Code is  \f1ea'
+summary = 'Newspaper font awesome icon CSS class is fa-newspaper & CSS Content Code is f1ea'
 keywords =['Newspaper, \f1ea,fa-newspaper']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

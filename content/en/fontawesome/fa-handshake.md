@@ -1,7 +1,7 @@
 
 +++
 title='Handshake font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Handshake font awesome icon CSS class is fa-handshake & CSS Content Code is  \f2b5'
+summary = 'Handshake font awesome icon CSS class is fa-handshake & CSS Content Code is f2b5'
 keywords =['Handshake, \f2b5,fa-handshake']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

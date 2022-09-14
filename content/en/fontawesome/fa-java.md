@@ -1,7 +1,7 @@
 
 +++
 title='Java font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Java font awesome icon CSS class is fa-java & CSS Content Code is  \f4e4'
+summary = 'Java font awesome icon CSS class is fa-java & CSS Content Code is f4e4'
 keywords =['Java, \f4e4,fa-java']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

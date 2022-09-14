@@ -1,7 +1,7 @@
 
 +++
 title='Clipboard-User font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Clipboard-User font awesome icon CSS class is fa-clipboard-user & CSS Content Code is  \f7f3'
+summary = 'Clipboard-User font awesome icon CSS class is fa-clipboard-user & CSS Content Code is f7f3'
 keywords =['Clipboard-User, \f7f3,fa-clipboard-user']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

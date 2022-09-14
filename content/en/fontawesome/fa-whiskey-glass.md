@@ -1,7 +1,7 @@
 
 +++
 title='Whiskey-Glass font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Whiskey-Glass font awesome icon CSS class is fa-whiskey-glass & CSS Content Code is  \f7a0'
+summary = 'Whiskey-Glass font awesome icon CSS class is fa-whiskey-glass & CSS Content Code is f7a0'
 keywords =['Whiskey-Glass, \f7a0,fa-whiskey-glass']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

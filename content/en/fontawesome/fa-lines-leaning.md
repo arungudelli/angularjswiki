@@ -1,7 +1,7 @@
 
 +++
 title='Lines-Leaning font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Lines-Leaning font awesome icon CSS class is fa-lines-leaning & CSS Content Code is  \e51e'
+summary = 'Lines-Leaning font awesome icon CSS class is fa-lines-leaning & CSS Content Code is e51e'
 keywords =['Lines-Leaning, \e51e,fa-lines-leaning']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

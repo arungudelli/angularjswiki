@@ -1,7 +1,7 @@
 
 +++
 title='Bug font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Bug font awesome icon CSS class is fa-bug & CSS Content Code is  \f188'
+summary = 'Bug font awesome icon CSS class is fa-bug & CSS Content Code is f188'
 keywords =['Bug, \f188,fa-bug']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

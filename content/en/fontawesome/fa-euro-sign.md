@@ -1,7 +1,7 @@
 
 +++
 title='Euro-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Euro-Sign font awesome icon CSS class is fa-euro-sign & CSS Content Code is  \f153'
+summary = 'Euro-Sign font awesome icon CSS class is fa-euro-sign & CSS Content Code is f153'
 keywords =['Euro-Sign, \f153,fa-euro-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

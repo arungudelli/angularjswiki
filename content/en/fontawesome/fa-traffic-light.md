@@ -1,7 +1,7 @@
 
 +++
 title='Traffic-Light font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Traffic-Light font awesome icon CSS class is fa-traffic-light & CSS Content Code is  \f637'
+summary = 'Traffic-Light font awesome icon CSS class is fa-traffic-light & CSS Content Code is f637'
 keywords =['Traffic-Light, \f637,fa-traffic-light']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

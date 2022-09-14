@@ -1,7 +1,7 @@
 
 +++
 title='Mars-And-Venus-Burst font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mars-And-Venus-Burst font awesome icon CSS class is fa-mars-and-venus-burst & CSS Content Code is  \e523'
+summary = 'Mars-And-Venus-Burst font awesome icon CSS class is fa-mars-and-venus-burst & CSS Content Code is e523'
 keywords =['Mars-And-Venus-Burst, \e523,fa-mars-and-venus-burst']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Mendeley font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mendeley font awesome icon CSS class is fa-mendeley & CSS Content Code is  \f7b3'
+summary = 'Mendeley font awesome icon CSS class is fa-mendeley & CSS Content Code is f7b3'
 keywords =['Mendeley, \f7b3,fa-mendeley']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

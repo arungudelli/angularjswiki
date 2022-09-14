@@ -1,7 +1,7 @@
 
 +++
 title='Nimblr font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Nimblr font awesome icon CSS class is fa-nimblr & CSS Content Code is  \f5a8'
+summary = 'Nimblr font awesome icon CSS class is fa-nimblr & CSS Content Code is f5a8'
 keywords =['Nimblr, \f5a8,fa-nimblr']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

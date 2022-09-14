@@ -1,7 +1,7 @@
 
 +++
 title='Dove font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Dove font awesome icon CSS class is fa-dove & CSS Content Code is  \f4ba'
+summary = 'Dove font awesome icon CSS class is fa-dove & CSS Content Code is f4ba'
 keywords =['Dove, \f4ba,fa-dove']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

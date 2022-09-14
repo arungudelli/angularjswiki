@@ -1,7 +1,7 @@
 
 +++
 title='Cloud-Showers-Water font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cloud-Showers-Water font awesome icon CSS class is fa-cloud-showers-water & CSS Content Code is  \e4e4'
+summary = 'Cloud-Showers-Water font awesome icon CSS class is fa-cloud-showers-water & CSS Content Code is e4e4'
 keywords =['Cloud-Showers-Water, \e4e4,fa-cloud-showers-water']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Meta font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Meta font awesome icon CSS class is fa-meta & CSS Content Code is  \e49b'
+summary = 'Meta font awesome icon CSS class is fa-meta & CSS Content Code is e49b'
 keywords =['Meta, \e49b,fa-meta']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

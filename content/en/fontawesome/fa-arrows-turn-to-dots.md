@@ -1,7 +1,7 @@
 
 +++
 title='Arrows-Turn-To-Dots font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Arrows-Turn-To-Dots font awesome icon CSS class is fa-arrows-turn-to-dots & CSS Content Code is  \e4c1'
+summary = 'Arrows-Turn-To-Dots font awesome icon CSS class is fa-arrows-turn-to-dots & CSS Content Code is e4c1'
 keywords =['Arrows-Turn-To-Dots, \e4c1,fa-arrows-turn-to-dots']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

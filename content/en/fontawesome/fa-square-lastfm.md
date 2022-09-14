@@ -1,7 +1,7 @@
 
 +++
 title='Square-Lastfm font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Square-Lastfm font awesome icon CSS class is fa-square-lastfm & CSS Content Code is  \f203'
+summary = 'Square-Lastfm font awesome icon CSS class is fa-square-lastfm & CSS Content Code is f203'
 keywords =['Square-Lastfm, \f203,fa-square-lastfm']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

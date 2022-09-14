@@ -1,7 +1,7 @@
 
 +++
 title='Cruzeiro-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cruzeiro-Sign font awesome icon CSS class is fa-cruzeiro-sign & CSS Content Code is  \e152'
+summary = 'Cruzeiro-Sign font awesome icon CSS class is fa-cruzeiro-sign & CSS Content Code is e152'
 keywords =['Cruzeiro-Sign, \e152,fa-cruzeiro-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

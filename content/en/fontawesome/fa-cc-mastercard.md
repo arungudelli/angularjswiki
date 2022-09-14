@@ -1,7 +1,7 @@
 
 +++
 title='Cc-Mastercard font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cc-Mastercard font awesome icon CSS class is fa-cc-mastercard & CSS Content Code is  \f1f1'
+summary = 'Cc-Mastercard font awesome icon CSS class is fa-cc-mastercard & CSS Content Code is f1f1'
 keywords =['Cc-Mastercard, \f1f1,fa-cc-mastercard']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

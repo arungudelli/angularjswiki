@@ -1,7 +1,7 @@
 
 +++
 title='Mobile font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Mobile font awesome icon CSS class is fa-mobile & CSS Content Code is  \f3ce'
+summary = 'Mobile font awesome icon CSS class is fa-mobile & CSS Content Code is f3ce'
 keywords =['Mobile, \f3ce,fa-mobile']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

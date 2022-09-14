@@ -1,7 +1,7 @@
 
 +++
 title='Speaker-Deck font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Speaker-Deck font awesome icon CSS class is fa-speaker-deck & CSS Content Code is  \f83c'
+summary = 'Speaker-Deck font awesome icon CSS class is fa-speaker-deck & CSS Content Code is f83c'
 keywords =['Speaker-Deck, \f83c,fa-speaker-deck']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

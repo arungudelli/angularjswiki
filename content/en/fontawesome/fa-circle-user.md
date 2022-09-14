@@ -1,7 +1,7 @@
 
 +++
 title='Circle-User font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Circle-User font awesome icon CSS class is fa-circle-user & CSS Content Code is  \f2bd'
+summary = 'Circle-User font awesome icon CSS class is fa-circle-user & CSS Content Code is f2bd'
 keywords =['Circle-User, \f2bd,fa-circle-user']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

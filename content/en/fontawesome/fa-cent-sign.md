@@ -1,7 +1,7 @@
 
 +++
 title='Cent-Sign font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Cent-Sign font awesome icon CSS class is fa-cent-sign & CSS Content Code is  \e3f5'
+summary = 'Cent-Sign font awesome icon CSS class is fa-cent-sign & CSS Content Code is e3f5'
 keywords =['Cent-Sign, \e3f5,fa-cent-sign']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

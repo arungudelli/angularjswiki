@@ -1,7 +1,7 @@
 
 +++
 title='Faucet-Drip font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Faucet-Drip font awesome icon CSS class is fa-faucet-drip & CSS Content Code is  \e006'
+summary = 'Faucet-Drip font awesome icon CSS class is fa-faucet-drip & CSS Content Code is e006'
 keywords =['Faucet-Drip, \e006,fa-faucet-drip']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

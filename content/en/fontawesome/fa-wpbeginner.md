@@ -1,7 +1,7 @@
 
 +++
 title='Wpbeginner font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Wpbeginner font awesome icon CSS class is fa-wpbeginner & CSS Content Code is  \f297'
+summary = 'Wpbeginner font awesome icon CSS class is fa-wpbeginner & CSS Content Code is f297'
 keywords =['Wpbeginner, \f297,fa-wpbeginner']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

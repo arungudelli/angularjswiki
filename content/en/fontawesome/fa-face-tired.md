@@ -1,7 +1,7 @@
 
 +++
 title='Face-Tired font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Face-Tired font awesome icon CSS class is fa-face-tired & CSS Content Code is  \f5c8'
+summary = 'Face-Tired font awesome icon CSS class is fa-face-tired & CSS Content Code is f5c8'
 keywords =['Face-Tired, \f5c8,fa-face-tired']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

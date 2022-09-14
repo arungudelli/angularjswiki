@@ -1,7 +1,7 @@
 
 +++
 title='Shuffle font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Shuffle font awesome icon CSS class is fa-shuffle & CSS Content Code is  \f074'
+summary = 'Shuffle font awesome icon CSS class is fa-shuffle & CSS Content Code is f074'
 keywords =['Shuffle, \f074,fa-shuffle']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

@@ -1,7 +1,7 @@
 
 +++
 title='Boxes-Stacked font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Boxes-Stacked font awesome icon CSS class is fa-boxes-stacked & CSS Content Code is  \f468'
+summary = 'Boxes-Stacked font awesome icon CSS class is fa-boxes-stacked & CSS Content Code is f468'
 keywords =['Boxes-Stacked, \f468,fa-boxes-stacked']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

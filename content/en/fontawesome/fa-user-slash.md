@@ -1,7 +1,7 @@
 
 +++
 title='User-Slash font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'User-Slash font awesome icon CSS class is fa-user-slash & CSS Content Code is  \f506'
+summary = 'User-Slash font awesome icon CSS class is fa-user-slash & CSS Content Code is f506'
 keywords =['User-Slash, \f506,fa-user-slash']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'

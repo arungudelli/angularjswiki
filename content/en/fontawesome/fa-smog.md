@@ -1,7 +1,7 @@
 
 +++
 title='Smog font awesome icon Usage,CSS Class Name,SVG & CSS Content Code'
-summary = 'Smog font awesome icon CSS class is fa-smog & CSS Content Code is  \f75f'
+summary = 'Smog font awesome icon CSS class is fa-smog & CSS Content Code is f75f'
 keywords =['Smog, \f75f,fa-smog']
 date = '08-09-2022T00:00:00'
 lastmod = '08-09-2022T00:00:01'
