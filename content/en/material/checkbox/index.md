@@ -1,5 +1,5 @@
 +++
-title = "mat-checkbox : Angular material checkbox component Usage, Example"
+title = "mat-checkbox, Angular material checkbox component Usage, Example"
 subtitle = "Learn how to build checkboxes using material design"
 summary ="mat-checkbox selector is an angular material checkbox component, it works like input type=checkbox sugar coated with Material design styling and animations.mat-checkbox part of Angular Material module called MatCheckboxModule."
 keywords=["angular,angular material design,angular checkbox,angular material checkbox,mat-checkbox"]
