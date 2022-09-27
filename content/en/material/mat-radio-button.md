@@ -3,8 +3,8 @@ title = "mat-radio-button, Angular material radio button Usage, Example"
 subtitle = "Learn how to add radio buttons using material component"
 summary ="mat-radio-button selector is an Angular material radio box component.It is similar to native input type='radio' element & sugar coated with Material design styling and animations."
 keywords=["angular,angular material design,angular radio button,angular material radio button,mat-radio-button"]
-date="2018-02-15T01:01:05+0000"
-lastmod="2022-09-12T06:00:24+0530"
+date="2022-09-26T00:00:00+0000"
+lastmod="2022-09-26T00:00:00+0030"
 draft=false
 authors = ["admin"]
 type = "docs"  # Do not modify.
