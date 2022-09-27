@@ -1,22 +1,22 @@
 +++
-title = "mat-radio-button, Angular material radio box component Usage, Example"
-subtitle = "Learn how to add radio buttons using material design"
-summary ="mat-checkbox selector is an angular material checkbox component, it works like input type=checkbox sugar coated with Material design styling and animations.mat-checkbox part of Angular Material module called MatCheckboxModule."
-keywords=["angular,angular material design,angular checkbox,angular material checkbox,mat-checkbox"]
+title = "mat-radio-button, Angular material radio button Usage, Example"
+subtitle = "Learn how to add radio buttons using material component"
+summary ="mat-radio-button selector is an Angular material radio box component.It is similar to native input type='radio' element & sugar coated with Material design styling and animations."
+keywords=["angular,angular material design,angular radio button,angular material radio button,mat-radio-button"]
 date="2018-02-15T01:01:05+0000"
 lastmod="2022-09-12T06:00:24+0530"
 draft=false
 authors = ["admin"]
 type = "docs"  # Do not modify.
 parentdoc = "material"
-prev = "material"
+prev = "tooltip"
 next = "badge"
-featured="checkbox.jpg"
+featured="Angular-Material-radio-button.jpg"
 
-linktitle = "Checkbox"
+linktitle = "radio button"
 [menu.material]
   parent = "Tutorial"
-  weight = 3
+  weight = 2
 
 +++
 
@@ -38,529 +38,274 @@ To use `<mat-radio-button>` we have to import `MatRadioModule` from `@angular/ma
 
 We can import `MatRadioModule` in our components `.ts` file or `app.module.ts` file or some common material module which can be used across the application as explained in [angular material tutorial](/material).
 
-```
+```typescript
+
 import {MatRadioModule} from '@angular/material/radio';
+
 ```
 
-### Step 2: Use `mat-radio-group` selector to combine multiple radio buttons.
+### Step 2: Use `mat-radio-group` selector to group radio buttons.
 
 Radio buttons are generally used in radio groups i.e, collections of radio buttons indicating a set of related options.
 
 Only one radio button in a given group can be selected at the same time. 
 
+In Angular, To group radio buttons we should enclose them inside `mat-radio-group` selector.
 
 
-Now we can use `mat-checkbox` across our Angular application.
+```html
 
-```
-<mat-checkbox> Hello I am Checkbox</mat-checkbox>
-```
-
-## mat-checkbox Example  
-
-Now we will go though the simple example to understand further.
-
-`ng generate component AngularMaterialCheckbox`
-
-And add following code in generated `angular-material-checkbox.component.html` file
+<mat-radio-group aria-label="Select an option">
+  <mat-radio-button value="1">Option 1</mat-radio-button>
+  <mat-radio-button value="2">Option 2</mat-radio-button>
+</mat-radio-group>
 
 ```
-<mat-card>
-<mat-card-content>
-<h2>Basic Example</h2>
-<mat-list>
-<mat-list-item><mat-checkbox checked=“true”>Checkbox Checked</mat-checkbox>
-</mat-list-item>
-<mat-divider></mat-divider>
-<mat-list-item><mat-checkbox>Checkbox UnChecked</mat-checkbox>
-</mat-list-item>
-<mat-divider></mat-divider>
-<mat-list-item><mat-checkbox indeterminate=“true”>Checkbox Indeterminate
-</mat-checkbox>
-</mat-list-item>
-<mat-divider></mat-divider>
-<mat-list-item><mat-checkbox labelPosition=“before”>Checkbox Label before
-</mat-checkbox>
-</mat-list-item>
-<mat-divider></mat-divider>
-<mat-list-item><mat-checkbox disableRipple=true>Checkbox Ripple Disabled
-</mat-checkbox>
-</mat-list-item>
-<mat-divider></mat-divider>
-<mat-list-item><mat-checkbox disabled=true>Checkbox Disabled</mat-checkbox>
-</mat-list-item>
-<mat-divider></mat-divider>
-<mat-list-item><mat-checkbox color=“primary”checked=true>Checkbox Theme Primary
-</mat-checkbox>
-</mat-list-item>
-<mat-divider></mat-divider>
-<mat-list-item><mat-checkbox color=“warn”checked=true>Checkbox Theme Warn
-</mat-checkbox>
-</mat-list-item>
-</mat-list>
-</mat-card-content>
-</mat-card>
+
+## `mat-radio-button` Example  
+
+Now we will go though an example to understand further.
+
+`ng generate component AngularMaterialRadioButton`
+
+And add following code in generated `angular-material-radio-button.component.html` file
+
+```html
+
+<mat-radio-group aria-label="Select an option">
+  <mat-radio-button value="1">Option 1</mat-radio-button>
+  <mat-radio-button value="2">Option 2</mat-radio-button>
+</mat-radio-group>
+
 ```
   
-Now we will use the component,add following code in `app.component.html` file
+Now we will use the component, by adding it in `app.component.html` file
 
 
-```
-<app-angular-material-checkbox></app-angular-material-checkbox>
-```
-
-Now we will go through the properties of `mat-checkbox`
-
-## `mat-checkbox` Label
-
-Content of the `<mat-checkbox>` element acts as label for checkbox in angular material. 
-
-Label position can be before or after the checkbox.
-
-We can control the label position using `labelPosition` property of `<mat-checkbox>`.
-
-```
-<mat-checkbox labelPosition="before">Angular Checkbox Label before
-</mat-checkbox>
-<mat-checkbox labelPosition="after">Angular Checkbox Label After
-</mat-checkbox>
+```html
+<app-angular-material-radio-button></app-angular-material-radio-button>
 ```
 
-## `mat-checkbox` Checked state
+{{< figure src="/img/material/mat-radio-button-example.png" title="mat-radio-button example" alt="mat-radio-button example">}}
 
-Using `checked` property value of `<mat-checkbox>` we can control the state of checkbox either `checked` or `unchecked`
 
-```
-<mat-checkbox checked="true">Angular Checkbox Checked</mat-checkbox>
-<mat-checkbox checked="false">Angular Checkbox UnChecked</mat-checkbox>
-```
-  
-## `mat-checkbox` UnChecked state
+## Bind data to `mat-radio-button` using `NgModel`
 
-Provides exact opposite functionality of `checked` property. If its true in `<mat-checkbox>` then checkbox is unchecked and vice versa
+Using `ngModel` we can bind the data to the `mat-radio-button` group elements.
 
-```
-<mat-checkbox unchecked="true">Angular Checkbox UnChecked
-</mat-checkbox>
-<mat-checkbox unchecked="false">Angular Checkbox Checked
-</mat-checkbox>
-```
+```html
 
-## `mat-checkbox` Indeterminate state
-
-`<mat-checkbox>` supports Indeterminate state. 
-
-Indicates whether checkbox is indeterminate or we can call it as mixed state.
-
-The value can be set through Indeterminate property of `<mat-checkbox>` value can be true or false  
-
-For example say there is one parent checkbox under which we have four children checkboxes.
-
-If all children checkboxes are checked then parent checkbox should be checked and if all checkboxes are unchecked then it should be unchecked.
-
-If any one of them is unchecked then parent checkbox should indicate mixed state.
-
-That is nothing but Indeterminate state.
-  
-And it is only for visual representation. You can't make a checkbox indeterminate through HTML there is no attribute.
+<div>Selected Option is : {{ selectedOption }}</div>
+<mat-radio-group aria-label="Select an option" [(ngModel)]="selectedOption">
+    <mat-radio-button value="1">Option 1</mat-radio-button>
+    <mat-radio-button value="2">Option 2</mat-radio-button>
+</mat-radio-group>
 
 ```
-var checkbox = document.getElementById(“indeterminate-checkbox”);
-checkbox.indeterminate = true;
-```
-  
-But in Angular we can set indeterminate state through `Indeterminate` property.
-  
-```
-<mat-checkbox indeterminate=“true”>Checkbox Indeterminate</mat-checkbox>
-```  
-Any click action on `<mat-checkbox>` will remove the indeterminate state.
 
-And if the checkbox contain both `indeterminate` and `checked` properties true. 
+Added a variable called `selectedOption` and used `ngModel` to bind the data to `mat-radio-group` selector.
 
-Then it will displayed as `indeterminate` state.
+{{< figure src="/img/material/mat-radio-button-ngModel.png" title="mat-radio-button ngModel" alt="mat-radio-button ngModel">}}
 
-```
-<mat-checkbox indeterminate="true" checked="true">Checkbox Indeterminate
-</mat-checkbox>
-//Checkbox displayed as indeterminate state.
-```
-  
-## `mat-checkbox` Disabled State
-  
-Using `disabled` property of `mat-checkbox` we can disable angular material checkbox.
-  
-```
-<mat-checkbox disabled>Checkbox Disabled</mat-checkbox>
-```  
-## `mat-checkbox` color and Theming
-  
-The color of Angular Checkbox can be changed by color property of `<mat-checkbox>`. 
+## Using `*ngFor` to populate `mat-radio-button` options
 
-By default value is "accent" and can be change to primary or warn according to Material design theming guidelines.
-  
-And We can disable ripple animation using Angular Material Checkbox property `disableRipple`
-  
-```
-<mat-checkbox disableRipple=true>Checkbox Ripple Disabled</mat-checkbox>
-```  
+In real world applications, radio buttons options will be dynamic and might be coming from the server. 
 
-## Bind Data to `mat-checkbox` using `ngModel`
+So we will use `*ngFor` directive to populate radio button options.
 
-Now we will bind the data to angular material checkbox. In `angular-material-checkbox.component.ts` file add the following code
+I have created two variables called `fruits` and `favoriteFruit`.
 
-```
-import { Component, OnInit } from '@angular/core';
-@Component({
-selector: 'app-angular-material-checkbox',
-templateUrl: './angular-material-checkbox.component.html',
-styleUrls: ['./angular-material-checkbox.component.css']
-})
+`favoriteFruit` is the value of the radio group elements.
 
-export class AngularMaterialCheckboxComponent implements OnInit {
+```typescript
 
-IsChecked: boolean;
-  IsIndeterminate: boolean;
-  LabelAlign: 'after' | 'before';
-  IsDisabled: boolean;
+export class AngularMaterialRadioButtonComponent implements OnInit {
+  constructor() {}
 
-  constructor() {
-    this.IsChecked = false;
-    this.IsIndeterminate = false;
-    this.LabelAlign = 'after';
-    this.IsDisabled = false;
-  }
   ngOnInit() {}
 
-  changeEvent($event) {
-    console.log($event.checked);
-    //$event.source.toggle();
-    $event.source.focus();
-  }
-
-  indeterminateEvent($event) {
-    //console.log('intern');
-    console.log($event);
-  }
-
+  favoriteFruit: string;
+  fruits: string[] = ['Apple', 'Banana', 'Mango', 'Guava'];
 }
-```
-
-I declared four variables
-
-  * IsChecked : Used to control angular material checkbox state which is a boolean variable
-  * IsIndeterminate : Used to control angular material checkbox Indeterminate which is a boolean variable
-  * LabelAlign : Used to control angular material checkbox label alignment which is a string variable
-  * IsDisabled: Used to control angular material checkbox disabled state.
-
-And in constructor I am assigning default values to the declared variables.
-
-Now we will use this model,Add the following code in `angular-material-checkbox.component.html`
 
 ```
-<mat-card class="result">
 
-<mat-card-content>
-<h2class="example-h2">Result</h2>
-<section class="example-section">
+`fruits` array used to generated `mat-radio-button` options using `*ngFor` directive.
 
-<mat-checkbox class="example-margin"
-(change)="changeEvent($event)"
-        (indeterminateChange)="indeterminateEvent($event)"
-        class="example-margin"
-        [checked]="IsChecked"
-        [(indeterminate)]="IsIndeterminate"
-        [labelPosition]="LabelAlign"
-        [disabled]="IsDisabled"
-Angular Material Checkbox Data Binding
-</mat-checkbox>
-</section>
-</mat-card-content>
-</mat-card>
-```
+```html
 
-I have bound the `checked` property to our model variable `IsChecked`, `indeterminate` property to model `IsIndeterminate` variable, `labelPosition` property to `LabelAlign` variable and `disabled` property to `IsDisabled` variable.
-
-And as per the initial values of binding variables the result will be displayed.i.e., The checkbox is unchecked and label will be after the checkbox.
-
-Now we will change our model variables using below `<mat-checkbox>` and `<mat-radio-group>` elements as shown below. Add the following code in the same `angular-material-checkbox.component.html` file
-
-```
 <mat-card>
-
-<mat-card-content>
-<h2 class="example-h2">Angular Checkbox configuration</h2>
-<section class="example-section">
-<mat-checkbox class="example-margin" [(ngModel)]="IsChecked">Checked
-</mat-checkbox>
-<mat-checkbox class="example-margin" [(ngModel)]="IsIndeterminate">Indeterminate
-</mat-checkbox>
-<mat-checkbox class="example-margin" [(ngModel)]="IsDisabled">Disabled
-</mat-checkbox>
-</section>
-
-<section class="example-section">
-
-<label class="example-margin">Angular Checkbox Alignment:</label>
-<mat-radio-group [(ngModel)]="LabelAlign">
-<mat-radio-button class="example-margin" value="after">After</mat-radio-button>
-<mat-radio-button class="example-margin" value="before">Before</mat-radio-button>
-</mat-radio-group>
-</section>
-</mat-card-content>
+  <label id="example-radio-group-label">Pick your favorite fruit</label>
+  <mat-radio-group
+    aria-labelledby="example-radio-group-label"
+    class="example-radio-group"
+    [(ngModel)]="favoriteFruit"
+  >
+    <mat-radio-button
+      class="example-radio-button"
+      *ngFor="let fruit of fruits"
+      [value]="fruit"
+    >
+      {{ fruit }}
+    </mat-radio-button>
+  </mat-radio-group>
+  <div>Your favorite fruit is: {{ favoriteFruit }}</div>
 </mat-card>
-```
-
-In the Angular Checkbox configuration section we have three angular material checkboxes and for each `<mat-checkbox>` model variables are bound using `[(ngModel)]` property.
-
-As `<mat-checkbox>` can have only two values true or false i.e., `checked` or `unchecked` (indeterminate is only for visual purpose). 
-
-Whenever we click on `<mat-checkbox>` corresponding binding variable also changes (as they are boolean variables) 
-
-Which results in changing `<mat-checkbox>` in Result section.
-
-And to change label alignment I have added `<mat-radio-group>` and added `LabelAlign` model variable using `[(ngModel)]`. 
-
-The radio group has two `<mat-radio-button>` elements with values `after` and `before`. 
-
-Whenever we select radio button, corresponding value will be assigned to LabelAlign variable which results in changing `<mat-checkbox>` in Result section.
-
-{{< figure src="Angular-material-checkbox.png" title="Angular material checkbox Basic Example" alt="Angular material checkbox Basic Example">}}
-
-{{< figure src="Angular-material-checkbox-Bind-data.png" title="Angular material-checkbox Bind data" alt="Angular material-checkbox Bind data">}}
-
-And if we select both `Checked` and `Indeterminate` checkboxes. The checkbox in result section displayed as Indeterminate as explained above.
-
-## `mat-checkbox` checked by default
-
-To set mat-checkbox checked by default we use `checked` attribute or `[ngModel]` as shown below.
 
 ```
-<mat-checkbox [(ngModel)]="IsChecked">
-	<label>Checked by default using ngModel</label>
-</mat-checkbox>
 
+{{< figure src="/img/material/mat-radio-button-ngfor.png" title="mat-radio-button *ngFor" alt="mat-radio-button *ngFor">}}
 
-<mat-checkbox [checked]="IsChecked">
-	<label>Checked by default using checked attribute</label>
-</mat-checkbox>
+Now we will go through the properties of `mat-radio-button`
+
+## `mat-radio-button` Label position
+
+Content of the `<mat-radio-button>` element acts as label for the radio buttons in Angular material. 
+
+Label position can be before or after the radio button.
+
+We can control the label position using `labelPosition` property of `<mat-radio-button>`.
+
+```html
+<mat-radio-button labelPosition="before">Angular radio button label before
+</mat-radio-button>
+<mat-radio-button labelPosition="after">Angular radio button label After
+</mat-radio-button>
 ```
 
-We can set the `IsChecked` property to `true` in constructor.
+{{< figure src="/img/material/mat-radio-button-label.png" title="mat-radio-button label" alt="mat-radio-button label">}}
 
-## `mat-checkbox` change event
+## `mat-radio-button` Checked by default
 
-`<mat-checkbox>` provides two kinds of events
+By default radio buttons are unchecked inside a radio group. 
 
-  1. **change event**: triggers when the mat-checkbox's `checked` value changes (of type `MatCheckboxChange`)
-  2. **indeterminateChange event**: triggers when the mat-checkbox's `indeterminate` value changes (`boolean` type)
+If you want assign some default value to radio group value or if you want to select an option by default use `checked` property of `mat-radio-button`
 
-## `mat-checkbox` checked event
-
-By using `change` property of `mat-checkbox` we can track the checked,unchecked states of checkbox.
-
-I have added a method called `OnChange()`
-
-Which will be triggered when the checkbox checked state changes. It will emit the change event object of type `MatCheckboxChange`
-
-## `MatCheckboxChange` class
-
-MatCheckboxChange class has two properties, `source` and `checked`.
-
-`source` is nothing but source of the `mat-checkbox` from which the event triggered.
-
-`checked` tells whether `checkbox` is checked i.e.,`true` or unchecked i.e., `false`.
-
-See the event emitted by `mat-checkbox` in `console.log()`;
-
-{{< figure src="MatCheckboxChange-Class.png" title="MatCheckboxChange Class" alt="MatCheckboxChange Class">}}
-
-One thing you need to understand checkbox on change event fires only by user interaction. 
-
-But if you set the checked value dynamically change event will not be triggered.
-
-In the above demo, result section checkbox value is driven by  other checkboxes in checkbox configuration section. 
-
-In that case change event wont fire as we are changing the value dynamically without user interaction.
-
-So we need to check or uncheck the checkbox in result section to fire the change event by clicking on it.
-
-You can check this behavior in demo.
-
-## `mat-checkbox` Indeterminate Change event
-
-Through mat-checkbox's  `indeterminateChange` property we can track the indeterminate state change of checkbox.
-
-I have added a method called `OnindeterminateChange()` to check this behavior.
-
-It will emit the change event object of type `boolean`.
-
-As we cannot set indeterminate state by user interaction.`indeterminateChange` event will be triggered when the value is set dynamically.
-
-## `mat-checkbox` toggle method
-
-We can toggle the checked or unchecked state of mat-checkbox using `toggle()` method.
-
+```html
+<mat-radio-group aria-label="Select an option">
+    <mat-radio-button value="1" checked>Option 1</mat-radio-button>
+    <mat-radio-button value="2">Option 2</mat-radio-button>
+</mat-radio-group>
 ```
-OnChange($event){ 
- console.log($event);
- $event.source.toggle();
- //MatCheckboxChange {checked,MatCheckbox}
+
+{{< figure src="/img/material/mat-radio-button-checked.png" title="mat-radio-button checked" alt="mat-radio-button checked">}}
+
+  
+## `mat-radio-button` disabled 
+  
+Using `disabled` property of `mat-radio-button` we can disable angular material radio button.
+  
+```html
+<mat-radio-group aria-label="Select an option">
+    <mat-radio-button value="1" disabled>Option 1</mat-radio-button>
+    <mat-radio-button value="2">Option 2</mat-radio-button>
+</mat-radio-group>
+```  
+
+{{< figure src="/img/material/mat-radio-button-disabled.png" title="mat-radio-button disabled" alt="mat-radio-button disabled">}}
+
+## `mat-radio-group` disabled 
+
+We can add `disabled` property to the `mat-radio-group` to disable all radio button options.
+
+```html
+<mat-radio-group aria-label="Select an option" disabled>
+    <mat-radio-button value="1">Option 1</mat-radio-button>
+    <mat-radio-button value="2">Option 2</mat-radio-button>
+</mat-radio-group>
+```
+
+{{< figure src="/img/material/mat-radio-group-disabled.png" title="mat-radio-group disabled" alt="mat-radio-group disabled">}}
+
+<!-- To do add default functionality to mat-radio-buttons -->
+
+## `mat-radio-button` change event
+
+`<mat-radio-button>` has a `(change)` event , which will be triggered when the `checked` state of radio button changes. 
+
+
+```html
+<mat-radio-group aria-label="Select an option">
+    <mat-radio-button value="1" (change)="radioButtonChange($event)">
+      Option 1
+    </mat-radio-button>
+    <mat-radio-button value="2" (change)="radioButtonChange($event)">
+      Option 2
+    </mat-radio-button>
+</mat-radio-group>
+```
+
+The `(change)` event is of type `MatRadioChange`.
+
+We should import `MatRadioChange` class from `@angular/material/radio`.
+
+```typescript
+import { MatRadioChange } from '@angular/material/radio';
+
+radioButtonChange(data: MatRadioChange) {
+    console.log(data.value);
 }
 ```
 
-If you use toggle method inside on change event, the checkbox state wont change at all, whatever the initial state of checkbox,that will be preserved.
+{{< figure src="/img/material/mat-radio-button-change-event.png" title="mat-radio-button change event" alt="mat-radio-button change event">}}
 
-## `mat-checkbox` focus method
+The event will be triggered when we click on the radio buttons.
 
-We can set the focus of mat-checkbox by using `focus()` method.
+But usually we won't be adding change event to the radio buttons, we should add change event to the radio group.
 
+## `mat-radio-group` change event
+
+Similar to `<mat-radio-button>`, `mat-radio-group` has a `(change)` event , which will be triggered when the radio group value changes. 
+
+It's also of type `MatRadioChange`.
+
+```html
+  <mat-radio-group
+    aria-label="Select an option"
+    (change)="radioButtonGroupChange($event)">
+    <mat-radio-button value="1">Option 1</mat-radio-button>
+    <mat-radio-button value="2">Option 2</mat-radio-button>
+  </mat-radio-group>
 ```
-OnChange($event){
- console.log($event);
- $event.source.focus();
- //MatCheckboxChange {checked,MatCheckbox}
+In the component file 
+
+```typescript
+
+radioButtonGroupChange(data: MatRadioChange) {
+    console.log(data.value);
 }
 ```
 
-The above code focuses the checkbox whenever on change event triggers.
+One thing you need to understand is, radio button on change event fires only by user interaction. 
 
-## `mat-checkbox` StackBlitz demo
+But if you set the radio button value dynamically, the change event will not be triggered.
 
-Here is the StackBlitz Demo for `mat-checkbox`.
+{{< figure src="/img/material/mat-radio-group-change-event.png" title="mat-radio-group change event" alt="mat-radio-group change event">}}
 
-[https://stackblitz.com/edit/mat-checkbox-usage-example](https://stackblitz.com/edit/mat-checkbox-usage-example)
 
-## `mat-checkbox` is not a known element
+## `mat-radio-button` color and Theming
+  
+The color of Angular material radio button can be changed by `color` property of `<mat-radio-button>`. 
 
-`<mat-checkbox>` is not a known element is a common parse error we will get if we are not configured Angular Material module properly.
+By default value is `accent` and can be changed to `primary` or `warn` according to Material design theming guidelines.
+  
+And We can disable ripple animation using Angular Material radio button property `disableRipple`
+  
+```html
+<mat-radio-button disableRipple=true>Checkbox Ripple Disabled</mat-radio-button>
+```  
 
-Initially we have to import `MatCheckboxModule` from `@angular/Material`
+## `mat-radio-button` StackBlitz demo
 
-And we should export `MatCheckboxModule` to use it in other modules. 
+Here is the StackBlitz Demo for `mat-radio-button`.
 
-In the above example I have created MaterialModule and i have added `MatCheckboxModule` in exports array of `@NgModule`.
+[https://stackblitz.com/edit/mat-radio-button-example](https://stackblitz.com/edit/mat-radio-button-example)
 
-```
-import {
-MatButtonModule,
-MatToolbarModule,
-MatIconModule,
-MatCardModule,
-MatCheckboxModule,
-MatRadioModule,
-MAT_CHECKBOX_CLICK_ACTION,
-MatListModule,
-} from '@angular/material';
+## `mat-radio-button` is not a known element
 
-@NgModule({
+`<mat-radio-button>` is not a known element is a common parse error we will get if we are not configured Angular Material module properly.
 
-exports:[
+Make sure you have added `MatRadioModule` as mentioned in step 1. 
 
-MatButtonModule,
-MatToolbarModule,
-MatIconModule,
-MatCardModule,
-MatCheckboxModule,
-MatRadioModule,
-MatListModule
+Or add it in common material module as explained in [https://www.angularjswiki.com/material/#adding-a-custom-angular-material-module](https://www.angularjswiki.com/material/#adding-a-custom-angular-material-module) article
 
-]
-```
-
-And then I have imported material module in `app.module.ts` so that I can use Material components across the application
-
-```
-import {FormsModule} from '@angular/forms';
-import { MaterialModule } from './material/material.module';
-@NgModule({
-declarations: [
-AppComponent,
-AngularMaterialCheckboxComponent,
-SampleComponent
-],
-imports: [
-BrowserModule,
-FormsModule,
-ReactiveFormsModule,
-MaterialModule
-],
-bootstrap: [AppComponent]
-})
-export class AppModule { }
-```
-
-If you miss any one of the step you will get Template parse error: `<mat-checkbox>` is not a known element
-
-## Can't bind to `ngModel` since it isn't a known property of `mat-checkbox`
-
-While binding data to the `<mat-checkbox> ` we have to import `FormsModule `from `@angular/forms `and should add it in imports array of `app.module.ts` file.
-
-Other wise we will get this Can't bind to `ngModel` since it is not a known property of `mat-checkbox` template parse error.
-
-In above example i have imported `FormsModule `from `@angular/material`
-
-Here is the summary of `mat-checkbox` properties
-
-## Properties of mat-checkbox
-
-<div class="table-responsive">
-<table class="table">
-	<thead>
-		<tr>
-			<th>Angular Material Checkbox Property</th>
-			<th>Description </th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Checked : boolean</td>
-			<td>Indicates whether checkbox is checked</td>
-		</tr>
-		<tr>
-			<td>Unchecked : Boolean</td>
-			<td>Indicates whether checkbox is unchecked</td>
-		</tr>
-		<tr>
-			<td>Indeterminate : Boolean</td>
-			<td>Indicates whether checkbox is indeterminate or we can call it as mixed state</td>
-		</tr>
-		<tr>
-			<td>Disabled</td>
-			<td>Indicated whether checkbox is disabled</td>
-		</tr>
-		<tr>
-			<td>Id</td>
-			<td>A unique id to represent checkbox elements if nothing is supplied then auto generated</td>
-		</tr>
-		<tr>
-			<td>labelPosition : before or after</td>
-			<td>Indicates whether label should appear before or after the checkbox</td>
-		</tr>
-		<tr>
-			<td>Required : Boolean</td>
-			<td>Indicates whether the checkbox is required inside a form</td>
-		</tr>
-		<tr>
-			<td>Value:string</td>
-			<td>Indicates the value of checkbox element</td>
-		</tr>
-		<tr>
-			<td>Color:ThemePalatte (primary or accent or warn)</td>
-			<td>Indicates theme color palette of checkbox element</td>
-		</tr>
-		<tr>
-			<td>disableRipple : Boolean</td>
-			<td>Indicates whether ripple animation disabled on checkbox element</td>
-		</tr>
-		<tr>
-			<td>areaLabel : string</td>
-			<td>Will be attached ‘area-label’ attribute of checkbox element</td>
-		</tr>
-		<tr>
-			<td>ariaLabelledby : string or null</td>
-			<td>Will be attached ‘area-labelledby’ attribute of checkbox element</td>
-		</tr>
-	</tbody>
-</table>
-</div>
