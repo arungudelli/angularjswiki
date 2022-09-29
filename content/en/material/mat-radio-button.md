@@ -307,5 +307,5 @@ Here is the StackBlitz Demo for `mat-radio-button`.
 
 Make sure you have added `MatRadioModule` as mentioned in step 1. 
 
-Or add it in common material module as explained in [https://www.angularjswiki.com/material/#adding-a-custom-angular-material-module](https://www.angularjswiki.com/material/#adding-a-custom-angular-material-module) article
+Or add it in common material module as explained in [material](https://www.angularjswiki.com/material/#adding-a-custom-angular-material-module) article
 
