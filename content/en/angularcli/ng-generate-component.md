@@ -359,12 +359,7 @@ Aliases: -v
 
 </table></div>
 
-
-
-
-
-
-## ng generate example 
+## `ng generate component` example 
 
 For example if you want to create a component named product, use `ng generate component product` command. 
 
@@ -375,25 +370,3 @@ CREATE src/app/product/product.component.ts (280 bytes)
 CREATE src/app/product/product.component.scss (0 bytes)
 UPDATE src/app/app.module.ts (1039 bytes)
 ```
-
-## List of files created using ng generate command. 
-
-Here are the list of files or schematics can be created using ng generate command. 
-
-1. ng generate component
-2. ng generate pipe
-3. ng generate class
-4. ng generate interface
-5. ng generate enum
-6. ng generate service
-7. ng generate library
-8. ng generate module
-9. ng generate application
-10. ng generate app-shell
-11. ng generate directive
-12. ng generate guard
-13. ng generate interceptor
-14. ng generate resolver
-15. ng generate service-worker
-16. ng generate web-worker
-
