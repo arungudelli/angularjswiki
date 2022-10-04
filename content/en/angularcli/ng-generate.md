@@ -21,6 +21,8 @@ weight=20
 
 The core Angular application files(or schematics) are created using `ng generate` command.
 
+{{%toc%}}
+
 ## `ng generate` command syntax 
 
 The syntax of `ng generate` command is pretty straight forward, we have to pass schematic and schematic name as an argument.

@@ -1,5 +1,5 @@
 +++
-title="ng generate component command in Angular CLI"
+title="ng generate component Angular CLI Command"
 summary=""
 keywords=["ng add,Angular CLI,Angular CLI Command"]
 draft="false"
@@ -18,6 +18,8 @@ weight=20
 +++
 
 **`ng generate component` command is used to create components in Angular applications** 
+
+{{%toc%}}
 
 ## `ng generate component` syntax 
 
