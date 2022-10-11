@@ -1,15 +1,15 @@
 +++
-title="ng generate class Angular CLI Command"
-summary=""
-keywords=["ng add,Angular CLI,Angular CLI Command"]
+title="ng generate class command in Angular CLI"
+summary="ng generate class command is used to create classes in Angular applications"
+keywords=["ng generate class,Angular CLI,Angular CLI Command"]
 draft="false"
 date="25-09-2020T23:34:19"
 lastmod="25-09-2020T23:34:19"
 type="docs"
 parentdoc="angularcli"
 featured='ng-command.PNG'
-prev="angularcli"
-next="ng analytics"
+prev="ng-generate"
+next="ng-generate-component"
 linktitle="ng generate class"
 [menu.angularcli]
 parent="angularcli"

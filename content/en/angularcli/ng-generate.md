@@ -9,7 +9,7 @@ type="docs"
 parentdoc="angularcli"
 featured='ng-command.PNG'
 prev="angularcli"
-next="ng analytics"
+next="ng-generate-class"
 linktitle="ng generate"
 [menu.angularcli]
 parent="angularcli"
@@ -17,7 +17,7 @@ weight=20
 
 +++
 
-**`ng generate` Angular CLI command is one of the building blocks of Angular applications.** 
+**`ng generate` command in Angular CLI is one of the building blocks of Angular applications.** 
 
 The core Angular application files(or schematics) are created using `ng generate` command.
 

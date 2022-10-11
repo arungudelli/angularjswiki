@@ -1,15 +1,15 @@
 +++
-title="ng generate interface Angular CLI Command"
-summary=""
-keywords=["ng add,Angular CLI,Angular CLI Command"]
+title="ng generate interface command in Angular CLI"
+summary="ng generate interface command is used to create interfaces in Angular applications"
+keywords=["ng generate interface,Angular CLI,Angular CLI Command"]
 draft="false"
 date="25-09-2020T23:34:19"
 lastmod="25-09-2020T23:34:19"
 type="docs"
 parentdoc="angularcli"
 featured='ng-command.PNG'
-prev="angularcli"
-next="ng analytics"
+prev="ng-generate-directive"
+next="ng-generate-library"
 linktitle="ng generate interface"
 [menu.angularcli]
 parent="angularcli"

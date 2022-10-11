@@ -1,14 +1,14 @@
 +++
-title="ng generate service Angular CLI Command"
-summary=""
-keywords=["ng add,Angular CLI,Angular CLI Command"]
+title="ng generate service command in Angular CLI"
+summary="ng generate service command is used to create libraries in Angular applications"
+keywords=["ng generate service,Angular CLI,Angular CLI Command"]
 draft="false"
 date="25-09-2020T23:34:19"
 lastmod="25-09-2020T23:34:19"
 type="docs"
 parentdoc="angularcli"
 featured='ng-command.PNG'
-prev="angularcli"
+prev="ng-generate-library"
 next="ng analytics"
 linktitle="ng generate service"
 [menu.angularcli]

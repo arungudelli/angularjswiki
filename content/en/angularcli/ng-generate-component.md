@@ -1,15 +1,15 @@
 +++
-title="ng generate component Angular CLI Command"
-summary=""
-keywords=["ng add,Angular CLI,Angular CLI Command"]
+title="ng generate component command in Angular CLI"
+summary="ng generate component command is used to create components in Angular applications"
+keywords=["ng generate component,Angular CLI,Angular CLI Command"]
 draft="false"
 date="25-09-2020T23:34:19"
 lastmod="25-09-2020T23:34:19"
 type="docs"
 parentdoc="angularcli"
 featured='ng-command.PNG'
-prev="angularcli"
-next="ng analytics"
+prev="ng-generate-class"
+next="ng-generate-directive"
 linktitle="ng generate component"
 [menu.angularcli]
 parent="angularcli"
