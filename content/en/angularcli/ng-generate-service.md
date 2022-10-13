@@ -9,7 +9,7 @@ type="docs"
 parentdoc="angularcli"
 featured='ng-command.PNG'
 prev="ng-generate-library"
-next="ng analytics"
+next="ng-generate-pipe"
 linktitle="ng generate service"
 [menu.angularcli]
 parent="angularcli"
