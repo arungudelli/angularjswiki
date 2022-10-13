@@ -1,8 +1,8 @@
 +++
-title = "How To Create Custom Pipes in Angular With Examples"
+title = "Custom Pipes in Angular With Examples"
 subtitle="Learn how to create Custom Pipes in Angular with examples"
 date = 2021-12-02T00:00:00
-lastmod = 2020-11-24T01:00:00
+lastmod = 2022-10-12T01:00:00
 draft = false  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
@@ -21,12 +21,13 @@ linktitle = "Custom Pipe"
   weight = 5
 +++
 
+Custom Pipes in Angular are very useful in case, if we want to re use some business logic across our Angular applications.
+
 We can **create custom pipes in Angular** in two ways.
 
 1. Using **`ng generate pipe`** angular cli command.
 2. Manually.
 
-Custom Pipes are very useful in case, if we want to re use some business logic across our Angular application.
 
 {{% toc %}}
 
@@ -65,7 +66,9 @@ And in component html file use the custom pipe as shown below.
 
 ## Creating Custom Pipe using ng generate Angular CLI command.
 
-The above approach requires a lot of manual work. Instead of that we can use angular cli **`ng generate pipe` command to create custom pipes**.
+The above approach requires a lot of manual work. 
+
+Instead of that we can use angular cli **`[ng generate pipe]()` command to create custom pipes**.
 
 ## ng generate pipe
 
@@ -100,6 +103,8 @@ export class CustomPipe implements PipeTransform {
 Additionally the command will create a spec file to write unit tests and it will update reference in `app.module.ts`.
 
 {{< figure src="create-custom-pipe-angular.png" title="create custom pipe angular" alt="create custom pipe angular">}} 
+
+Read further [ng generate pipe](/angularcli/ng-generate-pipe/)
 
 ## Angular Custom Pipe Example
 
@@ -281,32 +286,32 @@ We can create a pipe which can accepts variable number of arguments by using res
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'userFullName'
+  name: 'userfullname'
 })
-export class PowerPipe implements PipeTransform {
+export class UserfullnamePipe implements PipeTransform {
   transform(firstName: string,...lastName:string[]): string {
     return firstName +" "+ lastName.join(" ");
   }
 }
 ```
 
-I have created a custom pipe named `userFullName` which has an argument `...lastName` (rest parameter) which accepts variable number of parameters.
+I have created a custom pipe named `userfullname` which has an argument `...lastName` (rest parameter) which accepts variable number of parameters.
 
-Now in component html file we can use `userFullName` with any number of parameters as shown below.
+Now in component html file we can use `userfullname` with any number of parameters as shown below.
 
 ```
 //No parameter
-<p>{{ "Arun" | userFullName }}</p>    
+<p>{{ "Arun" | userfullname }}</p>    
 
 //Arun
 
 // One parameter
-<p>{{ "Arun" | userFullName :"kumar"}}</p>    
+<p>{{ "Arun" | userfullname :"kumar"}}</p>    
 
 //Arun kumar
 
 // two parameter
-<p>{{ "Arun" | userFullName : "kumar" : "gudelli" }}</p>    
+<p>{{ "Arun" | userfullname : "kumar" : "gudelli" }}</p>    
 
 //Arun kumar gudelli
 ```
@@ -317,5 +322,11 @@ The most common error you will get while creating custom pipes is `No Pipe found
 
 When we create a custom pipe, we must include our pipe in the declarations array of the AppModule. (9th step in creating custom pipe).
 
-But if you use angular cli to create a pipe mostly you will not get this error as ng generate pipe will automatically add reference in declaration array of `app.module.ts` file
+But if you use angular cli to create a pipe mostly you will not get this error as ng generate pipe will automatically add reference in declaration array of `app.module.ts` file.
+
+## Custom Pipe in Angular StackBlitz Demo
+
+Here is the Custom Pipe StackBlitz Demo Link
+
+[Custom Pipe in Angular](https://stackblitz.com/edit/custom-pipe-in-angular)
 
