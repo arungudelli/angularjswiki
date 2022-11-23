@@ -21,7 +21,7 @@ authors = ["admin"]
 
 +++
 
-Updating Angular CLI to the latest version is pretty much simple if you are using Angular 9 or 10 version above. 
+Updating Angular CLI to the latest version (Angular v15) is pretty much simple if you are using Angular 9 or 10 version above. 
 
 Just update `@angular/core` and `@angular/cli` by using `ng update` command.
 
@@ -41,7 +41,9 @@ If you are using Angular material You have to update it as well using `ng update
 ng update @angular/material
 ```
 
-The **Angular latest Official stable version is Angular v14** which is released on 2nd June 2022.
+The **Angular latest Official stable version is Angular v15** which is released on 17 November 2022.
+
+Angular 14 version released on 2nd June 2022.
 
 ~~The **Angular latest Official stable version is Angular v13.2.5**, which is released on 2nd March 2022.~~ 
 
@@ -52,7 +54,7 @@ Remember below important things, before updating your Angular applications.
 ## Important things to remember while updating Angular applications.
 
 1. Its always advisable to update your app to its next major version.
-2. That is if you are using Angular 10 then update the application to Angular 11 version.
+2. That is, if you are using Angular 10 then update the application to Angular 11 version.
 3. And if you are using Angular 8 or Angular 6,5, 4 etc versions, Do not try to update to latest version of Angular Directly.
 3. First Update your Angular app to Angular 9.
 4. Then use `ng update` command. 
