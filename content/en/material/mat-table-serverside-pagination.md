@@ -19,7 +19,7 @@ keywords=["mat-table,Angular Material Table,mat-paginator"]
 linktitle = "mat-table server side pagination"
 [menu.material]
   parent = "Tutorial"
-  weight = 4
+  weight = 6
 +++
 
 In previous article we learnt about adding client side pagination in Angular `mat-table` using `mat-paginator`.

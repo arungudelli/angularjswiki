@@ -17,7 +17,7 @@ keywords=["mat-table sort,Angular Material Table"]
 linktitle = "mat-table sort"
 [menu.material]
   parent = "Tutorial"
-  weight = 4
+  weight = 5
 +++
 
 In this tutorial we will learn how to **sort a mat-table in Angular**.

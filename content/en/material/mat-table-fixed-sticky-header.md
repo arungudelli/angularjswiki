@@ -17,7 +17,7 @@ keywords=["mat-table,mat-table sticky header"]
 linktitle = "mat-table sticky header"
 [menu.material]
   parent = "Tutorial"
-  weight = 5
+  weight = 10
 +++
 
 In Angular, To create a `mat-table` with fixed header and scrollable body, we have to add `sticky` input to the `matHeaderRowDef`.

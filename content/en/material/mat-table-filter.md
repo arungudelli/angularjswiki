@@ -18,7 +18,7 @@ keywords=["mat-table,Angular Material Table"]
 linktitle = "mat-table filter"
 [menu.material]
   parent = "Tutorial"
-  weight = 5
+  weight = 8
 +++
 
 In this tutorial we will learn how to **filter a mat-table in Angular**.

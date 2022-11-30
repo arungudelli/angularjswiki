@@ -18,7 +18,7 @@ keywords=["mat menu,Angular Material Menu"]
 linktitle = "Menu"
 [menu.material]
   parent = "Tutorial"
-  weight = 6
+  weight = 2
 +++
 
 To implement menu items in Angular we can use angular material menu module called `MatMenuModule`.
