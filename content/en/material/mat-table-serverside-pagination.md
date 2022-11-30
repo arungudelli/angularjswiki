@@ -8,7 +8,7 @@ toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
 prev = "mat-table-pagination"
-next = "mat-table-filter"
+next = "mat-table-sort"
 featured="mat-table-featured.jpg"
 authors = ["admin"]
 summary ="Learn how to implement server side pagination in Angular mat-table"
@@ -19,7 +19,7 @@ keywords=["mat-table,Angular Material Table,mat-paginator"]
 linktitle = "mat-table server side pagination"
 [menu.material]
   parent = "Tutorial"
-  weight = 6
+  weight = 5
 +++
 
 In previous article we learnt about adding client side pagination in Angular `mat-table` using `mat-paginator`.

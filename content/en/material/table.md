@@ -26,8 +26,11 @@ In this tutorial we are going to learn how to use Angular Material Table module 
 
 1. [Creating a Simple table in Angular using mat-table](https://www.angularjswiki.com/material/mat-table/)
 2. [Adding Pagination to the mat-table](https://www.angularjswiki.com/material/mat-table-pagination/)
-3. [mat-table filter example: Search & Filter mat-table in Angular](https://www.angularjswiki.com/material/mat-table-filter/)
-4. [Working with mat-table filterPredicate in Angular](https://www.angularjswiki.com/material/mat-table-filterpredicate/)
-5. [Angular mat-table sort example: Adding sorting to the material table](https://www.angularjswiki.com/material/mat-table-sort/)
+3. [Server Side Pagination in Angular mat-table using mat-paginator](https://www.angularjswiki.com/material/mat-table-serverside-pagination/)
+4. [Angular mat-table sort example: Adding sorting to the material table](https://www.angularjswiki.com/material/mat-table-sort/)
+5. [Server Side Sorting in Angular mat-table using matSort](https://www.angularjswiki.com/material/mat-table-server-side-sort/)
+6. [mat-table filter example: Search & Filter mat-table in Angular](https://www.angularjswiki.com/material/mat-table-filter/)
+7. [Working with mat-table filterPredicate in Angular](https://www.angularjswiki.com/material/mat-table-filterpredicate/)
+8. [Angular mat-table with sticky header (Fixed header) & scrollable body](https://www.angularjswiki.com/material/mat-table-fixed-sticky-header/)
 
 

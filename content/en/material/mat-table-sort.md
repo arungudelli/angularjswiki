@@ -6,7 +6,8 @@ draft = "false"  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
-prev = "mat-table-filterPredicate"
+prev = "mat-table-serverside-pagination"
+next="mat-table-server-side-sort"
 featured="mat-table-featured.jpg"
 authors = ["admin"]
 summary ="In this tutorial we will learn how to sort a mat-table in Angular."
@@ -17,7 +18,7 @@ keywords=["mat-table sort,Angular Material Table"]
 linktitle = "mat-table sort"
 [menu.material]
   parent = "Tutorial"
-  weight = 5
+  weight = 6
 +++
 
 In this tutorial we will learn how to **sort a mat-table in Angular**.
