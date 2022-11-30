@@ -2,7 +2,7 @@
 title = "Server Side Sorting in Angular mat-table using matSort"
 date = 2021-02-07T00:00:00
 lastmod = 2021-02-07T01:00:00
-draft = "true"  # Is this a draft? true/false
+draft = "false"  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
