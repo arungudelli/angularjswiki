@@ -22,7 +22,7 @@ linktitle = "mat-table server side sort"
 
 In server side pagination, when we click on the next page or change the page size of `mat-paginator` we will go to server get corresponding page records.
 
-As we don't have total table data it's wrong to use client side sorting, so we have to add Server side sorting along with server side pagination.
+As we don't have total table data, it's wrong to use client side sorting, so we have to add Server side sorting along with server side pagination.
 
 Whenever we click on sort column we have to send sorting column name and sort order along with page size and page number parameters.
 
