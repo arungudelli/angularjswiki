@@ -2,7 +2,7 @@
 title = "Server Side Sorting in Angular mat-table using matSort"
 date = 2021-02-07T00:00:00
 lastmod = 2021-02-07T01:00:00
-draft = "false"  # Is this a draft? true/false
+draft = "true"  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
@@ -32,16 +32,9 @@ Whenever we click on sort column we have to send sorting column name and sort or
 
 ## Steps to implement Server side sorting in Angular material table.
 
-### Step 1: 
-
-
-
 In client side sorting, we will get all records from the server at a time and  
 
-
-
 Server Side Sorting in Angular `mat-table` will be implemented along with server side pagination.
-
 
 
 In this tutorial we will learn how to **sort a mat-table in Angular**.
