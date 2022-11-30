@@ -19,7 +19,7 @@ keywords=["mat-table,Angular Material Table"]
 linktitle = "mat-table pagination"
 [menu.material]
   parent = "Tutorial"
-  weight = 3
+  weight = 4
 +++
 
 It's very difficult to see the entire table data, when we have large number of records in the table.

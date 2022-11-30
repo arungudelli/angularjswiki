@@ -6,7 +6,7 @@ draft = "false"  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
-prev = "mat-table-pagination"
+prev = "mat-table-serverside-pagination"
 next = "mat-table-filterPredicate"
 featured="mat-table-featured.jpg"
 authors = ["admin"]
@@ -18,7 +18,7 @@ keywords=["mat-table,Angular Material Table"]
 linktitle = "mat-table filter"
 [menu.material]
   parent = "Tutorial"
-  weight = 5
+  weight = 8
 +++
 
 In this tutorial we will learn how to **filter a mat-table in Angular**.

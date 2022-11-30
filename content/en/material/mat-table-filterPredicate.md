@@ -7,7 +7,7 @@ toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 parentdoc = "material"
 prev = "mat-table-filter"
-next = "mat-table-sort"
+next = "mat-table-fixed-sticky-header"
 featured="mat-table-featured.jpg"
 authors = ["admin"]
 summary ="In this tutorial we will learn how to use mat-table filterPredicate in Angular"
@@ -18,7 +18,7 @@ keywords=["mat-table filterPredicate,Angular Material Table"]
 linktitle = "mat-table filterPredicate"
 [menu.material]
   parent = "Tutorial"
-  weight = 5
+  weight = 9
 +++
 
 In this tutorial we will learn how to use **mat-table filterPredicate in Angular**.
