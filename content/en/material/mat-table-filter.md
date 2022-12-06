@@ -344,6 +344,10 @@ If one of the property is not equal we should remove it from the resulting table
 
 Additionally I have added one extra condition to check default value "All".
 
+To add server side filter follow the below article
+
+[Server Side search & filter in Angular material table (mat-table)](https://www.angularjswiki.com/material/mat-table-server-side-filter/)
+
 ## mat-table filter StackBlitz Demo and GitHub code links
 
 Here is the demo for mat-table filter [https://angular-mat-table-filter-example.stackblitz.io](https://stackblitz.com/edit/angular-mat-table-filter-example)
