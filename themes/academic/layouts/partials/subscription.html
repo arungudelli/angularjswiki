@@ -124,19 +124,53 @@
 
 
 
-<section class="wrappers">
-    <div class="content">
-      <section class="link"><a href="https://github.com/arungudelli/angularjswiki" target="_blank">⭐Please star Angular Wiki on GitHub! ↗</a> </section>
 
-      <section>Liked this post? Subscribe</section>
-        <form action="https://angularjswiki.us18.list-manage.com/subscribe/post?u=e192476b173f610e0808e2561&amp;id=236d3dbb17" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
 
-        <input id="mce-EMAIL" type="email" placeholder="Enter your email" name="EMAIL">
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input tabindex="-1" name="b_e192476b173f610e0808e2561_236d3dbb17" type="text" value="" /></div>
 
-        <button type="submit">Let's go</button>
-        </form>
-    </div>
-</section>
+<style>
+  #flexContainer {
+  display: block;
+  justify-content: center;
+}
+@media only screen and (min-width: 1024px) {
+  #flexContainer {
+    display: flex;
+  }
+}
+</style>
+
+<div id="flexContainer">
+  <div id="flexItem1">
+    <section class="wrappers">
+      <img class="portrait" src="{{$root.Site.BaseURL}}img/ProfilePicArun.jpg" alt="Avatar">
+
+    </section>
+  </div>
+  <div id="flexItem2">
+    <section class="wrappers">
+  
+      <div class="content">    
+        <p>Arunkumar Gudelli</p>
+        {{partial "socialicons.html"}}
+        <section>Liked this post? Subscribe</section>
+          <form action="https://555729d9.sibforms.com/serve/MUIEAHOQG87c-lzyyApiSPOGMfH10mn5FFC-MbO0TAOWdByTd2Uf68cEHpL2zPu2zir7fPl6E24eMA4ZxwdYUedTeswPWpMMWtaGkdBlmh5KvpjOpL0QNbsp6gDp6EKdO_UMpCGmJV0jPYTtiBFyHxm9oSsWNyhQQwOyC9Kl2DujK704sYutMmVnGSCSSPPRKI1DLGcqWbvzeItu" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+    
+            <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="EMAIL" data-required="true" required />
+    
+          <button type="submit">Let's go</button>
+          <input type="text" name="email_address_check" value="" style="display: none;">
+            <input type="hidden" name="locale" value="en">
+            <input type="hidden" name="html_type" value="simple">
+          </form>
+          <section class="link"><a href="https://github.com/arungudelli/angularjswiki" target="_blank">⭐Please star Angular Wiki on GitHub! ↗</a> </section>
+    
+      </div>
+    
+    </section>
+  </div>
+</div>
+
+
+
 {{end}}
 
