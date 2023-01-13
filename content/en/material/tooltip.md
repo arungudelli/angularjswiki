@@ -23,7 +23,7 @@ linktitle = "Tooltip"
 
 To add tooltips in Angular we can use angular material tooltip module called `MatTooltipModule`.
 
-`matTooltip` selector is used to display the tooltip when the user hovers over an element or longpresses an elements in mobile devices.
+`matTooltip` selector is used to display the tooltip when the user hovers over an element or long presses an elements in mobile devices.
 
 {{%toc%}}
 
