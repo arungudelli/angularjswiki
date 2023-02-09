@@ -11,7 +11,7 @@ authors = ["admin"]
 
 +++
 
-By default after installing Angular CLI in our windows systems, `ng` commands will not working in powershell. 
+By default after installing Angular CLI in windows systems, `ng` commands will not work in powershell. 
 
 If you try to run Angular CLI commands i.e., `ng` commands in windows powershell you might get following error.
 
