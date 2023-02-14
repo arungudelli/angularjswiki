@@ -1,7 +1,7 @@
 +++
 title = "How to set Angular mat-table column width"
-date = 2021-02-07T00:00:00
-lastmod = 2021-02-07T01:00:00
+date = 2023-02-14T00:00:00
+lastmod = 2023-02-14T01:00:00
 draft = false  # Is this a draft? true/false
 toc = false  # Show table of contents? true/false
 type = "docs"  # Do not modify.
