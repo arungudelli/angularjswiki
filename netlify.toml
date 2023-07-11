@@ -63,11 +63,11 @@ from = "/angular/no-provider-for-clinet/"
 to = "/angular/no-provider-for-client/"
 status = 301
 
-#[[redirects]]
-#from = "/ads.txt"
-#to = "https://adstxt.valueimpression.com/a/angularjswiki.com/ads.txt"
-#status = 301
-#force = true
+[[redirects]]
+from = "/ads.txt"
+to = "https://adstxt.valueimpression.com/a/angularjswiki.com/ads.txt"
+status = 301
+force = true
 
 [[redirects]]
 from = "/angular/checkbox-implementation-in-angular-using-angular-material/"
